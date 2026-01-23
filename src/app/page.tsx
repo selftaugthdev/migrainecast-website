@@ -1,4 +1,5 @@
 import { Background } from "@/components/Background";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -199,66 +200,42 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Phone Mockup */}
-            <div className="relative h-[500px] flex items-center justify-center order-1 lg:order-2">
+            {/* iPhone Mockup */}
+            <div className="relative h-[580px] flex items-center justify-center order-1 lg:order-2">
               <div className="glow-ring w-[400px] h-[400px]" />
               <div className="glow-ring w-[500px] h-[500px]" />
               <div className="glow-ring w-[600px] h-[600px]" />
 
-              <div className="relative w-[280px] h-[560px] bg-gradient-to-b from-[#2a2a3e] to-[#1a1a2e] rounded-[40px] p-3 shadow-[0_50px_100px_rgba(0,0,0,0.5),0_0_0_1px_rgba(255,255,255,0.1),inset_0_1px_0_rgba(255,255,255,0.1)]">
-                <div className="w-full h-full bg-gradient-to-b from-bg-elevated to-bg rounded-[32px] overflow-hidden relative">
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120px] h-7 bg-black rounded-b-[20px]" />
+              {/* iPhone Frame */}
+              <div className="relative">
+                {/* Outer frame - titanium style */}
+                <div className="relative w-[280px] h-[572px] bg-gradient-to-b from-[#3a3a3c] via-[#2c2c2e] to-[#1c1c1e] rounded-[55px] p-[3px] shadow-[0_50px_100px_rgba(0,0,0,0.5),0_0_0_1px_rgba(255,255,255,0.1)]">
+                  {/* Inner bezel */}
+                  <div className="w-full h-full bg-black rounded-[52px] p-[10px]">
+                    {/* Screen container */}
+                    <div className="relative w-full h-full rounded-[42px] overflow-hidden bg-black">
+                      {/* Dynamic Island */}
+                      <div className="absolute top-3 left-1/2 -translate-x-1/2 w-[100px] h-[32px] bg-black rounded-full z-10" />
 
-                  <div className="pt-12 px-5 pb-5 h-full flex flex-col">
-                    <div className="text-center mb-6">
-                      <h3 className="font-display text-lg mb-1">Today&apos;s Forecast</h3>
-                      <p className="text-xs text-text-muted">San Francisco, CA</p>
-                    </div>
-
-                    <div className="bg-accent/10 border border-accent/20 rounded-2xl p-4 mb-3">
-                      <div className="flex justify-between items-center mb-3">
-                        <span className="text-[0.7rem] text-accent-soft font-semibold uppercase tracking-wide">
-                          Pressure Alert
-                        </span>
-                        <span className="px-2.5 py-1 bg-warm/20 text-warm rounded-full text-[0.65rem] font-semibold">
-                          Moderate Risk
-                        </span>
-                      </div>
-                      <div className="text-center">
-                        <div className="font-display text-4xl font-medium">1013</div>
-                        <div className="text-xs text-text-muted">hPa</div>
-                        <div className="flex items-center justify-center gap-1 mt-2 text-xs text-coral">
-                          <svg
-                            width="12"
-                            height="12"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                          >
-                            <path d="M12 19V5M5 12l7-7 7 7" />
-                          </svg>
-                          Dropping 8 hPa in 24h
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="grid grid-cols-2 gap-3">
-                      <div className="bg-white/[0.03] rounded-xl p-3 text-center">
-                        <span className="block text-[0.65rem] text-text-muted mb-1">
-                          This Month
-                        </span>
-                        <strong className="font-display text-xl">3</strong>
-                      </div>
-                      <div className="bg-white/[0.03] rounded-xl p-3 text-center">
-                        <span className="block text-[0.65rem] text-text-muted mb-1">
-                          Avg. Duration
-                        </span>
-                        <strong className="font-display text-xl">4.2h</strong>
-                      </div>
+                      {/* Screenshot */}
+                      <Image
+                        src="/Simulator Screenshot - iPhone 17 Pro - 2026-01-23 at 19.49.29.png"
+                        alt="MigraineCast app screenshot"
+                        fill
+                        className="object-cover object-top"
+                        priority
+                      />
                     </div>
                   </div>
                 </div>
+
+                {/* Side button (right) */}
+                <div className="absolute right-[-2px] top-[140px] w-[3px] h-[80px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-r-sm" />
+
+                {/* Volume buttons (left) */}
+                <div className="absolute left-[-2px] top-[120px] w-[3px] h-[28px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
+                <div className="absolute left-[-2px] top-[160px] w-[3px] h-[50px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
+                <div className="absolute left-[-2px] top-[220px] w-[3px] h-[50px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
               </div>
             </div>
           </div>
