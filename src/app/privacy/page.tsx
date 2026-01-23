@@ -110,10 +110,8 @@ export default function PrivacyPolicyPage() {
               <li>Withdraw consent for data collection at any time</li>
             </ul>
             <p>For any such requests, contact us at:</p>
-            <p>
-              <a href="mailto:thierrydebelder@gmail.com">
-                thierrydebelder@gmail.com
-              </a>
+            <p className="text-accent-soft">
+              thierrydebelder (at) gmail (dot) com
             </p>
 
             <hr className="border-white/10 my-10" />
@@ -197,10 +195,8 @@ export default function PrivacyPolicyPage() {
               If you have questions, requests, or concerns about your privacy,
               please contact:
             </p>
-            <p>
-              <a href="mailto:thierrydebelder@gmail.com">
-                thierrydebelder@gmail.com
-              </a>
+            <p className="text-accent-soft">
+              thierrydebelder (at) gmail (dot) com
             </p>
 
             <hr className="border-white/10 my-10" />

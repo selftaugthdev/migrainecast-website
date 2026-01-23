@@ -207,10 +207,8 @@ export default function TermsOfServicePage() {
             <p>
               For questions, feedback, or legal inquiries, please contact:
             </p>
-            <p>
-              <a href="mailto:thierrydebelder@gmail.com">
-                thierrydebelder@gmail.com
-              </a>
+            <p className="text-accent-soft">
+              thierrydebelder (at) gmail (dot) com
             </p>
           </div>
         </div>
