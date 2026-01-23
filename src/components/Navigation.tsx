@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
@@ -38,16 +39,15 @@ export function Navigation() {
       }`}
     >
       <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5 text-text no-underline">
-          <div className="w-9 h-9 bg-gradient-to-br from-accent to-coral rounded-[10px] flex items-center justify-center">
-            <svg
-              viewBox="0 0 24 24"
-              className="w-5 h-5 stroke-white stroke-2 fill-none"
-            >
-              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
-            </svg>
-          </div>
-          <span className="font-display text-2xl font-medium">MigraineCast</span>
+        <Link href="/" className="flex items-center text-text no-underline">
+          <Image
+            src="/Migraine Cast LOGO DARK MODE.png"
+            alt="MigraineCast"
+            width={180}
+            height={40}
+            className="h-9 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop Navigation */}
