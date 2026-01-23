@@ -42,7 +42,7 @@ export default async function BlogPostPage({ params }: Props) {
     <>
       <Background />
 
-      <article className="pt-[140px] pb-20">
+      <article className="pt-[140px] pb-20 relative z-10">
         <div className="max-w-[720px] mx-auto px-6">
           {/* Back link */}
           <Link

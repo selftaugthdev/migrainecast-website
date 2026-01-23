@@ -15,7 +15,7 @@ export default function BlogPage() {
     <>
       <Background />
 
-      <section className="pt-[140px] pb-20 min-h-screen">
+      <section className="pt-[140px] pb-20 min-h-screen relative z-10">
         <div className="max-w-[900px] mx-auto px-6">
           <div className="mb-16">
             <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-5 block">
