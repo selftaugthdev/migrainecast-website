@@ -3,6 +3,7 @@ import { Fraunces, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 
 const fraunces = Fraunces({
   variable: "--font-display",
@@ -29,6 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${fraunces.variable} ${plusJakarta.variable}`}>
+      <GoogleAnalytics />
       <body className="bg-bg text-text antialiased overflow-x-hidden">
         <Navigation />
         <main className="relative z-10">{children}</main>
