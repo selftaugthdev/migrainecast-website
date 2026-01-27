@@ -88,7 +88,7 @@ export default function WeatherCoursePage() {
             {[
               {
                 day: "Day 1",
-                title: "The Invisible Trigger",
+                title: "Why Does the Weather Give You Migraines?",
                 description:
                   "Why barometric pressure changes affect your brain before you feel a single drop of rain",
                 icon: (
@@ -114,7 +114,7 @@ export default function WeatherCoursePage() {
               },
               {
                 day: "Day 2",
-                title: "Your Brain Under Pressure",
+                title: "Barometric Pressure: The Silent Trigger",
                 description:
                   "The fascinating neuroscience of how pressure changes trigger the migraine cascade",
                 icon: (
@@ -135,9 +135,9 @@ export default function WeatherCoursePage() {
               },
               {
                 day: "Day 3",
-                title: "Humidity, Heat & Headaches",
+                title: "The Lightning Connection (Yes, Really)",
                 description:
-                  "The triple threat: how temperature swings and moisture levels compound your risk",
+                  "The surprising link between storms, lightning, and migraine attacks",
                 icon: (
                   <svg
                     className="w-6 h-6"
@@ -156,9 +156,9 @@ export default function WeatherCoursePage() {
               },
               {
                 day: "Day 4",
-                title: "Storm Fronts & Sinus Signals",
+                title: "Temperature, Humidity, and the Heat Factor",
                 description:
-                  "Why approaching weather systems create the perfect storm inside your head",
+                  "How temperature swings and moisture levels compound your migraine risk",
                 icon: (
                   <svg
                     className="w-6 h-6"
@@ -177,9 +177,9 @@ export default function WeatherCoursePage() {
               },
               {
                 day: "Day 5",
-                title: "The 24-Hour Window",
+                title: "Weather-Proofing Your Life",
                 description:
-                  "Research reveals when you're most vulnerable—and how to use that knowledge",
+                  "Practical strategies to prepare for and minimize weather-triggered attacks",
                 icon: (
                   <svg
                     className="w-6 h-6"
@@ -198,9 +198,9 @@ export default function WeatherCoursePage() {
               },
               {
                 day: "Day 6",
-                title: "Why You're More Sensitive",
+                title: "The Smarter Way to Track Weather Triggers",
                 description:
-                  "The genetic and neurological factors that make some brains weather-reactive",
+                  "How to identify your personal weather patterns and thresholds",
                 icon: (
                   <svg
                     className="w-6 h-6"
@@ -219,9 +219,9 @@ export default function WeatherCoursePage() {
               },
               {
                 day: "Day 7",
-                title: "Your Action Plan",
+                title: "Taking Control of Weather Triggers",
                 description:
-                  "Practical strategies to prepare for, minimize, and manage weather-triggered attacks",
+                  "Putting it all together with your personalized action plan",
                 icon: (
                   <svg
                     className="w-6 h-6"

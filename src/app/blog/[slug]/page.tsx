@@ -38,8 +38,40 @@ export default async function BlogPostPage({ params }: Props) {
     notFound();
   }
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: new Date(post.date).toISOString(),
+    dateModified: new Date(post.date).toISOString(),
+    author: {
+      "@type": "Organization",
+      name: "MigraineCast",
+      url: "https://migrainecast.com",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "MigraineCast",
+      url: "https://migrainecast.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://migrainecast.com/Migraine Cast LOGO DARK MODE.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://migrainecast.com/blog/${slug}`,
+    },
+    articleSection: post.category,
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Background />
 
       <article className="pt-[140px] pb-20 relative z-10">

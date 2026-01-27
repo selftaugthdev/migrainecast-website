@@ -21,6 +21,42 @@ export const metadata: Metadata = {
   title: "MigraineCast — Predict Migraines Before They Strike",
   description:
     "MigraineCast helps you spot migraine patterns linked to weather, pressure, and triggers — so attacks don't come out of nowhere.",
+  openGraph: {
+    title: "MigraineCast — Predict Migraines Before They Strike",
+    description:
+      "MigraineCast helps you spot migraine patterns linked to weather, pressure, and triggers — so attacks don't come out of nowhere.",
+    type: "website",
+    locale: "en_US",
+    siteName: "MigraineCast",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "MigraineCast — Predict Migraines Before They Strike",
+    description:
+      "MigraineCast helps you spot migraine patterns linked to weather, pressure, and triggers — so attacks don't come out of nowhere.",
+  },
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "MigraineCast",
+  description:
+    "MigraineCast helps migraine sufferers predict and prepare for attacks by tracking patterns linked to weather, barometric pressure, and personal triggers.",
+  url: "https://migrainecast.com",
+  logo: "https://migrainecast.com/Migraine Cast LOGO DARK MODE.png",
+  sameAs: [
+    "https://apps.apple.com/us/app/migraine-cast/id6754256278",
+  ],
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "MigraineCast",
+  url: "https://migrainecast.com",
+  description:
+    "Predict migraines before they strike with MigraineCast. Track patterns, understand weather triggers, and take control.",
 };
 
 export default function RootLayout({
@@ -30,6 +66,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${fraunces.variable} ${plusJakarta.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+      </head>
       <GoogleAnalytics />
       <body className="bg-bg text-text antialiased overflow-x-hidden">
         <Navigation />

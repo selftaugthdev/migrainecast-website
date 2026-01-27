@@ -2,9 +2,40 @@ import { Background } from "@/components/Background";
 import Image from "next/image";
 import Link from "next/link";
 
+const appSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "MigraineCast",
+  applicationCategory: "HealthApplication",
+  operatingSystem: "iOS",
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "USD",
+  },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.8",
+    ratingCount: "100",
+  },
+  description:
+    "MigraineCast helps you spot migraine patterns linked to weather, pressure, and triggers — so attacks don't come out of nowhere.",
+  downloadUrl: "https://apps.apple.com/us/app/migraine-cast/id6754256278",
+  featureList: [
+    "Track migraine symptoms quickly",
+    "Automatic weather and pressure correlation",
+    "Pattern recognition and insights",
+    "Early warning alerts for risky conditions",
+  ],
+};
+
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(appSchema) }}
+      />
       <Background />
 
       {/* Hero Section */}
@@ -346,6 +377,91 @@ export default function Home() {
                 <p className="text-[1.05rem] leading-relaxed">{text}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Free Course Promo */}
+      <section className="py-[100px] relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-accent/10 via-accent/5 to-coral/10" />
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
+
+        <div className="max-w-[1000px] mx-auto px-6 relative">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="inline-block text-xs font-semibold tracking-[0.15em] uppercase text-accent mb-4 px-3 py-1.5 bg-accent/10 rounded-full border border-accent/20">
+                Free Email Course
+              </span>
+              <h2 className="font-display text-[clamp(1.75rem,4vw,2.75rem)] font-normal leading-tight mb-4">
+                The Barometric Blueprint
+              </h2>
+              <p className="text-lg text-text-muted mb-6 leading-relaxed">
+                Finally understand why weather changes wreck your head. 7 days of
+                science-backed insights delivered to your inbox.
+              </p>
+              <ul className="space-y-3 mb-8">
+                {[
+                  "Why pressure drops trigger migraines before the storm",
+                  "Your brain's hidden weather sensitivity explained",
+                  "Practical strategies to prepare and protect yourself",
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3 text-text-muted">
+                    <svg
+                      viewBox="0 0 24 24"
+                      className="w-5 h-5 text-accent shrink-0 mt-0.5"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/weather-course"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4)] transition-all duration-300 hover:-translate-y-[2px] hover:shadow-[0_8px_30px_rgba(167,139,250,0.5)] group"
+              >
+                Get Free Access
+                <svg
+                  viewBox="0 0 24 24"
+                  className="w-5 h-5 fill-none stroke-current stroke-2 transition-transform group-hover:translate-x-1"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+
+            <div className="hidden lg:flex justify-center">
+              <div className="relative">
+                <div className="absolute -inset-4 bg-gradient-to-br from-accent/20 to-coral/20 rounded-3xl blur-2xl" />
+                <div className="relative p-8 bg-white/[0.03] border border-white/10 rounded-2xl backdrop-blur-sm">
+                  <div className="space-y-4">
+                    {[
+                      { day: "Day 1", title: "Why Does the Weather Give You Migraines?" },
+                      { day: "Day 2", title: "Barometric Pressure: The Silent Trigger" },
+                      { day: "Day 3", title: "The Lightning Connection (Yes, Really)" },
+                      { day: "Day 4", title: "Temperature, Humidity, and the Heat Factor" },
+                      { day: "Day 5", title: "Weather-Proofing Your Life" },
+                      { day: "Day 6", title: "The Smarter Way to Track Weather Triggers" },
+                      { day: "Day 7", title: "Taking Control of Weather Triggers" },
+                    ].map((item, i) => (
+                      <div
+                        key={i}
+                        className="flex items-center gap-4 p-3 rounded-lg hover:bg-white/5 transition-colors"
+                      >
+                        <span className="text-xs font-semibold text-accent w-12">
+                          {item.day}
+                        </span>
+                        <span className="text-sm text-text-muted">{item.title}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
