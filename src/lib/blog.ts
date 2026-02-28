@@ -83,6 +83,91 @@ const posts: BlogPost[] = [
     `,
   },
   {
+    slug: "talking-to-your-doctor",
+    title: "How to Talk to Your Doctor About Weather-Triggered Migraines (And What Data to Bring)",
+    excerpt:
+      "Telling your neurologist 'storms give me migraines' is a starting point. Walking in with three months of attack data overlaid with barometric pressure readings is a completely different conversation.",
+    date: "February 14, 2026",
+    category: "Tips",
+    content: `
+      <p>If you've ever tried to explain to a neurologist that the weather gives you migraines, you know the conversation can go one of a few ways. Sometimes they nod and take it seriously. Sometimes you get a polite but skeptical look and a comment about how the research is "mixed." And sometimes you leave the appointment feeling like you weren't quite able to articulate what you've been experiencing for years.</p>
+
+      <p>The problem usually isn't your doctor. It's the lack of data.</p>
+
+      <p>Medicine runs on patterns. Doctors are trained to look for correlations, frequencies, and triggers, but they can only work with what you bring them. Telling your neurologist "I feel like my migraines get worse when storms come through" is a starting point. Walking in with three months of timestamped attack data overlaid with barometric pressure readings is a completely different conversation.</p>
+
+      <p>Here's how to make that appointment count.</p>
+
+      <h2>Why Weather-Triggered Migraines Are Harder to Document Than Other Triggers</h2>
+
+      <p>Most people are familiar with the idea of a migraine diary. Write down what you ate, how you slept, your stress levels, and when attacks happen. The problem with weather as a trigger is that it's invisible in a regular diary and easy to dismiss in retrospect.</p>
+
+      <p>You can look back at a food journal and spot that you had red wine three times the week you had bad attacks. Weather is harder. You probably weren't noting the barometric pressure at 6am each morning, and even if you were, the relevant shift might have happened 36 hours before the headache, which makes the connection even harder to trace manually.</p>
+
+      <p>This is why self-reported weather triggers are so frequently underdocumented, even in people for whom they're clearly real and consistent. The data exists. It just isn't being captured in a useful format.</p>
+
+      <h2>What Doctors Actually Want to See</h2>
+
+      <p>Before you build your case, it helps to understand what a neurologist or headache specialist is looking for when they evaluate your trigger profile.</p>
+
+      <p>They want frequency: how many attacks per month over a meaningful period, not just "I've been getting a lot lately."</p>
+
+      <p>They want severity and duration: are these 4-hour attacks or 3-day events? Are they responding to medication?</p>
+
+      <p>They want pattern: is there a time of day, week, or month when attacks cluster? Are they getting better or worse over time?</p>
+
+      <p>And when it comes to triggers specifically, they want correlation, not just anecdote. One bad week during a storm doesn't tell them much. A chart showing that 80% of your attacks in the last quarter occurred within 48 hours of a significant pressure drop tells them a great deal.</p>
+
+      <p>That's the kind of documentation that changes a treatment conversation.</p>
+
+      <h2>How MigraineCast Helps You Build That Case</h2>
+
+      <p>Tracking symptoms and weather data in parallel, manually, every single day, is the kind of habit almost no one sustains for long. MigraineCast handles the environmental side automatically, logging barometric pressure conditions at your location continuously in the background. Your job is just to log your attacks when they happen.</p>
+
+      <p>Over time, that combination becomes genuinely valuable clinical data.</p>
+
+      <p>When you're ready to bring it to an appointment, head to the <strong>Insights</strong> tab inside the app. This is where MigraineCast aggregates your attack history alongside the pressure data it's been tracking. You can see your personal patterns laid out visually, which is useful on its own for understanding your own triggers better.</p>
+
+      <p>From there, scroll down to <strong>Download Report</strong>. This generates a clean, structured summary of your migraine history and the corresponding weather conditions that you can bring directly to your appointment. No screenshots, no trying to describe what you remember, no reconstructing your last three months from memory the night before your visit.</p>
+
+      <p>Just hand it over and let the data speak.</p>
+
+      <p>This is one of those features that seems small until you're actually sitting across from your doctor and you can say "here's my report from the last 90 days." It changes the dynamic of the appointment completely. You come in as an informed patient with objective data rather than someone trying to convince a specialist of something they can't quite see.</p>
+
+      <h2>How to Frame the Conversation</h2>
+
+      <p>Even with a strong report in hand, it helps to know how to introduce the topic. Neurologists see a lot of patients who come in with theories about their triggers, many of which don't hold up to scrutiny. Leading with data rather than conviction tends to land better.</p>
+
+      <p>A few approaches that work well:</p>
+
+      <p><strong>Lead with the pattern, not the claim.</strong> Instead of "I'm pretty sure weather triggers my migraines," try "I've been tracking my attacks alongside barometric pressure for the past few months and there seems to be a consistent pattern I'd like your read on." Then show them the report.</p>
+
+      <p><strong>Ask for their interpretation.</strong> Doctors respond well to being positioned as the expert. "Here's what I've been seeing in the data, I'm curious what you think it suggests" is more productive than "I need you to confirm that weather is my trigger."</p>
+
+      <p><strong>Connect it to treatment decisions.</strong> The goal of identifying triggers isn't just to name them, it's to manage them better. Ask specifically whether the pattern changes anything about your current prevention plan, whether there are preventive measures you should be taking during high-risk windows, or whether your acute medication protocol needs adjusting for trigger-based attacks.</p>
+
+      <p><strong>Bring up the timing question.</strong> One of the most practically useful things to discuss is when to take acute medication relative to a forecasted high-risk window. Some patients do better with early intervention, sometimes before pain even begins, and a weather forecast gives you a potential heads-up window that other triggers simply don't offer. Ask your doctor what they recommend for your specific situation.</p>
+
+      <h2>What to Do If Your Doctor Is Skeptical</h2>
+
+      <p>The research on weather and migraines is real but genuinely complicated. Studies show associations, but individual variation is high, and not every neurologist follows the same literature on environmental triggers. If you encounter skepticism, don't take it personally.</p>
+
+      <p>A few things that can help: acknowledge that correlation isn't proof and that you're not certain, just pattern-matching and looking for their input. Ask whether they'd be willing to review the data even if they're not convinced by the premise. And if weather triggers consistently affect your life and you feel like that's not being factored into your care, it's completely reasonable to seek a second opinion from a headache specialist rather than a general neurologist.</p>
+
+      <p>Your lived experience is valid. Documentation just makes it legible to the people treating you.</p>
+
+      <h2>Start Tracking Before Your Next Appointment</h2>
+
+      <p>The one thing that limits this entire strategy is time. A report built on two weeks of data isn't nearly as compelling as one built on two or three months. The sooner you start logging consistently, the better your next appointment will go.</p>
+
+      <p>MigraineCast makes that as low-friction as possible. The pressure tracking happens automatically. You just need to log attacks when they occur and let the app do the rest. By the time your next neurology visit comes around, you'll have something concrete to show for it.</p>
+
+      <blockquote>
+        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast on the App Store</a> and start building your report today. Your future self, sitting in that appointment, will be glad you did.</p>
+      </blockquote>
+    `,
+  },
+  {
     slug: "migraine-go-bag",
     title: "Building Your Migraine Go-Bag: What to Have Ready Before a High-Risk Day",
     excerpt:
