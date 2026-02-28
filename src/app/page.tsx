@@ -1,4 +1,5 @@
 import { Background } from "@/components/Background";
+import { FeatureCards } from "@/components/FeatureCards";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -161,78 +162,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center mt-16">
             <div className="flex flex-col gap-6 order-2 lg:order-1">
-              {[
-                {
-                  icon: (
-                    <svg viewBox="0 0 24 24" className="w-6 h-6 stroke-accent-soft stroke-[1.5] fill-none">
-                      <circle cx="12" cy="12" r="10" />
-                      <path d="M12 6v6l4 2" />
-                    </svg>
-                  ),
-                  title: "Track symptoms in seconds",
-                  desc: "Quick logging that doesn't feel like a chore",
-                },
-                {
-                  icon: (
-                    <svg viewBox="0 0 24 24" className="w-6 h-6 stroke-accent-soft stroke-[1.5] fill-none">
-                      <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
-                    </svg>
-                  ),
-                  title: "Automatic weather correlation",
-                  desc: "Matches attacks with barometric pressure & weather changes",
-                },
-                {
-                  icon: (
-                    <svg viewBox="0 0 24 24" className="w-6 h-6 stroke-accent-soft stroke-[1.5] fill-none">
-                      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-                      <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-                    </svg>
-                  ),
-                  title: "Reveal hidden patterns",
-                  desc: "See connections you'd never spot manually",
-                },
-                {
-                  icon: (
-                    <svg viewBox="0 0 24 24" className="w-6 h-6 stroke-accent-soft stroke-[1.5] fill-none">
-                      <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
-                      <line x1="12" y1="9" x2="12" y2="13" />
-                      <line x1="12" y1="17" x2="12.01" y2="17" />
-                    </svg>
-                  ),
-                  title: "48-hour risk forecasts",
-                  desc: "Get alerts before conditions turn risky",
-                },
-                {
-                  icon: (
-                    <svg viewBox="0 0 24 24" className="w-6 h-6 stroke-accent-soft stroke-[1.5] fill-none">
-                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                      <polyline points="14 2 14 8 20 8" />
-                      <line x1="16" y1="13" x2="8" y2="13" />
-                      <line x1="16" y1="17" x2="8" y2="17" />
-                      <polyline points="10 9 9 9 8 9" />
-                    </svg>
-                  ),
-                  title: "PDF report for your neurologist",
-                  desc: "Generate a doctor-ready summary of your attack history and weather correlations to bring to your next appointment",
-                },
-              ].map((feature, i) => (
-                <div
-                  key={i}
-                  className="flex gap-5 p-6 bg-white/[0.02] border border-white/5 rounded-2xl transition-all duration-300 hover:bg-accent/5 hover:border-accent/20 hover:translate-x-2"
-                >
-                  <div className="w-12 h-12 bg-gradient-to-br from-accent/20 to-coral/10 rounded-xl flex items-center justify-center shrink-0">
-                    {feature.icon}
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-[1.05rem] mb-1.5">
-                      {feature.title}
-                    </h4>
-                    <p className="text-[0.95rem] text-text-muted">{feature.desc}</p>
-                  </div>
-                </div>
-              ))}
+              <FeatureCards />
 
-              <div className="mt-6 py-5 px-7 bg-white/[0.03] border-l-[3px] border-accent text-lg text-text-muted italic">
+              <div className="mt-2 py-5 px-7 bg-white/[0.03] border-l-[3px] border-accent text-lg text-text-muted italic">
                 No spreadsheets. No guesswork. No medical jargon.
               </div>
             </div>

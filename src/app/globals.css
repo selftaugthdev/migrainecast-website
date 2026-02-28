@@ -2,14 +2,14 @@
 @plugin "@tailwindcss/typography";
 
 @theme inline {
-  --color-bg: #0f1419;
-  --color-bg-elevated: #1a1f26;
-  --color-surface: #242b35;
-  --color-text: #f4f1eb;
-  --color-text-muted: #9ca3af;
-  --color-text-subtle: #6b7280;
-  --color-accent: #a78bfa;
-  --color-accent-soft: #c4b5fd;
+  --color-bg: #080c1e;
+  --color-bg-elevated: #0d1230;
+  --color-surface: #141a3e;
+  --color-text: #eef0ff;
+  --color-text-muted: #8b96c8;
+  --color-text-subtle: #525a84;
+  --color-accent: #7b8ef4;
+  --color-accent-soft: #a3b0f8;
   --color-warm: #fbbf24;
   --color-coral: #f472b6;
 
@@ -42,7 +42,7 @@ body {
   height: 100%;
   pointer-events: none;
   z-index: 0;
-  background: linear-gradient(135deg, #1a1f26 0%, #2d1f3d 50%, #1a2535 100%);
+  background: linear-gradient(135deg, #0a0f26 0%, #160d3d 50%, #060f22 100%);
 }
 
 .atmosphere::before {
@@ -54,7 +54,7 @@ body {
   height: 100vh;
   background: radial-gradient(
     ellipse at 50% 0%,
-    rgba(167, 139, 250, 0.15) 0%,
+    rgba(123, 142, 244, 0.18) 0%,
     transparent 60%
   );
   opacity: 0.8;
@@ -85,7 +85,7 @@ body {
   height: 600px;
   background: radial-gradient(
     circle,
-    rgba(167, 139, 250, 0.3) 0%,
+    rgba(99, 120, 255, 0.28) 0%,
     transparent 70%
   );
   top: -200px;
@@ -98,7 +98,7 @@ body {
   height: 400px;
   background: radial-gradient(
     circle,
-    rgba(244, 114, 182, 0.2) 0%,
+    rgba(139, 92, 246, 0.22) 0%,
     transparent 70%
   );
   bottom: 20%;
@@ -111,7 +111,7 @@ body {
   height: 300px;
   background: radial-gradient(
     circle,
-    rgba(251, 191, 36, 0.15) 0%,
+    rgba(56, 182, 255, 0.14) 0%,
     transparent 70%
   );
   top: 40%;
@@ -225,7 +225,7 @@ body {
 .glow-ring {
   position: absolute;
   border-radius: 50%;
-  border: 1px solid rgba(167, 139, 250, 0.2);
+  border: 1px solid rgba(123, 142, 244, 0.2);
   animation: glow-pulse 4s ease-in-out infinite;
 }
 
@@ -242,7 +242,7 @@ body {
 /* Shield ring animations */
 .shield-ring {
   position: absolute;
-  border: 1px solid rgba(167, 139, 250, 0.2);
+  border: 1px solid rgba(123, 142, 244, 0.2);
   border-radius: 50%;
   animation: shield-pulse 3s ease-in-out infinite;
 }
