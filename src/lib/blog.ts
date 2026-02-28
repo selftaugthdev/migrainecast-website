@@ -10,6 +10,177 @@ export interface BlogPost {
 // Blog posts - you can later migrate this to MDX files or a CMS
 const posts: BlogPost[] = [
   {
+    slug: "48-hour-warning-window",
+    title: "The 48-Hour Warning Window: How to Read the Weather Forecast Like a Neurologist",
+    excerpt:
+      "Weather doesn't trigger migraines the moment it arrives — the trigger usually fires 24 to 48 hours before a front reaches you. Here's how to read a forecast with that delay in mind.",
+    date: "February 28, 2026",
+    category: "Science",
+    content: `
+      <p>Most people check the weather to decide what to wear. If you live with migraines, you check it to decide whether you should cancel your plans for Thursday before you even get to Tuesday.</p>
+
+      <p>That's not being dramatic. That's just knowing how your nervous system works.</p>
+
+      <p>Neurologists and headache specialists have known for decades that weather doesn't trigger migraines the moment it arrives. The trigger usually fires 24 to 48 hours before a front ever reaches you. By the time the rain starts falling, the headache is often already well underway. So learning to read a forecast with that delay in mind changes everything about how you can manage and prepare.</p>
+
+      <p>Here's what to actually look for.</p>
+
+      <h2>Barometric Pressure Is the Number That Matters Most</h2>
+
+      <p>Temperature and rain get all the attention in a standard weather app. Barometric pressure sits quietly in the background, but it's the metric that headache researchers have studied the most in relation to migraine attacks.</p>
+
+      <p>Atmospheric pressure is essentially the weight of the air column above you pressing down on everything, including your body. When a storm system approaches, that pressure starts dropping before the clouds even show up. Your sinuses, your inner ear, and the tissues surrounding your brain are all sensitive to that shift.</p>
+
+      <p>A typical "watch" reading for migraine-prone people is a drop of around 5 to 10 millibars (mbar) or more over a 24-hour period. A slow, gradual decline of 2 to 3 mbar is rarely a problem. A rapid drop of 8 to 12 mbar in under a day is where a lot of people start to feel it.</p>
+
+      <p>Most weather apps don't show you the rate of change, just the current number. That rate is what you actually need. MigraineCast is specifically built to surface this information, but if you're reading a raw forecast, you want to compare the pressure reading from this morning to where it's projected to be tomorrow morning and do that math yourself.</p>
+
+      <h2>How to Spot a Frontal System 48 Hours Out</h2>
+
+      <p>A weather front is the boundary between two air masses with different temperatures and humidity levels. Cold fronts and warm fronts both produce pressure changes, but cold fronts tend to be faster and steeper, which is why they're more commonly associated with migraine reports.</p>
+
+      <p>Here's the sequence to watch for:</p>
+
+      <p><strong>Two days out:</strong> The forecast might show pleasant or partly cloudy conditions. Pressure is still stable or just beginning a slow decline. This is the window most people miss completely, because there's nothing dramatic in the sky yet.</p>
+
+      <p><strong>36 hours out:</strong> Pressure starts dropping more noticeably. Wind direction often shifts ahead of a cold front, typically swinging from southerly to more westerly or northwesterly. If you see wind direction changes paired with falling pressure, a front is almost certainly on its way.</p>
+
+      <p><strong>24 hours out:</strong> This is when the pressure drop accelerates. Clouds start thickening. The forecast starts using words like "chance of showers" or "approaching system." For many migraine sufferers, the nervous system is already in a heightened state by this point, even if they feel fine.</p>
+
+      <p><strong>The front arrives:</strong> Rain, storms, temperature drop. And in many cases, the headache has already peaked or is in full swing.</p>
+
+      <p>Understanding this timeline is the core reason early warning matters. If you wait until you see storm clouds or feel the first head pressure, you've missed your intervention window.</p>
+
+      <h2>What Neurologists Are Actually Tracking</h2>
+
+      <p>Headache specialists who study weather triggers focus on a few specific variables beyond just pressure. If you want to read a forecast the way they do, here's the short version of what they pay attention to:</p>
+
+      <p><strong>Pressure drop rate, not just pressure level.</strong> A reading of 1005 mbar isn't inherently bad. Falling from 1018 to 1005 over 18 hours is a different story.</p>
+
+      <p><strong>Humidity spikes.</strong> High humidity, particularly rapid changes in relative humidity, appears to compound pressure sensitivity for some people. A dry front behaves differently than a muggy one.</p>
+
+      <p><strong>Temperature swings.</strong> A 15 to 20 degree temperature shift in under a day, which is common with fast-moving cold fronts, is another variable that shows up in migraine research.</p>
+
+      <p><strong>Combination effects.</strong> The real risk seems to go up when multiple variables shift at once. Dropping pressure plus rising humidity plus temperature change plus disrupted sleep (because the barometric changes wake some people up at night) is a different kind of storm than any one of those factors alone.</p>
+
+      <h2>Building Your Own 48-Hour Habit</h2>
+
+      <p>Once you understand what to look for, the practical approach is pretty simple. Check pressure trends every morning, not just the temperature and precipitation outlook. Give yourself a rough personal baseline over a few weeks so you know what your "safe" range looks like versus what readings have historically preceded your attacks.</p>
+
+      <p>Keep a short log. Even just noting "pressure dropped fast today, felt off by evening" three or four times builds a clearer personal picture than any general research average.</p>
+
+      <p>And front-load your preventive measures within that 48-hour window. For most people that means staying well hydrated, protecting sleep, avoiding known dietary triggers, and taking any acute medications at the very first hint of prodrome rather than waiting to see if the headache fully develops.</p>
+
+      <p>The goal isn't to fear every storm system on the map. It's to stop being blindsided by them.</p>
+
+      <h2>What MigraineCast Does With This Data</h2>
+
+      <p>Reading raw weather data is possible but genuinely tedious if you're doing it manually every day. MigraineCast is built around exactly this problem. It tracks barometric pressure trends specific to your location, calculates the rate of change rather than just the current reading, and gives you a risk forecast up to 48 hours ahead so you have that window to work with.</p>
+
+      <p>It's not about predicting whether you'll get a migraine. No app can do that, because triggers are personal and cumulative. What it can do is flag when the atmospheric conditions are stacking up in the direction that tends to precede attacks, so you can make informed decisions rather than reactive ones.</p>
+
+      <p>Because the best time to treat a migraine is always before it starts. And that window opens about two days before the storm does.</p>
+    `,
+  },
+  {
+    slug: "migraine-go-bag",
+    title: "Building Your Migraine Go-Bag: What to Have Ready Before a High-Risk Day",
+    excerpt:
+      "A migraine go-bag isn't a cute emergency kit — it's a practical system you lean on when a high-risk day is coming and you need to spend your energy managing the attack, not scrambling for supplies.",
+    date: "February 21, 2026",
+    category: "Tips",
+    content: `
+      <p>There's a specific kind of dread that migraine sufferers know well. You wake up, the light is already bothering you a little, and you realize you have nowhere near enough water, your medication is in another room, and you have three meetings you can't cancel starting in two hours.</p>
+
+      <p>The headache didn't ambush you. The forecast showed the pressure was dropping. You just didn't do anything with that information in time.</p>
+
+      <p>That's the gap a migraine go-bag is designed to close. Not a cute emergency kit you buy once and forget about, but a real, practical system you can lean on when a high-risk day is coming and you need to spend your energy managing the attack, not scrambling for supplies.</p>
+
+      <p>Here's how to build one that actually works.</p>
+
+      <h2>Start With the Forecast, Not the Headache</h2>
+
+      <p>The whole point of tracking weather data is that it gives you time. If you're only reaching for your go-bag after the pain hits, you're already behind. The goal is to have everything staged and ready 24 to 36 hours before a high-risk window, when the barometric pressure is still falling and you still feel okay.</p>
+
+      <p>Think of it like how pilots do pre-flight checklists before anything goes wrong, not during an emergency. Your forecast data is the checklist trigger. When you see a significant pressure drop incoming, that's when you run through your system.</p>
+
+      <h2>The Core Categories to Cover</h2>
+
+      <h3>Medication</h3>
+
+      <p>This is the obvious one, but it's also where people are most likely to let things slip. Go through this before a high-risk day:</p>
+
+      <p>Is your acute medication (triptan, NSAID, whatever your doctor has prescribed) filled and accessible, not buried at the bottom of a bag or sitting in a cabinet across the house? If you use an injectable or nasal spray, is it unexpired and at the right temperature? Do you have anti-nausea medication on hand, because many people need it but forget to stock it until they're already sick?</p>
+
+      <p>A lot of migraine attacks escalate because the person delayed taking medication while hoping the headache would pass. Having it physically within arm's reach lowers that barrier significantly.</p>
+
+      <h3>Hydration</h3>
+
+      <p>Dehydration is one of the most reliable migraine accelerants there is, and it's also one of the easiest to address proactively. The problem is that when a migraine is building or active, nausea makes it harder to drink normally and plain water can feel unappealing.</p>
+
+      <p>Before a high-risk day: fill a large water bottle and put it somewhere obvious, like your nightstand or desk. Keep electrolyte packets or tablets available, because plain water alone doesn't fully replace what you lose during a bad attack with vomiting. Some people find cold drinks more manageable during prodrome, others prefer room temperature. Know your own pattern.</p>
+
+      <h3>Darkness and Sensory Relief</h3>
+
+      <p>Photophobia makes a lot of migraine attacks significantly worse, and yet most people are stuck scrambling to find a sleep mask or darkening curtains when they're already in pain. Sort this out in advance.</p>
+
+      <p>Know which room in your home gets the darkest. If it's not your bedroom, think about whether you can stage a recovery spot there ahead of time. Have a sleep mask you actually like using, not one from a hotel that fell apart after two uses. If you're someone who also deals with phonophobia (sensitivity to sound), have earplugs or noise-canceling headphones accessible in the same spot.</p>
+
+      <h3>Cold and Heat Therapy</h3>
+
+      <p>Both have their place depending on the person and the attack type. Cold packs applied to the back of the neck or forehead work well for many people during the headache phase. Heat can help with neck tension that often accompanies a migraine, particularly in the hours leading up to the full attack.</p>
+
+      <p>Keep a gel cold pack in the freezer specifically for this purpose, not just a bag of frozen peas you have to dig for. A small heating pad or microwaveable wrap stored somewhere easy to grab is worth having too.</p>
+
+      <h3>Food That Won't Make Things Worse</h3>
+
+      <p>Eating is complicated during a migraine. Your stomach slows down, nausea is common, and the wrong food can deepen the attack. But going too long without eating while also taking medication on an empty stomach creates its own problems.</p>
+
+      <p>Stock simple, low-demand foods for high-risk days: plain crackers, applesauce, broth, ginger tea. Foods that are easy to get down without making decisions. If caffeine is part of your personal migraine toolkit (some people find a small amount helpful, especially early in an attack), know your threshold and have it ready in a form that's easy to consume even when you feel terrible.</p>
+
+      <h3>A Pre-Written Communication Template</h3>
+
+      <p>This one is underrated. When a migraine hits hard, communicating is genuinely difficult. Writing a coherent message to your boss or a client while you're in serious pain is miserable and usually results in either oversharing or undersharing.</p>
+
+      <p>Write a short, professional, pre-approved message template when you feel well. Something like: "I'm dealing with a health issue today and need to reschedule. I'll follow up tomorrow." Save it somewhere easy to access on your phone. You can copy, adjust if needed, and send it in 30 seconds rather than staring at a blank screen trying to form sentences.</p>
+
+      <h3>Your Quiet Activity List</h3>
+
+      <p>A lot of migraine recovery is just waiting, and waiting is harder than it sounds when you feel awful and can't use screens, read, or listen to anything loud. Having a short list of low-stimulation things you can actually tolerate is more useful than it sounds.</p>
+
+      <p>This varies completely by person. Some people do fine with a podcast at low volume. Others need an audiobook they've already heard before, something familiar that doesn't require real attention. Some people just sleep, and having a specific "migraine playlist" of ambient audio queued up can make dropping off easier. Know what yours is before you're in the middle of an attack trying to figure it out.</p>
+
+      <h2>A Simple Pre-Attack Checklist to Run the Night Before</h2>
+
+      <p>When your forecast app flags a high-risk window coming up, go through these before bed:</p>
+
+      <ul>
+        <li>Medication filled and on nightstand</li>
+        <li>Water bottle filled, electrolytes nearby</li>
+        <li>Cold pack in freezer</li>
+        <li>Sleep mask and earplugs in bedroom</li>
+        <li>Easy food stocked</li>
+        <li>Phone on do not disturb, pre-written message ready to copy</li>
+        <li>Calendar cleared or backup plan in place for next day's commitments</li>
+        <li>Alcohol, late nights, and known dietary triggers avoided that evening</li>
+      </ul>
+
+      <p>The whole thing takes about ten minutes when you're feeling well. It takes enormous effort to pull together when you're not.</p>
+
+      <h2>The Forecasting Piece Is What Makes This Work</h2>
+
+      <p>Preparation only pays off if you have enough notice to actually use it. That's the part most weather apps weren't built to give you. A standard forecast tells you it's going to rain on Thursday. It doesn't tell you that the pressure drop begins Tuesday night and your historical pattern suggests you'll be symptomatic by Wednesday afternoon.</p>
+
+      <p>MigraineCast was built specifically around that gap. It tracks barometric pressure changes at your location, calculates the rate of drop rather than just the current reading, and gives you a risk forecast far enough ahead to actually act on. It's the difference between finding out a storm is coming and knowing when the trigger window opens.</p>
+
+      <p>When you pair that kind of early warning with a system that's already staged and ready, you stop being reactive. You start managing instead of surviving.</p>
+
+      <blockquote>
+        <p>Download MigraineCast on the App Store and give yourself the warning window you deserve. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Get MigraineCast for free on iOS</a></p>
+      </blockquote>
+    `,
+  },
+  {
     slug: "barometric-pressure-science",
     title: "Why Barometric Pressure Triggers Migraines: The Science Explained",
     excerpt:
