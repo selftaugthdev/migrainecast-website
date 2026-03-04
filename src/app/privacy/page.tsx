@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
             <h1 className="font-display text-[clamp(2rem,4vw,3rem)] font-normal leading-tight mb-4">
               MigraineCast – Privacy Policy
             </h1>
-            <p className="text-text-muted">Last updated: October 2025</p>
+            <p className="text-text-muted">Last updated: March 2026</p>
           </header>
 
           {/* Content */}
@@ -201,7 +201,50 @@ export default function PrivacyPolicyPage() {
 
             <hr className="border-white/10 my-10" />
 
-            <h2>10. Apple EULA</h2>
+            <h2>10. Apple Health Integration</h2>
+            <p>
+              MigraineCast optionally integrates with Apple Health to enhance
+              your migraine tracking experience. You are not required to connect
+              Apple Health to use the app.
+            </p>
+
+            <h3>Data we read from Apple Health:</h3>
+            <ul>
+              <li>
+                <strong>Sleep analysis</strong> — to detect poor sleep as a
+                potential migraine trigger
+              </li>
+              <li>
+                <strong>Heart rate variability (HRV)</strong> — to identify
+                physiological stress patterns associated with migraine risk
+              </li>
+            </ul>
+
+            <h3>Data we write to Apple Health:</h3>
+            <ul>
+              <li>
+                <strong>Headache events</strong> — when you log a migraine in
+                MigraineCast, the event (including onset time and severity) is
+                written to your Apple Health record so your health history stays
+                in one place
+              </li>
+            </ul>
+
+            <h3>How this data is used:</h3>
+            <p>
+              All Health data is processed on-device only. It is never uploaded
+              to our servers, shared with third parties, or used for advertising
+              purposes. Health data is used solely to improve the accuracy of
+              your personal migraine trigger analysis within the app.
+            </p>
+            <p>
+              You can grant or revoke Health permissions at any time in{" "}
+              <strong>Settings → Health → Data Access → MigraineCast</strong>.
+            </p>
+
+            <hr className="border-white/10 my-10" />
+
+            <h2>11. Apple EULA</h2>
             <p>
               By using MigraineCast, you also agree to Apple&apos;s Standard End User
               License Agreement (EULA), available here:
