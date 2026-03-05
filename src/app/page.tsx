@@ -91,8 +91,46 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Demo Video */}
+      <section className="py-[80px] border-t border-white/5">
+        <div className="max-w-[1200px] mx-auto px-6 flex flex-col items-center">
+          <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-4 block">
+            See It In Action
+          </span>
+          <h2 className="font-display text-[clamp(1.75rem,3vw,2.5rem)] font-normal leading-tight mb-12 text-center">
+            Two minutes to clarity
+          </h2>
+
+          {/* iPhone frame with video */}
+          <div className="relative">
+            <div className="glow-ring w-[340px] h-[340px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+            <div className="glow-ring w-[440px] h-[440px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50" />
+
+            <div className="relative w-[280px] h-[572px] bg-gradient-to-b from-[#3a3a3c] via-[#2c2c2e] to-[#1c1c1e] rounded-[55px] p-[3px] shadow-[0_50px_100px_rgba(0,0,0,0.5),0_0_0_1px_rgba(255,255,255,0.1)]">
+              <div className="w-full h-full bg-black rounded-[52px] p-[10px]">
+                <div className="relative w-full h-full rounded-[42px] overflow-hidden bg-black">
+                  <div className="absolute top-3 left-1/2 -translate-x-1/2 w-[100px] h-[32px] bg-black rounded-full z-10" />
+                  <video
+                    src="/demo.mp4"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-full object-cover object-top"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="absolute right-[-2px] top-[140px] w-[3px] h-[80px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-r-sm" />
+            <div className="absolute left-[-2px] top-[120px] w-[3px] h-[28px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
+            <div className="absolute left-[-2px] top-[160px] w-[3px] h-[50px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
+            <div className="absolute left-[-2px] top-[220px] w-[3px] h-[50px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
+          </div>
+        </div>
+      </section>
+
       {/* Social Proof */}
-      <section className="py-[60px] border-t border-b border-white/5">
+      <section className="py-[60px] border-b border-white/5">
         <div className="max-w-[1200px] mx-auto px-6 flex flex-col md:flex-row flex-wrap justify-center gap-12 md:gap-12 items-center">
           <div className="text-center">
             <div className="font-display text-4xl font-medium text-text mb-1">
