@@ -103,28 +103,27 @@ export default function Home() {
 
           {/* iPhone frame with video */}
           <div className="relative">
-            <div className="glow-ring w-[340px] h-[340px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
-            <div className="glow-ring w-[440px] h-[440px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50" />
+            <div className="glow-ring w-[380px] h-[380px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+            <div className="glow-ring w-[500px] h-[500px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50" />
 
-            <div className="relative w-[280px] h-[572px] bg-gradient-to-b from-[#3a3a3c] via-[#2c2c2e] to-[#1c1c1e] rounded-[55px] p-[3px] shadow-[0_50px_100px_rgba(0,0,0,0.5),0_0_0_1px_rgba(255,255,255,0.1)]">
+            <div className="relative w-[320px] h-[654px] bg-gradient-to-b from-[#3a3a3c] via-[#2c2c2e] to-[#1c1c1e] rounded-[55px] p-[3px] shadow-[0_50px_100px_rgba(0,0,0,0.5),0_0_0_1px_rgba(255,255,255,0.1)]">
               <div className="w-full h-full bg-black rounded-[52px] p-[10px]">
-                <div className="relative w-full h-full rounded-[42px] overflow-hidden bg-black">
-                  <div className="absolute top-3 left-1/2 -translate-x-1/2 w-[100px] h-[32px] bg-black rounded-full z-10" />
+                <div className="relative w-full h-full rounded-[28px] overflow-hidden bg-black flex items-center justify-center">
                   <video
                     src="/demo.mp4"
                     autoPlay
                     muted
                     loop
                     playsInline
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-auto"
                   />
                 </div>
               </div>
             </div>
-            <div className="absolute right-[-2px] top-[140px] w-[3px] h-[80px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-r-sm" />
-            <div className="absolute left-[-2px] top-[120px] w-[3px] h-[28px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
-            <div className="absolute left-[-2px] top-[160px] w-[3px] h-[50px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
-            <div className="absolute left-[-2px] top-[220px] w-[3px] h-[50px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
+            <div className="absolute right-[-2px] top-[160px] w-[3px] h-[80px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-r-sm" />
+            <div className="absolute left-[-2px] top-[137px] w-[3px] h-[28px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
+            <div className="absolute left-[-2px] top-[183px] w-[3px] h-[50px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
+            <div className="absolute left-[-2px] top-[251px] w-[3px] h-[50px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
           </div>
         </div>
       </section>
