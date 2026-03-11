@@ -36,12 +36,12 @@ const tools = [
     ),
   },
   {
-    href: "#",
+    href: "/tools/migraine-season-calendar",
     title: "Migraine Season Calendar",
     description:
       "See which months historically carry the most storm activity and pressure volatility in your city — so you can plan ahead for your highest-risk seasons.",
-    badge: "Coming soon",
-    badgeColor: "text-text-subtle bg-surface/40 border-white/10",
+    badge: "Available now",
+    badgeColor: "text-emerald-400 bg-emerald-400/10 border-emerald-400/20",
     icon: (
       <svg viewBox="0 0 24 24" className="w-6 h-6 fill-none stroke-current stroke-[1.5]">
         <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
