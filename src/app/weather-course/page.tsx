@@ -1,7 +1,7 @@
 import { Background } from "@/components/Background";
 
 export const metadata = {
-  title: "Free 7-Day Course: The Barometric Blueprint — MigraineCast",
+  title: "Free 7-Day Course: What Nobody Told You About Weather and Migraines — MigraineCast",
   description:
     "Discover why weather changes trigger your migraines and what you can do about it. Free 7-day email course backed by science.",
 };
@@ -36,7 +36,7 @@ export default function WeatherCoursePage() {
           <div className="max-w-[480px] mx-auto mb-16">
             <div className="p-8 bg-white/[0.03] border border-white/10 rounded-3xl backdrop-blur-sm">
               <h2 className="font-display text-2xl mb-2">
-                The Barometric Blueprint
+                What Nobody Told You About Weather and Migraines
               </h2>
               <p className="text-text-muted text-sm mb-6">
                 7 days. 7 emails. Zero fluff. Just science you can use.

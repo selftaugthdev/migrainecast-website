@@ -74,10 +74,10 @@ export function FeatureCards() {
         <div
           key={i}
           onClick={() => setActive(i)}
-          className={`flex gap-5 p-6 border rounded-2xl cursor-pointer transition-all duration-500 ${
+          className={`flex gap-5 p-6 rounded-2xl cursor-pointer transition-all duration-500 ${
             i === active
-              ? "bg-accent/[0.07] border-accent/40 scale-[1.02] shadow-[0_0_28px_rgba(123,142,244,0.18)]"
-              : "bg-white/[0.02] border-white/5 hover:bg-accent/[0.04] hover:border-accent/20"
+              ? "bg-accent/[0.10] border border-accent/40 scale-[1.02] shadow-[0_0_28px_rgba(123,142,244,0.18)]"
+              : "glass-card glass-card-hover"
           }`}
         >
           <div className="w-12 h-12 bg-gradient-to-br from-accent/20 to-coral/10 rounded-xl flex items-center justify-center shrink-0">
