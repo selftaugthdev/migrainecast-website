@@ -35,6 +35,8 @@ const posts: BlogPost[] = [
 
       <p>Most weather apps don't show you the rate of change, just the current number. That rate is what you actually need. MigraineCast is specifically built to surface this information, but if you're reading a raw forecast, you want to compare the pressure reading from this morning to where it's projected to be tomorrow morning and do that math yourself.</p>
 
+      <p>Curious whether pressure drops have already been triggering your attacks? Use our free <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> — enter your location and up to 5 migraine dates, and we'll pull the actual barometric pressure data for each one.</p>
+
       <h2>How to Spot a Frontal System 48 Hours Out</h2>
 
       <p>A weather front is the boundary between two air masses with different temperatures and humidity levels. Cold fronts and warm fronts both produce pressure changes, but cold fronts tend to be faster and steeper, which is why they're more commonly associated with migraine reports.</p>
@@ -188,6 +190,8 @@ const posts: BlogPost[] = [
       <p>The whole point of tracking weather data is that it gives you time. If you're only reaching for your go-bag after the pain hits, you're already behind. The goal is to have everything staged and ready 24 to 36 hours before a high-risk window, when the barometric pressure is still falling and you still feel okay.</p>
 
       <p>Think of it like how pilots do pre-flight checklists before anything goes wrong, not during an emergency. Your forecast data is the checklist trigger. When you see a significant pressure drop incoming, that's when you run through your system.</p>
+
+      <p>Not sure whether pressure drops are actually your trigger? Our free <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> lets you enter past migraine dates and see what the barometric pressure was doing in the 48 hours before each one — real data, no signup needed.</p>
 
       <h2>The Core Categories to Cover</h2>
 
@@ -376,7 +380,7 @@ const posts: BlogPost[] = [
         <li>Identify your personal pressure threshold</li>
       </ul>
 
-      <p>This is where specialized migraine forecasting becomes essential.</p>
+      <p>This is where specialized migraine forecasting becomes essential. If you want to start by checking whether past attacks were pressure-related, try our free <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> — it pulls real historical pressure data for your location and shows you what was happening in the 48 hours before each migraine you enter.</p>
 
       <h2>Turning Knowledge Into Prevention</h2>
       <p>Understanding the barometric pressure-migraine connection is valuable, but tracking it in real-time transforms that knowledge into actionable prevention.</p>

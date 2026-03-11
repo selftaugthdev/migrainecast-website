@@ -36,6 +36,7 @@ export function Navigation() {
   const navLinks = [
     { href: "/what-is-migrainecast", label: "What is MigraineCast?" },
     { href: "/blog", label: "Blog" },
+    { href: "/tools", label: "Free Tools" },
     { href: "/support", label: "Support" },
   ];
 
