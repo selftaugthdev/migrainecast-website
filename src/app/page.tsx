@@ -1,4 +1,5 @@
 import { Background } from "@/components/Background";
+import { DownloadButton } from "@/components/DownloadButton";
 import { FeatureCards } from "@/components/FeatureCards";
 import Image from "next/image";
 import Link from "next/link";
@@ -67,15 +68,14 @@ export default function Home() {
               </p>
 
               <div className="flex flex-wrap gap-3 mb-8 animate-fade-up-delay-5">
-                <a
+                <DownloadButton
                   href={APPSTORE_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  location="hero"
                   className="inline-flex items-center gap-2.5 px-7 py-[17px] bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4),inset_0_1px_0_rgba(255,255,255,0.2)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_40px_rgba(167,139,250,0.5),inset_0_1px_0_rgba(255,255,255,0.2)]"
                 >
                   <AppleIcon />
                   Download Free on iPhone
-                </a>
+                </DownloadButton>
                 <Link
                   href="/what-is-migrainecast"
                   className="inline-flex items-center gap-2 px-5 py-[17px] text-text font-semibold transition-colors hover:text-accent-soft group"
@@ -408,15 +408,14 @@ export default function Home() {
             their triggers — and see attacks coming before they hit.
           </p>
 
-          <a
+          <DownloadButton
             href={APPSTORE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            location="cta"
             className="inline-flex items-center gap-2.5 px-12 py-[22px] bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold text-lg rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4),inset_0_1px_0_rgba(255,255,255,0.2)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_40px_rgba(167,139,250,0.5),inset_0_1px_0_rgba(255,255,255,0.2)]"
           >
             <AppleIcon className="w-[22px] h-[22px]" />
             Download Free on iPhone
-          </a>
+          </DownloadButton>
 
           <p className="mt-5 text-sm text-text-subtle">
             Free to download — premium features unlock deeper insights
