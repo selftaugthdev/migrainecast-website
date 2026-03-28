@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { MetaPixel } from "@/components/MetaPixel";
 
 const fraunces = Fraunces({
   variable: "--font-display",
@@ -83,6 +84,7 @@ export default function RootLayout({
         />
       </head>
       <GoogleAnalytics />
+      <MetaPixel />
       <body className="bg-bg text-text antialiased overflow-x-hidden">
         <Navigation />
         <main className="relative z-10">{children}</main>
