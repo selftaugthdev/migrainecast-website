@@ -53,15 +53,11 @@ export function Navigation() {
       <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
         <Link href="/" className="flex items-center text-text no-underline">
           <Image
-            src={
-              theme === "light"
-                ? "/migraine_logo_circle.png"
-                : "/Migraine Cast LOGO DARK MODE.png"
-            }
+            src="/New LOGO MigraineCast.png"
             alt="MigraineCast"
-            width={180}
-            height={40}
-            className="h-9 w-auto"
+            width={36}
+            height={36}
+            className="h-9 w-9 rounded-full"
             priority
           />
         </Link>
