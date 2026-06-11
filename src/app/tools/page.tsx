@@ -52,12 +52,12 @@ const tools = [
     ),
   },
   {
-    href: "#",
+    href: "/tools/trigger-pattern-analyzer",
     title: "Trigger Pattern Analyzer",
     description:
-      "Upload your migraine diary data and let us find patterns you might have missed — clusters around weather, sleep, hormones, and more.",
-    badge: "Coming soon",
-    badgeColor: "text-text-subtle bg-surface/40 border-white/10",
+      "Log your migraine days along with sleep, stress, and lifestyle factors, and let us find patterns you might have missed — clusters around weather, sleep, hormones, and more.",
+    badge: "Available now",
+    badgeColor: "text-emerald-400 bg-emerald-400/10 border-emerald-400/20",
     icon: (
       <svg viewBox="0 0 24 24" className="w-6 h-6 fill-none stroke-current stroke-[1.5]">
         <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
