@@ -23,12 +23,12 @@ const tools = [
     ),
   },
   {
-    href: "#",
+    href: "/tools/pressure-threshold-estimator",
     title: "Personal Pressure Threshold Estimator",
     description:
       "Find out whether you're sensitive to small pressure drops (3–5 hPa) or only big ones (10+ hPa) — and what that means for your forecast window.",
-    badge: "Coming soon",
-    badgeColor: "text-text-subtle bg-surface/40 border-white/10",
+    badge: "Available now",
+    badgeColor: "text-emerald-400 bg-emerald-400/10 border-emerald-400/20",
     icon: (
       <svg viewBox="0 0 24 24" className="w-6 h-6 fill-none stroke-current stroke-[1.5]">
         <path d="M12 20V10M18 20V4M6 20v-4" />
