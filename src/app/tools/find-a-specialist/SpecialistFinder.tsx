@@ -89,8 +89,8 @@ export function SpecialistFinder() {
             Find a <em className="italic text-accent-soft">Migraine Specialist</em> Near You
           </h1>
           <p className="text-lg text-text-muted max-w-[580px] leading-relaxed">
-            Search for headache specialists and neurologists in your area on an interactive
-            map — no signup required.
+            Search for headache and migraine specialists and neurologists in your area on an
+            interactive map — no signup required.
           </p>
         </div>
 
