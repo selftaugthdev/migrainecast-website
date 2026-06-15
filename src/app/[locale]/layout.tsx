@@ -23,6 +23,14 @@ const plusJakarta = Plus_Jakarta_Sans({
   display: "swap",
 });
 
+const ogLocaleMap: Record<string, string> = {
+  en: "en_US",
+  nl: "nl_NL",
+  de: "de_DE",
+  fr: "fr_FR",
+  es: "es_ES",
+};
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -43,6 +51,9 @@ export async function generateMetadata({
       languages: {
         en: "/",
         nl: "/nl",
+        de: "/de",
+        fr: "/fr",
+        es: "/es",
         "x-default": "/",
       },
     },
@@ -50,7 +61,7 @@ export async function generateMetadata({
       title: t("metadataTitle"),
       description: t("metadataDescription"),
       type: "website",
-      locale: locale === "nl" ? "nl_NL" : "en_US",
+      locale: ogLocaleMap[locale] ?? "en_US",
       siteName: "MigraineCast",
     },
     twitter: {

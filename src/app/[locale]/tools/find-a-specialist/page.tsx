@@ -1,20 +1,43 @@
 import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { hasLocale } from "next-intl";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
 import { SpecialistFinder } from "./SpecialistFinder";
-import { faqs } from "./faqs";
 
-export const metadata: Metadata = {
-  title: "Find a Migraine Specialist Near You | MigraineCast",
-  description:
-    "Search an interactive map to find headache specialists and neurologists near you. Free tool, no signup required.",
-  openGraph: {
-    title: "Find a Migraine Specialist Near You",
-    description:
-      "Search an interactive map to find headache specialists and neurologists near you. Free tool, no signup required.",
-    type: "website",
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "SpecialistFinder" });
 
-export default function FindSpecialistPage() {
+  return {
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    openGraph: {
+      title: t("ogTitle"),
+      description: t("metaDescription"),
+      type: "website",
+    },
+  };
+}
+
+export default async function FindSpecialistPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+  setRequestLocale(locale);
+
+  const t = await getTranslations("SpecialistFinder");
+  const faqs = t.raw("faqs") as { question: string; answer: string }[];
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",

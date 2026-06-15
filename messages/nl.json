@@ -5,6 +5,51 @@
     "organizationDescription": "MigraineCast helpt mensen met migraine om aanvallen te voorspellen en zich erop voor te bereiden, door patronen bij te houden die verband houden met weer, luchtdruk en persoonlijke triggers.",
     "websiteDescription": "Voorspel migraine voordat die toeslaat met MigraineCast. Volg patronen, begrijp weertriggers en neem de controle terug."
   },
+  "SpecialistFinder": {
+    "metaTitle": "Vind een Migrainespecialist Bij Jou in de Buurt | MigraineCast",
+    "metaDescription": "Zoek op een interactieve kaart naar hoofdpijnspecialisten en neurologen bij jou in de buurt. Gratis tool, geen aanmelding nodig.",
+    "ogTitle": "Vind een Migrainespecialist Bij Jou in de Buurt",
+    "allFreeTools": "Alle Gratis Tools",
+    "freeTool": "Gratis Tool",
+    "heroTitle": "Vind een <em>Migrainespecialist</em> Bij Jou in de Buurt",
+    "heroDescription": "Zoek op een interactieve kaart naar hoofdpijn- en migrainespecialisten en neurologen in jouw omgeving — geen aanmelding nodig.",
+    "searchCardTitle": "Waar moeten we zoeken?",
+    "searchCardDescription": "Voer je stad of postcode in, of gebruik je huidige locatie.",
+    "searchPlaceholder": "Zoek een stad (bijv. Amsterdam, Rotterdam…)",
+    "detecting": "Bezig met opsporen…",
+    "useMyLocation": "Gebruik mijn huidige locatie",
+    "usingCurrentLocation": "Jouw huidige locatie wordt gebruikt",
+    "mapUnavailable": "Kaart niet beschikbaar — configuratie ontbreekt.",
+    "mapPrompt": "Zoek hierboven naar een locatie om specialisten bij jou in de buurt op de kaart te zien.",
+    "resultsDisclaimer": "Resultaten komen van Google Maps en kunnen naast hoofdpijnspecialisten ook huisartsen en klinieken bevatten. Controleer altijd de kwalificaties van een zorgverlener en of deze nieuwe patiënten aanneemt voordat je een afspraak maakt.",
+    "ctaTitle": "Houd je triggers bij terwijl je op je afspraak wacht.",
+    "ctaDescription": "MigraineCast volgt luchtdruktrends voor jouw locatie en waarschuwt je vooraf bij weersgerelateerde aanvallen — nuttige gegevens om mee te nemen naar je volgende afspraak.",
+    "ctaButton": "Download MigraineCast Gratis",
+    "faqTitle": "Veelgestelde Vragen",
+    "mapSearchQuery": "neuroloog hoofdpijnspecialist bij {location}",
+    "faqs": [
+      {
+        "question": "Welke arts behandelt migraine?",
+        "answer": "Neurologen zijn de specialisten die het vaakst zijn opgeleid om migraine te diagnosticeren en te behandelen, vooral degenen met een subspecialisatie in hoofdpijngeneeskunde. Huisartsen kunnen migraine ook behandelen, maar bij frequente, ernstige of moeilijk onder controle te krijgen aanvallen is een neuroloog of hoofdpijnspecialist meestal de juiste verwijzing."
+      },
+      {
+        "question": "Wanneer moet ik een specialist raadplegen voor migraine?",
+        "answer": "Overweeg een specialist te raadplegen als je vaker dan een paar keer per maand migraine hebt, als vrij verkrijgbare medicijnen niet helpen, als je hoofdpijn erger wordt of van karakter verandert, of als je voor het eerst visuele aura, gevoelloosheid of andere neurologische symptomen ervaart."
+      },
+      {
+        "question": "Wat is het verschil tussen een neuroloog en een hoofdpijnspecialist?",
+        "answer": "Een neuroloog behandelt aandoeningen van de hersenen en het zenuwstelsel in het algemeen, waaronder migraine. Een hoofdpijnspecialist is een neuroloog (of soms een ander type arts) die extra fellowship-opleiding heeft gevolgd specifiek in hoofdpijngeneeskunde, gericht op migraine, clusterhoofdpijn en andere chronische hoofdpijnaandoeningen."
+      },
+      {
+        "question": "Hoe bereid ik me voor op mijn eerste afspraak met een migrainespecialist?",
+        "answer": "Neem een overzicht mee van hoe vaak je aanvallen hebt, hoe lang ze duren en wat je typische symptomen zijn, samen met medicijnen die je hebt geprobeerd en hoe goed die werkten. Door mogelijke triggers te noteren — zoals weer, slaap, voeding en stresspatronen — krijgt de specialist een veel duidelijker beeld om mee te werken. Tools zoals de Trigger Pattern Analyzer van MigraineCast kunnen je helpen deze geschiedenis voor je bezoek te ordenen."
+      },
+      {
+        "question": "Wordt een bezoek aan een hoofdpijnspecialist vergoed door mijn zorgverzekering?",
+        "answer": "De meeste zorgverzekeringen vergoeden bezoeken aan neurologen en hoofdpijnspecialisten, hoewel vaak eerst een verwijzing van je huisarts nodig is. De vergoeding verschilt per verzekering, dus het is de moeite waard om vooraf te bellen om de verwijzingsvereisten te controleren en of een specifieke zorgverlener gecontracteerd is."
+      }
+    ]
+  },
   "Navigation": {
     "whatIsMigraineCast": "Wat is MigraineCast?",
     "blog": "Blog",
@@ -19,7 +64,10 @@
   "LocaleSwitcher": {
     "label": "Taal",
     "en": "English",
-    "nl": "Nederlands"
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español"
   },
   "Footer": {
     "tagline": "Weergebaseerde migrainevoorspelling voor iPhone.",

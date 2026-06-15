@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -9,11 +9,13 @@ import { routing } from "@/i18n/routing";
 export function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [localeMenuOpen, setLocaleMenuOpen] = useState(false);
   const [theme, setTheme] = useState<"dark" | "light">("light");
   const pathname = usePathname();
   const locale = useLocale();
   const t = useTranslations("Navigation");
   const tLocale = useTranslations("LocaleSwitcher");
+  const localeMenuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const saved = (localStorage.getItem("theme") as "dark" | "light") || "dark";
@@ -28,7 +30,19 @@ export function Navigation() {
 
   useEffect(() => {
     setMobileMenuOpen(false);
+    setLocaleMenuOpen(false);
   }, [pathname]);
+
+  useEffect(() => {
+    if (!localeMenuOpen) return;
+    const handleClickOutside = (e: MouseEvent) => {
+      if (localeMenuRef.current && !localeMenuRef.current.contains(e.target as Node)) {
+        setLocaleMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [localeMenuOpen]);
 
   const toggleTheme = () => {
     const next = theme === "dark" ? "light" : "dark";
@@ -96,22 +110,36 @@ export function Navigation() {
 
         <div className="flex items-center gap-3">
           {/* Locale switcher */}
-          <div className="hidden sm:flex items-center gap-1 text-sm font-medium text-text-muted">
-            {routing.locales.map((loc, i) => (
-              <span key={loc} className="flex items-center">
-                {i > 0 && <span className="mx-1 text-text-subtle">/</span>}
-                <Link
-                  href={pathname}
-                  locale={loc}
-                  className={`transition-colors uppercase ${
-                    locale === loc ? "text-accent-soft" : "hover:text-text"
-                  }`}
-                  aria-label={tLocale(loc)}
-                >
-                  {loc}
-                </Link>
-              </span>
-            ))}
+          <div className="hidden sm:block relative" ref={localeMenuRef}>
+            <button
+              onClick={() => setLocaleMenuOpen((open) => !open)}
+              className="flex items-center gap-1.5 text-sm font-medium text-text-muted hover:text-text transition-colors px-2 py-1.5 rounded-full hover:bg-surface/40"
+              aria-label={tLocale("label")}
+              aria-expanded={localeMenuOpen}
+            >
+              <svg viewBox="0 0 24 24" className="w-4 h-4 fill-none stroke-current stroke-[1.5]">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              </svg>
+              <span className="uppercase">{locale}</span>
+            </button>
+
+            {localeMenuOpen && (
+              <div className="absolute top-full right-0 mt-2 glass-card rounded-xl overflow-hidden shadow-xl z-20 min-w-[140px]">
+                {routing.locales.map((loc) => (
+                  <Link
+                    key={loc}
+                    href={pathname}
+                    locale={loc}
+                    className={`block px-4 py-2.5 text-sm transition-colors hover:bg-accent/10 ${
+                      locale === loc ? "text-accent-soft font-semibold" : "text-text-muted hover:text-text"
+                    }`}
+                  >
+                    {tLocale(loc)}
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Theme toggle */}
@@ -194,18 +222,19 @@ export function Navigation() {
               <span className="w-1.5 h-1.5 rounded-full bg-accent inline-block" />
               {courseLink.label}
             </Link>
-            <div className="flex items-center gap-3 pt-2 text-sm font-medium text-text-muted">
+            <div className="flex flex-wrap gap-2 pt-2 text-sm font-medium text-text-muted">
               {routing.locales.map((loc) => (
                 <Link
                   key={loc}
                   href={pathname}
                   locale={loc}
-                  className={`uppercase transition-colors ${
-                    locale === loc ? "text-accent-soft" : "hover:text-text"
+                  className={`px-3 py-1.5 rounded-full border transition-colors ${
+                    locale === loc
+                      ? "text-accent-soft border-accent/40 bg-accent/10"
+                      : "border-surface/80 hover:text-text hover:border-surface"
                   }`}
-                  aria-label={tLocale(loc)}
                 >
-                  {loc}
+                  {tLocale(loc)}
                 </Link>
               ))}
             </div>

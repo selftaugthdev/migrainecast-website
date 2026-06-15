@@ -1,0 +1,197 @@
+{
+  "Layout": {
+    "metadataTitle": "MigraineCast — Prédisez les migraines avant qu'elles ne surviennent",
+    "metadataDescription": "MigraineCast vous aide à repérer les schémas de migraine liés à la météo, à la pression et aux déclencheurs — pour que les crises ne surviennent plus par surprise.",
+    "organizationDescription": "MigraineCast aide les personnes souffrant de migraine à prédire et à se préparer aux crises en suivant les schémas liés à la météo, à la pression atmosphérique et aux déclencheurs personnels.",
+    "websiteDescription": "Prédisez les migraines avant qu'elles ne surviennent avec MigraineCast. Suivez les schémas, comprenez les déclencheurs météo et reprenez le contrôle."
+  },
+  "SpecialistFinder": {
+    "metaTitle": "Trouvez un spécialiste de la migraine près de chez vous | MigraineCast",
+    "metaDescription": "Recherchez sur une carte interactive des spécialistes des céphalées et des neurologues près de chez vous. Outil gratuit, sans inscription.",
+    "ogTitle": "Trouvez un spécialiste de la migraine près de chez vous",
+    "allFreeTools": "Tous les outils gratuits",
+    "freeTool": "Outil gratuit",
+    "heroTitle": "Trouvez un <em>spécialiste de la migraine</em> près de chez vous",
+    "heroDescription": "Recherchez des spécialistes des céphalées, de la migraine et des neurologues dans votre région sur une carte interactive — sans inscription.",
+    "searchCardTitle": "Où devons-nous chercher ?",
+    "searchCardDescription": "Saisissez votre ville ou votre code postal, ou utilisez votre position actuelle.",
+    "searchPlaceholder": "Rechercher une ville (ex. Paris, Lyon…)",
+    "detecting": "Détection en cours…",
+    "useMyLocation": "Utiliser ma position actuelle",
+    "usingCurrentLocation": "Utilisation de votre position actuelle",
+    "mapUnavailable": "Carte indisponible — configuration manquante.",
+    "mapPrompt": "Recherchez un lieu ci-dessus pour voir les spécialistes près de vous sur la carte.",
+    "resultsDisclaimer": "Les résultats proviennent de Google Maps et peuvent inclure des médecins généralistes et des cliniques en plus des spécialistes des céphalées. Vérifiez toujours les qualifications d'un praticien et qu'il accepte de nouveaux patients avant de prendre rendez-vous.",
+    "ctaTitle": "En attendant votre rendez-vous, suivez vos déclencheurs.",
+    "ctaDescription": "MigraineCast suit les tendances de pression atmosphérique pour votre emplacement et vous avertit à l'avance des crises liées à la météo — des données utiles à apporter à votre prochain rendez-vous.",
+    "ctaButton": "Télécharger MigraineCast gratuitement",
+    "faqTitle": "Questions fréquentes",
+    "mapSearchQuery": "neurologue spécialiste des céphalées près de {location}",
+    "faqs": [
+      {
+        "question": "Quel type de médecin traite la migraine ?",
+        "answer": "Les neurologues sont les spécialistes les plus souvent formés pour diagnostiquer et traiter la migraine, en particulier ceux ayant une sous-spécialité en médecine des céphalées. Les médecins généralistes peuvent également gérer la migraine, mais un neurologue ou un spécialiste des céphalées est généralement l'orientation appropriée pour les crises fréquentes, sévères ou difficiles à contrôler."
+      },
+      {
+        "question": "Quand dois-je consulter un spécialiste pour la migraine ?",
+        "answer": "Envisagez de consulter un spécialiste si vous avez des migraines plus de quelques fois par mois, si les médicaments en vente libre n'aident pas, si vos maux de tête s'aggravent ou changent de caractère, ou si vous présentez pour la première fois une aura visuelle, des engourdissements ou d'autres symptômes neurologiques."
+      },
+      {
+        "question": "Quelle est la différence entre un neurologue et un spécialiste des céphalées ?",
+        "answer": "Un neurologue traite de manière générale les affections du cerveau et du système nerveux, y compris la migraine. Un spécialiste des céphalées est un neurologue (ou parfois un autre type de médecin) qui a suivi une formation complémentaire spécifiquement en médecine des céphalées, axée sur la migraine, l'algie vasculaire de la face et d'autres troubles céphalalgiques chroniques."
+      },
+      {
+        "question": "Comment me préparer pour mon premier rendez-vous avec un spécialiste de la migraine ?",
+        "answer": "Apportez un relevé de la fréquence, de la durée et des symptômes habituels de vos crises, ainsi que les médicaments que vous avez essayés et leur efficacité. Noter les déclencheurs potentiels — météo, sommeil, alimentation et stress — donne au spécialiste une image beaucoup plus claire. Des outils comme le Trigger Pattern Analyzer de MigraineCast peuvent vous aider à organiser cet historique avant votre visite."
+      },
+      {
+        "question": "Mon assurance couvrira-t-elle une visite chez un spécialiste des céphalées ?",
+        "answer": "La plupart des assurances couvrent les visites chez les neurologues et les spécialistes des céphalées, bien que beaucoup exigent d'abord une orientation de votre médecin généraliste. La couverture varie selon le contrat, il est donc utile d'appeler au préalable pour confirmer les exigences d'orientation et si un praticien donné est conventionné."
+      }
+    ]
+  },
+  "Navigation": {
+    "whatIsMigraineCast": "Qu'est-ce que MigraineCast ?",
+    "blog": "Blog",
+    "freeTools": "Outils gratuits",
+    "support": "Support",
+    "freeCourse": "Cours gratuit",
+    "downloadFree": "Télécharger gratuitement",
+    "switchToLight": "Passer au mode clair",
+    "switchToDark": "Passer au mode sombre",
+    "toggleMenu": "Ouvrir ou fermer le menu"
+  },
+  "LocaleSwitcher": {
+    "label": "Langue",
+    "en": "English",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español"
+  },
+  "Footer": {
+    "tagline": "Prévisions de migraine basées sur la météo pour iPhone.",
+    "links": "Liens",
+    "freeCourse": "Cours gratuit",
+    "blog": "Blog",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "support": "Support",
+    "freeToolsHeading": "Outils gratuits",
+    "weatherTriggerChecker": "Vérificateur de déclencheurs météo",
+    "allFreeTools": "Tous les outils gratuits",
+    "recentPosts": "Articles récents",
+    "copyright": "© {year} MigraineCast. Tous droits réservés."
+  },
+  "FeatureCards": {
+    "items": [
+      {
+        "title": "Enregistrez une migraine en moins de 10 secondes",
+        "desc": "Un suivi rapide qui ne ressemble pas à une contrainte"
+      },
+      {
+        "title": "Comprenez vos déclencheurs météo",
+        "desc": "MigraineCast relie automatiquement vos crises aux chutes de pression atmosphérique, aux tempêtes et aux fronts météorologiques"
+      },
+      {
+        "title": "Découvrez ce qui déclenche vraiment vos migraines",
+        "desc": "Visualisez des schémas sur des semaines et des mois — quels jours, saisons et conditions précèdent systématiquement vos crises"
+      },
+      {
+        "title": "Sachez quand un jour à risque arrive",
+        "desc": "Recevez une prévision de risque de migraine sur 48 heures basée sur la météo à venir — pour vous préparer, pas seulement réagir"
+      },
+      {
+        "title": "Rapport PDF pour votre neurologue",
+        "desc": "Générez un PDF prêt à présenter avec l'historique de vos crises, vos déclencheurs et les corrélations météo — à apporter à votre prochain rendez-vous"
+      }
+    ]
+  },
+  "HomePage": {
+    "hero": {
+      "badge": "Disponible sur iPhone",
+      "title": "Sachez qu'une migraine arrive <em>avant</em> qu'elle ne survienne",
+      "description": "Les chutes de pression atmosphérique et les changements météorologiques déclenchent discrètement vos migraines depuis des années. MigraineCast vous montre le schéma — et vous prévient <b>jusqu'à 48 heures à l'avance</b>, pour que vous puissiez protéger vos journées au lieu de les perdre.",
+      "downloadCta": "Télécharger gratuitement sur iPhone",
+      "howItHelps": "Comment ça aide",
+      "rating": "<b>4,8</b> sur l'App Store · <b>27+</b> pays"
+    },
+    "solution": {
+      "label": "La solution",
+      "title": "Arrêtez de réagir. Commencez à prédire.",
+      "description": "MigraineCast s'occupe du suivi, de l'analyse et des alertes — il ne vous reste qu'à vivre votre vie.",
+      "highlight": "Pas de tableurs. Pas de conjectures. Pas de jargon médical."
+    },
+    "howItWorks": {
+      "label": "Comment ça marche",
+      "title": "Assez simple pour vraiment s'y tenir",
+      "description": "Pas de configuration complexe. Pas de journal pendant des heures. Juste quelques clics — et MigraineCast s'occupe du reste.",
+      "steps": [
+        {
+          "title": "Enregistrez en quelques secondes, pas en minutes",
+          "desc": "Enregistrez une crise en quelques clics. Pas de formulaires interminables, pas de friction — seulement les données qui aident vraiment à identifier vos déclencheurs."
+        },
+        {
+          "title": "Nous le relions à votre météo",
+          "desc": "MigraineCast relie automatiquement chaque crise à la pression atmosphérique et aux changements météo à votre emplacement exact — sans saisie manuelle."
+        },
+        {
+          "title": "Voyez ce qui arrive — 48 heures à l'avance",
+          "desc": "Recevez une prévision de risque personnalisée avant l'apparition de conditions dangereuses. Protégez vos plans au lieu de les annuler."
+        }
+      ]
+    },
+    "testimonial": {
+      "quote": "Toutes mes migraines correspondaient aux jours à risque élevé ou moyen dans l'application. Je comprends enfin ce qui se passe.",
+      "author": "— Selen B., avis vérifié sur l'App Store"
+    },
+    "course": {
+      "badge": "Cours gratuit par e-mail",
+      "title": "Ce que personne ne vous a dit sur la météo et les migraines",
+      "description": "Comprenez enfin pourquoi les changements météo vous donnent mal à la tête. 7 jours d'informations scientifiques livrées dans votre boîte de réception — gratuitement.",
+      "checklist": [
+        "Pourquoi les chutes de pression déclenchent des migraines avant la tempête",
+        "La sensibilité météo cachée de votre cerveau expliquée",
+        "Des stratégies pratiques pour vous préparer et vous protéger"
+      ],
+      "cta": "Obtenir un accès gratuit",
+      "days": [
+        { "day": "Jour 1", "title": "Pourquoi la météo vous donne-t-elle des migraines ?" },
+        { "day": "Jour 2", "title": "La pression atmosphérique : le déclencheur silencieux" },
+        { "day": "Jour 3", "title": "Le lien avec la foudre (oui, vraiment)" },
+        { "day": "Jour 4", "title": "Température, humidité et le facteur chaleur" },
+        { "day": "Jour 5", "title": "Rendre votre vie résistante à la météo" },
+        { "day": "Jour 6", "title": "La méthode la plus intelligente pour suivre les déclencheurs météo" },
+        { "day": "Jour 7", "title": "Reprendre le contrôle des déclencheurs météo" }
+      ]
+    },
+    "isThisYou": {
+      "label": "Est-ce vous ?",
+      "title": "Conçu pour les vraies personnes souffrant de migraine",
+      "items": [
+        "Vous avez annulé des projets à cause d'une migraine surgie de nulle part",
+        "Vous suspectez que la météo est un déclencheur — mais vous ne pouvez pas encore le prouver",
+        "Votre médecin a dit 'tenez juste un journal' et vous l'avez essayé, mais ça n'a pas aidé",
+        "Vous voulez vous préparer aux crises, pas seulement y réagir"
+      ]
+    },
+    "finalCta": {
+      "titleLine1": "Arrêtez de deviner.",
+      "titleLine2": "Commencez à voir des schémas.",
+      "description": "Rejoignez les personnes souffrant de migraine dans plus de 27 pays qui comprennent enfin leurs déclencheurs — et voient les crises arriver avant qu'elles ne surviennent.",
+      "downloadCta": "Télécharger gratuitement sur iPhone",
+      "freeNote": "Téléchargement gratuit — les fonctionnalités premium débloquent des informations plus approfondies",
+      "availableOn": "Disponible sur iOS"
+    },
+    "schema": {
+      "description": "MigraineCast suit la pression atmosphérique et les schémas météorologiques pour prédire le risque de migraine jusqu'à 48 heures à l'avance — pour que les crises ne surviennent plus par surprise.",
+      "featureList": [
+        "Suivi rapide des symptômes de migraine",
+        "Corrélation automatique météo et pression",
+        "Reconnaissance de schémas et informations",
+        "Alertes précoces à 48 heures pour les conditions à risque",
+        "Rapport PDF pour les rendez-vous chez le neurologue"
+      ]
+    }
+  }
+}

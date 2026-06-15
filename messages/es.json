@@ -1,0 +1,197 @@
+{
+  "Layout": {
+    "metadataTitle": "MigraineCast — Predice las migrañas antes de que aparezcan",
+    "metadataDescription": "MigraineCast te ayuda a detectar patrones de migraña relacionados con el clima, la presión y los desencadenantes — para que las crisis no te tomen por sorpresa.",
+    "organizationDescription": "MigraineCast ayuda a las personas con migraña a predecir y prepararse para las crisis siguiendo patrones relacionados con el clima, la presión atmosférica y los desencadenantes personales.",
+    "websiteDescription": "Predice las migrañas antes de que aparezcan con MigraineCast. Sigue patrones, comprende los desencadenantes climáticos y retoma el control."
+  },
+  "SpecialistFinder": {
+    "metaTitle": "Encuentra un especialista en migraña cerca de ti | MigraineCast",
+    "metaDescription": "Busca en un mapa interactivo especialistas en cefaleas y neurólogos cerca de ti. Herramienta gratuita, sin necesidad de registrarte.",
+    "ogTitle": "Encuentra un especialista en migraña cerca de ti",
+    "allFreeTools": "Todas las herramientas gratuitas",
+    "freeTool": "Herramienta gratuita",
+    "heroTitle": "Encuentra un <em>especialista en migraña</em> cerca de ti",
+    "heroDescription": "Busca especialistas en cefaleas, migraña y neurólogos en tu zona en un mapa interactivo — sin necesidad de registrarte.",
+    "searchCardTitle": "¿Dónde deberíamos buscar?",
+    "searchCardDescription": "Introduce tu ciudad o código postal, o usa tu ubicación actual.",
+    "searchPlaceholder": "Busca una ciudad (p. ej. Madrid, Barcelona…)",
+    "detecting": "Detectando…",
+    "useMyLocation": "Usar mi ubicación actual",
+    "usingCurrentLocation": "Usando tu ubicación actual",
+    "mapUnavailable": "Mapa no disponible — falta configuración.",
+    "mapPrompt": "Busca una ubicación arriba para ver especialistas cerca de ti en el mapa.",
+    "resultsDisclaimer": "Los resultados provienen de Google Maps y pueden incluir médicos de familia y clínicas además de especialistas en cefaleas. Verifica siempre las credenciales de un proveedor y si acepta nuevos pacientes antes de reservar.",
+    "ctaTitle": "Mientras esperas tu cita, registra tus desencadenantes.",
+    "ctaDescription": "MigraineCast sigue las tendencias de presión atmosférica en tu ubicación y te avisa con antelación de crisis relacionadas con el clima — datos útiles para tu próxima cita.",
+    "ctaButton": "Descargar MigraineCast gratis",
+    "faqTitle": "Preguntas frecuentes",
+    "mapSearchQuery": "neurólogo especialista en cefaleas cerca de {location}",
+    "faqs": [
+      {
+        "question": "¿Qué tipo de médico trata la migraña?",
+        "answer": "Los neurólogos son los especialistas con más formación para diagnosticar y tratar la migraña, especialmente aquellos con subespecialidad en medicina de cefaleas. Los médicos de atención primaria también pueden tratar la migraña, pero un neurólogo o especialista en cefaleas suele ser la derivación adecuada para crisis frecuentes, graves o difíciles de controlar."
+      },
+      {
+        "question": "¿Cuándo debo consultar a un especialista por migrañas?",
+        "answer": "Considera consultar a un especialista si tienes migrañas más de unas pocas veces al mes, si los medicamentos de venta libre no ayudan, si tus dolores de cabeza empeoran o cambian de carácter, o si experimentas por primera vez aura visual, entumecimiento u otros síntomas neurológicos."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre un neurólogo y un especialista en cefaleas?",
+        "answer": "Un neurólogo trata afecciones del cerebro y el sistema nervioso en general, incluida la migraña. Un especialista en cefaleas es un neurólogo (o a veces otro tipo de médico) que ha completado formación adicional específica en medicina de cefaleas, centrada en la migraña, la cefalea en racimos y otros trastornos crónicos de cefalea."
+      },
+      {
+        "question": "¿Cómo me preparo para mi primera cita con un especialista en migraña?",
+        "answer": "Lleva un registro de la frecuencia, duración y síntomas habituales de tus crisis, junto con los medicamentos que has probado y su eficacia. Anotar posibles desencadenantes — como el clima, el sueño, la dieta y los patrones de estrés — le da al especialista una imagen mucho más clara. Herramientas como el Trigger Pattern Analyzer de MigraineCast pueden ayudarte a organizar este historial antes de tu visita."
+      },
+      {
+        "question": "¿Mi seguro cubrirá una visita a un especialista en cefaleas?",
+        "answer": "La mayoría de los seguros cubren las visitas a neurólogos y especialistas en cefaleas, aunque muchos requieren primero una derivación de tu médico de atención primaria. La cobertura varía según el plan, por lo que conviene llamar con antelación para confirmar los requisitos de derivación y si un proveedor concreto está dentro de la red."
+      }
+    ]
+  },
+  "Navigation": {
+    "whatIsMigraineCast": "¿Qué es MigraineCast?",
+    "blog": "Blog",
+    "freeTools": "Herramientas gratuitas",
+    "support": "Soporte",
+    "freeCourse": "Curso gratuito",
+    "downloadFree": "Descargar gratis",
+    "switchToLight": "Cambiar a modo claro",
+    "switchToDark": "Cambiar a modo oscuro",
+    "toggleMenu": "Abrir o cerrar el menú"
+  },
+  "LocaleSwitcher": {
+    "label": "Idioma",
+    "en": "English",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español"
+  },
+  "Footer": {
+    "tagline": "Pronóstico de migraña basado en el clima para iPhone.",
+    "links": "Enlaces",
+    "freeCourse": "Curso gratuito",
+    "blog": "Blog",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "support": "Soporte",
+    "freeToolsHeading": "Herramientas gratuitas",
+    "weatherTriggerChecker": "Comprobador de desencadenantes climáticos",
+    "allFreeTools": "Todas las herramientas gratuitas",
+    "recentPosts": "Publicaciones recientes",
+    "copyright": "© {year} MigraineCast. Todos los derechos reservados."
+  },
+  "FeatureCards": {
+    "items": [
+      {
+        "title": "Registra una migraña en menos de 10 segundos",
+        "desc": "Un registro rápido que no se siente como una tarea pesada"
+      },
+      {
+        "title": "Comprende tus desencadenantes climáticos",
+        "desc": "MigraineCast conecta automáticamente tus crisis con caídas de presión atmosférica, tormentas y frentes meteorológicos"
+      },
+      {
+        "title": "Descubre qué desencadena realmente tus migrañas",
+        "desc": "Observa patrones a lo largo de semanas y meses — qué días, estaciones y condiciones preceden constantemente a tus crisis"
+      },
+      {
+        "title": "Sabe cuándo se acerca un día de alto riesgo",
+        "desc": "Recibe un pronóstico de riesgo de migraña de 48 horas basado en el clima previsto — para que puedas prepararte, no solo reaccionar"
+      },
+      {
+        "title": "Informe en PDF para tu neurólogo",
+        "desc": "Genera un PDF listo para mostrar con tu historial de crisis, desencadenantes y correlaciones climáticas — para llevar a tu próxima cita"
+      }
+    ]
+  },
+  "HomePage": {
+    "hero": {
+      "badge": "Disponible en iPhone",
+      "title": "Sabe que una migraña se acerca <em>antes</em> de que aparezca",
+      "description": "Las caídas de presión atmosférica y los cambios climáticos llevan años desencadenando tus migrañas en silencio. MigraineCast te muestra el patrón — y te avisa <b>hasta 48 horas antes</b>, para que puedas proteger tus días en lugar de perderlos.",
+      "downloadCta": "Descargar gratis en iPhone",
+      "howItHelps": "Cómo ayuda",
+      "rating": "<b>4,8</b> en la App Store · <b>27+</b> países"
+    },
+    "solution": {
+      "label": "La solución",
+      "title": "Deja de reaccionar. Empieza a predecir.",
+      "description": "MigraineCast se encarga del seguimiento, el análisis y las alertas — tú solo tienes que vivir tu vida.",
+      "highlight": "Sin hojas de cálculo. Sin conjeturas. Sin jerga médica."
+    },
+    "howItWorks": {
+      "label": "Cómo funciona",
+      "title": "Lo bastante sencillo para mantenerlo",
+      "description": "Sin configuraciones complejas. Sin diarios de horas. Solo unos toques — y MigraineCast se encarga del resto.",
+      "steps": [
+        {
+          "title": "Registra en segundos, no en minutos",
+          "desc": "Registra una crisis en unos pocos toques. Sin formularios largos, sin fricción — solo los datos que realmente ayudan a identificar tus desencadenantes."
+        },
+        {
+          "title": "Lo conectamos con tu clima",
+          "desc": "MigraineCast vincula automáticamente cada crisis con la presión atmosférica y los cambios climáticos en tu ubicación exacta — sin entrada manual."
+        },
+        {
+          "title": "Mira lo que viene — 48 horas antes",
+          "desc": "Recibe un pronóstico de riesgo personalizado antes de que lleguen condiciones peligrosas. Protege tus planes en lugar de cancelarlos."
+        }
+      ]
+    },
+    "testimonial": {
+      "quote": "Todas mis migrañas coincidían con días de riesgo alto o medio en la app. Por fin entiendo lo que está pasando.",
+      "author": "— Selen B., reseña verificada de App Store"
+    },
+    "course": {
+      "badge": "Curso gratuito por correo",
+      "title": "Lo que nadie te contó sobre el clima y las migrañas",
+      "description": "Comprende por fin por qué los cambios de clima te destrozan la cabeza. 7 días de información respaldada por la ciencia directamente en tu bandeja de entrada — gratis.",
+      "checklist": [
+        "Por qué las caídas de presión desencadenan migrañas antes de la tormenta",
+        "La sensibilidad oculta de tu cerebro al clima, explicada",
+        "Estrategias prácticas para prepararte y protegerte"
+      ],
+      "cta": "Obtener acceso gratuito",
+      "days": [
+        { "day": "Día 1", "title": "¿Por qué el clima te da migrañas?" },
+        { "day": "Día 2", "title": "Presión atmosférica: el desencadenante silencioso" },
+        { "day": "Día 3", "title": "La conexión con los rayos (sí, en serio)" },
+        { "day": "Día 4", "title": "Temperatura, humedad y el factor calor" },
+        { "day": "Día 5", "title": "Preparar tu vida para el clima" },
+        { "day": "Día 6", "title": "La forma más inteligente de seguir los desencadenantes climáticos" },
+        { "day": "Día 7", "title": "Retomar el control de los desencadenantes climáticos" }
+      ]
+    },
+    "isThisYou": {
+      "label": "¿Eres tú?",
+      "title": "Creado para personas reales con migraña",
+      "items": [
+        "Has cancelado planes por una migraña que apareció de la nada",
+        "Sospechas que el clima es un desencadenante — pero aún no puedes probarlo",
+        "Tu médico dijo 'simplemente lleva un registro' y lo intentaste, pero no ayudó",
+        "Quieres prepararte para las crisis, no solo reaccionar ante ellas"
+      ]
+    },
+    "finalCta": {
+      "titleLine1": "Deja de adivinar.",
+      "titleLine2": "Empieza a ver patrones.",
+      "description": "Únete a personas con migraña en más de 27 países que por fin entienden sus desencadenantes — y ven venir las crisis antes de que aparezcan.",
+      "downloadCta": "Descargar gratis en iPhone",
+      "freeNote": "Descarga gratuita — las funciones premium desbloquean información más profunda",
+      "availableOn": "Disponible en iOS"
+    },
+    "schema": {
+      "description": "MigraineCast sigue la presión atmosférica y los patrones climáticos para predecir el riesgo de migraña hasta 48 horas antes — para que las crisis no te tomen por sorpresa.",
+      "featureList": [
+        "Seguimiento rápido de síntomas de migraña",
+        "Correlación automática de clima y presión",
+        "Reconocimiento de patrones e información",
+        "Alertas tempranas de 48 horas para condiciones de riesgo",
+        "Informe en PDF para citas con el neurólogo"
+      ]
+    }
+  }
+}

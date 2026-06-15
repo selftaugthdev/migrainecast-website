@@ -1,0 +1,197 @@
+{
+  "Layout": {
+    "metadataTitle": "MigraineCast — Migräne vorhersagen, bevor sie zuschlägt",
+    "metadataDescription": "MigraineCast hilft dir, Migränemuster zu erkennen, die mit Wetter, Luftdruck und Triggern zusammenhängen — damit Anfälle dich nicht mehr überraschen.",
+    "organizationDescription": "MigraineCast hilft Menschen mit Migräne, Anfälle vorherzusagen und sich darauf vorzubereiten, indem Muster im Zusammenhang mit Wetter, Luftdruck und persönlichen Triggern erfasst werden.",
+    "websiteDescription": "Migräne vorhersagen, bevor sie zuschlägt — mit MigraineCast. Muster erkennen, Wettertrigger verstehen und die Kontrolle zurückgewinnen."
+  },
+  "SpecialistFinder": {
+    "metaTitle": "Finde einen Migränespezialisten in deiner Nähe | MigraineCast",
+    "metaDescription": "Durchsuche eine interaktive Karte, um Kopfschmerzspezialisten und Neurologen in deiner Nähe zu finden. Kostenloses Tool, keine Anmeldung erforderlich.",
+    "ogTitle": "Finde einen Migränespezialisten in deiner Nähe",
+    "allFreeTools": "Alle kostenlosen Tools",
+    "freeTool": "Kostenloses Tool",
+    "heroTitle": "Finde einen <em>Migränespezialisten</em> in deiner Nähe",
+    "heroDescription": "Suche auf einer interaktiven Karte nach Kopfschmerz- und Migränespezialisten sowie Neurologen in deiner Umgebung — keine Anmeldung erforderlich.",
+    "searchCardTitle": "Wo sollen wir suchen?",
+    "searchCardDescription": "Gib deine Stadt oder Postleitzahl ein oder nutze deinen aktuellen Standort.",
+    "searchPlaceholder": "Stadt suchen (z. B. Berlin, München…)",
+    "detecting": "Wird ermittelt…",
+    "useMyLocation": "Meinen aktuellen Standort verwenden",
+    "usingCurrentLocation": "Dein aktueller Standort wird verwendet",
+    "mapUnavailable": "Karte nicht verfügbar — Konfiguration fehlt.",
+    "mapPrompt": "Suche oben nach einem Standort, um Spezialisten in deiner Nähe auf der Karte zu sehen.",
+    "resultsDisclaimer": "Die Ergebnisse stammen von Google Maps und können neben Kopfschmerzspezialisten auch Hausärzte und Kliniken enthalten. Überprüfe vor einer Terminbuchung immer die Qualifikationen eines Anbieters und ob er neue Patienten aufnimmt.",
+    "ctaTitle": "Während du auf deinen Termin wartest, verfolge deine Trigger.",
+    "ctaDescription": "MigraineCast verfolgt Luftdrucktrends für deinen Standort und warnt dich frühzeitig vor wetterbedingten Anfällen — nützliche Daten für deinen nächsten Termin.",
+    "ctaButton": "MigraineCast kostenlos herunterladen",
+    "faqTitle": "Häufig gestellte Fragen",
+    "mapSearchQuery": "Neurologe Kopfschmerzspezialist in der Nähe von {location}",
+    "faqs": [
+      {
+        "question": "Welcher Arzt behandelt Migräne?",
+        "answer": "Neurologen sind die Spezialisten, die am häufigsten für die Diagnose und Behandlung von Migräne ausgebildet sind, insbesondere jene mit einer Zusatzqualifikation in Kopfschmerzmedizin. Hausärzte können Migräne ebenfalls behandeln, aber bei häufigen, schweren oder schwer kontrollierbaren Anfällen ist meist eine Überweisung zu einem Neurologen oder Kopfschmerzspezialisten richtig."
+      },
+      {
+        "question": "Wann sollte ich wegen Migräne einen Spezialisten aufsuchen?",
+        "answer": "Erwäge einen Spezialisten aufzusuchen, wenn du häufiger als ein paar Mal im Monat Migräne hast, wenn frei verkäufliche Medikamente nicht helfen, wenn deine Kopfschmerzen schlimmer werden oder sich verändern, oder wenn du zum ersten Mal visuelle Auren, Taubheitsgefühle oder andere neurologische Symptome erlebst."
+      },
+      {
+        "question": "Was ist der Unterschied zwischen einem Neurologen und einem Kopfschmerzspezialisten?",
+        "answer": "Ein Neurologe behandelt Erkrankungen des Gehirns und des Nervensystems im Allgemeinen, einschließlich Migräne. Ein Kopfschmerzspezialist ist ein Neurologe (oder manchmal ein anderer Arzttyp), der eine zusätzliche Fortbildung speziell in Kopfschmerzmedizin abgeschlossen hat, mit Schwerpunkt auf Migräne, Clusterkopfschmerz und anderen chronischen Kopfschmerzerkrankungen."
+      },
+      {
+        "question": "Wie bereite ich mich auf meinen ersten Termin bei einem Migränespezialisten vor?",
+        "answer": "Bringe Aufzeichnungen über die Häufigkeit, Dauer und typischen Symptome deiner Anfälle mit, zusammen mit allen Medikamenten, die du ausprobiert hast, und wie gut sie gewirkt haben. Das Notieren möglicher Trigger — wie Wetter, Schlaf, Ernährung und Stressmuster — gibt dem Spezialisten ein viel klareres Bild. Tools wie der Trigger Pattern Analyzer von MigraineCast können dir helfen, diese Geschichte vor deinem Besuch zu ordnen."
+      },
+      {
+        "question": "Übernimmt meine Krankenversicherung einen Besuch bei einem Kopfschmerzspezialisten?",
+        "answer": "Die meisten Krankenversicherungen übernehmen Besuche bei Neurologen und Kopfschmerzspezialisten, oft ist jedoch zuerst eine Überweisung von deinem Hausarzt erforderlich. Die Deckung variiert je nach Versicherung, daher lohnt es sich, vorher anzurufen, um die Überweisungsanforderungen zu klären und zu prüfen, ob ein bestimmter Anbieter im Netz ist."
+      }
+    ]
+  },
+  "Navigation": {
+    "whatIsMigraineCast": "Was ist MigraineCast?",
+    "blog": "Blog",
+    "freeTools": "Kostenlose Tools",
+    "support": "Support",
+    "freeCourse": "Kostenloser Kurs",
+    "downloadFree": "Kostenlos herunterladen",
+    "switchToLight": "Zum hellen Modus wechseln",
+    "switchToDark": "Zum dunklen Modus wechseln",
+    "toggleMenu": "Menü öffnen oder schließen"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache",
+    "en": "English",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español"
+  },
+  "Footer": {
+    "tagline": "Wetterbasierte Migräne-Vorhersage für iPhone.",
+    "links": "Links",
+    "freeCourse": "Kostenloser Kurs",
+    "blog": "Blog",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "support": "Support",
+    "freeToolsHeading": "Kostenlose Tools",
+    "weatherTriggerChecker": "Wetter-Trigger-Checker",
+    "allFreeTools": "Alle kostenlosen Tools",
+    "recentPosts": "Neueste Beiträge",
+    "copyright": "© {year} MigraineCast. Alle Rechte vorbehalten."
+  },
+  "FeatureCards": {
+    "items": [
+      {
+        "title": "Migräne in unter 10 Sekunden erfassen",
+        "desc": "Schnelle Erfassung, die sich nicht wie eine Pflicht anfühlt"
+      },
+      {
+        "title": "Verstehe deine Wettertrigger",
+        "desc": "MigraineCast verbindet deine Anfälle automatisch mit Luftdruckabfällen, Stürmen und Wetterfronten"
+      },
+      {
+        "title": "Finde heraus, was deine Migräne wirklich auslöst",
+        "desc": "Erkenne Muster über Wochen und Monate — welche Tage, Jahreszeiten und Bedingungen deinen Anfällen regelmäßig vorausgehen"
+      },
+      {
+        "title": "Wisse, wenn ein Risikotag bevorsteht",
+        "desc": "Erhalte eine 48-Stunden-Migräne-Risikoprognose basierend auf dem kommenden Wetter — so kannst du dich vorbereiten, statt nur zu reagieren"
+      },
+      {
+        "title": "PDF-Bericht für deinen Neurologen",
+        "desc": "Erstelle einen PDF-Bericht deiner Anfallshistorie, Trigger und Wetterkorrelationen — bereit für deinen nächsten Termin"
+      }
+    ]
+  },
+  "HomePage": {
+    "hero": {
+      "badge": "Verfügbar für iPhone",
+      "title": "Wisse, dass eine Migräne kommt, <em>bevor</em> sie zuschlägt",
+      "description": "Luftdruckabfälle und Wetterveränderungen lösen seit Jahren unbemerkt deine Migräne aus. MigraineCast zeigt dir das Muster — und warnt dich <b>bis zu 48 Stunden vorher</b>, damit du deine Tage schützen kannst, statt sie zu verlieren.",
+      "downloadCta": "Kostenlos für iPhone herunterladen",
+      "howItHelps": "So hilft es",
+      "rating": "<b>4,8</b> im App Store · <b>27+</b> Länder"
+    },
+    "solution": {
+      "label": "Die Lösung",
+      "title": "Hör auf zu reagieren. Beginne vorherzusagen.",
+      "description": "MigraineCast übernimmt das Tracking, die Analyse und die Warnungen — du musst nur dein Leben leben.",
+      "highlight": "Keine Tabellen. Kein Rätselraten. Kein medizinisches Fachjargon."
+    },
+    "howItWorks": {
+      "label": "So funktioniert's",
+      "title": "Einfach genug, um dabei zu bleiben",
+      "description": "Keine komplizierte Einrichtung. Kein stundenlanges Tagebuchschreiben. Nur ein paar Klicks — und MigraineCast erledigt den Rest.",
+      "steps": [
+        {
+          "title": "In Sekunden erfassen, nicht in Minuten",
+          "desc": "Erfasse einen Anfall mit wenigen Klicks. Keine langen Formulare, kein Aufwand — nur die Daten, die wirklich helfen, deine Trigger zu erkennen."
+        },
+        {
+          "title": "Wir verbinden es mit deinem Wetter",
+          "desc": "MigraineCast verknüpft jeden Anfall automatisch mit Luftdruck- und Wetterveränderungen an deinem genauen Standort — keine manuelle Eingabe nötig."
+        },
+        {
+          "title": "Sieh, was kommt — 48 Stunden im Voraus",
+          "desc": "Erhalte eine personalisierte Risikoprognose, bevor gefährliche Bedingungen eintreten. Schütze deine Pläne, statt sie abzusagen."
+        }
+      ]
+    },
+    "testimonial": {
+      "quote": "Alle meine Migräneanfälle stimmten mit Tagen mit hohem oder mittlerem Risiko in der App überein. Ich verstehe endlich, was passiert.",
+      "author": "— Selen B., verifizierte App-Store-Bewertung"
+    },
+    "course": {
+      "badge": "Kostenloser E-Mail-Kurs",
+      "title": "Was dir niemand über Wetter und Migräne erzählt hat",
+      "description": "Verstehe endlich, warum Wetterwechsel deinen Kopf belasten. 7 Tage wissenschaftlich fundierte Einblicke direkt in dein Postfach — kostenlos.",
+      "checklist": [
+        "Warum Luftdruckabfälle vor dem Sturm Migräne auslösen",
+        "Die verborgene Wetterempfindlichkeit deines Gehirns erklärt",
+        "Praktische Strategien zur Vorbereitung und zum Schutz"
+      ],
+      "cta": "Kostenlosen Zugang erhalten",
+      "days": [
+        { "day": "Tag 1", "title": "Warum gibt dir das Wetter Migräne?" },
+        { "day": "Tag 2", "title": "Luftdruck: Der stille Auslöser" },
+        { "day": "Tag 3", "title": "Die Blitz-Verbindung (ja, wirklich)" },
+        { "day": "Tag 4", "title": "Temperatur, Luftfeuchtigkeit und der Hitzefaktor" },
+        { "day": "Tag 5", "title": "Dein Leben wetterfest machen" },
+        { "day": "Tag 6", "title": "Die smartere Art, Wettertrigger zu verfolgen" },
+        { "day": "Tag 7", "title": "Die Kontrolle über Wettertrigger zurückgewinnen" }
+      ]
+    },
+    "isThisYou": {
+      "label": "Bist du das?",
+      "title": "Gemacht für echte Migränebetroffene",
+      "items": [
+        "Du hast Pläne abgesagt wegen einer Migräne, die aus dem Nichts kam",
+        "Du vermutest, dass das Wetter ein Auslöser ist — kannst es aber noch nicht beweisen",
+        "Dein Arzt sagte 'führe einfach ein Tagebuch' und du hast es versucht, aber es hat nicht geholfen",
+        "Du möchtest dich auf Anfälle vorbereiten, nicht nur darauf reagieren"
+      ]
+    },
+    "finalCta": {
+      "titleLine1": "Hör auf zu raten.",
+      "titleLine2": "Beginne Muster zu erkennen.",
+      "description": "Schließe dich Migränebetroffenen in über 27 Ländern an, die endlich ihre Trigger verstehen — und Anfälle kommen sehen, bevor sie zuschlagen.",
+      "downloadCta": "Kostenlos für iPhone herunterladen",
+      "freeNote": "Kostenloser Download — Premium-Funktionen schalten tiefere Einblicke frei",
+      "availableOn": "Verfügbar für iOS"
+    },
+    "schema": {
+      "description": "MigraineCast verfolgt Luftdruck- und Wettermuster, um das Migränerisiko bis zu 48 Stunden im Voraus vorherzusagen — damit Anfälle dich nicht mehr überraschen.",
+      "featureList": [
+        "Migränesymptome schnell erfassen",
+        "Automatische Wetter- und Luftdruckkorrelation",
+        "Mustererkennung und Einblicke",
+        "48-Stunden-Frühwarnung bei riskanten Bedingungen",
+        "PDF-Bericht für Neurologentermine"
+      ]
+    }
+  }
+}

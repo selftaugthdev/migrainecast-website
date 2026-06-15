@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useRef } from "react";
-import Link from "next/link";
-import { faqs } from "./faqs";
+import { useLocale, useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278";
 const EMBED_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_KEY;
@@ -15,9 +15,9 @@ type LocationResult = {
   lon: number;
 };
 
-async function geocode(query: string): Promise<LocationResult[]> {
+async function geocode(query: string, language: string): Promise<LocationResult[]> {
   const res = await fetch(
-    `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(query)}&count=6&language=en&format=json`
+    `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(query)}&count=6&language=${language}&format=json`
   );
   const data = await res.json();
   return (data.results || []).map((r: Record<string, unknown>) => ({
@@ -30,6 +30,10 @@ async function geocode(query: string): Promise<LocationResult[]> {
 }
 
 export function SpecialistFinder() {
+  const locale = useLocale();
+  const t = useTranslations("SpecialistFinder");
+  const faqs = t.raw("faqs") as { question: string; answer: string }[];
+
   const [locationQuery, setLocationQuery] = useState("");
   const [locationResults, setLocationResults] = useState<LocationResult[]>([]);
   const [mapQuery, setMapQuery] = useState<string | null>(null);
@@ -41,7 +45,7 @@ export function SpecialistFinder() {
     if (searchTimeout.current) clearTimeout(searchTimeout.current);
     if (val.length < 2) { setLocationResults([]); return; }
     searchTimeout.current = setTimeout(async () => {
-      const results = await geocode(val);
+      const results = await geocode(val, locale);
       setLocationResults(results);
     }, 350);
   };
@@ -50,7 +54,7 @@ export function SpecialistFinder() {
     const label = `${loc.name}${loc.admin1 ? `, ${loc.admin1}` : ""}, ${loc.country}`;
     setLocationQuery(label);
     setLocationResults([]);
-    setMapQuery(`neurologist headache specialist near ${label}`);
+    setMapQuery(t("mapSearchQuery", { location: label }));
   };
 
   const useMyLocation = () => {
@@ -58,9 +62,11 @@ export function SpecialistFinder() {
     setGeoLoading(true);
     navigator.geolocation.getCurrentPosition(
       (pos) => {
-        setLocationQuery("Using your current location");
+        setLocationQuery(t("usingCurrentLocation"));
         setLocationResults([]);
-        setMapQuery(`neurologist headache specialist near ${pos.coords.latitude},${pos.coords.longitude}`);
+        setMapQuery(
+          t("mapSearchQuery", { location: `${pos.coords.latitude},${pos.coords.longitude}` })
+        );
         setGeoLoading(false);
       },
       () => setGeoLoading(false)
@@ -80,26 +86,27 @@ export function SpecialistFinder() {
             <svg viewBox="0 0 24 24" className="w-4 h-4 fill-none stroke-current stroke-2 group-hover:-translate-x-1 transition-transform">
               <path d="M19 12H5M12 19l-7-7 7-7" />
             </svg>
-            All Free Tools
+            {t("allFreeTools")}
           </Link>
 
           <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-4 block">
-            Free Tool
+            {t("freeTool")}
           </span>
           <h1 className="font-display text-[clamp(2rem,5vw,3.25rem)] font-normal leading-tight mb-4">
-            Find a <em className="italic text-accent-soft">Migraine Specialist</em> Near You
+            {t.rich("heroTitle", {
+              em: (chunks) => <em className="italic text-accent-soft">{chunks}</em>,
+            })}
           </h1>
           <p className="text-lg text-text-muted max-w-[580px] leading-relaxed">
-            Search for headache and migraine specialists and neurologists in your area on an
-            interactive map — no signup required.
+            {t("heroDescription")}
           </p>
         </div>
 
         {/* Search card */}
         <div className="glass-card rounded-2xl p-8 mb-6">
-          <h2 className="font-display text-xl font-normal mb-2">Where should we search?</h2>
+          <h2 className="font-display text-xl font-normal mb-2">{t("searchCardTitle")}</h2>
           <p className="text-text-muted text-sm mb-6">
-            Enter your city or zip code, or use your current location.
+            {t("searchCardDescription")}
           </p>
 
           <div className="relative mb-4">
@@ -107,7 +114,7 @@ export function SpecialistFinder() {
               type="text"
               value={locationQuery}
               onChange={(e) => handleLocationInput(e.target.value)}
-              placeholder="Search for a city (e.g. London, New York…)"
+              placeholder={t("searchPlaceholder")}
               className="w-full px-5 py-4 bg-bg border border-surface/80 rounded-xl text-text placeholder:text-text-subtle focus:outline-none focus:border-accent/60 transition-all text-sm"
             />
             {locationResults.length > 0 && (
@@ -136,7 +143,7 @@ export function SpecialistFinder() {
               <circle cx="12" cy="12" r="3" />
               <path d="M12 1v4M12 19v4M1 12h4M19 12h4" />
             </svg>
-            {geoLoading ? "Detecting…" : "Use my current location"}
+            {geoLoading ? t("detecting") : t("useMyLocation")}
           </button>
         </div>
 
@@ -145,13 +152,13 @@ export function SpecialistFinder() {
           {!EMBED_KEY ? (
             <div className="aspect-[4/3] flex items-center justify-center text-center px-8">
               <p className="text-text-muted text-sm">
-                Map unavailable — missing configuration.
+                {t("mapUnavailable")}
               </p>
             </div>
           ) : !mapQuery ? (
             <div className="aspect-[4/3] flex items-center justify-center text-center px-8">
               <p className="text-text-muted text-sm">
-                Search for a location above to see specialists near you on the map.
+                {t("mapPrompt")}
               </p>
             </div>
           ) : (
@@ -167,9 +174,7 @@ export function SpecialistFinder() {
         </div>
 
         <p className="text-xs text-text-subtle mb-10">
-          Results are pulled from Google Maps and may include general practitioners and
-          clinics in addition to headache specialists. Always verify a provider&apos;s
-          credentials and that they&apos;re accepting new patients before booking.
+          {t("resultsDisclaimer")}
         </p>
 
         {/* CTA */}
@@ -184,12 +189,10 @@ export function SpecialistFinder() {
             </div>
             <div>
               <h3 className="font-display text-xl font-normal mb-2">
-                While you wait for an appointment, track your triggers.
+                {t("ctaTitle")}
               </h3>
               <p className="text-text-muted text-sm mb-5 leading-relaxed">
-                MigraineCast tracks barometric pressure trends for your location and gives
-                you advance warning before weather-related attacks — useful data to bring
-                to your next appointment.
+                {t("ctaDescription")}
               </p>
               <a
                 href={APPSTORE_URL}
@@ -200,7 +203,7 @@ export function SpecialistFinder() {
                 <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
                   <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
                 </svg>
-                Download MigraineCast Free
+                {t("ctaButton")}
               </a>
             </div>
           </div>
@@ -208,7 +211,7 @@ export function SpecialistFinder() {
 
         {/* FAQ */}
         <div className="mt-16">
-          <h2 className="font-display text-2xl font-normal mb-6">Frequently Asked Questions</h2>
+          <h2 className="font-display text-2xl font-normal mb-6">{t("faqTitle")}</h2>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <div key={faq.question} className="glass-card rounded-2xl p-6">
