@@ -2,29 +2,14 @@ import { Background } from "@/components/Background";
 import { DownloadButton } from "@/components/DownloadButton";
 import { FeatureCards } from "@/components/FeatureCards";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { hasLocale } from "next-intl";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
 
 const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278";
-
-const appSchema = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  name: "MigraineCast",
-  applicationCategory: "HealthApplication",
-  operatingSystem: "iOS",
-  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-  aggregateRating: { "@type": "AggregateRating", ratingValue: "4.8", ratingCount: "100" },
-  description:
-    "MigraineCast tracks barometric pressure and weather patterns to forecast migraine risk up to 48 hours ahead — so attacks don't come out of nowhere.",
-  downloadUrl: APPSTORE_URL,
-  featureList: [
-    "Track migraine symptoms quickly",
-    "Automatic weather and pressure correlation",
-    "Pattern recognition and insights",
-    "48-hour early warning alerts for risky conditions",
-    "PDF report for neurologist appointments",
-  ],
-};
 
 const AppleIcon = ({ className = "w-5 h-5" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" className={`fill-current shrink-0 ${className}`}>
@@ -32,7 +17,72 @@ const AppleIcon = ({ className = "w-5 h-5" }: { className?: string }) => (
   </svg>
 );
 
-export default function Home() {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Layout" });
+
+  return {
+    title: t("metadataTitle"),
+    description: t("metadataDescription"),
+  };
+}
+
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+  setRequestLocale(locale);
+
+  const t = await getTranslations("HomePage");
+
+  const appSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "MigraineCast",
+    applicationCategory: "HealthApplication",
+    operatingSystem: "iOS",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.8", ratingCount: "100" },
+    description: t("schema.description"),
+    downloadUrl: APPSTORE_URL,
+    featureList: t.raw("schema.featureList") as string[],
+  };
+
+  const howItWorksSteps = t.raw("howItWorks.steps") as { title: string; desc: string }[];
+  const courseChecklist = t.raw("course.checklist") as string[];
+  const courseDays = t.raw("course.days") as { day: string; title: string }[];
+  const isThisYouItems = t.raw("isThisYou.items") as string[];
+
+  const howItWorksIcons = [
+    (
+      <svg viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
+        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+      </svg>
+    ),
+    (
+      <svg viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+      </svg>
+    ),
+    (
+      <svg viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+        <polyline points="22 4 12 14.01 9 11.01" />
+      </svg>
+    ),
+  ];
+
   return (
     <>
       <script
@@ -51,20 +101,19 @@ export default function Home() {
             <div className="max-w-[600px] lg:pl-0">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-accent/10 border border-accent/20 rounded-full text-xs font-semibold text-accent-soft uppercase tracking-[0.08em] mb-7 animate-fade-up-delay-2">
                 <AppleIcon className="w-3.5 h-3.5" />
-                Available on iPhone
+                {t("hero.badge")}
               </div>
 
               <h1 className="font-display text-[clamp(2.2rem,4.5vw,3.75rem)] font-normal leading-[1.07] tracking-tight mb-5 animate-fade-up-delay-3">
-                Know a migraine is coming{" "}
-                <em className="italic text-accent-soft">before</em> it hits
+                {t.rich("hero.title", {
+                  em: (chunks) => <em className="italic text-accent-soft">{chunks}</em>,
+                })}
               </h1>
 
               <p className="text-[clamp(1rem,1.6vw,1.15rem)] text-text-muted leading-relaxed mb-8 animate-fade-up-delay-4">
-                Barometric pressure drops and weather shifts have been quietly
-                triggering your migraines for years. MigraineCast shows you the
-                pattern — and warns you{" "}
-                <span className="text-text font-medium">up to 48 hours ahead</span>,
-                so you can protect your days instead of losing them.
+                {t.rich("hero.description", {
+                  b: (chunks) => <span className="text-text font-medium">{chunks}</span>,
+                })}
               </p>
 
               <div className="flex flex-wrap gap-3 mb-8 animate-fade-up-delay-5">
@@ -74,13 +123,13 @@ export default function Home() {
                   className="inline-flex items-center gap-2.5 px-7 py-[17px] bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4),inset_0_1px_0_rgba(255,255,255,0.2)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_40px_rgba(167,139,250,0.5),inset_0_1px_0_rgba(255,255,255,0.2)]"
                 >
                   <AppleIcon />
-                  Download Free on iPhone
+                  {t("hero.downloadCta")}
                 </DownloadButton>
                 <Link
                   href="/what-is-migrainecast"
                   className="inline-flex items-center gap-2 px-5 py-[17px] text-text font-semibold transition-colors hover:text-accent-soft group"
                 >
-                  How it helps
+                  {t("hero.howItHelps")}
                   <svg
                     viewBox="0 0 24 24"
                     className="w-[18px] h-[18px] fill-none stroke-current stroke-2 transition-transform group-hover:translate-x-1"
@@ -93,8 +142,9 @@ export default function Home() {
               <div className="flex items-center gap-3 animate-fade-up-delay-5">
                 <span className="text-yellow-400 tracking-tight text-base leading-none">★★★★★</span>
                 <span className="text-sm text-text-muted">
-                  <span className="text-text font-semibold">4.8</span> on the App Store ·{" "}
-                  <span className="text-text font-semibold">27+</span> countries
+                  {t.rich("hero.rating", {
+                    b: (chunks) => <span className="text-text font-semibold">{chunks}</span>,
+                  })}
                 </span>
               </div>
             </div>
@@ -139,21 +189,20 @@ export default function Home() {
       <section className="py-[120px] relative">
         <div className="max-w-[1200px] mx-auto px-6">
           <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-5 block">
-            The Solution
+            {t("solution.label")}
           </span>
           <h2 className="font-display text-[clamp(2rem,4vw,3rem)] font-normal leading-tight mb-4">
-            Stop reacting. Start predicting.
+            {t("solution.title")}
           </h2>
           <p className="text-lg text-text-muted max-w-[520px] mb-16 leading-relaxed">
-            MigraineCast does the tracking, the analysis, and the alerting —
-            so all you have to do is live your life.
+            {t("solution.description")}
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
             <div className="flex flex-col gap-6 order-2 lg:order-1">
               <FeatureCards />
               <div className="py-5 px-7 bg-accent/[0.06] border-l-[3px] border-accent text-lg text-text-muted italic rounded-r-xl">
-                No spreadsheets. No guesswork. No medical jargon.
+                {t("solution.highlight")}
               </div>
             </div>
 
@@ -195,62 +244,27 @@ export default function Home() {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center mb-16">
             <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-5 block">
-              How It Works
+              {t("howItWorks.label")}
             </span>
             <h2 className="font-display text-[clamp(2rem,4vw,3rem)] font-normal leading-tight mb-4">
-              Simple enough to actually stick with
+              {t("howItWorks.title")}
             </h2>
             <p className="text-lg text-text-muted max-w-[480px] mx-auto">
-              No complex setup. No hour-long journaling. Just a few taps — and
-              MigraineCast takes care of the rest.
+              {t("howItWorks.description")}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                num: 1,
-                icon: (
-                  <svg viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
-                    <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
-                    <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
-                  </svg>
-                ),
-                title: "Log in seconds, not minutes",
-                desc: "Record an attack in a few taps. No lengthy forms, no friction — just the data that actually helps identify your triggers.",
-              },
-              {
-                num: 2,
-                icon: (
-                  <svg viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                  </svg>
-                ),
-                title: "We connect it to your weather",
-                desc: "MigraineCast automatically links each attack to barometric pressure and weather changes at your exact location — no manual input.",
-              },
-              {
-                num: 3,
-                icon: (
-                  <svg viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
-                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                    <polyline points="22 4 12 14.01 9 11.01" />
-                  </svg>
-                ),
-                title: "See what's coming — 48 hours ahead",
-                desc: "Get a personalised risk forecast before dangerous conditions arrive. Protect your plans instead of cancelling them.",
-              },
-            ].map((step) => (
+            {howItWorksSteps.map((step, i) => (
               <div
-                key={step.num}
+                key={i}
                 className="relative p-10 glass-card glass-card-hover rounded-3xl text-center"
               >
                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 bg-gradient-to-br from-accent to-coral rounded-xl flex items-center justify-center font-display text-lg font-medium text-white shadow-[0_8px_20px_rgba(167,139,250,0.4)]">
-                  {step.num}
+                  {i + 1}
                 </div>
                 <div className="w-16 h-16 mx-auto mt-5 mb-6 bg-accent/10 rounded-full flex items-center justify-center">
-                  {step.icon}
+                  {howItWorksIcons[i]}
                 </div>
                 <h4 className="font-display text-xl font-medium mb-3">{step.title}</h4>
                 <p className="text-[0.95rem] text-text-muted leading-relaxed">{step.desc}</p>
@@ -265,10 +279,9 @@ export default function Home() {
         <div className="max-w-[760px] mx-auto px-6 text-center">
           <span className="text-yellow-400 text-xl tracking-tight">★★★★★</span>
           <blockquote className="font-display text-[clamp(1.4rem,3vw,2rem)] font-normal leading-[1.4] text-text mt-6 mb-5">
-            &ldquo;All of my migraines were in line with high or medium risk days
-            on the app. I finally understand what&apos;s happening.&rdquo;
+            &ldquo;{t("testimonial.quote")}&rdquo;
           </blockquote>
-          <p className="text-text-muted text-sm">— Selen B., verified App Store review</p>
+          <p className="text-text-muted text-sm">{t("testimonial.author")}</p>
         </div>
       </section>
 
@@ -282,21 +295,16 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <span className="inline-block text-xs font-semibold tracking-[0.15em] uppercase text-accent mb-4 px-3 py-1.5 bg-accent/10 rounded-full border border-accent/20">
-                Free Email Course
+                {t("course.badge")}
               </span>
               <h2 className="font-display text-[clamp(1.75rem,4vw,2.75rem)] font-normal leading-tight mb-4">
-                What Nobody Told You About Weather and Migraines
+                {t("course.title")}
               </h2>
               <p className="text-lg text-text-muted mb-6 leading-relaxed">
-                Finally understand why weather changes wreck your head. 7 days of
-                science-backed insights delivered to your inbox — free.
+                {t("course.description")}
               </p>
               <ul className="space-y-3 mb-8">
-                {[
-                  "Why pressure drops trigger migraines before the storm",
-                  "Your brain's hidden weather sensitivity explained",
-                  "Practical strategies to prepare and protect yourself",
-                ].map((item, i) => (
+                {courseChecklist.map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-text-muted">
                     <svg
                       viewBox="0 0 24 24"
@@ -315,7 +323,7 @@ export default function Home() {
                 href="/weather-course"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4)] transition-all duration-300 hover:-translate-y-[2px] hover:shadow-[0_8px_30px_rgba(167,139,250,0.5)] group"
               >
-                Get Free Access
+                {t("course.cta")}
                 <svg
                   viewBox="0 0 24 24"
                   className="w-5 h-5 fill-none stroke-current stroke-2 transition-transform group-hover:translate-x-1"
@@ -330,15 +338,7 @@ export default function Home() {
                 <div className="absolute -inset-4 bg-gradient-to-br from-accent/20 to-coral/20 rounded-3xl blur-2xl" />
                 <div className="relative p-8 glass-card rounded-2xl backdrop-blur-sm">
                   <div className="space-y-4">
-                    {[
-                      { day: "Day 1", title: "Why Does the Weather Give You Migraines?" },
-                      { day: "Day 2", title: "Barometric Pressure: The Silent Trigger" },
-                      { day: "Day 3", title: "The Lightning Connection (Yes, Really)" },
-                      { day: "Day 4", title: "Temperature, Humidity, and the Heat Factor" },
-                      { day: "Day 5", title: "Weather-Proofing Your Life" },
-                      { day: "Day 6", title: "The Smarter Way to Track Weather Triggers" },
-                      { day: "Day 7", title: "Taking Control of Weather Triggers" },
-                    ].map((item, i) => (
+                    {courseDays.map((item, i) => (
                       <div
                         key={i}
                         className="flex items-center gap-4 p-3 rounded-lg hover:bg-accent/5 transition-colors"
@@ -360,20 +360,15 @@ export default function Home() {
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="text-center mb-16">
             <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-5 block">
-              Is This You?
+              {t("isThisYou.label")}
             </span>
             <h2 className="font-display text-[clamp(2rem,4vw,3rem)] font-normal leading-tight">
-              Built for real migraine sufferers
+              {t("isThisYou.title")}
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-[900px] mx-auto">
-            {[
-              "You've cancelled plans because of a migraine that came out of nowhere",
-              "You suspect weather is a trigger — but you can't prove it yet",
-              "Your doctor said 'just track it' and you've tried, but it hasn't helped",
-              "You want to prepare for attacks, not just react to them",
-            ].map((text, i) => (
+            {isThisYouItems.map((text, i) => (
               <div
                 key={i}
                 className="flex items-start gap-4 p-7 glass-card glass-card-hover rounded-2xl"
@@ -399,13 +394,12 @@ export default function Home() {
 
         <div className="max-w-[1200px] mx-auto px-6 relative">
           <h2 className="font-display text-[clamp(2.5rem,5vw,3.5rem)] font-normal leading-tight mb-4">
-            Stop guessing.
+            {t("finalCta.titleLine1")}
             <br />
-            Start seeing patterns.
+            {t("finalCta.titleLine2")}
           </h2>
           <p className="text-lg text-text-muted max-w-[560px] mx-auto mb-12">
-            Join migraine sufferers in 27+ countries who finally understand
-            their triggers — and see attacks coming before they hit.
+            {t("finalCta.description")}
           </p>
 
           <DownloadButton
@@ -414,15 +408,15 @@ export default function Home() {
             className="inline-flex items-center gap-2.5 px-12 py-[22px] bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold text-lg rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4),inset_0_1px_0_rgba(255,255,255,0.2)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_40px_rgba(167,139,250,0.5),inset_0_1px_0_rgba(255,255,255,0.2)]"
           >
             <AppleIcon className="w-[22px] h-[22px]" />
-            Download Free on iPhone
+            {t("finalCta.downloadCta")}
           </DownloadButton>
 
           <p className="mt-5 text-sm text-text-subtle">
-            Free to download — premium features unlock deeper insights
+            {t("finalCta.freeNote")}
           </p>
           <p className="mt-3 text-sm text-text-subtle flex items-center justify-center gap-2">
             <AppleIcon className="w-[18px] h-[18px]" />
-            Available on iOS
+            {t("finalCta.availableOn")}
           </p>
         </div>
       </section>

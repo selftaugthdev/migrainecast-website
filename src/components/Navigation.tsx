@@ -1,15 +1,19 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
+import { useLocale, useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
+import { routing } from "@/i18n/routing";
 
 export function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [theme, setTheme] = useState<"dark" | "light">("light");
   const pathname = usePathname();
+  const locale = useLocale();
+  const t = useTranslations("Navigation");
+  const tLocale = useTranslations("LocaleSwitcher");
 
   useEffect(() => {
     const saved = (localStorage.getItem("theme") as "dark" | "light") || "dark";
@@ -34,13 +38,13 @@ export function Navigation() {
   };
 
   const navLinks = [
-    { href: "/what-is-migrainecast", label: "What is MigraineCast?" },
-    { href: "/blog", label: "Blog" },
-    { href: "/tools", label: "Free Tools" },
-    { href: "/support", label: "Support" },
+    { href: "/what-is-migrainecast", label: t("whatIsMigraineCast") },
+    { href: "/blog", label: t("blog") },
+    { href: "/tools", label: t("freeTools") },
+    { href: "/support", label: t("support") },
   ];
 
-  const courseLink = { href: "/weather-course", label: "Free Course" };
+  const courseLink = { href: "/weather-course", label: t("freeCourse") };
 
   return (
     <nav
@@ -86,16 +90,35 @@ export function Navigation() {
             }`}
           >
             <span className="w-1.5 h-1.5 rounded-full bg-accent inline-block" />
-            Free Course
+            {courseLink.label}
           </Link>
         </div>
 
         <div className="flex items-center gap-3">
+          {/* Locale switcher */}
+          <div className="hidden sm:flex items-center gap-1 text-sm font-medium text-text-muted">
+            {routing.locales.map((loc, i) => (
+              <span key={loc} className="flex items-center">
+                {i > 0 && <span className="mx-1 text-text-subtle">/</span>}
+                <Link
+                  href={pathname}
+                  locale={loc}
+                  className={`transition-colors uppercase ${
+                    locale === loc ? "text-accent-soft" : "hover:text-text"
+                  }`}
+                  aria-label={tLocale(loc)}
+                >
+                  {loc}
+                </Link>
+              </span>
+            ))}
+          </div>
+
           {/* Theme toggle */}
           <button
             onClick={toggleTheme}
             className="w-9 h-9 flex items-center justify-center rounded-full text-text-muted hover:text-text hover:bg-surface/40 transition-all duration-200"
-            aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+            aria-label={theme === "dark" ? t("switchToLight") : t("switchToDark")}
           >
             {theme === "dark" ? (
               /* Sun icon */
@@ -127,14 +150,14 @@ export function Navigation() {
             <svg viewBox="0 0 24 24" className="w-[18px] h-[18px] fill-current shrink-0">
               <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
             </svg>
-            <span className="hidden sm:inline">Download Free</span>
+            <span className="hidden sm:inline">{t("downloadFree")}</span>
           </a>
 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="md:hidden p-2 text-text-muted hover:text-text transition-colors"
-            aria-label="Toggle menu"
+            aria-label={t("toggleMenu")}
           >
             <svg viewBox="0 0 24 24" className="w-6 h-6 fill-none stroke-current stroke-2">
               {mobileMenuOpen ? (
@@ -169,8 +192,23 @@ export function Navigation() {
               className="text-sm font-semibold py-2 text-accent inline-flex items-center gap-1.5"
             >
               <span className="w-1.5 h-1.5 rounded-full bg-accent inline-block" />
-              Free Course
+              {courseLink.label}
             </Link>
+            <div className="flex items-center gap-3 pt-2 text-sm font-medium text-text-muted">
+              {routing.locales.map((loc) => (
+                <Link
+                  key={loc}
+                  href={pathname}
+                  locale={loc}
+                  className={`uppercase transition-colors ${
+                    locale === loc ? "text-accent-soft" : "hover:text-text"
+                  }`}
+                  aria-label={tLocale(loc)}
+                >
+                  {loc}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       )}

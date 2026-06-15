@@ -1,0 +1,149 @@
+{
+  "Layout": {
+    "metadataTitle": "MigraineCast — Voorspel migraine voordat die toeslaat",
+    "metadataDescription": "MigraineCast helpt je migrainepatronen te herkennen die verband houden met weer, luchtdruk en triggers — zodat aanvallen je niet meer overvallen.",
+    "organizationDescription": "MigraineCast helpt mensen met migraine om aanvallen te voorspellen en zich erop voor te bereiden, door patronen bij te houden die verband houden met weer, luchtdruk en persoonlijke triggers.",
+    "websiteDescription": "Voorspel migraine voordat die toeslaat met MigraineCast. Volg patronen, begrijp weertriggers en neem de controle terug."
+  },
+  "Navigation": {
+    "whatIsMigraineCast": "Wat is MigraineCast?",
+    "blog": "Blog",
+    "freeTools": "Gratis Tools",
+    "support": "Support",
+    "freeCourse": "Gratis Cursus",
+    "downloadFree": "Gratis Downloaden",
+    "switchToLight": "Schakel naar lichte modus",
+    "switchToDark": "Schakel naar donkere modus",
+    "toggleMenu": "Menu openen of sluiten"
+  },
+  "LocaleSwitcher": {
+    "label": "Taal",
+    "en": "English",
+    "nl": "Nederlands"
+  },
+  "Footer": {
+    "tagline": "Weergebaseerde migrainevoorspelling voor iPhone.",
+    "links": "Links",
+    "freeCourse": "Gratis Cursus",
+    "blog": "Blog",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfService": "Servicevoorwaarden",
+    "support": "Support",
+    "freeToolsHeading": "Gratis Tools",
+    "weatherTriggerChecker": "Weer Trigger Checker",
+    "allFreeTools": "Alle Gratis Tools",
+    "recentPosts": "Recente Berichten",
+    "copyright": "© {year} MigraineCast. Alle rechten voorbehouden."
+  },
+  "FeatureCards": {
+    "items": [
+      {
+        "title": "Log een migraine in minder dan 10 seconden",
+        "desc": "Snel registreren, zonder dat het als een klus voelt"
+      },
+      {
+        "title": "Begrijp je weertriggers",
+        "desc": "MigraineCast koppelt je aanvallen automatisch aan luchtdrukdalingen, stormen en weersfronten"
+      },
+      {
+        "title": "Ontdek wat jouw migraine echt veroorzaakt",
+        "desc": "Zie patronen over weken en maanden — welke dagen, seizoenen en omstandigheden steeds aan je aanvallen voorafgaan"
+      },
+      {
+        "title": "Weet wanneer een risicodag eraan komt",
+        "desc": "Krijg een 48-uurs migraine-risicovoorspelling op basis van het komende weer — zodat je je kunt voorbereiden in plaats van reageren"
+      },
+      {
+        "title": "PDF-rapport voor je neuroloog",
+        "desc": "Genereer een PDF van je aanvalsgeschiedenis, triggers en weerscorrelaties — klaar om mee te nemen naar je volgende afspraak"
+      }
+    ]
+  },
+  "HomePage": {
+    "hero": {
+      "badge": "Beschikbaar op iPhone",
+      "title": "Weet dat een migraine eraan komt <em>voordat</em> die toeslaat",
+      "description": "Luchtdrukdalingen en weersveranderingen veroorzaken al jaren stilletjes je migraines. MigraineCast laat je het patroon zien — en waarschuwt je <b>tot 48 uur van tevoren</b>, zodat je je dagen kunt beschermen in plaats van ze te verliezen.",
+      "downloadCta": "Gratis Downloaden op iPhone",
+      "howItHelps": "Hoe het helpt",
+      "rating": "<b>4.8</b> in de App Store · <b>27+</b> landen"
+    },
+    "solution": {
+      "label": "De Oplossing",
+      "title": "Stop met reageren. Begin met voorspellen.",
+      "description": "MigraineCast doet het bijhouden, de analyse en de waarschuwingen — jij hoeft alleen je leven te leiden.",
+      "highlight": "Geen spreadsheets. Geen giswerk. Geen medisch jargon."
+    },
+    "howItWorks": {
+      "label": "Hoe Het Werkt",
+      "title": "Simpel genoeg om echt mee door te gaan",
+      "description": "Geen ingewikkelde instellingen. Geen urenlang bijhouden. Slechts een paar tikken — en MigraineCast doet de rest.",
+      "steps": [
+        {
+          "title": "Log in seconden, niet minuten",
+          "desc": "Leg een aanval vast met een paar tikken. Geen lange formulieren, geen gedoe — alleen de gegevens die echt helpen om je triggers te herkennen."
+        },
+        {
+          "title": "We koppelen het aan jouw weer",
+          "desc": "MigraineCast koppelt elke aanval automatisch aan luchtdruk en weersveranderingen op jouw exacte locatie — zonder handmatige invoer."
+        },
+        {
+          "title": "Zie wat eraan komt — 48 uur van tevoren",
+          "desc": "Krijg een persoonlijke risicovoorspelling voordat gevaarlijke omstandigheden zich voordoen. Bescherm je plannen in plaats van ze af te zeggen."
+        }
+      ]
+    },
+    "testimonial": {
+      "quote": "Al mijn migraines kwamen overeen met dagen met een hoog of gemiddeld risico in de app. Ik begrijp nu eindelijk wat er gebeurt.",
+      "author": "— Selen B., geverifieerde App Store-recensie"
+    },
+    "course": {
+      "badge": "Gratis E-mailcursus",
+      "title": "Wat niemand je vertelde over weer en migraine",
+      "description": "Begrijp eindelijk waarom weersveranderingen je hoofd slopen. 7 dagen wetenschappelijk onderbouwde inzichten in je inbox — gratis.",
+      "checklist": [
+        "Waarom luchtdrukdalingen migraine veroorzaken vóór de storm",
+        "De verborgen weersgevoeligheid van je brein uitgelegd",
+        "Praktische strategieën om je voor te bereiden en te beschermen"
+      ],
+      "cta": "Gratis Toegang",
+      "days": [
+        { "day": "Dag 1", "title": "Waarom geeft het weer je migraine?" },
+        { "day": "Dag 2", "title": "Luchtdruk: de stille trigger" },
+        { "day": "Dag 3", "title": "De bliksemverbinding (jawel, echt)" },
+        { "day": "Dag 4", "title": "Temperatuur, vochtigheid en het hitte-effect" },
+        { "day": "Dag 5", "title": "Je leven weerbestendig maken" },
+        { "day": "Dag 6", "title": "De slimmere manier om weertriggers bij te houden" },
+        { "day": "Dag 7", "title": "De controle over weertriggers terugnemen" }
+      ]
+    },
+    "isThisYou": {
+      "label": "Herken je dit?",
+      "title": "Gemaakt voor échte migrainepatiënten",
+      "items": [
+        "Je hebt plannen afgezegd door een migraine die uit het niets kwam",
+        "Je vermoedt dat het weer een trigger is — maar je kunt het nog niet bewijzen",
+        "Je arts zei 'houd het gewoon bij' en je hebt het geprobeerd, maar het hielp niet",
+        "Je wilt je voorbereiden op aanvallen, niet alleen erop reageren"
+      ]
+    },
+    "finalCta": {
+      "titleLine1": "Stop met gokken.",
+      "titleLine2": "Begin patronen te zien.",
+      "description": "Sluit je aan bij migrainepatiënten in 27+ landen die hun triggers eindelijk begrijpen — en aanvallen zien aankomen voordat ze toeslaan.",
+      "downloadCta": "Gratis Downloaden op iPhone",
+      "freeNote": "Gratis te downloaden — premiumfuncties geven nog dieper inzicht",
+      "availableOn": "Beschikbaar op iOS"
+    },
+    "schema": {
+      "description": "MigraineCast volgt luchtdruk en weerpatronen om het migrainerisico tot 48 uur van tevoren te voorspellen — zodat aanvallen je niet meer overvallen.",
+      "featureList": [
+        "Migrainesymptomen snel bijhouden",
+        "Automatische correlatie tussen weer en luchtdruk",
+        "Patroonherkenning en inzichten",
+        "48-uurs vroege waarschuwingen bij risicovolle omstandigheden",
+        "PDF-rapport voor afspraken met de neuroloog"
+      ]
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "Layout": {
+    "metadataTitle": "MigraineCast — Predict Migraines Before They Strike",
+    "metadataDescription": "MigraineCast helps you spot migraine patterns linked to weather, pressure, and triggers — so attacks don't come out of nowhere.",
+    "organizationDescription": "MigraineCast helps migraine sufferers predict and prepare for attacks by tracking patterns linked to weather, barometric pressure, and personal triggers.",
+    "websiteDescription": "Predict migraines before they strike with MigraineCast. Track patterns, understand weather triggers, and take control."
+  },
+  "Navigation": {
+    "whatIsMigraineCast": "What is MigraineCast?",
+    "blog": "Blog",
+    "freeTools": "Free Tools",
+    "support": "Support",
+    "freeCourse": "Free Course",
+    "downloadFree": "Download Free",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "toggleMenu": "Toggle menu"
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "nl": "Nederlands"
+  },
+  "Footer": {
+    "tagline": "Weather-based migraine forecasting for iPhone.",
+    "links": "Links",
+    "freeCourse": "Free Course",
+    "blog": "Blog",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "support": "Support",
+    "freeToolsHeading": "Free Tools",
+    "weatherTriggerChecker": "Weather Trigger Checker",
+    "allFreeTools": "All Free Tools",
+    "recentPosts": "Recent Posts",
+    "copyright": "© {year} MigraineCast. All rights reserved."
+  },
+  "FeatureCards": {
+    "items": [
+      {
+        "title": "Log a migraine in under 10 seconds",
+        "desc": "Quick logging that doesn't feel like a chore"
+      },
+      {
+        "title": "Understand your weather triggers",
+        "desc": "MigraineCast automatically connects your attacks to barometric pressure drops, storms, and weather fronts"
+      },
+      {
+        "title": "Discover what actually triggers your migraines",
+        "desc": "See patterns across weeks and months — which days, seasons, and conditions consistently precede your attacks"
+      },
+      {
+        "title": "Know a high-risk day is coming",
+        "desc": "Get a 48-hour migraine risk forecast based on upcoming weather — so you can prepare, not just react"
+      },
+      {
+        "title": "PDF report for your neurologist",
+        "desc": "Generate a doctor-ready PDF of your attack history, triggers, and weather correlations — ready to bring to your next appointment"
+      }
+    ]
+  },
+  "HomePage": {
+    "hero": {
+      "badge": "Available on iPhone",
+      "title": "Know a migraine is coming <em>before</em> it hits",
+      "description": "Barometric pressure drops and weather shifts have been quietly triggering your migraines for years. MigraineCast shows you the pattern — and warns you <b>up to 48 hours ahead</b>, so you can protect your days instead of losing them.",
+      "downloadCta": "Download Free on iPhone",
+      "howItHelps": "How it helps",
+      "rating": "<b>4.8</b> on the App Store · <b>27+</b> countries"
+    },
+    "solution": {
+      "label": "The Solution",
+      "title": "Stop reacting. Start predicting.",
+      "description": "MigraineCast does the tracking, the analysis, and the alerting — so all you have to do is live your life.",
+      "highlight": "No spreadsheets. No guesswork. No medical jargon."
+    },
+    "howItWorks": {
+      "label": "How It Works",
+      "title": "Simple enough to actually stick with",
+      "description": "No complex setup. No hour-long journaling. Just a few taps — and MigraineCast takes care of the rest.",
+      "steps": [
+        {
+          "title": "Log in seconds, not minutes",
+          "desc": "Record an attack in a few taps. No lengthy forms, no friction — just the data that actually helps identify your triggers."
+        },
+        {
+          "title": "We connect it to your weather",
+          "desc": "MigraineCast automatically links each attack to barometric pressure and weather changes at your exact location — no manual input."
+        },
+        {
+          "title": "See what's coming — 48 hours ahead",
+          "desc": "Get a personalised risk forecast before dangerous conditions arrive. Protect your plans instead of cancelling them."
+        }
+      ]
+    },
+    "testimonial": {
+      "quote": "All of my migraines were in line with high or medium risk days on the app. I finally understand what's happening.",
+      "author": "— Selen B., verified App Store review"
+    },
+    "course": {
+      "badge": "Free Email Course",
+      "title": "What Nobody Told You About Weather and Migraines",
+      "description": "Finally understand why weather changes wreck your head. 7 days of science-backed insights delivered to your inbox — free.",
+      "checklist": [
+        "Why pressure drops trigger migraines before the storm",
+        "Your brain's hidden weather sensitivity explained",
+        "Practical strategies to prepare and protect yourself"
+      ],
+      "cta": "Get Free Access",
+      "days": [
+        { "day": "Day 1", "title": "Why Does the Weather Give You Migraines?" },
+        { "day": "Day 2", "title": "Barometric Pressure: The Silent Trigger" },
+        { "day": "Day 3", "title": "The Lightning Connection (Yes, Really)" },
+        { "day": "Day 4", "title": "Temperature, Humidity, and the Heat Factor" },
+        { "day": "Day 5", "title": "Weather-Proofing Your Life" },
+        { "day": "Day 6", "title": "The Smarter Way to Track Weather Triggers" },
+        { "day": "Day 7", "title": "Taking Control of Weather Triggers" }
+      ]
+    },
+    "isThisYou": {
+      "label": "Is This You?",
+      "title": "Built for real migraine sufferers",
+      "items": [
+        "You've cancelled plans because of a migraine that came out of nowhere",
+        "You suspect weather is a trigger — but you can't prove it yet",
+        "Your doctor said 'just track it' and you've tried, but it hasn't helped",
+        "You want to prepare for attacks, not just react to them"
+      ]
+    },
+    "finalCta": {
+      "titleLine1": "Stop guessing.",
+      "titleLine2": "Start seeing patterns.",
+      "description": "Join migraine sufferers in 27+ countries who finally understand their triggers — and see attacks coming before they hit.",
+      "downloadCta": "Download Free on iPhone",
+      "freeNote": "Free to download — premium features unlock deeper insights",
+      "availableOn": "Available on iOS"
+    },
+    "schema": {
+      "description": "MigraineCast tracks barometric pressure and weather patterns to forecast migraine risk up to 48 hours ahead — so attacks don't come out of nowhere.",
+      "featureList": [
+        "Track migraine symptoms quickly",
+        "Automatic weather and pressure correlation",
+        "Pattern recognition and insights",
+        "48-hour early warning alerts for risky conditions",
+        "PDF report for neurologist appointments"
+      ]
+    }
+  }
+}
