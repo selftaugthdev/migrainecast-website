@@ -1236,6 +1236,517 @@ const posts: BlogPost[] = [
       <p>Pressure points can help you cope with an attack that's already underway. But if you're someone whose migraines are influenced by weather — and a large number of people are — the more impactful intervention often happens before the attack starts. MigraineCast tracks barometric pressure trends for your location and gives you advance notice when conditions are shifting in ways that have historically preceded your attacks, so you have time to act before you're reaching for your temples at all.</p>
     `,
   },
+  {
+    slug: "stop-a-migraine-before-it-starts",
+    title: "How to Stop a Migraine Before It Starts: A Practical Early-Intervention Guide",
+    excerpt:
+      "Once a migraine reaches full intensity, your options narrow fast. But there's a window — sometimes hours, sometimes a full day — before that happens, where the right moves can stop an attack from ever fully arriving.",
+    date: "May 29, 2026",
+    category: "Tips",
+    content: `
+      <p>Most advice about migraines focuses on what to do once the pain has started: dark room, medication, cold compress, wait it out. All of that matters. But there's an earlier window — one most people don't even realize exists until they learn to recognize it — where an attack can sometimes be stopped before it fully takes hold.</p>
+
+      <p>That window is the gap between "something feels off" and "I am now in a full migraine attack." For some people it's twenty minutes. For others it's a full day or two. Learning to use that gap is, by a wide margin, the highest-leverage thing you can do if you want fewer migraines to actually become migraines.</p>
+
+      <h2>The Prodrome Window: Your Real Opportunity</h2>
+
+      <p>The prodrome phase is the period before the headache itself, when subtle signals start showing up — fatigue, neck stiffness, mood changes, food cravings, increased yawning, or a kind of mental fog. Many people experience this and don't connect it to an oncoming migraine until they've had enough attacks to recognize the pattern.</p>
+
+      <p>This phase matters because the trigeminovascular system — the network of nerves and blood vessels behind migraine pain — is just beginning to activate. It hasn't fully ramped up yet. Intervening here, while things are still building rather than fully escalated, is consistently associated with better outcomes than waiting. We go into much more detail on recognizing these signals in our guide to <a href="/blog/migraine-prodrome-signs">migraine prodrome symptoms</a>, but the short version is: the sooner you notice something is off, the more options you have.</p>
+
+      <h2>Step 1: Treat at the First Sign — Not the Worst One</h2>
+
+      <p>If you have a prescribed acute medication, the single most well-supported piece of advice is to take it as early as possible — at the first unmistakable sign of an attack, not after waiting to see how bad it gets. Part of the reason is physiological: as a migraine progresses, the gut slows down, which means oral medication gets absorbed more slowly right when you need it to work fastest.</p>
+
+      <p>"Waiting it out" to avoid taking medication too often, while understandable, is one of the most common reasons mild attacks turn into severe ones. If your doctor has given you a rescue plan, the prodrome phase — or the very first minute of head pain — is when it's meant to be used.</p>
+
+      <h2>Step 2: Remove Every Other Trigger You Can Control</h2>
+
+      <p>Migraine attacks rarely happen because of one isolated trigger. They happen when several small factors stack up past your personal threshold — poor sleep, a skipped meal, dehydration, stress, and an environmental factor like a pressure change, all on the same day. If you feel an attack building, the goal shifts from "prevent everything" to "remove anything you still can."</p>
+
+      <p>That means: eat something if you've skipped a meal, even if you're not hungry. Drink water now, before nausea makes it harder. Step away from bright screens and harsh lighting. If you're in a stressful situation, even five minutes of stepping outside or doing slow breathing can lower the load you're carrying into an already-vulnerable window.</p>
+
+      <h2>Step 3: Get Ahead of Weather-Related Attacks Specifically</h2>
+
+      <p>If weather is part of your trigger picture — and for a large share of migraine sufferers, it is — this is where "stopping it before it starts" gets a lot more powerful, because weather gives you lead time that other triggers don't. A pressure drop that's going to affect you tomorrow is often visible in the forecast today.</p>
+
+      <p>The practical sequence looks like this: first, confirm that weather is actually a trigger for you using our free <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> — enter past migraine dates and we'll show you the barometric pressure data from the days before each one. Then, once you know weather matters for you, figure out your personal sensitivity with the <a href="/tools/pressure-threshold-estimator">Personal Pressure Threshold Estimator</a>, which helps identify how big a pressure drop needs to be before it tends to affect you. From there, MigraineCast tracks pressure trends for your location continuously and gives you a heads-up before a high-risk window arrives — often 24 to 48 hours ahead of time, which is exactly the lead time you need to act in steps 1 and 2 before symptoms even start.</p>
+
+      <h2>Step 4: Have a Plan, Not Just Intentions</h2>
+
+      <p>"I'll just be more careful" rarely holds up when you're tired, busy, or already starting to feel off. What works better is a pre-built routine you can run on autopilot — medication within reach, water bottle filled, a quiet space identified, and your schedule flexible enough to absorb a bad afternoon if needed. We cover this in detail in our guide to building a <a href="/blog/migraine-go-bag">migraine go-bag</a>, but the underlying idea is simple: decide what you'll do in advance, so that when prodrome symptoms show up, you're executing a plan instead of making decisions while your brain is already compromised.</p>
+
+      <h2>The Bottom Line</h2>
+
+      <p>You won't stop every migraine before it starts — that's not a realistic goal, and chasing it can create its own anxiety. But for a meaningful share of attacks, especially the ones tied to recognizable prodrome symptoms or weather changes you can see coming, there's a real window to act in. The combination of recognizing your early signals, treating promptly, removing other stacked triggers, and getting advance warning on the things you can't control — like weather — is what turns "migraines happen to me" into "I usually see this coming."</p>
+
+      <blockquote>
+        <p>MigraineCast tracks barometric pressure trends for your location and gives you advance warning before weather-related attacks, so you have time to act in that window before the pain phase begins. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download it free on iOS</a>.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "migraines-after-period",
+    title: "Why Do You Get Migraines After Your Period? The Estrogen Drop Explained",
+    excerpt:
+      "Menstrual migraines usually get blamed on the days right before or during a period — but for a lot of people, the worst attack actually lands after it ends. Here's why, and what to do about it.",
+    date: "June 2, 2026",
+    category: "Science",
+    content: `
+      <p>If you've noticed that your worst migraine of the month sometimes shows up <em>after</em> your period has mostly wrapped up — not during the days you were braced for — you're not imagining it, and you're not alone. Most discussions of "menstrual migraine" focus on the day or two before or during bleeding, but the hormonal shifts that drive these attacks don't follow a strict calendar, and for some people, the post-period window is just as significant.</p>
+
+      <h2>The Estrogen Drop Is the Trigger, Not the Bleeding Itself</h2>
+
+      <p>The leading explanation for menstrual migraine is the rapid drop in estrogen that happens in the days surrounding menstruation. Estrogen has a stabilizing effect on the brain's pain-processing systems, partly through its influence on serotonin. When estrogen levels fall sharply — as they do right before a period starts — that stabilizing effect drops away quickly, and for hormone-sensitive brains, that's enough to trigger an attack.</p>
+
+      <p>Here's the part that explains the "after my period" pattern: estrogen doesn't move in one single drop. It falls before menstruation, stays relatively low during the first part of the cycle, and then begins rising again as the next cycle's follicular phase gets underway. For some people, the most disruptive part of this isn't the initial drop — it's the period of low, fluctuating estrogen that continues into the days right after bleeding ends, before levels start climbing again in a more stable way.</p>
+
+      <h2>Why Timing Varies So Much Between People</h2>
+
+      <p>Hormonal migraine isn't a single fixed pattern. Some people are most affected in the two days before their period starts. Others find the first day or two of bleeding is worst. And others — often people who don't fit the "classic" menstrual migraine description and so go undiagnosed for longer — find their attack lands three to five days after their period ends, during that low-and-fluctuating estrogen window.</p>
+
+      <p>This variability is one reason hormonal migraine can be hard to pin down without deliberate tracking. If you're only watching for migraines <em>during</em> your period, an attack that consistently shows up five days later might not get connected to your cycle at all — it just looks like "a migraine that happened this week," with no obvious cause.</p>
+
+      <h2>It's Rarely Hormones Alone</h2>
+
+      <p>Hormonal fluctuation lowers your threshold — it doesn't necessarily cause an attack by itself. This is the same trigger-stacking concept that applies to weather, sleep, and diet: a hormonal dip that might do nothing on its own can combine with a poor night's sleep, a skipped meal, or a barometric pressure drop to tip things over. This is part of why the days around your period can feel unpredictable — the hormonal piece is relatively consistent, but what it's stacking with each month changes.</p>
+
+      <p>It's worth noting that this also means the reverse is true: in a month where your sleep, diet, and stress are all well-managed, a post-period hormonal dip might pass without incident, while in a more chaotic month it tips you into a full attack. If you've ever felt like your "hormonal migraines" are inconsistent, this is likely why.</p>
+
+      <h2>How to Confirm the Pattern</h2>
+
+      <p>The most useful thing you can do is track your cycle alongside your migraines for two to three months, specifically noting the date your period starts and ends, not just when attacks happen. Look for clustering — not just "around my period" but specifically: how many days before it starts, during, or after it ends do your attacks tend to occur? Many people are surprised to find their pattern is more specific than they realized once they actually plot it out.</p>
+
+      <p>If weather is also a factor for you — and for a lot of people it's both hormones and weather, stacking together — our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> can help you see whether your attacks cluster around both your cycle and certain weather conditions, which is exactly the kind of combined pattern that's easy to miss without structured tracking.</p>
+
+      <h2>What Can Actually Help</h2>
+
+      <p>Once you have a confirmed pattern, there are several approaches worth discussing with a doctor, depending on where in your cycle your attacks land. For predictable pre-menstrual or post-menstrual patterns, some people benefit from short-term preventive medication taken specifically around the predicted window, rather than daily. For others, hormonal birth control formulations designed to minimize estrogen fluctuation can reduce the frequency or intensity of these attacks — though this is a conversation that needs to weigh migraine history, particularly aura, against cardiovascular risk factors, which is why it should happen with a doctor rather than through self-experimentation.</p>
+
+      <p>In the meantime, the same trigger-stacking logic applies as always: if you know a vulnerable hormonal window is coming, that's the week to be especially diligent about sleep, hydration, and meal timing — and to pay closer attention to your weather forecast, since a stacked hormonal-plus-pressure-drop week is a different proposition than either factor alone.</p>
+
+      <blockquote>
+        <p>Logging your cycle and your migraines together — alongside the weather and pressure data MigraineCast tracks automatically — is one of the clearest ways to finally see whether your "random" migraines actually follow a pattern. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast for free on iOS</a> and start building that picture.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "best-foods-during-migraine",
+    title: "Best Foods to Eat During a Migraine (and What to Avoid)",
+    excerpt:
+      "Eating during a migraine can feel impossible, but going too long without food often makes things worse. Here's what's gentle enough to get down, what to skip, and why timing matters as much as the food itself.",
+    date: "June 5, 2026",
+    category: "Tips",
+    content: `
+      <p>Food is complicated during a migraine. Nausea is common, your stomach slows down, and the idea of eating anything at all can feel unappealing or even nauseating on its own. But going too long without eating — especially if you've already taken medication on an empty stomach — can prolong an attack or make nausea worse. The goal isn't a balanced meal. It's finding something gentle enough to get down that supports recovery rather than fighting it.</p>
+
+      <h2>Why Eating (Something) Still Matters</h2>
+
+      <p>Blood sugar drops are themselves a migraine trigger, independent of whatever else is going on. If a migraine has already started and you also haven't eaten in many hours, you may be dealing with two compounding problems rather than one. On top of that, many acute medications are easier on the stomach — and sometimes work better — when there's something in it, even if it's minimal.</p>
+
+      <p>The practical goal during an attack is small, plain, low-effort food: things that require no real digestion or decision-making, and that are unlikely to add to nausea.</p>
+
+      <h2>Foods That Tend to Work Well</h2>
+
+      <p><strong>Plain crackers or toast.</strong> Bland, dry carbohydrates are a classic choice for nausea in general, not just migraine. They're easy to nibble slowly without committing to a full meal.</p>
+
+      <p><strong>Bananas.</strong> Soft, easy to digest, and a source of potassium, which can be useful if you've lost electrolytes through vomiting.</p>
+
+      <p><strong>Plain rice or oatmeal.</strong> Simple, warm, and gentle on the stomach. Avoid adding strong spices, dairy, or anything heavy if nausea is present.</p>
+
+      <p><strong>Broth or clear soup.</strong> Useful for both hydration and a small amount of sodium and nutrients when solid food feels like too much.</p>
+
+      <p><strong>Applesauce or other very soft fruit.</strong> Easy to swallow, mildly sweet without being overwhelming, and gentle on an unsettled stomach.</p>
+
+      <p><strong>Ginger, in tea or chews.</strong> Ginger has a long track record as a mild anti-nausea aid and is gentle enough to try even when other foods feel impossible. Ginger tea, sipped slowly, is a common choice for people who can't face anything solid.</p>
+
+      <h2>What to Avoid During an Attack</h2>
+
+      <p>This isn't the time for foods that are heavy, greasy, strongly flavored, or that you'd normally consider a "treat." Fried foods, rich sauces, very sweet desserts, and anything with a strong smell can all make nausea worse or simply feel unmanageable. It's also worth being cautious with anything you suspect might be a personal dietary trigger — aged cheese, processed meats, or alcohol — not because eating them during an attack will make things dramatically worse in the moment, but because there's no reason to add a potential second trigger while you're already vulnerable.</p>
+
+      <p>If caffeine is part of your normal routine, a small amount can sometimes help — but this is highly individual, and starting a large new dose of caffeine during an attack if you don't normally consume it isn't advisable.</p>
+
+      <h2>Hydration Matters as Much as Food</h2>
+
+      <p>Dehydration and migraine feed into each other, and vomiting or reduced fluid intake during an attack can make this worse quickly. Sipping water slowly — rather than drinking a large amount at once, which can aggravate nausea — along with electrolyte drinks or tablets if you've been vomiting, supports recovery alongside whatever food you manage to get down.</p>
+
+      <h2>If You Genuinely Can't Eat Anything</h2>
+
+      <p>Sometimes nausea is severe enough that even bland food isn't realistic. In that case, prioritizing fluids — water, electrolyte solutions, or weak ginger tea in small sips — is more important than forcing food. If nausea is a regular and significant part of your attacks, it's worth discussing anti-nausea medication with your doctor as part of your overall treatment plan, since untreated nausea can make both eating and oral medication absorption harder across the board.</p>
+
+      <h2>Eating Is About Damage Control, Not Prevention — That's a Separate Conversation</h2>
+
+      <p>Everything above is about getting through an attack that's already started. If you're interested in how diet plays into reducing how often migraines happen in the first place — rather than just managing one in progress — that's a related but different topic, covered in our guide to <a href="/blog/what-to-eat-to-prevent-migraines">what to eat to prevent migraines</a>.</p>
+
+      <p>And if certain foods seem to reliably show up before your worst attacks, it's worth checking whether something else is stacking alongside them — weather changes in particular are an easy thing to miss. MigraineCast tracks barometric pressure trends for your location automatically, so if a "food trigger" keeps lining up with pressure drops too, you'll be able to see that pattern rather than just blaming the meal.</p>
+    `,
+  },
+  {
+    slug: "dehydration-and-daily-migraines",
+    title: "Can Dehydration Cause Migraines Every Day? What the Research Says",
+    excerpt:
+      "Dehydration is one of the most well-established migraine triggers — but can it really cause headaches every single day? Here's how to tell the difference between a hydration problem and something else going on.",
+    date: "June 9, 2026",
+    category: "Science",
+    content: `
+      <p>Dehydration is one of the most consistently reported migraine triggers, and unlike many other triggers, it's one with a fairly clear physiological story: reduced blood volume, electrolyte shifts, and changes in blood flow to the brain that can activate the same pain pathways involved in a migraine attack. So if you're getting headaches or migraines nearly every day, it's reasonable to wonder whether chronic mild dehydration could be the whole explanation.</p>
+
+      <p>The honest answer is: it's possible, but daily headaches are also one of the situations where it's worth looking at the full picture rather than assuming a single cause — because daily or near-daily headache has a few other common explanations that are worth ruling out alongside hydration.</p>
+
+      <h2>How Dehydration Actually Triggers Headaches</h2>
+
+      <p>When you're dehydrated, blood volume drops slightly, which can reduce oxygen delivery to the brain. The brain itself can also lose a small amount of fluid, causing it to temporarily contract slightly away from the skull — a mechanical change thought to activate pain-sensitive structures. Electrolyte imbalances, particularly involving sodium and other minerals lost through sweat or inadequate intake, affect nerve signaling more broadly.</p>
+
+      <p>For migraine-prone brains, all of this can be enough to tip things toward an attack — and notably, this can happen with dehydration that's mild enough you might not consciously feel "thirsty" in the way you'd expect.</p>
+
+      <h2>The Daily Pattern: Three Possibilities Worth Considering</h2>
+
+      <p><strong>1. Genuinely consistent low hydration.</strong> If your daily fluid intake is consistently on the low side — common for people who don't feel thirsty often, drink a lot of caffeine (which has a mild diuretic effect), or live in dry climates or heated/air-conditioned indoor environments — your baseline hydration status might simply be low enough, every day, to sit right at your trigger threshold.</p>
+
+      <p><strong>2. Medication-overuse headache.</strong> If you're taking acute pain medication (including over-the-counter options) frequently — generally more than two to three days a week on a regular basis — it's possible to develop a pattern where the medication itself contributes to more frequent headaches. This is a recognized phenomenon and isn't a sign of doing anything "wrong," but it's important to discuss with a doctor if it applies to you, because the management approach is different from a purely hydration-driven pattern.</p>
+
+      <p><strong>3. Multiple daily triggers stacking.</strong> Daily headaches can also reflect several smaller things happening every day rather than one big cause — mild dehydration plus poor sleep plus screen time plus caffeine timing plus stress, each contributing a little. In this case, hydration might be one piece of a larger puzzle rather than the whole answer.</p>
+
+      <h2>How to Actually Test the Hydration Theory</h2>
+
+      <p>The most useful thing you can do is run a deliberate two-week experiment. For one week, track your typical fluid intake without changing anything — just note roughly how much water (and caffeine, and alcohol) you're consuming, alongside your headache frequency and severity. For the second week, deliberately increase water intake — a commonly cited target is around half your body weight in ounces, spread throughout the day, with attention to electrolytes if you're active or in a hot climate — while keeping everything else as similar as possible.</p>
+
+      <p>If headache frequency or severity drops noticeably during the increased-hydration week, that's a meaningful signal. If it doesn't change much, that doesn't mean hydration isn't relevant at all — but it suggests it's probably not the primary daily driver, and it's worth looking at the other possibilities above, ideally with a doctor if the pattern is truly daily or near-daily.</p>
+
+      <h2>Signs You're Chronically Under-Hydrated Without Realizing It</h2>
+
+      <ul>
+        <li>Urine that's consistently darker than pale yellow</li>
+        <li>Feeling fine in the morning but developing a dull headache by mid-afternoon</li>
+        <li>Heavy reliance on coffee or tea as your main fluid source</li>
+        <li>Working in air-conditioned or heated indoor environments most of the day</li>
+        <li>Headaches that improve somewhat after drinking a large glass of water, even if they don't fully resolve</li>
+      </ul>
+
+      <h2>Hydration Doesn't Exist in Isolation</h2>
+
+      <p>One of the trickiest things about dehydration as a trigger is that it rarely acts alone — it tends to compound other triggers rather than cause attacks entirely on its own. This is especially true with weather: winter air, both outdoors and in heated buildings, is notably dry, and the combination of low humidity and barometric pressure changes is a well-documented source of seasonal migraine increases, covered in more depth in our piece on <a href="/blog/winter-migraines">why winter migraines happen</a>.</p>
+
+      <p>If you suspect your daily headaches might be partly weather-related on top of hydration, our <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> can show you what barometric pressure was doing on your worst days — sometimes a "daily headache" pattern turns out to track more closely with a string of unstable pressure days than with hydration alone.</p>
+
+      <h2>When to See a Doctor</h2>
+
+      <p>Daily or near-daily headaches — regardless of suspected cause — are generally worth discussing with a doctor, both to rule out medication-overuse headache and to make sure nothing else is being missed. Hydration is a reasonable first thing to address because it's low-risk and easy to test, but it shouldn't be the only thing you try if a two-week experiment doesn't move the needle.</p>
+    `,
+  },
+  {
+    slug: "weather-triggered-migraine-what-to-do",
+    title: "Migraine Triggered by Weather Changes? Here's Exactly What to Do",
+    excerpt:
+      "If you suspect weather is behind your migraines, 'just check the forecast' isn't specific enough to actually help. Here's a concrete, step-by-step approach — from confirming the pattern to building an early-warning system.",
+    date: "June 12, 2026",
+    category: "Tips",
+    content: `
+      <p>"I think the weather gives me migraines" is one of the most common things migraine sufferers say — and also one of the most commonly dismissed, including sometimes by the people experiencing it. It's vague enough to sound like a guess, even when the underlying pattern is real and consistent. The good news is that "weather-triggered migraine" isn't actually vague at all once you break it down into steps you can act on.</p>
+
+      <p>Here's the practical path from "I think weather is a trigger" to "I know exactly what's coming and I'm ready for it."</p>
+
+      <h2>Step 1: Confirm It's Actually Happening</h2>
+
+      <p>Before building a whole system around weather, it's worth confirming the pattern exists, because "I feel like" and "the data shows" are different starting points. Think back to your last several bad migraine days — even five or six is enough to start — and check what the barometric pressure was doing in the 24 to 48 hours before each one.</p>
+
+      <p>Our free <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> does exactly this: enter your location and up to five past migraine dates, and it pulls the actual historical barometric pressure data for each one, so you can see whether a drop preceded your attacks — no guessing required.</p>
+
+      <h2>Step 2: Find Your Personal Threshold</h2>
+
+      <p>Not everyone reacts to the same size pressure change. Some people are sensitive to drops as small as 3-5 mmHg; others only react to larger, faster drops of 10+ mmHg. Knowing roughly where your threshold sits matters because it tells you which forecasted changes are actually worth preparing for and which are just normal day-to-day fluctuation that won't affect you.</p>
+
+      <p>Our <a href="/tools/pressure-threshold-estimator">Personal Pressure Threshold Estimator</a> is built to help narrow this down based on your own history, so you're not treating every minor pressure wobble as a five-alarm warning — and not missing the ones that actually matter for you.</p>
+
+      <h2>Step 3: Get Advance Warning, Not Just a Daily Forecast</h2>
+
+      <p>This is the part that changes everything practically. A standard weather app tells you it's going to rain Thursday. It doesn't tell you that the pressure drop driving that rain actually begins Tuesday night, or that — based on your personal pattern — you tend to feel symptoms about 30 hours after a drop of that size starts.</p>
+
+      <p>MigraineCast tracks barometric pressure trends specifically, calculates the rate of change (which matters more than the absolute pressure level), and gives you a risk forecast for your location up to 48 hours ahead. That's the lead time that turns "oh no, it's happening again" into "I saw this coming yesterday and I'm ready."</p>
+
+      <h2>Step 4: Build a Response Plan for High-Risk Windows</h2>
+
+      <p>Once you know a high-risk window is coming, the value comes from actually doing something with that information. That means having medication accessible and unexpired, hydrating proactively in the 24 hours beforehand, protecting your sleep that night, avoiding other known triggers (alcohol, skipped meals, known dietary triggers) during the window, and — if your schedule allows — building in some flexibility for the next day rather than stacking it with high-stakes commitments.</p>
+
+      <p>We go through this in much more detail, including a pre-attack checklist you can run the night before, in our guide to building a <a href="/blog/migraine-go-bag">migraine go-bag</a>.</p>
+
+      <h2>Step 5: Track Over Time and Refine</h2>
+
+      <p>Your first few high-risk windows are a learning process. Did you actually get symptomatic when the forecast predicted? Was the timing earlier or later than expected? Was the severity in line with the size of the pressure change, or did other factors (poor sleep that week, hormonal timing, stress) seem to make it worse or better than expected?</p>
+
+      <p>Our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> helps surface these patterns over time by comparing your logged attacks against the weather conditions MigraineCast has been tracking — so your "weather sensitivity" stops being a vague feeling and becomes a personal profile you and your doctor can actually work with.</p>
+
+      <h2>What If the Forecast Doesn't Match Your Symptoms?</h2>
+
+      <p>It's worth saying clearly: weather is rarely the <em>only</em> trigger, even for people who are clearly weather-sensitive. If a predicted high-risk window comes and goes without symptoms, that's not a failure of the system — it might mean your other factors (sleep, stress, hormones, food) were well-managed that week, keeping you below threshold even with the pressure change. Conversely, an unexpected migraine on a day with no major weather event usually means something else stacked up. Over time, tracking both sides of this — weather and everything else — is what builds the clearest picture.</p>
+
+      <blockquote>
+        <p>MigraineCast brings all of this together automatically — pressure tracking, personalized risk forecasts, and pattern analysis — so weather-triggered migraines go from feeling random to feeling predictable. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "how-to-sleep-with-a-migraine",
+    title: "How to Sleep With a Migraine When It Feels Impossible",
+    excerpt:
+      "Sleep is one of the most effective tools for recovering from a migraine — and one of the hardest things to actually do when you're in pain, nauseous, and sensitive to every sound and flicker of light. Here's how to make it more possible.",
+    date: "June 16, 2026",
+    category: "Tips",
+    content: `
+      <p>For a lot of people, sleep is the single most effective "treatment" for a migraine that's already underway — sometimes more effective than anything else available. And yet sleep is often exactly what a migraine takes away from you. Pain that throbs with your pulse, nausea that makes lying flat uncomfortable, sensitivity to light and sound that turns a normal bedroom into a minefield, and the anxious, wired feeling that can come with a bad attack all work against the thing that would actually help most.</p>
+
+      <p>Here's how to tilt the odds back in your favor.</p>
+
+      <h2>Why Sleep Helps So Much</h2>
+
+      <p>Sleep gives the nervous system a chance to downregulate. The trigeminovascular system — the network of nerves and blood vessels behind migraine pain — tends to be in an activated, inflamed state during an attack, and sleep appears to help that activation settle, even partially. Many people report waking up from even a short period of sleep with an attack noticeably reduced or fully resolved, particularly if medication was taken beforehand and had time to work while the body was at rest.</p>
+
+      <h2>Set Up the Environment First</h2>
+
+      <p>Before getting into bed, deal with the sensory environment as completely as you can. Make the room as dark as possible — blackout curtains if you have them, or a well-fitting sleep mask if you don't. Even small amounts of light, including from device standby lights or gaps in curtains, can be enough to keep a sensitive nervous system engaged.</p>
+
+      <p>For sound, earplugs or noise-canceling headphones can help, but for some people, total silence feels worse — every small sound (a creaking floor, traffic outside) becomes startling against a silent backdrop. If that's you, a consistent low-level white noise or fan sound can mask unpredictable noises without being stimulating itself.</p>
+
+      <p>Temperature matters too. A room on the cooler side — many people find somewhere around 65-68°F (18-20°C) comfortable — tends to be easier to fall asleep in generally, and a cool environment can feel soothing if you're also using a cold compress.</p>
+
+      <h2>Find a Position That Doesn't Fight the Pain</h2>
+
+      <p>Lying flat can sometimes increase the sensation of pressure for people with migraine, particularly if sinus-type pressure is part of the picture. Propping yourself up slightly with an extra pillow — enough to elevate your head a little without straining your neck — is worth experimenting with. If nausea is significant, lying flat can also make that worse; a slight incline can help with both.</p>
+
+      <p>If you tend to carry tension in your neck and shoulders during an attack, a small rolled towel or pillow under the neck for support, or a warm compress on the back of the neck before settling in, can reduce some of the physical tension that makes it harder to relax into sleep.</p>
+
+      <h2>Address Nausea Before You Try to Sleep</h2>
+
+      <p>Trying to fall asleep while actively nauseous is genuinely difficult — your body is in a state that's working against rest. If nausea is part of your attack, dealing with it (anti-nausea medication if you have it, sipping ginger tea, or simply sitting upright for a few minutes before lying down) before attempting sleep is often more productive than lying in bed feeling miserable and unable to drift off.</p>
+
+      <h2>If You Can't Actually Fall Asleep</h2>
+
+      <p>Sometimes, despite doing everything right, sleep doesn't come — and lying in bed getting frustrated about not sleeping adds its own stress on top of an already difficult situation. In that case, the goal shifts from "sleep" to "rest as completely as possible." Staying still, in the dark, with your eyes closed, breathing slowly, still gives your nervous system a chance to settle even if you don't fully fall asleep. Some people find a familiar audiobook or a very low-volume, low-stimulation podcast — something they've heard before and don't need to actively follow — helps occupy the mind just enough to let the body relax, without the alertness that comes with something new or visually engaging.</p>
+
+      <h2>The Anxiety Loop</h2>
+
+      <p>For some people, part of what makes sleep difficult during a migraine is a layer of anxiety on top of the physical symptoms — worry about how bad it will get, what you'll miss tomorrow, or whether this is "going to be a bad one." That anxiety itself activates the nervous system in a way that works against rest. If you notice this pattern, slow breathing — even just extending your exhale longer than your inhale for a few minutes — can help shift things toward a calmer state, independent of the headache itself.</p>
+
+      <h2>Protecting Sleep Before an Attack, Not Just During</h2>
+
+      <p>Everything above is about getting through a night when a migraine has already started. But sleep disruption is also a trigger in its own right — both too little and too much sleep, as well as irregular sleep timing, are associated with migraine attacks. If you know a high-risk window is coming, whether due to hormonal timing or a forecasted pressure drop, protecting your sleep <em>that</em> night — keeping your normal bedtime, avoiding screens beforehand, skipping alcohol — is one of the most effective preventive steps available, precisely because poor sleep stacked on top of another trigger is often what tips things over.</p>
+
+      <blockquote>
+        <p>If weather changes are part of what's disrupting your sleep and triggering attacks, MigraineCast's advance pressure forecasts can give you the heads-up to protect your sleep the night before a high-risk window arrives — rather than finding out the hard way. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Get MigraineCast free on iOS</a>.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "migraine-prodrome-signs",
+    title: "Migraine Prodrome: The Early Warning Signs Most People Miss",
+    excerpt:
+      "Hours — sometimes a full day — before head pain starts, your body is often already signaling that a migraine is on its way. Learning to recognize your prodrome phase is one of the highest-leverage things you can do.",
+    date: "June 19, 2026",
+    category: "Science",
+    content: `
+      <p>Ask most people with migraine when their attack "started," and they'll point to when the head pain began. But for a large share of people, the migraine process actually starts much earlier — sometimes a full 24 hours before any pain — in a phase called the <strong>prodrome</strong>. The prodrome is often subtle, easy to dismiss as "just feeling off," and as a result, it's one of the most commonly missed parts of the entire migraine cycle.</p>
+
+      <p>Learning to recognize your own prodrome signs is one of the highest-leverage skills you can build, because it's the difference between an attack that arrives "out of nowhere" and one you saw coming with enough time to actually do something about it.</p>
+
+      <h2>What the Prodrome Actually Is</h2>
+
+      <p>The prodrome is the first of up to four recognized phases of a migraine attack (prodrome, aura, headache, and postdrome — though not everyone experiences all of them). It reflects changes happening in the brain before the headache mechanism itself fully activates, and it can begin anywhere from a few hours to about two days before the pain starts.</p>
+
+      <p>Because prodrome symptoms are often non-painful and easy to attribute to something else — tiredness, a long day, "just not feeling like myself" — many people only recognize them in hindsight, after the headache makes the connection obvious.</p>
+
+      <h2>Common Prodrome Symptoms</h2>
+
+      <p>Prodrome symptoms vary a lot between individuals, but tend to be consistent <em>for</em> each individual — meaning your particular set of early signs is likely to repeat attack after attack, even if it looks different from someone else's. Commonly reported symptoms include:</p>
+
+      <ul>
+        <li><strong>Mood changes</strong> — irritability, low mood, anxiety, or unusual euphoria</li>
+        <li><strong>Fatigue or yawning</strong> — an unusual wave of tiredness, or repeated yawning that seems disproportionate to how tired you actually are</li>
+        <li><strong>Food cravings</strong> — particularly for sweet or salty foods, sometimes specific and unusual for you</li>
+        <li><strong>Neck stiffness or tension</strong> — often in the back of the neck and shoulders</li>
+        <li><strong>Sensory sensitivity</strong> — a mild, early version of the light or sound sensitivity that may intensify during the headache phase</li>
+        <li><strong>Difficulty concentrating</strong> — a "brain fog" feeling, or finding words harder to access than usual</li>
+        <li><strong>Increased urination or fluid retention</strong></li>
+        <li><strong>Frequent yawning or excessive thirst</strong></li>
+      </ul>
+
+      <p>If even one or two of these sound familiar as something that "sometimes happens the day before a bad migraine," that's worth paying attention to — it's likely part of your personal prodrome pattern.</p>
+
+      <h2>Why Catching It Early Matters So Much</h2>
+
+      <p>The prodrome window is, for many people, the single best opportunity to intervene before an attack fully develops. Treatments — whether medication, hydration, rest, or removing other triggers — tend to be more effective the earlier they're used, and the prodrome phase can offer hours of lead time that the headache phase simply doesn't.</p>
+
+      <p>We cover the practical side of this — what to actually do once you recognize prodrome signs — in our guide on <a href="/blog/stop-a-migraine-before-it-starts">how to stop a migraine before it starts</a>. This post focuses specifically on the recognition piece, because you can't act on signs you don't notice.</p>
+
+      <h2>How to Start Recognizing Your Own Prodrome Pattern</h2>
+
+      <p>The most reliable way to identify your prodrome signs is to look backward, deliberately. After your next few migraine attacks, think back over the prior 24-36 hours and ask: was there anything — even something small — that felt slightly "off"? Mood, energy, neck tension, food cravings, sleep quality the night before?</p>
+
+      <p>Do this consistently for several attacks, and a pattern usually starts to emerge. It might not be the same every single time, but a "usual suspect" or two tends to show up often enough to become a useful signal.</p>
+
+      <h2>Combining Prodrome Awareness With Weather Forecasting</h2>
+
+      <p>Here's where things get especially useful: prodrome symptoms and forecasted triggers can confirm each other. If MigraineCast flags an elevated-risk window starting tomorrow based on an incoming pressure drop, and you notice your typical prodrome signs — neck tension, that particular kind of tiredness — showing up tonight, that's two independent signals pointing the same direction. That combination is a much stronger basis for action (hydrating now, taking medication early if that's part of your plan, protecting your sleep) than either signal alone.</p>
+
+      <p>Our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> can help you look at your logged attacks alongside weather data over time, which is also a good way to spot whether your prodrome symptoms tend to cluster around weather-driven attacks specifically, or show up regardless of the trigger.</p>
+
+      <h2>The Bottom Line</h2>
+
+      <p>Prodrome symptoms are easy to miss because, on their own, they look like nothing — a bit tired, a bit irritable, craving something salty. It's only in the context of "this happens before my migraines" that they become meaningful. Once you start looking for the pattern, though, many people find it's been there all along, quietly giving advance notice that was simply never decoded.</p>
+
+      <blockquote>
+        <p>MigraineCast helps you build the full picture — logging your attacks, tracking weather-based risk, and helping you spot the patterns (including prodrome timing) that make migraines feel predictable instead of random. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "natural-migraine-relief",
+    title: "Natural Migraine Relief Without Medication: What Actually Helps",
+    excerpt:
+      "Not every migraine strategy needs to come from a pharmacy. Here's an honest look at non-medication approaches that have real evidence behind them — and where their limits are.",
+    date: "June 23, 2026",
+    category: "Tips",
+    content: `
+      <p>A lot of people looking for "natural migraine relief" are in one of two situations: they want to reduce reliance on medication, or they're in a moment where medication isn't an option and they need something — anything — that might help. Either way, it's worth being upfront about what non-medication approaches can realistically do: for many people, they're genuinely useful as <strong>complements</strong> — reducing frequency, easing severity, or helping during an attack — but they're rarely a complete replacement for medical treatment when migraines are frequent or severe. With that framing, here's what tends to actually help.</p>
+
+      <h2>Cold and Heat Therapy</h2>
+
+      <p>A cold compress applied to the forehead, temples, or back of the neck is one of the most consistently reported non-medication strategies, likely working by constricting blood vessels and numbing the area somewhat. Some people find heat more soothing instead — particularly for neck and shoulder tension that often accompanies migraine. There's no harm in trying both and seeing which your body responds to; some people even alternate between them.</p>
+
+      <h2>Acupressure</h2>
+
+      <p>Certain pressure points — particularly the area between the thumb and index finger (LI4), the base of the skull, and points around the temples — are commonly used for headache relief, with some research support for acupressure as a complementary approach. We go through specific points and techniques in our guide to <a href="/blog/migraine-pressure-points">migraine pressure points</a>.</p>
+
+      <h2>Hydration</h2>
+
+      <p>This comes up constantly for good reason: dehydration is a well-established trigger, and addressing it — especially early in an attack — can meaningfully reduce severity for some people, even if it doesn't fully resolve things. We go into this in much more depth, including how to tell if dehydration is a bigger factor than you realize, in our piece on <a href="/blog/dehydration-and-daily-migraines">dehydration and daily migraines</a>.</p>
+
+      <h2>Magnesium, Riboflavin, and CoQ10</h2>
+
+      <p>Of all the "natural" supplement options discussed for migraine, magnesium and riboflavin (vitamin B2) have some of the more substantial research behind them for <em>prevention</em> — meaning consistent daily use over time, rather than something you take during an attack expecting immediate relief. CoQ10 is also commonly discussed. As with any supplement, it's worth discussing dosing and appropriateness with a doctor, particularly because effective doses for migraine prevention are sometimes higher than what's in a standard multivitamin.</p>
+
+      <h2>Sleep and Relaxation</h2>
+
+      <p>We've covered this in depth in <a href="/blog/how-to-sleep-with-a-migraine">how to sleep with a migraine</a>, but it's worth repeating here: sleep is one of the most effective non-medication tools available, both during an attack and as prevention. Relaxation techniques — slow breathing, progressive muscle relaxation, or simply lying still in a dark, quiet room — can help even when full sleep isn't achievable, by reducing the overall nervous system activation that tends to accompany an attack.</p>
+
+      <h2>Caffeine — A Double-Edged Sword</h2>
+
+      <p>Small amounts of caffeine can sometimes help with headache, partly because of its effect on blood vessels and partly because it's an ingredient in some combination headache medications. But caffeine is also a double-edged sword for migraine: too much, inconsistent timing, or withdrawal from your usual amount can all be triggers in their own right. If you use caffeine as a tool, consistency matters as much as quantity.</p>
+
+      <h2>Environmental Control</h2>
+
+      <p>Reducing sensory input — dimming lights, reducing screen brightness, using noise-canceling headphones, stepping away from strong smells (perfumes, cooking odors, cleaning products) — doesn't treat the underlying migraine mechanism, but it removes additional inputs that can intensify an attack that's already underway. This is "natural" in the sense that it's free, has no side effects, and is always available.</p>
+
+      <h2>Essential Oils — A Cautious Note</h2>
+
+      <p>Peppermint and lavender oils are commonly mentioned for headache relief, and some people do find them soothing — possibly through a combination of mild physiological effects and the relaxation response to a pleasant, familiar scent. The important caveat: strong smells are a migraine trigger for some people, so what's soothing for one person can make things worse for another. If you want to try this, do it cautiously and stop if it doesn't feel helpful.</p>
+
+      <h2>The Most Underrated "Natural" Tool: Early Warning</h2>
+
+      <p>Here's an angle that doesn't get talked about enough: one of the most effective non-medication interventions is simply <em>knowing an attack is likely before it starts</em>, because early action — whatever form it takes — tends to work better than late action. Tracking your weather-related triggers and getting advance notice of high-risk conditions isn't a "remedy" in the traditional sense, but it's arguably one of the most powerful natural tools available, because it changes the timing of everything else you do.</p>
+
+      <h2>Where Natural Approaches Have Limits</h2>
+
+      <p>If migraines are frequent (more than a few days a month), severe, or significantly affecting your life, non-medication strategies are best used <em>alongside</em> a conversation with a doctor — not instead of one. There are effective preventive and acute treatments that natural approaches don't replace, and for some people, combining both gives much better results than either alone.</p>
+
+      <blockquote>
+        <p>MigraineCast supports the "natural" side of migraine management too — by giving you advance notice of weather-related risk so you can use cold therapy, hydration, rest, or whatever works for you, before an attack fully takes hold rather than after. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "what-to-eat-to-prevent-migraines",
+    title: "What to Eat to Prevent Migraines: A Practical, Non-Restrictive Guide",
+    excerpt:
+      "Diet and migraine prevention often gets reduced to long lists of 'foods to avoid' — but what you eat regularly to support a stable system matters at least as much as what you cut out. Here's the proactive side of the equation.",
+    date: "June 26, 2026",
+    category: "Tips",
+    content: `
+      <p>Search "diet and migraine" and you'll mostly find lists of foods to avoid — chocolate, red wine, aged cheese, processed meats. That information has its place, but it tells only half the story, and an overly restrictive approach can backfire by adding stress and limiting nutrition without much benefit. The less-discussed half is this: certain foods and eating patterns appear to support a more stable system overall, making you somewhat more resilient to other triggers. Here's what that looks like in practice.</p>
+
+      <h2>Regular Meals Matter More Than Almost Anything Else</h2>
+
+      <p>If there's one dietary change with the broadest support, it's this: don't skip meals, and don't let long gaps form between them. Blood sugar drops are a well-recognized migraine trigger, and skipping breakfast or going six-plus hours without eating during the day is one of the most common — and most fixable — patterns behind "random" attacks. This matters enough that it's worth treating as a baseline habit rather than something to optimize only when you remember.</p>
+
+      <h2>Magnesium-Rich Foods</h2>
+
+      <p>Magnesium has reasonable evidence behind it for migraine prevention, and getting more from food is a low-risk way to support that, alongside any supplementation a doctor might recommend. Foods relatively rich in magnesium include leafy greens (spinach, Swiss chard), nuts and seeds (almonds, cashews, pumpkin seeds), legumes, whole grains, and dark chocolate (in moderation — for some people chocolate is also a trigger, so this is worth testing individually).</p>
+
+      <h2>Riboflavin (Vitamin B2) Sources</h2>
+
+      <p>Riboflavin is another nutrient with research support for migraine prevention at higher-than-typical-dietary doses, but everyday food sources are still worth incorporating: eggs, lean meats, dairy, almonds, and fortified whole grains and cereals are all reasonable sources.</p>
+
+      <h2>Omega-3 Fatty Acids</h2>
+
+      <p>Fatty fish (salmon, mackerel, sardines), walnuts, chia seeds, and flaxseed provide omega-3s, which have some evidence for reducing inflammation in ways that may be relevant to migraine. These are easy, generally beneficial additions regardless of the migraine connection specifically.</p>
+
+      <h2>Hydrating Foods</h2>
+
+      <p>Beyond drinking water directly (covered in our piece on <a href="/blog/dehydration-and-daily-migraines">dehydration and daily migraines</a>), foods with high water content — cucumber, watermelon, oranges, soups and broths — contribute to overall hydration status and can be especially useful if you struggle to drink enough plain water throughout the day.</p>
+
+      <h2>A Note on "Trigger Foods"</h2>
+
+      <p>Common dietary triggers — aged cheeses, processed/cured meats (often due to nitrates), alcohol (especially red wine), and foods containing MSG — are worth being aware of, but it's important not to over-apply this. Trigger foods are highly individual: many people with migraine can eat any of these without issue, while for others, one specific item is a reliable trigger and the rest are fine. Eliminating entire food categories "just in case," without evidence they're actually a problem for you specifically, often isn't worth the nutritional and lifestyle cost.</p>
+
+      <p>If you suspect a specific food, our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> can help you look for a pattern across your logged attacks — a much more useful approach than broad elimination diets, which can be hard to sustain and difficult to interpret (since removing many foods at once makes it unclear which one, if any, actually mattered).</p>
+
+      <h2>Putting It Together: A Realistic Pattern</h2>
+
+      <p>None of this requires a dramatic diet overhaul. A realistic, sustainable pattern looks more like: don't skip meals, especially breakfast; build meals around whole foods most of the time without being rigid about it; include a source of magnesium and omega-3s regularly (a handful of nuts, fish a couple times a week); stay ahead of hydration rather than catching up after the fact; and notice — without obsessing — whether any specific food seems to consistently precede attacks for you.</p>
+
+      <p>This connects directly to managing an attack once it starts, too — see our guide on <a href="/blog/best-foods-during-migraine">the best foods to eat during a migraine</a> for the acute side of the equation, and our broader overview of <a href="/blog/common-migraine-triggers">common migraine triggers</a> for how diet fits alongside sleep, stress, hormones, and weather.</p>
+
+      <h2>The Bottom Line</h2>
+
+      <p>Diet's role in migraine prevention is less about a perfect list of "good" and "bad" foods and more about supporting a stable baseline — steady blood sugar, adequate hydration, and a generally nutrient-rich pattern — while staying alert to any genuinely individual triggers without over-restricting based on general lists that may not apply to you.</p>
+    `,
+  },
+  {
+    slug: "migraine-and-hrv",
+    title: "The Migraine and HRV Connection: What Your Heart Rate Variability Might Be Telling You",
+    excerpt:
+      "Heart rate variability (HRV) is best known as a fitness and recovery metric — but it's also a window into the part of your nervous system that's deeply involved in migraine. Here's what the connection actually looks like.",
+    date: "June 30, 2026",
+    category: "Science",
+    content: `
+      <p>If you wear an Apple Watch or another wearable, you've probably seen your "HRV" number — heart rate variability — show up in your health data, often framed around recovery, stress, or sleep quality. What's less widely known is that HRV is also genuinely relevant to migraine, because both are tied to the same underlying system: the autonomic nervous system.</p>
+
+      <h2>What HRV Actually Measures</h2>
+
+      <p>Heart rate variability refers to the variation in time between consecutive heartbeats. Counterintuitively, <em>more</em> variability is generally considered a sign of a healthy, adaptable nervous system, while <em>lower</em> variability tends to be associated with stress, fatigue, illness, or strain. HRV is controlled by the autonomic nervous system — specifically the balance between its two branches: the sympathetic ("fight or flight") and parasympathetic ("rest and digest") systems.</p>
+
+      <h2>The Autonomic Nervous System's Role in Migraine</h2>
+
+      <p>Migraine isn't just a "head pain" condition — it involves widespread changes in nervous system activity, and the autonomic nervous system specifically has been implicated in several ways. Many of the symptoms that accompany migraine attacks — nausea, changes in blood pressure, temperature regulation issues, sensitivity to light and sound — are connected to autonomic function. Some research has found that people with migraine show patterns of autonomic nervous system activity that differ from people without migraine, even between attacks, and that these patterns can shift further around the time of an attack.</p>
+
+      <p>This is where HRV comes in: because HRV is essentially a readout of autonomic nervous system balance, changes in HRV around migraine attacks are a logical — and observed — phenomenon. Some studies have found reduced HRV in the period leading up to, and during, migraine attacks compared to headache-free periods, consistent with a shift toward higher sympathetic ("stress response") activity around attacks.</p>
+
+      <h2>Could HRV Be an Early Warning Sign?</h2>
+
+      <p>This is the question that makes HRV interesting beyond just "interesting science": if HRV shifts before an attack as part of the broader prodrome process (see our guide to <a href="/blog/migraine-prodrome-signs">migraine prodrome signs</a>), then a noticeable drop in your HRV — outside of obvious explanations like poor sleep, illness, or heavy exercise the day before — could theoretically be an early signal worth paying attention to, alongside other prodrome signs like neck tension, mood changes, or fatigue.</p>
+
+      <p>It's important to be realistic here: HRV is influenced by a huge number of factors — sleep, alcohol, illness, exercise, stress, even hydration — so a single "low HRV" reading on its own isn't a reliable migraine predictor. But as <em>one input among several</em>, especially when it lines up with other signals (a forecasted pressure drop, prodrome symptoms, hormonal timing), it adds another data point to the picture.</p>
+
+      <h2>How MigraineCast Uses HRV</h2>
+
+      <p>MigraineCast can optionally read heart rate variability data from Apple Health, where it's used to help identify physiological stress patterns that may be associated with migraine risk. This is entirely optional — MigraineCast's core weather-based forecasting works without it — but for users who already track HRV via Apple Watch or another connected device, it adds a personal physiological signal alongside the environmental one.</p>
+
+      <p>The combination is the interesting part: weather forecasting tells you what's coming from <em>outside</em> — pressure changes, storms, fronts. HRV (and other prodrome signs) can reflect what's happening <em>inside</em> — how your nervous system is responding, potentially before you consciously feel anything. Neither is perfect alone, but together they build a more complete picture than either provides on its own.</p>
+
+      <h2>What to Do With This Information Practically</h2>
+
+      <p>If you're already tracking HRV via a wearable, here's a simple way to start exploring the connection for yourself: when you log a migraine in MigraineCast, take a look at your HRV trend from the day or two before. Over several attacks, you might start to notice whether a dip tends to show up consistently, occasionally, or not at all. Combine this with what MigraineCast already tracks — barometric pressure trends and your personal trigger patterns via the <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> — for a fuller view of what's converging around your attacks.</p>
+
+      <p>If you don't currently track HRV, this isn't something to rush out and buy a device for — weather-based forecasting and trigger tracking remain the foundation, and HRV is best thought of as an optional, additional layer for people who already have the data available.</p>
+
+      <h2>The Bigger Picture</h2>
+
+      <p>The HRV-migraine connection is a good example of something true throughout migraine management: attacks rarely come from one single, isolated cause. They emerge from the interaction between your environment (weather, light, food, sleep) and your internal state (stress, hormones, autonomic balance — reflected in things like HRV). The more of these signals you can see at once, the less "random" migraines tend to feel.</p>
+
+      <blockquote>
+        <p>MigraineCast brings together weather-based forecasting, personal trigger tracking, and optional Apple Health integration — including HRV — to help you build a complete picture of what's converging before your migraines hit. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+    `,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
