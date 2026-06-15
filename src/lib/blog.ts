@@ -948,6 +948,294 @@ const posts: BlogPost[] = [
       </blockquote>
     `,
   },
+  {
+    slug: "trigeminal-nerve-and-migraine",
+    title: "The Trigeminal Nerve: Why Migraine Pain Shows Up Where It Does",
+    excerpt:
+      "Migraine pain has a very specific anatomical reason for showing up behind your eye, across your forehead, or down your jaw. It all traces back to one nerve. Here's how the trigeminal nerve drives the pain — and why it's the target of the newest migraine medications.",
+    date: "March 9, 2026",
+    category: "Science",
+    content: `
+      <p>If you've ever wondered why a migraine seems to settle in such oddly specific places — one eye socket, one temple, a band across the forehead, sometimes even the teeth or jaw — there's a real anatomical reason for that. It's not random, and it's not "just a headache." It's the trigeminal nerve doing exactly what it's built to do, just in overdrive.</p>
+
+      <p>Understanding this nerve doesn't just satisfy curiosity. It explains why migraine pain feels the way it does, why certain treatments work, and why some of the newest migraine drugs were designed around this exact pathway.</p>
+
+      <h2>What the Trigeminal Nerve Actually Does</h2>
+
+      <p>The trigeminal nerve is the largest of the twelve cranial nerves, and it's responsible for sensation across most of your face and head. It splits into three major branches — ophthalmic (forehead, eye, scalp), maxillary (cheek, upper jaw, nose), and mandibular (lower jaw, chin) — which is why migraine pain can show up in such a wide variety of locations depending on which branch is most involved.</p>
+
+      <p>On a normal day, this nerve is just relaying everyday sensory information: a gust of cold air on your face, the pressure of your sunglasses, the feeling of chewing. During a migraine, something very different happens.</p>
+
+      <h2>The Trigeminovascular System: Where Pain Actually Comes From</h2>
+
+      <p>Migraine pain isn't generated inside the brain tissue itself — the brain has no pain receptors. Instead, it comes from the network of blood vessels and membranes (the meninges) that surround the brain, and the trigeminal nerve fibers that wrap around those vessels. This combined network is often called the trigeminovascular system.</p>
+
+      <p>During a migraine attack, these trigeminal nerve fibers become activated and inflamed. They release inflammatory chemicals — most notably a molecule called CGRP (calcitonin gene-related peptide) — that cause blood vessels in the meninges to dilate and become inflamed. This is sometimes described as "neurogenic inflammation," and it's a big part of why migraine pain has that throbbing, pulsing quality that worsens with movement, bending over, or coughing.</p>
+
+      <p>The activated trigeminal nerve then sends that pain signal up to the brainstem and on to areas of the brain that process pain, which is how a problem that starts around your blood vessels translates into the experience of a pounding headache.</p>
+
+      <h2>Why CGRP Became the Biggest Story in Migraine Treatment</h2>
+
+      <p>For decades, migraine treatment was mostly trial and error — beta blockers, antidepressants, anti-seizure medications, all originally developed for other conditions and repurposed because they happened to help some people. The discovery of CGRP's role in the trigeminovascular system changed that.</p>
+
+      <p>Because CGRP is released specifically by activated trigeminal nerve fibers and plays such a direct role in the inflammation and pain cascade, it became a precise target. This led to an entire new class of medications — CGRP inhibitors, available both as acute treatments (taken during an attack) and preventives (taken regularly to reduce attack frequency). These drugs were the first migraine-specific treatments developed from the ground up based on the underlying mechanism, rather than discovered by accident.</p>
+
+      <p>If you've heard your doctor mention CGRP medications, this is the biology behind why they exist — and why they target this nerve pathway specifically rather than acting more broadly like older medications.</p>
+
+      <h2>Trigeminal Sensitization: Why Migraines Can Get Worse Over Time</h2>
+
+      <p>One of the more important concepts tied to this nerve is sensitization. With repeated migraine attacks, the trigeminal nerve pathway can become progressively more reactive — meaning it takes less and less of a trigger to set off the same cascade. This is part of the reason why some people experience allodynia during an attack, where ordinary sensations like a hairbrush touching the scalp, glasses resting on the nose, or a shirt collar against the neck become painful.</p>
+
+      <p>It's also part of the reasoning behind treating migraines early. The sooner an attack is interrupted — ideally during the early prodrome or mild pain stage — the less time the trigeminal pathway spends in that highly activated, inflamed state, and the easier it tends to be to bring under control.</p>
+
+      <h2>How This Connects to Triggers You Already Know About</h2>
+
+      <p>Many common migraine triggers make more sense once you understand this pathway. Bright light, certain smells, and barometric pressure changes don't directly cause pain — they're thought to lower the threshold at which the trigeminovascular system activates, making the trigeminal nerve more likely to fire in response to whatever the underlying buildup happens to be.</p>
+
+      <p>That's part of why tracking patterns over time matters so much. If you can see that your attacks cluster around specific pressure drops, sleep disruptions, or sensory exposures, you're essentially mapping out what tends to push your trigeminal system past its threshold. Our <a href="/tools/pressure-threshold-estimator">Personal Pressure Threshold Estimator</a> is built around exactly this idea — helping you find the point where weather changes start tipping things over for you specifically.</p>
+
+      <h2>What MigraineCast Does With This Information</h2>
+
+      <p>You can't directly measure trigeminal nerve activity at home, but you can track the environmental conditions that tend to correlate with it firing — pressure drops, temperature swings, and humidity changes chief among them. MigraineCast monitors those conditions for your location and gives you advance notice when they're stacking up in a way that's historically preceded your attacks.</p>
+
+      <p>The goal isn't to explain away your pain as "just nerves." It's the opposite — understanding that this is a real, physical, measurable process is what makes it possible to intervene early, before the trigeminovascular system fully ramps up and the attack becomes harder to stop.</p>
+    `,
+  },
+  {
+    slug: "optical-migraine-symptoms",
+    title: "Visual Migraine Symptoms Explained: Auras, Flashing Lights, and Blind Spots",
+    excerpt:
+      "Zigzag lines, shimmering blind spots, tunnel vision — visual disturbances are one of the most unsettling parts of a migraine, especially the first time they happen. Here's what's actually going on, the difference between aura and retinal migraine, and when visual symptoms need a doctor's attention.",
+    date: "March 26, 2026",
+    category: "Science",
+    content: `
+      <p>For a lot of people, the first time they experience a visual migraine symptom, it's genuinely alarming. A shimmering blind spot creeping across your field of vision, jagged lines that look like static, or a patch of your vision that simply disappears — none of that feels like a "normal headache" symptom, and it isn't supposed to.</p>
+
+      <p>These are some of the most distinctive and, for many, most frightening parts of migraine. Understanding what's actually happening — and what's not — can take a lot of the fear out of it.</p>
+
+      <h2>What "Visual Migraine" Actually Refers To</h2>
+
+      <p>"Visual migraine" isn't one specific medical term — it's commonly used to describe a few related but distinct things: migraine aura with visual symptoms, ocular (retinal) migraine, and sometimes just the visual sensitivity that comes with a migraine attack in general. They're related, but they're not all the same thing, and the distinction matters.</p>
+
+      <h2>Migraine Aura: The Most Common Visual Symptom</h2>
+
+      <p>Roughly a quarter to a third of people with migraine experience aura, and visual aura is by far the most common type. It typically develops gradually over 5 to 20 minutes and lasts under an hour, often appearing before the headache phase begins (though it can also occur without any headache at all, or alongside one).</p>
+
+      <p>The most frequently reported visual aura is a scintillating scotoma — a shimmering, zigzag, or jagged-edged shape, often described as looking like the heat shimmer above a road or a kaleidoscope pattern. It usually starts small near the center of vision and slowly expands outward, sometimes leaving a blind spot (scotoma) in its wake as it moves. Other common visual aura symptoms include:</p>
+
+      <ul>
+        <li>Flashing or flickering lights (photopsia)</li>
+        <li>Wavy, heat-haze-like distortions</li>
+        <li>Bright spots or stars</li>
+        <li>Tunnel vision or partial loss of peripheral vision</li>
+        <li>Temporary blind spots that move or expand</li>
+      </ul>
+
+      <p>Aura is thought to be caused by a wave of altered electrical activity that spreads slowly across the visual cortex, the part of the brain that processes what your eyes see. This is called "cortical spreading depression," and it's why the symptoms tend to expand and shift gradually rather than appearing all at once — it's a wave moving across brain tissue, not a problem with the eye itself.</p>
+
+      <h2>Migraine With Aura vs. Without</h2>
+
+      <p>Not everyone with migraine experiences aura, and the same person can have both aura and non-aura attacks at different times. Migraine without aura is actually more common overall. Aura doesn't make a migraine "worse" in terms of pain — but it does carry its own considerations, including a modestly increased association with certain cardiovascular risk factors, which is part of why it's worth mentioning to a doctor if you experience it, particularly if you're also considering hormonal birth control.</p>
+
+      <h2>Ocular (Retinal) Migraine: A Different and Rarer Thing</h2>
+
+      <p>Ocular migraine, sometimes called retinal migraine, is a much rarer condition that's often confused with visual aura but works differently. While aura typically affects both eyes simultaneously (because it originates in the brain's visual processing center), retinal migraine causes vision loss or visual disturbances in just one eye, caused by reduced blood flow to the retina itself.</p>
+
+      <p>This distinction matters clinically. Vision changes affecting only one eye are taken more seriously by doctors because they can overlap with symptoms of more serious eye or vascular conditions, and a true retinal migraine diagnosis is usually only made after ruling those out.</p>
+
+      <h2>When Visual Symptoms Are a Red Flag</h2>
+
+      <p>Most visual migraine symptoms, while unsettling, are benign and follow a predictable pattern — gradual onset, gradual spread, and resolution within about an hour. Certain features warrant prompt medical evaluation, especially if they're new or different from your usual pattern:</p>
+
+      <ul>
+        <li>Visual symptoms affecting only one eye (cover each eye individually to check — true monocular symptoms are different from symptoms that just seem worse on one side)</li>
+        <li>Sudden onset visual loss without the typical gradual "spreading" quality</li>
+        <li>Visual symptoms lasting much longer than an hour, or that don't resolve</li>
+        <li>Aura occurring for the very first time after age 50</li>
+        <li>Visual symptoms accompanied by weakness, numbness, confusion, or trouble speaking</li>
+      </ul>
+
+      <p>If you experience visual symptoms for the first time, or they're notably different from your established pattern, it's always worth getting evaluated rather than assuming it's "just" your usual migraine.</p>
+
+      <h2>Tracking Your Visual Symptom Patterns</h2>
+
+      <p>One thing that helps both you and your doctor is noticing whether visual symptoms tend to cluster around specific conditions — certain times of day, after poor sleep, around hormonal cycles, or following particular weather patterns. Some people notice their aura is more likely on days following a sharp barometric pressure drop, for example.</p>
+
+      <p>Our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> can help you spot whether your attacks — visual symptoms included — follow a pattern tied to weather changes, giving you something concrete to bring to a neurology appointment rather than just "it happens sometimes."</p>
+
+      <h2>What to Do When Visual Symptoms Start</h2>
+
+      <p>If you have an established pattern and recognize the start of an aura, that's often your earliest warning sign that an attack is beginning — sometimes the earliest sign of all. Many people use this window to take acute medication immediately, find a calm and dimly lit space, and avoid driving or operating machinery until the visual symptoms resolve.</p>
+
+      <p>And if weather is part of your trigger picture, getting that early warning before the visual symptoms even start is the real advantage. MigraineCast tracks pressure trends for your location so you have a heads-up before the cascade — aura included — even begins.</p>
+    `,
+  },
+  {
+    slug: "how-to-get-rid-of-a-migraine-quickly",
+    title: "How to Get Rid of a Migraine Fast: What Actually Works",
+    excerpt:
+      "Once a migraine has started, every minute matters. Here's a practical, realistic breakdown of what actually helps speed up relief — from medication timing to cold therapy to the environment you put yourself in — and what's mostly myth.",
+    date: "April 13, 2026",
+    category: "Tips",
+    content: `
+      <p>Let's start with the honest version: there's no magic button that ends a migraine the instant you press it. But there's a meaningful difference between an attack that's brought under control in 30–60 minutes and one that drags on for 12 hours and wrecks your entire day — and that difference usually comes down to a handful of specific actions, taken quickly and in the right order.</p>
+
+      <p>Here's what actually moves the needle, based on how migraines progress and what's worked consistently for people who manage them well.</p>
+
+      <h2>1. Treat Early — Earlier Than Feels Necessary</h2>
+
+      <p>This is, by a wide margin, the single biggest factor in how fast a migraine resolves. Acute medications — whether over-the-counter pain relievers, triptans, or newer CGRP-targeted medications — work significantly better when taken during the early, mild phase of an attack rather than after it's fully escalated.</p>
+
+      <p>Part of the reason is physiological: as a migraine progresses, the gut slows down (a phenomenon called gastric stasis), which means oral medications get absorbed more slowly just when you need them to act fastest. Waiting to "see if it gets bad" often means treating a fully escalated attack with a medication that's now absorbing poorly. If you have a prescribed acute treatment, taking it at the very first unmistakable sign — not the worst point — is consistently associated with faster, more complete relief.</p>
+
+      <h2>2. Get Out of the Sensory Environment That's Making It Worse</h2>
+
+      <p>Light and sound sensitivity (photophobia and phonophobia) aren't just symptoms — they actively feed the attack. A dark, quiet room isn't a passive comfort measure; it reduces ongoing sensory input that can keep the trigeminal pain pathway activated. If you can, get to a dark room, close your eyes, and minimize noise as early as possible. Screens are particularly unhelpful here — the combination of brightness, flicker, and blue light tends to make things worse, even if it's "just checking one thing."</p>
+
+      <h2>3. Cold Therapy (and Sometimes Heat)</h2>
+
+      <p>Applying a cold compress to the forehead, temples, or back of the neck is one of the better-studied non-drug interventions for migraine. Cold is thought to work by constricting the dilated blood vessels involved in the attack and by numbing the area enough to dull pain signals. A gel ice pack, a cold damp cloth, or even a bag of frozen peas wrapped in a towel all work — the key is consistent contact for 15–20 minutes at a time.</p>
+
+      <p>Some people find heat more helpful, particularly for tension that builds in the neck and shoulders alongside the migraine. A warm compress on the back of the neck can help relax muscles that are contributing to the overall pain picture. There's no harm in trying both and noting which one your body responds to — it's genuinely individual.</p>
+
+      <h2>4. Caffeine — A Double-Edged Sword</h2>
+
+      <p>A small amount of caffeine can actually enhance the effectiveness of pain relievers and has mild pain-relieving properties of its own, which is why it's an ingredient in several combination migraine medications. The catch is dose and timing: too much caffeine, caffeine taken too late in the day, or — most importantly — caffeine withdrawal, are all migraine triggers in their own right.</p>
+
+      <p>If you're a regular coffee drinker, a small additional amount during an attack might help. If you don't normally consume caffeine, this probably isn't the moment to start experimenting with a large dose.</p>
+
+      <h2>5. Hydration and Electrolytes</h2>
+
+      <p>Dehydration is both a migraine trigger and something that can prolong an attack once it's started — and nausea or vomiting during a migraine can make this worse fast. Sipping water steadily (rather than chugging, which can aggravate nausea) and replacing electrolytes if you've been vomiting can meaningfully support recovery, even if it's not a standalone fix.</p>
+
+      <h2>6. Pressure Points and Gentle Self-Massage</h2>
+
+      <p>Applying firm, steady pressure to certain points — particularly the base of the skull, the temples, and the webbing between the thumb and index finger — is something many people find genuinely soothing during an attack, even if the evidence base is more about comfort than cure. We cover this in more detail, including exactly where and how, in our guide to <a href="/blog/migraine-pressure-points">migraine pressure points</a>.</p>
+
+      <h2>7. Manage the Nausea Separately</h2>
+
+      <p>Nausea isn't just unpleasant on its own — it can prevent oral medications from being absorbed properly and make it harder to rest. If nausea is a regular part of your attacks, talk to your doctor about anti-nausea medication as part of your treatment plan, since treating it alongside the pain often speeds up overall recovery rather than just adding a second problem to manage.</p>
+
+      <h2>8. Sleep, If You Can</h2>
+
+      <p>For many people, sleep is one of the most effective "treatments" available — some attacks resolve almost entirely after even a short period of sleep, particularly if medication has been taken first and the environment is dark and quiet. This isn't always possible depending on your day, but if you have the option, even 30–60 minutes can make a significant difference.</p>
+
+      <h2>The Bigger Picture: Fast Relief Starts Before the Attack</h2>
+
+      <p>Everything above is genuinely useful once a migraine has started. But the fastest possible "relief" is avoiding the worst of an attack altogether — which usually comes down to recognizing your personal warning signs and acting on them before the pain phase fully sets in.</p>
+
+      <p>If weather changes are part of your trigger picture, that's exactly the kind of advance warning MigraineCast is built to give you — tracking pressure trends for your location so you have time to take preventive steps, hydrate, adjust your schedule, or have medication on hand before the attack escalates. The fastest way to get rid of a migraine is, whenever possible, to be ready for it before it really starts.</p>
+    `,
+  },
+  {
+    slug: "common-migraine-triggers",
+    title: "Common Migraine Triggers: The Full List (And Why Yours Might Be Different)",
+    excerpt:
+      "Migraine triggers aren't one-size-fits-all, and they rarely act alone. Here's a comprehensive look at the most common categories of triggers — food, sleep, stress, hormones, sensory input, and weather — and why finding your personal pattern matters more than any general list.",
+    date: "May 1, 2026",
+    category: "Tips",
+    content: `
+      <p>If you've ever searched "migraine triggers" and come away with a list so long it includes half of everyday life — cheese, wine, stress, exercise, lack of exercise, too much sleep, too little sleep — you're not imagining it. That's genuinely how broad the research is, and it's part of why "just avoid your triggers" can feel like useless advice.</p>
+
+      <p>The truth is that most people don't have one trigger. They have a personal combination of factors that, on their own, might do nothing — but stacked together on the same day, tip things over. Here's a breakdown of the major categories, and why the goal isn't to avoid everything on this list, but to figure out which of these actually apply to you.</p>
+
+      <h2>Dietary Triggers</h2>
+
+      <p>Certain foods and drinks are consistently reported as migraine triggers, though the research on most individual foods is more mixed than popular lists suggest. The most commonly cited include:</p>
+
+      <ul>
+        <li>Alcohol, particularly red wine</li>
+        <li>Aged cheeses</li>
+        <li>Processed and cured meats (nitrates)</li>
+        <li>Artificial sweeteners, especially aspartame</li>
+        <li>MSG</li>
+        <li>Skipping meals or going long stretches without eating</li>
+      </ul>
+
+      <p>That last one — skipping meals — is actually one of the more reliably supported dietary triggers, more so than many of the specific foods that get the most attention. Blood sugar drops are a real trigger for a lot of people, independent of what they ate or didn't eat.</p>
+
+      <h2>Sleep Disruption — In Both Directions</h2>
+
+      <p>Both too little sleep and too much sleep are associated with migraine attacks, which is part of why "sleeping in" on weekends is a surprisingly common trigger for some people (sometimes called "weekend migraine"). Irregular sleep schedules, even without overall sleep deprivation, also appear to play a role — consistency in sleep timing seems to matter as much as total hours.</p>
+
+      <h2>Stress — and the "Letdown" After Stress</h2>
+
+      <p>Stress is one of the most commonly reported migraine triggers, but it's more nuanced than "stress causes migraines." Many people actually experience attacks during the relaxation period after a stressful event ends — the so-called "weekend migraine" or "letdown migraine," where the attack hits once the pressure is off, not during the stressful period itself.</p>
+
+      <h2>Hormonal Changes</h2>
+
+      <p>For people who menstruate, hormonal fluctuations — particularly the drop in estrogen right before menstruation — are one of the most strongly linked triggers, to the point where "menstrual migraine" is its own recognized pattern. Hormonal birth control, pregnancy, and perimenopause can all shift migraine frequency and intensity, sometimes dramatically, in either direction.</p>
+
+      <h2>Sensory Triggers</h2>
+
+      <p>Bright or flickering lights, strong smells (perfume, cleaning products, smoke), and loud or sudden noises are all commonly reported triggers. These tend to be more about overstimulation of an already-sensitive nervous system than a single "bad" sensory input — which is why someone might tolerate a smell or light on most days but find it intolerable when other factors are already stacking up.</p>
+
+      <h2>Weather and Environmental Triggers</h2>
+
+      <p>Barometric pressure changes, temperature swings, high humidity, and storm systems are among the most frequently self-reported migraine triggers — and unlike food or sleep, they're entirely outside your control. This is exactly the category MigraineCast focuses on. If you suspect weather might be playing a role for you, our <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> lets you enter past migraine dates and your location, and we'll pull the actual barometric pressure data for those days so you can see whether a pattern exists.</p>
+
+      <h2>The Concept That Ties It All Together: Trigger Stacking</h2>
+
+      <p>Here's the part that explains why migraine triggers feel so inconsistent: most people don't react to a single trigger in isolation. A glass of red wine on a normal day might be fine. A glass of red wine after a poor night's sleep, during a stressful week, on a day when the barometric pressure is dropping fast — that combination might be the one that crosses the threshold.</p>
+
+      <p>This is why two people can have wildly different "trigger lists," and why your own list might seem to change over time. It's not that the rules changed — it's that the other factors stacking up alongside any one trigger are different every time.</p>
+
+      <h2>Finding Your Personal Pattern</h2>
+
+      <p>General trigger lists are a starting point, not a diagnosis. The far more useful exercise is tracking your own attacks against the conditions present beforehand — sleep, food, stress, hormonal timing, and weather — and looking for what repeats.</p>
+
+      <p>Our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> is built specifically to help with the weather side of this picture, comparing your migraine history against atmospheric conditions to surface patterns you might not notice on your own. Once you know which of these broad categories actually matter for you — and which ones tend to combine — you go from a generic list of "things to avoid" to a personal early-warning system.</p>
+    `,
+  },
+  {
+    slug: "migraine-pressure-points",
+    title: "Migraine Pressure Points: Acupressure Spots That May Offer Relief",
+    excerpt:
+      "Acupressure won't cure a migraine, but for many people, applying steady pressure to specific points offers real, tangible relief — especially when combined with other strategies. Here's where these points are, how to use them, and what they can realistically do.",
+    date: "May 22, 2026",
+    category: "Tips",
+    content: `
+      <p>When a migraine hits, reaching up to press your temples or rub the base of your skull is an almost universal instinct. It turns out that instinct has some grounding in a much older practice — acupressure — and for a meaningful number of people, doing it deliberately at specific points offers more relief than the absent-minded version.</p>
+
+      <p>It's worth being upfront about expectations: acupressure isn't going to abort a severe migraine on its own, and the research on it is more about comfort and modest symptom reduction than dramatic cures. But as part of a broader toolkit — alongside medication, a dark quiet room, and hydration — it's a free, accessible, side-effect-free option that's worth knowing how to use properly.</p>
+
+      <h2>LI4 (Hegu) — The Webbing of Your Hand</h2>
+
+      <p>Located in the fleshy webbing between your thumb and index finger, at the highest point of the muscle when you bring thumb and finger together, LI4 is one of the most commonly used acupressure points for headaches in general. Applying firm, steady pressure here with the thumb of your opposite hand for one to two minutes, then switching sides, is a simple technique you can do almost anywhere — at a desk, in a car, lying down.</p>
+
+      <h2>GB20 (Fengchi) — Base of the Skull</h2>
+
+      <p>This point sits in the two hollows at the base of your skull, on either side of the spine, roughly where your neck muscles attach to your head. Many people instinctively press here during a headache without knowing it has a name. Using your thumbs or knuckles, apply firm upward and inward pressure into these hollows, holding for 30 seconds to a minute, and consider combining this with slow, deep breathing — the neck and shoulder tension relief alone can be meaningful, especially if you carry stress in that area.</p>
+
+      <h2>Yintang — Between the Eyebrows</h2>
+
+      <p>Sometimes called the "third eye point," Yintang is located directly between your eyebrows, in the slight depression where the bridge of your nose meets your forehead. Light to moderate circular pressure here with one or two fingers, held for a minute or so, is commonly used for the sinus-pressure-like sensation that often accompanies migraine, and many people find it has a calming effect that helps with the anxiety that can come along with an attack.</p>
+
+      <h2>Taiyang — The Temples</h2>
+
+      <p>The temples are another point most people already gravitate toward. Using your fingertips, apply gentle circular pressure to the soft area just outside the outer corner of each eyebrow, where you can often feel a slight depression. Because the temples can be quite sensitive — sometimes painfully so — during a migraine, gentle pressure is key here; this is one area where pressing too hard can make things feel worse rather than better.</p>
+
+      <h2>LV3 (Taichong) — The Top of the Foot</h2>
+
+      <p>Less commonly known, this point is located on the top of the foot, in the depression between the big toe and second toe, about two finger-widths up from the webbing. In traditional practice it's associated with stress and tension relief more broadly, and some people find it a useful option when the head and neck are too sensitive to touch directly during a severe attack.</p>
+
+      <h2>How to Actually Do This</h2>
+
+      <p>For any of these points, the general technique is similar: use a fingertip, thumb, or knuckle to apply firm but comfortable pressure — enough to feel a noticeable sensation without causing pain — in small circular motions or steady holds, for roughly 30 seconds to two minutes per point. Breathing slowly and deliberately while you do this seems to add to the effect for a lot of people, likely through general relaxation and parasympathetic activation rather than the pressure point itself.</p>
+
+      <p>There's no harm in working through several of these points in sequence, and no strict "right" order — many people develop their own routine based on which points they find most helpful.</p>
+
+      <h2>What Acupressure Can and Can't Do</h2>
+
+      <p>Be realistic about what this is: a low-cost, accessible comfort measure that some people find genuinely helpful as part of managing an attack, particularly for milder migraines or as a complement to medication for more severe ones. It's not a substitute for appropriate acute treatment if you have a prescribed medication, and it's not going to prevent attacks caused by triggers like weather changes, hormones, or sleep disruption.</p>
+
+      <p>Where it fits best is in that early window — when you feel an attack starting and you're already taking other steps (medication, hydration, getting to a quiet space) — as one more tool that costs nothing and carries no downside.</p>
+
+      <h2>The Other Side of Prevention</h2>
+
+      <p>Pressure points can help you cope with an attack that's already underway. But if you're someone whose migraines are influenced by weather — and a large number of people are — the more impactful intervention often happens before the attack starts. MigraineCast tracks barometric pressure trends for your location and gives you advance notice when conditions are shifting in ways that have historically preceded your attacks, so you have time to act before you're reaching for your temples at all.</p>
+    `,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
