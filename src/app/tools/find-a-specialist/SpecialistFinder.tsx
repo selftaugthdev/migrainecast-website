@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import Link from "next/link";
+import { faqs } from "./faqs";
 
 const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278";
 const EMBED_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_KEY;
@@ -202,6 +203,19 @@ export function SpecialistFinder() {
                 Download MigraineCast Free
               </a>
             </div>
+          </div>
+        </div>
+
+        {/* FAQ */}
+        <div className="mt-16">
+          <h2 className="font-display text-2xl font-normal mb-6">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            {faqs.map((faq) => (
+              <div key={faq.question} className="glass-card rounded-2xl p-6">
+                <h3 className="font-display text-lg font-normal mb-2">{faq.question}</h3>
+                <p className="text-text-muted text-sm leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
           </div>
         </div>
 
