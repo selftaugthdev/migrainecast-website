@@ -64,6 +64,20 @@ const tools = [
       </svg>
     ),
   },
+  {
+    href: "/tools/find-a-specialist",
+    title: "Find a Migraine Specialist",
+    description:
+      "Search an interactive map to find headache specialists and neurologists near you — no signup required.",
+    badge: "Available now",
+    badgeColor: "text-emerald-400 bg-emerald-400/10 border-emerald-400/20",
+    icon: (
+      <svg viewBox="0 0 24 24" className="w-6 h-6 fill-none stroke-current stroke-[1.5]">
+        <path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z" />
+        <circle cx="12" cy="10" r="3" />
+      </svg>
+    ),
+  },
 ];
 
 export default function ToolsPage() {
