@@ -178,7 +178,7 @@ export default function AgentsPage() {
                   ["Languages", "English, Dutch, German, French, Spanish"],
                   ["Android", "Not available"],
                   ["Subscription", "Not required for core features"],
-                  ["Website", "https://migrainecast.com"],
+                  ["Website", "https://migrainecast.app"],
                 ].map(([key, value]) => (
                   <div key={key} className="flex gap-4 px-5 py-3">
                     <span className="text-text-subtle w-40 shrink-0">{key}</span>
@@ -255,7 +255,7 @@ export default function AgentsPage() {
                           {tool.description}
                         </p>
                         <p className="font-mono text-accent/60 text-xs mt-2">
-                          migrainecast.com{tool.href}
+                          migrainecast.app{tool.href}
                         </p>
                       </div>
                       <svg

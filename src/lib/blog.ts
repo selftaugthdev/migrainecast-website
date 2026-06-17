@@ -168,7 +168,7 @@ const posts: BlogPost[] = [
 
       <p>The research on weather and migraines is real but genuinely complicated. Studies show associations, but individual variation is high, and not every neurologist follows the same literature on environmental triggers. If you encounter skepticism, don't take it personally.</p>
 
-      <p>A few things that can help: acknowledge that correlation isn't proof and that you're not certain, just pattern-matching and looking for their input. Ask whether they'd be willing to review the data even if they're not convinced by the premise. And if weather triggers consistently affect your life and you feel like that's not being factored into your care, it's completely reasonable to seek a second opinion from a headache specialist rather than a general neurologist.</p>
+      <p>A few things that can help: acknowledge that correlation isn't proof and that you're not certain, just pattern-matching and looking for their input. Ask whether they'd be willing to review the data even if they're not convinced by the premise. And if weather triggers consistently affect your life and you feel like that's not being factored into your care, it's completely reasonable to seek a second opinion from a <a href="/tools/find-a-specialist">headache specialist</a> rather than a general neurologist.</p>
 
       <p>Your lived experience is valid. Documentation just makes it legible to the people treating you.</p>
 
@@ -404,7 +404,7 @@ const posts: BlogPost[] = [
         <li>Some individuals are more sensitive to rising pressure (less common)</li>
       </ul>
 
-      <p>This variability means generic weather forecasts aren't enough—you need to understand your specific pressure threshold and response pattern.</p>
+      <p>This variability means generic weather forecasts aren't enough—you need to understand your specific pressure threshold and response pattern. Our free <a href="/tools/pressure-threshold-estimator">Personal Pressure Threshold Estimator</a> can help you identify where your threshold sits based on your attack history.</p>
 
       <h2>Beyond Just "Checking the Weather"</h2>
       <p>Standard weather apps show temperature, precipitation, and maybe general pressure readings. But they don't:</p>
@@ -546,7 +546,7 @@ const posts: BlogPost[] = [
       <p>Keep sleep schedules, meal times, and exercise routines as regular as possible despite holiday disruptions.</p>
 
       <h2>The Bottom Line</h2>
-      <p>Winter migraines aren't just about cold weather—they're about barometric pressure volatility, environmental transitions, and seasonal lifestyle changes that converge during the coldest months. The good news? Once you understand your specific winter triggers, you can move from reactive management to proactive prevention.</p>
+      <p>Winter migraines aren't just about cold weather—they're about barometric pressure volatility, environmental transitions, and seasonal lifestyle changes that converge during the coldest months. The good news? Once you understand your specific winter triggers, you can move from reactive management to proactive prevention. Our <a href="/tools/migraine-season-calendar">Migraine Season Calendar</a> shows which months carry the highest pressure volatility for your region, so you can plan ahead.</p>
 
       <p>The key is knowing when these pressure changes are coming. That's where specialized migraine forecasting becomes invaluable—giving you the advance warning you need to prepare instead of simply endure.</p>
 
@@ -673,7 +673,7 @@ const posts: BlogPost[] = [
         <li>Recovery patterns — how long until you're fully back to normal</li>
       </ul>
 
-      <p>These insights are impossible to see without systematic tracking — but they can be genuinely life-changing once you have them.</p>
+      <p>These insights are impossible to see without systematic tracking — but they can be genuinely life-changing once you have them. If you're looking for practical guidance, our posts on <a href="/blog/how-to-track-migraine-triggers">how to track migraine triggers</a> and <a href="/blog/migraine-diary-app">what to look for in a migraine diary app</a> cover the specifics.</p>
 
       <h2>How to Start Tracking Effectively</h2>
 
@@ -1478,7 +1478,7 @@ const posts: BlogPost[] = [
 
       <h2>It's Rarely Hormones Alone</h2>
 
-      <p>Hormonal fluctuation lowers your threshold — it doesn't necessarily cause an attack by itself. This is the same trigger-stacking concept that applies to weather, sleep, and diet: a hormonal dip that might do nothing on its own can combine with a poor night's sleep, a skipped meal, or a barometric pressure drop to tip things over. This is part of why the days around your period can feel unpredictable — the hormonal piece is relatively consistent, but what it's stacking with each month changes.</p>
+      <p>Hormonal fluctuation lowers your threshold — it doesn't necessarily cause an attack by itself. This is the same trigger-stacking concept that applies to weather, sleep, and diet: a hormonal dip that might do nothing on its own can combine with a poor night's sleep, a skipped meal, or a barometric pressure drop to tip things over. For evidence-based approaches to managing hormonal attacks, see our guide on <a href="/blog/hormonal-migraine-relief">hormonal migraine relief</a>. This is part of why the days around your period can feel unpredictable — the hormonal piece is relatively consistent, but what it's stacking with each month changes.</p>
 
       <p>It's worth noting that this also means the reverse is true: in a month where your sleep, diet, and stress are all well-managed, a post-period hormonal dip might pass without incident, while in a more chaotic month it tips you into a full attack. If you've ever felt like your "hormonal migraines" are inconsistent, this is likely why.</p>
 
@@ -1831,7 +1831,7 @@ const posts: BlogPost[] = [
       <p>Common prodrome symptoms include: unusual fatigue or increased yawning, mood changes (irritability, low mood, or unexplained euphoria), neck stiffness or tension, food cravings (especially sweet or salty), difficulty concentrating or finding words, mild increased sensitivity to light or sound, and increased thirst or urination. Symptoms vary between individuals but tend to be consistent for the same person attack after attack.</p>
 
       <h3>How early does the migraine prodrome start before the headache?</h3>
-      <p>The prodrome can begin anywhere from 6 hours to 2 full days before head pain arrives. Most people's prodrome falls somewhere in the 12–36 hour range. This means that for weather-sensitive migraine sufferers, a barometric pressure drop can trigger the prodrome phase well before the storm even arrives — giving you a double early warning if you know to look for both signals.</p>
+      <p>The prodrome can begin anywhere from 6 hours to 2 full days before head pain arrives. Most people's prodrome falls somewhere in the 12–36 hour range. This means that for weather-sensitive migraine sufferers, a barometric pressure drop can trigger the prodrome phase well before the storm even arrives — giving you a double early warning if you know to look for both signals. See our guide on <a href="/blog/48-hour-warning-window">reading the 48-hour weather window for migraine risk</a> for how to use both signals together.</p>
 
       <h3>How do I learn to recognize my own prodrome?</h3>
       <p>After your next few attacks, look backward deliberately: what was slightly off in the 24–36 hours before the headache? Mood, energy, neck tension, food cravings, sleep quality? Do this after several attacks and a pattern usually emerges. Your prodrome signs are likely more consistent than they seem — they just need to be actively looked for rather than noticed passively.</p>
@@ -2200,7 +2200,7 @@ const posts: BlogPost[] = [
 
       <h2>What Is Migraine Aura?</h2>
 
-      <p>Aura refers to a set of fully reversible neurological symptoms that occur in association with migraine. They develop gradually, typically over 5 to 20 minutes, and usually last no more than 60 minutes. After the aura resolves, a migraine headache may follow within 60 minutes — or, in some cases, the aura arrives without any subsequent headache (called a silent migraine or acephalgic migraine).</p>
+      <p>Aura refers to a set of fully reversible neurological symptoms that occur in association with migraine. They develop gradually, typically over 5 to 20 minutes, and usually last no more than 60 minutes. After the aura resolves, a migraine headache may follow within 60 minutes — or, in some cases, the aura arrives without any subsequent headache (called a <a href="/blog/silent-migraine-symptoms">silent migraine</a> or acephalgic migraine).</p>
 
       <p>Aura occurs in approximately 25 to 30 percent of people who have migraine. If you have migraine with aura, you may not experience aura with every attack — some attacks may include it, others may not.</p>
 
@@ -2252,7 +2252,7 @@ const posts: BlogPost[] = [
 
       <h2>Tracking Your Aura Pattern</h2>
 
-      <p>Because aura is tied to the broader migraine attack cycle, tracking the full attack — when aura starts, what symptoms appear, how long they last, and what follows — helps you understand your own pattern. Over time, you'll develop confidence in recognizing your aura for what it is. And because weather changes are a common migraine trigger, knowing when a pressure system is incoming (and that your attacks often involve aura) lets you prepare accordingly.</p>
+      <p>Visual aura shares its mechanism with two closely related experiences: <a href="/blog/silent-migraine-symptoms">silent migraine</a> (aura without any following headache) and <a href="/blog/ocular-migraine-causes">ocular migraine</a> (rarer, one-eye visual disturbance). Because aura is tied to the broader migraine attack cycle, tracking the full attack — when aura starts, what symptoms appear, how long they last, and what follows — helps you understand your own pattern. Over time, you'll develop confidence in recognizing your aura for what it is. And because weather changes are a common migraine trigger, knowing when a pressure system is incoming (and that your attacks often involve aura) lets you prepare accordingly.</p>
 
       <blockquote>
         <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast on iOS</a> to track your full attack patterns — including aura — alongside barometric pressure data that helps predict when attacks are more likely.</p>
@@ -2286,7 +2286,7 @@ const posts: BlogPost[] = [
 
       <h2>What Makes a Migraine "Silent"</h2>
 
-      <p>A silent migraine is a migraine aura that occurs without a subsequent headache phase. In a typical migraine with aura, the aura lasts 20 to 60 minutes and is followed by a headache. In a silent migraine, the aura comes and goes without triggering the head pain — but everything else about the aura is identical to what would precede a headache.</p>
+      <p>A silent migraine is a migraine aura that occurs without a subsequent headache phase. In a typical <a href="/blog/migraine-with-aura-symptoms">migraine with aura</a>, the aura lasts 20 to 60 minutes and is followed by a headache. In a silent migraine, the aura comes and goes without triggering the head pain — but everything else about the aura is identical to what would precede a headache.</p>
 
       <p>The underlying neurology is the same: cortical spreading depression (a slow wave of electrical changes across the cortex) produces the visual, sensory, or other neurological symptoms that define aura. For reasons that aren't fully understood, the subsequent cascade that leads to headache pain doesn't always follow.</p>
 
@@ -2497,7 +2497,7 @@ const posts: BlogPost[] = [
 
       <h2>Work With a Specialist</h2>
 
-      <p>Menstrually-related migraine is a clinical subspecialty that intersects neurology and gynecology. If your attacks are significantly affecting quality of life and over-the-counter approaches aren't helping, a headache specialist or gynecologist with experience in hormonal headache management can offer targeted treatment options that go well beyond general migraine advice.</p>
+      <p>Menstrually-related migraine is a clinical subspecialty that intersects neurology and gynecology. If your attacks are significantly affecting quality of life and over-the-counter approaches aren't helping, a <a href="/tools/find-a-specialist">headache specialist</a> or gynecologist with experience in hormonal headache management can offer targeted treatment options that go well beyond general migraine advice. Our related guide on <a href="/blog/migraines-after-period">why migraines happen after your period ends</a> covers the post-menstrual timing pattern specifically.</p>
 
       <blockquote>
         <p>Track your attack dates alongside your cycle with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — log in seconds, and see your pattern emerge over weeks of data.</p>

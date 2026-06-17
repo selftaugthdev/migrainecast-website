@@ -48,20 +48,20 @@ export default async function BlogPostPage({ params }: Props) {
     author: {
       "@type": "Organization",
       name: "MigraineCast",
-      url: "https://migrainecast.com",
+      url: "https://migrainecast.app",
     },
     publisher: {
       "@type": "Organization",
       name: "MigraineCast",
-      url: "https://migrainecast.com",
+      url: "https://migrainecast.app",
       logo: {
         "@type": "ImageObject",
-        url: "https://migrainecast.com/Migraine Cast LOGO DARK MODE.png",
+        url: "https://migrainecast.app/Migraine Cast LOGO DARK MODE.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://migrainecast.com/blog/${slug}`,
+      "@id": `https://migrainecast.app/blog/${slug}`,
     },
     articleSection: post.category,
   };

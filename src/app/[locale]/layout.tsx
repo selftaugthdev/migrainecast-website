@@ -93,8 +93,8 @@ export default async function RootLayout({
     "@type": "Organization",
     name: "MigraineCast",
     description: t("organizationDescription"),
-    url: "https://migrainecast.com",
-    logo: "https://migrainecast.com/Migraine Cast LOGO DARK MODE.png",
+    url: "https://migrainecast.app",
+    logo: "https://migrainecast.app/Migraine Cast LOGO DARK MODE.png",
     sameAs: [
       "https://apps.apple.com/us/app/migraine-cast/id6754256278",
     ],
@@ -104,7 +104,7 @@ export default async function RootLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "MigraineCast",
-    url: "https://migrainecast.com",
+    url: "https://migrainecast.app",
     description: t("websiteDescription"),
   };
 

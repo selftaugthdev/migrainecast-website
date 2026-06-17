@@ -1,7 +1,7 @@
 import { getAllPosts } from "@/lib/blog";
 import { MetadataRoute } from "next";
 
-const BASE_URL = "https://migrainecast.com";
+const BASE_URL = "https://migrainecast.app";
 const LOCALES = ["en", "nl", "de", "fr", "es"] as const;
 const DEFAULT_LOCALE = "en";
 
