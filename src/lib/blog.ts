@@ -82,6 +82,20 @@ const posts: BlogPost[] = [
       <p>It's not about predicting whether you'll get a migraine. No app can do that, because triggers are personal and cumulative. What it can do is flag when the atmospheric conditions are stacking up in the direction that tends to precede attacks, so you can make informed decisions rather than reactive ones.</p>
 
       <p>Because the best time to treat a migraine is always before it starts. And that window opens about two days before the storm does.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How early before a storm does a migraine start?</h3>
+      <p>Most weather-related migraines begin 24 to 48 hours before a storm front arrives — during the pressure drop that precedes the weather change, not when it actually rains. By the time you see storm clouds, the headache is often already underway.</p>
+
+      <h3>What barometric pressure change triggers a migraine?</h3>
+      <p>Research suggests a drop of around 5 to 10 millibars (mbar) over 24 hours is the common threshold for weather-sensitive migraine sufferers. The rate of change matters more than the absolute pressure level — a rapid drop of 8 to 12 mbar in under a day is where many people start feeling it.</p>
+
+      <h3>How do I read a weather forecast like a neurologist?</h3>
+      <p>Focus on the pressure trend, not just temperature or precipitation. Look for a falling pressure reading over the next 24–48 hours, watch for wind direction shifts (often a sign of an approaching cold front), and note when the rate of pressure change accelerates. A drop beginning today often means a headache window opens tomorrow or the day after.</p>
+
+      <h3>Can I prevent a weather migraine once I see the forecast?</h3>
+      <p>Yes — the 24–48 hour warning window is your intervention window. Hydrate proactively, protect your sleep, have medication accessible, and avoid stacking other known triggers (alcohol, poor diet, screen overload) in the lead-up to the forecasted drop.</p>
     `,
   },
   {
@@ -167,6 +181,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast on the App Store</a> and start building your report today. Your future self, sitting in that appointment, will be glad you did.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What data should I bring to a migraine appointment?</h3>
+      <p>Bring attack frequency (how many per month over at least 3 months), severity ratings, duration, associated symptoms (nausea, light sensitivity), medications tried and their effectiveness, and any patterns you've noticed. If weather is a suspected trigger, pressure trend data overlaid with attack dates is particularly compelling to a headache specialist.</p>
+
+      <h3>How do I document that weather triggers my migraines?</h3>
+      <p>Log the date and time of each attack alongside the barometric pressure reading for your location in the 24–48 hours before onset. After several attacks, look for whether a pressure drop consistently preceded them. MigraineCast automates this by tracking pressure at your location and correlating it with your attack log.</p>
+
+      <h3>What do neurologists want to see about migraine triggers?</h3>
+      <p>Neurologists look for correlation, not anecdote. A single bad week during a storm isn't meaningful. A chart showing that 80% of your attacks over the past quarter occurred within 48 hours of a significant pressure drop — that's actionable clinical data that can directly shape your treatment plan.</p>
     `,
   },
   {
@@ -267,6 +292,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>Download MigraineCast on the App Store and give yourself the warning window you deserve. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Get MigraineCast for free on iOS</a></p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What should be in a migraine emergency kit?</h3>
+      <p>At minimum: your acute medication (unexpired and accessible), anti-nausea medication if you need it, a cold gel pack, a sleep mask, earplugs or noise-canceling headphones, electrolyte tablets, plain crackers or easy food, and a pre-written message template for canceling commitments. Everything staged in one place you can reach in 30 seconds.</p>
+
+      <h3>When should I set up my migraine go-bag?</h3>
+      <p>The night before a forecasted high-risk window — not during an attack. Running a 10-minute checklist when you feel well takes almost no effort. Running it when a migraine is building is nearly impossible. The forecast is your trigger to prepare, not the headache itself.</p>
+
+      <h3>How does knowing the weather forecast help with migraine preparation?</h3>
+      <p>Weather, specifically barometric pressure changes, often triggers migraines 24–48 hours before a storm arrives. Knowing a pressure drop is coming gives you the same window to prepare your go-bag, hydrate proactively, clear your schedule, and have medication on hand before the attack starts rather than scrambling during it.</p>
     `,
   },
   {
@@ -412,6 +448,20 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>Ready to stop being caught off guard by weather triggers? MigraineCast provides personalized barometric pressure forecasts and alerts tailored to your migraine pattern. Download now and get 7 days free.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What barometric pressure causes migraines?</h3>
+      <p>Research shows that a drop of around 5 mmHg or more over 24 hours increases migraine risk in weather-sensitive individuals. The rate of change tends to matter more than the absolute pressure value — a rapid fall from 1018 to 1005 mbar in 18 hours is more likely to trigger an attack than a gradual decline to the same level over several days.</p>
+
+      <h3>Why does low pressure cause headaches?</h3>
+      <p>When external atmospheric pressure drops, air-filled spaces in the sinuses and inner ear experience a relative pressure imbalance, activating pain-sensitive nerve endings connected to the trigeminal nerve. Blood vessels in the membranes surrounding the brain also dilate in response to pressure changes. Together, these effects can initiate the migraine cascade in susceptible individuals.</p>
+
+      <h3>Is weather sensitivity a real migraine trigger or just perceived?</h3>
+      <p>It's real. Multiple peer-reviewed studies — including research published in <em>Neurology</em> and <em>The Journal of Headache and Pain</em> — have confirmed a measurable association between barometric pressure drops and increased migraine incidence. People with migraine appear to have blood vessels and nervous systems that are more reactive to these pressure changes than those without migraine.</p>
+
+      <h3>Can you predict a migraine from the weather forecast?</h3>
+      <p>Not with certainty — migraine triggers are personal and cumulative, and weather is one factor among many. But tracking forecasted pressure drops alongside your personal attack history can reveal your individual sensitivity threshold, giving you a meaningful early-warning window most of the time.</p>
     `,
   },
   {
@@ -503,6 +553,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>MigraineCast helps you track barometric pressure patterns specific to your location and correlate them with your migraine history, giving you personalized forecasts so you can stay ahead of winter weather triggers.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why are migraines worse in winter?</h3>
+      <p>Winter brings more frequent and intense barometric pressure swings from cold fronts and storm systems, rapid indoor-to-outdoor temperature changes that stress blood vessels, hidden dehydration from dry heated air, and reduced daylight that disrupts sleep and serotonin. It's rarely just the cold itself — it's the combination of environmental instability that increases migraine frequency.</p>
+
+      <h3>Does cold weather directly cause migraines?</h3>
+      <p>Cold temperature alone is less of a trigger than the rapid transition between cold outdoor air and warm indoor environments, which forces blood vessels to quickly constrict and dilate. The trigeminal nerve — the main nerve pathway in migraine — can be activated by sudden temperature changes, particularly drops of 15–20°F in under a day.</p>
+
+      <h3>How do I manage seasonal migraine increases in winter?</h3>
+      <p>Track pressure trends rather than just temperature; increase hydration (winter air is very dry and dehydration sneaks up); use a humidifier indoors (aim for 30–50% humidity); minimize sudden transitions between extreme temperatures; maintain consistent sleep and meal schedules through holiday disruptions; and prepare proactively when pressure drops are forecast.</p>
     `,
   },
   {
@@ -684,6 +745,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>MigraineCast is designed to make tracking effortless and insights automatic. Log your migraines in seconds, and let the app connect the dots to weather patterns you'd never spot on your own.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How long does it take to see migraine patterns through tracking?</h3>
+      <p>Most people can identify meaningful patterns after about 3 months of consistent data. One month gives you a frequency baseline. Two months lets you start spotting clusters. Three months is typically enough to see correlations between attacks and specific triggers like pressure drops, hormonal timing, or sleep disruptions.</p>
+
+      <h3>What's the most important thing to track for migraines?</h3>
+      <p>Start with just three data points: when the attack started, how severe it was (1–10), and how long it lasted. Environmental data — especially barometric pressure — is ideally captured automatically rather than manually, since you can't meaningfully log pressure trends by hand. Add more detail (symptoms, medications, suspected triggers) only once basic logging feels effortless.</p>
+
+      <h3>Why do most migraine diaries get abandoned?</h3>
+      <p>They require too much manual entry at the worst possible moment — when you're in pain. They also fail to capture the most useful data (environmental factors like pressure changes) which can't be logged manually. Effective tracking should take under 10 seconds per attack, with environmental data collected automatically in the background.</p>
     `,
   },
   {
@@ -946,6 +1018,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>MigraineCast alerts you to coming pressure changes so you can start preparing before symptoms appear. Know what's coming, and face it prepared.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What are the best ways to prepare for a weather-triggered migraine?</h3>
+      <p>When a pressure drop is forecast: hydrate proactively starting 24 hours before, confirm medication is accessible and unexpired, protect that night's sleep, avoid stacking other triggers (alcohol, skipped meals, dietary triggers), and clear your schedule if possible. The whole preparation takes about 10 minutes the night before — far less effort than managing a full attack unprepared.</p>
+
+      <h3>Does staying hydrated actually prevent weather migraines?</h3>
+      <p>Hydration doesn't block the barometric pressure trigger, but dehydration significantly lowers your threshold — making it much more likely that a pressure drop tips you into an attack. Staying well-hydrated in the lead-up to a weather event is one of the most effective things you can control, precisely because you can't control the weather itself.</p>
+
+      <h3>Why does sleep protection matter before a weather change?</h3>
+      <p>Poor sleep is one of the most potent migraine triggers and stacks directly with weather-related pressure drops. A night of poor sleep before a pressure event can turn a manageable situation into a guaranteed attack. Protecting sleep the night before a high-risk forecast is often more effective than any reactive measure taken after an attack starts.</p>
     `,
   },
   {
@@ -999,6 +1082,21 @@ const posts: BlogPost[] = [
       <p>You can't directly measure trigeminal nerve activity at home, but you can track the environmental conditions that tend to correlate with it firing — pressure drops, temperature swings, and humidity changes chief among them. MigraineCast monitors those conditions for your location and gives you advance notice when they're stacking up in a way that's historically preceded your attacks.</p>
 
       <p>The goal isn't to explain away your pain as "just nerves." It's the opposite — understanding that this is a real, physical, measurable process is what makes it possible to intervene early, before the trigeminovascular system fully ramps up and the attack becomes harder to stop.</p>
+
+      <blockquote>
+        <p>Track your attacks alongside weather and pressure data to see when your trigeminovascular system is most likely to be triggered. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is the trigeminal nerve's role in migraine?</h3>
+      <p>The trigeminal nerve is the largest cranial nerve and the main pain-signaling pathway of the face and head. During a migraine, its fibers become activated and inflamed, releasing CGRP (calcitonin gene-related peptide) and other inflammatory chemicals that cause blood vessels in the brain's membranes to dilate. This neurogenic inflammation produces the throbbing headache and explains why migraine pain appears in specific locations — eye socket, temple, forehead — corresponding to the nerve's three branches.</p>
+
+      <h3>What is CGRP and why does it matter for migraine treatment?</h3>
+      <p>CGRP (calcitonin gene-related peptide) is a molecule released by activated trigeminal nerve fibers that drives inflammation and pain during a migraine attack. Because of its central role, it became the target of a new class of migraine-specific medications — CGRP inhibitors — available both as acute treatments (gepants like rimegepant) and preventives (monoclonal antibodies like erenumab). These are the first migraine drugs designed from the ground up around the underlying mechanism rather than discovered by accident.</p>
+
+      <h3>Why does migraine pain concentrate behind one eye?</h3>
+      <p>The trigeminal nerve splits into three branches covering different parts of the face and head. The ophthalmic branch (V1) serves the forehead, eye, and scalp — which is why so many migraines center behind or around one eye. The one-sided nature of migraine pain also reflects the fact that the trigeminovascular system typically activates more strongly on one side during a given attack, though the dominant side can vary between attacks.</p>
     `,
   },
   {
@@ -1068,6 +1166,21 @@ const posts: BlogPost[] = [
       <p>If you have an established pattern and recognize the start of an aura, that's often your earliest warning sign that an attack is beginning — sometimes the earliest sign of all. Many people use this window to take acute medication immediately, find a calm and dimly lit space, and avoid driving or operating machinery until the visual symptoms resolve.</p>
 
       <p>And if weather is part of your trigger picture, getting that early warning before the visual symptoms even start is the real advantage. MigraineCast tracks pressure trends for your location so you have a heads-up before the cascade — aura included — even begins.</p>
+
+      <blockquote>
+        <p>Know when weather conditions are building toward your next attack — before visual symptoms start. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What does a visual migraine actually look like?</h3>
+      <p>The most characteristic form is a scintillating scotoma: a small shimmering spot that appears near the center of vision and slowly expands into a crescent of jagged, flickering light (often described as zigzag lines, broken glass, or heat shimmer), with a blind spot at its center. It typically develops over 15–30 minutes and then resolves. Some people see flashing lights, wavy distortions, or lose sections of their visual field without the shimmering pattern.</p>
+
+      <h3>Are visual migraine symptoms in one eye or both?</h3>
+      <p>Visual aura affects one side of the visual field in both eyes simultaneously — it originates in the brain's visual cortex, not in the eye itself. If you cover one eye, the disturbance stays in the same location. True one-eye-only visual disturbance (where covering that eye makes it disappear) is called retinal migraine and is a different, rarer condition that warrants separate medical evaluation.</p>
+
+      <h3>When should a visual migraine symptom be a medical emergency?</h3>
+      <p>Seek emergency care if: visual symptoms appear suddenly at full intensity (migraine aura develops gradually); they affect only one eye; they last more than 60 minutes; they're accompanied by weakness, numbness, facial drooping, or speech difficulty; or it's the first time you've ever experienced this. If you've had identical episodes before and they resolved within an hour, the pattern is consistent with known aura — but when in doubt, get evaluated.</p>
     `,
   },
   {
@@ -1125,6 +1238,21 @@ const posts: BlogPost[] = [
       <p>Everything above is genuinely useful once a migraine has started. But the fastest possible "relief" is avoiding the worst of an attack altogether — which usually comes down to recognizing your personal warning signs and acting on them before the pain phase fully sets in.</p>
 
       <p>If weather changes are part of your trigger picture, that's exactly the kind of advance warning MigraineCast is built to give you — tracking pressure trends for your location so you have time to take preventive steps, hydrate, adjust your schedule, or have medication on hand before the attack escalates. The fastest way to get rid of a migraine is, whenever possible, to be ready for it before it really starts.</p>
+
+      <blockquote>
+        <p>Get 24–48 hours of advance warning before weather-related attacks so you can act before the pain starts. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do you stop a migraine fast once it starts?</h3>
+      <p>The most effective approach is treating as early as possible — at the first unmistakable sign, not once pain is severe. Take your acute medication immediately; get to a dark, quiet room; apply a cold compress to the neck or temples; sip water steadily; and rest or sleep if possible. Each step you delay gives the attack more time to escalate and makes medication less effective due to slowed stomach absorption.</p>
+
+      <h3>Does caffeine help or hurt migraines?</h3>
+      <p>A small amount of caffeine can enhance pain relievers and has mild analgesic properties — which is why it appears in several combination headache medications. But caffeine is a double-edged sword: too much, inconsistent timing, or withdrawal from your usual amount can all trigger attacks. If you're a regular coffee drinker, a small additional amount during an early attack may help. Starting large doses of caffeine during an attack if you don't normally drink it is not advisable.</p>
+
+      <h3>Is cold or heat better for a migraine?</h3>
+      <p>Cold tends to be more effective for most people during the headache phase — it constricts dilated blood vessels and numbs the area. Apply a gel ice pack to the forehead, temples, or back of the neck for 15–20 minutes at a time. Heat works better for some people, particularly for neck and shoulder tension that accompanies the attack. There's no harm in trying both to see what your body responds to.</p>
     `,
   },
   {
@@ -1185,6 +1313,21 @@ const posts: BlogPost[] = [
       <p>General trigger lists are a starting point, not a diagnosis. The far more useful exercise is tracking your own attacks against the conditions present beforehand — sleep, food, stress, hormonal timing, and weather — and looking for what repeats.</p>
 
       <p>Our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> is built specifically to help with the weather side of this picture, comparing your migraine history against atmospheric conditions to surface patterns you might not notice on your own. Once you know which of these broad categories actually matter for you — and which ones tend to combine — you go from a generic list of "things to avoid" to a personal early-warning system.</p>
+
+      <blockquote>
+        <p>Find out which triggers are actually driving your attacks — log your migraines and let the data show you. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What are the most common migraine triggers?</h3>
+      <p>The most commonly reported migraine triggers are: hormonal changes (especially the estrogen drop before menstruation), sleep disruption (too little or too much), stress and post-stress letdown, barometric pressure drops from weather fronts, skipping meals, dehydration, alcohol (especially red wine), strong sensory stimuli (bright or flickering lights, strong smells), and certain foods (aged cheeses, processed meats, caffeine withdrawal). No single trigger affects everyone — finding your personal pattern matters more than any general list.</p>
+
+      <h3>What is trigger stacking in migraines?</h3>
+      <p>Trigger stacking is the concept that migraines rarely result from a single trigger — they happen when multiple factors combine to push you past your personal threshold. A glass of wine on its own might be fine; a glass of wine after poor sleep, during a stressful period, on a day with a falling pressure system is a different situation. This explains why triggers seem inconsistent — it's not the coffee or the cheese alone, it's what it's stacked with.</p>
+
+      <h3>Why can I eat a trigger food sometimes but not other times?</h3>
+      <p>Because that food rarely acts alone. When your baseline is solid (good sleep, well-hydrated, low stress, stable weather), your threshold is higher and a single trigger food may not push you over. When other factors are already stacking — poor sleep, an approaching storm, hormonal timing — the same food can be the tipping point. The trigger didn't change; your available headroom did.</p>
     `,
   },
   {
@@ -1234,6 +1377,21 @@ const posts: BlogPost[] = [
       <h2>The Other Side of Prevention</h2>
 
       <p>Pressure points can help you cope with an attack that's already underway. But if you're someone whose migraines are influenced by weather — and a large number of people are — the more impactful intervention often happens before the attack starts. MigraineCast tracks barometric pressure trends for your location and gives you advance notice when conditions are shifting in ways that have historically preceded your attacks, so you have time to act before you're reaching for your temples at all.</p>
+
+      <blockquote>
+        <p>Know when a high-risk window is approaching so you can act before the attack starts. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What pressure points help with migraines?</h3>
+      <p>The most commonly used acupressure points for migraine relief are: LI4 (Hegu) — in the webbing between thumb and index finger; GB20 (Fengchi) — in the two hollows at the base of the skull on either side of the spine; Yintang — between the eyebrows; and Taiyang — at the temples. Apply firm, steady pressure for 30 seconds to 2 minutes per point, using slow, deliberate breathing.</p>
+
+      <h3>Does acupressure actually work for migraines?</h3>
+      <p>The evidence is more about comfort and modest symptom reduction than dramatic cure — acupressure won't abort a severe migraine on its own. But it's a free, side-effect-free option that many people find genuinely reduces discomfort, particularly in the early stage of an attack or as a complement to medication. It works best as part of a broader approach that includes a dark, quiet room, hydration, and early medication if prescribed.</p>
+
+      <h3>Where is the LI4 acupressure point for headaches?</h3>
+      <p>LI4 (Hegu) is located in the fleshy webbing between your thumb and index finger, at the highest point of the muscle when you press thumb and finger together. Apply firm pressure here using the thumb of your opposite hand for 1–2 minutes, then switch sides. It's one of the most widely studied acupressure points for headache and can be used almost anywhere.</p>
     `,
   },
   {
@@ -1283,6 +1441,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>MigraineCast tracks barometric pressure trends for your location and gives you advance warning before weather-related attacks, so you have time to act in that window before the pain phase begins. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download it free on iOS</a>.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do you stop a migraine before it starts?</h3>
+      <p>Recognize your prodrome symptoms (the pre-headache phase that can start 6–48 hours before pain), treat at the very first sign rather than waiting for pain to escalate, eliminate any other stacked triggers you can control (dehydrate proactively, eat if you've skipped meals, step away from screens), and — for weather-triggered attacks — use pressure forecasts to prepare 24–48 hours in advance. The earlier you intervene, the better the outcome.</p>
+
+      <h3>What is the prodrome phase of a migraine?</h3>
+      <p>The prodrome is the first phase of a migraine attack, occurring 6 to 48 hours before the headache. It involves subtle neurological changes that produce symptoms like unusual fatigue, neck stiffness, mood changes, food cravings, repeated yawning, and difficulty concentrating. Most people only recognize it in hindsight until they learn their personal pattern — at which point it becomes a reliable early warning that the attack is building.</p>
+
+      <h3>Can you abort a migraine in the early stages?</h3>
+      <p>Yes — for many people, acting during the prodrome or at the very onset of headache (rather than once pain is severe) can prevent a full attack from developing. Acute migraine medications are significantly more effective when taken early. Environmental interventions (dark room, cold compress, hydration) and removing stacked triggers are also more impactful at this stage. The window is real but narrow — waiting for the pain to "prove itself" is one of the most common reasons attacks escalate.</p>
     `,
   },
   {
@@ -1328,6 +1497,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>Logging your cycle and your migraines together — alongside the weather and pressure data MigraineCast tracks automatically — is one of the clearest ways to finally see whether your "random" migraines actually follow a pattern. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast for free on iOS</a> and start building that picture.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why do I get migraines right after my period ends?</h3>
+      <p>Estrogen doesn't follow a single clean drop before your period — it falls before menstruation, stays relatively low through the first part of the cycle, and then begins rising again as the follicular phase gets underway. For some people, the most disruptive window is this low, fluctuating estrogen period in the days right after bleeding ends, before levels stabilize. This explains why attacks sometimes land 3–5 days post-period rather than at the classic pre-menstrual moment.</p>
+
+      <h3>What is a menstrual migraine?</h3>
+      <p>Menstrual migraine (formally "menstrually-related migraine") refers to attacks that occur predictably in the window from 2 days before to 3 days after the start of menstruation, in at least 2 of 3 consecutive cycles. They're driven by the rapid drop in estrogen before menstruation and tend to be longer, more severe, and less responsive to triptans than migraines at other times of the month.</p>
+
+      <h3>How do I know if my migraines are hormonal?</h3>
+      <p>Track your migraine dates alongside your cycle for 2–3 months, noting specifically when your period starts and ends (not just when attacks happen). Hormonal migraines will cluster within a predictable window relative to your cycle. If attacks appear 1–3 days before menstruation and/or in the first few days of your period (or just after it ends) in multiple consecutive months, the pattern is almost certainly hormonal.</p>
     `,
   },
   {
@@ -1379,6 +1559,21 @@ const posts: BlogPost[] = [
       <p>Everything above is about getting through an attack that's already started. If you're interested in how diet plays into reducing how often migraines happen in the first place — rather than just managing one in progress — that's a related but different topic, covered in our guide to <a href="/blog/what-to-eat-to-prevent-migraines">what to eat to prevent migraines</a>.</p>
 
       <p>And if certain foods seem to reliably show up before your worst attacks, it's worth checking whether something else is stacking alongside them — weather changes in particular are an easy thing to miss. MigraineCast tracks barometric pressure trends for your location automatically, so if a "food trigger" keeps lining up with pressure drops too, you'll be able to see that pattern rather than just blaming the meal.</p>
+
+      <blockquote>
+        <p>See what's really happening before your worst attacks — weather, pressure, and your logged patterns in one place. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What foods are safe to eat during a migraine?</h3>
+      <p>Plain crackers or toast, bananas, plain rice or oatmeal, broth or clear soup, applesauce, and ginger tea are the most reliable choices. The goal is bland, low-demand food that's gentle on a nauseous stomach and won't require difficult digestion. Small amounts are better than forcing a full meal.</p>
+
+      <h3>What foods make migraines worse?</h3>
+      <p>During an active attack, avoid anything heavy, greasy, strongly flavored, or strongly scented. Foods that are commonly problematic: fried foods, rich sauces, strongly aged cheeses, processed meats, very sweet desserts, and anything with a strong smell. These can worsen nausea or add dietary trigger exposure at the worst possible time.</p>
+
+      <h3>Should I eat or fast during a migraine?</h3>
+      <p>Eat something light — don't fast. Blood sugar drops are themselves a migraine trigger and can compound an attack that's already underway. Going too long without eating, especially if you've also taken medication on an empty stomach, can extend the attack and worsen nausea. Small, bland food is the goal: something to stabilize blood sugar without taxing your digestive system.</p>
     `,
   },
   {
@@ -1432,6 +1627,17 @@ const posts: BlogPost[] = [
       <h2>When to See a Doctor</h2>
 
       <p>Daily or near-daily headaches — regardless of suspected cause — are generally worth discussing with a doctor, both to rule out medication-overuse headache and to make sure nothing else is being missed. Hydration is a reasonable first thing to address because it's low-risk and easy to test, but it shouldn't be the only thing you try if a two-week experiment doesn't move the needle.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can dehydration cause migraines every day?</h3>
+      <p>Chronic mild dehydration can absolutely drive daily or near-daily headaches in some people — particularly if you consistently rely on caffeine as your main fluid source, live in dry indoor environments, or never feel strongly thirsty. But daily headaches can also reflect medication-overuse headache or multiple stacked daily triggers. The best test is a deliberate two-week experiment with significantly increased water and electrolyte intake, keeping everything else constant.</p>
+
+      <h3>How much water should I drink to prevent migraines?</h3>
+      <p>A commonly cited guideline for migraine-prone individuals is approximately half your body weight in ounces per day (e.g., 150 lbs → 75 oz), spread throughout the day rather than consumed in bursts. Plain water alone isn't always sufficient — electrolyte intake matters too, especially if you're active, live in a hot climate, or consume a lot of caffeine or alcohol. Pale yellow urine is a reliable indicator of adequate hydration.</p>
+
+      <h3>How do I know if dehydration is causing my headaches?</h3>
+      <p>Signs of chronic under-hydration: urine consistently darker than pale yellow, dull headaches that develop by mid-afternoon, heavy caffeine reliance as your main fluid source, working in heated or air-conditioned indoor air all day, and headaches that improve somewhat (even if not fully) after drinking a large glass of water. If a two-week deliberate hydration increase doesn't reduce headache frequency, dehydration is probably not the primary driver.</p>
     `,
   },
   {
@@ -1483,6 +1689,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>MigraineCast brings all of this together automatically — pressure tracking, personalized risk forecasts, and pattern analysis — so weather-triggered migraines go from feeling random to feeling predictable. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I confirm that weather is triggering my migraines?</h3>
+      <p>Look up the barometric pressure data for your location in the 24–48 hours before each of your last 5–10 migraine attacks. If a pressure drop preceded most of them, you have data rather than a guess. Our free <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> does this automatically — enter your location and migraine dates and it pulls the historical pressure data for you.</p>
+
+      <h3>What is a personal pressure threshold for migraines?</h3>
+      <p>Your personal pressure threshold is the size and speed of barometric pressure drop that reliably triggers an attack for you specifically. Some people react to drops as small as 3–5 mbar; others only respond to rapid drops of 10+ mbar. Knowing your threshold means you can filter weather forecasts — ignoring small fluctuations that won't affect you and preparing specifically for changes that historically have.</p>
+
+      <h3>Does every barometric pressure drop cause a migraine?</h3>
+      <p>No — pressure drops only trigger migraines when they exceed your personal threshold and/or when other factors are stacking alongside them. A small pressure wobble on a well-rested, well-hydrated, low-stress day may not cause any symptoms. The same pressure change combined with poor sleep, hormonal timing, and caffeine withdrawal might push you over. Weather is a factor in the stack, not always the sole cause.</p>
     `,
   },
   {
@@ -1534,6 +1751,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>If weather changes are part of what's disrupting your sleep and triggering attacks, MigraineCast's advance pressure forecasts can give you the heads-up to protect your sleep the night before a high-risk window arrives — rather than finding out the hard way. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Get MigraineCast free on iOS</a>.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do you sleep when you have a migraine headache?</h3>
+      <p>Make the room as dark as possible (blackout curtains or a sleep mask), use earplugs or white noise to control sound, cool the room to around 65–68°F, and try propping your head up slightly if lying flat increases head pressure. Address nausea before attempting sleep — it's hard to fall asleep while actively nauseous. If you can't fall fully asleep, lying still in the dark with eyes closed still gives your nervous system a chance to settle.</p>
+
+      <h3>Does sleep actually cure a migraine?</h3>
+      <p>For many people, yes — especially if medication was taken beforehand. Sleep gives the trigeminovascular system a chance to downregulate, and many people wake from even a short sleep to find an attack significantly reduced or fully resolved. It's not guaranteed, but sleep is one of the most consistently effective non-medication tools available during an active migraine.</p>
+
+      <h3>What position should I sleep in during a migraine?</h3>
+      <p>There's no single right answer, but many people find that lying completely flat worsens head pressure — a slight incline with an extra pillow under the head can help. If nausea is significant, a mild incline also reduces the likelihood of discomfort from lying flat. Side-sleeping with a supportive pillow for the neck tends to reduce shoulder and neck tension that can accompany attacks.</p>
     `,
   },
   {
@@ -1596,6 +1824,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>MigraineCast helps you build the full picture — logging your attacks, tracking weather-based risk, and helping you spot the patterns (including prodrome timing) that make migraines feel predictable instead of random. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What are the symptoms of the migraine prodrome?</h3>
+      <p>Common prodrome symptoms include: unusual fatigue or increased yawning, mood changes (irritability, low mood, or unexplained euphoria), neck stiffness or tension, food cravings (especially sweet or salty), difficulty concentrating or finding words, mild increased sensitivity to light or sound, and increased thirst or urination. Symptoms vary between individuals but tend to be consistent for the same person attack after attack.</p>
+
+      <h3>How early does the migraine prodrome start before the headache?</h3>
+      <p>The prodrome can begin anywhere from 6 hours to 2 full days before head pain arrives. Most people's prodrome falls somewhere in the 12–36 hour range. This means that for weather-sensitive migraine sufferers, a barometric pressure drop can trigger the prodrome phase well before the storm even arrives — giving you a double early warning if you know to look for both signals.</p>
+
+      <h3>How do I learn to recognize my own prodrome?</h3>
+      <p>After your next few attacks, look backward deliberately: what was slightly off in the 24–36 hours before the headache? Mood, energy, neck tension, food cravings, sleep quality? Do this after several attacks and a pattern usually emerges. Your prodrome signs are likely more consistent than they seem — they just need to be actively looked for rather than noticed passively.</p>
     `,
   },
   {
@@ -1651,6 +1890,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>MigraineCast supports the "natural" side of migraine management too — by giving you advance notice of weather-related risk so you can use cold therapy, hydration, rest, or whatever works for you, before an attack fully takes hold rather than after. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What natural remedies actually work for migraines?</h3>
+      <p>The non-medication approaches with the strongest evidence or clinical use: cold compress on forehead, temples, or back of neck (15–20 minutes); magnesium supplementation (360–600mg daily, for prevention over time); riboflavin / vitamin B2 (400mg daily, for prevention); sleep as a recovery tool during attacks; acupressure at points like LI4 and GB20; and aggressive hydration. These work best as complements to appropriate medical treatment, not replacements for it.</p>
+
+      <h3>Can magnesium help with migraines?</h3>
+      <p>Yes — magnesium has reasonable evidence for migraine prevention, particularly for menstrually-related migraine. Studies have used doses of 360–600mg of elemental magnesium daily (the preventive effect builds over weeks, not immediately). Magnesium glycinate and magnesium citrate are better tolerated than magnesium oxide. Discuss dosing with your doctor, as effective prevention doses are often higher than what's in a standard multivitamin.</p>
+
+      <h3>Are essential oils helpful for migraines?</h3>
+      <p>Peppermint and lavender oils are the most commonly cited. Some people find them genuinely soothing — peppermint in particular has a mild cooling, vasodilatory effect when applied topically to the temples. However, strong smells are a trigger for some migraine sufferers, so oils that help one person can worsen symptoms for another. Try cautiously; stop if it doesn't feel helpful.</p>
     `,
   },
   {
@@ -1698,6 +1948,21 @@ const posts: BlogPost[] = [
       <h2>The Bottom Line</h2>
 
       <p>Diet's role in migraine prevention is less about a perfect list of "good" and "bad" foods and more about supporting a stable baseline — steady blood sugar, adequate hydration, and a generally nutrient-rich pattern — while staying alert to any genuinely individual triggers without over-restricting based on general lists that may not apply to you.</p>
+
+      <blockquote>
+        <p>Track your attacks alongside automatic pressure and weather data to see what's actually converging before your worst migraines. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What foods help prevent migraines?</h3>
+      <p>Focus on foods that support a stable baseline: magnesium-rich foods (leafy greens, nuts, seeds, legumes), omega-3 sources (fatty fish, walnuts, chia seeds), riboflavin-rich foods (eggs, lean meats, almonds), and high-water-content foods (cucumber, watermelon, soups). The bigger principle is maintaining steady blood sugar through regular meals — skipping meals is one of the most reliably documented dietary triggers.</p>
+
+      <h3>Should I avoid all migraine trigger foods?</h3>
+      <p>No — dietary triggers are highly individual. Many people with migraine can eat aged cheese, chocolate, or red wine without issue, while others have a genuine pattern with one specific item. Broad elimination diets based on general trigger lists often cause unnecessary restriction without meaningful benefit. A better approach: track your attacks and look for any food that appears consistently in the hours before attacks across multiple occurrences — that's worth eliminating individually to test.</p>
+
+      <h3>Is chocolate a migraine trigger?</h3>
+      <p>For some people, yes — but the evidence is more nuanced than popular lists suggest. Chocolate is often consumed during prodrome (the pre-headache phase), where food cravings are common, which can make it appear to "cause" an attack that was already underway. True chocolate sensitivity exists but is less universal than commonly believed. If you suspect it, eliminate it specifically for 2–3 months and compare attack frequency rather than avoiding it indefinitely based on general advice.</p>
     `,
   },
   {
@@ -1745,6 +2010,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>MigraineCast brings together weather-based forecasting, personal trigger tracking, and optional Apple Health integration — including HRV — to help you build a complete picture of what's converging before your migraines hit. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is the connection between HRV and migraine?</h3>
+      <p>HRV (heart rate variability) reflects the balance of the autonomic nervous system — the same system deeply involved in migraine. Research has found that HRV tends to drop in the period leading up to and during migraine attacks, consistent with a shift toward higher sympathetic ("fight-or-flight") activity. This makes HRV a potentially useful early signal, alongside weather forecasts and prodrome symptoms, when it's lower than your personal baseline without an obvious cause like illness or heavy exercise.</p>
+
+      <h3>Can a smartwatch predict a migraine?</h3>
+      <p>Not with certainty — no wearable can currently predict migraines reliably on its own. But HRV data from an Apple Watch or similar device can contribute to a larger picture: a notable HRV dip, combined with a forecasted pressure drop and familiar prodrome symptoms, is a meaningfully stronger signal than any of those factors alone. MigraineCast can optionally read HRV from Apple Health to incorporate it alongside weather-based forecasting.</p>
+
+      <h3>Should I buy a wearable specifically to help manage migraines?</h3>
+      <p>Not necessarily. Weather-based pressure tracking and attack logging are the foundation — and these don't require any wearable. If you already have an Apple Watch or similar device, connecting its HRV data to MigraineCast adds a useful extra layer. But HRV tracking isn't a prerequisite for effective migraine management, and buying a device specifically for this purpose isn't something most people need to do.</p>
     `,
   },
   {
@@ -1824,6 +2100,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>Want to understand your own attack patterns better? <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast on iOS</a> and start logging — over time, you'll see exactly what your personal attack timelines look like and what's driving them.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How long does a migraine typically last?</h3>
+      <p>The headache phase of a migraine lasts 4 to 72 hours by clinical definition (International Headache Society criteria). Most treated attacks resolve in 4 to 24 hours. Untreated or undertreated attacks are more likely to extend toward 72 hours. The full migraine cycle — including prodrome (up to 48 hours before) and postdrome (up to 48 hours after) — can span 2 to 4 days even when the headache itself was shorter.</p>
+
+      <h3>What are the 4 stages of a migraine?</h3>
+      <p>The four phases are: (1) Prodrome — subtle neurological changes 6–48 hours before the headache, including fatigue, mood shifts, neck tension, and food cravings; (2) Aura — reversible neurological symptoms (visual, sensory, or speech) lasting 20–60 minutes, present in about 25–30% of people; (3) Headache — the pain phase, lasting 4–72 hours; (4) Postdrome — the "migraine hangover" of fatigue, brain fog, and low mood that can last up to 48 hours after pain resolves.</p>
+
+      <h3>How long does the migraine hangover (postdrome) last?</h3>
+      <p>The postdrome typically lasts a few hours to 48 hours after the headache resolves. Symptoms include exhaustion, difficulty concentrating, emotional flatness or unusual calm, and muscle soreness. Cognitive function often takes longer to return to full baseline than physical energy does. Returning to full activity during postdrome frequently extends overall recovery time.</p>
     `,
   },
   {
@@ -1886,6 +2173,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>Think your headaches might be migraine? Start tracking with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — log attacks in seconds and build the data your doctor needs to give you an accurate picture.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is the key difference between a migraine and a tension headache?</h3>
+      <p>The most reliable distinguishing features: migraines typically worsen with physical activity (walking, bending over), while tension headaches don't. Migraines are commonly one-sided and pulsating; tension headaches produce bilateral pressure or tightening. Nausea, vomiting, and severe light and sound sensitivity together point strongly to migraine. Duration differs too: tension headaches typically last 30 minutes to a few hours; migraines last 4 to 72 hours.</p>
+
+      <h3>Can a headache be both a migraine and a tension headache?</h3>
+      <p>Yes — many people with migraine also experience tension-type headaches, and a mild migraine can look like a tension headache if it doesn't reach severe intensity. The two can coexist, and distinguishing them in any given episode is sometimes genuinely difficult. The pattern over time — whether attacks regularly involve nausea, light/sound sensitivity, and worsening with movement — is a more reliable guide than any single episode.</p>
+
+      <h3>What officially makes a headache a migraine?</h3>
+      <p>Neurologists use the International Classification of Headache Disorders (ICHD-3) criteria: at least 5 attacks lasting 4–72 hours, with at least 2 of the following 4 features (one-sided, pulsating, moderate-to-severe pain, worsened by routine activity), and at least 1 of: nausea/vomiting or both light and sound sensitivity. The attacks must not be better explained by another condition.</p>
     `,
   },
   {
@@ -1959,6 +2257,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast on iOS</a> to track your full attack patterns — including aura — alongside barometric pressure data that helps predict when attacks are more likely.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What does migraine aura look like?</h3>
+      <p>The most common visual aura is a scintillating scotoma: a small shimmering disturbance near the center of vision that slowly expands into a crescent of jagged, zigzag flickering light (like broken glass or heat shimmer), with a blind spot at its center. It typically develops gradually over 15–30 minutes then resolves fully. Other aura types produce tingling that slowly moves up one arm, difficulty finding words, or blank patches in the visual field without the shimmering.</p>
+
+      <h3>How long does migraine aura last?</h3>
+      <p>Migraine aura typically lasts 20 to 60 minutes. Individual symptoms usually develop gradually over 5–20 minutes and then fade. An aura that doesn't resolve within 60 minutes is called a prolonged aura and warrants medical evaluation, as it overlaps symptomatically with more serious neurological events.</p>
+
+      <h3>Can migraine aura happen without a headache?</h3>
+      <p>Yes — this is called a silent migraine, acephalgic migraine, or migraine equivalent. The aura develops and resolves in the usual way, but no headache follows. Silent migraine is more common in middle age and later life, and often occurs in people who previously had migraine with aura but find the headache phase diminishes over time.</p>
     `,
   },
   {
@@ -2037,6 +2346,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Track your silent migraine episodes with MigraineCast</a> — log the aura alongside weather data to see whether pressure changes are part of your pattern, even without the headache.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is a silent migraine?</h3>
+      <p>A silent migraine (acephalgic migraine) is a migraine aura that occurs without a subsequent headache. The visual, sensory, or other neurological symptoms are identical to what precedes a typical migraine with aura — they develop gradually over 5–20 minutes and resolve within an hour — but the pain phase never arrives. Silent migraine is most common in people over 50 and in women around perimenopause.</p>
+
+      <h3>Are silent migraines dangerous?</h3>
+      <p>Silent migraines themselves are not dangerous — the underlying mechanism (cortical spreading depression) is the same benign process as typical aura. The risk comes from misidentifying them as a TIA or stroke, or from missing another diagnosis. Anyone experiencing neurological symptoms for the first time should be evaluated medically. Once a pattern is established and confirmed, subsequent episodes are typically benign and manageable.</p>
+
+      <h3>How is a silent migraine different from a TIA?</h3>
+      <p>Key differences: silent migraine aura develops gradually over 5–20 minutes (TIA symptoms appear suddenly at full intensity); migraine aura typically spreads or "marches" slowly (TIA symptoms don't spread this way); visual aura in migraine usually features flickering and shimmering positive phenomena (TIA more commonly causes sudden vision loss or darkening without shimmering). If symptoms appear suddenly, persist beyond 60 minutes, affect only one eye, or include weakness or speech difficulty you don't normally have — seek emergency care.</p>
     `,
   },
   {
@@ -2102,6 +2422,21 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>Use our free <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> to see whether pressure changes have preceded your visual episodes. Enter your dates and location — we'll pull the actual barometric data so you can check for yourself.</p>
       </blockquote>
+
+      <blockquote>
+        <p>Track your visual disturbance episodes alongside weather data with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — see whether pressure changes are part of your pattern.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What causes ocular migraines?</h3>
+      <p>What's commonly called an "ocular migraine" is almost always visual aura caused by cortical spreading depression — a slow wave of electrical changes sweeping across the brain's visual cortex. The same triggers that initiate any migraine attack can trigger it: barometric pressure drops, sleep disruption, hormonal changes, stress, dehydration, and sensory overstimulation. The visual cortex is simply the region of the brain most affected in these cases.</p>
+
+      <h3>What is the difference between ocular migraine and retinal migraine?</h3>
+      <p>Visual aura ("ocular migraine" in popular use) originates in the brain's visual cortex and affects both eyes' visual field simultaneously — it's a brain event, not an eye event. Retinal migraine is a separate, rarer condition where visual disturbance or loss occurs in just one eye (not one side of the visual field — literally one eye) due to reduced blood flow to the retina. Covering one eye individually is the test: if the disturbance stays in both eyes, it's visual aura; if it disappears in one eye but not the other, that's a one-eye event warranting medical evaluation.</p>
+
+      <h3>Do ocular migraines always lead to a headache?</h3>
+      <p>No. Visual aura without a subsequent headache — called silent or acephalgic migraine — is common, particularly in older adults. The aura develops and resolves in the usual way (typically 20–60 minutes) but no pain phase follows. This can be alarming if unexpected but is a recognized, benign migraine variant.</p>
     `,
   },
   {
@@ -2167,6 +2502,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>Track your attack dates alongside your cycle with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — log in seconds, and see your pattern emerge over weeks of data.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why are migraines worse before your period?</h3>
+      <p>The estrogen drop in the days before menstruation — called estrogen withdrawal — lowers the migraine threshold by reducing estrogen's stabilizing effect on pain-processing systems and the trigeminal vascular network. This makes the brain more susceptible to any trigger during this window. Menstrually-related migraines also tend to be longer and less responsive to triptans than migraines at other cycle phases.</p>
+
+      <h3>What actually helps with hormonal migraines?</h3>
+      <p>Evidence-based options include: mini-prophylaxis (taking NSAIDs like naproxen sodium, or specific triptans like frovatriptan, preventively for 5–7 days around the expected attack window); transdermal estrogen add-back in the days before menstruation (under medical guidance); continuous hormonal contraception to eliminate the monthly estrogen drop; and magnesium supplementation (360–600mg daily in the luteal phase). Always discuss with a neurologist or gynecologist — the right approach depends on your specific pattern and medical history.</p>
+
+      <h3>Can hormonal contraception make migraines worse?</h3>
+      <p>It depends on the type and the person. Combined oral contraceptives (estrogen + progestin) are generally avoided in people with migraine with aura due to a small but real increased ischemic stroke risk. Progestin-only options are generally safer in this group. Some people find that hormonal contraception reduces migraine frequency by smoothing out hormonal fluctuations; others find it makes attacks worse. This is an individual response that's worth monitoring and discussing with your doctor.</p>
     `,
   },
   {
@@ -2241,6 +2587,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast is free on iOS</a> — start logging and let the app build your environmental picture automatically while you focus on managing your attacks.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is the best migraine diary app?</h3>
+      <p>The best migraine diary app automatically tracks environmental data (especially barometric pressure) without requiring manual entry, allows attack logging in under 10 seconds, surfaces patterns over time through visual analysis, generates reports you can share with a doctor, and provides forward-looking risk forecasts rather than just documenting the past. MigraineCast is built specifically around these requirements, with continuous pressure tracking and personalized forecasting at its core.</p>
+
+      <h3>Does MigraineCast track barometric pressure automatically?</h3>
+      <p>Yes. MigraineCast continuously monitors barometric pressure at your location in the background — you don't need to open the app for this to happen. When you log a migraine, the pressure history around that attack is already captured and correlated with your attack data automatically. Over time this builds a personal picture of how pressure changes relate to your specific attacks.</p>
+
+      <h3>How do I use a migraine diary to show my doctor?</h3>
+      <p>Track consistently for at least 3 months, logging attack date, time, severity, and duration at minimum. In MigraineCast, use the Download Report function in the Insights tab to generate a structured summary of your attack history alongside the weather and pressure conditions that preceded each one. Bring this to your appointment — a structured 90-day report with environmental context is significantly more useful to a neurologist than verbal descriptions or a screenshot of individual log entries.</p>
     `,
   },
   {
@@ -2330,6 +2687,17 @@ const posts: BlogPost[] = [
       <blockquote>
         <p>Start your tracking system today with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — automatic pressure tracking from day one, minimal manual effort, and pattern analysis that builds as your data grows.</p>
       </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I find my migraine triggers?</h3>
+      <p>Log your attacks (timestamp and severity) consistently, let an app automatically capture environmental data like barometric pressure, and review your data monthly looking for factors that appear repeatedly before attacks. Focus on patterns across multiple attacks, not individual episodes — a trigger that shows up once may be coincidence; one that precedes 6 of your last 10 attacks is worth acting on. Three months of data is the minimum for reliable pattern detection.</p>
+
+      <h3>Why is it hard to identify migraine triggers?</h3>
+      <p>Because triggers rarely act alone. The same food, sleep disruption, or pressure change may not cause a migraine by itself but reliably does when combined with other factors — a concept called trigger stacking. This makes individual trigger-hunting unreliable. The right approach is tracking all factors simultaneously so you can see what's combining before attacks, rather than isolating one variable at a time.</p>
+
+      <h3>How long does it take to identify my migraine patterns?</h3>
+      <p>Most people can see meaningful patterns after 3 months of consistent data — enough attacks to show what's repeating, and enough normal days to contrast them against. The first month gives you a frequency baseline. Month two lets you start seeing clusters. Month three typically reveals correlations you couldn't see from memory or short-term observation alone. Environmental factors like pressure changes often emerge earlier than dietary or behavioral triggers because they're captured automatically rather than recalled.</p>
     `,
   },
 ];
