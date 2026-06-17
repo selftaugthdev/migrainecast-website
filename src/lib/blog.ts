@@ -1541,7 +1541,7 @@ const posts: BlogPost[] = [
     title: "Migraine Prodrome: The Early Warning Signs Most People Miss",
     excerpt:
       "Hours — sometimes a full day — before head pain starts, your body is often already signaling that a migraine is on its way. Learning to recognize your prodrome phase is one of the highest-leverage things you can do.",
-    date: "June 19, 2026",
+    date: "June 10, 2026",
     category: "Science",
     content: `
       <p>Ask most people with migraine when their attack "started," and they'll point to when the head pain began. But for a large share of people, the migraine process actually starts much earlier — sometimes a full 24 hours before any pain — in a phase called the <strong>prodrome</strong>. The prodrome is often subtle, easy to dismiss as "just feeling off," and as a result, it's one of the most commonly missed parts of the entire migraine cycle.</p>
@@ -1603,7 +1603,7 @@ const posts: BlogPost[] = [
     title: "Natural Migraine Relief Without Medication: What Actually Helps",
     excerpt:
       "Not every migraine strategy needs to come from a pharmacy. Here's an honest look at non-medication approaches that have real evidence behind them — and where their limits are.",
-    date: "June 23, 2026",
+    date: "June 11, 2026",
     category: "Tips",
     content: `
       <p>A lot of people looking for "natural migraine relief" are in one of two situations: they want to reduce reliance on medication, or they're in a moment where medication isn't an option and they need something — anything — that might help. Either way, it's worth being upfront about what non-medication approaches can realistically do: for many people, they're genuinely useful as <strong>complements</strong> — reducing frequency, easing severity, or helping during an attack — but they're rarely a complete replacement for medical treatment when migraines are frequent or severe. With that framing, here's what tends to actually help.</p>
@@ -1658,7 +1658,7 @@ const posts: BlogPost[] = [
     title: "What to Eat to Prevent Migraines: A Practical, Non-Restrictive Guide",
     excerpt:
       "Diet and migraine prevention often gets reduced to long lists of 'foods to avoid' — but what you eat regularly to support a stable system matters at least as much as what you cut out. Here's the proactive side of the equation.",
-    date: "June 26, 2026",
+    date: "June 14, 2026",
     category: "Tips",
     content: `
       <p>Search "diet and migraine" and you'll mostly find lists of foods to avoid — chocolate, red wine, aged cheese, processed meats. That information has its place, but it tells only half the story, and an overly restrictive approach can backfire by adding stress and limiting nutrition without much benefit. The less-discussed half is this: certain foods and eating patterns appear to support a more stable system overall, making you somewhat more resilient to other triggers. Here's what that looks like in practice.</p>
@@ -1705,7 +1705,7 @@ const posts: BlogPost[] = [
     title: "The Migraine and HRV Connection: What Your Heart Rate Variability Might Be Telling You",
     excerpt:
       "Heart rate variability (HRV) is best known as a fitness and recovery metric — but it's also a window into the part of your nervous system that's deeply involved in migraine. Here's what the connection actually looks like.",
-    date: "June 30, 2026",
+    date: "June 15, 2026",
     category: "Science",
     content: `
       <p>If you wear an Apple Watch or another wearable, you've probably seen your "HRV" number — heart rate variability — show up in your health data, often framed around recovery, stress, or sleep quality. What's less widely known is that HRV is also genuinely relevant to migraine, because both are tied to the same underlying system: the autonomic nervous system.</p>
@@ -1744,6 +1744,591 @@ const posts: BlogPost[] = [
 
       <blockquote>
         <p>MigraineCast brings together weather-based forecasting, personal trigger tracking, and optional Apple Health integration — including HRV — to help you build a complete picture of what's converging before your migraines hit. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "how-long-does-a-migraine-last",
+    title: "How Long Does a Migraine Last? What to Expect at Every Stage",
+    excerpt:
+      "A migraine isn't just the pain phase — it's a four-stage process that can stretch across two to three days. Understanding each stage helps you recognize where you are, what's coming, and what to do about it.",
+    date: "June 17, 2026",
+    category: "Science",
+    content: `
+      <p>One of the most disorienting things about migraines is that they don't have a predictable end time. Some people are back to normal in a few hours. Others are wiped out for two or three days. And the pain is just one part of it — the full migraine process often starts well before the headache and continues long after it resolves.</p>
+
+      <p>Here's a breakdown of what's actually happening at each stage, how long each phase typically lasts, and what that means practically.</p>
+
+      <h2>The Four Stages of a Migraine</h2>
+
+      <p>A full migraine attack can involve up to four distinct phases: prodrome, aura, headache, and postdrome. Not everyone experiences all four — many people skip the aura entirely — but understanding the full cycle helps you recognize where you are in it.</p>
+
+      <h3>Stage 1: Prodrome (6 to 48 hours before the headache)</h3>
+
+      <p>The prodrome is the pre-headache phase, sometimes called "premonitory symptoms." It can start anywhere from a few hours to two full days before the head pain arrives. During this phase, the migraine is already underway in terms of neurological changes — you just don't feel the headache yet.</p>
+
+      <p>Common prodrome symptoms include: neck stiffness or tension, unusual fatigue, mood changes (irritability, low mood, or sometimes unexpected euphoria), increased yawning, difficulty concentrating, food cravings, increased sensitivity to light or sound, and a general feeling of "something's off."</p>
+
+      <p>This phase matters because it's your warning window. Recognizing prodrome symptoms and acting on them — taking acute medication early, adjusting your schedule, eliminating other triggers — is one of the most reliable ways to reduce attack severity or sometimes abort an attack entirely.</p>
+
+      <h3>Stage 2: Aura (20 to 60 minutes)</h3>
+
+      <p>Aura occurs in roughly 25 to 30 percent of people with migraine. It involves reversible neurological symptoms that typically develop gradually over 5 to 20 minutes and then resolve within an hour. Visual auras are most common — zigzag lines, flickering lights, blind spots, or shimmering arcs in the visual field. Other auras involve sensory changes like tingling or numbness on one side of the face or hand, or speech and language disturbances.</p>
+
+      <p>Aura without headache also exists — this is called a silent migraine or acephalgic migraine (see our guide to <a href="/blog/silent-migraine-symptoms">silent migraine symptoms</a>). The aura arrives and resolves without a pain phase following.</p>
+
+      <h3>Stage 3: Headache (4 to 72 hours)</h3>
+
+      <p>This is the phase most people associate with migraine. The International Headache Society defines migraine headache as lasting 4 to 72 hours, though most attacks that are treated promptly resolve in 4 to 24 hours. Untreated or undertreated attacks are more likely to extend toward that 72-hour upper limit.</p>
+
+      <p>The pain is typically moderate to severe, often one-sided (though not always), and described as throbbing or pulsating. It tends to worsen with physical activity. Nausea, vomiting, and severe sensitivity to light and sound are common during this phase and can be as debilitating as the pain itself.</p>
+
+      <p>If a migraine lasts more than 72 hours continuously, that's classified as status migrainosus — a medical situation worth discussing with your doctor, as it may require different treatment.</p>
+
+      <h3>Stage 4: Postdrome (up to 48 hours)</h3>
+
+      <p>After the headache resolves, many people spend anywhere from a few hours to two full days in the postdrome — often called the "migraine hangover." The pain is gone, but you may feel exhausted, mentally foggy, physically drained, and emotionally flat. Some people feel unusually calm or relieved. Cognitive function, in particular, often takes time to fully recover.</p>
+
+      <p>The postdrome is underappreciated as a source of real-world impact. You may feel "well enough" by conventional standards but be far below your normal baseline. Returning to full work or social commitments during postdrome often extends the overall recovery.</p>
+
+      <h2>So How Long Does a Migraine Actually Last?</h2>
+
+      <p>Adding it up: a full migraine cycle — from the first prodrome symptoms to the end of postdrome — can realistically span two to four days, even if the pain itself only lasted a day. This is why migraine is classified as a neurological disease rather than just "bad headaches." The impact on functioning extends well beyond the headache phase.</p>
+
+      <p>For most people with episodic migraine, individual attacks fall into one of these rough patterns:</p>
+
+      <ul>
+        <li><strong>Short attacks (4 to 12 hours):</strong> Often treated early and effectively; more likely with prompt medication use</li>
+        <li><strong>Moderate attacks (12 to 24 hours):</strong> The most common range for an adequately managed attack</li>
+        <li><strong>Long attacks (24 to 72 hours):</strong> More common when medication is delayed, the attack is severe, or multiple triggers are stacked</li>
+      </ul>
+
+      <h2>What Actually Affects Duration</h2>
+
+      <p>Several factors influence how long an individual attack lasts:</p>
+
+      <p><strong>Time to treatment.</strong> The most consistent finding across migraine research is that treating earlier — at the very first sign of symptoms, ideally during prodrome or at headache onset — produces significantly shorter and milder attacks compared to waiting until pain is severe. Triptans in particular have a well-documented time-sensitivity: they're most effective in the first hour of headache onset.</p>
+
+      <p><strong>Sleep.</strong> Sleep often ends or substantially shortens a migraine attack. This is one reason going to bed when possible is a reasonable management strategy.</p>
+
+      <p><strong>Trigger stacking.</strong> When multiple triggers combine — a weather system moving through, a night of poor sleep, skipped meals, and caffeine withdrawal all at once — attacks tend to be longer and harder to treat. Single-trigger attacks often resolve more cleanly.</p>
+
+      <p><strong>Medication overuse.</strong> Counterintuitively, overuse of acute medications (more than 10 to 15 days per month depending on the medication) can increase attack frequency and duration over time, a pattern called medication overuse headache.</p>
+
+      <h2>Using Weather to Anticipate Attack Timing</h2>
+
+      <p>If barometric pressure is one of your triggers, tracking forecasted pressure drops gives you a window into not just whether an attack is likely, but roughly when. A falling pressure system arriving over 48 hours often means the trigger window opens well before the front arrives — which aligns directly with where early intervention is most effective.</p>
+
+      <p>MigraineCast tracks barometric pressure trends at your location and surfaces those windows in advance, so you know when to be on alert for prodrome symptoms and when early action is most likely to shorten or abort the attack cycle.</p>
+
+      <blockquote>
+        <p>Want to understand your own attack patterns better? <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast on iOS</a> and start logging — over time, you'll see exactly what your personal attack timelines look like and what's driving them.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "migraine-vs-headache",
+    title: "Migraine vs. Headache: How to Tell the Difference",
+    excerpt:
+      "Not every bad headache is a migraine, and not every migraine involves severe head pain. Here's how to tell the difference — and why it matters for getting the right treatment.",
+    date: "June 13, 2026",
+    category: "Science",
+    content: `
+      <p>"It's just a headache." This phrase frustrates anyone who lives with migraine, because the two conditions are fundamentally different — in their biology, their symptoms, their impact, and their treatment. At the same time, the line between them isn't always obvious, which is why many people with migraine go years without a correct diagnosis.</p>
+
+      <p>Here's how to actually tell them apart.</p>
+
+      <h2>What a Tension Headache Actually Is</h2>
+
+      <p>The most common type of headache — the one most people mean when they say "just a headache" — is a tension-type headache. It produces a dull, steady ache or pressure sensation that typically affects both sides of the head, often described as a tight band or vice around the skull. Tension headaches are not usually worsened by movement. Nausea is uncommon. Sensitivity to light or sound may occur, but rarely both at once and rarely severely.</p>
+
+      <p>Tension headaches are unpleasant but generally manageable with over-the-counter pain relievers. They tend to last 30 minutes to a few hours, occasionally longer, and they don't typically interfere with daily function the way a migraine does.</p>
+
+      <h2>What Migraine Actually Is</h2>
+
+      <p>Migraine is a neurological disease — a disorder of brain excitability that involves widespread changes in nervous system activity, blood flow, and pain processing. A migraine attack is not simply a severe headache. The headache is one symptom of a complex process that can involve four distinct phases (prodrome, aura, headache, postdrome) and affect multiple body systems at once.</p>
+
+      <p>The headache itself, when it occurs, is typically moderate to severe in intensity, often one-sided (though not always), and described as throbbing or pulsating. It characteristically worsens with physical activity — walking up stairs, bending over, moving quickly — which is a key distinguishing feature. Tension headaches typically don't change with movement.</p>
+
+      <p>Nausea or vomiting accompany many migraine attacks. Sensitivity to light (photophobia) and sensitivity to sound (phonophobia) are hallmark features, often to a degree where the person needs to lie in a dark, quiet room. These symptoms are rare or mild with tension headaches.</p>
+
+      <h2>The Clinical Diagnostic Criteria</h2>
+
+      <p>Neurologists use criteria from the International Classification of Headache Disorders to formally diagnose migraine. For migraine without aura, the criteria require at least five attacks with:</p>
+
+      <ul>
+        <li>Duration of 4 to 72 hours (untreated or unsuccessfully treated)</li>
+        <li>At least two of: one-sided location, pulsating quality, moderate-to-severe pain, worsened by routine activity</li>
+        <li>At least one of: nausea/vomiting, or sensitivity to both light and sound</li>
+        <li>Not better accounted for by another diagnosis</li>
+      </ul>
+
+      <p>You don't need to memorize these criteria, but knowing them can help you recognize why what you're experiencing isn't "just a headache" — and why it warrants specific treatment.</p>
+
+      <h2>Can You Have Both?</h2>
+
+      <p>Yes. Many people with migraine also get tension headaches, and the two can be difficult to distinguish, especially at the start of an attack before it fully develops. Some mild migraines never reach severe intensity and may look superficially like a bad tension headache. And some tension headaches become severe enough that they're mistaken for migraine.</p>
+
+      <p>The best guide is the pattern over time. If your headaches regularly involve nausea, light sensitivity, sound sensitivity, and worsening with movement — especially if they're one-sided and throbbing — migraine is the more likely diagnosis regardless of pain severity.</p>
+
+      <h2>Why the Distinction Matters</h2>
+
+      <p>Treatment is where the difference becomes practically significant. Tension headaches generally respond to common over-the-counter analgesics like ibuprofen or paracetamol. Migraine-specific medications — triptans, gepants (like rimegepant), ditans (like lasmiditan), and the newer CGRP-targeting treatments — work specifically on migraine pathways and are far more effective for migraine than standard pain relievers.</p>
+
+      <p>If you're treating what is actually migraine with only ibuprofen or paracetamol, you may be undertreating your attacks — and over time, frequent use of those medications can even worsen the pattern through medication overuse headache.</p>
+
+      <p>Getting the right diagnosis from a neurologist or headache specialist opens the door to treatments that are actually targeted to what's happening in your brain. If you suspect your headaches are migraines but haven't been diagnosed, bringing detailed symptom data to your doctor is the most useful thing you can do.</p>
+
+      <h2>Tracking Helps Clarify the Diagnosis</h2>
+
+      <p>A migraine diary that captures attack timing, symptoms, severity, associated features, and potential triggers builds exactly the kind of pattern data that's most useful for diagnosis and treatment decisions. Environmental triggers like barometric pressure changes — one of the most reliably researched migraine triggers — can be tracked automatically using MigraineCast, which correlates your logged attacks with real weather data to help identify patterns you wouldn't spot on your own.</p>
+
+      <blockquote>
+        <p>Think your headaches might be migraine? Start tracking with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — log attacks in seconds and build the data your doctor needs to give you an accurate picture.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "migraine-with-aura-symptoms",
+    title: "Migraine With Aura: What the Visual and Sensory Symptoms Actually Mean",
+    excerpt:
+      "Zigzag lines, blind spots, tingling on one side of your face — migraine aura can be alarming when you don't know what's causing it. Here's what's happening in the brain and what to watch for.",
+    date: "June 6, 2026",
+    category: "Science",
+    content: `
+      <p>The first time it happens, it's often frightening. You notice a small shimmering spot in your vision that slowly expands into a crescent of jagged, flickering light. Or a section of your visual field simply disappears. Or one hand starts tingling for no apparent reason. If you don't know what's causing it, aura can feel like a medical emergency.</p>
+
+      <p>Understanding what aura actually is — and what it isn't — makes it significantly less alarming and helps you know when something warrants urgent attention versus when you're in the middle of a familiar migraine process.</p>
+
+      <h2>What Is Migraine Aura?</h2>
+
+      <p>Aura refers to a set of fully reversible neurological symptoms that occur in association with migraine. They develop gradually, typically over 5 to 20 minutes, and usually last no more than 60 minutes. After the aura resolves, a migraine headache may follow within 60 minutes — or, in some cases, the aura arrives without any subsequent headache (called a silent migraine or acephalgic migraine).</p>
+
+      <p>Aura occurs in approximately 25 to 30 percent of people who have migraine. If you have migraine with aura, you may not experience aura with every attack — some attacks may include it, others may not.</p>
+
+      <h2>The Cortical Spreading Depression Behind Aura</h2>
+
+      <p>The current best understanding of aura traces it to a phenomenon called cortical spreading depression (CSD): a slow wave of electrical depolarization that spreads across the cortex at a rate of roughly 3 millimeters per minute, followed by a period of reduced neuronal activity. As this wave moves through specific regions of the brain, it temporarily disrupts those areas' functions — producing the visual, sensory, or language symptoms that define aura.</p>
+
+      <p>The gradual development and slow expansion of aura symptoms — that slowly growing arc of shimmering light, or tingling that moves up your arm over several minutes — directly reflects this spreading wave as it moves across the cortex. The aura doesn't "jump" because the wave doesn't jump.</p>
+
+      <h2>Types of Aura Symptoms</h2>
+
+      <h3>Visual Aura</h3>
+
+      <p>Visual aura is the most common type, occurring in the majority of people who experience aura at all. It can involve:</p>
+
+      <ul>
+        <li><strong>Positive symptoms:</strong> Seeing things that aren't there — flickering lights, zigzag or chevron lines (often called a fortification spectrum or scintillating scotoma), shimmering arcs, colored spots or geometric patterns</li>
+        <li><strong>Negative symptoms:</strong> Loss of part of the visual field — a blind spot (scotoma), which may be surrounded by the shimmering arc described above</li>
+        <li><strong>Blurring or distortion:</strong> Objects appearing wavy, warped, or unclear</li>
+      </ul>
+
+      <p>The scintillating scotoma — that expanding crescent of jagged, flickering light with a blind area in the center — is probably the most characteristic and recognizable form of visual aura. It typically appears near the center of vision and expands toward the periphery over 20 to 30 minutes.</p>
+
+      <h3>Sensory Aura</h3>
+
+      <p>Sensory aura is the second most common type. It involves tingling, numbness, or "pins and needles" that typically affect one hand and slowly move up the arm, sometimes extending to the face, lips, or tongue on the same side. Like visual aura, the gradual spread over several minutes is characteristic.</p>
+
+      <h3>Speech and Language Aura</h3>
+
+      <p>Dysphasic aura — difficulty finding words, speaking unclearly, or understanding language — is less common and often more alarming than visual or sensory aura. It's transient and reversible, but it can closely resemble stroke symptoms, which is why knowing your personal pattern is important.</p>
+
+      <h3>Motor Aura</h3>
+
+      <p>Weakness affecting one side of the body can occur in hemiplegic migraine, a rare subtype. This is distinct from typical migraine with aura and requires specific medical attention and management — if you experience limb weakness during a migraine, discuss it with a neurologist.</p>
+
+      <h2>Aura vs. Stroke: When to Seek Emergency Care</h2>
+
+      <p>This is the most practically important question. Migraine aura and TIA (transient ischemic attack, or "mini-stroke") can look similar, and both are worth taking seriously. Key differences:</p>
+
+      <p><strong>Onset:</strong> Migraine aura develops gradually over 5 to 20 minutes. TIA symptoms typically appear suddenly, at full intensity from the start.</p>
+
+      <p><strong>Spread:</strong> Migraine aura typically spreads or "marches" slowly across one side. TIA symptoms usually don't spread in this characteristic way.</p>
+
+      <p><strong>Duration:</strong> Migraine aura resolves within 60 minutes. TIA symptoms usually resolve within minutes to hours, but may last up to 24 hours.</p>
+
+      <p><strong>Pattern recognition:</strong> If you've had aura before and this feels identical to your usual pattern, it's reassuring. If it feels different — stronger, more persistent, accompanied by facial drooping or one-sided weakness you don't normally experience — seek emergency care.</p>
+
+      <p>If in doubt, especially if it's your first time experiencing these symptoms or they persist beyond 60 minutes, seek medical attention. The cost of a false alarm is much lower than the cost of a missed stroke.</p>
+
+      <h2>Tracking Your Aura Pattern</h2>
+
+      <p>Because aura is tied to the broader migraine attack cycle, tracking the full attack — when aura starts, what symptoms appear, how long they last, and what follows — helps you understand your own pattern. Over time, you'll develop confidence in recognizing your aura for what it is. And because weather changes are a common migraine trigger, knowing when a pressure system is incoming (and that your attacks often involve aura) lets you prepare accordingly.</p>
+
+      <blockquote>
+        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast on iOS</a> to track your full attack patterns — including aura — alongside barometric pressure data that helps predict when attacks are more likely.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "silent-migraine-symptoms",
+    title: "Silent Migraine Symptoms: When the Aura Arrives Without the Headache",
+    excerpt:
+      "Zigzag lines in your vision, tingling in your hand, a spreading blind spot — and then nothing. No headache. Silent migraine is real, common in older adults, and frequently mistaken for something more serious.",
+    date: "May 26, 2026",
+    category: "Science",
+    content: `
+      <p>Imagine you're going about your day and a small patch of shimmering light appears in your vision. It slowly expands into an arc of jagged, flickering lines. Part of your visual field disappears. Your hand starts tingling. You're certain something is seriously wrong — possibly a stroke, possibly your eyes.</p>
+
+      <p>Twenty minutes later, everything resolves completely. No headache follows. Nothing.</p>
+
+      <p>What just happened is almost certainly a silent migraine — also called acephalgic migraine, ocular migraine, or migraine equivalent. It's a real and recognized neurological phenomenon, more common than most people realize, and frequently mistaken for something more alarming.</p>
+
+      <h2>What Makes a Migraine "Silent"</h2>
+
+      <p>A silent migraine is a migraine aura that occurs without a subsequent headache phase. In a typical migraine with aura, the aura lasts 20 to 60 minutes and is followed by a headache. In a silent migraine, the aura comes and goes without triggering the head pain — but everything else about the aura is identical to what would precede a headache.</p>
+
+      <p>The underlying neurology is the same: cortical spreading depression (a slow wave of electrical changes across the cortex) produces the visual, sensory, or other neurological symptoms that define aura. For reasons that aren't fully understood, the subsequent cascade that leads to headache pain doesn't always follow.</p>
+
+      <h2>Common Symptoms of Silent Migraine</h2>
+
+      <p>Silent migraine symptoms are the same as aura symptoms in any migraine with aura. The most common:</p>
+
+      <h3>Visual Disturbances</h3>
+
+      <p>Visual symptoms are by far the most frequently reported. They include:</p>
+
+      <ul>
+        <li>A scintillating scotoma — a shimmering, flickering arc of zigzag light that typically starts near the center of vision and slowly expands toward the periphery over 15 to 30 minutes, with a blind spot in its center</li>
+        <li>Flashing or flickering lights in part of the visual field</li>
+        <li>A gray or blank area in vision (scotoma without the flickering edge)</li>
+        <li>Visual distortion — things appearing wavy, stretched, or pixelated</li>
+        <li>Tunnel vision or loss of peripheral vision</li>
+      </ul>
+
+      <p>These symptoms affect the visual field, not just one eye — which means they're related to how the brain processes vision, not to anything wrong with the eye itself.</p>
+
+      <h3>Sensory Symptoms</h3>
+
+      <p>Tingling, numbness, or "pins and needles" that typically start in the hand and slowly move up the arm, sometimes spreading to the face or lips on the same side. The gradual march of these symptoms over several minutes is characteristic.</p>
+
+      <h3>Other Possible Symptoms</h3>
+
+      <p>Confusion, brain fog, difficulty finding words (dysphasia), and nausea can all occur as part of a silent migraine even without headache. Some people experience significant dizziness or balance disturbances (vestibular migraine can overlap with this).</p>
+
+      <h2>Who Gets Silent Migraines?</h2>
+
+      <p>Silent migraine is particularly common in middle age and beyond. People who have had migraine with aura throughout their life often find that as they get older, the headache phase becomes less prominent or disappears entirely — leaving only the aura. This is especially common in women around perimenopause and menopause, when falling estrogen levels can shift migraine patterns significantly.</p>
+
+      <p>Interestingly, some people experience silent migraine having never had any prior history of migraine at all. This can make the first episode particularly alarming.</p>
+
+      <h2>Silent Migraine vs. TIA or Stroke</h2>
+
+      <p>The most important differential is transient ischemic attack (TIA). Both silent migraine and TIA can produce sudden, reversible neurological symptoms that resolve completely — and both can occur without obvious cause in the moment.</p>
+
+      <p>Key distinguishing features of migraine aura that differ from TIA:</p>
+
+      <ul>
+        <li><strong>Gradual onset:</strong> Migraine aura develops slowly over 5 to 20 minutes. TIA typically appears suddenly and at full intensity.</li>
+        <li><strong>Spreading or marching:</strong> Migraine aura spreads slowly (the zigzag arc expanding, tingling moving up the arm). TIA symptoms usually don't spread this way.</li>
+        <li><strong>Positive visual phenomena:</strong> The flickering, shimmering, zigzag elements of visual aura are characteristic of migraine. TIA more commonly causes loss of vision (darkness or blurring) without the shimmering.</li>
+        <li><strong>Duration:</strong> Migraine aura typically resolves within 60 minutes. TIA symptoms can last minutes to hours.</li>
+      </ul>
+
+      <p>If you're experiencing these symptoms for the first time, or if they feel different from your usual pattern, or if they persist beyond 60 minutes, seek medical evaluation. The diagnosis of silent migraine — as opposed to TIA — requires ruling out vascular causes, which your doctor can do with appropriate testing. Once you have a confirmed diagnosis and a known personal pattern, subsequent episodes become much less alarming.</p>
+
+      <h2>Treatment and Management</h2>
+
+      <p>Since there's no headache to treat, the approach to silent migraine focuses on the aura itself and on prevention. Many people find that identifying triggers — stress, sleep disruption, barometric pressure changes, hormonal fluctuations — and managing them reduces episode frequency. For people with very frequent episodes, preventive migraine medications can reduce both aura and headache frequency.</p>
+
+      <p>Keeping a detailed record of when silent migraines occur, alongside environmental factors like weather conditions, helps identify patterns. If pressure drops are a trigger for you, having advance warning of frontal systems moving through gives you the same preparation window as for headache-type attacks.</p>
+
+      <blockquote>
+        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Track your silent migraine episodes with MigraineCast</a> — log the aura alongside weather data to see whether pressure changes are part of your pattern, even without the headache.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "ocular-migraine-causes",
+    title: "Ocular Migraine Causes: Why Your Vision Temporarily Goes Strange",
+    excerpt:
+      "Ocular migraine is one of the most searched-for and most misunderstood migraine terms. Here's what it actually describes, what causes those sudden visual disturbances, and how to tell if what you're seeing is migraine-related.",
+    date: "May 19, 2026",
+    category: "Science",
+    content: `
+      <p>"Ocular migraine" is one of the most widely used lay terms for a specific kind of visual disturbance — and also one of the most variable, because different people, and sometimes different doctors, mean different things by it. Getting clear on what's actually happening in the eye and brain makes the experience less alarming and helps you communicate more precisely with your neurologist or ophthalmologist.</p>
+
+      <h2>What "Ocular Migraine" Usually Refers To</h2>
+
+      <p>In popular use, "ocular migraine" almost always refers to visual aura — the shimmering, flickering visual disturbances that can occur in association with migraine. The most characteristic form is the scintillating scotoma: a small area of visual disturbance, often near the center of vision, that slowly expands into a crescent or arc of jagged, flickering light (sometimes described as looking like broken glass or a zigzag pattern), with a blind spot at its center. This typically takes 20 to 30 minutes to develop fully, then resolves.</p>
+
+      <p>These symptoms are generated entirely in the brain — specifically in the visual cortex at the back of the head — not in the eye itself. The cause is cortical spreading depression: a slow wave of electrical changes sweeping across the visual cortex that temporarily disrupts how it processes visual information. As the wave moves, the visual disturbance "moves" correspondingly.</p>
+
+      <p>Because this happens in the visual cortex (which processes input from both eyes), the disturbance affects the same area of vision in both eyes — not just one. If you close one eye at a time during the episode, you'll typically see the disturbance in the same location in the visual field regardless of which eye you use. This distinguishes visual aura from something actually happening in one specific eye.</p>
+
+      <h2>Retinal Migraine: A Different (and Rarer) Condition</h2>
+
+      <p>There's a separate condition called retinal migraine, which does involve the eye rather than the brain. Retinal migraine causes repeated episodes of fully reversible visual loss or disturbance in just one eye (not one side of the visual field — one eye), accompanied by or followed by a headache. It's thought to involve temporary changes in blood flow in the retinal artery.</p>
+
+      <p>Retinal migraine is uncommon, and episodes of true monocular visual loss (covering one eye and the disturbance disappears; covering the other and it's still there) should be evaluated promptly, as the differential diagnosis includes retinal artery spasm or other vascular causes that warrant specific assessment.</p>
+
+      <p>Most people who self-describe "ocular migraine" are experiencing visual aura (cortical), not retinal migraine. But if you're unsure which you're having, it's worth discussing with a doctor.</p>
+
+      <h2>What Causes Ocular Migraine?</h2>
+
+      <p>Visual aura is caused by the same underlying processes that drive migraine more broadly. The precipitating event — cortical spreading depression — appears to be triggered by the same range of factors that trigger any migraine attack. The most researched and reliably documented causes and triggers include:</p>
+
+      <h3>Barometric Pressure Changes</h3>
+
+      <p>Drops in atmospheric pressure — typically associated with incoming storm fronts — are among the most consistently documented migraine triggers. The rapid pressure change affects the trigeminal vascular system and appears to lower the threshold for the chain of events that leads to aura and headache. Many people find that their visual disturbances are more likely during or before significant weather shifts.</p>
+
+      <h3>Sleep Disruption</h3>
+
+      <p>Irregular or insufficient sleep is one of the most potent migraine triggers, and this extends to visual aura. The migraine brain is unusually sensitive to changes in homeostasis, and disrupted sleep is a reliable way to lower the threshold across the board.</p>
+
+      <h3>Stress and Let-Down</h3>
+
+      <p>Acute emotional stress, and also the let-down after a period of sustained stress (the classic "weekend migraine"), can trigger attacks including visual aura. The cortisol fluctuations and nervous system changes associated with stress are thought to interact with the mechanisms that trigger cortical spreading depression.</p>
+
+      <h3>Hormonal Fluctuations</h3>
+
+      <p>Estrogen changes — particularly the pre-menstrual drop in estrogen — are a well-established migraine trigger. Some women find that aura episodes increase in frequency around menstruation, perimenopause, or with hormonal contraceptives.</p>
+
+      <h3>Dehydration and Skipped Meals</h3>
+
+      <p>Blood sugar instability and dehydration are among the most controllable triggers. Keeping consistent meal timing and fluid intake reduces episode frequency for many people.</p>
+
+      <h3>Sensory Stimuli</h3>
+
+      <p>Bright or flickering lights, strong smells, and loud environments can trigger attacks in susceptible individuals.</p>
+
+      <h2>When to See a Doctor About Visual Disturbances</h2>
+
+      <p>If you're experiencing recurring episodes of the shimmering, expanding arc of visual disturbance that resolves in under an hour — especially if it matches the classic scintillating scotoma pattern — the most likely explanation is visual aura. But first-time episodes of sudden visual disturbance should be evaluated by a doctor to rule out more serious causes, particularly if the episode involved vision loss in one eye only, lasted more than an hour, or was accompanied by other neurological symptoms like weakness or speech difficulty.</p>
+
+      <p>Once you have an established pattern and a confirmed diagnosis, subsequent episodes are far easier to contextualize. Knowing what's coming — including the environmental conditions most likely to trigger it — lets you prepare rather than panic.</p>
+
+      <blockquote>
+        <p>Use our free <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> to see whether pressure changes have preceded your visual episodes. Enter your dates and location — we'll pull the actual barometric data so you can check for yourself.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "hormonal-migraine-relief",
+    title: "Hormonal Migraine Relief: Why Your Cycle Triggers Attacks and What Actually Helps",
+    excerpt:
+      "Migraines that strike predictably in the days before or during your period aren't coincidence — they're driven by estrogen. Understanding the mechanism makes the prevention strategies make a lot more sense.",
+    date: "May 12, 2026",
+    category: "Tips",
+    content: `
+      <p>If your migraines have a pattern — arriving reliably in the two or three days before your period starts, sometimes persisting into the first day or two — you're not imagining it. Menstrually-related migraine is a recognized clinical phenomenon driven by a specific hormonal mechanism, and it affects a substantial proportion of women who have migraine at all.</p>
+
+      <p>Understanding what's actually happening makes the management approaches feel much less arbitrary, and gives you a clearer picture of which strategies are evidence-based versus which are just general migraine advice.</p>
+
+      <h2>Why Estrogen Triggers Migraine</h2>
+
+      <p>The menstrual cycle involves a sustained rise in estrogen during the follicular phase, followed by a peak around ovulation, and then a significant drop in the days before menstruation begins. This pre-menstrual decline in estrogen — sometimes called estrogen withdrawal — is what's primarily responsible for menstrually-related migraine.</p>
+
+      <p>Estrogen affects the trigeminal system and the broader migraine threshold in several ways. Higher estrogen levels appear to raise the threshold for migraine — some women actually feel better mid-cycle. The rapid drop of estrogen before menstruation lowers that threshold, increasing sensitivity in the trigeminal vascular system and promoting the inflammatory neuropeptide changes (particularly CGRP release) that drive migraine pain.</p>
+
+      <p>Menstrually-related migraines are also notoriously difficult to treat compared to attacks at other times of the month. They tend to be longer, more severe, and less responsive to triptans — possibly because the sustained hormonal environment makes the underlying migraine process more persistent.</p>
+
+      <h2>Identifying Whether Your Migraines Are Hormonal</h2>
+
+      <p>The clearest indicator is timing. Track your migraine dates alongside your cycle for two to three months. Menstrually-related migraine is typically defined as attacks occurring between two days before and three days after the first day of menstruation — and this pattern appears in at least two of three consecutive cycles.</p>
+
+      <p>If your attacks also cluster around ovulation (mid-cycle), this may reflect a different hormonal sensitivity — some women are also triggered by the estrogen peak, not just the withdrawal. Some women find attacks more frequent during perimenopause, when estrogen fluctuates more erratically.</p>
+
+      <h2>Approaches That Are Actually Supported by Evidence</h2>
+
+      <h3>Mini-Prophylaxis: Timed Preventive Treatment</h3>
+
+      <p>For women whose attacks are reliably timed around menstruation, one of the most effective approaches is mini-prophylaxis: taking a preventive dose of medication in the days just before and during the vulnerable window. This is different from taking acute medication when a headache starts — it's about suppressing the process before it starts.</p>
+
+      <p>NSAIDs (like naproxen sodium, typically 550mg twice daily) taken for five to seven days starting two to three days before the expected attack can significantly reduce frequency and severity. Triptans used as short-term prophylaxis — frovatriptan, naratriptan, and zolmitriptan have the strongest evidence for this use — taken twice daily in the perimenstrual period are another evidence-based option. Discuss mini-prophylaxis with your neurologist or gynecologist to determine the right approach for your pattern.</p>
+
+      <h3>Estrogen Add-Back</h3>
+
+      <p>For women not on hormonal contraception, using a transdermal estrogen supplement (patch or gel) in the days before menstruation can blunt the estrogen withdrawal drop that triggers attacks. This requires careful dosing to avoid triggering attacks when the supplement is stopped, and is done under medical guidance. It can be particularly effective for women with pure menstrual migraine (attacks only around menstruation).</p>
+
+      <h3>Continuous Hormonal Contraception</h3>
+
+      <p>For women already using hormonal contraception, switching to a continuous regimen (no placebo week, and therefore no monthly hormone drop) can reduce or eliminate menstrually-related migraine. This is worth discussing with a gynecologist. Note that combined oral contraceptives (containing both estrogen and progestin) are generally avoided in women with migraine with aura due to a small but real increased risk of ischemic stroke — progestin-only options or non-hormonal approaches are preferred in that group.</p>
+
+      <h3>Magnesium</h3>
+
+      <p>Magnesium has reasonable evidence for migraine prevention generally, and some evidence specifically for menstrually-related migraine. Studies have used doses of 360 to 600mg of elemental magnesium daily, often specifically in the luteal phase (after ovulation). Magnesium glycinate or magnesium citrate are typically better tolerated than magnesium oxide. It's one of the more accessible supplements to try, with a good safety profile.</p>
+
+      <h3>Lifestyle Factors Around Your Vulnerable Window</h3>
+
+      <p>The perimenstrual period is when trigger stacking is most dangerous — your threshold is already lower due to estrogen withdrawal, so any additional triggers push you over the edge more easily than they would at other times of the month. Prioritizing sleep, aggressive hydration, and avoiding dietary triggers specifically around your expected attack window is worth more than at other times.</p>
+
+      <h2>How Weather Interacts With Hormonal Migraine</h2>
+
+      <p>Weather triggers don't operate independently of hormonal status. The combination of an estrogen-withdrawal window and a significant barometric pressure drop is particularly likely to produce an attack. Understanding when your hormonal vulnerability peaks — and cross-referencing that with incoming weather — lets you anticipate the highest-risk periods.</p>
+
+      <p>MigraineCast tracks barometric pressure trends at your location and lets you log your attack dates. Over time, patterns emerge that can help you see whether hormonal timing and weather events are converging around your worst attacks.</p>
+
+      <h2>Work With a Specialist</h2>
+
+      <p>Menstrually-related migraine is a clinical subspecialty that intersects neurology and gynecology. If your attacks are significantly affecting quality of life and over-the-counter approaches aren't helping, a headache specialist or gynecologist with experience in hormonal headache management can offer targeted treatment options that go well beyond general migraine advice.</p>
+
+      <blockquote>
+        <p>Track your attack dates alongside your cycle with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — log in seconds, and see your pattern emerge over weeks of data.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "migraine-diary-app",
+    title: "What to Look For in a Migraine Diary App (And Why Most Fall Short)",
+    excerpt:
+      "A migraine diary app is only as useful as the data it captures automatically. Here's what separates apps that help you understand your pattern from ones that just add another logging task to your list.",
+    date: "May 5, 2026",
+    category: "Tips",
+    content: `
+      <p>Your neurologist told you to keep a migraine diary. You downloaded an app, logged diligently for three weeks, and then quietly stopped. Maybe it felt like too much work when you were already feeling awful. Maybe you weren't sure what to do with the data. Maybe the app just wasn't useful enough to bother with.</p>
+
+      <p>This is the standard migraine diary experience for most people, and it's not a personal failing — it's a product design problem. Here's what a genuinely useful migraine diary app needs to do, and where most of them fall short.</p>
+
+      <h2>The Core Problem With Most Migraine Diary Apps</h2>
+
+      <p>Most migraine diary apps are glorified logging forms. They ask you to fill in fields about your pain level, symptoms, potential triggers, medications taken — all of which you have to enter manually, usually when you're already in pain and would rather be lying in a dark room. The more fields they ask for, the more quickly users abandon them.</p>
+
+      <p>But even the apps that manage to make logging simple fail on the more fundamental problem: they only capture what you manually enter, which means they miss the single most valuable category of migraine data — what was happening in your environment that you couldn't directly observe.</p>
+
+      <p>You can't manually log the barometric pressure drop that started 18 hours before your headache. You didn't notice the 8-millibar pressure change overnight. But a well-built migraine app could capture that automatically, and correlate it with your attack history without you doing anything extra.</p>
+
+      <h2>What a Good Migraine App Actually Captures</h2>
+
+      <h3>Automatic Environmental Data</h3>
+
+      <p>The most significant upgrade a migraine app can offer over a paper diary is automatic capture of environmental factors. Barometric pressure is the most important of these — it's both one of the most researched migraine triggers and one that's impossible to track manually with any useful granularity. A good migraine app should log pressure readings at your location continuously, not just when you open the app.</p>
+
+      <p>Temperature, humidity, and weather event data add further context. These variables don't need to be entered by you — they should be pulled from weather APIs and matched to your attack timestamps automatically.</p>
+
+      <h3>Minimal Friction Logging</h3>
+
+      <p>When a migraine is building or in full swing, you should be able to log it in under 10 seconds. The minimum useful data point is a timestamp and a severity rating. Everything else — aura, symptoms, location, medication — is valuable to add when you're able to, but shouldn't be required to complete the log. Apps that present you with a form of 15 fields when you have a pounding headache will get abandoned.</p>
+
+      <h3>Pattern Analysis Over Time</h3>
+
+      <p>Individual attacks are data points. What you actually need is the pattern across dozens of them. A useful app should surface: which environmental conditions consistently precede your attacks, how many attacks per month you've had over the last three months, whether frequency is trending up or down, and what your personal pressure threshold looks like based on your history.</p>
+
+      <p>This analysis is what turns a log into an insight. If you can see that 80% of your attacks in the last quarter occurred within 48 hours of a barometric pressure drop above a certain rate — that's actionable information. A log of dates and severity ratings without analysis is much less useful.</p>
+
+      <h3>Forward-Looking Forecasting</h3>
+
+      <p>A migraine diary documents the past. A better tool uses your past data to inform the future. If you know your personal trigger thresholds, and you can see the barometric pressure forecast for the next 48 hours, you can anticipate a higher-risk window and act on it — rather than just discovering the correlation after the fact.</p>
+
+      <p>This is the difference between a diary and a decision-support tool. Both have value, but one is fundamentally more useful for prevention.</p>
+
+      <h3>Shareable Reports for Your Doctor</h3>
+
+      <p>One of the most consistently underused features in migraine apps is the ability to generate a report for a medical appointment. Your neurologist can work with three months of structured data that shows attack frequency, severity, and environmental context far more effectively than they can work with "I've been getting a lot of migraines lately." Good apps should make this export easy, in a format that's actually readable in a clinical context.</p>
+
+      <h2>What MigraineCast Is Built For</h2>
+
+      <p>MigraineCast is built specifically around the insight that the most valuable migraine data is the environmental data you can't collect yourself. Barometric pressure is tracked continuously at your location without any action on your part. When you log a migraine — which takes a few taps — the pressure history around that attack is already captured.</p>
+
+      <p>Over time, the app identifies your personal patterns: your pressure threshold, the typical lag time between a pressure change and when your attacks tend to start, which types of weather events are most reliably associated with your attacks. From there, it gives you a forward-looking risk forecast based on your specific history, not generic population averages.</p>
+
+      <p>The Insights tab gives you a visual view of your attack history overlaid with pressure data. The Download Report function generates a structured summary you can bring to your next appointment without having to reconstruct anything from memory.</p>
+
+      <h2>What to Actually Look For When Choosing an App</h2>
+
+      <p>If you're evaluating migraine diary apps, prioritize these features over aesthetics:</p>
+
+      <ul>
+        <li><strong>Automatic weather/pressure tracking:</strong> If the app doesn't pull environmental data automatically, you're missing the most valuable correlation</li>
+        <li><strong>Quick logging:</strong> One tap to start a log, optional fields to add detail — not a mandatory 10-field form</li>
+        <li><strong>Pattern analysis:</strong> Visualizations or summaries that show you what conditions precede your attacks</li>
+        <li><strong>Forecasting:</strong> Forward-looking risk based on upcoming weather conditions and your history</li>
+        <li><strong>Export or report generation:</strong> Something useful to show your doctor</li>
+        <li><strong>Longevity of data:</strong> Three months of data is where patterns become meaningful — the app needs to store and present historical data clearly</li>
+      </ul>
+
+      <blockquote>
+        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast is free on iOS</a> — start logging and let the app build your environmental picture automatically while you focus on managing your attacks.</p>
+      </blockquote>
+    `,
+  },
+  {
+    slug: "how-to-track-migraine-triggers",
+    title: "How to Track Migraine Triggers: A Practical System That Actually Works",
+    excerpt:
+      "Most trigger-tracking systems fail because they try to capture everything at once. Here's a method built around what actually helps — minimal daily effort, automatic environmental data, and pattern analysis that reveals what manual logs never could.",
+    date: "April 28, 2026",
+    category: "Tips",
+    content: `
+      <p>Tracking migraine triggers sounds straightforward until you try it. You start with good intentions, a notebook or a new app, and a plan to log every potential trigger after every attack. Then you have a bad attack and logging is the last thing on your mind. Or you log consistently for three weeks and can't see any pattern in the data. Or you build up months of notes and still don't know what to do with them.</p>
+
+      <p>Here's a system that works — built around minimizing what you have to do manually, capturing the data that most people miss, and surfacing patterns that are actually actionable.</p>
+
+      <h2>Why Most Trigger Tracking Systems Fail</h2>
+
+      <p>The standard approach is to write down everything you ate, drank, how well you slept, your stress level, and any other potential trigger after each attack. The theory is that if you review enough of these, patterns will emerge.</p>
+
+      <p>The problems: you're usually in pain when you're logging, which makes it unreliable and unpleasant. The sheer volume of potential trigger fields means most people either log too little (just "wine? bad sleep?") or burn out on detail. And the biggest problem: manual logging can't capture what you can't directly observe — specifically, the environmental factors that are happening in the background regardless of what you do or eat.</p>
+
+      <p>Barometric pressure is the most important example. Research consistently identifies pressure drops as one of the most significant weather-related migraine triggers. But there's no way to meaningfully track it manually. You'd need to record the barometric pressure reading at multiple points each day, then calculate the rate of change, then compare it to your attack timestamps with appropriate lag time — for months. Nobody does this. And yet it's one of the most useful correlations available.</p>
+
+      <h2>The System: Minimum Daily Effort, Maximum Useful Data</h2>
+
+      <h3>Layer 1: Automatic Environmental Tracking</h3>
+
+      <p>The first and most important thing to get in place is automatic capture of environmental data. Use a migraine app that continuously logs barometric pressure at your location without requiring any action from you. MigraineCast does this — it tracks pressure trends throughout the day, calculates rate of change, and matches this data to your attack history when you log.</p>
+
+      <p>This single layer does more work than months of manual food logging for most people, because environmental triggers are hidden and consistent where dietary triggers are often variable and hard to identify without controlled elimination.</p>
+
+      <h3>Layer 2: Minimal Attack Logging</h3>
+
+      <p>When an attack occurs, log it immediately with just two fields: start time and severity (1 to 10). That's the minimum viable log. Do this even in the middle of a bad attack — it takes about 10 seconds. Everything else is optional and can be added when you feel better.</p>
+
+      <p>The timestamp is what gets correlated with the environmental data. A severity rating lets you distinguish your worst attacks from milder ones, which often matters for pattern analysis. If you only ever log these two things, you'll still build useful data.</p>
+
+      <h3>Layer 3: Optional Detail When You're Able</h3>
+
+      <p>When you feel up to it — often during the postdrome or the next day — add a few optional details to the log:</p>
+
+      <ul>
+        <li><strong>Aura:</strong> Did it occur? What type?</li>
+        <li><strong>Medication:</strong> What did you take and when? Did it work?</li>
+        <li><strong>Any obvious suspect triggers:</strong> Only flag things you're fairly confident about — a night of 4 hours sleep, a flight, three glasses of wine. Don't list every possible trigger "just in case."</li>
+      </ul>
+
+      <p>Keep this brief. Logging everything under the sun creates noise rather than signal.</p>
+
+      <h3>Layer 4: Regular Pattern Review</h3>
+
+      <p>Once a month, spend 10 minutes reviewing your data. Look for:</p>
+
+      <ul>
+        <li><strong>Environmental correlations:</strong> Did your attacks cluster around pressure drop events? Your migraine app should surface this automatically.</li>
+        <li><strong>Frequency trends:</strong> More or fewer attacks than last month? Is this meaningful or just noise?</li>
+        <li><strong>Suspected triggers:</strong> Any recurrences across multiple attacks? A factor that showed up once may be coincidence. One that shows up across 5 of your last 8 attacks is worth paying attention to.</li>
+        <li><strong>Medication response:</strong> Are you treating early enough? Are certain medications working better than others?</li>
+      </ul>
+
+      <h2>The Trigger Stacking Concept</h2>
+
+      <p>One of the most useful frameworks for thinking about triggers is the threshold model. Imagine your migraine threshold as a line. Each trigger raises your internal state toward that line. Cross it, and an attack fires.</p>
+
+      <p>This explains why tracking individual triggers is sometimes frustrating — you had coffee last Tuesday and no migraine, then had coffee on Thursday and got a migraine. If you conclude "coffee isn't a trigger," you may be right. But if Thursday also involved a barometric pressure drop, four hours less sleep, and a stressful afternoon, the coffee didn't cause the migraine — the combination of stacked triggers did.</p>
+
+      <p>This is why environmental tracking matters so much: it captures the background factor that's often tipping the scale when multiple things combine. A pressure drop by itself may not cross your threshold. A pressure drop plus poor sleep plus skipped lunch might. Seeing the environmental data alongside your attack pattern makes these combinations visible.</p>
+
+      <h2>What Three Months of Data Gives You</h2>
+
+      <p>Three months is about the minimum for meaningful pattern detection. By that point, you'll typically have enough attacks to see:</p>
+
+      <ul>
+        <li>Whether environmental factors (pressure, weather fronts) are consistently preceding your attacks or rarely are</li>
+        <li>Whether there are timing patterns — day of week, time of month, time of day</li>
+        <li>What your baseline frequency is — useful for discussing whether preventive treatment makes sense</li>
+        <li>How your attacks respond to current acute medication — useful for discussing whether your treatment protocol needs adjusting</li>
+      </ul>
+
+      <p>Bring this to your next neurology appointment. The combination of frequency data, severity, environmental correlations, and medication response is exactly what a headache specialist needs to make better treatment decisions.</p>
+
+      <h2>The Forward-Looking Piece</h2>
+
+      <p>The ultimate payoff of good tracking isn't just understanding the past — it's improving your anticipation of the future. Once you know that barometric pressure drops above a certain rate tend to precede your attacks by 24 to 36 hours, you can check the pressure forecast, see a significant drop incoming, and use that window to prepare. Stay extra hydrated. Protect sleep. Keep medication accessible. Reduce other stacked triggers.</p>
+
+      <p>MigraineCast's weather-based risk forecasting is built specifically around this: it uses your personal attack history and the upcoming pressure forecast to flag elevated-risk windows in advance — not based on generic population data, but on your specific pattern.</p>
+
+      <blockquote>
+        <p>Start your tracking system today with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — automatic pressure tracking from day one, minimal manual effort, and pattern analysis that builds as your data grows.</p>
       </blockquote>
     `,
   },
