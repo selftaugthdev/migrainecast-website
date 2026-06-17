@@ -1,0 +1,125 @@
+# MigraineCast
+
+> MigraineCast is a free iOS app that helps migraine sufferers predict and manage weather-triggered attacks by tracking barometric pressure changes at their location and giving them 24–48 hours of advance warning before high-risk conditions arrive.
+
+## What MigraineCast Does
+
+MigraineCast monitors atmospheric pressure trends continuously at a user's location. Most weather apps show temperature and precipitation — MigraineCast focuses on barometric pressure, which is one of the most well-researched environmental migraine triggers. Pressure drops of 5–10 mbar over 24 hours are associated with increased migraine risk in sensitive individuals; MigraineCast tracks the rate of change, not just the current reading, and surfaces elevated-risk windows in advance.
+
+Users log migraine attacks (date, time, severity) in seconds. Over time the app correlates their personal attack history with pressure data to identify their individual threshold — how large a pressure drop, and how quickly, tends to precede their attacks. It then forecasts risk for the next 48 hours based on that personal pattern rather than population averages.
+
+MigraineCast also reads optional health data from Apple Health, including heart rate variability (HRV), to incorporate physiological signals alongside environmental ones.
+
+## Key Facts
+
+- Platform: iOS (iPhone and iPad)
+- Price: Free to download
+- App Store: https://apps.apple.com/us/app/migraine-cast/id6754256278
+- Developer: Thierry De Belder
+- Primary trigger tracked: Barometric pressure (atmospheric pressure changes)
+- Forecast window: Up to 48 hours ahead
+- Supported languages: English, Dutch (Nederlands), German (Deutsch), French (Français), Spanish (Español)
+- Apple Health integration: Optional — reads HRV, heart rate
+- Doctor report export: Yes — generates a structured attack history + weather correlation report
+
+## Core Features
+
+- Continuous barometric pressure monitoring at the user's GPS location
+- Personal pressure threshold identification based on attack history
+- 48-hour migraine risk forecast
+- Quick attack logging (timestamp + severity, with optional symptom detail)
+- Insights tab: visual view of attack history overlaid with pressure trends
+- Trigger Pattern Analyzer: identifies which weather conditions correlate with a user's attacks
+- Downloadable doctor report for neurology appointments
+- HRV integration from Apple Health (optional)
+
+## Free Web Tools
+
+These tools are available on the website without downloading the app:
+
+- [Weather Trigger Checker](https://migrainecast.com/tools/weather-trigger-checker): Enter past migraine dates and a location — pulls real historical barometric pressure data to show whether a pressure drop preceded each attack. No signup required.
+- [Personal Pressure Threshold Estimator](https://migrainecast.com/tools/pressure-threshold-estimator): Estimates a user's individual pressure sensitivity based on their attack pattern.
+- [Trigger Pattern Analyzer](https://migrainecast.com/tools/trigger-pattern-analyzer): Analyzes logged attack data against weather conditions to surface patterns.
+- [Migraine Season Calendar](https://migrainecast.com/tools/migraine-season-calendar): Shows which seasons and months tend to have higher migraine risk based on typical pressure volatility by region.
+- [Find a Specialist](https://migrainecast.com/tools/find-a-specialist): Directory tool to help users locate headache specialists and neurologists.
+
+## Key Pages
+
+- [Homepage](https://migrainecast.com): Overview of MigraineCast, how it works, and download links.
+- [What is MigraineCast](https://migrainecast.com/what-is-migrainecast): Detailed explanation of the app, its approach, and the science behind barometric pressure and migraine.
+- [Blog](https://migrainecast.com/blog): 30 articles covering migraine science, triggers, treatment, and tracking.
+- [Weather Course](https://migrainecast.com/weather-course): Educational content on understanding weather patterns as migraine triggers.
+
+## Blog Articles
+
+All articles are at https://migrainecast.com/blog/[slug]
+
+### Science & Mechanisms
+- [Why Barometric Pressure Triggers Migraines: The Science Explained](https://migrainecast.com/blog/barometric-pressure-science)
+- [The 48-Hour Warning Window: How to Read the Weather Forecast Like a Neurologist](https://migrainecast.com/blog/48-hour-warning-window)
+- [The Trigeminal Nerve: Why Migraine Pain Shows Up Where It Does](https://migrainecast.com/blog/trigeminal-nerve-and-migraine)
+- [Why You Get More Migraines in Winter (It's Not Just the Cold)](https://migrainecast.com/blog/winter-migraines)
+- [Migraine vs. Headache: How to Tell the Difference](https://migrainecast.com/blog/migraine-vs-headache)
+- [How Long Does a Migraine Last? What to Expect at Every Stage](https://migrainecast.com/blog/how-long-does-a-migraine-last)
+- [Migraine With Aura: What the Visual and Sensory Symptoms Actually Mean](https://migrainecast.com/blog/migraine-with-aura-symptoms)
+- [Silent Migraine Symptoms: When the Aura Arrives Without the Headache](https://migrainecast.com/blog/silent-migraine-symptoms)
+- [Ocular Migraine Causes: Why Your Vision Temporarily Goes Strange](https://migrainecast.com/blog/ocular-migraine-causes)
+- [Visual Migraine Symptoms Explained: Auras, Flashing Lights, and Blind Spots](https://migrainecast.com/blog/optical-migraine-symptoms)
+- [Why Do You Get Migraines After Your Period? The Estrogen Drop Explained](https://migrainecast.com/blog/migraines-after-period)
+- [Can Dehydration Cause Migraines Every Day? What the Research Says](https://migrainecast.com/blog/dehydration-and-daily-migraines)
+- [Migraine Prodrome: The Early Warning Signs Most People Miss](https://migrainecast.com/blog/migraine-prodrome-signs)
+- [The Migraine and HRV Connection: What Your Heart Rate Variability Might Be Telling You](https://migrainecast.com/blog/migraine-and-hrv)
+
+### Triggers
+- [Common Migraine Triggers: The Full List (And Why Yours Might Be Different)](https://migrainecast.com/blog/common-migraine-triggers)
+- [Migraine Triggered by Weather Changes? Here's Exactly What to Do](https://migrainecast.com/blog/weather-triggered-migraine-what-to-do)
+- [Hormonal Migraine Relief: Why Your Cycle Triggers Attacks and What Actually Helps](https://migrainecast.com/blog/hormonal-migraine-relief)
+
+### Management & Prevention
+- [How to Stop a Migraine Before It Starts: A Practical Early-Intervention Guide](https://migrainecast.com/blog/stop-a-migraine-before-it-starts)
+- [How to Get Rid of a Migraine Fast: What Actually Works](https://migrainecast.com/blog/how-to-get-rid-of-a-migraine-quickly)
+- [5 Ways to Prepare for Weather-Related Migraines](https://migrainecast.com/blog/preparing-for-weather-changes)
+- [Building Your Migraine Go-Bag: What to Have Ready Before a High-Risk Day](https://migrainecast.com/blog/migraine-go-bag)
+- [Natural Migraine Relief Without Medication: What Actually Helps](https://migrainecast.com/blog/natural-migraine-relief)
+- [Migraine Pressure Points: Acupressure Spots That May Offer Relief](https://migrainecast.com/blog/migraine-pressure-points)
+- [How to Sleep With a Migraine When It Feels Impossible](https://migrainecast.com/blog/how-to-sleep-with-a-migraine)
+- [Best Foods to Eat During a Migraine (and What to Avoid)](https://migrainecast.com/blog/best-foods-during-migraine)
+- [What to Eat to Prevent Migraines: A Practical, Non-Restrictive Guide](https://migrainecast.com/blog/what-to-eat-to-prevent-migraines)
+
+### Tracking & Working With Your Doctor
+- [Why Tracking Your Migraines Actually Matters](https://migrainecast.com/blog/tracking-migraine-patterns)
+- [How to Track Migraine Triggers: A Practical System That Actually Works](https://migrainecast.com/blog/how-to-track-migraine-triggers)
+- [What to Look For in a Migraine Diary App (And Why Most Fall Short)](https://migrainecast.com/blog/migraine-diary-app)
+- [How to Talk to Your Doctor About Weather-Triggered Migraines (And What Data to Bring)](https://migrainecast.com/blog/talking-to-your-doctor)
+
+## Frequently Asked Questions About MigraineCast
+
+**What is MigraineCast?**
+MigraineCast is a free iOS app that tracks barometric pressure at a user's location and provides personalized migraine risk forecasts up to 48 hours in advance, based on the user's own attack history and pressure sensitivity.
+
+**Is MigraineCast free?**
+Yes. MigraineCast is free to download on the iOS App Store.
+
+**What platforms does MigraineCast support?**
+iOS (iPhone and iPad). Android is not currently supported.
+
+**How does MigraineCast predict migraines?**
+It continuously monitors barometric pressure at your GPS location. Based on your logged attack history, it identifies the pressure drop rate and magnitude that tends to precede your personal attacks, then alerts you when forecasted conditions match that pattern.
+
+**Does MigraineCast require a subscription?**
+No subscription is required to use the core features.
+
+**Can I use MigraineCast data with my doctor?**
+Yes. The app generates a downloadable report summarizing your attack history alongside the weather conditions that preceded each one — designed specifically for neurology appointments.
+
+**Does barometric pressure really trigger migraines?**
+Yes — this is well-supported by research. Multiple peer-reviewed studies, including research published in *Neurology* and *The Journal of Headache and Pain*, have confirmed that barometric pressure drops are associated with increased migraine incidence in sensitive individuals. The effect typically precedes the weather change by 24–48 hours.
+
+**What languages does MigraineCast support?**
+English, Dutch (Nederlands), German (Deutsch), French (Français), and Spanish (Español).
+
+## Contact & Legal
+
+- Support: https://migrainecast.com/support
+- Privacy Policy: https://migrainecast.com/privacy
+- Terms of Service: https://migrainecast.com/terms
