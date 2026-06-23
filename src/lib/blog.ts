@@ -2700,6 +2700,504 @@ const posts: BlogPost[] = [
       <p>Most people can see meaningful patterns after 3 months of consistent data — enough attacks to show what's repeating, and enough normal days to contrast them against. The first month gives you a frequency baseline. Month two lets you start seeing clusters. Month three typically reveals correlations you couldn't see from memory or short-term observation alone. Environmental factors like pressure changes often emerge earlier than dietary or behavioral triggers because they're captured automatically rather than recalled.</p>
     `,
   },
+  {
+    slug: "hidden-migraine-triggers",
+    title: "Hidden Migraine Triggers Nobody Talks About",
+    excerpt:
+      "Past the usual list of food, weather, and stress, there's a second tier of migraine triggers that rarely make it into the standard advice — and they're often hiding in plain sight.",
+    date: "June 22, 2026",
+    category: "Tips",
+    content: `
+      <p>Ask most people to name a migraine trigger and you'll hear the same handful of words: chocolate, wine, stress, weather. Those are real, but they're also the triggers that get all the attention precisely because they're easy to talk about. There's a second tier of triggers that almost never makes it into the standard advice — not because they're rare, but because they're easy to overlook entirely.</p>
+
+      <p>If you've already ruled out the obvious suspects and your migraines still feel unexplained, one of these might be the missing piece.</p>
+
+      <h2>Tight Ponytails, Hats, and Headbands</h2>
+
+      <p>"Ponytail headache" is a real, recognized phenomenon. Sustained tension on the scalp from a tight hairstyle, a snug hat, swim goggles, or even a headband worn for hours can trigger head pain on its own, and in people prone to migraine, it can tip a borderline day into a full attack. The mechanism is mechanical: scalp tension activates the same sensory nerves involved in migraine pain. Loosening the hairstyle or removing the headwear sometimes brings noticeable relief within minutes — a good clue that this is what's going on.</p>
+
+      <h2>Jaw Clenching and TMJ</h2>
+
+      <p>Daytime jaw clenching and nighttime teeth grinding (bruxism) put the temporomandibular joint and surrounding muscles under chronic strain. Because the trigeminal nerve serves both the jaw and a large portion of the migraine pain pathway, TMJ tension and migraine frequently travel together. People often notice jaw soreness or a clicking jaw only after a dentist points it out, having never connected it to their headaches. If your migraines tend to start as a dull ache near the temple or jawline, this is worth ruling out.</p>
+
+      <h2>Medication-Overuse ("Rebound") Headaches</h2>
+
+      <p>This one is counterintuitive: taking acute migraine medication too frequently can itself become a trigger. Using triptans, combination painkillers, or even over-the-counter pain relievers more than 10–15 days a month can lead to medication-overuse headache, where the brain becomes dependent on a constant low level of the drug and reacts with rebound pain as it wears off. It creates a frustrating cycle where the treatment is quietly feeding the problem. If you're treating headaches more days than not, that frequency itself is worth flagging to a doctor.</p>
+
+      <h2>Hidden Caffeine and MSG in Unexpected Places</h2>
+
+      <p>Caffeine shows up in chocolate, some pain relievers, and certain "energy" labeled snacks and waters — often in amounts large enough to cause withdrawal symptoms if your intake swings unpredictably from day to day. MSG has a similar stealth problem: it's frequently listed as "natural flavoring," "hydrolyzed protein," or "yeast extract" rather than by name, which makes it nearly invisible on a casual ingredient scan even for people who already know to avoid it.</p>
+
+      <h2>Indoor Air Quality: Mold, VOCs, and "New" Smells</h2>
+
+      <p>Volatile organic compounds (VOCs) off-gassing from new furniture, fresh paint, new carpet, or a recently detailed car interior can trigger headaches in sensitive people, as can hidden mold in damp basements or poorly ventilated bathrooms. These exposures are easy to miss because they're ambient rather than something you consciously consumed or did — which makes them a common explanation for migraines that seem to cluster around a particular room or building.</p>
+
+      <h2>Cabin Pressure Changes in Elevators and Flights</h2>
+
+      <p>Rapid pressure shifts aren't limited to weather fronts. A fast elevator ride in a tall building or the pressurization changes during a flight's ascent and descent can produce the same kind of inner-ear and sinus pressure shift that a storm system does, just compressed into minutes instead of hours. We go into the full picture of altitude and routine disruption in our guide to <a href="/blog/travel-migraine-triggers">why travel triggers migraines</a>.</p>
+
+      <blockquote>
+        <p>Some of these hidden triggers are mechanical or situational, but weather is the one that's both common and trackable. MigraineCast monitors barometric pressure shifts at your location automatically, so at least one variable stops being a mystery. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can a tight ponytail really cause a migraine?</h3>
+      <p>Yes — sustained tension from a tight hairstyle, hat, or headband can trigger "ponytail headache" on its own, and in people prone to migraine it can be enough to push a borderline day into a full attack. The mechanism is mechanical scalp tension activating the same sensory nerves involved in migraine pain. Loosening the hairstyle often brings relief within minutes.</p>
+
+      <h3>What is medication-overuse headache?</h3>
+      <p>It's a headache pattern caused by using acute pain medication too frequently — more than 10–15 days a month for most acute migraine treatments. The brain adapts to a regular dose and reacts with rebound pain as it wears off, creating a cycle where the treatment itself sustains the problem. The fix typically involves a supervised taper under a doctor's guidance, not simply stopping cold.</p>
+
+      <h3>Can indoor air quality trigger migraines?</h3>
+      <p>Yes — volatile organic compounds from new furniture, fresh paint, or new carpet, as well as hidden mold in damp spaces, are reported triggers for sensitive individuals. These are easy to miss as a cause because the exposure is ambient and ongoing rather than a single identifiable event, which is why migraines that consistently start in a particular room or building are worth investigating from an air-quality angle.</p>
+    `,
+  },
+  {
+    slug: "why-migraines-seem-random",
+    title: "Why Your Migraines Seem Random (Even Though They're Probably Not)",
+    excerpt:
+      "If you've never been able to pin down a single trigger, it's not because your migraines are random — it's because trigger-hunting the way most people do it is fundamentally unreliable.",
+    date: "June 21, 2026",
+    category: "Science",
+    content: `
+      <p>"I have no idea what causes my migraines" is one of the most common things headache specialists hear, usually said with real frustration after months of trying to spot a pattern. The good news is that it's rarely actually random. The bad news is that the way most people try to find their triggers makes the pattern nearly impossible to see.</p>
+
+      <h2>The Problem With Hunting for "The" Trigger</h2>
+
+      <p>Most trigger-hunting starts from a flawed premise: that there's a single cause to find, the way there's a single cause for a broken bone. Migraine doesn't usually work that way. For most people, attacks result from several smaller factors lining up at once rather than one dominant cause repeating every time. Searching for "the" trigger means you're looking for a pattern that doesn't exist in the form you're looking for it.</p>
+
+      <h2>Trigger Stacking: Why One Factor Rarely Acts Alone</h2>
+
+      <p>This is the concept that explains most of the apparent randomness: triggers combine. A poor night of sleep might do nothing on its own. The same poor night of sleep, on a day when you also skipped lunch and the barometric pressure is dropping, might be exactly enough to cross your threshold. Because the "extra" factors are different every time, the same single trigger can seem to cause a migraine on Tuesday and do nothing at all on Friday. We cover this mechanism in more depth in our full breakdown of <a href="/blog/common-migraine-triggers">common migraine triggers</a>.</p>
+
+      <h2>The Delay Problem: Triggers Don't Always Act Same-Day</h2>
+
+      <p>Weather is the clearest example, but it's not the only one. A barometric pressure drop often produces a migraine 24 to 48 hours later, not immediately — a delay we cover in detail in <a href="/blog/48-hour-warning-window">the 48-hour warning window</a>. Hormonal shifts, accumulated sleep debt, and even some dietary triggers can have a similar lag. If you're only looking at what happened in the hours right before an attack, you'll miss every trigger that acted on a delay.</p>
+
+      <h2>Retrospective Memory Is a Bad Data Source</h2>
+
+      <p>Research comparing people's recalled triggers against prospectively logged data has found the two often don't match well. People tend to remember dramatic, recent, or emotionally salient events — a stressful meeting, a glass of wine — and underweight quieter factors like a gradually accumulating sleep deficit or a slow pressure decline over two days. This isn't a memory failure on your part; it's how human recall works under uncertainty. It just means memory alone is a poor tool for this particular job.</p>
+
+      <h2>Prodrome Symptoms Get Mistaken for Causes</h2>
+
+      <p>The prodrome phase — the hours or even a day or two before head pain starts — can include cravings, fatigue, irritability, and neck stiffness. It's easy to misread these as triggers ("I was craving chocolate, so I ate it, and then I got a migraine") when they're actually early symptoms of an attack that was already in motion. The chocolate didn't cause it; the migraine process had already started and was driving the craving.</p>
+
+      <h2>How to Replace Guessing With Data</h2>
+
+      <p>The fix isn't trying harder to remember. It's shifting from recall to logging, and from single-variable thinking to looking at everything that was happening in the 48 hours before each attack at once. Environmental factors are the easiest place to start because they can be tracked automatically rather than relying on memory — our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> compares your migraine history against atmospheric conditions to surface correlations you wouldn't catch by eye. Once a few months of real data accumulate, the "randomness" usually resolves into a much more specific, personal pattern.</p>
+
+      <blockquote>
+        <p>Stop guessing and start tracking. MigraineCast logs the environmental conditions automatically and lets you see what was actually happening before each attack. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why can't I find a pattern in my migraines?</h3>
+      <p>Usually because migraines result from multiple stacked factors rather than one repeating cause, some of which act on a 24–48 hour delay. Memory-based trigger hunting also tends to overweight dramatic, recent events and miss quieter cumulative factors like sleep debt or slow pressure changes. Logging conditions prospectively, rather than trying to recall them afterward, is what usually reveals the pattern.</p>
+
+      <h3>Is it normal for migraine triggers to seem inconsistent?</h3>
+      <p>Yes — this is one of the most consistent complaints in migraine research. A food or situation that triggers an attack one week may do nothing the next, because it was combined with different background factors each time. This inconsistency is a feature of how trigger stacking works, not evidence that your migraines have no pattern at all.</p>
+
+      <h3>How do I find triggers that don't act the same day?</h3>
+      <p>Track conditions over a 48-hour window before each attack, not just the day of. This matters most for weather and barometric pressure, where the gap between the trigger and the headache is often a day or two, but it also applies to accumulated sleep debt and some hormonal patterns. Automatic environmental tracking removes the need to remember exactly what the conditions were two days ago.</p>
+    `,
+  },
+  {
+    slug: "lack-of-sleep-migraine-trigger",
+    title: "Can Lack of Sleep Trigger Migraines? What the Research Shows",
+    excerpt:
+      "Sleep and migraine have a well-documented two-way relationship — too little sleep can trigger an attack, and migraine itself can wreck your sleep. Here's how the connection actually works.",
+    date: "June 20, 2026",
+    category: "Science",
+    content: `
+      <p>If you've ever woken up with a migraine after a short or restless night, you weren't imagining a connection. Sleep is one of the most consistently documented migraine triggers in the research, and the relationship runs in both directions — poor sleep can trigger attacks, and migraines themselves are a well-known disruptor of sleep.</p>
+
+      <h2>The Sleep-Migraine Connection</h2>
+
+      <p>Studies tracking sleep and headache diaries together have repeatedly found that nights with shorter or more fragmented sleep are followed by a higher rate of migraine onset the next day. The effect shows up most clearly for sleep that falls noticeably below someone's usual baseline, not for small night-to-night variation. A person who normally sleeps seven hours and gets six is at more risk than someone whose schedule is naturally short but consistent.</p>
+
+      <h2>What Happens in the Brain During Sleep Deprivation</h2>
+
+      <p>Sleep and migraine share overlapping neural circuitry, particularly in the hypothalamus, which regulates both sleep-wake cycles and pain processing. Sleep deprivation is associated with increased levels of pro-inflammatory markers and changes in serotonin regulation, both of which are implicated in migraine. There's also evidence that poor sleep lowers the general pain threshold, meaning the same level of stimulation that would be tolerable on a well-rested day can register as more intense after a bad night.</p>
+
+      <h2>It's Not Just "Too Little" — Oversleeping Counts Too</h2>
+
+      <p>This surprises a lot of people: sleeping significantly more than usual is also associated with migraine onset, not just sleeping less. This is part of why "sleeping in" on weekends is a recognized trigger pattern for some people — sometimes discussed alongside the broader phenomenon we cover in <a href="/blog/weekend-migraines">why some people get weekend migraines</a>. The relationship looks less like "more sleep is always better" and more like a U-shape, where deviation from your personal normal in either direction raises risk.</p>
+
+      <h2>Irregular Sleep Timing vs. Total Hours</h2>
+
+      <p>Total sleep duration gets most of the attention, but consistency of timing appears to matter independently. Going to bed and waking up at wildly different times across the week — even if the total hours add up to a reasonable number — disrupts circadian regulation in a way that seems to compound migraine risk. This is one reason travel and irregular work shifts are commonly reported as migraine-heavy periods, beyond the obvious stress involved.</p>
+
+      <h2>Sleep Apnea and Morning Migraines</h2>
+
+      <p>People who wake up with a migraine already in progress, especially if this happens repeatedly, are sometimes dealing with an undiagnosed sleep disorder like obstructive sleep apnea. Apnea fragments sleep and causes repeated overnight oxygen dips, both of which can provoke head pain that's already present on waking rather than developing afterward. If morning migraines are a recurring pattern for you, a conversation with a doctor about a sleep evaluation is worth having.</p>
+
+      <h2>Building a Migraine-Friendly Sleep Routine</h2>
+
+      <p>The most protective habit isn't a specific number of hours — it's consistency. Going to bed and waking at roughly the same time daily, including weekends, tends to outperform chasing an extra hour here and there. Limiting screen exposure before bed, keeping the room dark and cool, and avoiding late caffeine all support that consistency rather than fighting it. For the separate question of getting through an attack once it's already started, see our guide on <a href="/blog/how-to-sleep-with-a-migraine">how to sleep with a migraine</a>.</p>
+
+      <blockquote>
+        <p>Sleep disruption often overlaps with weather-driven nights — pressure changes can wake people up before they even register a headache coming. MigraineCast tracks those overnight shifts so you can see the connection. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How much sleep loss does it take to trigger a migraine?</h3>
+      <p>There's no universal threshold, but research shows risk rises most clearly when sleep falls noticeably below a person's own baseline, rather than at a fixed number of hours. Someone who normally sleeps seven hours getting five or six is in a higher-risk zone than someone whose schedule is naturally shorter but consistent night to night.</p>
+
+      <h3>Can too much sleep also trigger migraines?</h3>
+      <p>Yes — oversleeping relative to your normal pattern is also associated with migraine onset, which is part of why weekend "sleeping in" is a recognized trigger for some people. The relationship looks like a U-shape: deviation from your personal normal in either direction, not just sleep deprivation specifically, appears to raise risk.</p>
+
+      <h3>Should I see a doctor if I keep waking up with a migraine?</h3>
+      <p>It's worth raising, especially if it's a repeated pattern. Waking with a migraine already present, rather than developing one during the day, can point to an underlying sleep disorder like obstructive sleep apnea, which fragments sleep and causes overnight oxygen dips that can provoke head pain. A sleep evaluation can rule this in or out.</p>
+    `,
+  },
+  {
+    slug: "stress-causes-migraines",
+    title: "Why Stress Causes Migraines (and Why the Headache Often Hits After It's Over)",
+    excerpt:
+      "Stress is consistently the most commonly reported migraine trigger — but the mechanism is more interesting than 'stress is bad for you,' and the timing often catches people off guard.",
+    date: "June 19, 2026",
+    category: "Science",
+    content: `
+      <p>In nearly every survey of migraine triggers, stress comes out near the top of the list — often the single most commonly reported factor. That's not surprising on its face. What is genuinely interesting is how stress actually produces a migraine, and the fact that for a lot of people, the headache doesn't show up during the stressful period at all. It shows up right after.</p>
+
+      <h2>The Stress-Migraine Link Is Real, But Not Simple</h2>
+
+      <p>Stress doesn't trigger migraine through one single pathway. It works through a combination of hormonal changes, muscle tension, sleep disruption, and shifts in behavior (skipped meals, reduced water intake, more caffeine) that often accompany a stressful stretch. That combination is exactly the kind of trigger-stacking effect we cover in <a href="/blog/common-migraine-triggers">our full guide to migraine triggers</a> — stress rarely acts as a single clean variable.</p>
+
+      <h2>What's Happening Physiologically</h2>
+
+      <p>Acute stress activates the hypothalamic-pituitary-adrenal (HPA) axis, raising cortisol and other stress hormones. In the short term, elevated cortisol can actually have a mild protective effect against pain perception — which is part of why some people don't feel anything during a genuinely stressful day. The trigeminovascular system, the same network responsible for migraine pain, is sensitive to these hormonal swings, and CGRP (calcitonin gene-related peptide), a molecule central to modern migraine treatment, is influenced by stress-related signaling as well.</p>
+
+      <h2>The "Letdown" Migraine: Why Relief Can Be a Trigger Too</h2>
+
+      <p>This is the part that surprises people: as cortisol drops after a stressful period ends, that drop itself appears to be a trigger for some individuals. This is often called "letdown migraine" — the headache that arrives on the first day of vacation, the Saturday after a brutal work week, or the morning after a big deadline finally passes. It feels backwards, but it's a well-documented pattern, and it's a major piece of why some people specifically get <a href="/blog/weekend-migraines">weekend migraines</a>.</p>
+
+      <h2>Muscle Tension and the Trigeminal Connection</h2>
+
+      <p>Stress reliably increases tension in the neck, shoulders, and jaw, and that muscular tension feeds into the same trigeminal nerve pathway involved in migraine pain — a connection we go through in detail in <a href="/blog/trigeminal-nerve-and-migraine">our piece on the trigeminal nerve and migraine</a>. This is one reason stress-related migraines so often come bundled with a tight, aching neck rather than appearing as an isolated head pain with no other symptoms.</p>
+
+      <h2>Stress Management Strategies That Actually Move the Needle</h2>
+
+      <p>General stress reduction is good advice but vague. The strategies with the most relevance to migraine specifically are the ones that smooth out the stress curve rather than letting it spike and crash: regular brief breaks during a stressful stretch rather than pushing through and crashing afterward, maintaining meal and hydration habits even when busy, and protecting sleep especially during high-stress weeks. Progressive muscle relaxation and slow breathing techniques target the muscular tension piece directly, which is part of why they show up so often in migraine management advice.</p>
+
+      <blockquote>
+        <p>Stress is one trigger you can partly manage — but it rarely travels alone. MigraineCast tracks the environmental side automatically so you can see what else was stacking up during your high-stress weeks. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why do I get a migraine after stress ends, not during it?</h3>
+      <p>This is the "letdown" effect. Elevated cortisol during acute stress can have a mild pain-dampening effect, which is part of why some people feel fine during the stressful period itself. As cortisol drops once the stress resolves, that drop appears to act as a trigger for some people, producing a migraine on the first day of relief — a weekend, the start of a vacation, or the morning after a deadline.</p>
+
+      <h3>Can stress management actually reduce migraine frequency?</h3>
+      <p>For people whose attacks are clearly stress-linked, yes — but the strategies that help most are the ones that prevent the spike-and-crash pattern (regular breaks, consistent meals and hydration through busy periods, protected sleep) rather than general relaxation alone. Techniques targeting muscle tension specifically, like progressive muscle relaxation, address the trigeminal nerve pathway that links stress to migraine pain directly.</p>
+
+      <h3>Is letdown migraine the same as weekend migraine?</h3>
+      <p>They overlap heavily but aren't identical. Letdown migraine refers specifically to the cortisol-drop mechanism after stress resolves. Weekend migraine is the broader pattern, which can also include caffeine withdrawal, sleeping in, and disrupted routines — letdown is one contributing piece of it, not the whole explanation.</p>
+    `,
+  },
+  {
+    slug: "foods-that-trigger-migraines",
+    title: "Foods That Commonly Trigger Migraines (And How Strong the Evidence Really Is)",
+    excerpt:
+      "Migraine food-trigger lists online tend to be long, alarming, and short on nuance. Here's a closer look at which foods have real evidence behind them — and which are mostly hearsay.",
+    date: "June 18, 2026",
+    category: "Tips",
+    content: `
+      <p>Search "migraine trigger foods" and you'll find lists so long they start to feel useless — cheese, chocolate, citrus, wine, bananas, leftovers, nuts, and on and on, until it seems easier to just stop eating. The reality is more specific and more manageable than that. Some foods have meaningfully stronger evidence behind them than others, and understanding why helps you focus on what's actually likely to matter for you.</p>
+
+      <h2>Why Food-Trigger Lists Are Longer Than the Evidence Supports</h2>
+
+      <p>A lot of foods ended up on "avoid" lists because a small number of people reported them in surveys decades ago, and the lists have been copied and expanded ever since without much fresh scrutiny. Modern research is more cautious, and finds that most individual foods affect only a subset of migraine sufferers, often only when combined with other factors. That said, a handful of categories show up consistently enough across studies to take seriously.</p>
+
+      <h2>Tyramine-Rich Foods</h2>
+
+      <p>Aged cheeses, cured and fermented meats, and some fermented soy products are high in tyramine, a compound formed as proteins break down over time. Tyramine has long been suspected of provoking migraine through its effects on blood vessel tone, though the research is mixed on how large the effect really is for most people. It remains one of the more frequently self-reported categories, particularly for people who notice a pattern with very aged or fermented foods specifically.</p>
+
+      <h2>Alcohol, Especially Red Wine</h2>
+
+      <p>Alcohol is one of the more reliably reported dietary triggers, and red wine specifically gets singled out more than other alcoholic drinks. The leading theories involve a combination of tyramine and histamine content, alcohol's effect on blood vessels, and dehydration. Unlike some other items on this list, the alcohol-migraine connection holds up reasonably well across different studies and populations.</p>
+
+      <h2>Nitrates and Nitrites in Processed Meats</h2>
+
+      <p>Hot dogs, bacon, deli meats, and other cured products often contain nitrates or nitrites as preservatives, which can cause blood vessel dilation — sometimes called the "hot dog headache" in older literature. The effect is dose-dependent and varies significantly between individuals, but it's a category worth paying attention to if you notice headaches clustering around meals featuring processed meats.</p>
+
+      <h2>Artificial Sweeteners and MSG</h2>
+
+      <p>Aspartame has decent anecdotal and some experimental support as a migraine trigger for sensitive individuals, though large-scale evidence remains inconsistent. MSG has a similarly mixed research record but a long history of self-reported association. Both are worth checking labels for, since they're often present under alternate names rather than listed plainly.</p>
+
+      <h2>Caffeine and Chocolate</h2>
+
+      <p>Chocolate is one of the most commonly blamed foods, but a meaningful portion of that effect may actually be prodrome-driven — chocolate cravings are a documented early symptom of an oncoming migraine, meaning the craving can precede the headache without the chocolate causing it. Caffeine is a more direct story, and one significant enough that we cover it on its own in <a href="/blog/caffeine-and-migraines">can caffeine cause migraines</a>.</p>
+
+      <h2>Skipping Meals Might Matter More Than Any Single Food</h2>
+
+      <p>Of everything discussed here, irregular eating and skipped meals have some of the most consistent support as a trigger, independent of what's actually eaten. Blood sugar drops appear to be a real and fairly direct trigger mechanism, which means a chaotic eating schedule can sometimes do more damage than any specific "bad" food on the list above.</p>
+
+      <h2>Should You Try an Elimination Diet?</h2>
+
+      <p>Broad elimination diets that cut many foods at once are tempting but make it genuinely hard to tell which removal, if any, actually helped — and they carry real downsides for nutrition and quality of life if sustained too long. A more useful approach is targeted: track your eating alongside your attacks for a few months, see which categories actually correlate for you specifically, and test removing one at a time rather than everything simultaneously. For the proactive side of eating to reduce risk, see <a href="/blog/what-to-eat-to-prevent-migraines">what to eat to prevent migraines</a>, and for what to eat once an attack has already started, see <a href="/blog/best-foods-during-migraine">best foods during a migraine</a>.</p>
+
+      <blockquote>
+        <p>Food triggers are rarely the whole story — they usually combine with sleep, stress, and weather. MigraineCast tracks the environmental piece automatically so your food log isn't working in isolation. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What foods are most likely to trigger a migraine?</h3>
+      <p>The categories with the most consistent support are alcohol (especially red wine), tyramine-rich aged or fermented foods, nitrate-containing processed meats, and irregular eating or skipped meals. Caffeine and artificial sweeteners like aspartame have meaningful but more individually variable evidence. No single food affects everyone — personal tracking matters more than any general list.</p>
+
+      <h3>Is chocolate actually a migraine trigger?</h3>
+      <p>It's complicated. Chocolate is frequently blamed, but chocolate cravings are also a documented early symptom of an oncoming migraine (part of the prodrome phase). That means some "chocolate triggered my migraine" cases may actually be the migraine process already starting and driving the craving, not the chocolate causing the attack.</p>
+
+      <h3>Should I try an elimination diet for migraines?</h3>
+      <p>A broad, all-at-once elimination diet makes it hard to tell which removal actually helped and carries nutritional downsides if sustained. A more reliable approach is tracking your eating against your attacks for a few months to identify your own likely categories, then testing removal of one category at a time rather than everything simultaneously.</p>
+    `,
+  },
+  {
+    slug: "caffeine-and-migraines",
+    title: "Can Caffeine Cause Migraines? The Double-Edged Truth",
+    excerpt:
+      "Caffeine is both a recognized migraine treatment ingredient and a recognized migraine trigger — sometimes in the same person, in the same week. Here's how that contradiction actually works.",
+    date: "June 8, 2026",
+    category: "Science",
+    content: `
+      <p>Caffeine occupies a strange position in migraine management. It's an active ingredient in several combination headache medications, used because it genuinely helps acute treatment work better. It's also one of the more commonly reported migraine triggers, particularly through withdrawal. Both of these things are true at once, which is exactly why caffeine confuses so many people trying to manage their migraines.</p>
+
+      <h2>Caffeine Can Help and Hurt — Sometimes on the Same Day</h2>
+
+      <p>In moderate, consistent amounts, caffeine constricts blood vessels and enhances the effect of common pain relievers, which is the basis for its inclusion in combination migraine medications. The problem isn't caffeine itself so much as inconsistency — a normal dose today, a skipped dose tomorrow, a double dose the day after. That kind of fluctuation is where caffeine moves from helpful to risky.</p>
+
+      <h2>The Withdrawal Headache Mechanism</h2>
+
+      <p>Regular caffeine use causes the brain to upregulate adenosine receptors and adjust blood vessel tone around caffeine's constant presence. When a dose is delayed or skipped, blood vessels dilate more than they would otherwise, and adenosine activity increases — a combination that reliably produces headache in habitual caffeine users. This typically starts 12 to 24 hours after the missed dose, which is long enough that people often don't connect the timing to the coffee they didn't have.</p>
+
+      <h2>How Much Is Too Much?</h2>
+
+      <p>There's no single safe number, because the risk comes from variability relative to your own baseline rather than an absolute amount. Someone who drinks one cup daily and someone who drinks four cups daily can both be stable, low-risk caffeine users — as long as they keep that amount consistent. The danger zone is large day-to-day swings: a heavy coffee day followed by none at all, or "catching up" on sleep by skipping the usual morning cup.</p>
+
+      <h2>Why Weekend Migraines Are Often a Caffeine Story</h2>
+
+      <p>This is one of the more common real-world examples of caffeine withdrawal in action. Someone has coffee every workday morning, then sleeps in and skips it on Saturday — and gets hit with a migraine by midday. It's a major contributor to the broader pattern we cover in <a href="/blog/weekend-migraines">why some people get weekend migraines</a>, and one of the easiest pieces of that pattern to actually fix.</p>
+
+      <h2>Hidden Caffeine in Medications</h2>
+
+      <p>Beyond coffee, tea, and soda, caffeine is an active ingredient in several over-the-counter pain relievers and some prescription migraine medications. If you're trying to track your intake accurately, it's worth checking the labels on any headache medication you use regularly — the caffeine dose there counts toward your daily total and toward the withdrawal risk if your usage becomes irregular.</p>
+
+      <h2>If You Want to Cut Back: Taper, Don't Quit Cold</h2>
+
+      <p>If caffeine seems to be part of your trigger picture and you want to reduce your dependence on it, a gradual taper over one to two weeks — reducing by roughly a quarter cup or equivalent every few days — produces far fewer withdrawal headaches than stopping abruptly. The goal for most people isn't necessarily zero caffeine; it's a stable, predictable amount that doesn't swing.</p>
+
+      <blockquote>
+        <p>Caffeine withdrawal often overlaps with weekend or travel schedule changes — and weather shifts can stack right on top of it. MigraineCast tracks the environmental side so you can see what else was happening before an attack. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can caffeine withdrawal cause a migraine?</h3>
+      <p>Yes — this is one of the better-documented caffeine-migraine mechanisms. Regular use causes the brain to adapt around caffeine's presence, and skipping or delaying a usual dose leads to blood vessel dilation and increased adenosine activity, which reliably produces headache in habitual users. It typically starts 12 to 24 hours after the missed dose.</p>
+
+      <h3>How much caffeine is safe for someone with migraines?</h3>
+      <p>There's no universal safe amount — what matters most is consistency relative to your own normal intake. A stable daily amount, whether that's one cup or four, carries less risk than a fluctuating amount with big day-to-day swings. The danger is in the variability, not a fixed dose.</p>
+
+      <h3>Does caffeine help or hurt migraines?</h3>
+      <p>Both, depending on context. In moderate, consistent amounts, caffeine enhances the effect of common pain relievers and is included in some combination migraine medications for that reason. In inconsistent amounts, it becomes a withdrawal trigger. The same substance can be a helpful tool or a risk factor depending entirely on how regularly it's used.</p>
+    `,
+  },
+  {
+    slug: "bright-lights-migraine-trigger",
+    title: "Can Bright Lights Cause Migraines? The Science of Photophobia",
+    excerpt:
+      "Light sensitivity is one of the defining features of migraine — but bright light isn't just a symptom you feel during an attack. For many people, it's a genuine trigger that can start one.",
+    date: "June 7, 2026",
+    category: "Science",
+    content: `
+      <p>Photophobia, the medical term for light sensitivity, is one of the diagnostic features doctors look for when distinguishing migraine from other types of headache. Most people experience it as a symptom — light becomes unbearable once a migraine is already underway. Fewer people realize that bright light exposure can also act as a direct trigger, capable of starting the very attack that then makes light intolerable.</p>
+
+      <h2>Light Sensitivity Is Both a Trigger and a Symptom</h2>
+
+      <p>This dual role is part of what makes light such a confusing factor to track. If you walk out into bright sun and develop a migraine an hour later, was the sunlight a trigger, or was a migraine already quietly starting and the light sensitivity from its early phase just made the sun feel unusually harsh? Often it's genuinely both — light can initiate the cascade and then intensify it once underway.</p>
+
+      <h2>The Eye Cells That Make Migraine and Light Sensitivity Connected</h2>
+
+      <p>Research has identified a specific population of light-sensing cells in the retina, intrinsically photosensitive retinal ganglion cells (ipRGCs), that connect directly to brain regions involved in migraine pain processing. These cells respond to light independently of the rods and cones used for normal vision, which helps explain why even people with no vision impairment, and even some people who are completely blind but retain these cells, can experience light-triggered head pain.</p>
+
+      <h2>Sunlight, Glare, and Screens</h2>
+
+      <p>Direct sunlight, glare off snow, water, or pavement, and harsh overhead lighting are among the most commonly reported light-related triggers. Screens are a more debated category — the brightness and contrast of a phone or laptop screen can contribute, though much of what people attribute to "screen headaches" may also involve posture, screen distance, and reduced blink rate rather than the light itself.</p>
+
+      <h2>Flicker Is a Different Problem Than Brightness</h2>
+
+      <p>It's worth separating overall brightness from flicker, since they affect people differently. Certain refresh rates and flickering light sources — older fluorescent tubes, some LED fixtures, strobing effects in video or at events — can provoke symptoms in people who tolerate steady bright light reasonably well. We touch on this and other less-discussed triggers in <a href="/blog/hidden-migraine-triggers">hidden migraine triggers nobody talks about</a>.</p>
+
+      <h2>Tinted Lenses and Practical Light Management</h2>
+
+      <p>FL-41 tinted lenses, a specific rose-tinted filter developed for light-sensitive patients, have research support for reducing the frequency and severity of light-triggered symptoms in some migraine sufferers, including during attacks and as everyday wear for people with chronic photophobia. Beyond lenses, practical steps include reducing screen brightness to match ambient light, using matte rather than glossy screen surfaces to cut glare, and choosing softer, indirect lighting at home over harsh overhead fixtures where possible.</p>
+
+      <blockquote>
+        <p>Light exposure often combines with other factors like weather and sleep to push you toward an attack. MigraineCast tracks the environmental side automatically so light isn't the only variable you're guessing about. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why are migraines so sensitive to light?</h3>
+      <p>A specific population of light-sensing retinal cells (intrinsically photosensitive retinal ganglion cells, or ipRGCs) connects directly to brain regions involved in migraine pain processing. This connection means light can both intensify pain once a migraine has started and, for some people, contribute to starting one in the first place — independent of normal vision.</p>
+
+      <h3>Can bright light actually start a migraine, not just make it worse?</h3>
+      <p>Yes, for many people light functions as a genuine trigger rather than only a symptom. It's often hard to separate from prodrome-related light sensitivity that begins before head pain does, but bright sunlight, glare, and harsh overhead lighting are commonly reported as standalone triggers in their own right.</p>
+
+      <h3>Do tinted glasses help with light-triggered migraines?</h3>
+      <p>FL-41 rose-tinted lenses have research support for reducing light-related migraine symptoms in sensitive individuals. They're worth discussing with an eye doctor or headache specialist if glare and bright light are a consistent part of your trigger pattern, whether for use during attacks or as everyday wear for chronic photophobia.</p>
+    `,
+  },
+  {
+    slug: "strong-smells-migraine-trigger",
+    title: "Can Strong Smells Trigger Migraines? Understanding Osmophobia",
+    excerpt:
+      "If perfume, cleaning products, or cigarette smoke can set off a headache before anyone else in the room notices the smell, that's not oversensitivity — it's a recognized migraine feature called osmophobia.",
+    date: "June 4, 2026",
+    category: "Science",
+    content: `
+      <p>For a meaningful number of migraine sufferers, a coworker's perfume, a freshly cleaned bathroom, or a passing whiff of cigarette smoke isn't just unpleasant — it's the start of an attack. This isn't an exaggerated reaction. Osmophobia, an aversion to and sensitivity toward smells, is recognized as one of the more specific identifying features of migraine, distinguishing it from other headache types where smell sensitivity is far less common.</p>
+
+      <h2>Osmophobia: A Trigger and a Diagnostic Clue</h2>
+
+      <p>Researchers have found that osmophobia is reported far more often by people with migraine than by people with tension-type headaches, to the point that doctors sometimes use it as a distinguishing clue during diagnosis. Like light sensitivity, smell sensitivity often functions as both an early symptom of an oncoming attack and a direct trigger capable of starting one, which makes the two roles hard to cleanly separate in any individual case.</p>
+
+      <h2>Why the Trigeminal Nerve Is the Common Thread</h2>
+
+      <p>Smell processing connects more directly to the trigeminal nerve system than most people realize — many odorous compounds activate trigeminal nerve endings in the nasal passages alongside the olfactory system responsible for smell itself. Because the trigeminal nerve is also central to migraine pain transmission, strong odors have a fairly direct anatomical route into the same pain pathway. We cover this nerve and its broader role in migraine in <a href="/blog/trigeminal-nerve-and-migraine">our piece on the trigeminal nerve and migraine</a>.</p>
+
+      <h2>The Most Commonly Reported Offending Smells</h2>
+
+      <p>Perfumes and colognes top most surveys, followed closely by cleaning products and bleach, cigarette smoke, gasoline and exhaust fumes, and certain strong cooking odors. Interestingly, the specific smells that trigger attacks are often pungent or chemical rather than simply strong — some people who react badly to perfume have no issue with equally intense but more "natural" smells like fresh-cut grass, suggesting the chemical composition matters as much as the intensity.</p>
+
+      <h2>Why You Can't Always Just "Avoid" Smells</h2>
+
+      <p>Unlike a food trigger, scent triggers are largely outside your control in shared spaces — public transportation, offices, restaurants, and other people's homes all come with smells you didn't choose and can't easily remove. This is part of why osmophobia can feel more limiting day-to-day than some other trigger categories, and why it's worth advocating for fragrance-free policies in workplaces and shared spaces where you have any influence over the environment.</p>
+
+      <h2>What Actually Helps</h2>
+
+      <p>When avoidance isn't possible, getting fresh air or moving away from the source as quickly as possible limits the duration of exposure, which matters since the effect for many people is dose-related. Some people find a neutral, mild scent like peppermint oil dabbed under the nose helps mask offending odors, though this is worth trying cautiously since strong scents — even pleasant ones — are themselves sometimes a trigger. A small, portable air purifier or simply stepping outside during a known high-exposure event (a cleaning crew, a fragrance counter) is a low-effort precaution worth building into your routine if smell triggers are a consistent issue for you.</p>
+
+      <blockquote>
+        <p>Scent triggers are hard to track because exposure is so situational. MigraineCast handles the environmental side automatically so at least the weather variable isn't something you have to remember and log by hand. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is osmophobia in migraine?</h3>
+      <p>Osmophobia is sensitivity to and aversion toward smells, recognized as one of the more specific identifying features of migraine. It's reported far more frequently by people with migraine than by people with tension-type headaches, and it functions as both an early symptom of an oncoming attack and a direct trigger capable of starting one.</p>
+
+      <h3>Why do strong smells cause migraines but not regular headaches?</h3>
+      <p>Many odorous compounds activate trigeminal nerve endings in the nasal passages in addition to the separate olfactory pathway used for smell itself. Because the trigeminal nerve is central to migraine pain transmission specifically, strong odors have a fairly direct route into that pathway — a connection that isn't as relevant to other headache types.</p>
+
+      <h3>What smells most commonly trigger migraines?</h3>
+      <p>Perfumes and colognes are the most frequently reported, followed by cleaning products, cigarette smoke, gasoline and exhaust fumes, and certain strong cooking odors. The common thread tends to be pungent or chemical smells rather than simply intense ones — many people who react to perfume tolerate equally strong "natural" smells without issue.</p>
+    `,
+  },
+  {
+    slug: "weekend-migraines",
+    title: "Why Some People Get Weekend Migraines",
+    excerpt:
+      "If Saturday morning reliably brings a migraine even though nothing seems different about your day, the explanation usually isn't bad luck — it's a predictable cluster of routine changes that all land on the same 48 hours.",
+    date: "June 3, 2026",
+    category: "Science",
+    content: `
+      <p>It's a specific, recognizable complaint: weekdays are fine, but Saturday — or sometimes Sunday — reliably brings a migraine, even though nothing about the day itself seems particularly stressful or unusual. This pattern is common enough that it has its own informal name, "weekend migraine," and it usually isn't one cause but several small routine shifts landing at once.</p>
+
+      <h2>The Weekend Migraine Pattern</h2>
+
+      <p>Weekends quietly change several things at once: sleep timing, caffeine timing, meal timing, activity level, and stress level, often all on the same day. None of these shifts is dramatic individually, but stacked together they can be enough to cross a threshold that any one of them alone wouldn't reach — the same trigger-stacking dynamic we cover in <a href="/blog/common-migraine-triggers">common migraine triggers</a>.</p>
+
+      <h2>Caffeine Withdrawal</h2>
+
+      <p>A weekday coffee routine followed by a later, skipped, or smaller weekend cup is one of the most common and most fixable pieces of this puzzle. Caffeine withdrawal headaches typically begin 12 to 24 hours after a missed or delayed dose, which lines up almost perfectly with a lazy Saturday morning following a normal Friday. We go through this mechanism in full in <a href="/blog/caffeine-and-migraines">can caffeine cause migraines</a>.</p>
+
+      <h2>Sleeping In Disrupts More Than It Fixes</h2>
+
+      <p>Sleeping significantly later than your weekday wake time, even when it feels like well-earned rest, shifts your circadian rhythm and is itself associated with migraine onset — oversleeping relative to your own baseline carries similar risk to sleep deprivation. We cover the full sleep-migraine relationship, including why both directions of disruption matter, in <a href="/blog/lack-of-sleep-migraine-trigger">can lack of sleep trigger migraines</a>.</p>
+
+      <h2>The Stress Letdown Effect</h2>
+
+      <p>For people whose week is genuinely stressful, the drop in cortisol once that stress resolves at week's end appears to act as its own trigger — the "letdown migraine" phenomenon. This explains why some people get hit specifically on the first day of relief rather than during the stressful days themselves, a mechanism we explore further in <a href="/blog/stress-causes-migraines">why stress causes migraines</a>.</p>
+
+      <h2>Skipped Routines: Meals, Hydration, Medication Timing</h2>
+
+      <p>Weekends also tend to loosen meal timing — a later or skipped breakfast, an irregular lunch — and hydration habits often slip when the day's structure is looser. If you take any preventive medication on a schedule, weekend routine changes are also a common point where doses get delayed or missed entirely, removing a layer of protection right when several other risk factors are stacking up.</p>
+
+      <h2>How to Keep Your Weekend Without the Crash</h2>
+
+      <p>The fix isn't sacrificing your weekend; it's keeping the few habits that matter most consistent even when the rest of the day is more relaxed. Waking within an hour of your usual weekday time, having your usual caffeine at roughly the usual time, eating breakfast at a reasonable hour, and keeping medication timing steady cover most of the risk without requiring you to give up sleeping in entirely or treating Saturday like a workday.</p>
+
+      <blockquote>
+        <p>Weekend triggers are mostly behavioral — but weather doesn't take weekends off either. MigraineCast tracks pressure trends every day so a Saturday storm doesn't catch you off guard on top of everything else. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why do I always get a migraine on the weekend?</h3>
+      <p>It's usually a cluster of small routine changes landing together rather than one cause: caffeine withdrawal from a later or skipped morning coffee, sleeping in past your usual wake time, the stress "letdown" effect as a busy week ends, and looser meal and hydration timing. None of these alone is usually enough, but stacked on the same day they often cross the threshold.</p>
+
+      <h3>Does sleeping in cause weekend migraines?</h3>
+      <p>It's a significant contributor for many people. Oversleeping relative to your normal baseline disrupts circadian timing and is independently associated with migraine onset, similar to sleep deprivation. Waking within about an hour of your usual weekday time, even on days off, is one of the more effective single fixes for this specific pattern.</p>
+
+      <h3>How do I prevent weekend migraines without giving up sleeping in?</h3>
+      <p>Focus on the few habits that drive the most risk rather than the whole routine: keep wake time within about an hour of your weekday schedule, have caffeine at roughly your usual time even if you go back to bed afterward, eat breakfast reasonably early, and keep any scheduled medication on time. This preserves most of the weekend's relaxed feel while removing the biggest risk factors.</p>
+    `,
+  },
+  {
+    slug: "travel-migraine-triggers",
+    title: "Why Travel Triggers Migraines (And How to Prepare)",
+    excerpt:
+      "Travel doesn't introduce one new migraine trigger — it stacks half a dozen at once: disrupted sleep, dehydration, cabin pressure, time zones, and irregular meals, all in the same 24-48 hours.",
+    date: "June 1, 2026",
+    category: "Tips",
+    content: `
+      <p>It's a common, frustrating pattern: the trip itself goes fine, and then the migraine hits on day one or two — sometimes ruining the part of the trip you were most looking forward to. Travel isn't usually one migraine trigger. It's several at once, compressed into a short window, which is exactly the kind of setup that tends to produce an attack.</p>
+
+      <h2>Travel Stacks Triggers Like Nothing Else</h2>
+
+      <p>A normal travel day can involve disrupted sleep, dehydration, skipped or irregular meals, elevated stress, unfamiliar food, altered caffeine timing, and a pressure change during the flight — often all within 24 hours. Individually, most of these are manageable. Combined, they're close to a worst-case scenario for the trigger-stacking effect we cover in <a href="/blog/common-migraine-triggers">common migraine triggers</a>.</p>
+
+      <h2>Time Zones and Circadian Disruption</h2>
+
+      <p>Crossing time zones disrupts the same circadian regulation involved in sleep-related migraine risk. Jet lag isn't just feeling tired at the wrong time — it genuinely shifts hormone release, body temperature regulation, and sleep architecture, all of which overlap with the sleep-migraine mechanisms we cover in <a href="/blog/lack-of-sleep-migraine-trigger">can lack of sleep trigger migraines</a>. The effect tends to be worse traveling eastward, since it requires advancing your internal clock rather than delaying it, which is harder for most people's biology to do quickly.</p>
+
+      <h2>Cabin Pressure and Dehydration on Flights</h2>
+
+      <p>Aircraft cabins are pressurized to roughly the equivalent of 6,000–8,000 feet of altitude, not sea level, and that pressure shifts noticeably during ascent and descent — a compressed version of the barometric pressure changes that trigger weather-related migraines. Cabin air is also significantly drier than normal indoor air, and the combination of low humidity, limited movement, and easy-to-forget hydration during a flight makes air travel a uniquely dehydrating experience even on short trips.</p>
+
+      <h2>Road Trips Have Their Own Trigger Profile</h2>
+
+      <p>Driving avoids the cabin pressure issue but introduces others: sun glare through the windshield, prolonged neck and shoulder tension from the driving position, car interior odors (especially in a new rental), and the same skipped-meal, irregular-break pattern that long drives tend to produce. Motion sensitivity from continuous visual movement is also a factor for some people, distinct from but sometimes overlapping with migraine-related dizziness.</p>
+
+      <h2>Routine Disruption: Meals, Caffeine, Sleep, Stress</h2>
+
+      <p>Beyond the travel mechanics themselves, the routine disruption around travel is often just as significant. Irregular meal timing during a travel day, caffeine schedule changes (especially across time zones), the stress of logistics and connections, and a different sleep environment on the other end all add up — and each one individually is a documented trigger category covered in our guides on <a href="/blog/caffeine-and-migraines">caffeine</a> and <a href="/blog/stress-causes-migraines">stress</a>.</p>
+
+      <h2>A Pre-Travel Checklist</h2>
+
+      <p>A few preparations meaningfully reduce risk: hydrate well in the 24 hours before flying, not just during the flight; keep a consistent caffeine dose during travel days even if the timing shifts slightly; pack snacks to avoid long gaps without eating; and bring acute medication in your carry-on rather than checked luggage so it's accessible the moment symptoms start. We go through a full packing list, including what to bring for an attack that starts mid-trip, in <a href="/blog/migraine-go-bag">the migraine go-bag</a>.</p>
+
+      <blockquote>
+        <p>You can't control cabin pressure or jet lag, but you can know what's waiting for you when you land. MigraineCast tracks barometric pressure trends at your destination so weather isn't an extra surprise on top of everything else travel throws at you. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why do I always get a migraine when I travel?</h3>
+      <p>Travel typically stacks several triggers at once rather than introducing a single new one: disrupted sleep and time zones, dehydration (especially on flights), irregular meals, elevated stress, and a cabin pressure change during ascent and descent. Each factor alone might be manageable, but combined within a 24-hour window they often cross the threshold for an attack.</p>
+
+      <h3>Does flying itself trigger migraines?</h3>
+      <p>It can, through a few mechanisms: cabin pressure changes during takeoff and landing mimic the barometric shifts known to trigger weather-related migraines, cabin air is unusually dry and dehydrating, and prolonged immobility plus disrupted routine compound the effect. Staying well hydrated before and during the flight and minimizing other stacked triggers on travel days both help.</p>
+
+      <h3>How can I prevent migraines while traveling?</h3>
+      <p>Hydrate proactively before you travel, not just during; keep caffeine intake consistent even across time zones; avoid long gaps without eating by packing snacks; keep acute medication accessible in your carry-on; and try to anchor sleep and wake times as close to normal as the trip allows. Preparing for the destination's weather conditions in advance removes one more variable from an already trigger-heavy day.</p>
+    `,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
