@@ -92,95 +92,151 @@ export default async function Home({
       <Background />
 
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
-      <section className="pt-32 pb-20 relative overflow-hidden">
-        {/* Use full width container on hero, no right padding on lg so phone can sit at edge */}
-        <div className="w-full max-w-[1400px] mx-auto px-6 lg:pr-0">
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] items-center gap-10 lg:gap-8">
+      <section className="relative overflow-hidden">
+        <div className="relative w-full">
+          <Image
+            src="/hero-bg.jpg"
+            alt="A woman finds calm above the clouds at sunrise, with the MigraineCast app open on her phone"
+            width={2560}
+            height={1440}
+            priority
+            unoptimized
+            className="block w-full h-auto"
+          />
 
-            {/* Left: Copy */}
-            <div className="max-w-[600px] lg:pl-0">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-accent/10 border border-accent/20 rounded-full text-xs font-semibold text-accent-soft uppercase tracking-[0.08em] mb-7 animate-fade-up-delay-2">
-                <AppleIcon className="w-3.5 h-3.5" />
-                {t("hero.badge")}
-              </div>
+          {/* Top scrim so the floating nav stays legible over the photo */}
+          <div className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-black/45 to-transparent" />
 
-              <h1 className="font-display text-[clamp(2.2rem,4.5vw,3.75rem)] font-normal leading-[1.07] tracking-tight mb-5 animate-fade-up-delay-3">
-                {t.rich("hero.title", {
-                  em: (chunks) => <em className="italic text-accent-soft">{chunks}</em>,
-                })}
-              </h1>
+          {/* Scrim so the headline stays legible over the photo (desktop overlay only) */}
+          <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-black/65 via-black/25 to-transparent" />
 
-              <p className="text-[clamp(1rem,1.6vw,1.15rem)] text-text-muted leading-relaxed mb-8 animate-fade-up-delay-4">
-                {t.rich("hero.description", {
-                  b: (chunks) => <span className="text-text font-medium">{chunks}</span>,
-                })}
-              </p>
+          {/* iPhone mockup — self-contained box matching the frame PNG's own aspect ratio, placed in the open sky to the right of the photo's subject */}
+          <div
+            className="absolute"
+            style={{ left: "72.75%", top: "21.79%", width: "18.5%", aspectRatio: "600 / 1139" }}
+          >
+            <div
+              className="absolute overflow-hidden bg-black"
+              style={{ left: "11.33%", top: "3.51%", width: "76.83%", height: "92.18%", borderRadius: "12% / 6%" }}
+            >
+              <video
+                src="/demo.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <img
+              src="/iphone mockup.png"
+              alt=""
+              className="absolute inset-0 w-full h-full pointer-events-none select-none"
+            />
+          </div>
 
-              <div className="flex flex-wrap gap-3 mb-8 animate-fade-up-delay-5">
-                <DownloadButton
-                  href={APPSTORE_URL}
-                  location="hero"
-                  className="inline-flex items-center gap-2.5 px-7 py-[17px] bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4),inset_0_1px_0_rgba(255,255,255,0.2)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_40px_rgba(167,139,250,0.5),inset_0_1px_0_rgba(255,255,255,0.2)]"
-                >
-                  <AppleIcon />
-                  {t("hero.downloadCta")}
-                </DownloadButton>
-                <Link
-                  href="/what-is-migrainecast"
-                  className="inline-flex items-center gap-2 px-5 py-[17px] text-text font-semibold transition-colors hover:text-accent-soft group"
-                >
-                  {t("hero.howItHelps")}
-                  <svg
-                    viewBox="0 0 24 24"
-                    className="w-[18px] h-[18px] fill-none stroke-current stroke-2 transition-transform group-hover:translate-x-1"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </div>
-
-              <div className="flex items-center gap-3 animate-fade-up-delay-5">
-                <span className="text-yellow-400 tracking-tight text-base leading-none">★★★★★</span>
-                <span className="text-sm text-text-muted">
-                  {t.rich("hero.rating", {
-                    b: (chunks) => <span className="text-text font-semibold">{chunks}</span>,
-                  })}
-                </span>
-              </div>
+          {/* Desktop copy — overlaid on the open sky to the left of the photo */}
+          <div className="hidden lg:flex absolute inset-0 flex-col pl-16 pt-28 max-w-[600px]">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-white/10 border border-white/20 rounded-full text-xs font-semibold text-white uppercase tracking-[0.08em] mb-5 backdrop-blur-sm w-fit animate-fade-up-delay-2">
+              <AppleIcon className="w-3.5 h-3.5" />
+              {t("hero.badge")}
             </div>
 
-            {/* Right: iPhone with demo video — flush to right edge */}
-            <div className="flex items-center justify-center lg:justify-end animate-fade-up-delay-3">
-              <div className="relative">
-                {/* Glow rings */}
-                <div className="glow-ring w-[320px] h-[320px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
-                <div className="glow-ring w-[460px] h-[460px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-40" />
+            <h1 className="font-display text-[clamp(1.875rem,3.4vw,3rem)] font-normal leading-[1.1] tracking-tight mb-4 text-white animate-fade-up-delay-3">
+              {t.rich("hero.title", {
+                em: (chunks) => <em className="italic text-[#a3b0f8]">{chunks}</em>,
+              })}
+            </h1>
 
-                {/* iPhone frame */}
-                <div className="relative z-10">
-                  <div className="relative w-[290px] h-[593px] bg-gradient-to-b from-[#3a3a3c] via-[#2c2c2e] to-[#1c1c1e] rounded-[55px] p-[3px] shadow-[0_60px_120px_rgba(0,0,0,0.6),0_0_0_1px_rgba(255,255,255,0.1)]">
-                    <div className="w-full h-full bg-black rounded-[52px] p-[10px]">
-                      <div className="relative w-full h-full rounded-[42px] overflow-hidden bg-black flex items-center justify-center">
-                        <video
-                          src="/demo.mp4"
-                          autoPlay
-                          muted
-                          loop
-                          playsInline
-                          className="w-full h-auto"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  {/* Side buttons */}
-                  <div className="absolute right-[-2px] top-[154px] w-[3px] h-[77px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-r-sm" />
-                  <div className="absolute left-[-2px] top-[130px] w-[3px] h-[27px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
-                  <div className="absolute left-[-2px] top-[172px] w-[3px] h-[48px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
-                  <div className="absolute left-[-2px] top-[236px] w-[3px] h-[48px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
-                </div>
-              </div>
+            <p className="text-[clamp(0.95rem,1.4vw,1.05rem)] text-white/80 leading-relaxed mb-6 animate-fade-up-delay-4">
+              {t.rich("hero.description", {
+                b: (chunks) => <span className="text-white font-medium">{chunks}</span>,
+              })}
+            </p>
+
+            <div className="flex flex-wrap gap-3 mb-5 animate-fade-up-delay-5">
+              <DownloadButton
+                href={APPSTORE_URL}
+                location="hero"
+                className="inline-flex items-center gap-2.5 px-7 py-[17px] bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4),inset_0_1px_0_rgba(255,255,255,0.2)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_40px_rgba(167,139,250,0.5),inset_0_1px_0_rgba(255,255,255,0.2)]"
+              >
+                <AppleIcon />
+                {t("hero.downloadCta")}
+              </DownloadButton>
+              <Link
+                href="/what-is-migrainecast"
+                className="inline-flex items-center gap-2 px-5 py-[17px] text-white font-semibold transition-colors hover:text-accent-soft group"
+              >
+                {t("hero.howItHelps")}
+                <svg
+                  viewBox="0 0 24 24"
+                  className="w-[18px] h-[18px] fill-none stroke-current stroke-2 transition-transform group-hover:translate-x-1"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </Link>
             </div>
 
+            <div className="flex items-center gap-3 animate-fade-up-delay-5">
+              <span className="text-yellow-400 tracking-tight text-base leading-none">★★★★★</span>
+              <span className="text-sm text-white/80">
+                {t.rich("hero.rating", {
+                  b: (chunks) => <span className="text-white font-semibold">{chunks}</span>,
+                })}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Mobile copy — below the photo, using the page's normal theme colors */}
+        <div className="lg:hidden px-6 pt-10">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-accent/10 border border-accent/20 rounded-full text-xs font-semibold text-accent-soft uppercase tracking-[0.08em] mb-7">
+            <AppleIcon className="w-3.5 h-3.5" />
+            {t("hero.badge")}
+          </div>
+
+          <h1 className="font-display text-[clamp(2.2rem,4.5vw,3.75rem)] font-normal leading-[1.07] tracking-tight mb-5">
+            {t.rich("hero.title", {
+              em: (chunks) => <em className="italic text-accent-soft">{chunks}</em>,
+            })}
+          </h1>
+
+          <p className="text-[clamp(1rem,1.6vw,1.15rem)] text-text-muted leading-relaxed mb-8">
+            {t.rich("hero.description", {
+              b: (chunks) => <span className="text-text font-medium">{chunks}</span>,
+            })}
+          </p>
+
+          <div className="flex flex-wrap gap-3 mb-8">
+            <DownloadButton
+              href={APPSTORE_URL}
+              location="hero-mobile"
+              className="inline-flex items-center gap-2.5 px-7 py-[17px] bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4),inset_0_1px_0_rgba(255,255,255,0.2)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_40px_rgba(167,139,250,0.5),inset_0_1px_0_rgba(255,255,255,0.2)]"
+            >
+              <AppleIcon />
+              {t("hero.downloadCta")}
+            </DownloadButton>
+            <Link
+              href="/what-is-migrainecast"
+              className="inline-flex items-center gap-2 px-5 py-[17px] text-text font-semibold transition-colors hover:text-accent-soft group"
+            >
+              {t("hero.howItHelps")}
+              <svg
+                viewBox="0 0 24 24"
+                className="w-[18px] h-[18px] fill-none stroke-current stroke-2 transition-transform group-hover:translate-x-1"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <span className="text-yellow-400 tracking-tight text-base leading-none">★★★★★</span>
+            <span className="text-sm text-text-muted">
+              {t.rich("hero.rating", {
+                b: (chunks) => <span className="text-text font-semibold">{chunks}</span>,
+              })}
+            </span>
           </div>
         </div>
       </section>

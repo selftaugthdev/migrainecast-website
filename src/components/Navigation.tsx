@@ -55,10 +55,12 @@ export function Navigation() {
     { href: "/what-is-migrainecast", label: t("whatIsMigraineCast") },
     { href: "/blog", label: t("blog") },
     { href: "/tools", label: t("freeTools") },
+    { href: "/quizzes", label: t("quizzes") },
     { href: "/support", label: t("support") },
   ];
 
   const courseLink = { href: "/weather-course", label: t("freeCourse") };
+  const isPhotoHero = pathname === "/" && !scrolled && !mobileMenuOpen;
 
   return (
     <nav
@@ -88,8 +90,8 @@ export function Navigation() {
               href={link.href}
               className={`text-sm font-medium transition-colors ${
                 pathname === link.href || pathname.startsWith(link.href + "/")
-                  ? "text-accent-soft"
-                  : "text-text-muted hover:text-text"
+                  ? isPhotoHero ? "text-white" : "text-accent-soft"
+                  : isPhotoHero ? "text-white/85 hover:text-white" : "text-text-muted hover:text-text"
               }`}
             >
               {link.label}
@@ -98,12 +100,14 @@ export function Navigation() {
           <Link
             href={courseLink.href}
             className={`text-sm font-semibold inline-flex items-center gap-1.5 px-3 py-1 rounded-full border transition-colors ${
-              pathname === courseLink.href
+              isPhotoHero
+                ? "bg-white/10 border-white/30 text-white hover:bg-white/20"
+                : pathname === courseLink.href
                 ? "bg-accent/15 border-accent/40 text-accent-soft"
                 : "bg-accent/10 border-accent/25 text-accent hover:bg-accent/20"
             }`}
           >
-            <span className="w-1.5 h-1.5 rounded-full bg-accent inline-block" />
+            <span className={`w-1.5 h-1.5 rounded-full inline-block ${isPhotoHero ? "bg-white" : "bg-accent"}`} />
             {courseLink.label}
           </Link>
         </div>
@@ -113,7 +117,9 @@ export function Navigation() {
           <div className="hidden sm:block relative" ref={localeMenuRef}>
             <button
               onClick={() => setLocaleMenuOpen((open) => !open)}
-              className="flex items-center gap-1.5 text-sm font-medium text-text-muted hover:text-text transition-colors px-2 py-1.5 rounded-full hover:bg-surface/40"
+              className={`flex items-center gap-1.5 text-sm font-medium transition-colors px-2 py-1.5 rounded-full hover:bg-surface/40 ${
+                isPhotoHero ? "text-white/85 hover:text-white" : "text-text-muted hover:text-text"
+              }`}
               aria-label={tLocale("label")}
               aria-expanded={localeMenuOpen}
             >
@@ -145,7 +151,9 @@ export function Navigation() {
           {/* Theme toggle */}
           <button
             onClick={toggleTheme}
-            className="w-9 h-9 flex items-center justify-center rounded-full text-text-muted hover:text-text hover:bg-surface/40 transition-all duration-200"
+            className={`w-9 h-9 flex items-center justify-center rounded-full hover:bg-surface/40 transition-all duration-200 ${
+              isPhotoHero ? "text-white/85 hover:text-white" : "text-text-muted hover:text-text"
+            }`}
             aria-label={theme === "dark" ? t("switchToLight") : t("switchToDark")}
           >
             {theme === "dark" ? (
@@ -184,7 +192,9 @@ export function Navigation() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 text-text-muted hover:text-text transition-colors"
+            className={`md:hidden p-2 transition-colors ${
+              isPhotoHero ? "text-white/85 hover:text-white" : "text-text-muted hover:text-text"
+            }`}
             aria-label={t("toggleMenu")}
           >
             <svg viewBox="0 0 24 24" className="w-6 h-6 fill-none stroke-current stroke-2">
