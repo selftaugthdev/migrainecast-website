@@ -46,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/tools/pressure-threshold-estimator", changeFrequency: "monthly", priority: 0.8 },
     { path: "/tools/trigger-pattern-analyzer", changeFrequency: "monthly", priority: 0.8 },
     { path: "/tools/migraine-season-calendar", changeFrequency: "monthly", priority: 0.8 },
+    { path: "/tools/medication-effectiveness-calculator", changeFrequency: "monthly", priority: 0.8 },
     { path: "/tools/find-a-specialist", changeFrequency: "weekly", priority: 0.7 },
     { path: "/quizzes", changeFrequency: "monthly", priority: 0.7 },
     { path: "/migraine-trigger-quiz", changeFrequency: "monthly", priority: 0.8 },

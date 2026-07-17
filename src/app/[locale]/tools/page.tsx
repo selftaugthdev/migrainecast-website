@@ -65,6 +65,20 @@ const tools = [
     ),
   },
   {
+    href: "/tools/medication-effectiveness-calculator",
+    title: "Medication Effectiveness Calculator",
+    description:
+      "Score how well your acute migraine medication really works with the validated mTOQ-4 questionnaire — and find out if your usage frequency puts you at risk of medication overuse headache.",
+    badge: "Available now",
+    badgeColor: "text-emerald-400 bg-emerald-400/10 border-emerald-400/20",
+    icon: (
+      <svg viewBox="0 0 24 24" className="w-6 h-6 fill-none stroke-current stroke-[1.5]">
+        <path d="M10.5 20.5L3.5 13.5a4.95 4.95 0 1 1 7-7l7 7a4.95 4.95 0 1 1-7 7z" />
+        <line x1="7" y1="10" x2="14" y2="17" />
+      </svg>
+    ),
+  },
+  {
     href: "/tools/find-a-specialist",
     title: "Find a Migraine Specialist",
     description:

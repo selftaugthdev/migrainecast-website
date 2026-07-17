@@ -42,6 +42,7 @@ These tools are available on the website without downloading the app:
 - [Trigger Pattern Analyzer](https://migrainecast.app/tools/trigger-pattern-analyzer): Analyzes logged attack data against weather conditions to surface patterns.
 - [Migraine Season Calendar](https://migrainecast.app/tools/migraine-season-calendar): Shows which seasons and months tend to have higher migraine risk based on typical pressure volatility by region.
 - [Find a Specialist](https://migrainecast.app/tools/find-a-specialist): Directory tool to help users locate headache specialists and neurologists.
+- [Medication Effectiveness Calculator](https://migrainecast.app/tools/medication-effectiveness-calculator): Scores how well a user's acute migraine medication works using the validated mTOQ-4 questionnaire, and flags medication overuse headache risk based on usage frequency. No signup required.
 
 ## Key Pages
 
