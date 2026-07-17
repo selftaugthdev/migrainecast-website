@@ -83,10 +83,29 @@ All articles are at https://migrainecast.app/blog/[slug]
 - [Migraine Prodrome: The Early Warning Signs Most People Miss](https://migrainecast.app/blog/migraine-prodrome-signs)
 - [The Migraine and HRV Connection: What Your Heart Rate Variability Might Be Telling You](https://migrainecast.app/blog/migraine-and-hrv)
 
+### Women's Health & Hormones
+- [Menstrual Migraine: Why Attacks Cluster Around Your Period](https://migrainecast.app/blog/menstrual-migraine-guide)
+- [Migraine During Pregnancy: What Usually Improves, What Doesn't, and What to Watch For](https://migrainecast.app/blog/migraine-during-pregnancy)
+- [Breastfeeding and Migraines: The Postpartum Crash, the Protective Effect, and Treatment Questions](https://migrainecast.app/blog/breastfeeding-and-migraines)
+- [Birth Control and Migraines: How Hormonal Contraception Can Help, Hurt, and When Aura Changes Everything](https://migrainecast.app/blog/birth-control-and-migraines)
+- [PMS Headaches: Why Your Head Joins the Premenstrual Party](https://migrainecast.app/blog/pms-headaches)
+- [Perimenopause and Migraines: Why the Years Before Menopause Are Often the Roughest](https://migrainecast.app/blog/perimenopause-migraines)
+- [Menopause and Migraines: Does It Finally Get Better?](https://migrainecast.app/blog/menopause-and-migraines)
+- [How to Build a Hormonal Migraine Calendar (and Finally See Your Pattern)](https://migrainecast.app/blog/hormonal-migraine-calendar)
+- [PCOS and Migraines: What We Know About a Complicated Pair](https://migrainecast.app/blog/pcos-and-migraines)
+
 ### Triggers
 - [Common Migraine Triggers: The Full List (And Why Yours Might Be Different)](https://migrainecast.app/blog/common-migraine-triggers)
 - [Migraine Triggered by Weather Changes? Here's Exactly What to Do](https://migrainecast.app/blog/weather-triggered-migraine-what-to-do)
 - [Hormonal Migraine Relief: Why Your Cycle Triggers Attacks and What Actually Helps](https://migrainecast.app/blog/hormonal-migraine-relief)
+- [Alcohol and Migraines: Why Red Wine Gets the Blame and What's Actually Going On](https://migrainecast.app/blog/alcohol-and-migraines)
+- [Chocolate and Migraines: Trigger, or False Accusation?](https://migrainecast.app/blog/chocolate-and-migraines)
+- [Artificial Sweeteners and Migraines: The Aspartame Question](https://migrainecast.app/blog/artificial-sweeteners-and-migraines)
+- [Neck Tension and Migraines: Which One Is Causing the Other?](https://migrainecast.app/blog/neck-tension-and-migraines)
+- [Skipping Meals and Migraines: Why an Empty Stomach Is a Loaded Trigger](https://migrainecast.app/blog/skipping-meals-migraine-trigger)
+- [Exercise Headaches and Migraines: Why Workouts Trigger Attacks (and Why You Shouldn't Quit)](https://migrainecast.app/blog/exercise-headaches)
+- [Blue Light and Migraines: What Screens Actually Do to a Migraine Brain](https://migrainecast.app/blog/blue-light-and-migraines)
+- [Loud Sounds and Migraines: When the World Is Turned Up Too High](https://migrainecast.app/blog/loud-sounds-migraine-trigger)
 
 ### Management & Prevention
 - [How to Stop a Migraine Before It Starts: A Practical Early-Intervention Guide](https://migrainecast.app/blog/stop-a-migraine-before-it-starts)

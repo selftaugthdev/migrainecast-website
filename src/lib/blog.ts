@@ -3776,6 +3776,866 @@ const posts: BlogPost[] = [
       <p><em>This article is for informational and educational purposes only and is not medical advice. Always consult a doctor or headache specialist about diagnosis and treatment of migraine.</em></p>
     `,
   },
+  {
+    slug: "menstrual-migraine-guide",
+    title: "Menstrual Migraine: Why Attacks Cluster Around Your Period",
+    excerpt:
+      "If your worst migraines land in the same few days of your cycle, month after month, that's not coincidence — it's one of the best-understood patterns in all of migraine science. Here's what's happening and how to confirm it.",
+    date: "July 15, 2026",
+    category: "Science",
+    content: `
+      <p>Ask a woman with migraines when her worst attacks happen, and there's a good chance she can answer with a cycle day. The two days before her period, or the first two days of it. Month after month, with grim reliability.</p>
+
+      <p>That pattern has a name — menstrual migraine — and it's one of the best-understood mechanisms in all of migraine science. Understanding it precisely matters, because menstrual attacks behave differently and are managed differently than other migraines.</p>
+
+      <h2>The Estrogen Withdrawal Mechanism</h2>
+
+      <p>The trigger isn't menstruation itself — it's what happens to estrogen just before it. In the late luteal phase (the days before bleeding starts), estrogen falls sharply from its post-ovulation levels. That rapid <em>drop</em> — not low estrogen itself, but the speed of the decline — is the trigger. Researchers demonstrated this decades ago: giving estrogen before a period delayed the migraine, while the period itself arrived on schedule.</p>
+
+      <p>It's a theme you'll recognize if you've read our weather articles: migraine-prone nervous systems react to rates of change. Falling barometric pressure, falling blood sugar, falling estrogen — the direction and speed matter more than the absolute level. We cover the post-period version of this mechanism in <a href="/blog/migraines-after-period">Why You Get Migraines After Your Period</a>.</p>
+
+      <h2>Pure Menstrual vs. Menstrually-Related</h2>
+
+      <p>Clinicians distinguish two patterns, and the distinction changes the management conversation:</p>
+
+      <p><strong>Pure menstrual migraine:</strong> attacks occur <em>only</em> in the window from two days before to three days into bleeding, and at no other time of the month. This is the rarer pattern.</p>
+
+      <p><strong>Menstrually-related migraine:</strong> attacks occur in that window most cycles, but also at other times of the month. This is far more common — the period is one trigger among several.</p>
+
+      <p>Some women also notice a smaller spike around ovulation, mid-cycle, when estrogen takes a briefer dip.</p>
+
+      <h2>Why Menstrual Attacks Feel Worse</h2>
+
+      <p>This isn't in your head. Studies comparing menstrual to non-menstrual attacks in the same women have found menstrual attacks tend to be longer, more severe, more likely to relapse after treatment, and less responsive to acute medication. If your period migraines laugh at the medication that handles your other attacks, that's a documented phenomenon worth telling your doctor about — there are specific strategies for menstrual attacks, including short-term preventive approaches timed to the cycle, that a clinician can discuss with you.</p>
+
+      <h2>Confirming Your Pattern</h2>
+
+      <p>Memory reliably exaggerates or misses cycle patterns — the fix is a written record. Track attacks alongside cycle days for three cycles, and the answer is usually unmistakable. The window to watch is day −2 to day +3 (two days before bleeding through the third day of it). Our guide to <a href="/blog/hormonal-migraine-calendar">building a hormonal migraine calendar</a> walks through exactly how, and why three cycles is the magic number.</p>
+
+      <p>One more reason to track: hormones don't operate in a vacuum. An estrogen drop landing on the same days as a storm front, bad sleep, or a stressful week is a stacked load — many women find their "period migraine" only breaks through when a second trigger piles on. MigraineCast logs the weather side automatically, which makes those stacks visible.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What causes menstrual migraines?</h3>
+      <p>The rapid drop in estrogen during the days just before menstruation. It's the speed of the decline, not low estrogen itself, that triggers attacks in susceptible women — which is why the highest-risk window runs from about two days before bleeding to three days into it.</p>
+
+      <h3>Why are period migraines worse than my normal ones?</h3>
+      <p>Research comparing attacks within the same women has found menstrual attacks tend to be longer, more severe, more prone to recurrence, and less responsive to acute treatment. If this matches your experience, it's worth raising specifically with your doctor — menstrual attacks have their own management strategies.</p>
+
+      <h3>How do I know if my migraines are hormonal?</h3>
+      <p>Track attacks against your cycle for three months. If attacks consistently land in the day −2 to +3 window around bleeding (or around ovulation), the pattern is hormonal or partly hormonal. A written or app-based record is far more reliable than memory.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of menstrual migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-during-pregnancy",
+    title: "Migraine During Pregnancy: What Usually Improves, What Doesn't, and What to Watch For",
+    excerpt:
+      "For many women, pregnancy is the best migraine stretch of their lives — but the first trimester can be rough, and some headaches in pregnancy need urgent medical attention. Here's the honest map.",
+    date: "July 13, 2026",
+    category: "Tips",
+    content: `
+      <p>Pregnancy does something remarkable to many women's migraines: it takes them away. Studies following migraine sufferers through pregnancy consistently find that a majority — often reported around 50–75% — improve significantly, especially in the second and third trimesters. Some have their first attack-free months in years.</p>
+
+      <p>But that's the average story, not everyone's story, and pregnancy also changes the safety conversation around treatment completely. Here's an honest map of the territory — with the important caveat up front that <strong>every treatment decision in pregnancy belongs with your doctor or midwife</strong>, not an article.</p>
+
+      <h2>Why Pregnancy Often Helps</h2>
+
+      <p>The likely hero is estrogen stability. After the first trimester, estrogen climbs to high levels and — crucially — <em>stays</em> there. No monthly plunge, no withdrawal trigger. As we covered in our <a href="/blog/menstrual-migraine-guide">menstrual migraine guide</a>, it's the rapid drops in estrogen that trigger attacks, so nine months without a drop is nine months without your biggest hormonal trigger.</p>
+
+      <p>Women whose attacks were strongly menstrual tend to see the biggest improvement — their dominant trigger has been switched off.</p>
+
+      <h2>The First Trimester Is the Hard Part</h2>
+
+      <p>The early weeks are a different story: hormones are shifting rapidly, and morning sickness piles on dehydration, skipped meals, and disrupted sleep — three classic triggers — right when many women are also cutting caffeine abruptly (caffeine withdrawal is itself a notorious headache trigger; a gradual taper is worth discussing with your doctor rather than quitting cold turkey).</p>
+
+      <p>If the first trimester is rough, that's typical, and it usually settles as hormone levels stabilize.</p>
+
+      <h2>Aura Can Behave Differently</h2>
+
+      <p>Not everyone improves. A minority stay the same or worsen, and migraine with aura follows the pattern less reliably — some women experience aura for the first time during pregnancy. A first-ever aura (visual disturbances, tingling, speech difficulty) during pregnancy warrants prompt medical evaluation, both to confirm it's migraine and to rule out other causes.</p>
+
+      <h2>The Headaches That Need Urgent Attention</h2>
+
+      <p>This is the most important section of this article. In the second half of pregnancy, a new or severe headache can be a symptom of preeclampsia — a serious blood-pressure condition. Seek medical care promptly for: a headache that is sudden and severe, different from your usual migraines, unresponsive to your usual measures, or accompanied by visual changes, swelling of hands and face, upper abdominal pain, or nausea in late pregnancy. Don't self-diagnose a "bad migraine" in the third trimester — let a professional make that call.</p>
+
+      <h2>Managing Attacks the Non-Drug Way</h2>
+
+      <p>Many acute migraine medications are not recommended in pregnancy, and the ones that may be acceptable — and when — are strictly a conversation for your doctor. That makes the non-drug toolkit the front line:</p>
+
+      <p><strong>Defend the basics ruthlessly.</strong> Regular meals (small and frequent if nausea allows), deliberate hydration, consistent sleep, and gentle regular movement address the triggers pregnancy amplifies.</p>
+
+      <p><strong>Use physical tools.</strong> Cold packs, dark quiet rooms, and rest remain fully available. Some women find relief with relaxation techniques or pregnancy-safe massage.</p>
+
+      <p><strong>Track your remaining triggers.</strong> With hormones stabilized, the triggers that still reach you — weather swings, sleep, stress — become easier to see. Logging attacks (MigraineCast tracks the weather side automatically) helps you protect the risk windows you still have.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Do migraines get better during pregnancy?</h3>
+      <p>For most women, yes — studies find the majority improve, especially in the second and third trimesters when estrogen is high and stable. Women with strongly menstrual migraines tend to improve most. A minority stay the same or worsen, and aura can behave unpredictably.</p>
+
+      <h3>When should I worry about a headache during pregnancy?</h3>
+      <p>Seek prompt medical care for a headache that's sudden, severe, unlike your usual pattern, or accompanied by visual changes, swelling, or upper abdominal pain — particularly in the second half of pregnancy, when new headaches can signal preeclampsia. When in doubt, call your provider.</p>
+
+      <h3>What can I take for a migraine while pregnant?</h3>
+      <p>That question belongs entirely to your doctor or midwife, who can weigh options for your specific situation and trimester. Many standard migraine medications are not recommended in pregnancy, which makes prevention — meals, hydration, sleep, and trigger management — the most valuable tool you fully control.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. Always consult your doctor, midwife, or a headache specialist about headaches and any treatment during pregnancy.</em></p>
+    `,
+  },
+  {
+    slug: "breastfeeding-and-migraines",
+    title: "Breastfeeding and Migraines: The Postpartum Crash, the Protective Effect, and Treatment Questions",
+    excerpt:
+      "The weeks after birth are prime migraine territory — an estrogen cliff plus newborn sleep deprivation. But breastfeeding may extend some of pregnancy's protection. Here's what the postpartum months typically look like.",
+    date: "July 12, 2026",
+    category: "Tips",
+    content: `
+      <p>If pregnancy gave you a break from migraines, the postpartum period is where biology sends the bill. The weeks after delivery combine two of the most powerful attack triggers known: a hormonal cliff and profound sleep deprivation. But there's a genuinely interesting wrinkle — breastfeeding appears to soften the landing for some women.</p>
+
+      <h2>The Postpartum Estrogen Cliff</h2>
+
+      <p>During pregnancy, estrogen sits at very high, stable levels — which is likely why so many women improve (see <a href="/blog/migraine-during-pregnancy">Migraine During Pregnancy</a>). Within days of delivery, estrogen plummets to a fraction of those levels. As covered in our <a href="/blog/menstrual-migraine-guide">menstrual migraine guide</a>, rapid estrogen drops are the classic hormonal trigger — and the postpartum drop is the largest one in reproductive life. Studies find migraine commonly returns within the first month postpartum, often in the first week.</p>
+
+      <p>Layer on top: newborn-grade sleep fragmentation, skipped meals, dehydration (especially while nursing), and the general physiological recovery from birth. It's a stacked-trigger environment by design.</p>
+
+      <h2>Where Breastfeeding Fits In</h2>
+
+      <p>Here's the hopeful part. Breastfeeding — particularly exclusive breastfeeding — suppresses ovulation and delays the return of the menstrual cycle, keeping hormones in a low but <em>stable</em> state. Stable is the key word: no cycling means no monthly estrogen withdrawals. Some studies have found lower rates of migraine recurrence in exclusively breastfeeding mothers compared to bottle-feeding mothers in the early postpartum months, though the research isn't unanimous.</p>
+
+      <p>The practical takeaway isn't "breastfeed to prevent migraines" — feeding decisions involve much more than headaches. It's simply this: if you're nursing and your cycle hasn't returned, you may be in a hormonally quieter window, and when your cycle does return, your hormonal attacks may return with it. Knowing that helps you see the change coming rather than being ambushed by it.</p>
+
+      <h2>The Medication Question</h2>
+
+      <p>What can you take for a migraine while nursing? The honest answer: that's a decision for your doctor and pharmacist, made drug by drug. Medications transfer into breast milk to very different degrees, and guidance differs across drugs, doses, and your baby's age. What we can usefully say:</p>
+
+      <p><strong>Don't assume "pregnancy rules" still apply.</strong> The compatibility picture during lactation is different from pregnancy — some options closed during pregnancy may reopen, and vice versa. Ask rather than carry over assumptions.</p>
+
+      <p><strong>Good information exists.</strong> Resources like the NIH's LactMed database catalog what's known about specific drugs and lactation — your doctor or pharmacist can walk you through them for your specific medications.</p>
+
+      <p><strong>Timing strategies exist too.</strong> For some medications, clinicians suggest timing doses relative to feeds — again, specifics belong with your care team.</p>
+
+      <h2>Protecting Yourself in the Newborn Months</h2>
+
+      <p>The controllable levers are unglamorous but real: hydrate aggressively (nursing raises fluid needs substantially — keep water within reach of wherever you feed), eat regularly even when chaos argues otherwise, sleep when you can and split nights with a partner where possible, and lower every trigger you control because sleep — the big one — is temporarily out of your hands. If a storm front is coming on top of a three-feed night, that's a day to keep deliberately gentle; MigraineCast can at least make the weather side visible while your routine is in flux.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why did my migraines come back right after giving birth?</h3>
+      <p>Estrogen falls off a cliff within days of delivery — the largest hormonal drop in reproductive life — landing on top of newborn sleep deprivation and recovery. Migraine commonly returns in the first postpartum month, often the first week, especially in women whose attacks are hormonally sensitive.</p>
+
+      <h3>Does breastfeeding prevent migraines?</h3>
+      <p>It may help some women. Exclusive breastfeeding delays the return of cycling, keeping hormones low but stable — and some studies find less early migraine recurrence in exclusively nursing mothers. Evidence is mixed, and feeding choices involve far more than headache management.</p>
+
+      <h3>What migraine medication is safe while breastfeeding?</h3>
+      <p>That's a drug-by-drug decision for your doctor and pharmacist — transfer into breast milk varies widely between medications. Databases like LactMed document current knowledge, and your care team can apply it to your specific situation and your baby's age.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. Always consult your doctor and pharmacist about any medication while breastfeeding.</em></p>
+    `,
+  },
+  {
+    slug: "birth-control-and-migraines",
+    title: "Birth Control and Migraines: How Hormonal Contraception Can Help, Hurt, and When Aura Changes Everything",
+    excerpt:
+      "Hormonal contraception can smooth out migraine patterns for some women and worsen them for others — and if you have migraine with aura, there's a safety conversation you need to have. Here's the landscape.",
+    date: "July 10, 2026",
+    category: "Science",
+    content: `
+      <p>Few topics generate more confusion in migraine care than hormonal contraception. Some women start the pill and their migraines calm down. Others start the same pill and get their first migraine of their lives. Both outcomes are real, both have mechanisms — and for one specific group, women with migraine <em>with aura</em>, there's a safety issue that deserves to be more widely known.</p>
+
+      <p>To be clear up front: contraception decisions are individual medical decisions made with your doctor. What this article can do is map the landscape so you walk into that conversation informed.</p>
+
+      <h2>Why the Same Pill Cuts Both Ways</h2>
+
+      <p>Combined hormonal contraceptives (pill, patch, ring) deliver synthetic estrogen and progestin, typically in a cycle: three weeks on, one week off (or placebo). During the hormone-free week, synthetic estrogen levels drop — and as our <a href="/blog/menstrual-migraine-guide">menstrual migraine guide</a> explains, rapid estrogen drops are the classic hormonal migraine trigger.</p>
+
+      <p>This explains the split experience. For women whose natural cycles are hormonally chaotic, the pill's steady three weeks can be <em>more</em> stable than what they had — improvement. For others, the monthly manufactured estrogen drop in the placebo week becomes a new, reliable trigger — those tell-tale "pill week" headaches. If your attacks cluster in your placebo week, that pattern is worth showing your doctor: options like shortened hormone-free intervals or continuous/extended regimens exist precisely for this, and whether they suit you is a clinical conversation.</p>
+
+      <p>Progestin-only methods (mini-pill, hormonal IUD, implant, injection) avoid the estrogen cycling entirely, which changes the migraine calculus — sometimes favorably, though responses vary.</p>
+
+      <h2>The Aura Question: Why It Matters</h2>
+
+      <p>Here's the part every woman with migraine should know. Migraine with aura — visual disturbances, tingling, speech changes before or during attacks — is independently associated with a small increase in ischemic stroke risk. Estrogen-containing contraception also carries a small clot and stroke risk. Because the risks compound, major guidelines (including WHO and CDC contraceptive eligibility criteria) generally advise <em>against</em> combined hormonal contraception for women who have migraine with aura, and clinicians weigh additional factors like smoking and age.</p>
+
+      <p>The absolute risk for any individual remains small, and this is emphatically not a reason to panic — it's a reason to make sure your prescriber <em>knows</em> you have aura. Aura is underreported: if you've never mentioned your visual weirdness before an attack because it seemed minor, mention it. It changes which options are recommended for you. (Progestin-only and non-hormonal methods are generally not subject to the same restriction — again, your doctor's call.) Not sure if what you experience is aura? Our guide to <a href="/blog/migraine-with-aura-symptoms">migraine with aura symptoms</a> describes what it looks like.</p>
+
+      <h2>Starting, Switching, Stopping: Watch the Transitions</h2>
+
+      <p>Any change in hormonal contraception is a hormonal transition, and transitions are when migraine patterns shift. New or worsening headaches after starting a method, a change in your aura, or your first-ever aura on hormonal contraception are all worth reporting promptly rather than waiting out. Equally, when stopping contraception, expect your underlying pattern — whatever it was — to gradually reassert itself as natural cycling returns.</p>
+
+      <h2>Track Through the Change</h2>
+
+      <p>If you're starting or switching methods, that's the single most valuable time to run a <a href="/blog/hormonal-migraine-calendar">hormonal migraine calendar</a>: log attacks against pill days for two to three cycles. The data shows you and your doctor exactly what the method is doing to your pattern — placebo-week clustering, overall improvement, or worsening — instead of relying on impressions.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can birth control cause migraines?</h3>
+      <p>It can influence them in both directions. The estrogen drop during the hormone-free week of combined methods is a common trigger — producing predictable "pill week" attacks — while the steady hormone weeks can actually stabilize some women's patterns. Progestin-only methods avoid estrogen cycling entirely and affect migraine differently.</p>
+
+      <h3>Why can't I take the pill if I have migraine with aura?</h3>
+      <p>Migraine with aura carries a small independent increase in stroke risk, and estrogen-containing contraception adds its own small clot and stroke risk. Because these compound, major guidelines generally recommend against combined hormonal methods for women with aura. Progestin-only and non-hormonal options are typically viewed differently — discuss specifics with your doctor.</p>
+
+      <h3>What should I do about headaches in my placebo week?</h3>
+      <p>First, confirm the pattern by logging attacks against your pill schedule for a few cycles. If attacks reliably cluster in the hormone-free days, bring that record to your prescriber — regimen adjustments designed to smooth or shorten the estrogen drop exist, and your doctor can advise whether one fits your situation.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. Contraception and migraine treatment decisions should always be made with your doctor.</em></p>
+    `,
+  },
+  {
+    slug: "pms-headaches",
+    title: "PMS Headaches: Why Your Head Joins the Premenstrual Party",
+    excerpt:
+      "Headaches in the run-up to your period sit at the crossroads of PMS and menstrual migraine — and telling those two apart changes what helps. Here's how to read your own premenstrual pattern.",
+    date: "July 9, 2026",
+    category: "Science",
+    content: `
+      <p>Bloating, mood swings, fatigue — and for many women, a headache that arrives like clockwork in the days before their period. Premenstrual headaches are extremely common, but they're also a diagnostic crossroads: some are tension-type headaches riding along with PMS, and some are true menstrual migraines. The distinction isn't academic — it changes what's likely to help.</p>
+
+      <h2>The Same Hormonal Engine</h2>
+
+      <p>PMS symptoms and premenstrual headaches share a driver: the late-luteal hormonal shift, when estrogen and progesterone both fall ahead of bleeding. Falling estrogen affects serotonin systems — the same neurotransmitter territory implicated in both migraine and premenstrual mood symptoms — which is why the headache so often travels with the mood dip, the fatigue, and the food cravings rather than arriving alone.</p>
+
+      <p>The estrogen-withdrawal mechanism is covered in depth in our <a href="/blog/menstrual-migraine-guide">menstrual migraine guide</a>; the short version is that the <em>speed</em> of the premenstrual estrogen drop is what susceptible nervous systems react to.</p>
+
+      <h2>PMS Headache or Menstrual Migraine?</h2>
+
+      <p>The label matters less than the features. Ask three questions about your premenstrual headaches:</p>
+
+      <p><strong>How disabling?</strong> Tension-type headaches are unpleasant but usually allow you to function; migraine attacks typically impair or stop your day.</p>
+
+      <p><strong>What are the companions?</strong> Nausea, sensitivity to light and sound, and worsening with routine movement point to migraine. A tight, band-like, pressure quality without those features points to tension-type. Our <a href="/blog/migraine-vs-headache">migraine vs. headache guide</a> covers the full comparison.</p>
+
+      <p><strong>One-sided and throbbing, or both-sided and steady?</strong> Not a perfect rule, but pulsating one-sided pain leans migraine.</p>
+
+      <p>If your premenstrual headaches have migraine features, you're likely dealing with menstrually-related migraine — which has its own management playbook and deserves that name at your doctor's appointment, because "PMS headaches" and "menstrual migraine" can prompt different responses from clinicians.</p>
+
+      <h2>What Helps the Premenstrual Window</h2>
+
+      <p><strong>See it coming.</strong> The single biggest advantage of a cyclical trigger is predictability. Mark your personal window (typically day −2 to +3) and treat it like a forecasted storm: guard sleep, hydrate, keep meals regular, and go easy on alcohol precisely when your threshold is lowest.</p>
+
+      <p><strong>Mind the stack.</strong> Premenstrual days lower your threshold; a second trigger — a pressure drop, a short night, a skipped lunch — often supplies the push. Many women find their premenstrual headache only materializes when the window collides with something else. Tracking attacks against both cycle and weather (MigraineCast handles the weather half automatically) makes those collisions visible.</p>
+
+      <p><strong>Bring the pattern to your doctor.</strong> If premenstrual headaches are frequent or disabling, a documented three-cycle record turns a vague complaint into an actionable pattern — and options for cyclical symptoms, from lifestyle to preventive strategies, are exactly the conversation a clinician can tailor.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Are headaches a symptom of PMS?</h3>
+      <p>Yes — headaches are among the most commonly reported premenstrual symptoms, driven by the same late-luteal hormonal shifts as the rest of PMS. Some are tension-type headaches; a substantial share are true menstrual migraines, which are typically more disabling and benefit from being identified as such.</p>
+
+      <h3>How do I tell a PMS headache from a menstrual migraine?</h3>
+      <p>Look at features, not timing (the timing is identical): nausea, light and sound sensitivity, one-sided throbbing pain, and needing to stop your day all point toward migraine. A functional, band-like pressure headache without those features points toward tension-type.</p>
+
+      <h3>How can I prevent premenstrual headaches?</h3>
+      <p>Use the predictability: identify your personal risk window by tracking a few cycles, then protect sleep, hydration, and meal regularity in those days while minimizing stackable triggers like alcohol. If attacks are frequent or severe, bring your tracked pattern to a doctor to discuss preventive options.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of headaches or PMS, consult a doctor.</em></p>
+    `,
+  },
+  {
+    slug: "perimenopause-migraines",
+    title: "Perimenopause and Migraines: Why the Years Before Menopause Are Often the Roughest",
+    excerpt:
+      "Many women's migraines get worse — and weirder — in their 40s. Perimenopause turns the predictable monthly estrogen cycle into random chaos, and migraine-prone brains hate randomness. Here's what's happening.",
+    date: "July 7, 2026",
+    category: "Science",
+    content: `
+      <p>There's a pattern headache clinics know well: a woman in her mid-40s whose migraines, stable for decades, suddenly go rogue. More frequent, less predictable, less responsive to what used to work. Often she's wondering if something is seriously wrong. Frequently, the answer is perimenopause — and understanding why brings both relief and strategy.</p>
+
+      <h2>From Cycle to Chaos</h2>
+
+      <p>Perimenopause — the transition years before periods stop, typically starting in the mid-40s and lasting anywhere from a few to ten years — is not a gentle fade. Ovarian hormone production doesn't decline smoothly; it sputters. Cycles shorten, lengthen, skip. Estrogen doesn't just fall — it spikes and crashes erratically, sometimes swinging higher than in earlier life before dropping further.</p>
+
+      <p>Now recall the core mechanism from our <a href="/blog/menstrual-migraine-guide">menstrual migraine guide</a>: migraine-prone nervous systems react to rapid estrogen <em>drops</em>. A regular cycle delivers one predictable drop a month. Perimenopause delivers unpredictable drops at unpredictable intervals — which is why studies find migraine frequency commonly increases during the transition, and why the pattern feels so random. It isn't random; the schedule just became invisible.</p>
+
+      <h2>The Reinforcements Arrive Together</h2>
+
+      <p>Hormonal chaos rarely attacks alone during these years:</p>
+
+      <p><strong>Sleep disruption.</strong> Night sweats and insomnia are hallmark perimenopausal symptoms, and fragmented sleep is one of migraine's most reliable triggers — a nightly amplifier running underneath everything else.</p>
+
+      <p><strong>Mood and stress load.</strong> The transition years often coincide with peak life load — careers, teenagers, aging parents — while hormonal shifts themselves affect mood. Stress and poor sleep compound each other and lower the attack threshold further.</p>
+
+      <p><strong>Your other triggers still apply.</strong> Weather sensitivity, skipped meals, alcohol — none of it goes away; it now lands on a system with less hormonal stability to absorb it.</p>
+
+      <h2>What You Can Actually Do</h2>
+
+      <p><strong>Re-track, even if you know your triggers.</strong> Your pattern is changing under you — the trigger map you built at 35 may be obsolete at 47. Two to three months of fresh logging (attacks, cycle days such as they are, sleep, and weather — MigraineCast automates the weather part) rebuilds the map for the system you have now.</p>
+
+      <p><strong>Defend sleep like it's medication.</strong> Given how central sleep disruption is to perimenopausal migraine, anything that improves it — cooling the bedroom, consistent schedules, treating night sweats (a doctor conversation) — pays off doubly.</p>
+
+      <p><strong>Have the treatment-review conversation.</strong> If attack frequency has climbed, that alone can change what management approach makes sense — from acute-only to preventive strategies. And hormone therapy for perimenopausal symptoms has complex, individual effects on migraine (it helps some women and worsens others, and aura affects the calculus) — exactly the discussion to have with a doctor who knows your full picture. Our free <a href="/tools/medication-effectiveness-calculator">Medication Effectiveness Calculator</a> can help you assess whether your current acute treatment is still pulling its weight before that appointment.</p>
+
+      <p><strong>Know the destination.</strong> There's genuine light ahead: after menopause, when hormones settle at stable low levels, many women's migraines improve substantially — see <a href="/blog/menopause-and-migraines">Menopause and Migraines</a>.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why are my migraines worse in perimenopause?</h3>
+      <p>Perimenopausal estrogen doesn't decline smoothly — it spikes and crashes unpredictably, delivering the rapid drops that trigger hormonal migraine on a chaotic schedule. Add hallmark sleep disruption and midlife stress load, and both frequency and unpredictability commonly increase during the transition.</p>
+
+      <h3>Do migraines go away after menopause?</h3>
+      <p>Many women improve significantly once hormones stabilize at low levels post-menopause, particularly those whose attacks were hormonally driven. It's not universal — but the chaotic perimenopausal phase is very often the worst of it, not a preview of the future.</p>
+
+      <h3>Should I take HRT if I have migraines?</h3>
+      <p>That's genuinely individual: hormone therapy improves migraine for some women and worsens it for others, delivery method and dosing pattern matter, and migraine with aura adds considerations. It's a decision to make with your doctor, ideally with a few months of tracked attack data in hand.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine or perimenopausal symptoms, consult a doctor.</em></p>
+    `,
+  },
+  {
+    slug: "menopause-and-migraines",
+    title: "Menopause and Migraines: Does It Finally Get Better?",
+    excerpt:
+      "The most common question women with hormonal migraines ask about menopause: will they finally stop? For many, genuinely yes — but the answer depends on how you get there and what your other triggers are.",
+    date: "July 6, 2026",
+    category: "Tips",
+    content: `
+      <p>For women who've spent decades scheduling life around menstrual migraines, menopause dangles a real promise: no more cycles, no more monthly estrogen crash, no more period migraines. Does the promise hold?</p>
+
+      <p>For many women — genuinely, yes. But the full answer has more texture, and knowing it helps you set expectations for the road there.</p>
+
+      <h2>Why Stability Wins</h2>
+
+      <p>Post-menopause, estrogen settles at a low, <em>steady</em> level. And as every article in this series repeats, hormonal migraine is triggered by rapid estrogen drops, not by any particular level. No cycling means no withdrawal events — the hormonal trigger simply stops firing. Studies following women through the transition find that a majority of those with migraine — particularly menstrually-driven migraine — improve after natural menopause, some dramatically.</p>
+
+      <p>The road there is the catch: the perimenopausal years immediately before are often the <em>worst</em> stretch, precisely because hormones crash chaotically before they settle (see <a href="/blog/perimenopause-migraines">Perimenopause and Migraines</a>). If you're in the thick of that now, worsening attacks don't predict your post-menopausal future — the endpoint and the transition are different beasts.</p>
+
+      <h2>Surgical Menopause Is Different</h2>
+
+      <p>One important asterisk: menopause induced by surgery (removal of the ovaries) means an abrupt hormonal cliff rather than a multi-year settling — and research suggests migraine outcomes after surgical menopause are less favorable than after natural menopause, at least initially. If you're facing such surgery and have migraines, that's worth raising with your surgical team in advance so a plan exists for the transition.</p>
+
+      <h2>When Migraines Don't Retire</h2>
+
+      <p>Improvement is the trend, not a guarantee. Two realities to know:</p>
+
+      <p><strong>Your non-hormonal triggers keep working.</strong> Menopause switches off the estrogen trigger — it does nothing about weather sensitivity, sleep, stress, alcohol, or skipped meals. Women whose attacks were mostly hormonal improve most; women with strong non-hormonal triggers keep those. Post-menopause is actually an excellent time to re-map your triggers, because the hormonal noise is gone from the data: a few months of logging (our <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> and MigraineCast's automatic weather tracking cover the atmospheric side) shows you what still drives the attacks that remain.</p>
+
+      <p><strong>Hormone therapy re-enters the picture.</strong> If you take HRT for menopausal symptoms, you're reintroducing hormones — with individual, sometimes unpredictable effects on migraine. Delivery method and dosing pattern appear to matter (steadier delivery is generally friendlier to migraine-prone systems than fluctuating regimens), and this belongs in your doctor's hands, ideally informed by your tracked pattern.</p>
+
+      <h2>A Red Flag Worth Knowing</h2>
+
+      <p>A genuinely <em>new</em> headache pattern appearing after menopause — new headaches in someone who never had them, or a marked change in character in someone who did — deserves medical evaluation rather than a "hormones again" shrug. New-onset headaches later in life have a different diagnostic checklist, and a doctor should run it.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Do migraines stop after menopause?</h3>
+      <p>Many women improve substantially — especially those whose attacks were menstrually driven — because stable low estrogen means the withdrawal trigger stops firing. Improvement is the trend after natural menopause; it's less consistent after surgical menopause, and non-hormonal triggers persist.</p>
+
+      <h3>Why are my migraines still bad during menopause?</h3>
+      <p>If you're still cycling irregularly, you're in perimenopause — typically the roughest phase, and not predictive of your post-menopausal pattern. If you're post-menopausal, remaining attacks usually point to non-hormonal triggers (weather, sleep, stress) or, sometimes, to fluctuating hormone therapy — both worth investigating with tracking and your doctor.</p>
+
+      <h3>Can I take HRT if I get migraines?</h3>
+      <p>Often, but it's individual: HRT affects migraine differently from woman to woman, delivery method matters, and migraine with aura adds considerations. Bring your migraine history — ideally tracked data — to the discussion so your doctor can tailor the approach.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine or menopausal symptoms, consult a doctor.</em></p>
+    `,
+  },
+  {
+    slug: "hormonal-migraine-calendar",
+    title: "How to Build a Hormonal Migraine Calendar (and Finally See Your Pattern)",
+    excerpt:
+      "Three cycles of honest tracking answers questions that years of guessing can't: whether your migraines are hormonal, which cycle days are dangerous, and what your doctor needs to see. Here's exactly what to log.",
+    date: "July 4, 2026",
+    category: "Tips",
+    content: `
+      <p>"Are my migraines hormonal?" is one of the most-asked questions in migraine care — and one of the few with a cheap, definitive answer. You don't need lab work. You need a calendar, three cycles of honesty, and about thirty seconds a day. Here's exactly how to do it.</p>
+
+      <h2>What to Log (Keep It Minimal)</h2>
+
+      <p>Tracking fails when it's ambitious. Log four things daily:</p>
+
+      <p><strong>1. Cycle day.</strong> Day 1 = first day of bleeding. Just the number. If your cycle is irregular (common in <a href="/blog/perimenopause-migraines">perimenopause</a>), log bleeding days and any cycle signs you notice — irregularity is itself data.</p>
+
+      <p><strong>2. Attack yes/no, with severity.</strong> A simple 1–3 or 1–10 score. Include "almost-migraine" days — heavy heads and mild attacks count in patterns.</p>
+
+      <p><strong>3. The big confounders, in one line.</strong> Sleep quality, unusual stress, alcohol. One word each is enough — you need these to avoid blaming hormones for a bad night's work.</p>
+
+      <p><strong>4. Hormonal events.</strong> Pill days and placebo week if you use hormonal contraception (see <a href="/blog/birth-control-and-migraines">Birth Control and Migraines</a>), any HRT changes, and anything cycle-related your body reliably does.</p>
+
+      <p>Weather rounds out the picture, since pressure drops love to take credit for (or amplify) hormonal attacks — but don't log it manually; an app like MigraineCast records local conditions automatically alongside your entries.</p>
+
+      <h2>How to Read It After Three Cycles</h2>
+
+      <p>Why three? One cycle proves nothing — any month contains coincidences. Three cycles showing the same clustering is a pattern. Look for:</p>
+
+      <p><strong>The classic window: day −2 to +3.</strong> Attacks clustering from two days before bleeding through day three of it are the signature of menstrual migraine — the estrogen-withdrawal pattern described in our <a href="/blog/menstrual-migraine-guide">menstrual migraine guide</a>.</p>
+
+      <p><strong>The mid-cycle blip.</strong> A smaller cluster around ovulation (roughly day 12–16 in a 28-day cycle) marks the briefer estrogen dip some women react to.</p>
+
+      <p><strong>Placebo-week clustering</strong> if you're on combined contraception — the manufactured version of the withdrawal trigger.</p>
+
+      <p><strong>Stacked-trigger attacks.</strong> Check what else was true on attack days. Many women find hormonal windows alone don't break through — but a hormonal window plus a storm front or short night does. That's actionable: you can't move your cycle, but you can guard those collision days.</p>
+
+      <h2>What It Changes at the Doctor's Office</h2>
+
+      <p>"I think they're hormonal" invites a shrug. A three-cycle calendar showing attacks pinned to day −2 through +2 invites a treatment plan — clinicians take documented patterns seriously because they can act on them. A confirmed menstrual pattern opens specific conversations (cycle-timed preventive strategies exist for exactly this situation), and a documented <em>absence</em> of hormonal clustering is equally valuable: it redirects attention to your real triggers instead of an assumed one.</p>
+
+      <p>Bring the calendar itself, not your summary of it. Patterns you haven't noticed may be visible to a trained eye — and if you track in MigraineCast, the exportable report is built for exactly this appointment.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I know if my migraines are hormonal?</h3>
+      <p>Track attacks against cycle days for three cycles. Consistent clustering from two days before your period through day three of it (or around ovulation) confirms a hormonal or partly hormonal pattern. Three repetitions distinguishes a real pattern from coincidence.</p>
+
+      <h3>What should a migraine diary include for hormonal tracking?</h3>
+      <p>Daily cycle day, attack occurrence and severity, one-line notes on sleep, stress, and alcohol, plus pill or HRT days if applicable. Minimal and consistent beats detailed and abandoned — thirty seconds a day is the sustainable dose.</p>
+
+      <h3>Which cycle days are highest risk for migraine?</h3>
+      <p>The most common danger window runs from day −2 (two days before bleeding) through day +3, driven by the premenstrual estrogen drop. A secondary window around ovulation affects some women. Your calendar tells you which — if either — applies to you.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of hormonal migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "pcos-and-migraines",
+    title: "PCOS and Migraines: What We Know About a Complicated Pair",
+    excerpt:
+      "PCOS and migraine are both common, so plenty of women have both — but the relationship between them is genuinely complicated. Here's an honest look at the overlap, the mechanisms, and what actually helps.",
+    date: "July 3, 2026",
+    category: "Science",
+    content: `
+      <p>Polycystic ovary syndrome affects roughly one in ten women of reproductive age. Migraine affects about one in five. Simple math says many women live with both — and many of them suspect the two are connected. Are they?</p>
+
+      <p>Honest answer up front: the research here is thinner and more mixed than for the other hormonal migraine topics we've covered. Studies on whether PCOS directly raises migraine risk point in different directions. But "unproven direct link" doesn't mean "nothing to understand" — because several things PCOS reliably does are things that matter for migraine.</p>
+
+      <h2>Where PCOS Plausibly Touches Migraine</h2>
+
+      <p><strong>Irregular cycles mean unpredictable estrogen drops.</strong> The hallmark of PCOS is irregular or absent ovulation — cycles that stretch, skip, and surprise. As our <a href="/blog/menstrual-migraine-guide">menstrual migraine guide</a> explains, hormonal migraine is triggered by rapid estrogen withdrawal. A regular cycle at least delivers that drop on schedule; PCOS delivers hormonal shifts without a calendar. For women whose migraines are hormonally sensitive, that unpredictability is the practical problem — the same "invisible schedule" issue perimenopausal women face, decades early.</p>
+
+      <p><strong>Sleep apnea is dramatically more common in PCOS.</strong> This link is well-documented — and untreated sleep apnea means chronically fragmented, unrefreshing sleep, which is prime migraine fuel. A woman with PCOS, morning headaches, snoring, or unrefreshing sleep has a genuinely actionable lead: sleep apnea is diagnosable and treatable, and treating it helps far more than headaches.</p>
+
+      <p><strong>Insulin resistance and blood sugar swings.</strong> Insulin resistance is central to PCOS for many women, and unstable blood sugar — the crash after spikes, long gaps between meals — is a recognized migraine trigger. This makes meal regularity disproportionately valuable in this group.</p>
+
+      <p><strong>Shared treatment terrain.</strong> Hormonal contraception is a common PCOS management tool — and as covered in <a href="/blog/birth-control-and-migraines">Birth Control and Migraines</a>, it can improve or worsen migraine patterns, and migraine with aura changes which options guidelines favor. If you have both conditions, make sure whoever manages your PCOS knows about your migraines (and any aura), because it genuinely affects the choice.</p>
+
+      <h2>A Practical Approach for the Overlap</h2>
+
+      <p><strong>Track without a cycle template.</strong> Standard hormonal tracking assumes a cycle; with PCOS, log bleeding whenever it happens plus daily attacks, sleep, and meals, and let the pattern define itself — our <a href="/blog/hormonal-migraine-calendar">hormonal migraine calendar guide</a> adapts fine, it just needs more patience (aim for three months rather than three cycles).</p>
+
+      <p><strong>Take the sleep question seriously.</strong> Given the PCOS–sleep apnea link, poor sleep plus frequent headaches is a "mention this to your doctor" combination, not background noise.</p>
+
+      <p><strong>Stabilize the stabilizable.</strong> Regular meals for blood sugar, consistent sleep timing, and managing the triggers you can see (weather included — MigraineCast tracks that side automatically) matter more, not less, when the hormonal side is unpredictable.</p>
+
+      <p><strong>Coordinate your care.</strong> PCOS management and migraine management interact — contraception choices, weight-affecting medications, sleep treatment. Each of your clinicians should know the other condition exists.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Does PCOS cause migraines?</h3>
+      <p>A direct causal link isn't established — studies are mixed. But PCOS reliably creates conditions that matter for migraine: unpredictable hormonal shifts, elevated sleep apnea risk, and blood sugar instability. Managing those pathways is worthwhile regardless of the unresolved causation question.</p>
+
+      <h3>Why are my migraines so unpredictable with PCOS?</h3>
+      <p>Regular cycles deliver the estrogen-withdrawal trigger on a schedule you can track; PCOS's irregular ovulation delivers hormonal shifts without one. Longer-term logging (about three months) plus attention to non-hormonal triggers usually recovers more predictability than cycle-based tracking can.</p>
+
+      <h3>What helps migraines if you have PCOS?</h3>
+      <p>Focus on the actionable overlaps: get evaluated for sleep apnea if sleep is unrefreshing, keep meals regular to steady blood sugar, track attacks with sleep and weather data to find your visible triggers, and coordinate contraception and treatment choices across your PCOS and migraine care.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of PCOS or migraine, consult a doctor.</em></p>
+    `,
+  },
+  {
+    slug: "alcohol-and-migraines",
+    title: "Alcohol and Migraines: Why Red Wine Gets the Blame and What's Actually Going On",
+    excerpt:
+      "Red wine has been migraine's most famous dietary villain for centuries — but the alcohol-migraine relationship is stranger than its reputation. Two different headaches, several suspects, and a lot of individual variation.",
+    date: "July 1, 2026",
+    category: "Science",
+    content: `
+      <p>No dietary trigger has a reputation like red wine. Surveys of migraine sufferers consistently place alcohol — and red wine specifically — among the most-blamed triggers, and some people can date their last glass to the attack that ended their wine drinking forever.</p>
+
+      <p>The real story is stranger than the reputation: alcohol appears to trigger attacks through multiple unrelated routes, on two different timelines, with enormous person-to-person variation. Untangling them tells you what, if anything, you can safely pour.</p>
+
+      <h2>Two Headaches, Two Timelines</h2>
+
+      <p>Alcohol produces headaches on two schedules, and they're mechanically different:</p>
+
+      <p><strong>The fast one (within 30 minutes to 3 hours).</strong> In genuinely alcohol-sensitive migraine sufferers, an attack can begin during or shortly after drinking — sometimes after remarkably little. This immediate response is the true "alcohol-triggered migraine," and people who get it usually know it well.</p>
+
+      <p><strong>The slow one (next morning).</strong> The delayed attack rides on alcohol's after-effects: dehydration, disrupted sleep architecture (alcohol famously wrecks the second half of the night), and the metabolic aftermath. In migraine-prone people, a "hangover headache" is often a full migraine launched by that combination — and even modest amounts that cause no hangover in others can produce it.</p>
+
+      <h2>The Suspect List in the Glass</h2>
+
+      <p>Why red wine specifically? Researchers have interrogated several compounds, with honest verdicts ranging from "maybe" to "probably overblamed":</p>
+
+      <p><strong>Histamine</strong> — concentrated in red wine (skins ferment in), and migraine-prone people may clear it more slowly. A plausible contributor with mixed study support.</p>
+
+      <p><strong>Tyramine</strong> — present in aged and fermented products; long suspected, inconsistently supported.</p>
+
+      <p><strong>Sulfites</strong> — the most-blamed and least-supported suspect. Sweet white wines and dried fruit often contain <em>more</em> sulfites than red wine, yet red carries the reputation — the evidence for sulfites as a migraine trigger is weak.</p>
+
+      <p><strong>Flavonoids and tannins</strong> — the compounds that make red wine red, investigated with interesting but unsettled results.</p>
+
+      <p><strong>Alcohol itself</strong> — a vasoactive substance and diuretic regardless of color or price. Blinded studies suggest expectation plays a role too: people told they're drinking a "trigger" wine report more headaches. That doesn't mean your red wine attacks aren't real — it means the compound story is messier than the folklore.</p>
+
+      <h2>Testing Yourself Honestly</h2>
+
+      <p><strong>Log context, not just consumption.</strong> When an attack follows drinking, note what else was true: how you slept, hydration, cycle day, stress, and — because pressure drops don't care about your dinner plans — the weather. An attack after two glasses during a storm front on five hours of sleep has several parents; our <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> can tell you what the atmosphere was doing that night, and MigraineCast logs it automatically going forward.</p>
+
+      <p><strong>Watch the dose-and-day pattern.</strong> Many people aren't alcohol-sensitive absolutely — they're sensitive when the glass lands on an already-loaded day. If wine only "triggers" attacks during your premenstrual window or on bad-sleep weeks, that's a stacking pattern, and it means calm-week moderation may be fine.</p>
+
+      <p><strong>Change one variable.</strong> If red wine seems guilty, try the same quantity of white or a different red on an otherwise calm day. Immediate-type reactions that follow every form of alcohol point to alcohol itself; reactions specific to one drink point to its compounds.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why does red wine give me a migraine?</h3>
+      <p>Candidate mechanisms include histamine, tyramine, and tannin-related compounds concentrated in red wine, plus alcohol's own vasoactive and dehydrating effects. Individual sensitivity varies enormously, and studies suggest expectation contributes too — testing your own response systematically beats folklore.</p>
+
+      <h3>Can one drink trigger a migraine?</h3>
+      <p>In genuinely alcohol-sensitive people, yes — immediate-type attacks can begin within 30 minutes to 3 hours of small amounts. More commonly, modest drinking contributes to a next-morning attack via dehydration and degraded sleep, especially when stacked on other triggers.</p>
+
+      <h3>Do I have to give up alcohol completely?</h3>
+      <p>Not necessarily — that depends on your pattern. Immediate reactors often do choose abstinence from their trigger drinks. Stacking-pattern reactors frequently tolerate moderate amounts on low-risk days (good sleep, stable weather, outside hormonal windows) while abstaining on loaded ones. Tracking reveals which you are; discuss significant patterns with your doctor.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "chocolate-and-migraines",
+    title: "Chocolate and Migraines: Trigger, or False Accusation?",
+    excerpt:
+      "Chocolate has spent decades on migraine trigger lists — but research keeps failing to convict it, and there's a fascinating alternative explanation: the craving may be your brain's early warning, not the cause.",
+    date: "June 30, 2026",
+    category: "Science",
+    content: `
+      <p>Chocolate sits near the top of almost every migraine trigger list ever printed — and near the top of the "foods migraine sufferers mournfully gave up" list too. So here's a plot twist worth knowing: when researchers actually put chocolate on trial, it keeps getting acquitted. And the reason you associate it with attacks may be one of the most interesting quirks in migraine science.</p>
+
+      <h2>The Evidence Is Surprisingly Weak</h2>
+
+      <p>Chocolate's conviction rests almost entirely on patient surveys — people reporting that chocolate preceded attacks. But when studies fed migraine sufferers chocolate or an identical-tasting placebo under blinded conditions, chocolate repeatedly failed to trigger more attacks than the fake. Reviews of the research have concluded the evidence for chocolate as a genuine trigger is insufficient — striking, for such a famous suspect.</p>
+
+      <p>Surveys and experiments disagree like this when something is producing a false association. In chocolate's case, there's a strong candidate mechanism for exactly that.</p>
+
+      <h2>The Prodrome Plot Twist</h2>
+
+      <p>Migraine attacks don't start when the pain starts. Hours to two days before, many people enter the <em>prodrome</em> phase — the attack is already underway in the brain, producing subtle symptoms: yawning, fatigue, irritability, neck stiffness, and — critically — <strong>food cravings, classically for sweets and chocolate</strong>. (Our guide to <a href="/blog/migraine-prodrome-signs">migraine prodrome signs</a> covers the full list.)</p>
+
+      <p>Follow the sequence: the attack begins silently → the prodrome makes you crave chocolate → you eat chocolate → the headache arrives on schedule. From the inside, chocolate looks guilty every time. In reality, you ate it <em>because</em> the attack had already started. The craving isn't the cause — it's the smoke alarm.</p>
+
+      <p>This doesn't rule out true chocolate sensitivity in some individuals (proposed mechanisms like beta-phenylethylamine and small amounts of tyramine and caffeine exist), but it elegantly explains why the association feels so vivid while experiments find so little.</p>
+
+      <h2>How to Retry Your Own Case</h2>
+
+      <p><strong>Check the direction.</strong> Next time you notice a chocolate craving, treat it as data: note it, and watch the next 24–48 hours. If cravings reliably <em>precede</em> attacks, you've likely been reading a prodrome all along — which is genuinely useful, because it's an early-warning system: hydrate, guard sleep, and have your acute plan ready when the craving hits.</p>
+
+      <p><strong>Test on calm days.</strong> If you want a fair trial, eat chocolate on a low-risk day — good sleep, stable weather, no hormonal window — and log the outcome. Repeat a few times. Guilty verdicts require the attack to follow when nothing else explains it.</p>
+
+      <p><strong>Log the co-conspirators.</strong> Chocolate consumption clusters with stress, PMS days, and holidays — all independent triggers. A diary that captures sleep, cycle, stress, and weather (MigraineCast automates the weather column) sorts out who actually did it.</p>
+
+      <p><strong>Reclaim it if it's innocent.</strong> If tracking exonerates chocolate, eat the chocolate. Needless restriction is a real cost of trigger folklore — and unnecessary dietary fear deserves to be retired.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Does chocolate really trigger migraines?</h3>
+      <p>The evidence is weaker than its reputation: blinded studies have repeatedly failed to show chocolate triggering more attacks than placebo. Individual sensitivity may exist, but for many people the association has a different explanation — the pre-attack craving.</p>
+
+      <h3>Why do I crave chocolate before a migraine?</h3>
+      <p>Food cravings — classically for sweets and chocolate — are a documented symptom of the migraine prodrome, the phase beginning hours to two days before pain. The attack causes the craving, then the craving takes the blame. Reliably pre-attack cravings can actually serve as your early-warning signal.</p>
+
+      <h3>Should I cut chocolate to prevent migraines?</h3>
+      <p>Test before you cut: eat it on otherwise low-risk days and track outcomes over several trials. If attacks only follow chocolate when other triggers are present — or the craving precedes the pain anyway — restriction likely costs you pleasure without buying prevention. Persistent clear reactions are worth discussing with a doctor.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "artificial-sweeteners-and-migraines",
+    title: "Artificial Sweeteners and Migraines: The Aspartame Question",
+    excerpt:
+      "Aspartame has been accused of triggering headaches since the 1980s, and the research has argued ever since. Here's where the evidence actually stands — and how to run the only study that matters: yours.",
+    date: "June 28, 2026",
+    category: "Science",
+    content: `
+      <p>Ever since diet sodas conquered the supermarket, artificial sweeteners — aspartame above all — have been accused of causing headaches. The accusation has outlived several generations of studies, official reassurances, and internet panics alike. What does the evidence actually say, and what should a migraine sufferer do with a diet-soda habit?</p>
+
+      <h2>What the Research Shows (and Doesn't)</h2>
+
+      <p>Aspartame is the most-studied suspect. The honest summary of decades of work: <strong>mixed, with a plausible signal in a subgroup.</strong> Some small controlled studies in people who identified themselves as aspartame-sensitive found higher headache rates on aspartame than placebo, particularly with sustained intake. Other studies found no difference at all. Regulators worldwide continue to consider aspartame safe at typical intakes — headache is listed as a commonly <em>reported</em> reaction, not a proven universal effect.</p>
+
+      <p>The most reasonable reading: artificial sweeteners are probably not a migraine trigger for most people, but a sensitive minority appears to exist, and if you're in it, the trigger is entirely avoidable. Other sweeteners — sucralose has case reports; the newer sugar alcohols and stevia have thinner headache literature — are less studied all around.</p>
+
+      <h2>The Confounders in Your Soda Can</h2>
+
+      <p>Before convicting the sweetener, check what it's packaged with — diet-soda habits smuggle in several independent migraine factors:</p>
+
+      <p><strong>Caffeine on a schedule.</strong> Many diet sodas are caffeinated, and irregular caffeine intake — or missing your usual dose — is a classic trigger in its own right (see <a href="/blog/caffeine-and-migraines">Caffeine and Migraines</a>). A "diet cola headache" on a day you drank less than usual may be simple caffeine withdrawal.</p>
+
+      <p><strong>Sweeteners as substitutes.</strong> Diet drinks often stand in for meals or water — so heavy consumption can travel with skipped meals and mild dehydration, two well-documented triggers wearing a soda costume.</p>
+
+      <p><strong>The expectation effect.</strong> Aspartame's reputation precedes it; blinded studies exist precisely because knowing what you drank changes what you report. Your self-experiment (below) can't be blinded, so run it longer to compensate.</p>
+
+      <h2>Running Your Own Trial</h2>
+
+      <p>Population studies can't tell you whether <em>you're</em> in the sensitive minority. A clean self-test can:</p>
+
+      <p><strong>Eliminate for a month, honestly.</strong> Artificial sweeteners hide beyond diet drinks: sugar-free gum, yogurts, protein products, some medications. Read labels for the elimination to mean anything — and keep your caffeine intake constant via other sources, or you'll be testing caffeine withdrawal instead.</p>
+
+      <p><strong>Track throughout.</strong> Attacks per week, plus your usual confounders — sleep, cycle, stress, weather (MigraineCast logs the weather automatically). A month covers a full hormonal cycle and several weather systems, which matters because a lucky calm fortnight can masquerade as a dietary victory.</p>
+
+      <p><strong>Reintroduce deliberately.</strong> If frequency dropped, bring sweeteners back on otherwise low-risk days and watch. Return of attacks on reintroduction — more than once — is the closest a self-experiment gets to a verdict. No change in either direction? You've earned your diet soda back.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can aspartame cause migraines?</h3>
+      <p>Evidence is mixed: some controlled studies in self-identified sensitive people found more headaches on aspartame than placebo, others found no effect. The likeliest picture is a sensitive minority rather than a universal trigger — individual testing tells you if you're in it.</p>
+
+      <h3>Why do I get headaches from diet soda?</h3>
+      <p>The sweetener is only one suspect. Caffeine schedule changes, drinking soda in place of meals or water, and coincident triggers like weather or hormonal windows all confound the picture. A month-long elimination with tracking — holding caffeine steady — separates the suspects.</p>
+
+      <h3>Which artificial sweeteners trigger headaches?</h3>
+      <p>Aspartame has the most reports and the most research; sucralose has scattered case reports; stevia and sugar alcohols have little headache-specific study. If elimination helps, reintroducing one sweetener at a time identifies whether one specific compound — or the category — is your issue.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, or before significant dietary changes, consult a doctor.</em></p>
+    `,
+  },
+  {
+    slug: "neck-tension-and-migraines",
+    title: "Neck Tension and Migraines: Which One Is Causing the Other?",
+    excerpt:
+      "Neck pain shows up in the majority of migraine attacks — but here's the chicken-and-egg problem: your stiff neck is more often the migraine's first symptom than its cause. Untangling the direction changes what helps.",
+    date: "June 27, 2026",
+    category: "Science",
+    content: `
+      <p>Ask migraine sufferers where their attacks start, and a remarkable number will point to their neck. The stiffness creeps in, the shoulders knot up, the pain climbs the back of the skull — and then the migraine proper arrives. Obvious conclusion: the neck tension caused the migraine. Massage the knots, fix the posture, cure the attacks.</p>
+
+      <p>Except migraine science has a surprise here, and it changes the whole strategy: much of the time, the causation runs the other way.</p>
+
+      <h2>The Anatomy That Links Them</h2>
+
+      <p>The connection is real and has a name: the <strong>trigeminocervical complex</strong> — a region in the upper spinal cord where nerve signals from the trigeminal system (the face and head nerve at the center of migraine, covered in our <a href="/blog/trigeminal-nerve-and-migraine">trigeminal nerve guide</a>) converge with signals from the upper neck. The wiring is shared. Signals from one territory can be felt in the other, in both directions.</p>
+
+      <p>That shared wiring means three different relationships are possible — and they masquerade as each other:</p>
+
+      <p><strong>Neck pain as migraine symptom.</strong> Studies find neck pain accompanies a majority of migraine attacks — and often <em>precedes</em> the head pain as part of the prodrome. The attack begins in the brain, and the neck stiffness is among its first outputs. You feel the neck first, but the migraine was already underway. (More early signals in our <a href="/blog/migraine-prodrome-signs">prodrome guide</a>.)</p>
+
+      <p><strong>Neck dysfunction as trigger or amplifier.</strong> The reverse also happens: genuine cervical problems — strain, poor ergonomics, whiplash history — can feed noise into the shared complex and contribute to attacks in some people, or lower the threshold for other triggers.</p>
+
+      <p><strong>Cervicogenic headache.</strong> A distinct headache type genuinely originating from neck structures — typically one-sided, provoked by neck movement or sustained positions, and a diagnosis a clinician (not an article) makes.</p>
+
+      <h2>Reading Your Own Direction</h2>
+
+      <p>The direction matters because the fixes differ. Clues from tracking:</p>
+
+      <p><strong>If neck stiffness reliably appears hours before attacks and fades with them</strong> — it's likely prodrome. Strategy: use it as your early-warning alarm. Neck stiffness on a Tuesday afternoon becomes a signal to hydrate, protect the evening, and ready your acute plan — not a reason to book an emergency massage.</p>
+
+      <p><strong>If neck pain is constant and attacks cluster after heavy desk days, long drives, or awkward sleep</strong> — the neck may be a genuine contributor. Strategy: the mechanical fixes now have a target — workstation ergonomics, screen height, regular movement breaks during sustained postures, sleep position, and professionally guided strengthening or physical therapy.</p>
+
+      <p><strong>If neck movement itself reproduces the headache</strong> — that pattern deserves a clinical evaluation for cervicogenic headache rather than self-management.</p>
+
+      <p>A few weeks of logging — noting when neck symptoms occur relative to attacks, alongside sleep, stress, and weather (pressure-drop days and tension days love to coincide; MigraineCast tracks the weather side automatically) — usually reveals your direction.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can neck tension cause migraines?</h3>
+      <p>It can contribute in some people — the upper neck and migraine systems share wiring in the trigeminocervical complex. But research shows neck pain is more often an early <em>symptom</em> of the attack than its cause. Tracking the timing relative to your attacks reveals which applies to you.</p>
+
+      <h3>Why does my neck hurt before a migraine?</h3>
+      <p>Neck pain and stiffness are among the most common prodrome symptoms — the attack phase beginning hours before head pain. The migraine process produces the neck sensation through shared nerve pathways, making your neck an early-warning system rather than the culprit.</p>
+
+      <h3>Will massage or physical therapy help my migraines?</h3>
+      <p>If your neck is a genuine contributor (constant neck pain, posture-linked attacks, movement-provoked symptoms), addressing it — ergonomics, therapy, strengthening — may reduce the load. If your neck pain is prodrome, treating the neck won't prevent attacks, though it may still feel good. A clinician can help distinguish the two; bring tracked timing data to that conversation.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis of neck pain or headaches, consult a doctor or physical therapist.</em></p>
+    `,
+  },
+  {
+    slug: "skipping-meals-migraine-trigger",
+    title: "Skipping Meals and Migraines: Why an Empty Stomach Is a Loaded Trigger",
+    excerpt:
+      "Missed meals rank among the most consistently reported migraine triggers in research — more consistently than most famous food triggers. Here's the blood sugar mechanism and how to defuse it without becoming a person who carries emergency almonds. (Carry the almonds.)",
+    date: "June 25, 2026",
+    category: "Tips",
+    content: `
+      <p>Here's an irony of migraine trigger lore: people agonize over whether chocolate or cheese caused their attack, while one of the most consistently documented dietary triggers isn't a food at all — it's the <em>absence</em> of food. In patient studies, fasting and missed meals rank among the most frequently confirmed triggers, typically outscoring the famous food villains.</p>
+
+      <h2>The Mechanism: Another Falling Line on a Graph</h2>
+
+      <p>If you've read our other trigger articles, you know the theme: migraine-prone nervous systems react to rapid <em>drops</em> — falling barometric pressure, falling estrogen. Add falling blood glucose to the list. Skip a meal and blood sugar declines; the brain, an obligate glucose consumer, responds with counter-regulatory stress hormones. In susceptible people, that cascade is enough to launch an attack.</p>
+
+      <p>The practical fingerprints: attacks that arrive late morning after a skipped breakfast, late afternoon after a lunch lost to meetings, or during fasting periods. The longer the gap, the higher the risk climbs — and research suggests risk rises meaningfully with gaps beyond roughly four to five waking hours, with overnight extensions (late dinner to skipped breakfast) a classic setup.</p>
+
+      <h2>Why Meal-Skip Attacks Rarely Come Alone</h2>
+
+      <p>The days you miss meals aren't random days. They're deadline days, travel days, chaotic days — days already loaded with stress, poor sleep, and dehydration (skipped meals usually mean skipped fluids too). The empty stomach lands on a system that's already spending its reserves, which is why the same missed lunch is survivable on a calm Tuesday and catastrophic during a stressful week with a storm front incoming. Tracking meal gaps alongside your other exposures — MigraineCast covers the weather column automatically — shows you which combinations actually break through.</p>
+
+      <h2>Defusing the Trigger</h2>
+
+      <p><strong>Regularity beats perfection.</strong> The goal isn't a nutritionally optimal schedule — it's avoiding the gap. Consistent meal timing, even of unremarkable food, addresses the actual mechanism. Our guide on <a href="/blog/what-to-eat-to-prevent-migraines">what to eat to prevent migraines</a> covers the food side; this trigger is about the clock.</p>
+
+      <p><strong>Engineer for your failure mode.</strong> If meetings eat your lunch, put food where the failure happens: desk drawer, bag, car. A protein-and-complex-carb snack that buys two hours is trigger prevention, not weakness. Yes, you are now a person who carries emergency almonds. It beats being a person who carries emergency triptans <em>and</em> regrets.</p>
+
+      <p><strong>Mind deliberate fasting.</strong> Intermittent fasting's popularity has collided with migraine biology for many people. If you fast for other health goals and your attacks cluster in fasting windows, that's your answer — and worth an honest conversation with whoever advised the fast. If you observe religious fasts, patterns and workarounds exist; a doctor familiar with your situation can advise on managing attack risk within observance.</p>
+
+      <p><strong>Don't compensate with sugar.</strong> A candy rescue spikes glucose and then delivers a second, faster drop — the crash replays the trigger an hour later. When breaking a long gap, pair carbohydrate with protein or fat to flatten the curve.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why does skipping a meal give me a migraine?</h3>
+      <p>Falling blood glucose triggers counter-regulatory stress hormones, and migraine-prone nervous systems react to that rapid internal shift much as they react to pressure or hormone drops. Fasting and missed meals are among the most consistently documented triggers in migraine research.</p>
+
+      <h3>How long can I go without eating before risking an attack?</h3>
+      <p>It's individual, but research points to risk climbing with waking gaps beyond roughly four to five hours — and overnight extensions (late dinner, skipped breakfast) are a classic setup. Your own tracked pattern beats any general number.</p>
+
+      <h3>Can intermittent fasting cause migraines?</h3>
+      <p>For meal-skip-sensitive people, fasting windows are exactly the exposure that triggers attacks, and many discover it quickly. If your attacks cluster in fasting periods, the schedule is likely the culprit — worth weighing against the fast's intended benefits with your doctor.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, or guidance on fasting with a medical condition, consult a doctor.</em></p>
+    `,
+  },
+  {
+    slug: "exercise-headaches",
+    title: "Exercise Headaches and Migraines: Why Workouts Trigger Attacks (and Why You Shouldn't Quit)",
+    excerpt:
+      "Exercise sits in a strange double position: a documented migraine trigger for some, one of the best-supported preventive habits for many. Here's how the same activity can do both — and how to keep the benefits without the attacks.",
+    date: "July 17, 2026",
+    category: "Tips",
+    content: `
+      <p>Exercise occupies a genuinely strange position in migraine science. Ask researchers whether it prevents migraines, and the evidence says regular aerobic exercise is one of the better-supported lifestyle interventions. Ask migraine sufferers whether it triggers them, and a substantial minority will describe attacks reliably launched by workouts. Both are true — and if you're in the second group, understanding the difference determines whether you keep the healthiest habit you have.</p>
+
+      <h2>Two Different Headaches at the Gym</h2>
+
+      <p><strong>Primary exercise headache.</strong> A distinct condition: throbbing pain arriving during or just after strenuous effort, classically with straining activities — heavy lifting, sprinting — and more often in heat or at altitude. Usually harmless and often self-limiting over months, but — important — <strong>a first-ever headache that arrives suddenly and explosively during exertion needs urgent medical evaluation</strong>, because sudden severe headache during effort is also how rarer, serious conditions announce themselves. New exertional headaches are a doctor visit, not a Google search, before anything else.</p>
+
+      <p><strong>Exercise-triggered migraine.</strong> The commoner story for existing migraine sufferers: a workout is followed, minutes to hours later, by an ordinary migraine. Here exercise isn't a special headache type — it's a trigger like any other, and it usually works through decipherable routes.</p>
+
+      <h2>How Workouts Actually Trigger Attacks</h2>
+
+      <p>The routes are mostly the usual suspects wearing gym clothes:</p>
+
+      <p><strong>Dehydration and fuel gaps.</strong> Sweating without replacing fluids, and training fasted or long after a meal, deliver the fluid-loss and blood-sugar-drop triggers simultaneously — see <a href="/blog/skipping-meals-migraine-trigger">skipping meals</a> and <a href="/blog/dehydration-and-daily-migraines">dehydration</a> for those mechanisms.</p>
+
+      <p><strong>Abrupt intensity.</strong> Sudden maximal effort without warm-up is the pattern most associated with exercise-triggered attacks — the physiological equivalent of a rapid-change trigger, which by now you'll recognize as migraine's least favorite thing.</p>
+
+      <p><strong>Environment.</strong> Heat, glare, and altitude multiply exercise's trigger potential — a midday summer run combines exertion with the entire <a href="/blog/heat-headaches">heat headache</a> stack. Indoors, gyms contribute their own load: harsh lighting and loud music.</p>
+
+      <p><strong>Strain mechanics.</strong> Breath-holding and straining during heavy lifts spike pressure transiently — the classic setup for the exertional variety.</p>
+
+      <h2>Keeping the Habit Without the Attacks</h2>
+
+      <p>Quitting exercise sacrifices one of your better preventive tools to avoid a mostly manageable trigger. The workarounds:</p>
+
+      <p><strong>Warm up like it matters — it does.</strong> Ten minutes of graduated effort before intensity is the single most-cited fix for exercise-triggered attacks. Rapid change is the enemy; make the change gradual.</p>
+
+      <p><strong>Pre-load fluid and fuel.</strong> Hydrate before, during, and after; don't train deep into a meal gap. Electrolytes on heavy-sweat sessions.</p>
+
+      <p><strong>Control the conditions.</strong> Train in the cool parts of the day, shade your eyes outdoors, and note whether attacks cluster with specific environments — track workouts alongside weather and other exposures (MigraineCast logs the atmospheric side automatically) to find your pattern.</p>
+
+      <p><strong>Build intensity over weeks.</strong> Evidence and clinical experience both suggest tolerance improves with graded, regular training — many people who react to sudden exertion tolerate the same intensity once conditioned to it.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why do I get a migraine after working out?</h3>
+      <p>Usually through decipherable routes: dehydration, exercising fasted, abrupt intensity without warm-up, heat and glare, or straining mechanics. Most are fixable with warm-ups, fueling, and environment control — letting you keep exercise's preventive benefits.</p>
+
+      <h3>When is an exercise headache dangerous?</h3>
+      <p>A first-ever sudden, explosive headache during exertion warrants urgent medical evaluation to rule out serious causes. Established, recurring exertional headaches that a doctor has assessed are a different, usually benign category — but the first one is always a medical question.</p>
+
+      <h3>Should I stop exercising if it triggers migraines?</h3>
+      <p>Usually the opposite: regular aerobic exercise is among the better-supported preventive habits for migraine, and graded conditioning often shrinks the trigger effect itself. Modify the how — warm-up, hydration, fueling, timing, environment — before abandoning the what. Persistent exercise-triggered attacks deserve a doctor's input.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. New or severe exertional headaches should be evaluated by a doctor promptly.</em></p>
+    `,
+  },
+  {
+    slug: "blue-light-and-migraines",
+    title: "Blue Light and Migraines: What Screens Actually Do to a Migraine Brain",
+    excerpt:
+      "Blue-blocking glasses are marketed as migraine armor — but the science of light and migraine is more specific and more interesting than the marketing. Here's what research actually found, including the one color that helped.",
+    date: "May 15, 2026",
+    category: "Science",
+    content: `
+      <p>Somewhere between the rise of smartphones and the rise of blue-blocker marketing, "blue light causes migraines" hardened into accepted fact. The real science is more specific, more interesting, and considerably less convenient for the people selling amber glasses. Here's what's actually known about light, screens, and migraine brains.</p>
+
+      <h2>Light Sensitivity Is Real — and Wired Deep</h2>
+
+      <p>Start with what's solid: photophobia — painful sensitivity to light — affects the great majority of migraine sufferers during attacks, and light is a commonly reported trigger between them (our <a href="/blog/bright-lights-migraine-trigger">bright lights guide</a> covers that side). Research has traced a pathway from the eye's light-sensing cells to brain regions transmitting migraine pain — light input feeds directly into the pain circuitry. The sensitivity isn't psychological; it's anatomy.</p>
+
+      <p>The nuance arrives when researchers asked <em>which</em> light. In landmark work exposing migraine patients to different colors during attacks, blue light worsened pain — but so did white, red, and amber. Nearly every color made attacks worse. The exception was a narrow band of <strong>green light</strong>, which uniquely tended to ease symptoms, and has since spawned research into green-light therapy. The finding worth remembering isn't "blue is toxic" — it's "intense light of almost any color hurts a migraine brain, except a specific green."</p>
+
+      <h2>So Do Screens Trigger Attacks?</h2>
+
+      <p>Screens plausibly contribute — but blue wavelengths are only one suspect in the lineup, and possibly not the main one:</p>
+
+      <p><strong>Brightness and contrast.</strong> A bright rectangle in a dim room is exactly the high-contrast stimulus sensitive visual systems dislike. Matching screen brightness to your surroundings may matter more than its color spectrum.</p>
+
+      <p><strong>Flicker and patterns.</strong> Some displays dim by flickering (often imperceptibly), and certain people are sensitive to it — as are some to scrolling patterns and busy visual textures.</p>
+
+      <p><strong>The posture and behavior bundle.</strong> Screen marathons deliver <a href="/blog/neck-tension-and-migraines">neck strain</a>, eye strain from reduced blinking, skipped meals, and — at night — sleep disruption. That last one is blue light's best-documented offense: evening blue-spectrum exposure genuinely does suppress melatonin and shift sleep timing, and poor sleep is a first-rank migraine trigger. Blue light's clearest route to your migraine may run through your sleep, not your eyes.</p>
+
+      <h2>What's Actually Worth Doing</h2>
+
+      <p><strong>Fix brightness and breaks first.</strong> Match screen brightness to ambient light, avoid dark-room screen use, blink deliberately, and take regular eyes-off breaks. These target the best-supported mechanisms and cost nothing.</p>
+
+      <p><strong>Protect evenings for sleep's sake.</strong> Night mode, warmer color temperature after sunset, and screens out of the last pre-bed hour — justified by the sleep evidence regardless of any direct trigger effect.</p>
+
+      <p><strong>Hold modest expectations for blue-blockers.</strong> Evidence that blue-blocking glasses prevent migraines is thin; if you try them, track attacks before and after rather than trusting impressions. Specialized tints developed for light-sensitive patients (such as the rose-tinted FL-41) have somewhat better clinical pedigree for photophobia — a reasonable thing to ask a neuro-ophthalmologist about if light sensitivity dominates your picture.</p>
+
+      <p><strong>Test your own pattern.</strong> If screen days correlate with attack days in your log — alongside sleep, posture, and the usual confounders — experiment with one variable at a time. MigraineCast's tracking can hold the weather and sleep context steady in the data while you do.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Does blue light cause migraines?</h3>
+      <p>Blue light worsens pain during attacks — but so do white, red, and amber; research found nearly all intense light aggravates migraine, with only a narrow green band easing it. Between attacks, screens more likely contribute through brightness, flicker, posture, and sleep disruption than blue wavelengths specifically.</p>
+
+      <h3>Do blue light glasses help with migraines?</h3>
+      <p>Evidence for migraine prevention is thin. Precision tints like FL-41, developed for photophobia, have better clinical support for light-sensitive patients. If you try any eyewear, track your attack frequency objectively before and after.</p>
+
+      <h3>What is green light therapy for migraine?</h3>
+      <p>Research found a narrow band of green light uniquely tended not to worsen — and sometimes eased — migraine symptoms, unlike other colors. Green-light lamps built on that finding are being studied; early results are interesting, and it's a reasonable topic to raise with a headache specialist.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine or light sensitivity, consult a doctor.</em></p>
+    `,
+  },
+  {
+    slug: "loud-sounds-migraine-trigger",
+    title: "Loud Sounds and Migraines: When the World Is Turned Up Too High",
+    excerpt:
+      "Sound sensitivity is one of migraine's defining features — and noise can be trigger, amplifier, and early warning all at once. Here's how a migraine brain processes sound differently, and how to defend your ears without hiding from life.",
+    date: "May 8, 2026",
+    category: "Tips",
+    content: `
+      <p>The concert that ended in a dark room. The open-plan office that hums attacks into existence. The restaurant where the noise, not the wine, was the problem. Sound occupies a special place in migraine: phonophobia — painful sensitivity to sound — is one of the condition's defining diagnostic features, and many sufferers name noise among their triggers. Here's what's happening, and what actually helps.</p>
+
+      <h2>A Different Volume Knob</h2>
+
+      <p>Research comparing migraine sufferers to others finds something striking: even <em>between</em> attacks, many migraine-prone people have lower discomfort thresholds for sound — the level at which noise turns unpleasant sits lower, and it drops dramatically during attacks. The migraine brain appears to regulate sensory "gain" differently, running the volume knob hotter than standard equipment. That's the common thread with light and smell sensitivity (see our <a href="/blog/strong-smells-migraine-trigger">smells guide</a>): the condition processes ordinary sensory input as louder, brighter, stronger.</p>
+
+      <p>So "loud noises give me migraines" describes real neurology, not delicacy.</p>
+
+      <h2>Trigger, Amplifier, or Alarm?</h2>
+
+      <p>Sound plays three distinguishable roles worth separating in your own pattern:</p>
+
+      <p><strong>Trigger:</strong> sustained loud environments — concerts, clubs, machinery, chaotic venues — preceding attacks by minutes to hours. Prolonged exposure seems to matter more than brief spikes; a dropped pan rarely does what three hours of restaurant din can.</p>
+
+      <p><strong>Amplifier:</strong> noise that doesn't launch attacks but makes brewing ones unbearable, forcing retreat to quiet rooms once pain begins. That's phonophobia as symptom, not cause.</p>
+
+      <p><strong>Alarm:</strong> here's the useful twist — if ordinary sounds start feeling abnormally loud or grating <em>before</em> any pain, that rising sensitivity is a documented prodrome sign (see <a href="/blog/migraine-prodrome-signs">the early warning signs</a>). The world turning up its volume can be your first notice that an attack is already underway — a cue to hydrate, guard the evening, and ready your plan.</p>
+
+      <p>Noisy environments also rarely test sound alone: concerts add flashing lights, alcohol, and late nights; loud offices add stress; venues add heat and smells. If "noise" attacks only follow the full bundle, the bundle — not the decibels — may be your trigger. A tracked log (MigraineCast holds the weather and sleep context alongside your entries) helps separate them.</p>
+
+      <h2>Defending Your Ears Without Hiding</h2>
+
+      <p><strong>Carry attenuation, not isolation.</strong> High-fidelity earplugs (musician-style) cut volume roughly 15–20 dB while keeping sound clear — turning a loud venue into a manageable one. They're small, cheap, and the single highest-leverage tool for sound-sensitive people who still want a life.</p>
+
+      <p><strong>Dose loud environments deliberately.</strong> If duration matters for you, plan it: shorter stays, breaks outside the noise, positioning away from speakers. Leaving a great evening one hour early beats leaving it for a dark room.</p>
+
+      <p><strong>Engineer your daily soundscape.</strong> A one-off concert is avoidable; a loud workplace isn't. Noise-cancelling headphones, quieter corners, and honest conversations about seating are legitimate accommodations for a neurological condition — our <a href="/blog/talking-to-your-doctor">doctor-conversation guide</a> touches on documenting what you need.</p>
+
+      <p><strong>Don't over-silence.</strong> A counterintuitive caution from sensory research: chronic total avoidance of normal sound may nudge sensitivity further up, the way constant sunglasses can worsen light tolerance. Protect against genuinely loud exposure; don't soundproof your whole life.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can loud noises trigger migraines?</h3>
+      <p>Yes — sustained loud environments are a commonly reported trigger, and research shows migraine-prone brains have measurably lower sound discomfort thresholds even between attacks. Prolonged exposure appears to matter more than brief loud moments.</p>
+
+      <h3>Why does everything sound too loud before my migraine?</h3>
+      <p>Rising sound sensitivity before any head pain is a documented prodrome symptom — the attack has already begun, and the sensory volume shift is an early output. Many people can use it as a warning signal to act early.</p>
+
+      <h3>What helps with sound sensitivity during a migraine?</h3>
+      <p>During attacks, quiet dark rooms remain the classic refuge — phonophobia eases as the attack resolves. Between and before attacks, high-fidelity earplugs in loud venues, noise-cancelling headphones for unavoidable environments, and limiting exposure duration protect without total isolation, which can backfire.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine or sound sensitivity, consult a doctor.</em></p>
+    `,
+  },
 ];
 
 export function getAllPosts(): BlogPost[] {
