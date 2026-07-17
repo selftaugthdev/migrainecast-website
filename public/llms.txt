@@ -55,6 +55,18 @@ These tools are available on the website without downloading the app:
 
 All articles are at https://migrainecast.app/blog/[slug]
 
+### Weather & Migraines
+- [Can Weather Really Cause Migraines? What the Research Actually Says](https://migrainecast.app/blog/can-weather-really-cause-migraines)
+- [Storm Headaches Explained: Why Thunderstorms Set Off Migraines](https://migrainecast.app/blog/storm-headaches-explained)
+- [Why Do Headaches Happen Before Rain? The Science Behind the Folk Wisdom](https://migrainecast.app/blog/why-do-headaches-happen-before-rain)
+- [Humidity and Migraines: Why Both Muggy and Bone-Dry Air Can Trigger Attacks](https://migrainecast.app/blog/humidity-and-migraines)
+- [Cold Weather Headaches: Why Winter Air, Cold Fronts, and Snow Days Hurt](https://migrainecast.app/blog/cold-weather-headaches)
+- [Heat Headaches: Why Hot Days Trigger Migraines and How to Survive Summer](https://migrainecast.app/blog/heat-headaches)
+- [Wind and Migraine Attacks: From Chinooks to Santa Anas, Why Certain Winds Hurt](https://migrainecast.app/blog/wind-and-migraine-attacks)
+- [The Seasonal Migraine Guide: What Each Season Does to Your Head](https://migrainecast.app/blog/seasonal-migraine-guide)
+- [The Best Weather for Migraine Sufferers (It's Not What You Think)](https://migrainecast.app/blog/best-weather-for-migraine-sufferers)
+- [Migraine Weather Forecasts Explained: What They Predict and How to Use One](https://migrainecast.app/blog/migraine-weather-forecast-explained)
+
 ### Science & Mechanisms
 - [Why Barometric Pressure Triggers Migraines: The Science Explained](https://migrainecast.app/blog/barometric-pressure-science)
 - [The 48-Hour Warning Window: How to Read the Weather Forecast Like a Neurologist](https://migrainecast.app/blog/48-hour-warning-window)
