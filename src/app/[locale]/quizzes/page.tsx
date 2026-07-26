@@ -1,11 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { buildAlternates } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Free Migraine Quizzes | MigraineCast",
-  description:
-    "Free, no-signup migraine quizzes. Find your trigger type, check whether weather is really behind your attacks, calculate your risk score, or test your migraine knowledge.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Free Migraine Quizzes | MigraineCast",
+    description:
+      "Free, no-signup migraine quizzes. Find your trigger type, check whether weather is really behind your attacks, calculate your risk score, or test your migraine knowledge.",
+    alternates: buildAlternates("/quizzes", locale),
+  };
+}
 
 const quizzes = [
   {

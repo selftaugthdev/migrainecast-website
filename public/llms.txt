@@ -37,92 +37,92 @@ MigraineCast also reads optional health data from Apple Health, including heart 
 
 These tools are available on the website without downloading the app:
 
-- [Weather Trigger Checker](https://migrainecast.app/tools/weather-trigger-checker): Enter past migraine dates and a location — pulls real historical barometric pressure data to show whether a pressure drop preceded each attack. No signup required.
-- [Personal Pressure Threshold Estimator](https://migrainecast.app/tools/pressure-threshold-estimator): Estimates a user's individual pressure sensitivity based on their attack pattern.
-- [Trigger Pattern Analyzer](https://migrainecast.app/tools/trigger-pattern-analyzer): Analyzes logged attack data against weather conditions to surface patterns.
-- [Migraine Season Calendar](https://migrainecast.app/tools/migraine-season-calendar): Shows which seasons and months tend to have higher migraine risk based on typical pressure volatility by region.
-- [Find a Specialist](https://migrainecast.app/tools/find-a-specialist): Directory tool to help users locate headache specialists and neurologists.
-- [Medication Effectiveness Calculator](https://migrainecast.app/tools/medication-effectiveness-calculator): Scores how well a user's acute migraine medication works using the validated mTOQ-4 questionnaire, and flags medication overuse headache risk based on usage frequency. No signup required.
+- [Weather Trigger Checker](https://www.migrainecast.app/tools/weather-trigger-checker): Enter past migraine dates and a location — pulls real historical barometric pressure data to show whether a pressure drop preceded each attack. No signup required.
+- [Personal Pressure Threshold Estimator](https://www.migrainecast.app/tools/pressure-threshold-estimator): Estimates a user's individual pressure sensitivity based on their attack pattern.
+- [Trigger Pattern Analyzer](https://www.migrainecast.app/tools/trigger-pattern-analyzer): Analyzes logged attack data against weather conditions to surface patterns.
+- [Migraine Season Calendar](https://www.migrainecast.app/tools/migraine-season-calendar): Shows which seasons and months tend to have higher migraine risk based on typical pressure volatility by region.
+- [Find a Specialist](https://www.migrainecast.app/tools/find-a-specialist): Directory tool to help users locate headache specialists and neurologists.
+- [Medication Effectiveness Calculator](https://www.migrainecast.app/tools/medication-effectiveness-calculator): Scores how well a user's acute migraine medication works using the validated mTOQ-4 questionnaire, and flags medication overuse headache risk based on usage frequency. No signup required.
 
 ## Key Pages
 
-- [Homepage](https://migrainecast.app): Overview of MigraineCast, how it works, and download links.
-- [What is MigraineCast](https://migrainecast.app/what-is-migrainecast): Detailed explanation of the app, its approach, and the science behind barometric pressure and migraine.
-- [Blog](https://migrainecast.app/blog): 30 articles covering migraine science, triggers, treatment, and tracking.
-- [Weather Course](https://migrainecast.app/weather-course): Educational content on understanding weather patterns as migraine triggers.
+- [Homepage](https://www.migrainecast.app): Overview of MigraineCast, how it works, and download links.
+- [What is MigraineCast](https://www.migrainecast.app/what-is-migrainecast): Detailed explanation of the app, its approach, and the science behind barometric pressure and migraine.
+- [Blog](https://www.migrainecast.app/blog): 30 articles covering migraine science, triggers, treatment, and tracking.
+- [Weather Course](https://www.migrainecast.app/weather-course): Educational content on understanding weather patterns as migraine triggers.
 
 ## Blog Articles
 
-All articles are at https://migrainecast.app/blog/[slug]
+All articles are at https://www.migrainecast.app/blog/[slug]
 
 ### Weather & Migraines
-- [Can Weather Really Cause Migraines? What the Research Actually Says](https://migrainecast.app/blog/can-weather-really-cause-migraines)
-- [Storm Headaches Explained: Why Thunderstorms Set Off Migraines](https://migrainecast.app/blog/storm-headaches-explained)
-- [Why Do Headaches Happen Before Rain? The Science Behind the Folk Wisdom](https://migrainecast.app/blog/why-do-headaches-happen-before-rain)
-- [Humidity and Migraines: Why Both Muggy and Bone-Dry Air Can Trigger Attacks](https://migrainecast.app/blog/humidity-and-migraines)
-- [Cold Weather Headaches: Why Winter Air, Cold Fronts, and Snow Days Hurt](https://migrainecast.app/blog/cold-weather-headaches)
-- [Heat Headaches: Why Hot Days Trigger Migraines and How to Survive Summer](https://migrainecast.app/blog/heat-headaches)
-- [Wind and Migraine Attacks: From Chinooks to Santa Anas, Why Certain Winds Hurt](https://migrainecast.app/blog/wind-and-migraine-attacks)
-- [The Seasonal Migraine Guide: What Each Season Does to Your Head](https://migrainecast.app/blog/seasonal-migraine-guide)
-- [The Best Weather for Migraine Sufferers (It's Not What You Think)](https://migrainecast.app/blog/best-weather-for-migraine-sufferers)
-- [Migraine Weather Forecasts Explained: What They Predict and How to Use One](https://migrainecast.app/blog/migraine-weather-forecast-explained)
+- [Can Weather Really Cause Migraines? What the Research Actually Says](https://www.migrainecast.app/blog/can-weather-really-cause-migraines)
+- [Storm Headaches Explained: Why Thunderstorms Set Off Migraines](https://www.migrainecast.app/blog/storm-headaches-explained)
+- [Why Do Headaches Happen Before Rain? The Science Behind the Folk Wisdom](https://www.migrainecast.app/blog/why-do-headaches-happen-before-rain)
+- [Humidity and Migraines: Why Both Muggy and Bone-Dry Air Can Trigger Attacks](https://www.migrainecast.app/blog/humidity-and-migraines)
+- [Cold Weather Headaches: Why Winter Air, Cold Fronts, and Snow Days Hurt](https://www.migrainecast.app/blog/cold-weather-headaches)
+- [Heat Headaches: Why Hot Days Trigger Migraines and How to Survive Summer](https://www.migrainecast.app/blog/heat-headaches)
+- [Wind and Migraine Attacks: From Chinooks to Santa Anas, Why Certain Winds Hurt](https://www.migrainecast.app/blog/wind-and-migraine-attacks)
+- [The Seasonal Migraine Guide: What Each Season Does to Your Head](https://www.migrainecast.app/blog/seasonal-migraine-guide)
+- [The Best Weather for Migraine Sufferers (It's Not What You Think)](https://www.migrainecast.app/blog/best-weather-for-migraine-sufferers)
+- [Migraine Weather Forecasts Explained: What They Predict and How to Use One](https://www.migrainecast.app/blog/migraine-weather-forecast-explained)
 
 ### Science & Mechanisms
-- [Why Barometric Pressure Triggers Migraines: The Science Explained](https://migrainecast.app/blog/barometric-pressure-science)
-- [The 48-Hour Warning Window: How to Read the Weather Forecast Like a Neurologist](https://migrainecast.app/blog/48-hour-warning-window)
-- [The Trigeminal Nerve: Why Migraine Pain Shows Up Where It Does](https://migrainecast.app/blog/trigeminal-nerve-and-migraine)
-- [Why You Get More Migraines in Winter (It's Not Just the Cold)](https://migrainecast.app/blog/winter-migraines)
-- [Migraine vs. Headache: How to Tell the Difference](https://migrainecast.app/blog/migraine-vs-headache)
-- [How Long Does a Migraine Last? What to Expect at Every Stage](https://migrainecast.app/blog/how-long-does-a-migraine-last)
-- [Migraine With Aura: What the Visual and Sensory Symptoms Actually Mean](https://migrainecast.app/blog/migraine-with-aura-symptoms)
-- [Silent Migraine Symptoms: When the Aura Arrives Without the Headache](https://migrainecast.app/blog/silent-migraine-symptoms)
-- [Ocular Migraine Causes: Why Your Vision Temporarily Goes Strange](https://migrainecast.app/blog/ocular-migraine-causes)
-- [Visual Migraine Symptoms Explained: Auras, Flashing Lights, and Blind Spots](https://migrainecast.app/blog/optical-migraine-symptoms)
-- [Why Do You Get Migraines After Your Period? The Estrogen Drop Explained](https://migrainecast.app/blog/migraines-after-period)
-- [Can Dehydration Cause Migraines Every Day? What the Research Says](https://migrainecast.app/blog/dehydration-and-daily-migraines)
-- [Migraine Prodrome: The Early Warning Signs Most People Miss](https://migrainecast.app/blog/migraine-prodrome-signs)
-- [The Migraine and HRV Connection: What Your Heart Rate Variability Might Be Telling You](https://migrainecast.app/blog/migraine-and-hrv)
+- [Why Barometric Pressure Triggers Migraines: The Science Explained](https://www.migrainecast.app/blog/barometric-pressure-science)
+- [The 48-Hour Warning Window: How to Read the Weather Forecast Like a Neurologist](https://www.migrainecast.app/blog/48-hour-warning-window)
+- [The Trigeminal Nerve: Why Migraine Pain Shows Up Where It Does](https://www.migrainecast.app/blog/trigeminal-nerve-and-migraine)
+- [Why You Get More Migraines in Winter (It's Not Just the Cold)](https://www.migrainecast.app/blog/winter-migraines)
+- [Migraine vs. Headache: How to Tell the Difference](https://www.migrainecast.app/blog/migraine-vs-headache)
+- [How Long Does a Migraine Last? What to Expect at Every Stage](https://www.migrainecast.app/blog/how-long-does-a-migraine-last)
+- [Migraine With Aura: What the Visual and Sensory Symptoms Actually Mean](https://www.migrainecast.app/blog/migraine-with-aura-symptoms)
+- [Silent Migraine Symptoms: When the Aura Arrives Without the Headache](https://www.migrainecast.app/blog/silent-migraine-symptoms)
+- [Ocular Migraine Causes: Why Your Vision Temporarily Goes Strange](https://www.migrainecast.app/blog/ocular-migraine-causes)
+- [Visual Migraine Symptoms Explained: Auras, Flashing Lights, and Blind Spots](https://www.migrainecast.app/blog/optical-migraine-symptoms)
+- [Why Do You Get Migraines After Your Period? The Estrogen Drop Explained](https://www.migrainecast.app/blog/migraines-after-period)
+- [Can Dehydration Cause Migraines Every Day? What the Research Says](https://www.migrainecast.app/blog/dehydration-and-daily-migraines)
+- [Migraine Prodrome: The Early Warning Signs Most People Miss](https://www.migrainecast.app/blog/migraine-prodrome-signs)
+- [The Migraine and HRV Connection: What Your Heart Rate Variability Might Be Telling You](https://www.migrainecast.app/blog/migraine-and-hrv)
 
 ### Women's Health & Hormones
-- [Menstrual Migraine: Why Attacks Cluster Around Your Period](https://migrainecast.app/blog/menstrual-migraine-guide)
-- [Migraine During Pregnancy: What Usually Improves, What Doesn't, and What to Watch For](https://migrainecast.app/blog/migraine-during-pregnancy)
-- [Breastfeeding and Migraines: The Postpartum Crash, the Protective Effect, and Treatment Questions](https://migrainecast.app/blog/breastfeeding-and-migraines)
-- [Birth Control and Migraines: How Hormonal Contraception Can Help, Hurt, and When Aura Changes Everything](https://migrainecast.app/blog/birth-control-and-migraines)
-- [PMS Headaches: Why Your Head Joins the Premenstrual Party](https://migrainecast.app/blog/pms-headaches)
-- [Perimenopause and Migraines: Why the Years Before Menopause Are Often the Roughest](https://migrainecast.app/blog/perimenopause-migraines)
-- [Menopause and Migraines: Does It Finally Get Better?](https://migrainecast.app/blog/menopause-and-migraines)
-- [How to Build a Hormonal Migraine Calendar (and Finally See Your Pattern)](https://migrainecast.app/blog/hormonal-migraine-calendar)
-- [PCOS and Migraines: What We Know About a Complicated Pair](https://migrainecast.app/blog/pcos-and-migraines)
+- [Menstrual Migraine: Why Attacks Cluster Around Your Period](https://www.migrainecast.app/blog/menstrual-migraine-guide)
+- [Migraine During Pregnancy: What Usually Improves, What Doesn't, and What to Watch For](https://www.migrainecast.app/blog/migraine-during-pregnancy)
+- [Breastfeeding and Migraines: The Postpartum Crash, the Protective Effect, and Treatment Questions](https://www.migrainecast.app/blog/breastfeeding-and-migraines)
+- [Birth Control and Migraines: How Hormonal Contraception Can Help, Hurt, and When Aura Changes Everything](https://www.migrainecast.app/blog/birth-control-and-migraines)
+- [PMS Headaches: Why Your Head Joins the Premenstrual Party](https://www.migrainecast.app/blog/pms-headaches)
+- [Perimenopause and Migraines: Why the Years Before Menopause Are Often the Roughest](https://www.migrainecast.app/blog/perimenopause-migraines)
+- [Menopause and Migraines: Does It Finally Get Better?](https://www.migrainecast.app/blog/menopause-and-migraines)
+- [How to Build a Hormonal Migraine Calendar (and Finally See Your Pattern)](https://www.migrainecast.app/blog/hormonal-migraine-calendar)
+- [PCOS and Migraines: What We Know About a Complicated Pair](https://www.migrainecast.app/blog/pcos-and-migraines)
 
 ### Triggers
-- [Common Migraine Triggers: The Full List (And Why Yours Might Be Different)](https://migrainecast.app/blog/common-migraine-triggers)
-- [Migraine Triggered by Weather Changes? Here's Exactly What to Do](https://migrainecast.app/blog/weather-triggered-migraine-what-to-do)
-- [Hormonal Migraine Relief: Why Your Cycle Triggers Attacks and What Actually Helps](https://migrainecast.app/blog/hormonal-migraine-relief)
-- [Alcohol and Migraines: Why Red Wine Gets the Blame and What's Actually Going On](https://migrainecast.app/blog/alcohol-and-migraines)
-- [Chocolate and Migraines: Trigger, or False Accusation?](https://migrainecast.app/blog/chocolate-and-migraines)
-- [Artificial Sweeteners and Migraines: The Aspartame Question](https://migrainecast.app/blog/artificial-sweeteners-and-migraines)
-- [Neck Tension and Migraines: Which One Is Causing the Other?](https://migrainecast.app/blog/neck-tension-and-migraines)
-- [Skipping Meals and Migraines: Why an Empty Stomach Is a Loaded Trigger](https://migrainecast.app/blog/skipping-meals-migraine-trigger)
-- [Exercise Headaches and Migraines: Why Workouts Trigger Attacks (and Why You Shouldn't Quit)](https://migrainecast.app/blog/exercise-headaches)
-- [Blue Light and Migraines: What Screens Actually Do to a Migraine Brain](https://migrainecast.app/blog/blue-light-and-migraines)
-- [Loud Sounds and Migraines: When the World Is Turned Up Too High](https://migrainecast.app/blog/loud-sounds-migraine-trigger)
+- [Common Migraine Triggers: The Full List (And Why Yours Might Be Different)](https://www.migrainecast.app/blog/common-migraine-triggers)
+- [Migraine Triggered by Weather Changes? Here's Exactly What to Do](https://www.migrainecast.app/blog/weather-triggered-migraine-what-to-do)
+- [Hormonal Migraine Relief: Why Your Cycle Triggers Attacks and What Actually Helps](https://www.migrainecast.app/blog/hormonal-migraine-relief)
+- [Alcohol and Migraines: Why Red Wine Gets the Blame and What's Actually Going On](https://www.migrainecast.app/blog/alcohol-and-migraines)
+- [Chocolate and Migraines: Trigger, or False Accusation?](https://www.migrainecast.app/blog/chocolate-and-migraines)
+- [Artificial Sweeteners and Migraines: The Aspartame Question](https://www.migrainecast.app/blog/artificial-sweeteners-and-migraines)
+- [Neck Tension and Migraines: Which One Is Causing the Other?](https://www.migrainecast.app/blog/neck-tension-and-migraines)
+- [Skipping Meals and Migraines: Why an Empty Stomach Is a Loaded Trigger](https://www.migrainecast.app/blog/skipping-meals-migraine-trigger)
+- [Exercise Headaches and Migraines: Why Workouts Trigger Attacks (and Why You Shouldn't Quit)](https://www.migrainecast.app/blog/exercise-headaches)
+- [Blue Light and Migraines: What Screens Actually Do to a Migraine Brain](https://www.migrainecast.app/blog/blue-light-and-migraines)
+- [Loud Sounds and Migraines: When the World Is Turned Up Too High](https://www.migrainecast.app/blog/loud-sounds-migraine-trigger)
 
 ### Management & Prevention
-- [How to Stop a Migraine Before It Starts: A Practical Early-Intervention Guide](https://migrainecast.app/blog/stop-a-migraine-before-it-starts)
-- [How to Get Rid of a Migraine Fast: What Actually Works](https://migrainecast.app/blog/how-to-get-rid-of-a-migraine-quickly)
-- [5 Ways to Prepare for Weather-Related Migraines](https://migrainecast.app/blog/preparing-for-weather-changes)
-- [Building Your Migraine Go-Bag: What to Have Ready Before a High-Risk Day](https://migrainecast.app/blog/migraine-go-bag)
-- [Natural Migraine Relief Without Medication: What Actually Helps](https://migrainecast.app/blog/natural-migraine-relief)
-- [Migraine Pressure Points: Acupressure Spots That May Offer Relief](https://migrainecast.app/blog/migraine-pressure-points)
-- [How to Sleep With a Migraine When It Feels Impossible](https://migrainecast.app/blog/how-to-sleep-with-a-migraine)
-- [Best Foods to Eat During a Migraine (and What to Avoid)](https://migrainecast.app/blog/best-foods-during-migraine)
-- [What to Eat to Prevent Migraines: A Practical, Non-Restrictive Guide](https://migrainecast.app/blog/what-to-eat-to-prevent-migraines)
+- [How to Stop a Migraine Before It Starts: A Practical Early-Intervention Guide](https://www.migrainecast.app/blog/stop-a-migraine-before-it-starts)
+- [How to Get Rid of a Migraine Fast: What Actually Works](https://www.migrainecast.app/blog/how-to-get-rid-of-a-migraine-quickly)
+- [5 Ways to Prepare for Weather-Related Migraines](https://www.migrainecast.app/blog/preparing-for-weather-changes)
+- [Building Your Migraine Go-Bag: What to Have Ready Before a High-Risk Day](https://www.migrainecast.app/blog/migraine-go-bag)
+- [Natural Migraine Relief Without Medication: What Actually Helps](https://www.migrainecast.app/blog/natural-migraine-relief)
+- [Migraine Pressure Points: Acupressure Spots That May Offer Relief](https://www.migrainecast.app/blog/migraine-pressure-points)
+- [How to Sleep With a Migraine When It Feels Impossible](https://www.migrainecast.app/blog/how-to-sleep-with-a-migraine)
+- [Best Foods to Eat During a Migraine (and What to Avoid)](https://www.migrainecast.app/blog/best-foods-during-migraine)
+- [What to Eat to Prevent Migraines: A Practical, Non-Restrictive Guide](https://www.migrainecast.app/blog/what-to-eat-to-prevent-migraines)
 
 ### Tracking & Working With Your Doctor
-- [Why Tracking Your Migraines Actually Matters](https://migrainecast.app/blog/tracking-migraine-patterns)
-- [How to Track Migraine Triggers: A Practical System That Actually Works](https://migrainecast.app/blog/how-to-track-migraine-triggers)
-- [What to Look For in a Migraine Diary App (And Why Most Fall Short)](https://migrainecast.app/blog/migraine-diary-app)
-- [How to Talk to Your Doctor About Weather-Triggered Migraines (And What Data to Bring)](https://migrainecast.app/blog/talking-to-your-doctor)
+- [Why Tracking Your Migraines Actually Matters](https://www.migrainecast.app/blog/tracking-migraine-patterns)
+- [How to Track Migraine Triggers: A Practical System That Actually Works](https://www.migrainecast.app/blog/how-to-track-migraine-triggers)
+- [What to Look For in a Migraine Diary App (And Why Most Fall Short)](https://www.migrainecast.app/blog/migraine-diary-app)
+- [How to Talk to Your Doctor About Weather-Triggered Migraines (And What Data to Bring)](https://www.migrainecast.app/blog/talking-to-your-doctor)
 
 ## Frequently Asked Questions About MigraineCast
 
@@ -152,6 +152,6 @@ English, Dutch (Nederlands), German (Deutsch), French (Français), and Spanish (
 
 ## Contact & Legal
 
-- Support: https://migrainecast.app/support
-- Privacy Policy: https://migrainecast.app/privacy
-- Terms of Service: https://migrainecast.app/terms
+- Support: https://www.migrainecast.app/support
+- Privacy Policy: https://www.migrainecast.app/privacy
+- Terms of Service: https://www.migrainecast.app/terms

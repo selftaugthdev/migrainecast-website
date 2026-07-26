@@ -1,14 +1,6 @@
 import { getAllPosts } from "@/lib/blog";
+import { LOCALES, localizedUrl } from "@/lib/seo";
 import { MetadataRoute } from "next";
-
-const BASE_URL = "https://migrainecast.app";
-const LOCALES = ["en", "nl", "de", "fr", "es"] as const;
-const DEFAULT_LOCALE = "en";
-
-function localizedUrl(path: string, locale: string): string {
-  const prefix = locale === DEFAULT_LOCALE ? "" : `/${locale}`;
-  return `${BASE_URL}${prefix}${path}`;
-}
 
 function allLocaleUrls(
   path: string,

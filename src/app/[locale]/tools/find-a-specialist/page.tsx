@@ -4,6 +4,7 @@ import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { SpecialistFinder } from "./SpecialistFinder";
+import { buildAlternates } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -21,6 +22,7 @@ export async function generateMetadata({
       description: t("metaDescription"),
       type: "website",
     },
+    alternates: buildAlternates("/tools/find-a-specialist", locale),
   };
 }
 

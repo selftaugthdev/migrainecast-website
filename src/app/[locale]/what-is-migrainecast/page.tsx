@@ -1,11 +1,20 @@
 import { Background } from "@/components/Background";
 import Link from "next/link";
+import { buildAlternates } from "@/lib/seo";
 
-export const metadata = {
-  title: "What is MigraineCast? — MigraineCast",
-  description:
-    "MigraineCast is a migraine tracking and pattern-detection app that helps people understand how migraines relate to weather, air pressure, and personal triggers.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return {
+    title: "What is MigraineCast? — MigraineCast",
+    description:
+      "MigraineCast is a migraine tracking and pattern-detection app that helps people understand how migraines relate to weather, air pressure, and personal triggers.",
+    alternates: buildAlternates("/what-is-migrainecast", locale),
+  };
+}
 
 export default function WhatIsMigraineCastPage() {
   return (

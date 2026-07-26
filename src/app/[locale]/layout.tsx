@@ -6,6 +6,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { BASE_URL, buildAlternates } from "@/lib/seo";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
@@ -44,19 +45,10 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "Layout" });
 
   return {
-    metadataBase: new URL("https://migrainecast.app"),
+    metadataBase: new URL(BASE_URL),
     title: t("metadataTitle"),
     description: t("metadataDescription"),
-    alternates: {
-      languages: {
-        en: "/",
-        nl: "/nl",
-        de: "/de",
-        fr: "/fr",
-        es: "/es",
-        "x-default": "/",
-      },
-    },
+    alternates: buildAlternates("/", locale),
     openGraph: {
       title: t("metadataTitle"),
       description: t("metadataDescription"),
@@ -93,8 +85,8 @@ export default async function RootLayout({
     "@type": "Organization",
     name: "MigraineCast",
     description: t("organizationDescription"),
-    url: "https://migrainecast.app",
-    logo: "https://migrainecast.app/Migraine Cast LOGO DARK MODE.png",
+    url: BASE_URL,
+    logo: `${BASE_URL}/Migraine Cast LOGO DARK MODE.png`,
     sameAs: [
       "https://apps.apple.com/us/app/migraine-cast/id6754256278",
     ],
@@ -104,7 +96,7 @@ export default async function RootLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "MigraineCast",
-    url: "https://migrainecast.app",
+    url: BASE_URL,
     description: t("websiteDescription"),
   };
 

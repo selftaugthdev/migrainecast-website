@@ -1,10 +1,19 @@
 import { Background } from "@/components/Background";
+import { buildAlternates } from "@/lib/seo";
 
-export const metadata = {
-  title: "Free 7-Day Course: What Nobody Told You About Weather and Migraines — MigraineCast",
-  description:
-    "Discover why weather changes trigger your migraines and what you can do about it. Free 7-day email course backed by science.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return {
+    title: "Free 7-Day Course: What Nobody Told You About Weather and Migraines — MigraineCast",
+    description:
+      "Discover why weather changes trigger your migraines and what you can do about it. Free 7-day email course backed by science.",
+    alternates: buildAlternates("/weather-course", locale),
+  };
+}
 
 export default function WeatherCoursePage() {
   return (

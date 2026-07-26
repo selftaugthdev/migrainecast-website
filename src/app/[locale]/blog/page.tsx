@@ -1,12 +1,21 @@
 import { Background } from "@/components/Background";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
+import { buildAlternates } from "@/lib/seo";
 
-export const metadata = {
-  title: "Blog — MigraineCast",
-  description:
-    "Articles about migraines, weather triggers, and how to better manage your health.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return {
+    title: "Blog — MigraineCast",
+    description:
+      "Articles about migraines, weather triggers, and how to better manage your health.",
+    alternates: buildAlternates("/blog", locale),
+  };
+}
 
 export default function BlogPage() {
   const posts = getAllPosts();

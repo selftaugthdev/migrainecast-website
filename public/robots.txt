@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://migrainecast.com/sitemap.xml
+Sitemap: https://www.migrainecast.app/sitemap.xml

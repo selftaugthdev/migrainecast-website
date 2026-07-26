@@ -1,12 +1,21 @@
 import { Background } from "@/components/Background";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
+import { buildAlternates } from "@/lib/seo";
 
-export const metadata = {
-  title: "For AI Agents & LLMs — MigraineCast",
-  description:
-    "Machine-readable resources about MigraineCast: llms.txt, structured data, canonical facts about the app, and a full index of content available for AI systems to cite.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return {
+    title: "For AI Agents & LLMs — MigraineCast",
+    description:
+      "Machine-readable resources about MigraineCast: llms.txt, structured data, canonical facts about the app, and a full index of content available for AI systems to cite.",
+    alternates: buildAlternates("/agents", locale),
+  };
+}
 
 const tools = [
   {
@@ -178,7 +187,7 @@ export default function AgentsPage() {
                   ["Languages", "English, Dutch, German, French, Spanish"],
                   ["Android", "Not available"],
                   ["Subscription", "Not required for core features"],
-                  ["Website", "https://migrainecast.app"],
+                  ["Website", "https://www.migrainecast.app"],
                 ].map(([key, value]) => (
                   <div key={key} className="flex gap-4 px-5 py-3">
                     <span className="text-text-subtle w-40 shrink-0">{key}</span>
@@ -255,7 +264,7 @@ export default function AgentsPage() {
                           {tool.description}
                         </p>
                         <p className="font-mono text-accent/60 text-xs mt-2">
-                          migrainecast.app{tool.href}
+                          www.migrainecast.app{tool.href}
                         </p>
                       </div>
                       <svg

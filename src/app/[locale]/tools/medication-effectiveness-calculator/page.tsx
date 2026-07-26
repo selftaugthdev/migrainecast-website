@@ -1,17 +1,26 @@
 import type { Metadata } from "next";
 import { MedicationCalculator } from "./MedicationCalculator";
+import { buildAlternates } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Migraine Medication Effectiveness Calculator — Is Your Treatment Working? | MigraineCast",
-  description:
-    "Free 2-minute check based on the validated mTOQ-4 questionnaire. Score how well your acute migraine medication really works and see if your usage puts you at risk of medication overuse headache.",
-  openGraph: {
-    title: "Is Your Migraine Medication Actually Working?",
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Migraine Medication Effectiveness Calculator — Is Your Treatment Working? | MigraineCast",
     description:
-      "Score your acute treatment with the validated mTOQ-4 questionnaire and check your medication overuse risk — free, no signup.",
-    type: "website",
-  },
-};
+      "Free 2-minute check based on the validated mTOQ-4 questionnaire. Score how well your acute migraine medication really works and see if your usage puts you at risk of medication overuse headache.",
+    openGraph: {
+      title: "Is Your Migraine Medication Actually Working?",
+      description:
+        "Score your acute treatment with the validated mTOQ-4 questionnaire and check your medication overuse risk — free, no signup.",
+      type: "website",
+    },
+    alternates: buildAlternates("/tools/medication-effectiveness-calculator", locale),
+  };
+}
 
 const faqs = [
   {

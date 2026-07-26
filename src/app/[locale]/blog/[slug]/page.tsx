@@ -2,9 +2,10 @@ import { Background } from "@/components/Background";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, getAllPosts } from "@/lib/blog";
+import { BASE_URL, buildAlternates } from "@/lib/seo";
 
 interface Props {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -15,7 +16,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
   const post = getPostBySlug(slug);
 
   if (!post) {
@@ -27,6 +28,7 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: `${post.title} — MigraineCast Blog`,
     description: post.excerpt,
+    alternates: buildAlternates(`/blog/${slug}`, locale),
   };
 }
 
@@ -48,20 +50,20 @@ export default async function BlogPostPage({ params }: Props) {
     author: {
       "@type": "Organization",
       name: "MigraineCast",
-      url: "https://migrainecast.app",
+      url: BASE_URL,
     },
     publisher: {
       "@type": "Organization",
       name: "MigraineCast",
-      url: "https://migrainecast.app",
+      url: BASE_URL,
       logo: {
         "@type": "ImageObject",
-        url: "https://migrainecast.app/Migraine Cast LOGO DARK MODE.png",
+        url: `${BASE_URL}/Migraine Cast LOGO DARK MODE.png`,
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://migrainecast.app/blog/${slug}`,
+      "@id": `${BASE_URL}/blog/${slug}`,
     },
     articleSection: post.category,
   };

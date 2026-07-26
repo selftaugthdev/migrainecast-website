@@ -1,17 +1,26 @@
 import type { Metadata } from "next";
 import { TriggerTypeQuiz } from "@/components/quiz/TriggerTypeQuiz";
+import { buildAlternates } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "What's Your Migraine Trigger Type? — Free Quiz | MigraineCast",
-  description:
-    "Take this free 7-question quiz to find out which migraine trigger type you are — Weather Watcher, Sensitive Sleeper, Stress Carrier, Hormonal Warrior, Dehydrated Drifter, or Mystery Migraineur.",
-  openGraph: {
-    title: "What's Your Migraine Trigger Type? — Free Quiz",
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "What's Your Migraine Trigger Type? — Free Quiz | MigraineCast",
     description:
-      "Take this free 7-question quiz to find out which migraine trigger type you are.",
-    type: "website",
-  },
-};
+      "Take this free 7-question quiz to find out which migraine trigger type you are — Weather Watcher, Sensitive Sleeper, Stress Carrier, Hormonal Warrior, Dehydrated Drifter, or Mystery Migraineur.",
+    openGraph: {
+      title: "What's Your Migraine Trigger Type? — Free Quiz",
+      description:
+        "Take this free 7-question quiz to find out which migraine trigger type you are.",
+      type: "website",
+    },
+    alternates: buildAlternates("/migraine-trigger-quiz", locale),
+  };
+}
 
 export default function MigraineTriggerQuizPage() {
   return (

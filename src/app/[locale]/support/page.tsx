@@ -1,11 +1,20 @@
 import { Background } from "@/components/Background";
 import Link from "next/link";
+import { buildAlternates } from "@/lib/seo";
 
-export const metadata = {
-  title: "Support — MigraineCast",
-  description:
-    "Get help with MigraineCast. Contact us with questions, feedback, or issues.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return {
+    title: "Support — MigraineCast",
+    description:
+      "Get help with MigraineCast. Contact us with questions, feedback, or issues.",
+    alternates: buildAlternates("/support", locale),
+  };
+}
 
 export default function SupportPage() {
   return (

@@ -1,10 +1,19 @@
 import { Background } from "@/components/Background";
+import { buildAlternates } from "@/lib/seo";
 
-export const metadata = {
-  title: "Privacy Policy — MigraineCast",
-  description:
-    "MigraineCast Privacy Policy. Learn how we collect, use, and protect your information.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return {
+    title: "Privacy Policy — MigraineCast",
+    description:
+      "MigraineCast Privacy Policy. Learn how we collect, use, and protect your information.",
+    alternates: buildAlternates("/privacy", locale),
+  };
+}
 
 export default function PrivacyPolicyPage() {
   return (

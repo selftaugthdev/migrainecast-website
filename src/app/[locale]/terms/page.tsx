@@ -1,11 +1,20 @@
 import { Background } from "@/components/Background";
 import Link from "next/link";
+import { buildAlternates } from "@/lib/seo";
 
-export const metadata = {
-  title: "Terms of Service — MigraineCast",
-  description:
-    "MigraineCast Terms of Service. Please read these terms carefully before using the app.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return {
+    title: "Terms of Service — MigraineCast",
+    description:
+      "MigraineCast Terms of Service. Please read these terms carefully before using the app.",
+    alternates: buildAlternates("/terms", locale),
+  };
+}
 
 export default function TermsOfServicePage() {
   return (

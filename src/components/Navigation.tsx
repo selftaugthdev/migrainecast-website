@@ -130,22 +130,24 @@ export function Navigation() {
               <span className="uppercase">{locale}</span>
             </button>
 
-            {localeMenuOpen && (
-              <div className="absolute top-full right-0 mt-2 glass-card rounded-xl overflow-hidden shadow-xl z-20 min-w-[140px]">
-                {routing.locales.map((loc) => (
-                  <Link
-                    key={loc}
-                    href={pathname}
-                    locale={loc}
-                    className={`block px-4 py-2.5 text-sm transition-colors hover:bg-accent/10 ${
-                      locale === loc ? "text-accent-soft font-semibold" : "text-text-muted hover:text-text"
-                    }`}
-                  >
-                    {tLocale(loc)}
-                  </Link>
-                ))}
-              </div>
-            )}
+            <div
+              className={`absolute top-full right-0 mt-2 glass-card rounded-xl overflow-hidden shadow-xl z-20 min-w-[140px] transition-opacity duration-150 ${
+                localeMenuOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
+              }`}
+            >
+              {routing.locales.map((loc) => (
+                <Link
+                  key={loc}
+                  href={pathname}
+                  locale={loc}
+                  className={`block px-4 py-2.5 text-sm transition-colors hover:bg-accent/10 ${
+                    locale === loc ? "text-accent-soft font-semibold" : "text-text-muted hover:text-text"
+                  }`}
+                >
+                  {tLocale(loc)}
+                </Link>
+              ))}
+            </div>
           </div>
 
           {/* Theme toggle */}
@@ -209,48 +211,52 @@ export function Navigation() {
       </div>
 
       {/* Mobile Menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden border-t border-white/5 mt-5">
-          <div className="max-w-[1200px] mx-auto px-6 py-4 flex flex-col gap-4">
-            {navLinks.map((link) => (
+      <div
+        className={`md:hidden overflow-hidden transition-all duration-200 ${
+          mobileMenuOpen
+            ? "max-h-[640px] opacity-100 border-t border-white/5 mt-5"
+            : "max-h-0 opacity-0 border-t border-transparent mt-0 pointer-events-none"
+        }`}
+      >
+        <div className="max-w-[1200px] mx-auto px-6 py-4 flex flex-col gap-4">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={`text-sm font-medium py-2 transition-colors ${
+                pathname === link.href || pathname.startsWith(link.href + "/")
+                  ? "text-accent-soft"
+                  : "text-text-muted hover:text-text"
+              }`}
+            >
+              {link.label}
+            </Link>
+          ))}
+          <Link
+            href={courseLink.href}
+            className="text-sm font-semibold py-2 text-accent inline-flex items-center gap-1.5"
+          >
+            <span className="w-1.5 h-1.5 rounded-full bg-accent inline-block" />
+            {courseLink.label}
+          </Link>
+          <div className="flex flex-wrap gap-2 pt-2 text-sm font-medium text-text-muted">
+            {routing.locales.map((loc) => (
               <Link
-                key={link.href}
-                href={link.href}
-                className={`text-sm font-medium py-2 transition-colors ${
-                  pathname === link.href || pathname.startsWith(link.href + "/")
-                    ? "text-accent-soft"
-                    : "text-text-muted hover:text-text"
+                key={loc}
+                href={pathname}
+                locale={loc}
+                className={`px-3 py-1.5 rounded-full border transition-colors ${
+                  locale === loc
+                    ? "text-accent-soft border-accent/40 bg-accent/10"
+                    : "border-surface/80 hover:text-text hover:border-surface"
                 }`}
               >
-                {link.label}
+                {tLocale(loc)}
               </Link>
             ))}
-            <Link
-              href={courseLink.href}
-              className="text-sm font-semibold py-2 text-accent inline-flex items-center gap-1.5"
-            >
-              <span className="w-1.5 h-1.5 rounded-full bg-accent inline-block" />
-              {courseLink.label}
-            </Link>
-            <div className="flex flex-wrap gap-2 pt-2 text-sm font-medium text-text-muted">
-              {routing.locales.map((loc) => (
-                <Link
-                  key={loc}
-                  href={pathname}
-                  locale={loc}
-                  className={`px-3 py-1.5 rounded-full border transition-colors ${
-                    locale === loc
-                      ? "text-accent-soft border-accent/40 bg-accent/10"
-                      : "border-surface/80 hover:text-text hover:border-surface"
-                  }`}
-                >
-                  {tLocale(loc)}
-                </Link>
-              ))}
-            </div>
           </div>
         </div>
-      )}
+      </div>
     </nav>
   );
 }
