@@ -1,3 +1,4 @@
+import { AndroidWaitlistWidget } from "@/components/AndroidWaitlistWidget";
 import { Background } from "@/components/Background";
 import { DownloadButton } from "@/components/DownloadButton";
 import { FeatureCards } from "@/components/FeatureCards";
@@ -177,13 +178,17 @@ export default async function Home({
               </Link>
             </div>
 
-            <div className="flex items-center gap-3 animate-fade-up-delay-5">
+            <div className="flex items-center gap-3 mb-7 animate-fade-up-delay-5">
               <span className="text-yellow-400 tracking-tight text-base leading-none">★★★★★</span>
               <span className="text-sm text-white/80">
                 {t.rich("hero.rating", {
                   b: (chunks) => <span className="text-white font-semibold">{chunks}</span>,
                 })}
               </span>
+            </div>
+
+            <div className="animate-fade-up-delay-5">
+              <AndroidWaitlistWidget variant="overlay" />
             </div>
           </div>
         </div>
@@ -230,7 +235,7 @@ export default async function Home({
             </Link>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 mb-7">
             <span className="text-yellow-400 tracking-tight text-base leading-none">★★★★★</span>
             <span className="text-sm text-text-muted">
               {t.rich("hero.rating", {
@@ -238,6 +243,8 @@ export default async function Home({
               })}
             </span>
           </div>
+
+          <AndroidWaitlistWidget variant="default" />
         </div>
       </section>
 

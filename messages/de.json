@@ -115,7 +115,22 @@
       "description": "Luftdruckabfälle und Wetterveränderungen lösen seit Jahren unbemerkt deine Migräne aus. MigraineCast zeigt dir das Muster — und warnt dich <b>bis zu 48 Stunden vorher</b>, damit du deine Tage schützen kannst, statt sie zu verlieren.",
       "downloadCta": "Kostenlos für iPhone herunterladen",
       "howItHelps": "So hilft es",
-      "rating": "<b>4,8</b> im App Store · <b>27+</b> Länder"
+      "rating": "<b>4,8</b> im App Store · <b>27+</b> Länder",
+      "androidWaitlist": {
+        "introText": "Wir arbeiten gerade an der Android-Version.",
+        "buttonLabel": "Der Android-Warteliste beitreten",
+        "modal": {
+          "title": "Für Android benachrichtigen lassen",
+          "description": "Wir entwickeln derzeit die Android-Version von MigraineCast. Hinterlasse deine E-Mail-Adresse und wir informieren dich, sobald sie fertig ist.",
+          "placeholder": "du@beispiel.de",
+          "submitCta": "Warteliste beitreten",
+          "submitting": "Wird gesendet…",
+          "successTitle": "Du stehst auf der Liste!",
+          "successMessage": "Wir schreiben dir, sobald MigraineCast für Android verfügbar ist.",
+          "errorMessage": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+          "close": "Schließen"
+        }
+      }
     },
     "solution": {
       "label": "Die Lösung",

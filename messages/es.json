@@ -115,7 +115,22 @@
       "description": "Las caídas de presión atmosférica y los cambios climáticos llevan años desencadenando tus migrañas en silencio. MigraineCast te muestra el patrón — y te avisa <b>hasta 48 horas antes</b>, para que puedas proteger tus días en lugar de perderlos.",
       "downloadCta": "Descargar gratis en iPhone",
       "howItHelps": "Cómo ayuda",
-      "rating": "<b>4,8</b> en la App Store · <b>27+</b> países"
+      "rating": "<b>4,8</b> en la App Store · <b>27+</b> países",
+      "androidWaitlist": {
+        "introText": "Actualmente estamos desarrollando la versión para Android.",
+        "buttonLabel": "Únete a la lista de espera de Android",
+        "modal": {
+          "title": "Recibe un aviso para Android",
+          "description": "Actualmente estamos desarrollando la versión de MigraineCast para Android. Déjanos tu correo y te avisaremos en cuanto esté lista.",
+          "placeholder": "tu@ejemplo.com",
+          "submitCta": "Unirme a la lista de espera",
+          "submitting": "Enviando…",
+          "successTitle": "¡Ya estás en la lista!",
+          "successMessage": "Te enviaremos un correo en cuanto MigraineCast esté disponible para Android.",
+          "errorMessage": "Algo salió mal. Inténtalo de nuevo.",
+          "close": "Cerrar"
+        }
+      }
     },
     "solution": {
       "label": "La solución",

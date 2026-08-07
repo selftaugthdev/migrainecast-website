@@ -115,7 +115,22 @@
       "description": "Luchtdrukdalingen en weersveranderingen veroorzaken al jaren stilletjes je migraines. MigraineCast laat je het patroon zien — en waarschuwt je <b>tot 48 uur van tevoren</b>, zodat je je dagen kunt beschermen in plaats van ze te verliezen.",
       "downloadCta": "Gratis Downloaden op iPhone",
       "howItHelps": "Hoe het helpt",
-      "rating": "<b>4.8</b> in de App Store · <b>27+</b> landen"
+      "rating": "<b>4.8</b> in de App Store · <b>27+</b> landen",
+      "androidWaitlist": {
+        "introText": "We werken momenteel aan de Android-versie.",
+        "buttonLabel": "Meld je aan voor de Android-wachtlijst",
+        "modal": {
+          "title": "Blijf op de hoogte voor Android",
+          "description": "We ontwikkelen op dit moment de Android-versie van MigraineCast. Laat je e-mailadres achter en we laten het je weten zodra hij klaar is.",
+          "placeholder": "jij@voorbeeld.nl",
+          "submitCta": "Meld je aan",
+          "submitting": "Bezig met aanmelden…",
+          "successTitle": "Je staat op de lijst!",
+          "successMessage": "We mailen je zodra MigraineCast beschikbaar is voor Android.",
+          "errorMessage": "Er ging iets mis. Probeer het opnieuw.",
+          "close": "Sluiten"
+        }
+      }
     },
     "solution": {
       "label": "De Oplossing",

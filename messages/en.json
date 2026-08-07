@@ -115,7 +115,22 @@
       "description": "Barometric pressure drops and weather shifts have been quietly triggering your migraines for years. MigraineCast shows you the pattern — and warns you <b>up to 48 hours ahead</b>, so you can protect your days instead of losing them.",
       "downloadCta": "Download Free on iPhone",
       "howItHelps": "How it helps",
-      "rating": "<b>4.8</b> on the App Store · <b>27+</b> countries"
+      "rating": "<b>4.8</b> on the App Store · <b>27+</b> countries",
+      "androidWaitlist": {
+        "introText": "We're currently building the Android version.",
+        "buttonLabel": "Join the Android waitlist",
+        "modal": {
+          "title": "Get notified for Android",
+          "description": "We're currently developing the Android version of MigraineCast. Leave your email and we'll let you know the moment it's ready.",
+          "placeholder": "you@example.com",
+          "submitCta": "Join the waitlist",
+          "submitting": "Joining…",
+          "successTitle": "You're on the list!",
+          "successMessage": "We'll email you as soon as MigraineCast is available on Android.",
+          "errorMessage": "Something went wrong. Please try again.",
+          "close": "Close"
+        }
+      }
     },
     "solution": {
       "label": "The Solution",

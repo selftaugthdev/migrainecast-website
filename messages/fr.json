@@ -115,7 +115,22 @@
       "description": "Les chutes de pression atmosphérique et les changements météorologiques déclenchent discrètement vos migraines depuis des années. MigraineCast vous montre le schéma — et vous prévient <b>jusqu'à 48 heures à l'avance</b>, pour que vous puissiez protéger vos journées au lieu de les perdre.",
       "downloadCta": "Télécharger gratuitement sur iPhone",
       "howItHelps": "Comment ça aide",
-      "rating": "<b>4,8</b> sur l'App Store · <b>27+</b> pays"
+      "rating": "<b>4,8</b> sur l'App Store · <b>27+</b> pays",
+      "androidWaitlist": {
+        "introText": "Nous développons actuellement la version Android.",
+        "buttonLabel": "Rejoindre la liste d'attente Android",
+        "modal": {
+          "title": "Être averti pour Android",
+          "description": "Nous développons actuellement la version Android de MigraineCast. Laissez votre e-mail et nous vous préviendrons dès qu'elle sera prête.",
+          "placeholder": "vous@exemple.fr",
+          "submitCta": "Rejoindre la liste d'attente",
+          "submitting": "Envoi en cours…",
+          "successTitle": "Vous êtes sur la liste !",
+          "successMessage": "Nous vous enverrons un e-mail dès que MigraineCast sera disponible sur Android.",
+          "errorMessage": "Une erreur s'est produite. Veuillez réessayer.",
+          "close": "Fermer"
+        }
+      }
     },
     "solution": {
       "label": "La solution",
