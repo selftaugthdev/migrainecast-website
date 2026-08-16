@@ -45,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/weather-migraine-quiz", changeFrequency: "monthly", priority: 0.8 },
     { path: "/migraine-risk-score", changeFrequency: "monthly", priority: 0.8 },
     { path: "/migraine-trivia", changeFrequency: "monthly", priority: 0.8 },
+    { path: "/pinterest", changeFrequency: "monthly", priority: 0.5 },
     { path: "/support", changeFrequency: "yearly", priority: 0.4 },
     { path: "/privacy", changeFrequency: "yearly", priority: 0.3 },
     { path: "/terms", changeFrequency: "yearly", priority: 0.3 },

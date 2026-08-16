@@ -118,9 +118,9 @@ export default async function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
-      <GoogleAnalytics />
-      <MetaPixel />
       <body className="bg-bg text-text antialiased overflow-x-hidden">
+        <GoogleAnalytics />
+        <MetaPixel />
         <NextIntlClientProvider>
           <Navigation />
           <main className="relative z-10">{children}</main>

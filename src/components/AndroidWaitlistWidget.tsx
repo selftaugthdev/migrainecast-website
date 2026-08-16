@@ -3,15 +3,33 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
 
-const AndroidIcon = ({ className = "w-4 h-4" }: { className?: string }) => (
-  <svg viewBox="0 0 24 24" className={`fill-current shrink-0 ${className}`}>
+const AndroidIcon = ({ className = "" }: { className?: string }) => (
+  <svg viewBox="0 0 24 24" className={`shrink-0 w-4 h-4 ${className}`}>
     <path d="M17.6 9.48l1.84-3.18a.5.5 0 10-.87-.5l-1.86 3.22a10.4 10.4 0 00-8.42 0L6.43 5.8a.5.5 0 10-.87.5L7.4 9.48A9.1 9.1 0 002.5 17h19a9.1 9.1 0 00-3.9-7.52zM9 14.5a1 1 0 110-2 1 1 0 010 2zm6 0a1 1 0 110-2 1 1 0 010 2z" />
   </svg>
 );
 
 type Status = "idle" | "submitting" | "success" | "error";
+type Variant = "overlay" | "default" | "pinterest";
 
-export function AndroidWaitlistWidget({ variant = "default" }: { variant?: "overlay" | "default" }) {
+export function AndroidWaitlistWidget({
+  variant = "default",
+  badge,
+  buttonLabel,
+  attribution,
+  onOpen,
+  onSubmitted,
+}: {
+  variant?: Variant;
+  /** Small "coming soon"-style pill rendered next to the button. */
+  badge?: string;
+  /** Override the button's default translated label. */
+  buttonLabel?: string;
+  /** Extra fields (e.g. UTM attribution) sent alongside the email on submit. */
+  attribution?: Record<string, string | undefined>;
+  onOpen?: () => void;
+  onSubmitted?: (status: "success" | "error") => void;
+}) {
   const t = useTranslations("HomePage");
   const [open, setOpen] = useState(false);
   const [email, setEmail] = useState("");
@@ -27,6 +45,11 @@ export function AndroidWaitlistWidget({ variant = "default" }: { variant?: "over
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [open]);
 
+  function handleOpen() {
+    setOpen(true);
+    onOpen?.();
+  }
+
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     setStatus("submitting");
@@ -36,42 +59,52 @@ export function AndroidWaitlistWidget({ variant = "default" }: { variant?: "over
       const res = await fetch("/api/subscribe-android-waitlist", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, ...attribution }),
       });
       const data = await res.json();
 
       if (!res.ok) {
         setErrorMessage(data.error || t("hero.androidWaitlist.modal.errorMessage"));
         setStatus("error");
+        onSubmitted?.("error");
         return;
       }
 
       setStatus("success");
+      onSubmitted?.("success");
     } catch {
       setErrorMessage(t("hero.androidWaitlist.modal.errorMessage"));
       setStatus("error");
+      onSubmitted?.("error");
     }
   }
 
   const isOverlay = variant === "overlay";
+  const isPinterest = variant === "pinterest";
+
+  const buttonClassName = isPinterest
+    ? "inline-flex items-center gap-2.5 px-7 py-[17px] bg-accent/10 border border-accent/40 text-text font-semibold rounded-full transition-all duration-300 hover:-translate-y-[2px] hover:bg-accent/[0.16] hover:border-accent/60 cursor-pointer"
+    : isOverlay
+    ? "inline-flex items-center gap-2 px-5 py-3 border border-white/25 text-white text-sm font-semibold rounded-full backdrop-blur-sm transition-colors hover:bg-white/10 cursor-pointer"
+    : "inline-flex items-center gap-2 px-5 py-3 border border-accent/30 text-accent-soft text-sm font-semibold rounded-full transition-colors hover:bg-accent/10 cursor-pointer";
 
   return (
     <>
-      <div>
-        <p className={isOverlay ? "text-xs text-white/70 mb-2" : "text-xs text-text-subtle mb-2"}>
-          {t("hero.androidWaitlist.introText")}
-        </p>
-        <button
-          type="button"
-          onClick={() => setOpen(true)}
-          className={
-            isOverlay
-              ? "inline-flex items-center gap-2 px-5 py-3 border border-white/25 text-white text-sm font-semibold rounded-full backdrop-blur-sm transition-colors hover:bg-white/10 cursor-pointer"
-              : "inline-flex items-center gap-2 px-5 py-3 border border-accent/30 text-accent-soft text-sm font-semibold rounded-full transition-colors hover:bg-accent/10 cursor-pointer"
-          }
-        >
-          <AndroidIcon />
-          {t("hero.androidWaitlist.buttonLabel")}
+      <div className={isPinterest ? "flex flex-col items-start gap-2" : undefined}>
+        {badge && (
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-semibold text-text-muted">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#3DDC84] inline-block" />
+            {badge}
+          </span>
+        )}
+        {!badge && (
+          <p className={isOverlay ? "text-xs text-white/70 mb-2" : "text-xs text-text-subtle mb-2"}>
+            {t("hero.androidWaitlist.introText")}
+          </p>
+        )}
+        <button type="button" onClick={handleOpen} className={buttonClassName}>
+          <AndroidIcon className={isPinterest ? "fill-[#3DDC84]" : "fill-current"} />
+          {buttonLabel ?? t("hero.androidWaitlist.buttonLabel")}
         </button>
       </div>
 
@@ -111,7 +144,11 @@ export function AndroidWaitlistWidget({ variant = "default" }: { variant?: "over
                   {t("hero.androidWaitlist.modal.description")}
                 </p>
                 <form onSubmit={handleSubmit} className="space-y-3">
+                  <label htmlFor="android-waitlist-email" className="sr-only">
+                    {t("hero.androidWaitlist.modal.placeholder")}
+                  </label>
                   <input
+                    id="android-waitlist-email"
                     type="email"
                     required
                     value={email}

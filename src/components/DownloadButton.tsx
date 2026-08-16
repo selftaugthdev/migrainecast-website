@@ -1,28 +1,28 @@
 "use client";
 
 import { ReactNode } from "react";
-
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void;
-  }
-}
+import { trackEvent } from "@/lib/analytics";
 
 export function DownloadButton({
   href,
   className,
   location,
   children,
+  eventName = "download_click",
+  eventParams,
 }: {
   href: string;
   className: string;
   location: string;
   children: ReactNode;
+  eventName?: string;
+  eventParams?: Record<string, string | undefined>;
 }) {
   function handleClick() {
-    window.gtag?.("event", "download_click", {
+    trackEvent(eventName, {
       event_category: "engagement",
       event_label: location,
+      ...eventParams,
     });
   }
 

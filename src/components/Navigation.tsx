@@ -61,6 +61,42 @@ export function Navigation() {
 
   const courseLink = { href: "/weather-course", label: t("freeCourse") };
   const isPhotoHero = pathname === "/" && !scrolled && !mobileMenuOpen;
+  const isPinterestLanding = pathname === "/pinterest";
+
+  // Focused header for the Pinterest campaign landing page: logo + a single
+  // small download link, no full menu competing with the page's own CTAs.
+  if (isPinterestLanding) {
+    return (
+      <nav
+        className={`fixed top-0 left-0 right-0 z-50 py-5 transition-all duration-300 ${
+          scrolled ? "bg-bg/80 backdrop-blur-xl border-b border-white/5" : ""
+        }`}
+      >
+        <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
+          <Link href="/" className="flex items-center gap-2.5 text-text no-underline">
+            <Image
+              src="/New LOGO MigraineCast.png"
+              alt=""
+              width={36}
+              height={36}
+              className="h-9 w-9 rounded-full"
+              priority
+            />
+            <span className="font-display text-lg font-medium text-text">MigraineCast</span>
+          </Link>
+
+          <a
+            href="https://apps.apple.com/us/app/migraine-cast/id6754256278"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-semibold text-accent-soft hover:text-accent transition-colors"
+          >
+            Download for iPhone
+          </a>
+        </div>
+      </nav>
+    );
+  }
 
   return (
     <nav

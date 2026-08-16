@@ -274,6 +274,30 @@ body {
   font-family: var(--font-body), system-ui, sans-serif;
 }
 
+/* ── Reduced motion ─────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-fade-up,
+  .animate-fade-up-delay-1,
+  .animate-fade-up-delay-2,
+  .animate-fade-up-delay-3,
+  .animate-fade-up-delay-4,
+  .animate-fade-up-delay-5 {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .orb,
+  .glow-ring,
+  .shield-ring {
+    animation: none;
+  }
+}
+
 /* ── Custom scrollbar ───────────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--color-bg); }
