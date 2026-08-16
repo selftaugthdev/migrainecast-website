@@ -2,6 +2,7 @@
 
 import { useEffect, useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 const AndroidIcon = ({ className = "" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" className={`shrink-0 w-4 h-4 ${className}`}>
@@ -10,10 +11,14 @@ const AndroidIcon = ({ className = "" }: { className?: string }) => (
 );
 
 type Status = "idle" | "submitting" | "success" | "error";
-type Variant = "overlay" | "default" | "pinterest";
+/** "pinterest" is the bordered pill used on the campaign landing page; "green" is
+ * the solid Android-brand-green CTA used across the main site (hero, Android
+ * section, final CTA) so it reads as a clearly-secondary-but-visible action
+ * next to the iOS download button. */
+type Variant = "pinterest" | "green";
 
 export function AndroidWaitlistWidget({
-  variant = "default",
+  variant = "green",
   badge,
   buttonLabel,
   attribution,
@@ -79,26 +84,23 @@ export function AndroidWaitlistWidget({
     }
   }
 
-  const isOverlay = variant === "overlay";
   const isPinterest = variant === "pinterest";
 
   const buttonClassName = isPinterest
     ? "inline-flex items-center gap-2.5 px-7 py-[17px] bg-accent/10 border border-accent/40 text-text font-semibold rounded-full transition-all duration-300 hover:-translate-y-[2px] hover:bg-accent/[0.16] hover:border-accent/60 cursor-pointer"
-    : isOverlay
-    ? "inline-flex items-center gap-2 px-5 py-3 border border-white/25 text-white text-sm font-semibold rounded-full backdrop-blur-sm transition-colors hover:bg-white/10 cursor-pointer"
-    : "inline-flex items-center gap-2 px-5 py-3 border border-accent/30 text-accent-soft text-sm font-semibold rounded-full transition-colors hover:bg-accent/10 cursor-pointer";
+    : "inline-flex items-center gap-2.5 px-7 py-[17px] bg-[#3DDC84] text-[#062b14] font-semibold rounded-full shadow-[0_4px_20px_rgba(61,220,132,0.35),inset_0_1px_0_rgba(255,255,255,0.25)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_36px_rgba(61,220,132,0.45),inset_0_1px_0_rgba(255,255,255,0.25)] cursor-pointer";
 
   return (
     <>
-      <div className={isPinterest ? "flex flex-col items-start gap-2" : undefined}>
+      <div className="flex flex-col items-start gap-2">
         {badge && (
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-semibold text-text-muted">
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-accent/10 border border-accent/20 rounded-full text-xs font-semibold text-accent-soft">
             <span className="w-1.5 h-1.5 rounded-full bg-[#3DDC84] inline-block" />
             {badge}
           </span>
         )}
         {!badge && (
-          <p className={isOverlay ? "text-xs text-white/70 mb-2" : "text-xs text-text-subtle mb-2"}>
+          <p className="text-xs text-text-subtle mb-2">
             {t("hero.androidWaitlist.introText")}
           </p>
         )}
@@ -168,6 +170,15 @@ export function AndroidWaitlistWidget({
                   {status === "error" && (
                     <p className="text-sm text-coral">{errorMessage}</p>
                   )}
+                  <p className="text-xs text-text-subtle leading-relaxed pt-1">
+                    {t.rich("hero.androidWaitlist.modal.consent", {
+                      link: (chunks) => (
+                        <Link href="/privacy" className="underline hover:text-text-muted">
+                          {chunks}
+                        </Link>
+                      ),
+                    })}
+                  </p>
                 </form>
               </>
             )}

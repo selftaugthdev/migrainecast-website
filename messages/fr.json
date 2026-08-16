@@ -1,9 +1,9 @@
 {
   "Layout": {
-    "metadataTitle": "MigraineCast — Prédisez les migraines avant qu'elles ne surviennent",
-    "metadataDescription": "MigraineCast vous aide à repérer les schémas de migraine liés à la météo, à la pression et aux déclencheurs — pour que les crises ne surviennent plus par surprise.",
-    "organizationDescription": "MigraineCast aide les personnes souffrant de migraine à prédire et à se préparer aux crises en suivant les schémas liés à la météo, à la pression atmosphérique et aux déclencheurs personnels.",
-    "websiteDescription": "Prédisez les migraines avant qu'elles ne surviennent avec MigraineCast. Suivez les schémas, comprenez les déclencheurs météo et reprenez le contrôle."
+    "metadataTitle": "Météo migraineuse et suivi des schémas | MigraineCast",
+    "metadataDescription": "Suivez vos symptômes de migraine, observez les changements météo et de pression, et comparez votre historique pour découvrir des schémas personnels avec MigraineCast.",
+    "organizationDescription": "MigraineCast aide les personnes à suivre leurs symptômes de migraine et à les comparer aux changements météo et de pression pour repérer des schémas personnels.",
+    "websiteDescription": "Suivez vos symptômes de migraine et comparez-les aux changements météo et de pression pour découvrir des schémas personnels avec MigraineCast."
   },
   "SpecialistFinder": {
     "metaTitle": "Trouvez un spécialiste de la migraine près de chez vous | MigraineCast",
@@ -51,16 +51,18 @@
     ]
   },
   "Navigation": {
-    "whatIsMigraineCast": "Qu'est-ce que MigraineCast ?",
+    "howItWorks": "Comment ça marche",
     "blog": "Blog",
+    "resources": "Ressources",
     "freeTools": "Outils gratuits",
     "quizzes": "Quiz",
-    "support": "Support",
     "freeCourse": "Cours gratuit",
+    "support": "Support",
     "downloadFree": "Télécharger gratuitement",
     "switchToLight": "Passer au mode clair",
     "switchToDark": "Passer au mode sombre",
-    "toggleMenu": "Ouvrir ou fermer le menu"
+    "toggleMenu": "Ouvrir ou fermer le menu",
+    "toggleResources": "Basculer le menu des ressources"
   },
   "LocaleSwitcher": {
     "label": "Langue",
@@ -87,35 +89,28 @@
   "FeatureCards": {
     "items": [
       {
-        "title": "Enregistrez une migraine en moins de 10 secondes",
-        "desc": "Un suivi rapide qui ne ressemble pas à une contrainte"
+        "title": "Voyez les changements à venir",
+        "desc": "Suivez la pression, la température, l'humidité et d'autres conditions environnementales."
       },
       {
-        "title": "Comprenez vos déclencheurs météo",
-        "desc": "MigraineCast relie automatiquement vos crises aux chutes de pression atmosphérique, aux tempêtes et aux fronts météorologiques"
+        "title": "Enregistrez ce que vous ressentez",
+        "desc": "Notez rapidement crises et symptômes pendant que les détails sont encore frais."
       },
       {
-        "title": "Découvrez ce qui déclenche vraiment vos migraines",
-        "desc": "Visualisez des schémas sur des semaines et des mois — quels jours, saisons et conditions précèdent systématiquement vos crises"
-      },
-      {
-        "title": "Sachez quand un jour à risque arrive",
-        "desc": "Recevez une prévision de risque de migraine sur 48 heures basée sur la météo à venir — pour vous préparer, pas seulement réagir"
-      },
-      {
-        "title": "Rapport PDF pour votre neurologue",
-        "desc": "Générez un PDF prêt à présenter avec l'historique de vos crises, vos déclencheurs et les corrélations météo — à apporter à votre prochain rendez-vous"
+        "title": "Comparez dans le temps",
+        "desc": "Recherchez des liens récurrents entre plusieurs crises plutôt que de vous fier à une seule coïncidence."
       }
     ]
   },
   "HomePage": {
     "hero": {
-      "badge": "Disponible sur iPhone",
-      "title": "Sachez qu'une migraine arrive <em>avant</em> qu'elle ne survienne",
-      "description": "Les chutes de pression atmosphérique et les changements météorologiques déclenchent discrètement vos migraines depuis des années. MigraineCast vous montre le schéma — et vous prévient <b>jusqu'à 48 heures à l'avance</b>, pour que vous puissiez protéger vos journées au lieu de les perdre.",
+      "eyebrow": "Météo migraineuse et suivi des schémas",
+      "title": "Voyez ce qui change avant vos migraines",
+      "description": "Comparez les changements météo, les variations de pression et votre historique de migraines pour découvrir des schémas qui pourraient vous être propres.",
       "downloadCta": "Télécharger gratuitement sur iPhone",
-      "howItHelps": "Comment ça aide",
-      "rating": "<b>4,8</b> sur l'App Store · <b>27+</b> pays",
+      "androidBadge": "Bientôt disponible",
+      "androidCta": "Rejoindre la liste d'attente",
+      "rating": "<b>4,8</b> sur l'App Store",
       "androidWaitlist": {
         "introText": "Nous développons actuellement la version Android.",
         "buttonLabel": "Rejoindre la liste d'attente Android",
@@ -123,6 +118,7 @@
           "title": "Être averti pour Android",
           "description": "Nous développons actuellement la version Android de MigraineCast. Laissez votre e-mail et nous vous préviendrons dès qu'elle sera prête.",
           "placeholder": "vous@exemple.fr",
+          "consent": "Nous n'utiliserons votre e-mail que pour les actualités du lancement Android — pas de spam, désabonnement possible à tout moment. Voir notre <link>politique de confidentialité</link>.",
           "submitCta": "Rejoindre la liste d'attente",
           "submitting": "Envoi en cours…",
           "successTitle": "Vous êtes sur la liste !",
@@ -132,80 +128,62 @@
         }
       }
     },
-    "solution": {
-      "label": "La solution",
-      "title": "Arrêtez de réagir. Commencez à prédire.",
-      "description": "MigraineCast s'occupe du suivi, de l'analyse et des alertes — il ne vous reste qu'à vivre votre vie.",
-      "highlight": "Pas de tableurs. Pas de conjectures. Pas de jargon médical."
+    "coreBenefits": {
+      "label": "Avantages essentiels",
+      "title": "Comprenez votre schéma, pas celui de quelqu'un d'autre",
+      "description": "MigraineCast relie les conditions qui vous entourent à ce que vous enregistrez — pour que des schémas deviennent visibles avec le temps.",
+      "highlight": "Une prise de conscience des schémas, pas un diagnostic ni une garantie."
     },
     "howItWorks": {
       "label": "Comment ça marche",
-      "title": "Assez simple pour vraiment s'y tenir",
-      "description": "Pas de configuration complexe. Pas de journal pendant des heures. Juste quelques clics — et MigraineCast s'occupe du reste.",
+      "title": "Trois étapes simples",
+      "description": "Pas de configuration complexe, pas de journal interminable — juste quelques clics.",
       "steps": [
         {
-          "title": "Enregistrez en quelques secondes, pas en minutes",
-          "desc": "Enregistrez une crise en quelques clics. Pas de formulaires interminables, pas de friction — seulement les données qui aident vraiment à identifier vos déclencheurs."
+          "title": "Vérifiez les conditions à venir",
+          "desc": "Passez en revue les changements environnementaux pouvant concerner la migraine."
         },
         {
-          "title": "Nous le relions à votre météo",
-          "desc": "MigraineCast relie automatiquement chaque crise à la pression atmosphérique et aux changements météo à votre emplacement exact — sans saisie manuelle."
+          "title": "Enregistrez crises et symptômes",
+          "desc": "Notez quand les symptômes sont apparus et comment la crise a évolué."
         },
         {
-          "title": "Voyez ce qui arrive — 48 heures à l'avance",
-          "desc": "Recevez une prévision de risque personnalisée avant l'apparition de conditions dangereuses. Protégez vos plans au lieu de les annuler."
+          "title": "Consultez votre historique",
+          "desc": "Comparez conditions et symptômes dans le temps pour identifier d'éventuels schémas personnels."
         }
       ]
+    },
+    "weather": {
+      "label": "Focus météo",
+      "title": "La météo affecte chacun différemment",
+      "body": "Certaines personnes signalent des crises de migraine autour de changements de pression, de température, d'humidité ou d'orages. MigraineCast vous aide à comparer ces conditions avec votre propre historique, afin de voir si un schéma récurrent apparaît."
     },
     "testimonial": {
       "quote": "Toutes mes migraines correspondaient aux jours à risque élevé ou moyen dans l'application. Je comprends enfin ce qui se passe.",
       "author": "— Selen B., avis vérifié sur l'App Store"
     },
-    "course": {
-      "badge": "Cours gratuit par e-mail",
-      "title": "Ce que personne ne vous a dit sur la météo et les migraines",
-      "description": "Comprenez enfin pourquoi les changements météo vous donnent mal à la tête. 7 jours d'informations scientifiques livrées dans votre boîte de réception — gratuitement.",
-      "checklist": [
-        "Pourquoi les chutes de pression déclenchent des migraines avant la tempête",
-        "La sensibilité météo cachée de votre cerveau expliquée",
-        "Des stratégies pratiques pour vous préparer et vous protéger"
-      ],
-      "cta": "Obtenir un accès gratuit",
-      "days": [
-        { "day": "Jour 1", "title": "Pourquoi la météo vous donne-t-elle des migraines ?" },
-        { "day": "Jour 2", "title": "La pression atmosphérique : le déclencheur silencieux" },
-        { "day": "Jour 3", "title": "Le lien avec la foudre (oui, vraiment)" },
-        { "day": "Jour 4", "title": "Température, humidité et le facteur chaleur" },
-        { "day": "Jour 5", "title": "Rendre votre vie résistante à la météo" },
-        { "day": "Jour 6", "title": "La méthode la plus intelligente pour suivre les déclencheurs météo" },
-        { "day": "Jour 7", "title": "Reprendre le contrôle des déclencheurs météo" }
-      ]
-    },
-    "isThisYou": {
-      "label": "Est-ce vous ?",
-      "title": "Conçu pour les vraies personnes souffrant de migraine",
-      "items": [
-        "Vous avez annulé des projets à cause d'une migraine surgie de nulle part",
-        "Vous suspectez que la météo est un déclencheur — mais vous ne pouvez pas encore le prouver",
-        "Votre médecin a dit 'tenez juste un journal' et vous l'avez essayé, mais ça n'a pas aidé",
-        "Vous voulez vous préparer aux crises, pas seulement y réagir"
-      ]
+    "android": {
+      "label": "Android",
+      "title": "MigraineCast pour Android arrive bientôt",
+      "body": "Rejoignez la liste d'attente pour être averti dès que MigraineCast sera lancé sur Android.",
+      "formNote": "Nous utiliserons votre e-mail uniquement pour partager les actualités du lancement Android — pas de spam, désabonnement possible à tout moment.",
+      "buttonLabel": "Rejoindre la liste d'attente Android"
     },
     "finalCta": {
-      "titleLine1": "Arrêtez de deviner.",
-      "titleLine2": "Commencez à voir des schémas.",
-      "description": "Rejoignez les personnes souffrant de migraine dans plus de 27 pays qui comprennent enfin leurs déclencheurs — et voient les crises arriver avant qu'elles ne surviennent.",
-      "downloadCta": "Télécharger gratuitement sur iPhone",
+      "titleLine1": "Commencez à comprendre",
+      "titleLine2": "vos schémas de migraine",
+      "iosCta": "Télécharger gratuitement sur iPhone",
+      "androidCta": "Rejoindre la liste d'attente Android",
       "freeNote": "Téléchargement gratuit — les fonctionnalités premium débloquent des informations plus approfondies",
-      "availableOn": "Disponible sur iOS"
+      "availableOn": "Disponible sur iOS · Android bientôt disponible"
     },
+    "medicalDisclaimer": "MigraineCast facilite le suivi de la migraine et la prise de conscience des schémas. Il ne diagnostique pas la migraine, ne garantit pas la survenue de crises et ne remplace pas l'avis d'un professionnel de santé qualifié.",
     "schema": {
-      "description": "MigraineCast suit la pression atmosphérique et les schémas météorologiques pour prédire le risque de migraine jusqu'à 48 heures à l'avance — pour que les crises ne surviennent plus par surprise.",
+      "description": "MigraineCast vous aide à suivre vos symptômes de migraine et à les comparer aux changements météo et de pression, afin de rechercher des schémas qui pourraient vous être propres.",
       "featureList": [
-        "Suivi rapide des symptômes de migraine",
-        "Corrélation automatique météo et pression",
-        "Reconnaissance de schémas et informations",
-        "Alertes précoces à 48 heures pour les conditions à risque",
+        "Suivre les symptômes de migraine rapidement",
+        "Comparer les crises aux changements météo et de pression",
+        "Reconnaissance de schémas dans votre propre historique",
         "Rapport PDF pour les rendez-vous chez le neurologue"
       ]
     }

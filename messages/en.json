@@ -1,9 +1,9 @@
 {
   "Layout": {
-    "metadataTitle": "MigraineCast — Predict Migraines Before They Strike",
-    "metadataDescription": "MigraineCast helps you spot migraine patterns linked to weather, pressure, and triggers — so attacks don't come out of nowhere.",
-    "organizationDescription": "MigraineCast helps migraine sufferers predict and prepare for attacks by tracking patterns linked to weather, barometric pressure, and personal triggers.",
-    "websiteDescription": "Predict migraines before they strike with MigraineCast. Track patterns, understand weather triggers, and take control."
+    "metadataTitle": "Migraine Weather and Pattern Tracking | MigraineCast",
+    "metadataDescription": "Track migraine symptoms, follow weather and pressure changes, and compare your history to discover personal patterns with MigraineCast.",
+    "organizationDescription": "MigraineCast helps people track migraine symptoms and compare them with weather and pressure changes to look for personal patterns.",
+    "websiteDescription": "Track migraine symptoms and compare them with weather and pressure changes to discover personal patterns with MigraineCast."
   },
   "SpecialistFinder": {
     "metaTitle": "Find a Migraine Specialist Near You | MigraineCast",
@@ -51,16 +51,18 @@
     ]
   },
   "Navigation": {
-    "whatIsMigraineCast": "What is MigraineCast?",
+    "howItWorks": "How It Works",
     "blog": "Blog",
+    "resources": "Resources",
     "freeTools": "Free Tools",
     "quizzes": "Quizzes",
-    "support": "Support",
     "freeCourse": "Free Course",
+    "support": "Support",
     "downloadFree": "Download Free",
     "switchToLight": "Switch to light mode",
     "switchToDark": "Switch to dark mode",
-    "toggleMenu": "Toggle menu"
+    "toggleMenu": "Toggle menu",
+    "toggleResources": "Toggle resources menu"
   },
   "LocaleSwitcher": {
     "label": "Language",
@@ -87,35 +89,28 @@
   "FeatureCards": {
     "items": [
       {
-        "title": "Log a migraine in under 10 seconds",
-        "desc": "Quick logging that doesn't feel like a chore"
+        "title": "See upcoming changes",
+        "desc": "Follow pressure, temperature, humidity, and other environmental conditions."
       },
       {
-        "title": "Understand your weather triggers",
-        "desc": "MigraineCast automatically connects your attacks to barometric pressure drops, storms, and weather fronts"
+        "title": "Log what you experience",
+        "desc": "Record attacks and symptoms quickly while the details are fresh."
       },
       {
-        "title": "Discover what actually triggers your migraines",
-        "desc": "See patterns across weeks and months — which days, seasons, and conditions consistently precede your attacks"
-      },
-      {
-        "title": "Know a high-risk day is coming",
-        "desc": "Get a 48-hour migraine risk forecast based on upcoming weather — so you can prepare, not just react"
-      },
-      {
-        "title": "PDF report for your neurologist",
-        "desc": "Generate a doctor-ready PDF of your attack history, triggers, and weather correlations — ready to bring to your next appointment"
+        "title": "Compare over time",
+        "desc": "Look for recurring relationships across multiple attacks rather than relying on one coincidence."
       }
     ]
   },
   "HomePage": {
     "hero": {
-      "badge": "Available on iPhone",
-      "title": "Know a migraine is coming <em>before</em> it hits",
-      "description": "Barometric pressure drops and weather shifts have been quietly triggering your migraines for years. MigraineCast shows you the pattern — and warns you <b>up to 48 hours ahead</b>, so you can protect your days instead of losing them.",
-      "downloadCta": "Download Free on iPhone",
-      "howItHelps": "How it helps",
-      "rating": "<b>4.8</b> on the App Store · <b>27+</b> countries",
+      "eyebrow": "Migraine Weather and Pattern Tracking",
+      "title": "See what changes before your migraines",
+      "description": "Compare weather shifts, pressure changes, and your symptom history to uncover patterns that may be personal to you.",
+      "downloadCta": "Download free on iPhone",
+      "androidBadge": "Coming soon",
+      "androidCta": "Join the waitlist",
+      "rating": "<b>4.8</b> on the App Store",
       "androidWaitlist": {
         "introText": "We're currently building the Android version.",
         "buttonLabel": "Join the Android waitlist",
@@ -123,6 +118,7 @@
           "title": "Get notified for Android",
           "description": "We're currently developing the Android version of MigraineCast. Leave your email and we'll let you know the moment it's ready.",
           "placeholder": "you@example.com",
+          "consent": "We'll only email you about the Android launch — no spam, unsubscribe anytime. See our <link>Privacy Policy</link>.",
           "submitCta": "Join the waitlist",
           "submitting": "Joining…",
           "successTitle": "You're on the list!",
@@ -132,80 +128,62 @@
         }
       }
     },
-    "solution": {
-      "label": "The Solution",
-      "title": "Stop reacting. Start predicting.",
-      "description": "MigraineCast does the tracking, the analysis, and the alerting — so all you have to do is live your life.",
-      "highlight": "No spreadsheets. No guesswork. No medical jargon."
+    "coreBenefits": {
+      "label": "Core Benefits",
+      "title": "Understand your pattern, not someone else's",
+      "description": "MigraineCast connects the conditions around you with what you log — so patterns become visible over time.",
+      "highlight": "Pattern awareness, not a diagnosis or a guarantee."
     },
     "howItWorks": {
       "label": "How It Works",
-      "title": "Simple enough to actually stick with",
-      "description": "No complex setup. No hour-long journaling. Just a few taps — and MigraineCast takes care of the rest.",
+      "title": "Three simple steps",
+      "description": "No complex setup, no hour-long journaling — just a few taps.",
       "steps": [
         {
-          "title": "Log in seconds, not minutes",
-          "desc": "Record an attack in a few taps. No lengthy forms, no friction — just the data that actually helps identify your triggers."
+          "title": "Check upcoming conditions",
+          "desc": "Review environmental changes that may be relevant to migraine."
         },
         {
-          "title": "We connect it to your weather",
-          "desc": "MigraineCast automatically links each attack to barometric pressure and weather changes at your exact location — no manual input."
+          "title": "Log attacks and symptoms",
+          "desc": "Record when symptoms appeared and how the attack developed."
         },
         {
-          "title": "See what's coming — 48 hours ahead",
-          "desc": "Get a personalised risk forecast before dangerous conditions arrive. Protect your plans instead of cancelling them."
+          "title": "Review your history",
+          "desc": "Compare conditions and symptoms across time to identify possible personal patterns."
         }
       ]
+    },
+    "weather": {
+      "label": "Weather Focus",
+      "title": "Weather affects people differently",
+      "body": "Some people report migraine attacks around changes in pressure, temperature, humidity, or storms. MigraineCast helps you compare those conditions with your own history, so you can see whether a repeatable pattern appears."
     },
     "testimonial": {
       "quote": "All of my migraines were in line with high or medium risk days on the app. I finally understand what's happening.",
       "author": "— Selen B., verified App Store review"
     },
-    "course": {
-      "badge": "Free Email Course",
-      "title": "What Nobody Told You About Weather and Migraines",
-      "description": "Finally understand why weather changes wreck your head. 7 days of science-backed insights delivered to your inbox — free.",
-      "checklist": [
-        "Why pressure drops trigger migraines before the storm",
-        "Your brain's hidden weather sensitivity explained",
-        "Practical strategies to prepare and protect yourself"
-      ],
-      "cta": "Get Free Access",
-      "days": [
-        { "day": "Day 1", "title": "Why Does the Weather Give You Migraines?" },
-        { "day": "Day 2", "title": "Barometric Pressure: The Silent Trigger" },
-        { "day": "Day 3", "title": "The Lightning Connection (Yes, Really)" },
-        { "day": "Day 4", "title": "Temperature, Humidity, and the Heat Factor" },
-        { "day": "Day 5", "title": "Weather-Proofing Your Life" },
-        { "day": "Day 6", "title": "The Smarter Way to Track Weather Triggers" },
-        { "day": "Day 7", "title": "Taking Control of Weather Triggers" }
-      ]
-    },
-    "isThisYou": {
-      "label": "Is This You?",
-      "title": "Built for real migraine sufferers",
-      "items": [
-        "You've cancelled plans because of a migraine that came out of nowhere",
-        "You suspect weather is a trigger — but you can't prove it yet",
-        "Your doctor said 'just track it' and you've tried, but it hasn't helped",
-        "You want to prepare for attacks, not just react to them"
-      ]
+    "android": {
+      "label": "Android",
+      "title": "MigraineCast for Android is coming",
+      "body": "Join the waitlist to get notified the moment MigraineCast launches on Android.",
+      "formNote": "We'll only use your email to share Android launch updates — no spam, unsubscribe anytime.",
+      "buttonLabel": "Join the Android waitlist"
     },
     "finalCta": {
-      "titleLine1": "Stop guessing.",
-      "titleLine2": "Start seeing patterns.",
-      "description": "Join migraine sufferers in 27+ countries who finally understand their triggers — and see attacks coming before they hit.",
-      "downloadCta": "Download Free on iPhone",
+      "titleLine1": "Start understanding",
+      "titleLine2": "your migraine patterns",
+      "iosCta": "Download free on iPhone",
+      "androidCta": "Join the Android waitlist",
       "freeNote": "Free to download — premium features unlock deeper insights",
-      "availableOn": "Available on iOS"
+      "availableOn": "Available on iOS · Android coming soon"
     },
+    "medicalDisclaimer": "MigraineCast supports migraine tracking and awareness. It does not diagnose migraine, guarantee attacks, or replace advice from a qualified healthcare professional.",
     "schema": {
-      "description": "MigraineCast tracks barometric pressure and weather patterns to forecast migraine risk up to 48 hours ahead — so attacks don't come out of nowhere.",
+      "description": "MigraineCast helps you track migraine symptoms and compare them with weather and pressure changes, so you can look for patterns that may be personal to you.",
       "featureList": [
         "Track migraine symptoms quickly",
-        "Automatic weather and pressure correlation",
-        "Pattern recognition and insights",
-        "48-hour early warning alerts for risky conditions",
+        "Compare attacks with weather and pressure changes",
+        "Pattern recognition across your own history",
         "PDF report for neurologist appointments"
       ]
     }

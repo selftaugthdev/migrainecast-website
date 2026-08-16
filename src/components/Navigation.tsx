@@ -5,17 +5,23 @@ import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { DownloadButton } from "@/components/DownloadButton";
+import { trackEvent } from "@/lib/analytics";
+
+const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278";
 
 export function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [localeMenuOpen, setLocaleMenuOpen] = useState(false);
+  const [resourcesMenuOpen, setResourcesMenuOpen] = useState(false);
   const [theme, setTheme] = useState<"dark" | "light">("light");
   const pathname = usePathname();
   const locale = useLocale();
   const t = useTranslations("Navigation");
   const tLocale = useTranslations("LocaleSwitcher");
   const localeMenuRef = useRef<HTMLDivElement>(null);
+  const resourcesMenuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const saved = (localStorage.getItem("theme") as "dark" | "light") || "dark";
@@ -31,18 +37,22 @@ export function Navigation() {
   useEffect(() => {
     setMobileMenuOpen(false);
     setLocaleMenuOpen(false);
+    setResourcesMenuOpen(false);
   }, [pathname]);
 
   useEffect(() => {
-    if (!localeMenuOpen) return;
+    if (!localeMenuOpen && !resourcesMenuOpen) return;
     const handleClickOutside = (e: MouseEvent) => {
       if (localeMenuRef.current && !localeMenuRef.current.contains(e.target as Node)) {
         setLocaleMenuOpen(false);
       }
+      if (resourcesMenuRef.current && !resourcesMenuRef.current.contains(e.target as Node)) {
+        setResourcesMenuOpen(false);
+      }
     };
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [localeMenuOpen]);
+  }, [localeMenuOpen, resourcesMenuOpen]);
 
   const toggleTheme = () => {
     const next = theme === "dark" ? "light" : "dark";
@@ -51,15 +61,22 @@ export function Navigation() {
     document.documentElement.setAttribute("data-theme", next);
   };
 
+  function handleNavClick(label: string, href: string) {
+    trackEvent("navigation_click", { path: pathname, locale, label, href });
+  }
+
   const navLinks = [
-    { href: "/what-is-migrainecast", label: t("whatIsMigraineCast") },
+    { href: "/what-is-migrainecast", label: t("howItWorks") },
     { href: "/blog", label: t("blog") },
-    { href: "/tools", label: t("freeTools") },
-    { href: "/quizzes", label: t("quizzes") },
     { href: "/support", label: t("support") },
   ];
 
-  const courseLink = { href: "/weather-course", label: t("freeCourse") };
+  const resourceLinks = [
+    { href: "/tools", label: t("freeTools") },
+    { href: "/quizzes", label: t("quizzes") },
+    { href: "/weather-course", label: t("freeCourse") },
+  ];
+
   const isPhotoHero = pathname === "/" && !scrolled && !mobileMenuOpen;
   const isPinterestLanding = pathname === "/pinterest";
 
@@ -76,7 +93,7 @@ export function Navigation() {
           <Link href="/" className="flex items-center gap-2.5 text-text no-underline">
             <Image
               src="/New LOGO MigraineCast.png"
-              alt=""
+              alt="MigraineCast"
               width={36}
               height={36}
               className="h-9 w-9 rounded-full"
@@ -86,7 +103,7 @@ export function Navigation() {
           </Link>
 
           <a
-            href="https://apps.apple.com/us/app/migraine-cast/id6754256278"
+            href={APPSTORE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-semibold text-accent-soft hover:text-accent transition-colors"
@@ -107,7 +124,11 @@ export function Navigation() {
       }`}
     >
       <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="flex items-center text-text no-underline">
+        <Link
+          href="/"
+          onClick={() => handleNavClick("logo", "/")}
+          className="flex items-center gap-2.5 text-text no-underline focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-4 rounded-full"
+        >
           <Image
             src="/New LOGO MigraineCast.png"
             alt="MigraineCast"
@@ -124,7 +145,8 @@ export function Navigation() {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors ${
+              onClick={() => handleNavClick(link.label, link.href)}
+              className={`text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-4 rounded ${
                 pathname === link.href || pathname.startsWith(link.href + "/")
                   ? isPhotoHero ? "text-white" : "text-accent-soft"
                   : isPhotoHero ? "text-white/85 hover:text-white" : "text-text-muted hover:text-text"
@@ -133,19 +155,47 @@ export function Navigation() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href={courseLink.href}
-            className={`text-sm font-semibold inline-flex items-center gap-1.5 px-3 py-1 rounded-full border transition-colors ${
-              isPhotoHero
-                ? "bg-white/10 border-white/30 text-white hover:bg-white/20"
-                : pathname === courseLink.href
-                ? "bg-accent/15 border-accent/40 text-accent-soft"
-                : "bg-accent/10 border-accent/25 text-accent hover:bg-accent/20"
-            }`}
-          >
-            <span className={`w-1.5 h-1.5 rounded-full inline-block ${isPhotoHero ? "bg-white" : "bg-accent"}`} />
-            {courseLink.label}
-          </Link>
+
+          {/* Resources dropdown */}
+          <div className="relative" ref={resourcesMenuRef}>
+            <button
+              onClick={() => setResourcesMenuOpen((open) => !open)}
+              aria-label={t("toggleResources")}
+              aria-expanded={resourcesMenuOpen}
+              className={`flex items-center gap-1 text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-4 rounded ${
+                resourceLinks.some((l) => pathname === l.href || pathname.startsWith(l.href + "/"))
+                  ? isPhotoHero ? "text-white" : "text-accent-soft"
+                  : isPhotoHero ? "text-white/85 hover:text-white" : "text-text-muted hover:text-text"
+              }`}
+            >
+              {t("resources")}
+              <svg
+                viewBox="0 0 24 24"
+                className={`w-3.5 h-3.5 fill-none stroke-current stroke-2 transition-transform ${resourcesMenuOpen ? "rotate-180" : ""}`}
+              >
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </button>
+
+            <div
+              className={`absolute top-full right-0 mt-2 glass-card rounded-xl overflow-hidden shadow-xl z-20 min-w-[160px] transition-opacity duration-150 ${
+                resourcesMenuOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
+              }`}
+            >
+              {resourceLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => handleNavClick(link.label, link.href)}
+                  className={`block px-4 py-2.5 text-sm transition-colors hover:bg-accent/10 ${
+                    pathname === link.href ? "text-accent-soft font-semibold" : "text-text-muted hover:text-text"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
 
         <div className="flex items-center gap-3">
@@ -153,7 +203,7 @@ export function Navigation() {
           <div className="hidden sm:block relative" ref={localeMenuRef}>
             <button
               onClick={() => setLocaleMenuOpen((open) => !open)}
-              className={`flex items-center gap-1.5 text-sm font-medium transition-colors px-2 py-1.5 rounded-full hover:bg-surface/40 ${
+              className={`flex items-center gap-1.5 text-sm font-medium transition-colors px-2 py-1.5 rounded-full hover:bg-surface/40 focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2 ${
                 isPhotoHero ? "text-white/85 hover:text-white" : "text-text-muted hover:text-text"
               }`}
               aria-label={tLocale("label")}
@@ -189,7 +239,7 @@ export function Navigation() {
           {/* Theme toggle */}
           <button
             onClick={toggleTheme}
-            className={`w-9 h-9 flex items-center justify-center rounded-full hover:bg-surface/40 transition-all duration-200 ${
+            className={`w-9 h-9 flex items-center justify-center rounded-full hover:bg-surface/40 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2 ${
               isPhotoHero ? "text-white/85 hover:text-white" : "text-text-muted hover:text-text"
             }`}
             aria-label={theme === "dark" ? t("switchToLight") : t("switchToDark")}
@@ -215,25 +265,27 @@ export function Navigation() {
             )}
           </button>
 
-          <a
-            href="https://apps.apple.com/us/app/migraine-cast/id6754256278"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-text text-bg font-semibold text-sm rounded-full transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_30px_rgba(167,139,250,0.3)]"
+          <DownloadButton
+            href={APPSTORE_URL}
+            location="header"
+            eventName="header_ios_download_click"
+            eventParams={{ path: pathname, locale }}
+            className="inline-flex items-center gap-2 px-6 py-3 bg-text text-bg font-semibold text-sm rounded-full transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_30px_rgba(167,139,250,0.3)] focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2"
           >
             <svg viewBox="0 0 24 24" className="w-[18px] h-[18px] fill-current shrink-0">
               <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
             </svg>
             <span className="hidden sm:inline">{t("downloadFree")}</span>
-          </a>
+          </DownloadButton>
 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className={`md:hidden p-2 transition-colors ${
+            className={`md:hidden p-2 transition-colors focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2 rounded ${
               isPhotoHero ? "text-white/85 hover:text-white" : "text-text-muted hover:text-text"
             }`}
             aria-label={t("toggleMenu")}
+            aria-expanded={mobileMenuOpen}
           >
             <svg viewBox="0 0 24 24" className="w-6 h-6 fill-none stroke-current stroke-2">
               {mobileMenuOpen ? (
@@ -259,6 +311,7 @@ export function Navigation() {
             <Link
               key={link.href}
               href={link.href}
+              onClick={() => handleNavClick(link.label, link.href)}
               className={`text-sm font-medium py-2 transition-colors ${
                 pathname === link.href || pathname.startsWith(link.href + "/")
                   ? "text-accent-soft"
@@ -268,13 +321,27 @@ export function Navigation() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href={courseLink.href}
-            className="text-sm font-semibold py-2 text-accent inline-flex items-center gap-1.5"
-          >
-            <span className="w-1.5 h-1.5 rounded-full bg-accent inline-block" />
-            {courseLink.label}
-          </Link>
+
+          <div className="pt-1">
+            <div className="text-xs font-semibold tracking-[0.1em] uppercase text-text-subtle mb-2">
+              {t("resources")}
+            </div>
+            <div className="flex flex-col gap-3">
+              {resourceLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => handleNavClick(link.label, link.href)}
+                  className={`text-sm font-medium py-1 transition-colors ${
+                    pathname === link.href ? "text-accent-soft" : "text-text-muted hover:text-text"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+
           <div className="flex flex-wrap gap-2 pt-2 text-sm font-medium text-text-muted">
             {routing.locales.map((loc) => (
               <Link

@@ -1,9 +1,9 @@
 {
   "Layout": {
-    "metadataTitle": "MigraineCast — Predice las migrañas antes de que aparezcan",
-    "metadataDescription": "MigraineCast te ayuda a detectar patrones de migraña relacionados con el clima, la presión y los desencadenantes — para que las crisis no te tomen por sorpresa.",
-    "organizationDescription": "MigraineCast ayuda a las personas con migraña a predecir y prepararse para las crisis siguiendo patrones relacionados con el clima, la presión atmosférica y los desencadenantes personales.",
-    "websiteDescription": "Predice las migrañas antes de que aparezcan con MigraineCast. Sigue patrones, comprende los desencadenantes climáticos y retoma el control."
+    "metadataTitle": "Clima migrañoso y seguimiento de patrones | MigraineCast",
+    "metadataDescription": "Registra tus síntomas de migraña, sigue los cambios de clima y presión, y compara tu historial para descubrir patrones personales con MigraineCast.",
+    "organizationDescription": "MigraineCast ayuda a las personas a registrar sus síntomas de migraña y compararlos con los cambios de clima y presión para detectar patrones personales.",
+    "websiteDescription": "Registra tus síntomas de migraña y compáralos con los cambios de clima y presión para descubrir patrones personales con MigraineCast."
   },
   "SpecialistFinder": {
     "metaTitle": "Encuentra un especialista en migraña cerca de ti | MigraineCast",
@@ -51,16 +51,18 @@
     ]
   },
   "Navigation": {
-    "whatIsMigraineCast": "¿Qué es MigraineCast?",
+    "howItWorks": "Cómo funciona",
     "blog": "Blog",
+    "resources": "Recursos",
     "freeTools": "Herramientas gratuitas",
     "quizzes": "Cuestionarios",
-    "support": "Soporte",
     "freeCourse": "Curso gratuito",
+    "support": "Soporte",
     "downloadFree": "Descargar gratis",
     "switchToLight": "Cambiar a modo claro",
     "switchToDark": "Cambiar a modo oscuro",
-    "toggleMenu": "Abrir o cerrar el menú"
+    "toggleMenu": "Abrir o cerrar el menú",
+    "toggleResources": "Alternar menú de recursos"
   },
   "LocaleSwitcher": {
     "label": "Idioma",
@@ -87,35 +89,28 @@
   "FeatureCards": {
     "items": [
       {
-        "title": "Registra una migraña en menos de 10 segundos",
-        "desc": "Un registro rápido que no se siente como una tarea pesada"
+        "title": "Consulta los cambios próximos",
+        "desc": "Sigue la presión, la temperatura, la humedad y otras condiciones ambientales."
       },
       {
-        "title": "Comprende tus desencadenantes climáticos",
-        "desc": "MigraineCast conecta automáticamente tus crisis con caídas de presión atmosférica, tormentas y frentes meteorológicos"
+        "title": "Registra lo que experimentas",
+        "desc": "Anota crisis y síntomas rápidamente mientras los detalles están frescos."
       },
       {
-        "title": "Descubre qué desencadena realmente tus migrañas",
-        "desc": "Observa patrones a lo largo de semanas y meses — qué días, estaciones y condiciones preceden constantemente a tus crisis"
-      },
-      {
-        "title": "Sabe cuándo se acerca un día de alto riesgo",
-        "desc": "Recibe un pronóstico de riesgo de migraña de 48 horas basado en el clima previsto — para que puedas prepararte, no solo reaccionar"
-      },
-      {
-        "title": "Informe en PDF para tu neurólogo",
-        "desc": "Genera un PDF listo para mostrar con tu historial de crisis, desencadenantes y correlaciones climáticas — para llevar a tu próxima cita"
+        "title": "Compara con el tiempo",
+        "desc": "Busca relaciones recurrentes entre varias crisis en lugar de confiar en una sola coincidencia."
       }
     ]
   },
   "HomePage": {
     "hero": {
-      "badge": "Disponible en iPhone",
-      "title": "Sabe que una migraña se acerca <em>antes</em> de que aparezca",
-      "description": "Las caídas de presión atmosférica y los cambios climáticos llevan años desencadenando tus migrañas en silencio. MigraineCast te muestra el patrón — y te avisa <b>hasta 48 horas antes</b>, para que puedas proteger tus días en lugar de perderlos.",
+      "eyebrow": "Clima migrañoso y seguimiento de patrones",
+      "title": "Descubre qué cambia antes de tus migrañas",
+      "description": "Compara los cambios de clima, presión y tu historial de migrañas para descubrir patrones que pueden ser propios de ti.",
       "downloadCta": "Descargar gratis en iPhone",
-      "howItHelps": "Cómo ayuda",
-      "rating": "<b>4,8</b> en la App Store · <b>27+</b> países",
+      "androidBadge": "Próximamente",
+      "androidCta": "Unirme a la lista de espera",
+      "rating": "<b>4,8</b> en la App Store",
       "androidWaitlist": {
         "introText": "Actualmente estamos desarrollando la versión para Android.",
         "buttonLabel": "Únete a la lista de espera de Android",
@@ -123,6 +118,7 @@
           "title": "Recibe un aviso para Android",
           "description": "Actualmente estamos desarrollando la versión de MigraineCast para Android. Déjanos tu correo y te avisaremos en cuanto esté lista.",
           "placeholder": "tu@ejemplo.com",
+          "consent": "Solo usaremos tu correo para novedades del lanzamiento de Android — sin spam, puedes darte de baja cuando quieras. Consulta nuestra <link>Política de privacidad</link>.",
           "submitCta": "Unirme a la lista de espera",
           "submitting": "Enviando…",
           "successTitle": "¡Ya estás en la lista!",
@@ -132,81 +128,63 @@
         }
       }
     },
-    "solution": {
-      "label": "La solución",
-      "title": "Deja de reaccionar. Empieza a predecir.",
-      "description": "MigraineCast se encarga del seguimiento, el análisis y las alertas — tú solo tienes que vivir tu vida.",
-      "highlight": "Sin hojas de cálculo. Sin conjeturas. Sin jerga médica."
+    "coreBenefits": {
+      "label": "Beneficios principales",
+      "title": "Comprende tu patrón, no el de otra persona",
+      "description": "MigraineCast conecta las condiciones a tu alrededor con lo que registras, para que los patrones se vuelvan visibles con el tiempo.",
+      "highlight": "Conciencia de patrones, no un diagnóstico ni una garantía."
     },
     "howItWorks": {
       "label": "Cómo funciona",
-      "title": "Lo bastante sencillo para mantenerlo",
-      "description": "Sin configuraciones complejas. Sin diarios de horas. Solo unos toques — y MigraineCast se encarga del resto.",
+      "title": "Tres pasos sencillos",
+      "description": "Sin configuraciones complejas, sin diarios interminables — solo unos toques.",
       "steps": [
         {
-          "title": "Registra en segundos, no en minutos",
-          "desc": "Registra una crisis en unos pocos toques. Sin formularios largos, sin fricción — solo los datos que realmente ayudan a identificar tus desencadenantes."
+          "title": "Revisa las condiciones próximas",
+          "desc": "Consulta los cambios ambientales que pueden ser relevantes para la migraña."
         },
         {
-          "title": "Lo conectamos con tu clima",
-          "desc": "MigraineCast vincula automáticamente cada crisis con la presión atmosférica y los cambios climáticos en tu ubicación exacta — sin entrada manual."
+          "title": "Registra crisis y síntomas",
+          "desc": "Anota cuándo aparecieron los síntomas y cómo evolucionó la crisis."
         },
         {
-          "title": "Mira lo que viene — 48 horas antes",
-          "desc": "Recibe un pronóstico de riesgo personalizado antes de que lleguen condiciones peligrosas. Protege tus planes en lugar de cancelarlos."
+          "title": "Revisa tu historial",
+          "desc": "Compara condiciones y síntomas a lo largo del tiempo para identificar posibles patrones personales."
         }
       ]
+    },
+    "weather": {
+      "label": "Enfoque climático",
+      "title": "El clima afecta a cada persona de forma diferente",
+      "body": "Algunas personas reportan crisis de migraña en torno a cambios de presión, temperatura, humedad o tormentas. MigraineCast te ayuda a comparar esas condiciones con tu propio historial, para que puedas ver si aparece un patrón repetido."
     },
     "testimonial": {
       "quote": "Todas mis migrañas coincidían con días de riesgo alto o medio en la app. Por fin entiendo lo que está pasando.",
       "author": "— Selen B., reseña verificada de App Store"
     },
-    "course": {
-      "badge": "Curso gratuito por correo",
-      "title": "Lo que nadie te contó sobre el clima y las migrañas",
-      "description": "Comprende por fin por qué los cambios de clima te destrozan la cabeza. 7 días de información respaldada por la ciencia directamente en tu bandeja de entrada — gratis.",
-      "checklist": [
-        "Por qué las caídas de presión desencadenan migrañas antes de la tormenta",
-        "La sensibilidad oculta de tu cerebro al clima, explicada",
-        "Estrategias prácticas para prepararte y protegerte"
-      ],
-      "cta": "Obtener acceso gratuito",
-      "days": [
-        { "day": "Día 1", "title": "¿Por qué el clima te da migrañas?" },
-        { "day": "Día 2", "title": "Presión atmosférica: el desencadenante silencioso" },
-        { "day": "Día 3", "title": "La conexión con los rayos (sí, en serio)" },
-        { "day": "Día 4", "title": "Temperatura, humedad y el factor calor" },
-        { "day": "Día 5", "title": "Preparar tu vida para el clima" },
-        { "day": "Día 6", "title": "La forma más inteligente de seguir los desencadenantes climáticos" },
-        { "day": "Día 7", "title": "Retomar el control de los desencadenantes climáticos" }
-      ]
-    },
-    "isThisYou": {
-      "label": "¿Eres tú?",
-      "title": "Creado para personas reales con migraña",
-      "items": [
-        "Has cancelado planes por una migraña que apareció de la nada",
-        "Sospechas que el clima es un desencadenante — pero aún no puedes probarlo",
-        "Tu médico dijo 'simplemente lleva un registro' y lo intentaste, pero no ayudó",
-        "Quieres prepararte para las crisis, no solo reaccionar ante ellas"
-      ]
+    "android": {
+      "label": "Android",
+      "title": "MigraineCast para Android está en camino",
+      "body": "Únete a la lista de espera para recibir un aviso en cuanto MigraineCast se lance en Android.",
+      "formNote": "Solo usaremos tu correo para compartir novedades del lanzamiento de Android — sin spam, puedes darte de baja cuando quieras.",
+      "buttonLabel": "Únete a la lista de espera de Android"
     },
     "finalCta": {
-      "titleLine1": "Deja de adivinar.",
-      "titleLine2": "Empieza a ver patrones.",
-      "description": "Únete a personas con migraña en más de 27 países que por fin entienden sus desencadenantes — y ven venir las crisis antes de que aparezcan.",
-      "downloadCta": "Descargar gratis en iPhone",
+      "titleLine1": "Empieza a entender",
+      "titleLine2": "tus patrones de migraña",
+      "iosCta": "Descargar gratis en iPhone",
+      "androidCta": "Únete a la lista de espera de Android",
       "freeNote": "Descarga gratuita — las funciones premium desbloquean información más profunda",
-      "availableOn": "Disponible en iOS"
+      "availableOn": "Disponible en iOS · Android próximamente"
     },
+    "medicalDisclaimer": "MigraineCast facilita el seguimiento de la migraña y la conciencia de patrones. No diagnostica la migraña, no garantiza crisis ni sustituye el consejo de un profesional de la salud cualificado.",
     "schema": {
-      "description": "MigraineCast sigue la presión atmosférica y los patrones climáticos para predecir el riesgo de migraña hasta 48 horas antes — para que las crisis no te tomen por sorpresa.",
+      "description": "MigraineCast te ayuda a registrar tus síntomas de migraña y compararlos con los cambios de clima y presión, para que puedas buscar patrones que pueden ser propios de ti.",
       "featureList": [
-        "Seguimiento rápido de síntomas de migraña",
-        "Correlación automática de clima y presión",
-        "Reconocimiento de patrones e información",
-        "Alertas tempranas de 48 horas para condiciones de riesgo",
-        "Informe en PDF para citas con el neurólogo"
+        "Registra los síntomas de migraña rápidamente",
+        "Compara las crisis con los cambios de clima y presión",
+        "Reconocimiento de patrones en tu propio historial",
+        "Informe en PDF para las citas con tu neurólogo"
       ]
     }
   }

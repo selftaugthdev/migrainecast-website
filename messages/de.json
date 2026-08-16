@@ -1,9 +1,9 @@
 {
   "Layout": {
-    "metadataTitle": "MigraineCast — Migräne vorhersagen, bevor sie zuschlägt",
-    "metadataDescription": "MigraineCast hilft dir, Migränemuster zu erkennen, die mit Wetter, Luftdruck und Triggern zusammenhängen — damit Anfälle dich nicht mehr überraschen.",
-    "organizationDescription": "MigraineCast hilft Menschen mit Migräne, Anfälle vorherzusagen und sich darauf vorzubereiten, indem Muster im Zusammenhang mit Wetter, Luftdruck und persönlichen Triggern erfasst werden.",
-    "websiteDescription": "Migräne vorhersagen, bevor sie zuschlägt — mit MigraineCast. Muster erkennen, Wettertrigger verstehen und die Kontrolle zurückgewinnen."
+    "metadataTitle": "Migränewetter und Mustererkennung | MigraineCast",
+    "metadataDescription": "Erfasse Migränesymptome, verfolge Wetter- und Druckveränderungen und vergleiche deinen Verlauf, um mit MigraineCast persönliche Muster zu entdecken.",
+    "organizationDescription": "MigraineCast hilft Menschen, Migränesymptome zu erfassen und mit Wetter- und Druckveränderungen zu vergleichen, um persönliche Muster zu erkennen.",
+    "websiteDescription": "Erfasse Migränesymptome und vergleiche sie mit Wetter- und Druckveränderungen, um mit MigraineCast persönliche Muster zu entdecken."
   },
   "SpecialistFinder": {
     "metaTitle": "Finde einen Migränespezialisten in deiner Nähe | MigraineCast",
@@ -51,16 +51,18 @@
     ]
   },
   "Navigation": {
-    "whatIsMigraineCast": "Was ist MigraineCast?",
+    "howItWorks": "So funktioniert's",
     "blog": "Blog",
+    "resources": "Ressourcen",
     "freeTools": "Kostenlose Tools",
     "quizzes": "Quizze",
-    "support": "Support",
     "freeCourse": "Kostenloser Kurs",
+    "support": "Support",
     "downloadFree": "Kostenlos herunterladen",
     "switchToLight": "Zum hellen Modus wechseln",
     "switchToDark": "Zum dunklen Modus wechseln",
-    "toggleMenu": "Menü öffnen oder schließen"
+    "toggleMenu": "Menü öffnen oder schließen",
+    "toggleResources": "Ressourcen-Menü umschalten"
   },
   "LocaleSwitcher": {
     "label": "Sprache",
@@ -87,35 +89,28 @@
   "FeatureCards": {
     "items": [
       {
-        "title": "Migräne in unter 10 Sekunden erfassen",
-        "desc": "Schnelle Erfassung, die sich nicht wie eine Pflicht anfühlt"
+        "title": "Bevorstehende Veränderungen sehen",
+        "desc": "Verfolge Luftdruck, Temperatur, Luftfeuchtigkeit und andere Umweltbedingungen."
       },
       {
-        "title": "Verstehe deine Wettertrigger",
-        "desc": "MigraineCast verbindet deine Anfälle automatisch mit Luftdruckabfällen, Stürmen und Wetterfronten"
+        "title": "Erfasse, was du erlebst",
+        "desc": "Protokolliere Anfälle und Symptome schnell, solange die Details noch frisch sind."
       },
       {
-        "title": "Finde heraus, was deine Migräne wirklich auslöst",
-        "desc": "Erkenne Muster über Wochen und Monate — welche Tage, Jahreszeiten und Bedingungen deinen Anfällen regelmäßig vorausgehen"
-      },
-      {
-        "title": "Wisse, wenn ein Risikotag bevorsteht",
-        "desc": "Erhalte eine 48-Stunden-Migräne-Risikoprognose basierend auf dem kommenden Wetter — so kannst du dich vorbereiten, statt nur zu reagieren"
-      },
-      {
-        "title": "PDF-Bericht für deinen Neurologen",
-        "desc": "Erstelle einen PDF-Bericht deiner Anfallshistorie, Trigger und Wetterkorrelationen — bereit für deinen nächsten Termin"
+        "title": "Über die Zeit vergleichen",
+        "desc": "Suche nach wiederkehrenden Zusammenhängen über mehrere Anfälle hinweg, statt dich auf einen Zufall zu verlassen."
       }
     ]
   },
   "HomePage": {
     "hero": {
-      "badge": "Verfügbar für iPhone",
-      "title": "Wisse, dass eine Migräne kommt, <em>bevor</em> sie zuschlägt",
-      "description": "Luftdruckabfälle und Wetterveränderungen lösen seit Jahren unbemerkt deine Migräne aus. MigraineCast zeigt dir das Muster — und warnt dich <b>bis zu 48 Stunden vorher</b>, damit du deine Tage schützen kannst, statt sie zu verlieren.",
+      "eyebrow": "Migränewetter und Mustererkennung",
+      "title": "Sieh, was sich vor deiner Migräne verändert",
+      "description": "Vergleiche Wetterumschwünge, Druckveränderungen und deine Migränegeschichte, um Muster zu entdecken, die für dich persönlich gelten könnten.",
       "downloadCta": "Kostenlos für iPhone herunterladen",
-      "howItHelps": "So hilft es",
-      "rating": "<b>4,8</b> im App Store · <b>27+</b> Länder",
+      "androidBadge": "Bald verfügbar",
+      "androidCta": "Warteliste beitreten",
+      "rating": "<b>4,8</b> im App Store",
       "androidWaitlist": {
         "introText": "Wir arbeiten gerade an der Android-Version.",
         "buttonLabel": "Der Android-Warteliste beitreten",
@@ -123,6 +118,7 @@
           "title": "Für Android benachrichtigen lassen",
           "description": "Wir entwickeln derzeit die Android-Version von MigraineCast. Hinterlasse deine E-Mail-Adresse und wir informieren dich, sobald sie fertig ist.",
           "placeholder": "du@beispiel.de",
+          "consent": "Wir nutzen deine E-Mail nur für Updates zum Android-Start — kein Spam, jederzeit abbestellbar. Siehe unsere <link>Datenschutzerklärung</link>.",
           "submitCta": "Warteliste beitreten",
           "submitting": "Wird gesendet…",
           "successTitle": "Du stehst auf der Liste!",
@@ -132,81 +128,63 @@
         }
       }
     },
-    "solution": {
-      "label": "Die Lösung",
-      "title": "Hör auf zu reagieren. Beginne vorherzusagen.",
-      "description": "MigraineCast übernimmt das Tracking, die Analyse und die Warnungen — du musst nur dein Leben leben.",
-      "highlight": "Keine Tabellen. Kein Rätselraten. Kein medizinisches Fachjargon."
+    "coreBenefits": {
+      "label": "Kernvorteile",
+      "title": "Verstehe dein Muster, nicht das von jemand anderem",
+      "description": "MigraineCast verbindet die Bedingungen um dich herum mit dem, was du protokollierst — so werden Muster im Laufe der Zeit sichtbar.",
+      "highlight": "Musterbewusstsein, keine Diagnose oder Garantie."
     },
     "howItWorks": {
       "label": "So funktioniert's",
-      "title": "Einfach genug, um dabei zu bleiben",
-      "description": "Keine komplizierte Einrichtung. Kein stundenlanges Tagebuchschreiben. Nur ein paar Klicks — und MigraineCast erledigt den Rest.",
+      "title": "Drei einfache Schritte",
+      "description": "Keine komplizierte Einrichtung, kein stundenlanges Tagebuchschreiben — nur ein paar Klicks.",
       "steps": [
         {
-          "title": "In Sekunden erfassen, nicht in Minuten",
-          "desc": "Erfasse einen Anfall mit wenigen Klicks. Keine langen Formulare, kein Aufwand — nur die Daten, die wirklich helfen, deine Trigger zu erkennen."
+          "title": "Bevorstehende Bedingungen prüfen",
+          "desc": "Überprüfe Umweltveränderungen, die für Migräne relevant sein könnten."
         },
         {
-          "title": "Wir verbinden es mit deinem Wetter",
-          "desc": "MigraineCast verknüpft jeden Anfall automatisch mit Luftdruck- und Wetterveränderungen an deinem genauen Standort — keine manuelle Eingabe nötig."
+          "title": "Anfälle und Symptome protokollieren",
+          "desc": "Halte fest, wann Symptome auftraten und wie sich der Anfall entwickelte."
         },
         {
-          "title": "Sieh, was kommt — 48 Stunden im Voraus",
-          "desc": "Erhalte eine personalisierte Risikoprognose, bevor gefährliche Bedingungen eintreten. Schütze deine Pläne, statt sie abzusagen."
+          "title": "Deinen Verlauf überprüfen",
+          "desc": "Vergleiche Bedingungen und Symptome über die Zeit, um mögliche persönliche Muster zu erkennen."
         }
       ]
+    },
+    "weather": {
+      "label": "Wetterfokus",
+      "title": "Wetter wirkt sich bei jedem anders aus",
+      "body": "Manche Menschen berichten von Migräneanfällen im Zusammenhang mit Veränderungen bei Luftdruck, Temperatur, Luftfeuchtigkeit oder Gewittern. MigraineCast hilft dir, diese Bedingungen mit deinem eigenen Verlauf zu vergleichen, damit du sehen kannst, ob sich ein wiederkehrendes Muster zeigt."
     },
     "testimonial": {
       "quote": "Alle meine Migräneanfälle stimmten mit Tagen mit hohem oder mittlerem Risiko in der App überein. Ich verstehe endlich, was passiert.",
       "author": "— Selen B., verifizierte App-Store-Bewertung"
     },
-    "course": {
-      "badge": "Kostenloser E-Mail-Kurs",
-      "title": "Was dir niemand über Wetter und Migräne erzählt hat",
-      "description": "Verstehe endlich, warum Wetterwechsel deinen Kopf belasten. 7 Tage wissenschaftlich fundierte Einblicke direkt in dein Postfach — kostenlos.",
-      "checklist": [
-        "Warum Luftdruckabfälle vor dem Sturm Migräne auslösen",
-        "Die verborgene Wetterempfindlichkeit deines Gehirns erklärt",
-        "Praktische Strategien zur Vorbereitung und zum Schutz"
-      ],
-      "cta": "Kostenlosen Zugang erhalten",
-      "days": [
-        { "day": "Tag 1", "title": "Warum gibt dir das Wetter Migräne?" },
-        { "day": "Tag 2", "title": "Luftdruck: Der stille Auslöser" },
-        { "day": "Tag 3", "title": "Die Blitz-Verbindung (ja, wirklich)" },
-        { "day": "Tag 4", "title": "Temperatur, Luftfeuchtigkeit und der Hitzefaktor" },
-        { "day": "Tag 5", "title": "Dein Leben wetterfest machen" },
-        { "day": "Tag 6", "title": "Die smartere Art, Wettertrigger zu verfolgen" },
-        { "day": "Tag 7", "title": "Die Kontrolle über Wettertrigger zurückgewinnen" }
-      ]
-    },
-    "isThisYou": {
-      "label": "Bist du das?",
-      "title": "Gemacht für echte Migränebetroffene",
-      "items": [
-        "Du hast Pläne abgesagt wegen einer Migräne, die aus dem Nichts kam",
-        "Du vermutest, dass das Wetter ein Auslöser ist — kannst es aber noch nicht beweisen",
-        "Dein Arzt sagte 'führe einfach ein Tagebuch' und du hast es versucht, aber es hat nicht geholfen",
-        "Du möchtest dich auf Anfälle vorbereiten, nicht nur darauf reagieren"
-      ]
+    "android": {
+      "label": "Android",
+      "title": "MigraineCast für Android kommt bald",
+      "body": "Trete der Warteliste bei und erfahre als Erste:r, sobald MigraineCast für Android verfügbar ist.",
+      "formNote": "Wir nutzen deine E-Mail nur, um Updates zum Android-Start zu teilen — kein Spam, jederzeit abbestellbar.",
+      "buttonLabel": "Der Android-Warteliste beitreten"
     },
     "finalCta": {
-      "titleLine1": "Hör auf zu raten.",
-      "titleLine2": "Beginne Muster zu erkennen.",
-      "description": "Schließe dich Migränebetroffenen in über 27 Ländern an, die endlich ihre Trigger verstehen — und Anfälle kommen sehen, bevor sie zuschlagen.",
-      "downloadCta": "Kostenlos für iPhone herunterladen",
+      "titleLine1": "Beginne, deine",
+      "titleLine2": "Migränemuster zu verstehen",
+      "iosCta": "Kostenlos für iPhone herunterladen",
+      "androidCta": "Der Android-Warteliste beitreten",
       "freeNote": "Kostenloser Download — Premium-Funktionen schalten tiefere Einblicke frei",
-      "availableOn": "Verfügbar für iOS"
+      "availableOn": "Verfügbar für iOS · Android kommt bald"
     },
+    "medicalDisclaimer": "MigraineCast unterstützt das Tracking von Migräne und das Bewusstsein für Muster. Es stellt keine Diagnose, garantiert keine Anfälle und ersetzt nicht den Rat einer qualifizierten Fachperson im Gesundheitswesen.",
     "schema": {
-      "description": "MigraineCast verfolgt Luftdruck- und Wettermuster, um das Migränerisiko bis zu 48 Stunden im Voraus vorherzusagen — damit Anfälle dich nicht mehr überraschen.",
+      "description": "MigraineCast hilft dir, Migränesymptome zu erfassen und mit Wetter- und Druckveränderungen zu vergleichen, damit du nach Mustern suchen kannst, die für dich persönlich gelten könnten.",
       "featureList": [
         "Migränesymptome schnell erfassen",
-        "Automatische Wetter- und Luftdruckkorrelation",
-        "Mustererkennung und Einblicke",
-        "48-Stunden-Frühwarnung bei riskanten Bedingungen",
-        "PDF-Bericht für Neurologentermine"
+        "Anfälle mit Wetter- und Druckveränderungen vergleichen",
+        "Mustererkennung in deinem eigenen Verlauf",
+        "PDF-Bericht für Termine beim Neurologen"
       ]
     }
   }

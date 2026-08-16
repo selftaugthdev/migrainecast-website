@@ -1,9 +1,8 @@
-import { AndroidWaitlistWidget } from "@/components/AndroidWaitlistWidget";
 import { Background } from "@/components/Background";
-import { DownloadButton } from "@/components/DownloadButton";
 import { FeatureCards } from "@/components/FeatureCards";
+import { HomeConversionActions } from "@/components/HomeConversionActions";
+import { HomepageViewTracker } from "./HomepageViewTracker";
 import Image from "next/image";
-import { Link } from "@/i18n/navigation";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { hasLocale } from "next-intl";
@@ -11,12 +10,6 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 
 const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278";
-
-const AppleIcon = ({ className = "w-5 h-5" }: { className?: string }) => (
-  <svg viewBox="0 0 24 24" className={`fill-current shrink-0 ${className}`}>
-    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
-  </svg>
-);
 
 export async function generateMetadata({
   params,
@@ -59,27 +52,27 @@ export default async function Home({
   };
 
   const howItWorksSteps = t.raw("howItWorks.steps") as { title: string; desc: string }[];
-  const courseChecklist = t.raw("course.checklist") as string[];
-  const courseDays = t.raw("course.days") as { day: string; title: string }[];
-  const isThisYouItems = t.raw("isThisYou.items") as string[];
 
   const howItWorksIcons = [
     (
-      <svg viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
-        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
-        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+      <svg key="check-conditions" viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
+        <rect x="3" y="4" width="18" height="18" rx="2" />
+        <line x1="16" y1="2" x2="16" y2="6" />
+        <line x1="8" y1="2" x2="8" y2="6" />
+        <line x1="3" y1="10" x2="21" y2="10" />
       </svg>
     ),
     (
-      <svg viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
+      <svg key="log-symptoms" viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
         <circle cx="12" cy="12" r="10" />
-        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+        <line x1="12" y1="8" x2="12" y2="16" />
+        <line x1="8" y1="12" x2="16" y2="12" />
       </svg>
     ),
     (
-      <svg viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
-        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-        <polyline points="22 4 12 14.01 9 11.01" />
+      <svg key="review-history" viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
+        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+        <polyline points="17 6 23 6 23 12" />
       </svg>
     ),
   ];
@@ -90,6 +83,7 @@ export default async function Home({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(appSchema) }}
       />
+      <HomepageViewTracker />
       <Background />
 
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
@@ -106,10 +100,10 @@ export default async function Home({
           />
 
           {/* Top scrim so the floating nav stays legible over the photo */}
-          <div className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-black/45 to-transparent" />
+          <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black/55 to-transparent" />
 
           {/* Scrim so the headline stays legible over the photo (desktop overlay only) */}
-          <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-black/65 via-black/25 to-transparent" />
+          <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-black/70 via-black/35 to-transparent" />
 
           {/* iPhone mockup — self-contained box matching the frame PNG's own aspect ratio, placed in the open sky to the right of the photo's subject */}
           <div
@@ -120,13 +114,12 @@ export default async function Home({
               className="absolute overflow-hidden bg-black"
               style={{ left: "11.33%", top: "3.51%", width: "76.83%", height: "92.18%", borderRadius: "12% / 6%" }}
             >
-              <video
-                src="/demo.mp4"
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="w-full h-full object-contain"
+              <Image
+                src="/Simulator Screenshot - iPhone 17 Pro - 2026-01-23 at 19.49.29.png"
+                alt="MigraineCast forecast screen showing daily migraine risk level with pressure, humidity, and temperature sensitivity factors"
+                fill
+                sizes="(min-width: 1024px) 20vw, 40vw"
+                className="object-cover object-top"
               />
             </div>
             <img
@@ -139,103 +132,65 @@ export default async function Home({
           {/* Desktop copy — overlaid on the open sky to the left of the photo */}
           <div className="hidden lg:flex absolute inset-0 flex-col pl-16 pt-28 max-w-[600px]">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-white/10 border border-white/20 rounded-full text-xs font-semibold text-white uppercase tracking-[0.08em] mb-5 backdrop-blur-sm w-fit animate-fade-up-delay-2">
-              <AppleIcon className="w-3.5 h-3.5" />
-              {t("hero.badge")}
+              {t("hero.eyebrow")}
             </div>
 
             <h1 className="font-display text-[clamp(1.875rem,3.4vw,3rem)] font-normal leading-[1.1] tracking-tight mb-4 text-white animate-fade-up-delay-3">
-              {t.rich("hero.title", {
-                em: (chunks) => <em className="italic text-[#a3b0f8]">{chunks}</em>,
-              })}
+              {t("hero.title")}
             </h1>
 
-            <p className="text-[clamp(0.95rem,1.4vw,1.05rem)] text-white/80 leading-relaxed mb-6 animate-fade-up-delay-4">
-              {t.rich("hero.description", {
-                b: (chunks) => <span className="text-white font-medium">{chunks}</span>,
-              })}
+            <p className="text-[clamp(0.95rem,1.4vw,1.05rem)] text-white/90 leading-relaxed mb-7 animate-fade-up-delay-4">
+              {t("hero.description")}
             </p>
 
-            <div className="flex flex-wrap gap-3 mb-5 animate-fade-up-delay-5">
-              <DownloadButton
-                href={APPSTORE_URL}
+            <div className="mb-5 animate-fade-up-delay-5">
+              <HomeConversionActions
                 location="hero"
-                className="inline-flex items-center gap-2.5 px-7 py-[17px] bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4),inset_0_1px_0_rgba(255,255,255,0.2)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_40px_rgba(167,139,250,0.5),inset_0_1px_0_rgba(255,255,255,0.2)]"
-              >
-                <AppleIcon />
-                {t("hero.downloadCta")}
-              </DownloadButton>
-              <Link
-                href="/what-is-migrainecast"
-                className="inline-flex items-center gap-2 px-5 py-[17px] text-white font-semibold transition-colors hover:text-accent-soft group"
-              >
-                {t("hero.howItHelps")}
-                <svg
-                  viewBox="0 0 24 24"
-                  className="w-[18px] h-[18px] fill-none stroke-current stroke-2 transition-transform group-hover:translate-x-1"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
-              </Link>
+                iosLabel={t("hero.downloadCta")}
+                iosEventName="hero_ios_download_click"
+                androidClickEventName="hero_android_waitlist_click"
+                androidBadge={t("hero.androidBadge")}
+                androidButtonLabel={t("hero.androidCta")}
+              />
             </div>
 
-            <div className="flex items-center gap-3 mb-7 animate-fade-up-delay-5">
+            <div className="flex items-center gap-3 animate-fade-up-delay-5">
               <span className="text-yellow-400 tracking-tight text-base leading-none">★★★★★</span>
-              <span className="text-sm text-white/80">
+              <span className="text-sm text-white/85">
                 {t.rich("hero.rating", {
                   b: (chunks) => <span className="text-white font-semibold">{chunks}</span>,
                 })}
               </span>
-            </div>
-
-            <div className="animate-fade-up-delay-5">
-              <AndroidWaitlistWidget variant="overlay" />
             </div>
           </div>
         </div>
 
         {/* Mobile copy — below the photo, using the page's normal theme colors */}
         <div className="lg:hidden px-6 pt-10">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-accent/10 border border-accent/20 rounded-full text-xs font-semibold text-accent-soft uppercase tracking-[0.08em] mb-7">
-            <AppleIcon className="w-3.5 h-3.5" />
-            {t("hero.badge")}
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-accent/10 border border-accent/20 rounded-full text-xs font-semibold text-accent-soft uppercase tracking-[0.08em] mb-6">
+            {t("hero.eyebrow")}
           </div>
 
           <h1 className="font-display text-[clamp(2.2rem,4.5vw,3.75rem)] font-normal leading-[1.07] tracking-tight mb-5">
-            {t.rich("hero.title", {
-              em: (chunks) => <em className="italic text-accent-soft">{chunks}</em>,
-            })}
+            {t("hero.title")}
           </h1>
 
-          <p className="text-[clamp(1rem,1.6vw,1.15rem)] text-text-muted leading-relaxed mb-8">
-            {t.rich("hero.description", {
-              b: (chunks) => <span className="text-text font-medium">{chunks}</span>,
-            })}
+          <p className="text-[clamp(1rem,1.6vw,1.15rem)] text-text-muted leading-relaxed mb-7">
+            {t("hero.description")}
           </p>
 
-          <div className="flex flex-wrap gap-3 mb-8">
-            <DownloadButton
-              href={APPSTORE_URL}
+          <div className="mb-6">
+            <HomeConversionActions
               location="hero-mobile"
-              className="inline-flex items-center gap-2.5 px-7 py-[17px] bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4),inset_0_1px_0_rgba(255,255,255,0.2)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_40px_rgba(167,139,250,0.5),inset_0_1px_0_rgba(255,255,255,0.2)]"
-            >
-              <AppleIcon />
-              {t("hero.downloadCta")}
-            </DownloadButton>
-            <Link
-              href="/what-is-migrainecast"
-              className="inline-flex items-center gap-2 px-5 py-[17px] text-text font-semibold transition-colors hover:text-accent-soft group"
-            >
-              {t("hero.howItHelps")}
-              <svg
-                viewBox="0 0 24 24"
-                className="w-[18px] h-[18px] fill-none stroke-current stroke-2 transition-transform group-hover:translate-x-1"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7" />
-              </svg>
-            </Link>
+              iosLabel={t("hero.downloadCta")}
+              iosEventName="hero_ios_download_click"
+              androidClickEventName="hero_android_waitlist_click"
+              androidBadge={t("hero.androidBadge")}
+              androidButtonLabel={t("hero.androidCta")}
+            />
           </div>
 
-          <div className="flex items-center gap-3 mb-7">
+          <div className="flex items-center gap-3">
             <span className="text-yellow-400 tracking-tight text-base leading-none">★★★★★</span>
             <span className="text-sm text-text-muted">
               {t.rich("hero.rating", {
@@ -243,29 +198,27 @@ export default async function Home({
               })}
             </span>
           </div>
-
-          <AndroidWaitlistWidget variant="default" />
         </div>
       </section>
 
-      {/* ── Features (Solution) ──────────────────────────────────────────── */}
+      {/* ── Core Benefits ────────────────────────────────────────────────── */}
       <section className="py-[120px] relative">
         <div className="max-w-[1200px] mx-auto px-6">
           <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-5 block">
-            {t("solution.label")}
+            {t("coreBenefits.label")}
           </span>
           <h2 className="font-display text-[clamp(2rem,4vw,3rem)] font-normal leading-tight mb-4">
-            {t("solution.title")}
+            {t("coreBenefits.title")}
           </h2>
           <p className="text-lg text-text-muted max-w-[520px] mb-16 leading-relaxed">
-            {t("solution.description")}
+            {t("coreBenefits.description")}
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
             <div className="flex flex-col gap-6 order-2 lg:order-1">
               <FeatureCards />
               <div className="py-5 px-7 bg-accent/[0.06] border-l-[3px] border-accent text-lg text-text-muted italic rounded-r-xl">
-                {t("solution.highlight")}
+                {t("coreBenefits.highlight")}
               </div>
             </div>
 
@@ -282,8 +235,9 @@ export default async function Home({
                       <div className="absolute top-3 left-1/2 -translate-x-1/2 w-[100px] h-[32px] bg-black rounded-full z-10" />
                       <Image
                         src="/Simulator Screenshot - iPhone 17 Pro - 2026-01-23 at 19.49.29.png"
-                        alt="MigraineCast app screenshot"
+                        alt="MigraineCast app screenshot showing daily migraine risk forecast and sensitivity factors like pressure and humidity"
                         fill
+                        sizes="280px"
                         className="object-cover object-top"
                         priority
                       />
@@ -337,6 +291,21 @@ export default async function Home({
         </div>
       </section>
 
+      {/* ── Weather Positioning ──────────────────────────────────────────── */}
+      <section className="py-[100px] relative overflow-hidden">
+        <div className="max-w-[800px] mx-auto px-6 text-center">
+          <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-5 block">
+            {t("weather.label")}
+          </span>
+          <h2 className="font-display text-[clamp(1.75rem,4vw,2.75rem)] font-normal leading-tight mb-6">
+            {t("weather.title")}
+          </h2>
+          <p className="text-lg text-text-muted leading-relaxed">
+            {t("weather.body")}
+          </p>
+        </div>
+      </section>
+
       {/* ── Testimonial ──────────────────────────────────────────────────── */}
       <section className="py-[100px] relative">
         <div className="max-w-[760px] mx-auto px-6 text-center">
@@ -348,105 +317,31 @@ export default async function Home({
         </div>
       </section>
 
-      {/* ── Free Course Promo ─────────────────────────────────────────────── */}
-      <section className="py-[100px] relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-accent/10 via-accent/5 to-coral/10" />
+      {/* ── Android ──────────────────────────────────────────────────────── */}
+      <section id="android" className="py-[120px] relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-[#3DDC84]/[0.08] via-transparent to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
 
-        <div className="max-w-[1000px] mx-auto px-6 relative">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <span className="inline-block text-xs font-semibold tracking-[0.15em] uppercase text-accent mb-4 px-3 py-1.5 bg-accent/10 rounded-full border border-accent/20">
-                {t("course.badge")}
-              </span>
-              <h2 className="font-display text-[clamp(1.75rem,4vw,2.75rem)] font-normal leading-tight mb-4">
-                {t("course.title")}
-              </h2>
-              <p className="text-lg text-text-muted mb-6 leading-relaxed">
-                {t("course.description")}
-              </p>
-              <ul className="space-y-3 mb-8">
-                {courseChecklist.map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-text-muted">
-                    <svg
-                      viewBox="0 0 24 24"
-                      className="w-5 h-5 text-accent shrink-0 mt-0.5"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                    >
-                      <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <Link
-                href="/weather-course"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4)] transition-all duration-300 hover:-translate-y-[2px] hover:shadow-[0_8px_30px_rgba(167,139,250,0.5)] group"
-              >
-                {t("course.cta")}
-                <svg
-                  viewBox="0 0 24 24"
-                  className="w-5 h-5 fill-none stroke-current stroke-2 transition-transform group-hover:translate-x-1"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
-              </Link>
-            </div>
+        <div className="max-w-[640px] mx-auto px-6 relative text-center">
+          <span className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-accent/10 border border-accent/20 rounded-full text-xs font-semibold text-accent-soft uppercase tracking-[0.08em] mb-6">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#3DDC84] inline-block" />
+            {t("android.label")}
+          </span>
+          <h2 className="font-display text-[clamp(1.9rem,4vw,2.75rem)] font-normal leading-tight mb-4">
+            {t("android.title")}
+          </h2>
+          <p className="text-lg text-text-muted leading-relaxed mb-9 max-w-[480px] mx-auto">
+            {t("android.body")}
+          </p>
 
-            <div className="hidden lg:flex justify-center">
-              <div className="relative">
-                <div className="absolute -inset-4 bg-gradient-to-br from-accent/20 to-coral/20 rounded-3xl blur-2xl" />
-                <div className="relative p-8 glass-card rounded-2xl backdrop-blur-sm">
-                  <div className="space-y-4">
-                    {courseDays.map((item, i) => (
-                      <div
-                        key={i}
-                        className="flex items-center gap-4 p-3 rounded-lg hover:bg-accent/5 transition-colors"
-                      >
-                        <span className="text-xs font-semibold text-accent w-12">{item.day}</span>
-                        <span className="text-sm text-text-muted">{item.title}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── Is This You? ─────────────────────────────────────────────────── */}
-      <section className="py-[120px] relative">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="text-center mb-16">
-            <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-5 block">
-              {t("isThisYou.label")}
-            </span>
-            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] font-normal leading-tight">
-              {t("isThisYou.title")}
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-[900px] mx-auto">
-            {isThisYouItems.map((text, i) => (
-              <div
-                key={i}
-                className="flex items-start gap-4 p-7 glass-card glass-card-hover rounded-2xl"
-              >
-                <div className="w-7 h-7 bg-gradient-to-br from-accent/20 to-[#8b5cf6]/10 rounded-lg flex items-center justify-center shrink-0">
-                  <svg
-                    viewBox="0 0 24 24"
-                    className="w-4 h-4 stroke-accent-soft stroke-2 fill-none"
-                  >
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                </div>
-                <p className="text-[1.05rem] leading-relaxed">{text}</p>
-              </div>
-            ))}
+          <div className="flex flex-col items-center gap-3">
+            <HomeConversionActions
+              location="android-section"
+              hideIos
+              androidBadge={t("hero.androidBadge")}
+              androidButtonLabel={t("android.buttonLabel")}
+            />
+            <p className="text-xs text-text-subtle max-w-[380px]">{t("android.formNote")}</p>
           </div>
         </div>
       </section>
@@ -456,30 +351,34 @@ export default async function Home({
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[radial-gradient(circle,rgba(167,139,250,0.15)_0%,transparent_60%)] pointer-events-none" />
 
         <div className="max-w-[1200px] mx-auto px-6 relative">
-          <h2 className="font-display text-[clamp(2.5rem,5vw,3.5rem)] font-normal leading-tight mb-4">
+          <h2 className="font-display text-[clamp(2.5rem,5vw,3.5rem)] font-normal leading-tight mb-10">
             {t("finalCta.titleLine1")}
             <br />
             {t("finalCta.titleLine2")}
           </h2>
-          <p className="text-lg text-text-muted max-w-[560px] mx-auto mb-12">
-            {t("finalCta.description")}
-          </p>
 
-          <DownloadButton
-            href={APPSTORE_URL}
-            location="cta"
-            className="inline-flex items-center gap-2.5 px-12 py-[22px] bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold text-lg rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4),inset_0_1px_0_rgba(255,255,255,0.2)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_40px_rgba(167,139,250,0.5),inset_0_1px_0_rgba(255,255,255,0.2)]"
-          >
-            <AppleIcon className="w-[22px] h-[22px]" />
-            {t("finalCta.downloadCta")}
-          </DownloadButton>
+          <div className="flex justify-center mb-6">
+            <HomeConversionActions
+              location="final"
+              iosLabel={t("finalCta.iosCta")}
+              iosEventName="final_ios_download_click"
+              androidClickEventName="final_android_waitlist_click"
+              androidBadge={t("hero.androidBadge")}
+              androidButtonLabel={t("finalCta.androidCta")}
+              stack
+            />
+          </div>
 
-          <p className="mt-5 text-sm text-text-subtle">
-            {t("finalCta.freeNote")}
-          </p>
-          <p className="mt-3 text-sm text-text-subtle flex items-center justify-center gap-2">
-            <AppleIcon className="w-[18px] h-[18px]" />
-            {t("finalCta.availableOn")}
+          <p className="text-sm text-text-subtle">{t("finalCta.freeNote")}</p>
+          <p className="mt-2 text-sm text-text-subtle">{t("finalCta.availableOn")}</p>
+        </div>
+      </section>
+
+      {/* ── Medical & trust boundary ─────────────────────────────────────── */}
+      <section className="pb-16 relative">
+        <div className="max-w-[640px] mx-auto px-6 text-center">
+          <p className="text-sm text-text-subtle leading-relaxed">
+            {t("medicalDisclaimer")}
           </p>
         </div>
       </section>

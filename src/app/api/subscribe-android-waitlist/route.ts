@@ -8,6 +8,8 @@ const ATTRIBUTION_KEYS = [
   "utm_campaign",
   "utm_content",
   "landing_page",
+  "locale",
+  "signup_timestamp",
 ] as const;
 
 export async function POST(request: NextRequest) {
