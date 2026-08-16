@@ -4,7 +4,7 @@ import { useState, useRef } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
-const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278";
+const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82";
 const EMBED_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_KEY;
 
 type LocationResult = {

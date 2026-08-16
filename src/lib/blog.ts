@@ -179,7 +179,7 @@ const posts: BlogPost[] = [
       <p>MigraineCast makes that as low-friction as possible. The pressure tracking happens automatically. You just need to log attacks when they occur and let the app do the rest. By the time your next neurology visit comes around, you'll have something concrete to show for it.</p>
 
       <blockquote>
-        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast on the App Store</a> and start building your report today. Your future self, sitting in that appointment, will be glad you did.</p>
+        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast on the App Store</a> and start building your report today. Your future self, sitting in that appointment, will be glad you did.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -290,7 +290,7 @@ const posts: BlogPost[] = [
       <p>When you pair that kind of early warning with a system that's already staged and ready, you stop being reactive. You start managing instead of surviving.</p>
 
       <blockquote>
-        <p>Download MigraineCast on the App Store and give yourself the warning window you deserve. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Get MigraineCast for free on iOS</a></p>
+        <p>Download MigraineCast on the App Store and give yourself the warning window you deserve. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Get MigraineCast for free on iOS</a></p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1084,7 +1084,7 @@ const posts: BlogPost[] = [
       <p>The goal isn't to explain away your pain as "just nerves." It's the opposite — understanding that this is a real, physical, measurable process is what makes it possible to intervene early, before the trigeminovascular system fully ramps up and the attack becomes harder to stop.</p>
 
       <blockquote>
-        <p>Track your attacks alongside weather and pressure data to see when your trigeminovascular system is most likely to be triggered. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Track your attacks alongside weather and pressure data to see when your trigeminovascular system is most likely to be triggered. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1168,7 +1168,7 @@ const posts: BlogPost[] = [
       <p>And if weather is part of your trigger picture, getting that early warning before the visual symptoms even start is the real advantage. MigraineCast tracks pressure trends for your location so you have a heads-up before the cascade — aura included — even begins.</p>
 
       <blockquote>
-        <p>Know when weather conditions are building toward your next attack — before visual symptoms start. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Know when weather conditions are building toward your next attack — before visual symptoms start. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1240,7 +1240,7 @@ const posts: BlogPost[] = [
       <p>If weather changes are part of your trigger picture, that's exactly the kind of advance warning MigraineCast is built to give you — tracking pressure trends for your location so you have time to take preventive steps, hydrate, adjust your schedule, or have medication on hand before the attack escalates. The fastest way to get rid of a migraine is, whenever possible, to be ready for it before it really starts.</p>
 
       <blockquote>
-        <p>Get 24–48 hours of advance warning before weather-related attacks so you can act before the pain starts. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Get 24–48 hours of advance warning before weather-related attacks so you can act before the pain starts. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1315,7 +1315,7 @@ const posts: BlogPost[] = [
       <p>Our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> is built specifically to help with the weather side of this picture, comparing your migraine history against atmospheric conditions to surface patterns you might not notice on your own. Once you know which of these broad categories actually matter for you — and which ones tend to combine — you go from a generic list of "things to avoid" to a personal early-warning system.</p>
 
       <blockquote>
-        <p>Find out which triggers are actually driving your attacks — log your migraines and let the data show you. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Find out which triggers are actually driving your attacks — log your migraines and let the data show you. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1379,7 +1379,7 @@ const posts: BlogPost[] = [
       <p>Pressure points can help you cope with an attack that's already underway. But if you're someone whose migraines are influenced by weather — and a large number of people are — the more impactful intervention often happens before the attack starts. MigraineCast tracks barometric pressure trends for your location and gives you advance notice when conditions are shifting in ways that have historically preceded your attacks, so you have time to act before you're reaching for your temples at all.</p>
 
       <blockquote>
-        <p>Know when a high-risk window is approaching so you can act before the attack starts. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Know when a high-risk window is approaching so you can act before the attack starts. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1439,7 +1439,7 @@ const posts: BlogPost[] = [
       <p>You won't stop every migraine before it starts — that's not a realistic goal, and chasing it can create its own anxiety. But for a meaningful share of attacks, especially the ones tied to recognizable prodrome symptoms or weather changes you can see coming, there's a real window to act in. The combination of recognizing your early signals, treating promptly, removing other stacked triggers, and getting advance warning on the things you can't control — like weather — is what turns "migraines happen to me" into "I usually see this coming."</p>
 
       <blockquote>
-        <p>MigraineCast tracks barometric pressure trends for your location and gives you advance warning before weather-related attacks, so you have time to act in that window before the pain phase begins. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download it free on iOS</a>.</p>
+        <p>MigraineCast tracks barometric pressure trends for your location and gives you advance warning before weather-related attacks, so you have time to act in that window before the pain phase begins. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download it free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1495,7 +1495,7 @@ const posts: BlogPost[] = [
       <p>In the meantime, the same trigger-stacking logic applies as always: if you know a vulnerable hormonal window is coming, that's the week to be especially diligent about sleep, hydration, and meal timing — and to pay closer attention to your weather forecast, since a stacked hormonal-plus-pressure-drop week is a different proposition than either factor alone.</p>
 
       <blockquote>
-        <p>Logging your cycle and your migraines together — alongside the weather and pressure data MigraineCast tracks automatically — is one of the clearest ways to finally see whether your "random" migraines actually follow a pattern. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast for free on iOS</a> and start building that picture.</p>
+        <p>Logging your cycle and your migraines together — alongside the weather and pressure data MigraineCast tracks automatically — is one of the clearest ways to finally see whether your "random" migraines actually follow a pattern. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast for free on iOS</a> and start building that picture.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1561,7 +1561,7 @@ const posts: BlogPost[] = [
       <p>And if certain foods seem to reliably show up before your worst attacks, it's worth checking whether something else is stacking alongside them — weather changes in particular are an easy thing to miss. MigraineCast tracks barometric pressure trends for your location automatically, so if a "food trigger" keeps lining up with pressure drops too, you'll be able to see that pattern rather than just blaming the meal.</p>
 
       <blockquote>
-        <p>See what's really happening before your worst attacks — weather, pressure, and your logged patterns in one place. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>See what's really happening before your worst attacks — weather, pressure, and your logged patterns in one place. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1687,7 +1687,7 @@ const posts: BlogPost[] = [
       <p>It's worth saying clearly: weather is rarely the <em>only</em> trigger, even for people who are clearly weather-sensitive. If a predicted high-risk window comes and goes without symptoms, that's not a failure of the system — it might mean your other factors (sleep, stress, hormones, food) were well-managed that week, keeping you below threshold even with the pressure change. Conversely, an unexpected migraine on a day with no major weather event usually means something else stacked up. Over time, tracking both sides of this — weather and everything else — is what builds the clearest picture.</p>
 
       <blockquote>
-        <p>MigraineCast brings all of this together automatically — pressure tracking, personalized risk forecasts, and pattern analysis — so weather-triggered migraines go from feeling random to feeling predictable. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast brings all of this together automatically — pressure tracking, personalized risk forecasts, and pattern analysis — so weather-triggered migraines go from feeling random to feeling predictable. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1749,7 +1749,7 @@ const posts: BlogPost[] = [
       <p>Everything above is about getting through a night when a migraine has already started. But sleep disruption is also a trigger in its own right — both too little and too much sleep, as well as irregular sleep timing, are associated with migraine attacks. If you know a high-risk window is coming, whether due to hormonal timing or a forecasted pressure drop, protecting your sleep <em>that</em> night — keeping your normal bedtime, avoiding screens beforehand, skipping alcohol — is one of the most effective preventive steps available, precisely because poor sleep stacked on top of another trigger is often what tips things over.</p>
 
       <blockquote>
-        <p>If weather changes are part of what's disrupting your sleep and triggering attacks, MigraineCast's advance pressure forecasts can give you the heads-up to protect your sleep the night before a high-risk window arrives — rather than finding out the hard way. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Get MigraineCast free on iOS</a>.</p>
+        <p>If weather changes are part of what's disrupting your sleep and triggering attacks, MigraineCast's advance pressure forecasts can give you the heads-up to protect your sleep the night before a high-risk window arrives — rather than finding out the hard way. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Get MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1822,7 +1822,7 @@ const posts: BlogPost[] = [
       <p>Prodrome symptoms are easy to miss because, on their own, they look like nothing — a bit tired, a bit irritable, craving something salty. It's only in the context of "this happens before my migraines" that they become meaningful. Once you start looking for the pattern, though, many people find it's been there all along, quietly giving advance notice that was simply never decoded.</p>
 
       <blockquote>
-        <p>MigraineCast helps you build the full picture — logging your attacks, tracking weather-based risk, and helping you spot the patterns (including prodrome timing) that make migraines feel predictable instead of random. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast helps you build the full picture — logging your attacks, tracking weather-based risk, and helping you spot the patterns (including prodrome timing) that make migraines feel predictable instead of random. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1888,7 +1888,7 @@ const posts: BlogPost[] = [
       <p>If migraines are frequent (more than a few days a month), severe, or significantly affecting your life, non-medication strategies are best used <em>alongside</em> a conversation with a doctor — not instead of one. There are effective preventive and acute treatments that natural approaches don't replace, and for some people, combining both gives much better results than either alone.</p>
 
       <blockquote>
-        <p>MigraineCast supports the "natural" side of migraine management too — by giving you advance notice of weather-related risk so you can use cold therapy, hydration, rest, or whatever works for you, before an attack fully takes hold rather than after. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast supports the "natural" side of migraine management too — by giving you advance notice of weather-related risk so you can use cold therapy, hydration, rest, or whatever works for you, before an attack fully takes hold rather than after. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -1950,7 +1950,7 @@ const posts: BlogPost[] = [
       <p>Diet's role in migraine prevention is less about a perfect list of "good" and "bad" foods and more about supporting a stable baseline — steady blood sugar, adequate hydration, and a generally nutrient-rich pattern — while staying alert to any genuinely individual triggers without over-restricting based on general lists that may not apply to you.</p>
 
       <blockquote>
-        <p>Track your attacks alongside automatic pressure and weather data to see what's actually converging before your worst migraines. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Track your attacks alongside automatic pressure and weather data to see what's actually converging before your worst migraines. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2008,7 +2008,7 @@ const posts: BlogPost[] = [
       <p>The HRV-migraine connection is a good example of something true throughout migraine management: attacks rarely come from one single, isolated cause. They emerge from the interaction between your environment (weather, light, food, sleep) and your internal state (stress, hormones, autonomic balance — reflected in things like HRV). The more of these signals you can see at once, the less "random" migraines tend to feel.</p>
 
       <blockquote>
-        <p>MigraineCast brings together weather-based forecasting, personal trigger tracking, and optional Apple Health integration — including HRV — to help you build a complete picture of what's converging before your migraines hit. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast brings together weather-based forecasting, personal trigger tracking, and optional Apple Health integration — including HRV — to help you build a complete picture of what's converging before your migraines hit. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2098,7 +2098,7 @@ const posts: BlogPost[] = [
       <p>MigraineCast tracks barometric pressure trends at your location and surfaces those windows in advance, so you know when to be on alert for prodrome symptoms and when early action is most likely to shorten or abort the attack cycle.</p>
 
       <blockquote>
-        <p>Want to understand your own attack patterns better? <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast on iOS</a> and start logging — over time, you'll see exactly what your personal attack timelines look like and what's driving them.</p>
+        <p>Want to understand your own attack patterns better? <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast on iOS</a> and start logging — over time, you'll see exactly what your personal attack timelines look like and what's driving them.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2171,7 +2171,7 @@ const posts: BlogPost[] = [
       <p>A migraine diary that captures attack timing, symptoms, severity, associated features, and potential triggers builds exactly the kind of pattern data that's most useful for diagnosis and treatment decisions. Environmental triggers like barometric pressure changes — one of the most reliably researched migraine triggers — can be tracked automatically using MigraineCast, which correlates your logged attacks with real weather data to help identify patterns you wouldn't spot on your own.</p>
 
       <blockquote>
-        <p>Think your headaches might be migraine? Start tracking with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — log attacks in seconds and build the data your doctor needs to give you an accurate picture.</p>
+        <p>Think your headaches might be migraine? Start tracking with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">MigraineCast on iOS</a> — log attacks in seconds and build the data your doctor needs to give you an accurate picture.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2255,7 +2255,7 @@ const posts: BlogPost[] = [
       <p>Visual aura shares its mechanism with two closely related experiences: <a href="/blog/silent-migraine-symptoms">silent migraine</a> (aura without any following headache) and <a href="/blog/ocular-migraine-causes">ocular migraine</a> (rarer, one-eye visual disturbance). Because aura is tied to the broader migraine attack cycle, tracking the full attack — when aura starts, what symptoms appear, how long they last, and what follows — helps you understand your own pattern. Over time, you'll develop confidence in recognizing your aura for what it is. And because weather changes are a common migraine trigger, knowing when a pressure system is incoming (and that your attacks often involve aura) lets you prepare accordingly.</p>
 
       <blockquote>
-        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast on iOS</a> to track your full attack patterns — including aura — alongside barometric pressure data that helps predict when attacks are more likely.</p>
+        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast on iOS</a> to track your full attack patterns — including aura — alongside barometric pressure data that helps predict when attacks are more likely.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2344,7 +2344,7 @@ const posts: BlogPost[] = [
       <p>Keeping a detailed record of when silent migraines occur, alongside environmental factors like weather conditions, helps identify patterns. If pressure drops are a trigger for you, having advance warning of frontal systems moving through gives you the same preparation window as for headache-type attacks.</p>
 
       <blockquote>
-        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Track your silent migraine episodes with MigraineCast</a> — log the aura alongside weather data to see whether pressure changes are part of your pattern, even without the headache.</p>
+        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Track your silent migraine episodes with MigraineCast</a> — log the aura alongside weather data to see whether pressure changes are part of your pattern, even without the headache.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2424,7 +2424,7 @@ const posts: BlogPost[] = [
       </blockquote>
 
       <blockquote>
-        <p>Track your visual disturbance episodes alongside weather data with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — see whether pressure changes are part of your pattern.</p>
+        <p>Track your visual disturbance episodes alongside weather data with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">MigraineCast on iOS</a> — see whether pressure changes are part of your pattern.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2500,7 +2500,7 @@ const posts: BlogPost[] = [
       <p>Menstrually-related migraine is a clinical subspecialty that intersects neurology and gynecology. If your attacks are significantly affecting quality of life and over-the-counter approaches aren't helping, a <a href="/tools/find-a-specialist">headache specialist</a> or gynecologist with experience in hormonal headache management can offer targeted treatment options that go well beyond general migraine advice. Our related guide on <a href="/blog/migraines-after-period">why migraines happen after your period ends</a> covers the post-menstrual timing pattern specifically.</p>
 
       <blockquote>
-        <p>Track your attack dates alongside your cycle with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — log in seconds, and see your pattern emerge over weeks of data.</p>
+        <p>Track your attack dates alongside your cycle with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">MigraineCast on iOS</a> — log in seconds, and see your pattern emerge over weeks of data.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2585,7 +2585,7 @@ const posts: BlogPost[] = [
       </ul>
 
       <blockquote>
-        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast is free on iOS</a> — start logging and let the app build your environmental picture automatically while you focus on managing your attacks.</p>
+        <p><a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">MigraineCast is free on iOS</a> — start logging and let the app build your environmental picture automatically while you focus on managing your attacks.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2685,7 +2685,7 @@ const posts: BlogPost[] = [
       <p>MigraineCast's weather-based risk forecasting is built specifically around this: it uses your personal attack history and the upcoming pressure forecast to flag elevated-risk windows in advance — not based on generic population data, but on your specific pattern.</p>
 
       <blockquote>
-        <p>Start your tracking system today with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">MigraineCast on iOS</a> — automatic pressure tracking from day one, minimal manual effort, and pattern analysis that builds as your data grows.</p>
+        <p>Start your tracking system today with <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">MigraineCast on iOS</a> — automatic pressure tracking from day one, minimal manual effort, and pattern analysis that builds as your data grows.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2737,7 +2737,7 @@ const posts: BlogPost[] = [
       <p>Rapid pressure shifts aren't limited to weather fronts. A fast elevator ride in a tall building or the pressurization changes during a flight's ascent and descent can produce the same kind of inner-ear and sinus pressure shift that a storm system does, just compressed into minutes instead of hours. We go into the full picture of altitude and routine disruption in our guide to <a href="/blog/travel-migraine-triggers">why travel triggers migraines</a>.</p>
 
       <blockquote>
-        <p>Some of these hidden triggers are mechanical or situational, but weather is the one that's both common and trackable. MigraineCast monitors barometric pressure shifts at your location automatically, so at least one variable stops being a mystery. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Some of these hidden triggers are mechanical or situational, but weather is the one that's both common and trackable. MigraineCast monitors barometric pressure shifts at your location automatically, so at least one variable stops being a mystery. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2787,7 +2787,7 @@ const posts: BlogPost[] = [
       <p>The fix isn't trying harder to remember. It's shifting from recall to logging, and from single-variable thinking to looking at everything that was happening in the 48 hours before each attack at once. Environmental factors are the easiest place to start because they can be tracked automatically rather than relying on memory — our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> compares your migraine history against atmospheric conditions to surface correlations you wouldn't catch by eye. Once a few months of real data accumulate, the "randomness" usually resolves into a much more specific, personal pattern.</p>
 
       <blockquote>
-        <p>Stop guessing and start tracking. MigraineCast logs the environmental conditions automatically and lets you see what was actually happening before each attack. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Stop guessing and start tracking. MigraineCast logs the environmental conditions automatically and lets you see what was actually happening before each attack. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2837,7 +2837,7 @@ const posts: BlogPost[] = [
       <p>The most protective habit isn't a specific number of hours — it's consistency. Going to bed and waking at roughly the same time daily, including weekends, tends to outperform chasing an extra hour here and there. Limiting screen exposure before bed, keeping the room dark and cool, and avoiding late caffeine all support that consistency rather than fighting it. For the separate question of getting through an attack once it's already started, see our guide on <a href="/blog/how-to-sleep-with-a-migraine">how to sleep with a migraine</a>.</p>
 
       <blockquote>
-        <p>Sleep disruption often overlaps with weather-driven nights — pressure changes can wake people up before they even register a headache coming. MigraineCast tracks those overnight shifts so you can see the connection. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Sleep disruption often overlaps with weather-driven nights — pressure changes can wake people up before they even register a headache coming. MigraineCast tracks those overnight shifts so you can see the connection. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2883,7 +2883,7 @@ const posts: BlogPost[] = [
       <p>General stress reduction is good advice but vague. The strategies with the most relevance to migraine specifically are the ones that smooth out the stress curve rather than letting it spike and crash: regular brief breaks during a stressful stretch rather than pushing through and crashing afterward, maintaining meal and hydration habits even when busy, and protecting sleep especially during high-stress weeks. Progressive muscle relaxation and slow breathing techniques target the muscular tension piece directly, which is part of why they show up so often in migraine management advice.</p>
 
       <blockquote>
-        <p>Stress is one trigger you can partly manage — but it rarely travels alone. MigraineCast tracks the environmental side automatically so you can see what else was stacking up during your high-stress weeks. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Stress is one trigger you can partly manage — but it rarely travels alone. MigraineCast tracks the environmental side automatically so you can see what else was stacking up during your high-stress weeks. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2941,7 +2941,7 @@ const posts: BlogPost[] = [
       <p>Broad elimination diets that cut many foods at once are tempting but make it genuinely hard to tell which removal, if any, actually helped — and they carry real downsides for nutrition and quality of life if sustained too long. A more useful approach is targeted: track your eating alongside your attacks for a few months, see which categories actually correlate for you specifically, and test removing one at a time rather than everything simultaneously. For the proactive side of eating to reduce risk, see <a href="/blog/what-to-eat-to-prevent-migraines">what to eat to prevent migraines</a>, and for what to eat once an attack has already started, see <a href="/blog/best-foods-during-migraine">best foods during a migraine</a>.</p>
 
       <blockquote>
-        <p>Food triggers are rarely the whole story — they usually combine with sleep, stress, and weather. MigraineCast tracks the environmental piece automatically so your food log isn't working in isolation. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Food triggers are rarely the whole story — they usually combine with sleep, stress, and weather. MigraineCast tracks the environmental piece automatically so your food log isn't working in isolation. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -2991,7 +2991,7 @@ const posts: BlogPost[] = [
       <p>If caffeine seems to be part of your trigger picture and you want to reduce your dependence on it, a gradual taper over one to two weeks — reducing by roughly a quarter cup or equivalent every few days — produces far fewer withdrawal headaches than stopping abruptly. The goal for most people isn't necessarily zero caffeine; it's a stable, predictable amount that doesn't swing.</p>
 
       <blockquote>
-        <p>Caffeine withdrawal often overlaps with weekend or travel schedule changes — and weather shifts can stack right on top of it. MigraineCast tracks the environmental side so you can see what else was happening before an attack. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Caffeine withdrawal often overlaps with weekend or travel schedule changes — and weather shifts can stack right on top of it. MigraineCast tracks the environmental side so you can see what else was happening before an attack. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -3037,7 +3037,7 @@ const posts: BlogPost[] = [
       <p>FL-41 tinted lenses, a specific rose-tinted filter developed for light-sensitive patients, have research support for reducing the frequency and severity of light-triggered symptoms in some migraine sufferers, including during attacks and as everyday wear for people with chronic photophobia. Beyond lenses, practical steps include reducing screen brightness to match ambient light, using matte rather than glossy screen surfaces to cut glare, and choosing softer, indirect lighting at home over harsh overhead fixtures where possible.</p>
 
       <blockquote>
-        <p>Light exposure often combines with other factors like weather and sleep to push you toward an attack. MigraineCast tracks the environmental side automatically so light isn't the only variable you're guessing about. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Light exposure often combines with other factors like weather and sleep to push you toward an attack. MigraineCast tracks the environmental side automatically so light isn't the only variable you're guessing about. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -3083,7 +3083,7 @@ const posts: BlogPost[] = [
       <p>When avoidance isn't possible, getting fresh air or moving away from the source as quickly as possible limits the duration of exposure, which matters since the effect for many people is dose-related. Some people find a neutral, mild scent like peppermint oil dabbed under the nose helps mask offending odors, though this is worth trying cautiously since strong scents — even pleasant ones — are themselves sometimes a trigger. A small, portable air purifier or simply stepping outside during a known high-exposure event (a cleaning crew, a fragrance counter) is a low-effort precaution worth building into your routine if smell triggers are a consistent issue for you.</p>
 
       <blockquote>
-        <p>Scent triggers are hard to track because exposure is so situational. MigraineCast handles the environmental side automatically so at least the weather variable isn't something you have to remember and log by hand. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Scent triggers are hard to track because exposure is so situational. MigraineCast handles the environmental side automatically so at least the weather variable isn't something you have to remember and log by hand. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -3133,7 +3133,7 @@ const posts: BlogPost[] = [
       <p>The fix isn't sacrificing your weekend; it's keeping the few habits that matter most consistent even when the rest of the day is more relaxed. Waking within an hour of your usual weekday time, having your usual caffeine at roughly the usual time, eating breakfast at a reasonable hour, and keeping medication timing steady cover most of the risk without requiring you to give up sleeping in entirely or treating Saturday like a workday.</p>
 
       <blockquote>
-        <p>Weekend triggers are mostly behavioral — but weather doesn't take weekends off either. MigraineCast tracks pressure trends every day so a Saturday storm doesn't catch you off guard on top of everything else. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Weekend triggers are mostly behavioral — but weather doesn't take weekends off either. MigraineCast tracks pressure trends every day so a Saturday storm doesn't catch you off guard on top of everything else. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -3183,7 +3183,7 @@ const posts: BlogPost[] = [
       <p>A few preparations meaningfully reduce risk: hydrate well in the 24 hours before flying, not just during the flight; keep a consistent caffeine dose during travel days even if the timing shifts slightly; pack snacks to avoid long gaps without eating; and bring acute medication in your carry-on rather than checked luggage so it's accessible the moment symptoms start. We go through a full packing list, including what to bring for an attack that starts mid-trip, in <a href="/blog/migraine-go-bag">the migraine go-bag</a>.</p>
 
       <blockquote>
-        <p>You can't control cabin pressure or jet lag, but you can know what's waiting for you when you land. MigraineCast tracks barometric pressure trends at your destination so weather isn't an extra surprise on top of everything else travel throws at you. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>You can't control cabin pressure or jet lag, but you can know what's waiting for you when you land. MigraineCast tracks barometric pressure trends at your destination so weather isn't an extra surprise on top of everything else travel throws at you. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -4683,7 +4683,7 @@ const posts: BlogPost[] = [
       <p><strong>Watch for the pattern over time.</strong> Some people find their allodynia is worse during attacks with certain triggers than others. Logging your attacks alongside conditions like weather and sleep, and reviewing them with our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a>, can help surface whether particular triggers tend to produce your more severe, longer, or more sensitized attacks.</p>
 
       <blockquote>
-        <p>Catching an attack early matters — and that starts with knowing your risk window before the pain, not after. MigraineCast tracks weather-based risk so you have more warning to act before allodynia has a chance to set in. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Catching an attack early matters — and that starts with knowing your risk window before the pain, not after. MigraineCast tracks weather-based risk so you have more warning to act before allodynia has a chance to set in. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -4743,7 +4743,7 @@ const posts: BlogPost[] = [
       <p>Not everyone reacts at the same steepness. Some people notice symptoms with drops as small as 3–4 mbar; others seem unaffected until a swing of 10 mbar or more. Our free <a href="/tools/pressure-threshold-estimator">Pressure Threshold Estimator</a> uses your own logged attack dates against historical pressure data to estimate where your personal threshold actually sits, rather than relying on population averages that may not apply to you.</p>
 
       <blockquote>
-        <p>MigraineCast tracks the actual rate of pressure change for your location — not just the current reading — so you can see your risk window building before the forecast even mentions a storm. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast tracks the actual rate of pressure change for your location — not just the current reading — so you can see your risk window building before the forecast even mentions a storm. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -4795,7 +4795,7 @@ const posts: BlogPost[] = [
       <p>There's also a connection to the environmental triggers many people track. Both heat and rapid barometric pressure drops are independently associated with some degree of vasodilation, which may partly explain why <a href="/blog/heat-headaches">hot weather</a> and <a href="/blog/barometric-pressure-science">falling pressure</a> both show up so consistently in migraine trigger research — they may be nudging the same vascular pathway from different directions before the trigeminal system fully activates.</p>
 
       <blockquote>
-        <p>Whatever the exact mechanism behind a given attack, seeing your triggers stack up in advance is what makes early action possible. MigraineCast tracks the weather conditions most associated with migraine risk so you're not caught off guard. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Whatever the exact mechanism behind a given attack, seeing your triggers stack up in advance is what makes early action possible. MigraineCast tracks the weather conditions most associated with migraine risk so you're not caught off guard. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -4853,7 +4853,7 @@ const posts: BlogPost[] = [
       <p>If this sounds familiar, the practical fix is simple in concept: extend your risk window forward by a day. Treat the 24 hours <em>after</em> a significant pressure event, not just the event itself, as part of your vulnerable window — keeping hydration, sleep, and your acute treatment plan on alert even once the storm has visibly passed.</p>
 
       <blockquote>
-        <p>MigraineCast tracks pressure trends across multiple days, not just the current reading — which makes delayed, lagging patterns like this one much easier to spot in your own history. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast tracks pressure trends across multiple days, not just the current reading — which makes delayed, lagging patterns like this one much easier to spot in your own history. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -4918,7 +4918,7 @@ const posts: BlogPost[] = [
       <p><strong>Track it alongside the headache.</strong> Logging how long your postdrome typically lasts — not just the headache — gives you a much more accurate picture of your total attack duration and recovery needs, which is useful information for your doctor as well as for your own planning.</p>
 
       <blockquote>
-        <p>Understanding your full attack pattern — prodrome through postdrome — makes migraine feel less random and easier to plan around. MigraineCast helps you log and track the whole cycle, not just the pain. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Understanding your full attack pattern — prodrome through postdrome — makes migraine feel less random and easier to plan around. MigraineCast helps you log and track the whole cycle, not just the pain. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -4974,7 +4974,7 @@ const posts: BlogPost[] = [
       <p>Treatments and preventive habits generally work better the earlier they're applied in the migraine process. The prodrome window, when caught, offers hours of lead time that the headache phase simply doesn't — time to hydrate, protect your evening, and have medication ready rather than reacting once pain has already established itself.</p>
 
       <blockquote>
-        <p>MigraineCast pairs your logged symptoms with forecasted weather risk, so an external trigger warning can help you notice the subtle internal signs you might otherwise miss. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast pairs your logged symptoms with forecasted weather risk, so an external trigger warning can help you notice the subtle internal signs you might otherwise miss. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5032,7 +5032,7 @@ const posts: BlogPost[] = [
       <p>Knowing your own trigeminal activation signature can help you recognize an attack starting even before the pain fully escalates — a subtle jaw tightness or that first hint of behind-the-eye pressure can be your cue to treat early, which tends to work better than waiting. It's also useful context to bring to a doctor: describing exactly where and how the pain shows up helps distinguish migraine from other headache types and informs treatment choices.</p>
 
       <blockquote>
-        <p>Recognizing your own attack pattern early — including where the pain typically starts — gives you more time to act. MigraineCast helps you log and track that pattern alongside your environmental risk factors. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Recognizing your own attack pattern early — including where the pain typically starts — gives you more time to act. MigraineCast helps you log and track that pattern alongside your environmental risk factors. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5090,7 +5090,7 @@ const posts: BlogPost[] = [
       <p>A first-time scintillating scotoma, especially in someone over 40 or with no prior migraine history, should be evaluated by a doctor to rule out other causes of visual disturbance. Sudden vision loss that doesn't spread gradually and shimmer the way aura does, vision loss confined to one eye, or aura accompanied by severe sudden headache, confusion, weakness, or slurred speech warrants emergency evaluation — these can resemble stroke and should never be assumed to be "just aura" without medical confirmation, particularly the first time.</p>
 
       <blockquote>
-        <p>Recognizing your own aura pattern — including how it typically looks and how long it lasts — helps you distinguish a familiar episode from something that needs urgent attention. MigraineCast helps you track your full attack pattern over time. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Recognizing your own aura pattern — including how it typically looks and how long it lasts — helps you distinguish a familiar episode from something that needs urgent attention. MigraineCast helps you track your full attack pattern over time. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5144,7 +5144,7 @@ const posts: BlogPost[] = [
       <p><strong>Track whether it's really letdown or something else.</strong> Not every post-stress headache is a letdown migraine — travel, alcohol, disrupted sleep, and skipped meals often arrive at the exact same moment, and any of them could be the actual driver. Our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> can help you see whether your "relaxation migraines" cluster around the stress drop specifically or around these other stacked factors.</p>
 
       <blockquote>
-        <p>Big transitions — stress ending, travel, weekends — carry real migraine risk, and weather doesn't pause for any of them. MigraineCast tracks your environmental risk continuously so a letdown migraine doesn't catch you completely off guard. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Big transitions — stress ending, travel, weekends — carry real migraine risk, and weather doesn't pause for any of them. MigraineCast tracks your environmental risk continuously so a letdown migraine doesn't catch you completely off guard. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5203,7 +5203,7 @@ const posts: BlogPost[] = [
       <p><strong>Confirm the pattern before committing to it.</strong> Not everyone who gets "day after rain" migraines is experiencing barometric lag specifically — it's worth ruling out sleep disruption as the primary driver versus the pressure mechanism itself, since the fixes differ slightly.</p>
 
       <blockquote>
-        <p>MigraineCast tracks pressure trends across multiple days, which makes delayed patterns like day-after-rain migraines far easier to see in your own history than checking today's forecast alone. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast tracks pressure trends across multiple days, which makes delayed patterns like day-after-rain migraines far easier to see in your own history than checking today's forecast alone. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5259,7 +5259,7 @@ const posts: BlogPost[] = [
       <p>Population-level research leans toward heat as the more consistently disruptive trigger across more people, but individual variation is large enough that the "worse" extreme for you personally depends on which underlying mechanisms — dehydration, pressure sensitivity, light sensitivity, sleep disruption — drive your own attacks most strongly. Our <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> can compare your own logged attacks against temperature extremes in both directions to show you which season is actually harder on you specifically, rather than relying on the general trend.</p>
 
       <blockquote>
-        <p>Whichever extreme hits you harder, the pattern is easier to manage once you can see it coming. MigraineCast tracks temperature swings alongside pressure, so both heat waves and cold snaps show up in your risk forecast. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Whichever extreme hits you harder, the pattern is easier to manage once you can see it coming. MigraineCast tracks temperature swings alongside pressure, so both heat waves and cold snaps show up in your risk forecast. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5315,7 +5315,7 @@ const posts: BlogPost[] = [
       <p><strong>Confirm this window matters for you specifically.</strong> Not everyone has a sharper reaction in the final pre-storm hour versus the broader lead-up — for some people the reaction is evenly spread, or even delayed (see our <a href="/blog/barometric-lag-migraine-delay">barometric lag guide</a>). Logging attack timing against storm arrival times over several events is the way to find out which pattern is yours.</p>
 
       <blockquote>
-        <p>MigraineCast tracks the pace of pressure change, not just the trend, so you can see when a slow decline is about to turn into a sharp one — before the sky even darkens. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast tracks the pace of pressure change, not just the trend, so you can see when a slow decline is about to turn into a sharp one — before the sky even darkens. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5371,7 +5371,7 @@ const posts: BlogPost[] = [
       <p><strong>Confirm it with your own data.</strong> Run a few foggy-morning migraine dates through our free <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> to see the actual humidity and pressure readings behind them — a pattern that feels vague ("gray mornings get me") often turns out to have a specific, measurable driver once you look.</p>
 
       <blockquote>
-        <p>MigraineCast tracks humidity alongside pressure and temperature, so quiet-looking weather like fog doesn't slip past your risk forecast the way it slips past a glance out the window. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast tracks humidity alongside pressure and temperature, so quiet-looking weather like fog doesn't slip past your risk forecast the way it slips past a glance out the window. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5427,7 +5427,7 @@ const posts: BlogPost[] = [
       <p><strong>Expect it to ease as winter goes on.</strong> If the first-snow pattern holds for you, it's genuinely useful information: it suggests transition and acclimatization, more than cold itself, drive your winter migraines — which points toward front-arrival management (see our <a href="/blog/48-hour-warning-window">48-hour warning window guide</a>) as your highest-leverage strategy for the rest of the season.</p>
 
       <blockquote>
-        <p>MigraineCast flags sharp pressure and temperature transitions as they build — including the season's first big system — so you're not caught off guard by a "just some snow" day that's actually a major atmospheric shift. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast flags sharp pressure and temperature transitions as they build — including the season's first big system — so you're not caught off guard by a "just some snow" day that's actually a major atmospheric shift. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5487,7 +5487,7 @@ const posts: BlogPost[] = [
       <p><strong>Find your actual threshold.</strong> Ten degrees is a commonly reported figure, but individual sensitivity varies — some people react to swings as small as 5 degrees, others need a much bigger shift. Our <a href="/tools/pressure-threshold-estimator">Pressure Threshold Estimator</a> and <a href="/tools/trigger-pattern-analyzer">Trigger Pattern Analyzer</a> can help narrow down your specific sensitivity using your own attack history.</p>
 
       <blockquote>
-        <p>MigraineCast tracks the rate of temperature change alongside pressure for your location, so a fast swing shows up in your risk forecast even on an otherwise unremarkable-looking day. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast tracks the rate of temperature change alongside pressure for your location, so a fast swing shows up in your risk forecast even on an otherwise unremarkable-looking day. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5544,7 +5544,7 @@ const posts: BlogPost[] = [
       <p><strong>Protect sleep and routine around the flight, not just during it.</strong> Since altitude change is just one piece of a travel-day trigger stack, our <a href="/blog/travel-migraine-triggers">travel triggers guide</a> covers the rest of the picture — time zones, meals, and general travel-day preparation.</p>
 
       <blockquote>
-        <p>Frequent flyer or occasional traveler, knowing your other environmental risk factors going into a trip helps you plan around the one you can't control mid-flight. MigraineCast tracks your baseline risk before you ever board. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>Frequent flyer or occasional traveler, knowing your other environmental risk factors going into a trip helps you plan around the one you can't control mid-flight. MigraineCast tracks your baseline risk before you ever board. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5600,7 +5600,7 @@ const posts: BlogPost[] = [
       <p><strong>Confirm your own pattern.</strong> Log wind conditions alongside your attacks, or use our <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> to compare your migraine dates against historical wind and pressure data together — it's often the combination, not either factor alone, that turns out to be the real trigger.</p>
 
       <blockquote>
-        <p>MigraineCast factors wind conditions into your risk forecast alongside pressure and temperature, so gusty days don't slip through as "just windy." <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast factors wind conditions into your risk forecast alongside pressure and temperature, so gusty days don't slip through as "just windy." <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>
@@ -5654,7 +5654,7 @@ const posts: BlogPost[] = [
       <p>Our <a href="/tools/migraine-season-calendar">Migraine Season Calendar</a> tool can help you see broader seasonal risk patterns beyond even a single week, which pairs well with this shorter-range weekly view for people whose risk shifts meaningfully across the year.</p>
 
       <blockquote>
-        <p>MigraineCast surfaces your risk forecast across the coming days, not just tomorrow, so you can actually plan your week instead of reacting to it one day at a time. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278">Download MigraineCast free on iOS</a>.</p>
+        <p>MigraineCast surfaces your risk forecast across the coming days, not just tomorrow, so you can actually plan your week instead of reacting to it one day at a time. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
       </blockquote>
 
       <h2>Frequently Asked Questions</h2>

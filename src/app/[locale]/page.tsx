@@ -9,7 +9,7 @@ import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 
-const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278";
+const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82";
 
 export async function generateMetadata({
   params,

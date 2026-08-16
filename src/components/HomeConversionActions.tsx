@@ -7,7 +7,7 @@ import { usePathname } from "@/i18n/navigation";
 import { trackEvent } from "@/lib/analytics";
 import { useAttribution } from "@/lib/attribution";
 
-const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278";
+const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82";
 
 const AppleIcon = ({ className = "w-5 h-5" }: { className?: string }) => (
   <svg viewBox="0 0 24 24" className={`fill-current shrink-0 ${className}`}>

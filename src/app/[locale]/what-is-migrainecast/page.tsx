@@ -268,7 +268,7 @@ export default function WhatIsMigraineCastPage() {
                   See how it works
                 </Link>
                 <a
-                  href="https://apps.apple.com/us/app/migraine-cast/id6754256278"
+                  href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-br from-accent to-[#8b5cf6] text-white font-semibold rounded-full shadow-[0_4px_20px_rgba(167,139,250,0.4)] transition-all hover:-translate-y-0.5"

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278";
+const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82";
 
 type MedClass = "triptan" | "otc" | "combination" | "gepant" | "ditan" | "ergot" | "other";
 type DaysBand = "lt5" | "d5to9" | "d10to14" | "d15plus";

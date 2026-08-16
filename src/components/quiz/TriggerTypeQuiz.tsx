@@ -9,7 +9,7 @@ import {
   type ArchetypeKey,
 } from "@/lib/quizzes/triggerType";
 
-const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278";
+const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82";
 
 type TriggerTypeQuizProps = {
   eyebrow: string;

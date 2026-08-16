@@ -138,7 +138,7 @@ export default function QuizzesPage() {
             lifestyle patterns every day to find what really triggers your migraines.
           </p>
           <a
-            href="https://apps.apple.com/us/app/migraine-cast/id6754256278"
+            href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-7 py-3.5 bg-text text-bg font-semibold text-sm rounded-full transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_30px_rgba(167,139,250,0.3)]"
