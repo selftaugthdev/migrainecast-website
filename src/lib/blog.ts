@@ -1778,7 +1778,7 @@ const posts: BlogPost[] = [
 
       <h2>What the Prodrome Actually Is</h2>
 
-      <p>The prodrome is the first of up to four recognized phases of a migraine attack (prodrome, aura, headache, and postdrome — though not everyone experiences all of them). It reflects changes happening in the brain before the headache mechanism itself fully activates, and it can begin anywhere from a few hours to about two days before the pain starts.</p>
+      <p>The prodrome is the first of up to <a href="/blog/how-long-does-a-migraine-last">four recognized phases of a migraine attack</a> (prodrome, aura, headache, and postdrome — though not everyone experiences all of them). It reflects changes happening in the brain before the headache mechanism itself fully activates, and it can begin anywhere from a few hours to about two days before the pain starts.</p>
 
       <p>Because prodrome symptoms are often non-painful and easy to attribute to something else — tiredness, a long day, "just not feeling like myself" — many people only recognize them in hindsight, after the headache makes the connection obvious.</p>
 
@@ -2133,7 +2133,7 @@ const posts: BlogPost[] = [
 
       <h2>What Migraine Actually Is</h2>
 
-      <p>Migraine is a neurological disease — a disorder of brain excitability that involves widespread changes in nervous system activity, blood flow, and pain processing. A migraine attack is not simply a severe headache. The headache is one symptom of a complex process that can involve four distinct phases (prodrome, aura, headache, postdrome) and affect multiple body systems at once.</p>
+      <p>Migraine is a neurological disease — a disorder of brain excitability that involves widespread changes in nervous system activity, blood flow, and pain processing. A migraine attack is not simply a severe headache. The headache is one symptom of a complex process that can involve <a href="/blog/how-long-does-a-migraine-last">four distinct phases</a> (prodrome, aura, headache, postdrome) and affect multiple body systems at once.</p>
 
       <p>The headache itself, when it occurs, is typically moderate to severe in intensity, often one-sided (though not always), and described as throbbing or pulsating. It characteristically worsens with physical activity — walking up stairs, bending over, moving quickly — which is a key distinguishing feature. Tension headaches typically don't change with movement.</p>
 
@@ -2200,7 +2200,7 @@ const posts: BlogPost[] = [
 
       <h2>What Is Migraine Aura?</h2>
 
-      <p>Aura refers to a set of fully reversible neurological symptoms that occur in association with migraine. They develop gradually, typically over 5 to 20 minutes, and usually last no more than 60 minutes. After the aura resolves, a migraine headache may follow within 60 minutes — or, in some cases, the aura arrives without any subsequent headache (called a <a href="/blog/silent-migraine-symptoms">silent migraine</a> or acephalgic migraine).</p>
+      <p>Aura refers to a set of fully reversible neurological symptoms that occur in association with migraine. They develop gradually, typically over 5 to 20 minutes, and usually last no more than 60 minutes. After the aura resolves, a migraine headache may follow within 60 minutes — or, in some cases, the aura arrives without any subsequent headache (called a <a href="/blog/silent-migraine-symptoms">silent migraine</a> or acephalgic migraine). For a full breakdown of what happens next and <a href="/blog/how-long-does-a-migraine-last">how long each stage tends to last</a>, see our guide to the four migraine phases.</p>
 
       <p>Aura occurs in approximately 25 to 30 percent of people who have migraine. If you have migraine with aura, you may not experience aura with every attack — some attacks may include it, others may not.</p>
 
