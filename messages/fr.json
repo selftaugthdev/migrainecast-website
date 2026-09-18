@@ -178,6 +178,7 @@
       "availableOn": "Disponible sur iOS · Android bientôt disponible"
     },
     "medicalDisclaimer": "MigraineCast facilite le suivi de la migraine et la prise de conscience des schémas. Il ne diagnostique pas la migraine, ne garantit pas la survenue de crises et ne remplace pas l'avis d'un professionnel de santé qualifié.",
+    "heroDisclaimer": "Pour mieux comprendre et planifier — sans diagnostic ni avis médical.",
     "schema": {
       "description": "MigraineCast vous aide à suivre vos symptômes de migraine et à les comparer aux changements météo et de pression, afin de rechercher des schémas qui pourraient vous être propres.",
       "featureList": [

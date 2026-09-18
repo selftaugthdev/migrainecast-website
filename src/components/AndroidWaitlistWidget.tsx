@@ -15,7 +15,7 @@ type Status = "idle" | "submitting" | "success" | "error";
  * the solid Android-brand-green CTA used across the main site (hero, Android
  * section, final CTA) so it reads as a clearly-secondary-but-visible action
  * next to the iOS download button. */
-type Variant = "pinterest" | "green";
+type Variant = "pinterest" | "green" | "text";
 
 export function AndroidWaitlistWidget({
   variant = "green",
@@ -85,8 +85,11 @@ export function AndroidWaitlistWidget({
   }
 
   const isPinterest = variant === "pinterest";
+  const isText = variant === "text";
 
-  const buttonClassName = isPinterest
+  const buttonClassName = isText
+    ? "inline-flex items-center gap-1.5 text-sm font-semibold text-white/80 underline underline-offset-4 decoration-white/35 transition-colors hover:text-white cursor-pointer focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-4 rounded"
+    : isPinterest
     ? "inline-flex items-center gap-2.5 px-7 py-[17px] bg-accent/10 border border-accent/40 text-text font-semibold rounded-full transition-all duration-300 hover:-translate-y-[2px] hover:bg-accent/[0.16] hover:border-accent/60 cursor-pointer"
     : "inline-flex items-center gap-2.5 px-7 py-[17px] bg-[#3DDC84] text-[#062b14] font-semibold rounded-full shadow-[0_4px_20px_rgba(61,220,132,0.35),inset_0_1px_0_rgba(255,255,255,0.25)] transition-all duration-300 hover:-translate-y-[3px] hover:shadow-[0_8px_36px_rgba(61,220,132,0.45),inset_0_1px_0_rgba(255,255,255,0.25)] cursor-pointer";
 
@@ -99,13 +102,13 @@ export function AndroidWaitlistWidget({
             {badge}
           </span>
         )}
-        {!badge && (
+        {!badge && !isText && (
           <p className="text-xs text-text-subtle mb-2">
             {t("hero.androidWaitlist.introText")}
           </p>
         )}
         <button type="button" onClick={handleOpen} className={buttonClassName}>
-          <AndroidIcon className={isPinterest ? "fill-[#3DDC84]" : "fill-current"} />
+          {!isText && <AndroidIcon className={isPinterest ? "fill-[#3DDC84]" : "fill-current"} />}
           {buttonLabel ?? t("hero.androidWaitlist.buttonLabel")}
         </button>
       </div>

@@ -178,6 +178,7 @@
       "availableOn": "Verfügbar für iOS · Android kommt bald"
     },
     "medicalDisclaimer": "MigraineCast unterstützt das Tracking von Migräne und das Bewusstsein für Muster. Es stellt keine Diagnose, garantiert keine Anfälle und ersetzt nicht den Rat einer qualifizierten Fachperson im Gesundheitswesen.",
+    "heroDisclaimer": "Zur Orientierung und Planung – nicht zur Diagnose oder als medizinischer Rat.",
     "schema": {
       "description": "MigraineCast hilft dir, Migränesymptome zu erfassen und mit Wetter- und Druckveränderungen zu vergleichen, damit du nach Mustern suchen kannst, die für dich persönlich gelten könnten.",
       "featureList": [

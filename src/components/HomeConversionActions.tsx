@@ -32,6 +32,7 @@ export function HomeConversionActions({
   androidBadge,
   androidButtonLabel,
   iosClassName,
+  androidVariant,
   stack = false,
   hideIos = false,
 }: {
@@ -43,6 +44,7 @@ export function HomeConversionActions({
   androidBadge?: string;
   androidButtonLabel?: string;
   iosClassName?: string;
+  androidVariant?: "green" | "pinterest" | "text";
   stack?: boolean;
   /** Android-only usage (e.g. the dedicated Android section). */
   hideIos?: boolean;
@@ -69,7 +71,7 @@ export function HomeConversionActions({
       )}
 
       <AndroidWaitlistWidget
-        variant="green"
+        variant={androidVariant ?? "green"}
         badge={androidBadge}
         buttonLabel={androidButtonLabel}
         attribution={{

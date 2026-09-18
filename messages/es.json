@@ -178,6 +178,7 @@
       "availableOn": "Disponible en iOS · Android próximamente"
     },
     "medicalDisclaimer": "MigraineCast facilita el seguimiento de la migraña y la conciencia de patrones. No diagnostica la migraña, no garantiza crisis ni sustituye el consejo de un profesional de la salud cualificado.",
+    "heroDisclaimer": "Para orientar y planificar, no para diagnosticar ni sustituir el consejo médico.",
     "schema": {
       "description": "MigraineCast te ayuda a registrar tus síntomas de migraña y compararlos con los cambios de clima y presión, para que puedas buscar patrones que pueden ser propios de ti.",
       "featureList": [

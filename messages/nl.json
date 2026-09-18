@@ -178,6 +178,7 @@
       "availableOn": "Beschikbaar op iOS · Android komt eraan"
     },
     "medicalDisclaimer": "MigraineCast ondersteunt het bijhouden van migraine en bewustwording van patronen. Het stelt geen diagnose, garandeert geen aanvallen en vervangt geen advies van een gekwalificeerde zorgverlener.",
+    "heroDisclaimer": "Voor bewustwording en planning — niet voor diagnose of medisch advies.",
     "schema": {
       "description": "MigraineCast helpt je migrainesymptomen bij te houden en te vergelijken met weers- en drukveranderingen, zodat je kunt zoeken naar patronen die persoonlijk voor jou kunnen zijn.",
       "featureList": [

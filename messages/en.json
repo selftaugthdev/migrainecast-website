@@ -104,12 +104,12 @@
   },
   "HomePage": {
     "hero": {
-      "eyebrow": "Migraine Weather and Pattern Tracking",
-      "title": "See what changes before your migraines",
-      "description": "Compare weather shifts, pressure changes, and your symptom history to uncover patterns that may be personal to you.",
-      "downloadCta": "Download free on iPhone",
+      "eyebrow": "Migraine weather forecast",
+      "title": "Your personal\nmigraine weather\nforecast.",
+      "description": "See pressure, humidity, temperature, and other changes that may matter to you—up to 7 days ahead.",
+      "downloadCta": "Get MigraineCast for iPhone",
       "androidBadge": "Coming soon",
-      "androidCta": "Join the waitlist",
+      "androidCta": "Android? Join the waitlist",
       "rating": "<b>4.8</b> on the App Store",
       "androidWaitlist": {
         "introText": "We're currently building the Android version.",
@@ -178,6 +178,7 @@
       "availableOn": "Available on iOS · Android coming soon"
     },
     "medicalDisclaimer": "MigraineCast supports migraine tracking and awareness. It does not diagnose migraine, guarantee attacks, or replace advice from a qualified healthcare professional.",
+    "heroDisclaimer": "For awareness and planning—not diagnosis or medical advice.",
     "schema": {
       "description": "MigraineCast helps you track migraine symptoms and compare them with weather and pressure changes, so you can look for patterns that may be personal to you.",
       "featureList": [

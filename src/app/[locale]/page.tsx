@@ -1,6 +1,5 @@
-import { Background } from "@/components/Background";
-import { FeatureCards } from "@/components/FeatureCards";
 import { HomeConversionActions } from "@/components/HomeConversionActions";
+import { IPhoneFrame } from "@/components/IPhoneFrame";
 import { HomepageViewTracker } from "./HomepageViewTracker";
 import Image from "next/image";
 import type { Metadata } from "next";
@@ -11,377 +10,54 @@ import { routing } from "@/i18n/routing";
 
 const APPSTORE_URL = "https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Layout" });
-
-  return {
-    title: t("metadataTitle"),
-    description: t("metadataDescription"),
-  };
+  return { title: t("metadataTitle"), description: t("metadataDescription") };
 }
 
-export default async function Home({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
+const forecastSignals = [
+  { value: "7", label: "days ahead", detail: "Plan around the conditions you want to watch." },
+  { value: "4+", label: "weather signals", detail: "Pressure, humidity, temperature, and more in one view." },
+  { value: "1", label: "personal baseline", detail: "Your history is the context—not a generic score." },
+];
+
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  if (!hasLocale(routing.locales, locale)) {
-    notFound();
-  }
+  if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
-
   const t = await getTranslations("HomePage");
+  const appSchema = { "@context": "https://schema.org", "@type": "SoftwareApplication", name: "MigraineCast", applicationCategory: "HealthApplication", operatingSystem: "iOS", offers: { "@type": "Offer", price: "0", priceCurrency: "USD" }, description: t("schema.description"), downloadUrl: APPSTORE_URL, featureList: t.raw("schema.featureList") as string[] };
 
-  const appSchema = {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    name: "MigraineCast",
-    applicationCategory: "HealthApplication",
-    operatingSystem: "iOS",
-    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.8", ratingCount: "100" },
-    description: t("schema.description"),
-    downloadUrl: APPSTORE_URL,
-    featureList: t.raw("schema.featureList") as string[],
-  };
+  return <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(appSchema) }} />
+    <HomepageViewTracker />
 
-  const howItWorksSteps = t.raw("howItWorks.steps") as { title: string; desc: string }[];
-
-  const howItWorksIcons = [
-    (
-      <svg key="check-conditions" viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
-        <rect x="3" y="4" width="18" height="18" rx="2" />
-        <line x1="16" y1="2" x2="16" y2="6" />
-        <line x1="8" y1="2" x2="8" y2="6" />
-        <line x1="3" y1="10" x2="21" y2="10" />
-      </svg>
-    ),
-    (
-      <svg key="log-symptoms" viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
-        <circle cx="12" cy="12" r="10" />
-        <line x1="12" y1="8" x2="12" y2="16" />
-        <line x1="8" y1="12" x2="16" y2="12" />
-      </svg>
-    ),
-    (
-      <svg key="review-history" viewBox="0 0 24 24" className="w-7 h-7 stroke-accent-soft stroke-[1.5] fill-none">
-        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
-        <polyline points="17 6 23 6 23 12" />
-      </svg>
-    ),
-  ];
-
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(appSchema) }}
-      />
-      <HomepageViewTracker />
-      <Background />
-
-      {/* ── Hero ─────────────────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden">
-        <div className="relative w-full">
-          <Image
-            src="/hero-bg.jpg"
-            alt="A woman finds calm above the clouds at sunrise, with the MigraineCast app open on her phone"
-            width={2560}
-            height={1440}
-            priority
-            unoptimized
-            className="block w-full h-auto"
-          />
-
-          {/* Top scrim so the floating nav stays legible over the photo */}
-          <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black/55 to-transparent" />
-
-          {/* Scrim so the headline stays legible over the photo (desktop overlay only) */}
-          <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-black/70 via-black/35 to-transparent" />
-
-          {/* iPhone mockup — self-contained box matching the frame PNG's own aspect ratio, placed in the open sky to the right of the photo's subject */}
-          <div
-            className="absolute"
-            style={{ left: "72.75%", top: "21.79%", width: "18.5%", aspectRatio: "600 / 1139" }}
-          >
-            <div
-              className="absolute overflow-hidden bg-black"
-              style={{ left: "11.33%", top: "3.51%", width: "76.83%", height: "92.18%", borderRadius: "12% / 6%" }}
-            >
-              <Image
-                src="/Simulator Screenshot - iPhone 17 Pro - 2026-01-23 at 19.49.29.png"
-                alt="MigraineCast forecast screen showing daily migraine risk level with pressure, humidity, and temperature sensitivity factors"
-                fill
-                sizes="(min-width: 1024px) 20vw, 40vw"
-                className="object-cover object-top"
-              />
-            </div>
-            <img
-              src="/iphone mockup.png"
-              alt=""
-              className="absolute inset-0 w-full h-full pointer-events-none select-none"
-            />
-          </div>
-
-          {/* Desktop copy — overlaid on the open sky to the left of the photo */}
-          <div className="hidden lg:flex absolute inset-0 flex-col pl-16 pt-28 max-w-[600px]">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-white/10 border border-white/20 rounded-full text-xs font-semibold text-white uppercase tracking-[0.08em] mb-5 backdrop-blur-sm w-fit animate-fade-up-delay-2">
-              {t("hero.eyebrow")}
-            </div>
-
-            <h1 className="font-display text-[clamp(1.875rem,3.4vw,3rem)] font-normal leading-[1.1] tracking-tight mb-4 text-white animate-fade-up-delay-3">
-              {t("hero.title")}
-            </h1>
-
-            <p className="text-[clamp(0.95rem,1.4vw,1.05rem)] text-white/90 leading-relaxed mb-7 animate-fade-up-delay-4">
-              {t("hero.description")}
-            </p>
-
-            <div className="mb-5 animate-fade-up-delay-5">
-              <HomeConversionActions
-                location="hero"
-                iosLabel={t("hero.downloadCta")}
-                iosEventName="hero_ios_download_click"
-                androidClickEventName="hero_android_waitlist_click"
-                androidBadge={t("hero.androidBadge")}
-                androidButtonLabel={t("hero.androidCta")}
-              />
-            </div>
-
-            <div className="flex items-center gap-3 animate-fade-up-delay-5">
-              <span className="text-yellow-400 tracking-tight text-base leading-none">★★★★★</span>
-              <span className="text-sm text-white/85">
-                {t.rich("hero.rating", {
-                  b: (chunks) => <span className="text-white font-semibold">{chunks}</span>,
-                })}
-              </span>
-            </div>
-          </div>
+    <section className="relative isolate min-h-[760px] overflow-hidden bg-[#07111e] lg:min-h-[720px]">
+      <Image src="/migraine-weather-front-v2.png" alt="An approaching weather front over a distant horizon" fill priority sizes="100vw" className="object-cover object-center" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(4,13,25,.95)_0%,rgba(4,13,25,.84)_38%,rgba(4,13,25,.18)_72%,rgba(4,13,25,.25)_100%)]" />
+      <div className="absolute inset-x-0 top-0 h-36 bg-gradient-to-b from-[#07111e]/80 to-transparent" />
+      <div className="relative mx-auto grid min-h-[760px] max-w-[1280px] grid-cols-1 px-6 pt-32 lg:min-h-[720px] lg:grid-cols-[1.03fr_.97fr] lg:px-10 lg:pt-28">
+        <div className="relative z-10 flex max-w-[610px] flex-col items-start pb-8 lg:justify-center lg:pb-24">
+          <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[.08] px-3 py-1.5 text-xs font-semibold uppercase tracking-[.12em] text-white/80 backdrop-blur-sm">{t("hero.eyebrow")}</p>
+          <h1 className="max-w-[620px] whitespace-pre-line font-display text-[clamp(2.7rem,5vw,4.7rem)] font-medium leading-[.98] tracking-[-.045em] text-white">{t("hero.title")}</h1>
+          <p className="mt-6 max-w-[540px] text-[1.05rem] leading-relaxed text-white/78 sm:text-[1.13rem]">{t("hero.description")}</p>
+          <div className="mt-8"><HomeConversionActions location="hero" iosLabel={t("hero.downloadCta")} iosEventName="hero_ios_download_click" androidClickEventName="hero_android_waitlist_click" androidButtonLabel={t("hero.androidCta")} androidVariant="text" iosClassName="inline-flex items-center gap-2.5 rounded-xl bg-white px-6 py-4 font-semibold text-[#081322] shadow-[0_12px_30px_rgba(0,0,0,.25)] transition hover:-translate-y-0.5 hover:bg-[#e9efff] focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-4" /></div>
+          <p className="mt-5 text-[11px] leading-none tracking-[.01em] text-white/45">{t("heroDisclaimer")}</p>
         </div>
-
-        {/* Mobile copy — below the photo, using the page's normal theme colors */}
-        <div className="lg:hidden px-6 pt-10">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-accent/10 border border-accent/20 rounded-full text-xs font-semibold text-accent-soft uppercase tracking-[0.08em] mb-6">
-            {t("hero.eyebrow")}
-          </div>
-
-          <h1 className="font-display text-[clamp(2.2rem,4.5vw,3.75rem)] font-normal leading-[1.07] tracking-tight mb-5">
-            {t("hero.title")}
-          </h1>
-
-          <p className="text-[clamp(1rem,1.6vw,1.15rem)] text-text-muted leading-relaxed mb-7">
-            {t("hero.description")}
-          </p>
-
-          <div className="mb-6">
-            <HomeConversionActions
-              location="hero-mobile"
-              iosLabel={t("hero.downloadCta")}
-              iosEventName="hero_ios_download_click"
-              androidClickEventName="hero_android_waitlist_click"
-              androidBadge={t("hero.androidBadge")}
-              androidButtonLabel={t("hero.androidCta")}
-            />
-          </div>
-
-          <div className="flex items-center gap-3">
-            <span className="text-yellow-400 tracking-tight text-base leading-none">★★★★★</span>
-            <span className="text-sm text-text-muted">
-              {t.rich("hero.rating", {
-                b: (chunks) => <span className="text-text font-semibold">{chunks}</span>,
-              })}
-            </span>
-          </div>
+        <div className="relative flex min-h-[375px] items-end justify-center lg:min-h-0 lg:items-center lg:justify-end">
+          <div className="absolute bottom-[-5%] h-[67%] w-[58%] rounded-full bg-[#9eb8d4]/20 blur-3xl" />
+          <IPhoneFrame className="z-10 w-[220px] drop-shadow-[0_28px_40px_rgba(0,0,0,.55)] sm:w-[255px] lg:w-[290px]" priority alt="MigraineCast forecast interface with day-by-day migraine weather conditions" />
         </div>
-      </section>
+      </div>
+    </section>
 
-      {/* ── Core Benefits ────────────────────────────────────────────────── */}
-      <section className="py-[120px] relative">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-5 block">
-            {t("coreBenefits.label")}
-          </span>
-          <h2 className="font-display text-[clamp(2rem,4vw,3rem)] font-normal leading-tight mb-4">
-            {t("coreBenefits.title")}
-          </h2>
-          <p className="text-lg text-text-muted max-w-[520px] mb-16 leading-relaxed">
-            {t("coreBenefits.description")}
-          </p>
+    <section className="border-y border-white/[.07] bg-[#0a1726] py-10"><div className="mx-auto grid max-w-[1100px] grid-cols-1 divide-y divide-white/[.09] px-6 sm:grid-cols-3 sm:divide-x sm:divide-y-0">{forecastSignals.map((signal) => <div key={signal.label} className="px-0 py-6 sm:px-7 sm:py-1 first:sm:pl-0 last:sm:pr-0"><div className="font-display text-3xl text-[#dceaff]">{signal.value}</div><div className="mt-1 text-sm font-semibold text-white">{signal.label}</div><p className="mt-1.5 text-sm leading-relaxed text-[#a8b8cc]">{signal.detail}</p></div>)}</div></section>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
-            <div className="flex flex-col gap-6 order-2 lg:order-1">
-              <FeatureCards />
-              <div className="py-5 px-7 bg-accent/[0.06] border-l-[3px] border-accent text-lg text-text-muted italic rounded-r-xl">
-                {t("coreBenefits.highlight")}
-              </div>
-            </div>
+    <section className="bg-[#f6f8fb] py-20 text-[#142033] sm:py-28"><div className="mx-auto max-w-[1100px] px-6"><div className="max-w-[650px]"><p className="text-xs font-bold uppercase tracking-[.14em] text-[#48698c]">A clearer forecast, in context</p><h2 className="mt-4 font-display text-[clamp(2.2rem,4vw,3.6rem)] leading-[1.05] tracking-[-.035em]">See the signals that may matter to you.</h2><p className="mt-5 text-lg leading-relaxed text-[#506176]">MigraineCast puts the day-by-day forecast first, then gives you a practical way to compare it with what you experience over time.</p></div><div className="mt-14 grid gap-5 md:grid-cols-3">{[["Check the days ahead", "A readable daily forecast helps you spot pressure shifts and changing conditions before they arrive."], ["Capture an attack quickly", "Log symptoms when they happen, without turning your day into a data-entry task."], ["Bring useful history forward", "Review your own observations over time and have better context for a conversation with your clinician."]].map(([title, body], index) => <article key={title} className="rounded-2xl border border-[#dbe3ec] bg-white p-7 shadow-[0_12px_30px_rgba(24,43,68,.06)]"><span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#e9f0f7] text-sm font-bold text-[#36597c]">0{index + 1}</span><h3 className="mt-8 text-xl font-bold tracking-[-.02em]">{title}</h3><p className="mt-3 leading-relaxed text-[#5b6b7d]">{body}</p></article>)}</div></div></section>
 
-            {/* iPhone Mockup */}
-            <div className="relative h-[580px] flex items-center justify-center order-1 lg:order-2">
-              <div className="glow-ring w-[400px] h-[400px]" />
-              <div className="glow-ring w-[500px] h-[500px]" />
-              <div className="glow-ring w-[600px] h-[600px]" />
+    <section className="bg-[#0b1827] py-20 sm:py-28"><div className="mx-auto grid max-w-[1100px] items-center gap-12 px-6 lg:grid-cols-[.85fr_1.15fr]"><div className="relative mx-auto w-[230px] sm:w-[265px]"><div className="absolute -inset-10 rounded-full bg-[#6385aa]/15 blur-3xl" /><IPhoneFrame className="relative w-full" alt="MigraineCast day-by-day forecast showing weather conditions" /></div><div><p className="text-xs font-bold uppercase tracking-[.14em] text-[#9ab9d8]">Built around the real forecast</p><h2 className="mt-4 max-w-[600px] font-display text-[clamp(2.2rem,4vw,3.5rem)] leading-[1.06] tracking-[-.035em] text-white">One calm view for the next seven days.</h2><p className="mt-5 max-w-[590px] text-lg leading-relaxed text-[#b7c5d4]">Pressure, humidity, temperature, and changes across the week are easy to scan at a glance. The forecast is there to support awareness and planning—not to make a diagnosis or promise an outcome.</p><div className="mt-8 border-l-2 border-[#88afd3] pl-5 text-sm leading-relaxed text-[#c5d3e1]">Weather sensitivity differs from person to person. Use MigraineCast as one source of context alongside your own care plan.</div></div></div></section>
 
-              <div className="relative z-10">
-                <div className="relative w-[280px] h-[572px] bg-gradient-to-b from-[#3a3a3c] via-[#2c2c2e] to-[#1c1c1e] rounded-[55px] p-[3px] shadow-[0_50px_100px_rgba(0,0,0,0.5),0_0_0_1px_rgba(255,255,255,0.1)]">
-                  <div className="w-full h-full bg-black rounded-[52px] p-[10px]">
-                    <div className="relative w-full h-full rounded-[42px] overflow-hidden bg-black">
-                      <div className="absolute top-3 left-1/2 -translate-x-1/2 w-[100px] h-[32px] bg-black rounded-full z-10" />
-                      <Image
-                        src="/Simulator Screenshot - iPhone 17 Pro - 2026-01-23 at 19.49.29.png"
-                        alt="MigraineCast app screenshot showing daily migraine risk forecast and sensitivity factors like pressure and humidity"
-                        fill
-                        sizes="280px"
-                        className="object-cover object-top"
-                        priority
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute right-[-2px] top-[140px] w-[3px] h-[80px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-r-sm" />
-                <div className="absolute left-[-2px] top-[120px] w-[3px] h-[28px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
-                <div className="absolute left-[-2px] top-[160px] w-[3px] h-[50px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
-                <div className="absolute left-[-2px] top-[220px] w-[3px] h-[50px] bg-gradient-to-b from-[#3a3a3c] to-[#2c2c2e] rounded-l-sm" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── How It Works ─────────────────────────────────────────────────── */}
-      <section id="how-it-works" className="py-[120px] bg-bg-elevated relative overflow-hidden">
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
-
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="text-center mb-16">
-            <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-5 block">
-              {t("howItWorks.label")}
-            </span>
-            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] font-normal leading-tight mb-4">
-              {t("howItWorks.title")}
-            </h2>
-            <p className="text-lg text-text-muted max-w-[480px] mx-auto">
-              {t("howItWorks.description")}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {howItWorksSteps.map((step, i) => (
-              <div
-                key={i}
-                className="relative p-10 glass-card glass-card-hover rounded-3xl text-center"
-              >
-                <div className="absolute -top-5 left-1/2 -translate-x-1/2 w-10 h-10 bg-gradient-to-br from-accent to-coral rounded-xl flex items-center justify-center font-display text-lg font-medium text-white shadow-[0_8px_20px_rgba(167,139,250,0.4)]">
-                  {i + 1}
-                </div>
-                <div className="w-16 h-16 mx-auto mt-5 mb-6 bg-accent/10 rounded-full flex items-center justify-center">
-                  {howItWorksIcons[i]}
-                </div>
-                <h4 className="font-display text-xl font-medium mb-3">{step.title}</h4>
-                <p className="text-[0.95rem] text-text-muted leading-relaxed">{step.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Weather Positioning ──────────────────────────────────────────── */}
-      <section className="py-[100px] relative overflow-hidden">
-        <div className="max-w-[800px] mx-auto px-6 text-center">
-          <span className="text-xs font-semibold tracking-[0.1em] uppercase text-accent mb-5 block">
-            {t("weather.label")}
-          </span>
-          <h2 className="font-display text-[clamp(1.75rem,4vw,2.75rem)] font-normal leading-tight mb-6">
-            {t("weather.title")}
-          </h2>
-          <p className="text-lg text-text-muted leading-relaxed">
-            {t("weather.body")}
-          </p>
-        </div>
-      </section>
-
-      {/* ── Testimonial ──────────────────────────────────────────────────── */}
-      <section className="py-[100px] relative">
-        <div className="max-w-[760px] mx-auto px-6 text-center">
-          <span className="text-yellow-400 text-xl tracking-tight">★★★★★</span>
-          <blockquote className="font-display text-[clamp(1.4rem,3vw,2rem)] font-normal leading-[1.4] text-text mt-6 mb-5">
-            &ldquo;{t("testimonial.quote")}&rdquo;
-          </blockquote>
-          <p className="text-text-muted text-sm">{t("testimonial.author")}</p>
-        </div>
-      </section>
-
-      {/* ── Android ──────────────────────────────────────────────────────── */}
-      <section id="android" className="py-[120px] relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#3DDC84]/[0.08] via-transparent to-transparent" />
-        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
-
-        <div className="max-w-[640px] mx-auto px-6 relative text-center">
-          <span className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-accent/10 border border-accent/20 rounded-full text-xs font-semibold text-accent-soft uppercase tracking-[0.08em] mb-6">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#3DDC84] inline-block" />
-            {t("android.label")}
-          </span>
-          <h2 className="font-display text-[clamp(1.9rem,4vw,2.75rem)] font-normal leading-tight mb-4">
-            {t("android.title")}
-          </h2>
-          <p className="text-lg text-text-muted leading-relaxed mb-9 max-w-[480px] mx-auto">
-            {t("android.body")}
-          </p>
-
-          <div className="flex flex-col items-center gap-3">
-            <HomeConversionActions
-              location="android-section"
-              hideIos
-              androidBadge={t("hero.androidBadge")}
-              androidButtonLabel={t("android.buttonLabel")}
-            />
-            <p className="text-xs text-text-subtle max-w-[380px]">{t("android.formNote")}</p>
-          </div>
-        </div>
-      </section>
-
-      {/* ── Final CTA ────────────────────────────────────────────────────── */}
-      <section id="download" className="text-center py-40 relative overflow-hidden">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[radial-gradient(circle,rgba(167,139,250,0.15)_0%,transparent_60%)] pointer-events-none" />
-
-        <div className="max-w-[1200px] mx-auto px-6 relative">
-          <h2 className="font-display text-[clamp(2.5rem,5vw,3.5rem)] font-normal leading-tight mb-10">
-            {t("finalCta.titleLine1")}
-            <br />
-            {t("finalCta.titleLine2")}
-          </h2>
-
-          <div className="flex justify-center mb-6">
-            <HomeConversionActions
-              location="final"
-              iosLabel={t("finalCta.iosCta")}
-              iosEventName="final_ios_download_click"
-              androidClickEventName="final_android_waitlist_click"
-              androidBadge={t("hero.androidBadge")}
-              androidButtonLabel={t("finalCta.androidCta")}
-              stack
-            />
-          </div>
-
-          <p className="text-sm text-text-subtle">{t("finalCta.freeNote")}</p>
-          <p className="mt-2 text-sm text-text-subtle">{t("finalCta.availableOn")}</p>
-        </div>
-      </section>
-
-      {/* ── Medical & trust boundary ─────────────────────────────────────── */}
-      <section className="pb-16 relative">
-        <div className="max-w-[640px] mx-auto px-6 text-center">
-          <p className="text-sm text-text-subtle leading-relaxed">
-            {t("medicalDisclaimer")}
-          </p>
-        </div>
-      </section>
-    </>
-  );
+    <section id="download" className="bg-[#eaf1f7] py-20 text-center text-[#142033] sm:py-28"><div className="mx-auto max-w-[680px] px-6"><p className="text-xs font-bold uppercase tracking-[.14em] text-[#48698c]">A more useful weather check</p><h2 className="mt-4 font-display text-[clamp(2.4rem,5vw,4rem)] leading-[1.03] tracking-[-.04em]">Know what’s changing before the day begins.</h2><p className="mx-auto mt-5 max-w-[530px] text-lg leading-relaxed text-[#53677e]">Download MigraineCast for a calmer, more personal way to follow the weather around you.</p><div className="mt-8 flex justify-center"><HomeConversionActions location="final" iosLabel={t("hero.downloadCta")} iosEventName="final_ios_download_click" androidClickEventName="final_android_waitlist_click" androidButtonLabel={t("hero.androidCta")} androidVariant="green" stack /></div><p className="mt-7 text-sm leading-relaxed text-[#63778e]">{t("medicalDisclaimer")}</p></div></section>
+  </>;
 }
