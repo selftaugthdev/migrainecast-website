@@ -27,7 +27,7 @@ const posts: BlogPost[] = [
 
       <h2>Barometric Pressure Is the Number That Matters Most</h2>
 
-      <p>Temperature and rain get all the attention in a standard weather app. Barometric pressure sits quietly in the background, but it's the metric that headache researchers have studied the most in relation to migraine attacks.</p>
+      <p>Temperature and rain get all the attention in a <a href="/blog/weather-apps-vs-migraine-forecasts">standard weather app</a>. Barometric pressure sits quietly in the background, but it's the metric that headache researchers have studied the most in relation to migraine attacks.</p>
 
       <p>Atmospheric pressure is essentially the weight of the air column above you pressing down on everything, including your body. When a storm system approaches, that pressure starts dropping before the clouds even show up. Your sinuses, your inner ear, and the tissues surrounding your brain are all sensitive to that shift.</p>
 
@@ -106,7 +106,7 @@ const posts: BlogPost[] = [
     date: "February 14, 2026",
     category: "Tips",
     content: `
-      <p>If you've ever tried to explain to a neurologist that the weather gives you migraines, you know the conversation can go one of a few ways. Sometimes they nod and take it seriously. Sometimes you get a polite but skeptical look and a comment about how the research is "mixed." And sometimes you leave the appointment feeling like you weren't quite able to articulate what you've been experiencing for years.</p>
+      <p>If you've ever tried to <a href="/blog/prepare-for-neurology-appointment">explain to a neurologist</a> that the weather gives you migraines, you know the conversation can go one of a few ways. Sometimes they nod and take it seriously. Sometimes you get a polite but skeptical look and a comment about how the research is "mixed." And sometimes you leave the appointment feeling like you weren't quite able to articulate what you've been experiencing for years.</p>
 
       <p>The problem usually isn't your doctor. It's the lack of data.</p>
 
@@ -224,7 +224,7 @@ const posts: BlogPost[] = [
 
       <p>This is the obvious one, but it's also where people are most likely to let things slip. Go through this before a high-risk day:</p>
 
-      <p>Is your acute medication (triptan, NSAID, whatever your doctor has prescribed) filled and accessible, not buried at the bottom of a bag or sitting in a cabinet across the house? If you use an injectable or nasal spray, is it unexpired and at the right temperature? Do you have anti-nausea medication on hand, because many people need it but forget to stock it until they're already sick?</p>
+      <p>Is your acute medication (triptan, NSAID, whatever your doctor has prescribed) filled and accessible, not buried at the bottom of a bag or sitting in a cabinet across the house? If you use an injectable or nasal spray, is it unexpired and at the right temperature? Do you have <a href="/blog/migraine-nausea">anti-nausea medication</a> on hand, because many people need it but forget to stock it until they're already sick?</p>
 
       <p>A lot of migraine attacks escalate because the person delayed taking medication while hoping the headache would pass. Having it physically within arm's reach lowers that barrier significantly.</p>
 
@@ -283,7 +283,7 @@ const posts: BlogPost[] = [
 
       <h2>The Forecasting Piece Is What Makes This Work</h2>
 
-      <p>Preparation only pays off if you have enough notice to actually use it. That's the part most weather apps weren't built to give you. A standard forecast tells you it's going to rain on Thursday. It doesn't tell you that the pressure drop begins Tuesday night and your historical pattern suggests you'll be symptomatic by Wednesday afternoon.</p>
+      <p>Preparation only pays off if you have enough notice to actually use it. That's the part <a href="/blog/weather-apps-vs-migraine-forecasts">most weather apps</a> weren't built to give you. A standard forecast tells you it's going to rain on Thursday. It doesn't tell you that the pressure drop begins Tuesday night and your historical pattern suggests you'll be symptomatic by Wednesday afternoon.</p>
 
       <p>MigraineCast was built specifically around that gap. It tracks barometric pressure changes at your location, calculates the rate of drop rather than just the current reading, and gives you a risk forecast far enough ahead to actually act on. It's the difference between finding out a storm is coming and knowing when the trigger window opens.</p>
 
@@ -343,7 +343,7 @@ const posts: BlogPost[] = [
       <p>So what's actually happening inside your body when barometric pressure drops? Scientists have identified several interconnected mechanisms:</p>
 
       <h3>1. Sinus and Inner Ear Pressure Imbalances</h3>
-      <p>Your sinuses and inner ear contain air-filled spaces. When external atmospheric pressure drops, the pressure inside these spaces becomes relatively higher, creating an imbalance. This can:</p>
+      <p>Your sinuses and <a href="/blog/ear-fullness-migraine">inner ear</a> contain air-filled spaces. When external atmospheric pressure drops, the pressure inside these spaces becomes relatively higher, creating an imbalance. This can:</p>
 
       <ul>
         <li>Trigger inflammation in sinus membranes</li>
@@ -574,7 +574,7 @@ const posts: BlogPost[] = [
     date: "January 8, 2025",
     category: "Tips",
     content: `
-      <p>If you've seen a neurologist about your migraines, you've probably been told to "keep a migraine diary." And if you're like most people, you've tried — and eventually given up.</p>
+      <p>If you've seen a <a href="/blog/prepare-for-neurology-appointment">neurologist</a> about your migraines, you've probably been told to "keep a migraine diary." And if you're like most people, you've tried — and eventually given up.</p>
 
       <p>But here's the truth: tracking your migraines isn't just busywork your doctor assigns. When done correctly, it's the single most powerful tool you have for understanding and managing your condition. The problem isn't tracking itself — it's how most people try to do it.</p>
 
@@ -857,7 +857,7 @@ const posts: BlogPost[] = [
       <p>Keep a small kit with you at all times containing:</p>
 
       <ul>
-        <li><strong>Acute medication:</strong> Triptans, NSAIDs, or whatever your doctor prescribed</li>
+        <li><strong>Acute medication:</strong> <a href="/blog/triptans-explained">Triptans</a>, NSAIDs, or whatever your doctor prescribed</li>
         <li><strong>Backup medication:</strong> In case the first-line treatment isn't enough</li>
         <li><strong>Anti-nausea medication:</strong> If you experience migraine-related nausea</li>
         <li><strong>Sunglasses:</strong> For light sensitivity</li>
@@ -1039,7 +1039,7 @@ const posts: BlogPost[] = [
     date: "March 9, 2026",
     category: "Science",
     content: `
-      <p>If you've ever wondered why a migraine seems to settle in such oddly specific places — one eye socket, one temple, a band across the forehead, sometimes even the teeth or jaw — there's a real anatomical reason for that. It's not random, and it's not "just a headache." It's the trigeminal nerve doing exactly what it's built to do, just in overdrive.</p>
+      <p>If you've ever wondered why a migraine seems to settle in such oddly specific places — one eye socket, one temple, a band across the forehead, sometimes even the <a href="/blog/migraine-facial-pain">teeth or jaw</a> — there's a real anatomical reason for that. It's not random, and it's not "just a headache." It's the trigeminal nerve doing exactly what it's built to do, just in overdrive.</p>
 
       <p>Understanding this nerve doesn't just satisfy curiosity. It explains why migraine pain feels the way it does, why certain treatments work, and why some of the newest migraine drugs were designed around this exact pathway.</p>
 
@@ -1163,7 +1163,7 @@ const posts: BlogPost[] = [
 
       <h2>What to Do When Visual Symptoms Start</h2>
 
-      <p>If you have an established pattern and recognize the start of an aura, that's often your earliest warning sign that an attack is beginning — sometimes the earliest sign of all. Many people use this window to take acute medication immediately, find a calm and dimly lit space, and avoid driving or operating machinery until the visual symptoms resolve.</p>
+      <p>If you have an established pattern and recognize the start of an aura, that's often your earliest warning sign that an attack is beginning — sometimes the earliest sign of all. Many people use this window to take acute medication immediately, find a calm and dimly lit space, and <a href="/blog/driving-with-migraine-aura">avoid driving</a> or operating machinery until the visual symptoms resolve.</p>
 
       <p>And if weather is part of your trigger picture, getting that early warning before the visual symptoms even start is the real advantage. MigraineCast tracks pressure trends for your location so you have a heads-up before the cascade — aura included — even begins.</p>
 
@@ -1197,7 +1197,7 @@ const posts: BlogPost[] = [
 
       <h2>1. Treat Early — Earlier Than Feels Necessary</h2>
 
-      <p>This is, by a wide margin, the single biggest factor in how fast a migraine resolves. Acute medications — whether over-the-counter pain relievers, triptans, or newer CGRP-targeted medications — work significantly better when taken during the early, mild phase of an attack rather than after it's fully escalated.</p>
+      <p>This is, by a wide margin, the single biggest factor in how fast a migraine resolves. Acute medications — whether over-the-counter pain relievers, <a href="/blog/triptans-explained">triptans</a>, or <a href="/blog/cgrp-migraine-treatments">newer CGRP-targeted medications</a> — work significantly better when taken during the early, mild phase of an attack rather than after it's fully escalated.</p>
 
       <p>Part of the reason is physiological: as a migraine progresses, the gut slows down (a phenomenon called gastric stasis), which means oral medications get absorbed more slowly just when you need them to act fastest. Waiting to "see if it gets bad" often means treating a fully escalated attack with a medication that's now absorbing poorly. If you have a prescribed acute treatment, taking it at the very first unmistakable sign — not the worst point — is consistently associated with faster, more complete relief.</p>
 
@@ -1207,7 +1207,7 @@ const posts: BlogPost[] = [
 
       <h2>3. Cold Therapy (and Sometimes Heat)</h2>
 
-      <p>Applying a cold compress to the forehead, temples, or back of the neck is one of the better-studied non-drug interventions for migraine. Cold is thought to work by constricting the dilated blood vessels involved in the attack and by numbing the area enough to dull pain signals. A gel ice pack, a cold damp cloth, or even a bag of frozen peas wrapped in a towel all work — the key is consistent contact for 15–20 minutes at a time.</p>
+      <p>Applying a cold compress to the forehead, temples, or back of the neck is one of the better-studied non-drug interventions for migraine. Cold is thought to work by constricting the dilated blood vessels involved in the attack and by numbing the area enough to dull pain signals. <a href="/blog/cold-therapy-migraine">A gel ice pack</a>, a cold damp cloth, or even a bag of frozen peas wrapped in a towel all work — the key is consistent contact for 15–20 minutes at a time.</p>
 
       <p>Some people find heat more helpful, particularly for tension that builds in the neck and shoulders alongside the migraine. A warm compress on the back of the neck can help relax muscles that are contributing to the overall pain picture. There's no harm in trying both and noting which one your body responds to — it's genuinely individual.</p>
 
@@ -1408,7 +1408,7 @@ const posts: BlogPost[] = [
 
       <h2>The Prodrome Window: Your Real Opportunity</h2>
 
-      <p>The prodrome phase is the period before the headache itself, when subtle signals start showing up — fatigue, neck stiffness, mood changes, food cravings, increased yawning, or a kind of mental fog. Many people experience this and don't connect it to an oncoming migraine until they've had enough attacks to recognize the pattern.</p>
+      <p>The prodrome phase is the period before the headache itself, when subtle signals start showing up — fatigue, neck stiffness, mood changes, food cravings, <a href="/blog/migraine-yawning">increased yawning</a>, or a kind of mental fog. Many people experience this and don't connect it to an oncoming migraine until they've had enough attacks to recognize the pattern.</p>
 
       <p>This phase matters because the trigeminovascular system — the network of nerves and blood vessels behind migraine pain — is just beginning to activate. It hasn't fully ramped up yet. Intervening here, while things are still building rather than fully escalated, is consistently associated with better outcomes than waiting. We go into much more detail on recognizing these signals in our guide to <a href="/blog/migraine-prodrome-signs">migraine prodrome symptoms</a>, but the short version is: the sooner you notice something is off, the more options you have.</p>
 
@@ -1518,7 +1518,7 @@ const posts: BlogPost[] = [
     date: "June 5, 2026",
     category: "Tips",
     content: `
-      <p>Food is complicated during a migraine. Nausea is common, your stomach slows down, and the idea of eating anything at all can feel unappealing or even nauseating on its own. But going too long without eating — especially if you've already taken medication on an empty stomach — can prolong an attack or make nausea worse. The goal isn't a balanced meal. It's finding something gentle enough to get down that supports recovery rather than fighting it.</p>
+      <p>Food is complicated during a migraine. <a href="/blog/migraine-nausea">Nausea is common</a>, your stomach slows down, and the idea of eating anything at all can feel unappealing or even nauseating on its own. But going too long without eating — especially if you've already taken medication on an empty stomach — can prolong an attack or make nausea worse. The goal isn't a balanced meal. It's finding something gentle enough to get down that supports recovery rather than fighting it.</p>
 
       <h2>Why Eating (Something) Still Matters</h2>
 
@@ -1598,7 +1598,7 @@ const posts: BlogPost[] = [
 
       <p><strong>1. Genuinely consistent low hydration.</strong> If your daily fluid intake is consistently on the low side — common for people who don't feel thirsty often, drink a lot of caffeine (which has a mild diuretic effect), or live in dry climates or heated/air-conditioned indoor environments — your baseline hydration status might simply be low enough, every day, to sit right at your trigger threshold.</p>
 
-      <p><strong>2. Medication-overuse headache.</strong> If you're taking acute pain medication (including over-the-counter options) frequently — generally more than two to three days a week on a regular basis — it's possible to develop a pattern where the medication itself contributes to more frequent headaches. This is a recognized phenomenon and isn't a sign of doing anything "wrong," but it's important to discuss with a doctor if it applies to you, because the management approach is different from a purely hydration-driven pattern.</p>
+      <p><strong>2. <a href="/blog/medication-overuse-headache">Medication-overuse headache.</a></strong> If you're taking acute pain medication (including over-the-counter options) frequently — generally more than two to three days a week on a regular basis — it's possible to develop a pattern where the medication itself contributes to more frequent headaches. This is a recognized phenomenon and isn't a sign of doing anything "wrong," but it's important to discuss with a doctor if it applies to you, because the management approach is different from a purely hydration-driven pattern.</p>
 
       <p><strong>3. Multiple daily triggers stacking.</strong> Daily headaches can also reflect several smaller things happening every day rather than one big cause — mild dehydration plus poor sleep plus screen time plus caffeine timing plus stress, each contributing a little. In this case, hydration might be one piece of a larger puzzle rather than the whole answer.</p>
 
@@ -1666,7 +1666,7 @@ const posts: BlogPost[] = [
 
       <h2>Step 3: Get Advance Warning, Not Just a Daily Forecast</h2>
 
-      <p>This is the part that changes everything practically. A standard weather app tells you it's going to rain Thursday. It doesn't tell you that the pressure drop driving that rain actually begins Tuesday night, or that — based on your personal pattern — you tend to feel symptoms about 30 hours after a drop of that size starts.</p>
+      <p>This is the part that changes everything practically. <a href="/blog/weather-apps-vs-migraine-forecasts">A standard weather app</a> tells you it's going to rain Thursday. It doesn't tell you that the pressure drop driving that rain actually begins Tuesday night, or that — based on your personal pattern — you tend to feel symptoms about 30 hours after a drop of that size starts.</p>
 
       <p>MigraineCast tracks barometric pressure trends specifically, calculates the rate of change (which matters more than the absolute pressure level), and gives you a risk forecast for your location up to 48 hours ahead. That's the lead time that turns "oh no, it's happening again" into "I saw this coming yesterday and I'm ready."</p>
 
@@ -1742,7 +1742,7 @@ const posts: BlogPost[] = [
 
       <h2>The Anxiety Loop</h2>
 
-      <p>For some people, part of what makes sleep difficult during a migraine is a layer of anxiety on top of the physical symptoms — worry about how bad it will get, what you'll miss tomorrow, or whether this is "going to be a bad one." That anxiety itself activates the nervous system in a way that works against rest. If you notice this pattern, slow breathing — even just extending your exhale longer than your inhale for a few minutes — can help shift things toward a calmer state, independent of the headache itself.</p>
+      <p>For some people, part of what makes sleep difficult during a migraine is <a href="/blog/migraine-and-anxiety">a layer of anxiety</a> on top of the physical symptoms — worry about how bad it will get, what you'll miss tomorrow, or whether this is "going to be a bad one." That anxiety itself activates the nervous system in a way that works against rest. If you notice this pattern, slow breathing — even just extending your exhale longer than your inhale for a few minutes — can help shift things toward a calmer state, independent of the headache itself.</p>
 
       <h2>Protecting Sleep Before an Attack, Not Just During</h2>
 
@@ -1788,11 +1788,11 @@ const posts: BlogPost[] = [
 
       <ul>
         <li><strong>Mood changes</strong> — irritability, low mood, anxiety, or unusual euphoria</li>
-        <li><strong>Fatigue or yawning</strong> — an unusual wave of tiredness, or repeated yawning that seems disproportionate to how tired you actually are</li>
+        <li><strong>Fatigue or <a href="/blog/migraine-yawning">yawning</a></strong> — an unusual wave of tiredness, or repeated yawning that seems disproportionate to how tired you actually are</li>
         <li><strong>Food cravings</strong> — particularly for sweet or salty foods, sometimes specific and unusual for you</li>
         <li><strong>Neck stiffness or tension</strong> — often in the back of the neck and shoulders</li>
         <li><strong>Sensory sensitivity</strong> — a mild, early version of the light or sound sensitivity that may intensify during the headache phase</li>
-        <li><strong>Difficulty concentrating</strong> — a "brain fog" feeling, or finding words harder to access than usual</li>
+        <li><strong>Difficulty concentrating</strong> — a "<a href="/blog/migraine-brain-fog">brain fog</a>" feeling, or finding words harder to access than usual</li>
         <li><strong>Increased urination or fluid retention</strong></li>
         <li><strong>Frequent yawning or excessive thirst</strong></li>
       </ul>
@@ -1861,7 +1861,7 @@ const posts: BlogPost[] = [
 
       <h2>Magnesium, Riboflavin, and CoQ10</h2>
 
-      <p>Of all the "natural" supplement options discussed for migraine, magnesium and riboflavin (vitamin B2) have some of the more substantial research behind them for <em>prevention</em> — meaning consistent daily use over time, rather than something you take during an attack expecting immediate relief. CoQ10 is also commonly discussed. As with any supplement, it's worth discussing dosing and appropriateness with a doctor, particularly because effective doses for migraine prevention are sometimes higher than what's in a standard multivitamin.</p>
+      <p>Of all the "natural" supplement options discussed for migraine, magnesium and <a href="/blog/riboflavin-coq10-migraine">riboflavin (vitamin B2)</a> have some of the more substantial research behind them for <em>prevention</em> — meaning consistent daily use over time, rather than something you take during an attack expecting immediate relief. CoQ10 is also commonly discussed. As with any supplement, it's worth discussing dosing and appropriateness with a doctor, particularly because effective doses for migraine prevention are sometimes higher than what's in a standard multivitamin.</p>
 
       <h2>Sleep and Relaxation</h2>
 
@@ -1919,11 +1919,11 @@ const posts: BlogPost[] = [
 
       <h2>Magnesium-Rich Foods</h2>
 
-      <p>Magnesium has reasonable evidence behind it for migraine prevention, and getting more from food is a low-risk way to support that, alongside any supplementation a doctor might recommend. Foods relatively rich in magnesium include leafy greens (spinach, Swiss chard), nuts and seeds (almonds, cashews, pumpkin seeds), legumes, whole grains, and dark chocolate (in moderation — for some people chocolate is also a trigger, so this is worth testing individually).</p>
+      <p><a href="/blog/magnesium-for-migraine">Magnesium has reasonable evidence</a> behind it for migraine prevention, and getting more from food is a low-risk way to support that, alongside any supplementation a doctor might recommend. Foods relatively rich in magnesium include leafy greens (spinach, Swiss chard), nuts and seeds (almonds, cashews, pumpkin seeds), legumes, whole grains, and dark chocolate (in moderation — for some people chocolate is also a trigger, so this is worth testing individually).</p>
 
       <h2>Riboflavin (Vitamin B2) Sources</h2>
 
-      <p>Riboflavin is another nutrient with research support for migraine prevention at higher-than-typical-dietary doses, but everyday food sources are still worth incorporating: eggs, lean meats, dairy, almonds, and fortified whole grains and cereals are all reasonable sources.</p>
+      <p><a href="/blog/riboflavin-coq10-migraine">Riboflavin is another nutrient</a> with research support for migraine prevention at higher-than-typical-dietary doses, but everyday food sources are still worth incorporating: eggs, lean meats, dairy, almonds, and fortified whole grains and cereals are all reasonable sources.</p>
 
       <h2>Omega-3 Fatty Acids</h2>
 
@@ -1981,7 +1981,7 @@ const posts: BlogPost[] = [
 
       <h2>The Autonomic Nervous System's Role in Migraine</h2>
 
-      <p>Migraine isn't just a "head pain" condition — it involves widespread changes in nervous system activity, and the autonomic nervous system specifically has been implicated in several ways. Many of the symptoms that accompany migraine attacks — nausea, changes in blood pressure, temperature regulation issues, sensitivity to light and sound — are connected to autonomic function. Some research has found that people with migraine show patterns of autonomic nervous system activity that differ from people without migraine, even between attacks, and that these patterns can shift further around the time of an attack.</p>
+      <p>Migraine isn't just a "head pain" condition — it involves widespread changes in nervous system activity, and the autonomic nervous system specifically has been implicated in several ways. Many of the symptoms that accompany migraine attacks — nausea, changes in blood pressure, <a href="/blog/migraine-chills-sweats">temperature regulation</a> issues, sensitivity to light and sound — are connected to autonomic function. Some research has found that people with migraine show patterns of autonomic nervous system activity that differ from people without migraine, even between attacks, and that these patterns can shift further around the time of an attack.</p>
 
       <p>This is where HRV comes in: because HRV is essentially a readout of autonomic nervous system balance, changes in HRV around migraine attacks are a logical — and observed — phenomenon. Some studies have found reduced HRV in the period leading up to, and during, migraine attacks compared to headache-free periods, consistent with a shift toward higher sympathetic ("stress response") activity around attacks.</p>
 
@@ -2049,7 +2049,7 @@ const posts: BlogPost[] = [
 
       <h3>Stage 2: Aura (20 to 60 minutes)</h3>
 
-      <p>Aura occurs in roughly 25 to 30 percent of people with migraine. It involves reversible neurological symptoms that typically develop gradually over 5 to 20 minutes and then resolve within an hour. Visual auras are most common — zigzag lines, flickering lights, blind spots, or shimmering arcs in the visual field. Other auras involve sensory changes like tingling or numbness on one side of the face or hand, or speech and language disturbances.</p>
+      <p>Aura occurs in roughly 25 to 30 percent of people with migraine. It involves reversible neurological symptoms that typically develop gradually over 5 to 20 minutes and then resolve within an hour. Visual auras are most common — zigzag lines, flickering lights, blind spots, or shimmering arcs in the visual field. Other auras involve sensory changes like tingling or numbness on one side of the face or hand, or <a href="/blog/migraine-aphasia">speech and language disturbances</a>.</p>
 
       <p>Aura without headache also exists — this is called a silent migraine or acephalgic migraine (see our guide to <a href="/blog/silent-migraine-symptoms">silent migraine symptoms</a>). The aura arrives and resolves without a pain phase following.</p>
 
@@ -2083,7 +2083,7 @@ const posts: BlogPost[] = [
 
       <p>Several factors influence how long an individual attack lasts:</p>
 
-      <p><strong>Time to treatment.</strong> The most consistent finding across migraine research is that treating earlier — at the very first sign of symptoms, ideally during prodrome or at headache onset — produces significantly shorter and milder attacks compared to waiting until pain is severe. Triptans in particular have a well-documented time-sensitivity: they're most effective in the first hour of headache onset.</p>
+      <p><strong>Time to treatment.</strong> The most consistent finding across migraine research is that treating earlier — at the very first sign of symptoms, ideally during prodrome or at headache onset — produces significantly shorter and milder attacks compared to waiting until pain is severe. <a href="/blog/triptans-explained">Triptans</a> in particular have a well-documented time-sensitivity: they're most effective in the first hour of headache onset.</p>
 
       <p><strong>Sleep.</strong> Sleep often ends or substantially shortens a migraine attack. This is one reason going to bed when possible is a reasonable management strategy.</p>
 
@@ -2160,9 +2160,9 @@ const posts: BlogPost[] = [
 
       <h2>Why the Distinction Matters</h2>
 
-      <p>Treatment is where the difference becomes practically significant. Tension headaches generally respond to common over-the-counter analgesics like ibuprofen or paracetamol. Migraine-specific medications — triptans, gepants (like rimegepant), ditans (like lasmiditan), and the newer CGRP-targeting treatments — work specifically on migraine pathways and are far more effective for migraine than standard pain relievers.</p>
+      <p>Treatment is where the difference becomes practically significant. Tension headaches generally respond to common over-the-counter analgesics like ibuprofen or paracetamol. Migraine-specific medications — triptans, <a href="/blog/gepants-for-migraine">gepants (like rimegepant)</a>, ditans (like lasmiditan), and the newer CGRP-targeting treatments — work specifically on migraine pathways and are far more effective for migraine than standard pain relievers.</p>
 
-      <p>If you're treating what is actually migraine with only ibuprofen or paracetamol, you may be undertreating your attacks — and over time, frequent use of those medications can even worsen the pattern through medication overuse headache.</p>
+      <p>If you're treating what is actually migraine with only ibuprofen or paracetamol, you may be undertreating your attacks — and over time, frequent use of those medications can even worsen the pattern through <a href="/blog/medication-overuse-headache">medication overuse headache</a>.</p>
 
       <p>Getting the right diagnosis from a neurologist or headache specialist opens the door to treatments that are actually targeted to what's happening in your brain. If you suspect your headaches are migraines but haven't been diagnosed, bringing detailed symptom data to your doctor is the most useful thing you can do.</p>
 
@@ -2234,7 +2234,7 @@ const posts: BlogPost[] = [
 
       <h3>Motor Aura</h3>
 
-      <p>Weakness affecting one side of the body can occur in hemiplegic migraine, a rare subtype. This is distinct from typical migraine with aura and requires specific medical attention and management — if you experience limb weakness during a migraine, discuss it with a neurologist.</p>
+      <p>Weakness affecting one side of the body can occur in <a href="/blog/hemiplegic-migraine">hemiplegic migraine</a>, a rare subtype. This is distinct from typical migraine with aura and requires specific medical attention and management — if you experience limb weakness during a migraine, <a href="/blog/prepare-for-neurology-appointment">discuss it with a neurologist</a>.</p>
 
       <h2>Aura vs. Stroke: When to Seek Emergency Care</h2>
 
@@ -2314,7 +2314,7 @@ const posts: BlogPost[] = [
 
       <h3>Other Possible Symptoms</h3>
 
-      <p>Confusion, brain fog, difficulty finding words (dysphasia), and nausea can all occur as part of a silent migraine even without headache. Some people experience significant dizziness or balance disturbances (vestibular migraine can overlap with this).</p>
+      <p>Confusion, <a href="/blog/migraine-brain-fog">brain fog</a>, <a href="/blog/migraine-aphasia">difficulty finding words (dysphasia)</a>, and nausea can all occur as part of a silent migraine even without headache. Some people experience significant <a href="/blog/vestibular-migraine">dizziness or balance disturbances</a> (vestibular migraine can overlap with this).</p>
 
       <h2>Who Gets Silent Migraines?</h2>
 
@@ -2367,7 +2367,7 @@ const posts: BlogPost[] = [
     date: "May 19, 2026",
     category: "Science",
     content: `
-      <p>"Ocular migraine" is one of the most widely used lay terms for a specific kind of visual disturbance — and also one of the most variable, because different people, and sometimes different doctors, mean different things by it. Getting clear on what's actually happening in the eye and brain makes the experience less alarming and helps you communicate more precisely with your neurologist or ophthalmologist.</p>
+      <p>"Ocular migraine" is one of the most widely used lay terms for a specific kind of visual disturbance — and also one of the most variable, because different people, and sometimes different doctors, mean different things by it. Getting clear on what's actually happening in the eye and brain makes the experience less alarming and helps you communicate more precisely with your <a href="/blog/prepare-for-neurology-appointment">neurologist</a> or ophthalmologist.</p>
 
       <h2>What "Ocular Migraine" Usually Refers To</h2>
 
@@ -2457,7 +2457,7 @@ const posts: BlogPost[] = [
 
       <p>Estrogen affects the trigeminal system and the broader migraine threshold in several ways. Higher estrogen levels appear to raise the threshold for migraine — some women actually feel better mid-cycle. The rapid drop of estrogen before menstruation lowers that threshold, increasing sensitivity in the trigeminal vascular system and promoting the inflammatory neuropeptide changes (particularly CGRP release) that drive migraine pain.</p>
 
-      <p>Menstrually-related migraines are also notoriously difficult to treat compared to attacks at other times of the month. They tend to be longer, more severe, and less responsive to triptans — possibly because the sustained hormonal environment makes the underlying migraine process more persistent.</p>
+      <p>Menstrually-related migraines are also notoriously difficult to treat compared to attacks at other times of the month. They tend to be longer, more severe, and <a href="/blog/triptans-explained">less responsive to triptans</a> — possibly because the sustained hormonal environment makes the underlying migraine process more persistent.</p>
 
       <h2>Identifying Whether Your Migraines Are Hormonal</h2>
 
@@ -2483,7 +2483,7 @@ const posts: BlogPost[] = [
 
       <h3>Magnesium</h3>
 
-      <p>Magnesium has reasonable evidence for migraine prevention generally, and some evidence specifically for menstrually-related migraine. Studies have used doses of 360 to 600mg of elemental magnesium daily, often specifically in the luteal phase (after ovulation). Magnesium glycinate or magnesium citrate are typically better tolerated than magnesium oxide. It's one of the more accessible supplements to try, with a good safety profile.</p>
+      <p><a href="/blog/magnesium-for-migraine">Magnesium has reasonable evidence</a> for migraine prevention generally, and some evidence specifically for menstrually-related migraine. Studies have used doses of 360 to 600mg of elemental magnesium daily, often specifically in the luteal phase (after ovulation). Magnesium glycinate or magnesium citrate are typically better tolerated than magnesium oxide. It's one of the more accessible supplements to try, with a good safety profile.</p>
 
       <h3>Lifestyle Factors Around Your Vulnerable Window</h3>
 
@@ -2523,7 +2523,7 @@ const posts: BlogPost[] = [
     date: "May 5, 2026",
     category: "Tips",
     content: `
-      <p>Your neurologist told you to keep a migraine diary. You downloaded an app, logged diligently for three weeks, and then quietly stopped. Maybe it felt like too much work when you were already feeling awful. Maybe you weren't sure what to do with the data. Maybe the app just wasn't useful enough to bother with.</p>
+      <p>Your <a href="/blog/prepare-for-neurology-appointment">neurologist</a> told you to keep a migraine diary. You downloaded an app, logged diligently for three weeks, and then quietly stopped. Maybe it felt like too much work when you were already feeling awful. Maybe you weren't sure what to do with the data. Maybe the app just wasn't useful enough to bother with.</p>
 
       <p>This is the standard migraine diary experience for most people, and it's not a personal failing — it's a product design problem. Here's what a genuinely useful migraine diary app needs to do, and where most of them fall short.</p>
 
@@ -2718,11 +2718,11 @@ const posts: BlogPost[] = [
 
       <h2>Jaw Clenching and TMJ</h2>
 
-      <p>Daytime jaw clenching and nighttime teeth grinding (bruxism) put the temporomandibular joint and surrounding muscles under chronic strain. Because the trigeminal nerve serves both the jaw and a large portion of the migraine pain pathway, TMJ tension and migraine frequently travel together. People often notice jaw soreness or a clicking jaw only after a dentist points it out, having never connected it to their headaches. If your migraines tend to start as a dull ache near the temple or jawline, this is worth ruling out.</p>
+      <p><a href="/blog/migraine-jaw-pain">Daytime jaw clenching</a> and <a href="/blog/tmj-and-migraine">nighttime teeth grinding (bruxism)</a> put the temporomandibular joint and surrounding muscles under chronic strain. Because the trigeminal nerve serves both the jaw and a large portion of the migraine pain pathway, TMJ tension and migraine frequently travel together. People often notice jaw soreness or a clicking jaw only after a dentist points it out, having never connected it to their headaches. If your migraines tend to start as a dull ache near the temple or jawline, this is worth ruling out.</p>
 
       <h2>Medication-Overuse ("Rebound") Headaches</h2>
 
-      <p>This one is counterintuitive: taking acute migraine medication too frequently can itself become a trigger. Using triptans, combination painkillers, or even over-the-counter pain relievers more than 10–15 days a month can lead to medication-overuse headache, where the brain becomes dependent on a constant low level of the drug and reacts with rebound pain as it wears off. It creates a frustrating cycle where the treatment is quietly feeding the problem. If you're treating headaches more days than not, that frequency itself is worth flagging to a doctor.</p>
+      <p>This one is counterintuitive: taking acute <a href="/blog/medication-overuse-headache">migraine medication too frequently</a> can itself become a trigger. Using triptans, combination painkillers, or even over-the-counter pain relievers more than 10–15 days a month can lead to medication-overuse headache, where the brain becomes dependent on a constant low level of the drug and reacts with rebound pain as it wears off. It creates a frustrating cycle where the treatment is quietly feeding the problem. If you're treating headaches more days than not, that frequency itself is worth flagging to a doctor.</p>
 
       <h2>Hidden Caffeine and MSG in Unexpected Places</h2>
 
@@ -2876,7 +2876,7 @@ const posts: BlogPost[] = [
 
       <h2>Muscle Tension and the Trigeminal Connection</h2>
 
-      <p>Stress reliably increases tension in the neck, shoulders, and jaw, and that muscular tension feeds into the same trigeminal nerve pathway involved in migraine pain — a connection we go through in detail in <a href="/blog/trigeminal-nerve-and-migraine">our piece on the trigeminal nerve and migraine</a>. This is one reason stress-related migraines so often come bundled with a tight, aching neck rather than appearing as an isolated head pain with no other symptoms.</p>
+      <p>Stress reliably increases tension in the neck, shoulders, <a href="/blog/migraine-jaw-pain">and jaw</a>, and that muscular tension feeds into the same trigeminal nerve pathway involved in migraine pain — a connection we go through in detail in <a href="/blog/trigeminal-nerve-and-migraine">our piece on the trigeminal nerve and migraine</a>. This is one reason stress-related migraines so often come bundled with a tight, aching neck rather than appearing as an isolated head pain with no other symptoms.</p>
 
       <h2>Stress Management Strategies That Actually Move the Needle</h2>
 
@@ -2918,7 +2918,7 @@ const posts: BlogPost[] = [
 
       <h2>Alcohol, Especially Red Wine</h2>
 
-      <p>Alcohol is one of the more reliably reported dietary triggers, and red wine specifically gets singled out more than other alcoholic drinks. The leading theories involve a combination of tyramine and histamine content, alcohol's effect on blood vessels, and dehydration. Unlike some other items on this list, the alcohol-migraine connection holds up reasonably well across different studies and populations.</p>
+      <p>Alcohol is one of the more reliably reported dietary triggers, and red wine specifically gets singled out more than other alcoholic drinks. The leading theories involve a combination of tyramine and <a href="/blog/mast-cells-and-migraine">histamine</a> content, alcohol's effect on blood vessels, and dehydration. Unlike some other items on this list, the alcohol-migraine connection holds up reasonably well across different studies and populations.</p>
 
       <h2>Nitrates and Nitrites in Processed Meats</h2>
 
@@ -3060,7 +3060,7 @@ const posts: BlogPost[] = [
     date: "June 4, 2026",
     category: "Science",
     content: `
-      <p>For a meaningful number of migraine sufferers, a coworker's perfume, a freshly cleaned bathroom, or a passing whiff of cigarette smoke isn't just unpleasant — it's the start of an attack. This isn't an exaggerated reaction. Osmophobia, an aversion to and sensitivity toward smells, is recognized as one of the more specific identifying features of migraine, distinguishing it from other headache types where smell sensitivity is far less common.</p>
+      <p>For a meaningful number of migraine sufferers, a coworker's perfume, a freshly cleaned bathroom, or a passing whiff of <a href="/blog/wildfire-smoke-migraines">cigarette smoke</a> isn't just unpleasant — it's the start of an attack. This isn't an exaggerated reaction. Osmophobia, an aversion to and sensitivity toward smells, is recognized as one of the more specific identifying features of migraine, distinguishing it from other headache types where smell sensitivity is far less common.</p>
 
       <h2>Osmophobia: A Trigger and a Diagnostic Clue</h2>
 
@@ -3076,7 +3076,7 @@ const posts: BlogPost[] = [
 
       <h2>Why You Can't Always Just "Avoid" Smells</h2>
 
-      <p>Unlike a food trigger, scent triggers are largely outside your control in shared spaces — public transportation, offices, restaurants, and other people's homes all come with smells you didn't choose and can't easily remove. This is part of why osmophobia can feel more limiting day-to-day than some other trigger categories, and why it's worth advocating for fragrance-free policies in workplaces and shared spaces where you have any influence over the environment.</p>
+      <p>Unlike a food trigger, scent triggers are largely outside your control in shared spaces — public transportation, offices, restaurants, and other people's homes all come with smells you didn't choose and can't easily remove. This is part of why osmophobia can feel more limiting day-to-day than some other trigger categories, and why it's worth advocating for <a href="/blog/workplace-accommodations-migraine">fragrance-free policies in workplaces</a> and shared spaces where you have any influence over the environment.</p>
 
       <h2>What Actually Helps</h2>
 
@@ -3172,7 +3172,7 @@ const posts: BlogPost[] = [
 
       <h2>Road Trips Have Their Own Trigger Profile</h2>
 
-      <p>Driving avoids the cabin pressure issue but introduces others: sun glare through the windshield, prolonged neck and shoulder tension from the driving position, car interior odors (especially in a new rental), and the same skipped-meal, irregular-break pattern that long drives tend to produce. Motion sensitivity from continuous visual movement is also a factor for some people, distinct from but sometimes overlapping with migraine-related dizziness.</p>
+      <p>Driving avoids the cabin pressure issue but introduces others: sun glare through the windshield, prolonged neck and shoulder tension from the driving position, car interior odors (especially in a new rental), and the same skipped-meal, irregular-break pattern that long drives tend to produce. Motion sensitivity from continuous visual movement is also a factor for some people, distinct from but sometimes overlapping with <a href="/blog/vestibular-migraine">migraine-related dizziness</a>.</p>
 
       <h2>Routine Disruption: Meals, Caffeine, Sleep, Stress</h2>
 
@@ -3236,7 +3236,7 @@ const posts: BlogPost[] = [
 
       <p><strong>Temperature swings.</strong> Rapid temperature changes stress the body's regulation systems, and several studies have associated large temperature swings with increased headache onset.</p>
 
-      <p><strong>Humidity and air quality.</strong> High humidity, mugginess, and storm-related changes in airborne particles have all been studied as contributors, particularly in combination with pressure changes.</p>
+      <p><strong>Humidity and <a href="/blog/air-pollution-pm25-headaches">air quality</a>.</strong> High humidity, mugginess, and storm-related changes in airborne particles have all been studied as contributors, particularly in combination with pressure changes.</p>
 
       <p><strong>Sensory load.</strong> Glare, wind noise, and disrupted sleep during stormy nights all add to the total trigger load on an already-sensitive nervous system.</p>
 
@@ -3394,7 +3394,7 @@ const posts: BlogPost[] = [
     date: "July 8, 2026",
     category: "Science",
     content: `
-      <p>When migraine sufferers talk about weather triggers, humidity usually comes up right after barometric pressure — but the conversation is more confusing, because people report opposite experiences. Some are flattened by muggy summer air. Others fall apart in bone-dry winter heating season or desert climates.</p>
+      <p>When migraine sufferers talk about weather triggers, humidity usually comes up right after barometric pressure — but the conversation is more confusing, because people report opposite experiences. Some are flattened by muggy summer air. Others fall apart in bone-dry <a href="/blog/indoor-heating-winter-migraines">winter heating season</a> or desert climates.</p>
 
       <p>Both groups are describing something real. Humidity affects migraine-prone systems at both extremes, through different mechanisms.</p>
 
@@ -3464,11 +3464,11 @@ const posts: BlogPost[] = [
 
       <h2>Route 2: Dry Air</h2>
 
-      <p>Cold air holds little moisture, and heating it indoors drops relative humidity further — often below 30%. That accelerates overnight dehydration and irritates sinuses and airways, both of which lower the migraine threshold. It's one of the most fixable winter triggers: a bedroom humidifier and deliberate hydration go a long way. We cover the mechanism in <a href="/blog/humidity-and-migraines">Humidity and Migraines</a>.</p>
+      <p>Cold air holds little moisture, and <a href="/blog/indoor-heating-winter-migraines">heating it indoors</a> drops relative humidity further — often below 30%. That accelerates overnight dehydration and irritates sinuses and airways, both of which lower the migraine threshold. It's one of the most fixable winter triggers: a bedroom humidifier and deliberate hydration go a long way. We cover the mechanism in <a href="/blog/humidity-and-migraines">Humidity and Migraines</a>.</p>
 
       <h2>Route 3: Snow Glare</h2>
 
-      <p>Fresh snow reflects most of the sunlight that hits it — on a sunny post-snowstorm day, light comes at your eyes from above <em>and</em> below. For the many migraine sufferers who are light-sensitive, that doubled glare is a genuine trigger. Snow doesn't trigger migraines chemically; it triggers them optically. Sunglasses on bright snow days aren't a summer habit misplaced — they're migraine protection.</p>
+      <p><a href="/blog/snow-glare-migraine">Fresh snow reflects</a> most of the sunlight that hits it — on a sunny post-snowstorm day, light comes at your eyes from above <em>and</em> below. For the many migraine sufferers who are light-sensitive, that doubled glare is a genuine trigger. Snow doesn't trigger migraines chemically; it triggers them optically. Sunglasses on bright snow days aren't a summer habit misplaced — they're migraine protection.</p>
 
       <p>Snowstorms themselves also arrive on low-pressure systems, so a "snow day headache" may really be a pressure-drop headache wearing a disguise.</p>
 
@@ -3518,7 +3518,7 @@ const posts: BlogPost[] = [
 
       <p><strong>Sun glare.</strong> Bright summer light is a direct trigger for the large fraction of migraine sufferers with light sensitivity. Long summer days mean more hours of exposure, more squinting, more strain.</p>
 
-      <p><strong>Ruined sleep.</strong> Hot nights fragment sleep, and the sleep pathway is one of migraine's favorite back doors. A heat wave can trigger attacks two days in through cumulative bad nights, even if you spent the days in air conditioning.</p>
+      <p><strong>Ruined sleep.</strong> Hot nights fragment sleep, and the sleep pathway is one of migraine's favorite back doors. A heat wave can trigger attacks two days in through cumulative bad nights, even if you spent the days in <a href="/blog/air-conditioning-migraines">air conditioning</a>.</p>
 
       <p><strong>Physiological strain.</strong> Keeping your core temperature stable in the heat is work — blood vessels dilate, heart rate rises, electrolytes deplete through sweat. That whole-body stressor lowers the threshold for everything else.</p>
 
@@ -3576,7 +3576,7 @@ const posts: BlogPost[] = [
 
       <p><strong>Pressure and temperature turbulence.</strong> Downslope winds like Chinooks, Foehns, and Santa Anas arrive with sharp pressure changes and fast temperature jumps — two documented headache correlates bundled together.</p>
 
-      <p><strong>What the wind carries.</strong> Wind is a delivery system: dust, pollen, pollution, and dry air all travel on it. Santa Ana winds famously spike allergy and irritation complaints, and sinus and airway irritation can serve as an on-ramp to migraine in prone people.</p>
+      <p><strong>What the wind carries.</strong> Wind is a delivery system: dust, <a href="/blog/pollen-allergies-migraines">pollen</a>, <a href="/blog/air-pollution-pm25-headaches">pollution</a>, and dry air all travel on it. Santa Ana winds famously spike allergy and irritation complaints, and sinus and airway irritation can serve as an on-ramp to migraine in prone people.</p>
 
       <p><strong>Extreme dryness.</strong> Downslope winds are desiccating — humidity can crash when they arrive, accelerating dehydration and irritating eyes and airways. The <a href="/blog/humidity-and-migraines">dry-air pathway</a> applies in full.</p>
 
@@ -3620,7 +3620,7 @@ const posts: BlogPost[] = [
 
       <p>Spring's problem is instability. It's the season of colliding air masses — winter trying to leave, summer trying to arrive — which means frequent fronts, big temperature swings, and some of the most volatile barometric pressure of the year. For pressure-sensitive people, spring is often the hardest season, not because any single day is extreme but because the atmosphere never sits still.</p>
 
-      <p>Add rising pollen (allergy inflammation can amplify attacks) and the clock change (a mini jet-lag for your sleep rhythm), and spring stacks up quickly. <strong>Spring playbook:</strong> watch pressure trends daily rather than weekly, manage allergies proactively, and hold your sleep schedule steady through the daylight-time shift.</p>
+      <p>Add rising pollen (<a href="/blog/pollen-allergies-migraines">allergy inflammation</a> can amplify attacks) and <a href="/blog/daylight-saving-time-migraines">the clock change</a> (a mini jet-lag for your sleep rhythm), and spring stacks up quickly. <strong>Spring playbook:</strong> watch pressure trends daily rather than weekly, manage allergies proactively, and hold your sleep schedule steady through the daylight-time shift.</p>
 
       <h2>Summer: The Load Season</h2>
 
@@ -3636,7 +3636,7 @@ const posts: BlogPost[] = [
 
       <h2>Winter: The Dry Season</h2>
 
-      <p>Winter's signature triggers are indoor: heated air pushing bedroom humidity to desert levels, accelerating overnight dehydration and sinus irritation. Outdoors it adds snow glare, cold-front pressure swings, and shoveling-grade exertion — plus holiday disruption of every routine at once. Full breakdowns in <a href="/blog/cold-weather-headaches">Cold Weather Headaches</a> and our <a href="/blog/winter-migraines">winter migraine guide</a>.</p>
+      <p>Winter's signature triggers are indoor: heated air pushing bedroom humidity to desert levels, accelerating overnight dehydration and sinus irritation. Outdoors it adds <a href="/blog/snow-glare-migraine">snow glare</a>, cold-front pressure swings, and shoveling-grade exertion — plus holiday disruption of every routine at once. Full breakdowns in <a href="/blog/cold-weather-headaches">Cold Weather Headaches</a> and our <a href="/blog/winter-migraines">winter migraine guide</a>.</p>
 
       <p><strong>Winter playbook:</strong> humidify where you sleep, hydrate as if it were summer, wear sunglasses on bright snow days, and protect routines through the holidays.</p>
 
@@ -4256,7 +4256,7 @@ const posts: BlogPost[] = [
 
       <p>Why red wine specifically? Researchers have interrogated several compounds, with honest verdicts ranging from "maybe" to "probably overblamed":</p>
 
-      <p><strong>Histamine</strong> — concentrated in red wine (skins ferment in), and migraine-prone people may clear it more slowly. A plausible contributor with mixed study support.</p>
+      <p><strong><a href="/blog/histamine-weather-migraines">Histamine</a></strong> — concentrated in red wine (skins ferment in), and migraine-prone people may clear it more slowly. A plausible contributor with mixed study support.</p>
 
       <p><strong>Tyramine</strong> — present in aged and fermented products; long suspected, inconsistently supported.</p>
 
@@ -4618,7 +4618,7 @@ const posts: BlogPost[] = [
 
       <p><strong>Dose loud environments deliberately.</strong> If duration matters for you, plan it: shorter stays, breaks outside the noise, positioning away from speakers. Leaving a great evening one hour early beats leaving it for a dark room.</p>
 
-      <p><strong>Engineer your daily soundscape.</strong> A one-off concert is avoidable; a loud workplace isn't. Noise-cancelling headphones, quieter corners, and honest conversations about seating are legitimate accommodations for a neurological condition — our <a href="/blog/talking-to-your-doctor">doctor-conversation guide</a> touches on documenting what you need.</p>
+      <p><strong>Engineer your daily soundscape.</strong> A one-off concert is avoidable; <a href="/blog/workplace-accommodations-migraine">a loud workplace</a> isn't. Noise-cancelling headphones, quieter corners, and honest conversations about seating are legitimate accommodations for a neurological condition — our <a href="/blog/talking-to-your-doctor">doctor-conversation guide</a> touches on documenting what you need.</p>
 
       <p><strong>Don't over-silence.</strong> A counterintuitive caution from sensory research: chronic total avoidance of normal sound may nudge sensitivity further up, the way constant sunglasses can worsen light tolerance. Protect against genuinely loud exposure; don't soundproof your whole life.</p>
 
@@ -4660,7 +4660,7 @@ const posts: BlogPost[] = [
 
       <h2>The Timing Is the Useful Part</h2>
 
-      <p>Allodynia usually doesn't appear the instant a migraine starts. It tends to develop roughly one to two hours into an attack, once central sensitization has had time to build. This delay matters more than it might seem, because research on acute migraine treatment has found that medications — particularly triptans — tend to work better when taken <em>before</em> allodynia sets in, and less reliably once it's already established.</p>
+      <p>Allodynia usually doesn't appear the instant a migraine starts. It tends to develop roughly one to two hours into an attack, once central sensitization has had time to build. This delay matters more than it might seem, because research on acute migraine treatment has found that medications — <a href="/blog/migraine-medication-timing">particularly triptans</a> — tend to work better when taken <em>before</em> allodynia sets in, and less reliably once it's already established.</p>
 
       <p>In practical terms: if you notice your scalp becoming tender or your glasses starting to feel heavier partway into an attack, that's not just a symptom to endure — it's a signal that your treatment window may be closing. Acting at the first hint of head pain, rather than waiting to see how bad it gets, is one of the more evidence-backed pieces of migraine self-management, and allodynia onset is part of why.</p>
 
@@ -4728,7 +4728,7 @@ const posts: BlogPost[] = [
 
       <h2>Reading a Gradient in a Real Forecast</h2>
 
-      <p>Most standard weather apps show you a single current pressure number and maybe a same-day trend arrow — not nearly enough to see a meaningful gradient. To read one properly:</p>
+      <p><a href="/blog/weather-apps-vs-migraine-forecasts">Most standard weather apps</a> show you a single current pressure number and maybe a same-day trend arrow — not nearly enough to see a meaningful gradient. To read one properly:</p>
 
       <ul>
         <li><strong>Compare today's reading to 24 hours ago.</strong> A change of 2–3 mbar is usually gentle. A change of 5–10 mbar or more in that window is a steep gradient worth treating as a risk day.</li>
@@ -4776,7 +4776,7 @@ const posts: BlogPost[] = [
 
       <h2>Why "Vascular Headache" Was Half Right</h2>
 
-      <p>For much of the 20th century, migraine was formally classified as a "vascular headache," on the theory that the blood vessel dilation itself was the primary cause of the pain — with the throbbing quality attributed directly to blood pulsing through widened, inflamed vessels. That theory drove decades of research and treatment design, including the original vessel-constricting logic behind triptan medications.</p>
+      <p>For much of the 20th century, migraine was formally classified as a "vascular headache," on the theory that the blood vessel dilation itself was the primary cause of the pain — with the throbbing quality attributed directly to blood pulsing through widened, inflamed vessels. That theory drove decades of research and treatment design, including the original vessel-constricting logic behind <a href="/blog/triptans-explained">triptan medications</a>.</p>
 
       <p>Modern research has refined this considerably. Vasodilation is now understood as one part of a broader neurological cascade rather than the root cause — the trigeminal nerve activation and neurogenic inflammation come first, with vasodilation as one of several downstream effects, alongside pain signal amplification in the brainstem and cortex. But "refined" doesn't mean "wrong." Widened, inflamed blood vessels are still a real and measurable part of the migraine process, and they're still part of why the pain has the pulsing, throbbing character it does.</p>
 
@@ -4788,7 +4788,7 @@ const posts: BlogPost[] = [
 
       <p>Understanding vasodilation explains why certain treatment approaches work the way they do. Triptans, one of the most common acute migraine medication classes, act partly by constricting blood vessels back toward normal — countering the dilation directly, alongside their effects on serotonin receptors involved in the broader pain pathway. Newer CGRP-targeting medications work further upstream, blocking the inflammatory signal that causes the dilation in the first place rather than reversing the dilation after the fact.</p>
 
-      <p>This is also part of why some people find that ice packs, cool compresses, or firm pressure on the temples offer real, if temporary, relief — these approaches provide a mild local constricting effect on already-dilated vessels near the surface, at the same time that the deeper inflammatory process is being addressed by medication or simply running its course.</p>
+      <p>This is also part of why some people find that <a href="/blog/cold-therapy-migraine">ice packs</a>, cool compresses, or firm pressure on the temples offer real, if temporary, relief — these approaches provide a mild local constricting effect on already-dilated vessels near the surface, at the same time that the deeper inflammatory process is being addressed by medication or simply running its course.</p>
 
       <h2>Vasodilation and Weather Triggers</h2>
 
@@ -5011,7 +5011,7 @@ const posts: BlogPost[] = [
 
       <p><strong>A tightening band across the forehead or temple.</strong> Often one-sided at first, sometimes spreading to become bilateral as an attack progresses — reflecting the spread of activation across the ophthalmic branch's territory.</p>
 
-      <p><strong>Jaw ache or tooth pain.</strong> Because the mandibular branch supplies the lower jaw and teeth, some people experience what feels exactly like a toothache during a migraine — a pattern well-documented enough that it occasionally sends people to a dentist before a doctor, only to find nothing wrong with the tooth itself.</p>
+      <p><strong>Jaw ache or <a href="/blog/migraine-facial-pain">tooth pain</a>.</strong> Because the mandibular branch supplies the lower jaw and teeth, some people experience what feels exactly like a toothache during a migraine — a pattern well-documented enough that it occasionally sends people to a dentist before a doctor, only to find nothing wrong with the tooth itself.</p>
 
       <p><strong>Cheek or sinus-like pressure.</strong> The maxillary branch's territory overlaps closely with the sinuses, which is part of why migraine is so often mistaken for sinus headache — the pressure and fullness sensation can feel nearly identical, even though no actual sinus infection is present.</p>
 
@@ -5021,7 +5021,7 @@ const posts: BlogPost[] = [
 
       <h2>Why It Can Show Up in "Unusual" Places</h2>
 
-      <p>Because the trigeminal nerve's branches extend beyond what people typically think of as "headache territory," activation can produce ear pain, upper neck discomfort, or a sensation people describe as pressure "behind the face" — and these presentations are a common reason migraine goes misattributed to sinus issues, dental problems, or TMJ disorders before someone gets an accurate migraine diagnosis.</p>
+      <p>Because the trigeminal nerve's branches extend beyond what people typically think of as "headache territory," activation can produce ear pain, upper neck discomfort, or a sensation people describe as pressure "behind the face" — and these presentations are a common reason migraine goes misattributed to sinus issues, dental problems, or <a href="/blog/tmj-and-migraine">TMJ disorders</a> before someone gets an accurate migraine diagnosis.</p>
 
       <h2>When the Pattern Shifts, Pay Attention</h2>
 
@@ -5087,7 +5087,7 @@ const posts: BlogPost[] = [
 
       <h2>When to Seek Immediate Care</h2>
 
-      <p>A first-time scintillating scotoma, especially in someone over 40 or with no prior migraine history, should be evaluated by a doctor to rule out other causes of visual disturbance. Sudden vision loss that doesn't spread gradually and shimmer the way aura does, vision loss confined to one eye, or aura accompanied by severe sudden headache, confusion, weakness, or slurred speech warrants emergency evaluation — these can resemble stroke and should never be assumed to be "just aura" without medical confirmation, particularly the first time.</p>
+      <p>A first-time scintillating scotoma, especially in someone over 40 or with no prior migraine history, should be evaluated by a doctor to rule out other causes of visual disturbance. Sudden vision loss that doesn't spread gradually and shimmer the way aura does, vision loss confined to one eye, or aura accompanied by severe sudden headache, confusion, weakness, or slurred speech warrants <a href="/blog/migraine-red-flags-urgent-care">emergency evaluation</a> — these can resemble stroke and should never be assumed to be "just aura" without medical confirmation, particularly the first time.</p>
 
       <blockquote>
         <p>Recognizing your own aura pattern — including how it typically looks and how long it lasts — helps you distinguish a familiar episode from something that needs urgent attention. MigraineCast helps you track your full attack pattern over time. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
@@ -5238,7 +5238,7 @@ const posts: BlogPost[] = [
 
       <h2>The Case Against Cold</h2>
 
-      <p>Our <a href="/blog/cold-weather-headaches">cold weather headaches guide</a> breaks down cold's routes: the arrival of cold fronts (a pressure and temperature transition, not the cold itself), dry indoor and outdoor air, snow glare, and direct cold exposure to the head and face. Notably, several of these routes — the front's arrival, the dry air — are really about the <em>transition into</em> cold rather than sustained cold temperatures themselves. Once cold settles in and stabilizes, many people report feeling better, not worse, which is a meaningfully different pattern from heat's cumulative buildup.</p>
+      <p>Our <a href="/blog/cold-weather-headaches">cold weather headaches guide</a> breaks down cold's routes: the arrival of cold fronts (a pressure and temperature transition, not the cold itself), dry indoor and outdoor air, <a href="/blog/snow-glare-migraine">snow glare</a>, and direct cold exposure to the head and face. Notably, several of these routes — the front's arrival, the dry air — are really about the <em>transition into</em> cold rather than sustained cold temperatures themselves. Once cold settles in and stabilizes, many people report feeling better, not worse, which is a meaningfully different pattern from heat's cumulative buildup.</p>
 
       <h2>Head to Head: Why Heat Tends to Edge Out Cold</h2>
 
@@ -5529,7 +5529,7 @@ const posts: BlogPost[] = [
       <ul>
         <li><strong>Severe air dryness,</strong> with cabin humidity often below 20% — well into the dry-air trigger range covered in our <a href="/blog/humidity-and-migraines">humidity guide</a></li>
         <li><strong>Dehydration,</strong> compounded by limited movement, forgetting to drink water, and sometimes alcohol or caffeine in flight</li>
-        <li><strong>Sinus and inner-ear pressure effects,</strong> since the same rapid pressure change that affects the trigeminal-vascular system also affects the ears and sinuses directly, sometimes producing discomfort that's hard to separate from the migraine trigger itself</li>
+        <li><strong>Sinus and <a href="/blog/ear-fullness-migraine">inner-ear pressure effects</a>,</strong> since the same rapid pressure change that affects the trigeminal-vascular system also affects the ears and sinuses directly, sometimes producing discomfort that's hard to separate from the migraine trigger itself</li>
         <li><strong>Sleep and routine disruption,</strong> especially on longer or overnight flights</li>
       </ul>
 
@@ -5583,7 +5583,7 @@ const posts: BlogPost[] = [
 
       <p><strong>A genuine sensory assault.</strong> Sustained gusting wind means unpredictable noise, buffeting against your body, squinting against blown dust and debris, and hair or clothing constantly moving — a steady, irregular sensory load that's fundamentally different from calm air, even at the same air temperature.</p>
 
-      <p><strong>A delivery mechanism for irritants.</strong> Gusty conditions kick up more dust, pollen, and particulate matter than steady wind, which can trigger sinus and airway irritation — a documented on-ramp to migraine for many people, as covered in our wind and migraine guide.</p>
+      <p><strong>A delivery mechanism for irritants.</strong> Gusty conditions kick up more dust, pollen, and <a href="/blog/air-pollution-pm25-headaches">particulate matter</a> than steady wind, which can trigger sinus and airway irritation — a documented on-ramp to migraine for many people, as covered in our wind and migraine guide.</p>
 
       <p><strong>An indicator of an approaching front.</strong> Gusty conditions frequently show up ahead of an approaching weather front, meaning gusty wind is often a visible early signal of the same pressure transition responsible for the <a href="/blog/48-hour-warning-window">48-hour warning window</a> pattern — the gusts and the pressure drop tend to arrive together.</p>
 
@@ -5667,6 +5667,3517 @@ const posts: BlogPost[] = [
 
       <h3>What should I look for first in a week-out forecast?</h3>
       <p>Start with the overall shape: is it a calm week with one manageable front, or does it show multiple systems stacked close together with little recovery time between them? That shape matters more at first glance than any single day's specific numbers, which will sharpen as the week gets closer.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "histamine-weather-migraines",
+    title: "How Weather Shifts May Activate Histamine and Trigger Migraines",
+    excerpt:
+      "Pressure drops, humidity swings, and seasonal changes don't just affect your sinuses. They may also nudge your body's histamine response, and for some people that's one more push toward a migraine.",
+    date: "August 15, 2026",
+    category: "Science",
+    content: `
+      <p>Most explanations of weather-triggered migraine focus on pressure: the air gets lighter, tissues inside your head respond, and the trigeminal system gets irritable. That's a big part of the story, and we've covered it in depth in our <a href="/blog/barometric-pressure-science">guide to the science of barometric pressure</a>. But researchers are increasingly interested in another player that may sit between the weather outside and the pain inside: histamine.</p>
+
+      <h2>What Histamine Actually Does</h2>
+
+      <p>Histamine is a chemical messenger best known for its role in allergies. It's stored mainly in mast cells, a type of immune cell found in the skin, the airways, the gut, and, importantly for migraine, the meninges (the protective layers around the brain). When mast cells release histamine, nearby blood vessels widen and become leakier, and sensory nerves become more easily activated.</p>
+
+      <p>That combination matters because migraine pain involves the trigeminal nerve fibers that wrap around blood vessels in the meninges. When those fibers become sensitized, ordinary signals like pulsing blood flow can start registering as pain. If you want the background on that nerve, our <a href="/blog/trigeminal-nerve-and-migraine">trigeminal nerve explainer</a> walks through it.</p>
+
+      <h2>Where the Weather Comes In</h2>
+
+      <p>The direct link between weather and histamine is still being studied, so it's worth being honest about what's known and what's plausible. A few connections stand out:</p>
+
+      <p><strong>Seasonal and environmental allergens.</strong> Weather fronts stir up pollen, mold spores, and dust. Thunderstorms in particular can break pollen grains into smaller particles that reach deeper into the airways. More allergen exposure means more mast cell activity and more histamine release.</p>
+
+      <p><strong>Temperature and humidity changes.</strong> Rapid shifts in temperature and humidity can irritate the nasal lining and airways on their own. For people with sensitive mast cells, that irritation may be enough to trigger some histamine release even without a classic allergen.</p>
+
+      <p><strong>Stress and poor sleep.</strong> Bad-weather days often come with disrupted sleep and higher stress, both of which can make mast cells more reactive. It's rarely one factor acting alone.</p>
+
+      <p>The likely picture is a stacking effect. A pressure drop might sensitize the trigeminal system, while weather-related histamine release adds inflammation on top. Neither alone may be enough to tip you over, but together they can.</p>
+
+      <h2>Signs Histamine Might Be Part of Your Pattern</h2>
+
+      <p>You can't measure histamine at home, but some patterns are suggestive and worth raising with a doctor:</p>
+      <ul>
+        <li>Your migraines cluster in allergy season or after storms that stir up pollen</li>
+        <li>Attacks come with nasal congestion, itchy eyes, or flushing</li>
+        <li>High-histamine foods (aged cheese, cured meats, wine, fermented foods) seem to make bad-weather days worse</li>
+        <li>Antihistamines seem to soften your seasonal attacks, though they're not a standard migraine treatment</li>
+      </ul>
+
+      <p>If the food angle rings a bell, our post on <a href="/blog/foods-that-trigger-migraines">foods that trigger migraines</a> covers the common culprits, many of which are high in histamine or related compounds.</p>
+
+      <h2>What You Can Do With This</h2>
+
+      <p>The practical takeaway isn't to start an antihistamine on your own. It's to recognize that your threshold may be lower on days when weather and allergens line up, and plan accordingly. On high-risk days, consider going lighter on high-histamine foods and alcohol, keeping windows closed during heavy pollen, rinsing your sinuses after time outdoors, and protecting your sleep.</p>
+
+      <p>The hard part is knowing which days those are before they arrive. That's where pairing a forecast with your own records helps. MigraineCast shows pressure, temperature, and humidity changes up to 7 days ahead and lets you log attacks and symptoms as they happen, so over time you can see whether your worst days line up with weather shifts and whether symptoms like congestion tend to come along for the ride.</p>
+
+      <blockquote>
+        <p>Want to see whether your attacks follow the weather or something else? <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a> and start building your own pattern history.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can histamine cause migraines?</h3>
+      <p>Histamine can widen blood vessels and sensitize nerves involved in migraine pain, and research suggests mast cell activity plays a role in migraine for some people. It's considered one contributing factor rather than the single cause.</p>
+
+      <h3>Does weather affect histamine levels?</h3>
+      <p>Weather can affect histamine indirectly by increasing exposure to pollen, mold, and dust, and by irritating the airways through rapid temperature and humidity changes. The direct relationship is still being studied.</p>
+
+      <h3>Should I take antihistamines for weather migraines?</h3>
+      <p>Antihistamines aren't a standard migraine treatment, and some can cause drowsiness or interact with other medications. If you suspect an allergy or histamine link, talk with your doctor before adding anything new.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "mast-cells-and-migraine",
+    title: "Mast Cells and Migraine: The Immune Connection Worth Understanding",
+    excerpt:
+      "Mast cells are immune cells that sit right next to the nerves involved in migraine pain. Understanding what they do helps explain why allergies, stress, and hormones can all feed into attacks.",
+    date: "August 16, 2026",
+    category: "Science",
+    content: `
+      <p>When people think about migraine, they usually think about the brain and blood vessels. The immune system rarely comes up. But one type of immune cell, the mast cell, sits in exactly the right place to influence migraine pain, and researchers have been studying the connection for years.</p>
+
+      <h2>What Mast Cells Are</h2>
+
+      <p>Mast cells are part of your first line of defense. They're packed with tiny granules full of chemical messengers, including histamine, serotonin, prostaglandins, and inflammatory proteins called cytokines. When they detect a threat, real or perceived, they release those chemicals to rally the rest of the immune system.</p>
+
+      <p>They live wherever your body meets the outside world or needs close protection: skin, airways, gut, and the dura mater, the outermost layer of the meninges surrounding the brain. That last location is the reason they matter for migraine.</p>
+
+      <h2>Why Their Location Matters</h2>
+
+      <p>In the dura, mast cells sit right next to the trigeminal nerve fibers that carry migraine pain signals. The relationship runs both ways. When trigeminal nerves fire, they release CGRP and other neuropeptides that can activate nearby mast cells. When mast cells release their contents, those chemicals can sensitize the same nerves.</p>
+
+      <p>That loop is one proposed explanation for why a migraine, once started, can feel self-sustaining. It also helps explain allodynia, the way your scalp or skin can hurt to the touch during an attack. Our post on <a href="/blog/allodynia-migraine-scalp-pain">allodynia and scalp pain</a> goes deeper on that.</p>
+
+      <h2>What Can Activate Mast Cells</h2>
+
+      <p>Mast cells respond to more than allergens. Things that can make them more reactive include:</p>
+      <ul>
+        <li><strong>Allergens</strong> like pollen, dust, and mold</li>
+        <li><strong>Stress hormones</strong>, particularly corticotropin-releasing hormone, which helps explain why stress is such a common trigger</li>
+        <li><strong>Estrogen</strong>, which may be one piece of why migraines often shift with the menstrual cycle</li>
+        <li><strong>Certain foods and alcohol</strong>, especially those high in histamine</li>
+        <li><strong>Physical factors</strong> like heat, cold, and pressure in some people</li>
+      </ul>
+
+      <p>Many of those overlap with the classic trigger lists. Our guide to <a href="/blog/stress-causes-migraines">how stress causes migraines</a> and our look at <a href="/blog/menstrual-migraine-guide">menstrual migraine</a> both touch on this from different angles.</p>
+
+      <h2>Mast Cell Activation Syndrome and Migraine</h2>
+
+      <p>Some people have mast cell activation syndrome (MCAS), where mast cells release their contents too easily and too often. Symptoms can include flushing, hives, digestive upset, fast heart rate, and frequent headaches or migraines. MCAS is still being defined and can be hard to diagnose, but if your migraines come with a wide range of whole-body allergic-type symptoms, it's worth mentioning to your doctor.</p>
+
+      <h2>What This Means Day to Day</h2>
+
+      <p>You can't directly control your mast cells, but you can reduce how many things push on them at once. That's the same logic behind most migraine prevention: keep your total trigger load below your threshold. In practice that might mean managing allergies proactively during high-pollen weeks, being more careful with alcohol and aged foods when you're already stressed, and protecting sleep when the weather is unsettled.</p>
+
+      <p>Knowing which days carry extra load is the useful part. If you track your attacks in MigraineCast alongside the weather forecast, you start to see whether your bad stretches line up with pressure swings, seasonal changes, or something else entirely. That makes it easier to spot the days when it's worth being extra careful with everything else.</p>
+
+      <blockquote>
+        <p>Your triggers stack. MigraineCast helps you see the weather side of that stack before it hits. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What do mast cells have to do with migraine?</h3>
+      <p>Mast cells in the dura sit next to the trigeminal nerve fibers that carry migraine pain. They release chemicals that can sensitize those nerves, and nerve activity can activate them in return, which may help sustain an attack.</p>
+
+      <h3>Can allergies make migraines worse?</h3>
+      <p>For some people, yes. Allergens activate mast cells, and that inflammatory response may lower the threshold for a migraine. People with allergies do appear to report migraines more often, though the relationship varies from person to person.</p>
+
+      <h3>Is mast cell activation syndrome linked to migraine?</h3>
+      <p>Headaches and migraines are commonly reported by people with MCAS. If you have frequent flushing, hives, digestive symptoms, or other allergic-type reactions alongside migraines, ask your doctor whether it's worth evaluating.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "pollen-allergies-migraines",
+    title: "Pollen, Allergies, and Migraines: When Spring Symptoms Collide",
+    excerpt:
+      "Congestion, sinus pressure, and a pounding head. Is it allergies, a sinus headache, or a migraine? Often it's a mix, and spring weather can make all three worse at once.",
+    date: "August 17, 2026",
+    category: "Tips",
+    content: `
+      <p>Spring is a rough season for a lot of migraine sufferers, and it's not always obvious why. The weather is changing fast, days are getting longer, and the air is full of pollen. If you also have seasonal allergies, it can be hard to tell where one problem ends and the next begins.</p>
+
+      <h2>The Allergy and Migraine Overlap</h2>
+
+      <p>Studies have found that people with allergic rhinitis (hay fever) are more likely to report migraines, and that those with both conditions may have more frequent attacks. The exact reason isn't settled, but a few mechanisms make sense:</p>
+      <ul>
+        <li>Allergic reactions release histamine and other inflammatory chemicals that can sensitize pain nerves</li>
+        <li>Nasal congestion and inflammation can irritate branches of the trigeminal nerve</li>
+        <li>Allergy symptoms disrupt sleep, and poor sleep lowers migraine threshold</li>
+      </ul>
+
+      <p>We cover the immune side of this in our post on <a href="/blog/mast-cells-and-migraine">mast cells and migraine</a> if you want more detail.</p>
+
+      <h2>Is It a Sinus Headache or a Migraine?</h2>
+
+      <p>Here's something that surprises a lot of people: most self-diagnosed "sinus headaches" turn out to be migraines. Migraine can cause facial pressure, a runny or stuffy nose, and watery eyes because the trigeminal nerve also controls those areas.</p>
+
+      <p>Some clues that it might be migraine rather than a sinus infection:</p>
+      <ul>
+        <li>Light or sound sensitivity</li>
+        <li>Nausea</li>
+        <li>Pain that gets worse with movement</li>
+        <li>No thick, discolored nasal discharge or fever</li>
+        <li>Episodes that come and go rather than lasting a week or more</li>
+      </ul>
+
+      <p>True sinus infections usually come with fever and colored mucus and last longer. Our <a href="/blog/migraine-vs-headache">migraine vs. headache guide</a> covers more of the differences.</p>
+
+      <h2>Why Spring Weather Adds Fuel</h2>
+
+      <p>Spring isn't just pollen. It's one of the most volatile seasons for pressure and temperature, with fronts moving through often. Thunderstorms in particular can make pollen worse by breaking grains into smaller pieces that go deeper into the lungs, a phenomenon sometimes called thunderstorm asthma. So the same storm system can bring a pressure drop and an allergen spike at once.</p>
+
+      <p>Our <a href="/blog/seasonal-migraine-guide">seasonal migraine guide</a> covers how spring compares with the rest of the year.</p>
+
+      <h2>A Spring Game Plan</h2>
+
+      <p><strong>Start allergy management early.</strong> Many allergy treatments, like steroid nasal sprays, work best when started before peak season rather than after symptoms begin. Ask your doctor or pharmacist what fits.</p>
+
+      <p><strong>Rinse and change.</strong> Saline rinses after time outside, showering before bed, and changing clothes after being outdoors all reduce how much pollen you carry around.</p>
+
+      <p><strong>Watch both forecasts.</strong> Check the pollen count and the pressure trend. Days with high pollen plus a front on the way deserve extra caution.</p>
+
+      <p><strong>Be careful with decongestants.</strong> Overusing decongestant sprays can cause rebound congestion, and some oral decongestants raise blood pressure. Check with a pharmacist if you're also taking migraine medication.</p>
+
+      <p>MigraineCast handles the weather half of that double check. It forecasts pressure, temperature, and humidity changes up to a week ahead, and when you log attacks along with symptoms like congestion, you can look back in the Insights tab and see whether your spring migraines track the weather, the season, or both.</p>
+
+      <blockquote>
+        <p>Pair your pollen app with a migraine-focused weather forecast. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can pollen allergies trigger migraines?</h3>
+      <p>Allergies may contribute to migraine for some people through inflammation, nasal irritation, and disrupted sleep. People with hay fever appear more likely to report migraines, though allergies aren't a trigger for everyone.</p>
+
+      <h3>How do I know if it's a sinus headache or a migraine?</h3>
+      <p>Light and sound sensitivity, nausea, and pain that worsens with movement point toward migraine. A sinus infection usually brings fever and thick, discolored mucus. Many "sinus headaches" are actually migraines, so a doctor's evaluation can help.</p>
+
+      <h3>Why are my migraines worse in spring?</h3>
+      <p>Spring combines frequent weather fronts, rapid temperature swings, high pollen, and changing daylight. Any of these can lower your threshold, and they often arrive together.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "wildfire-smoke-migraines",
+    title: "Wildfire Smoke and Migraines: Why Air Quality Can Become a Trigger",
+    excerpt:
+      "Wildfire smoke can travel hundreds of miles and turn a clear day into a headache day. Here's what's in the smoke, why it may trigger migraines, and how to protect yourself when the air turns hazy.",
+    date: "August 19, 2026",
+    category: "Science",
+    content: `
+      <p>Wildfire seasons are getting longer, and smoke doesn't stay near the fire. It can drift across states and even oceans, which means people who live nowhere near a blaze can wake up to orange skies and a pounding head. If your migraines seem to flare when the air turns hazy, you're not imagining it.</p>
+
+      <h2>What's in Wildfire Smoke</h2>
+
+      <p>Smoke is a mix of gases and tiny particles. The particles that matter most for health are PM2.5, which are 2.5 micrometers across or smaller, about 30 times thinner than a human hair. They're small enough to get deep into your lungs and some can enter the bloodstream. Smoke also contains carbon monoxide, volatile organic compounds, and irritants that affect the eyes, nose, and throat.</p>
+
+      <p>We go deeper on particle pollution in general in our post on <a href="/blog/air-pollution-pm25-headaches">air pollution and PM2.5</a>.</p>
+
+      <h2>Why Smoke May Trigger Migraines</h2>
+
+      <p><strong>Inflammation.</strong> Inhaled particles trigger inflammation in the airways and throughout the body. Inflammation is one of the processes that can lower migraine threshold.</p>
+
+      <p><strong>Trigeminal irritation.</strong> Smoke irritates the nasal lining, which is wired to the trigeminal nerve, the main pain pathway in migraine.</p>
+
+      <p><strong>Smell sensitivity.</strong> Many people with migraine are sensitive to strong odors, and smoke is a powerful one. Our <a href="/blog/strong-smells-migraine-trigger">guide to smell triggers</a> explains why.</p>
+
+      <p><strong>Indirect effects.</strong> Smoke days often mean staying indoors with windows shut, less movement, more screen time, worse sleep, and more anxiety. Heat waves and fire weather also tend to overlap, adding <a href="/blog/heat-headaches">heat</a> and dehydration to the mix.</p>
+
+      <h2>How to Protect Yourself on Smoky Days</h2>
+
+      <ul>
+        <li><strong>Check the Air Quality Index (AQI).</strong> When it climbs into the unhealthy range, limit time outdoors, especially strenuous activity.</li>
+        <li><strong>Create a clean room.</strong> A portable HEPA air purifier in your bedroom can make a real difference. Keep windows and doors closed.</li>
+        <li><strong>Use a well-fitted N95 or KN95</strong> if you need to be outside. Cloth and surgical masks don't filter fine particles well.</li>
+        <li><strong>Set your AC to recirculate</strong> in the car and at home if your system allows it.</li>
+        <li><strong>Stay hydrated</strong> and keep up with meals and sleep, since smoke days already push your threshold down.</li>
+        <li><strong>Have your acute medication on hand</strong> and treat early if an attack starts.</li>
+      </ul>
+
+      <p>If you have asthma, heart disease, or lung disease, follow your doctor's guidance on smoke days and seek help for chest pain or trouble breathing.</p>
+
+      <h2>Separating Smoke From Weather</h2>
+
+      <p>Smoke events often arrive alongside heat, wind shifts, and pressure changes, so it can be hard to know which one is getting to you. Keeping a record is the only real way to find out. MigraineCast tracks the weather side automatically, including pressure, temperature, and humidity, and lets you log each attack. If you also jot down the AQI on attack days, you'll start to see whether smoke is a trigger on its own or mostly piles on top of weather changes you were already sensitive to.</p>
+
+      <blockquote>
+        <p>Know what the weather is doing so you can tell when smoke is the extra push. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can wildfire smoke cause migraines?</h3>
+      <p>Smoke can trigger headaches and may trigger migraines in susceptible people through inflammation, nasal irritation, and strong odors. Studies have linked poor air quality with more headache-related emergency visits.</p>
+
+      <h3>What AQI level is bad for migraines?</h3>
+      <p>There's no migraine-specific cutoff. Many people notice symptoms once AQI reaches the "unhealthy for sensitive groups" range (101 to 150) or higher. Tracking your own attacks against AQI readings is the best way to learn your threshold.</p>
+
+      <h3>Do air purifiers help with smoke headaches?</h3>
+      <p>A HEPA air purifier sized for the room can significantly reduce indoor fine particles during smoke events, which may help reduce smoke-related symptoms.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "air-pollution-pm25-headaches",
+    title: "Air Pollution and Headaches: What PM2.5 May Do to a Sensitive Brain",
+    excerpt:
+      "Fine particle pollution, known as PM2.5, has been linked to more headache and migraine emergency visits. Here's what the research suggests and what you can do about it.",
+    date: "August 20, 2026",
+    category: "Science",
+    content: `
+      <p>You can't see most air pollution, but your nervous system might feel it. Fine particles called PM2.5 come from traffic, industry, wood burning, and wildfires, and they've been linked to a wide range of health effects. For people with migraine, the question is whether dirty air can push an already sensitive brain over the edge.</p>
+
+      <h2>What PM2.5 Is</h2>
+
+      <p>PM2.5 refers to particles 2.5 micrometers or smaller. They're tiny enough to bypass the nose's natural filters, lodge deep in the lungs, and in some cases cross into the bloodstream. Ultrafine particles may even reach the brain directly through the olfactory nerve in the nose.</p>
+
+      <h2>What the Research Shows</h2>
+
+      <p>Several large studies have found that emergency visits for headache and migraine rise on days with higher air pollution, including PM2.5, nitrogen dioxide, and ozone. The effect sizes are modest at the population level, but for individuals who are sensitive, the impact can feel significant.</p>
+
+      <p>It's important to be clear: these studies show association, not proof that pollution causes migraine in every person. Pollution often comes with other factors, like heat, stagnant air, and high pressure systems that trap pollutants near the ground.</p>
+
+      <h2>How Pollution Might Affect a Migraine Brain</h2>
+
+      <p><strong>Systemic inflammation.</strong> Inhaled particles trigger inflammatory signals throughout the body, which can sensitize pain pathways.</p>
+
+      <p><strong>Oxidative stress.</strong> Pollution generates oxidative stress, and some research suggests migraine brains may be more vulnerable to it. This is part of why antioxidants like <a href="/blog/riboflavin-coq10-migraine">riboflavin and CoQ10</a> have been studied for prevention.</p>
+
+      <p><strong>Nasal and trigeminal irritation.</strong> Pollutants irritate the nasal lining, which connects to the trigeminal nerve.</p>
+
+      <p><strong>Blood vessel effects.</strong> Pollution can affect how blood vessels dilate and constrict, and <a href="/blog/vasodilation-and-migraines">vascular changes</a> are part of the migraine picture.</p>
+
+      <h2>Practical Ways to Reduce Exposure</h2>
+
+      <ul>
+        <li>Check the AQI before outdoor exercise and shift workouts to cleaner hours, often early morning</li>
+        <li>Avoid walking or running alongside busy roads when you can</li>
+        <li>Use a HEPA purifier at home, especially in the bedroom</li>
+        <li>Keep windows closed during high-pollution periods and use recirculation in the car</li>
+        <li>Avoid indoor pollution sources like candles, incense, and gas stoves without ventilation</li>
+      </ul>
+
+      <p>For smoke specifically, see our guide to <a href="/blog/wildfire-smoke-migraines">wildfire smoke and migraines</a>.</p>
+
+      <h2>Weather and Pollution Often Travel Together</h2>
+
+      <p>High pressure systems with light winds can trap pollution near the ground, and temperature inversions do the same. That means bad air days often coincide with specific weather patterns. When a front finally moves through and clears the air, it can bring its own pressure drop.</p>
+
+      <p>MigraineCast won't measure the air for you, but it does track the pressure, temperature, and humidity side of the equation and forecasts it up to 7 days ahead. Logging your attacks in the app, and noting high-AQI days on the side, helps you see which part of the pattern matters most for you.</p>
+
+      <blockquote>
+        <p>Understand the weather side of your triggers so the rest is easier to spot. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can air pollution trigger migraines?</h3>
+      <p>Research links higher air pollution levels, including PM2.5, with increased headache and migraine emergency visits. It's likely a trigger or contributor for some people rather than everyone.</p>
+
+      <h3>What is PM2.5?</h3>
+      <p>PM2.5 is fine particulate matter 2.5 micrometers or smaller, produced by traffic, industry, burning wood, and wildfires. It can penetrate deep into the lungs.</p>
+
+      <h3>How can I reduce pollution-related headaches?</h3>
+      <p>Check air quality before going out, avoid busy roads during exercise, use a HEPA air purifier indoors, and avoid indoor sources like candles and unvented gas stoves.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "dew-point-vs-humidity-migraine",
+    title: "Dew Point vs. Humidity: Which Weather Number Matters More for Migraine?",
+    excerpt:
+      "Relative humidity gets top billing in most weather apps, but dew point may tell you more about how muggy it will actually feel. Here's how to read both if you're migraine-prone.",
+    date: "August 21, 2026",
+    category: "Science",
+    content: `
+      <p>Open any weather app and you'll see humidity as a percentage. Scroll a bit further and you might find dew point. Most people ignore it. If muggy weather tends to set off your migraines, though, dew point may be the more useful number.</p>
+
+      <h2>The Difference in Plain English</h2>
+
+      <p><strong>Relative humidity</strong> is how full the air is with moisture compared to the most it could hold at the current temperature. Because warm air can hold more water than cold air, relative humidity changes throughout the day even when the actual amount of moisture stays the same. A cool morning might show 90% humidity, and the same air can drop to 50% by the afternoon as it warms up.</p>
+
+      <p><strong>Dew point</strong> is the temperature at which the air would become saturated and moisture would condense into dew. It's a direct measure of how much water vapor is actually in the air. Higher dew point means more moisture, regardless of the temperature.</p>
+
+      <h2>Why Dew Point Is Often More Useful</h2>
+
+      <p>Dew point tracks how sticky the air actually feels. A rough guide in Fahrenheit:</p>
+      <ul>
+        <li><strong>Below 55°F (13°C):</strong> dry and comfortable</li>
+        <li><strong>55–65°F (13–18°C):</strong> noticeable, getting sticky</li>
+        <li><strong>65–70°F (18–21°C):</strong> muggy and uncomfortable</li>
+        <li><strong>Above 70°F (21°C):</strong> oppressive</li>
+      </ul>
+
+      <p>High dew points make it harder for sweat to evaporate, so your body works harder to cool itself. That means more fluid loss, more cardiovascular strain, and a higher chance of dehydration, all of which can lower migraine threshold. Our post on <a href="/blog/dehydration-and-daily-migraines">dehydration and migraines</a> explains why that matters.</p>
+
+      <h2>So Is Relative Humidity Useless?</h2>
+
+      <p>Not at all. Relative humidity is still useful in two situations:</p>
+      <ul>
+        <li><strong>Rapid changes.</strong> A sudden swing in humidity often signals an approaching front, which usually comes with a pressure change. Our <a href="/blog/humidity-and-migraines">humidity and migraines guide</a> covers this.</li>
+        <li><strong>Very dry air.</strong> Low relative humidity, common with winter heating and air conditioning, can dry out your nasal passages and contribute to dehydration. See our posts on <a href="/blog/indoor-heating-winter-migraines">indoor heating</a> and <a href="/blog/air-conditioning-migraines">air conditioning</a>.</li>
+      </ul>
+
+      <h2>How to Use Both</h2>
+
+      <p>Use dew point to judge how hard the day will be on your body. Use changes in humidity, along with pressure, to spot incoming weather systems. A day with a dew point above 65°F and a falling barometer deserves extra caution: hydrate early, limit outdoor exertion in the hottest part of the day, and have medication ready.</p>
+
+      <p>The real question is which combination affects you personally, and that takes data. MigraineCast tracks humidity alongside pressure and temperature and forecasts all three up to a week ahead. Log your attacks and the Insights tab can help you see whether muggy stretches, fast swings, or pressure drops line up most with your migraines.</p>
+
+      <blockquote>
+        <p>Stop guessing which weather number matters for you. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a> and let your own history answer it.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Is dew point or humidity better for predicting migraines?</h3>
+      <p>Dew point is a better measure of how muggy and physically taxing the air will feel, while rapid changes in relative humidity can signal approaching weather fronts. Both can be useful, and personal tracking shows which matters more for you.</p>
+
+      <h3>What dew point is uncomfortable?</h3>
+      <p>Most people start to feel sticky above a dew point of about 60°F (16°C), and anything above 70°F (21°C) feels oppressive.</p>
+
+      <h3>Can high humidity cause migraines?</h3>
+      <p>High humidity can contribute to dehydration and heat stress, and humidity changes often accompany pressure changes. Some people report more migraines in humid conditions, though not everyone is affected.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "air-conditioning-migraines",
+    title: "Can Air Conditioning Trigger Migraines? Cold Air, Dry Air, and Temperature Swings",
+    excerpt:
+      "Air conditioning is a lifesaver in a heat wave, but for some people it brings its own headaches. Here's how cold drafts, dry air, and sudden temperature changes can play a role.",
+    date: "August 22, 2026",
+    category: "Tips",
+    content: `
+      <p>Heat is a well-known migraine trigger, so air conditioning should be the answer. For many people it is. But some notice they get migraines in air-conditioned offices, on planes, or after going in and out of chilled buildings all day. AC itself isn't a villain, but the way it changes your environment can matter.</p>
+
+      <h2>How AC Might Contribute to Migraines</h2>
+
+      <p><strong>Rapid temperature changes.</strong> Walking from 95°F heat into a 68°F office and back again several times a day exposes your body to sharp swings. Some people are sensitive to sudden temperature changes, the same way they react to <a href="/blog/temperature-drop-migraine-trigger">temperature drops outdoors</a>.</p>
+
+      <p><strong>Dry air.</strong> AC removes moisture from the air. Dry air can irritate your nose and sinuses and increase fluid loss through breathing, nudging you toward dehydration without you noticing.</p>
+
+      <p><strong>Cold drafts on the neck and head.</strong> A vent blowing directly on you can tense your neck and shoulder muscles. <a href="/blog/neck-tension-and-migraines">Neck tension</a> is closely linked with migraine for many people.</p>
+
+      <p><strong>Poor air quality.</strong> Systems that aren't well maintained can circulate dust, mold, or stale air with high carbon dioxide, which some people find leaves them headachy and foggy.</p>
+
+      <p><strong>Noise.</strong> A constant hum or rattle can be a background stressor for people sensitive to <a href="/blog/loud-sounds-migraine-trigger">sound</a>.</p>
+
+      <h2>How to Keep AC Working for You</h2>
+
+      <ul>
+        <li><strong>Narrow the gap.</strong> Try setting indoor temperatures closer to 74–78°F (23–26°C) instead of very cold, so the jump between indoors and outdoors is smaller.</li>
+        <li><strong>Redirect vents</strong> away from where you sit and sleep.</li>
+        <li><strong>Layer up.</strong> Keep a light scarf or sweater handy to protect your neck in chilly offices.</li>
+        <li><strong>Drink more than you think you need.</strong> Dry indoor air raises fluid needs.</li>
+        <li><strong>Consider a humidifier</strong> if indoor humidity drops below about 30–40%.</li>
+        <li><strong>Change filters regularly</strong> and keep the system serviced.</li>
+        <li><strong>Transition gradually</strong> when possible, like pausing in a lobby before heading out into the heat.</li>
+      </ul>
+
+      <h2>Is It the AC or the Heat Wave?</h2>
+
+      <p>AC use peaks during heat waves, which often come with high humidity, strong sun, and pressure changes when they break. So a migraine on a day you were in and out of air conditioning might really be about the weather outside. Our post on <a href="/blog/heat-waves-vs-cold-snaps-migraines">heat waves vs. cold snaps</a> covers that side.</p>
+
+      <p>One way to untangle it is to compare attack days against what the weather was doing. MigraineCast tracks outdoor pressure, temperature, and humidity automatically, so when you log an attack, you can later see in the Insights tab whether it lined up with a hot spell or a front. If attacks happen on calm, mild days at the office too, that points more toward indoor factors.</p>
+
+      <blockquote>
+        <p>Find out whether it's the weather outside or the environment inside. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can air conditioning give you a migraine?</h3>
+      <p>AC can contribute for some people through sudden temperature changes, dry air, cold drafts that tense neck muscles, and poor air quality from unmaintained systems. It isn't a trigger for everyone.</p>
+
+      <h3>What temperature should I set my AC to avoid headaches?</h3>
+      <p>There's no universal number, but keeping indoor temperature within about 15°F (8°C) of outdoor temperature, and generally in the 74–78°F range, reduces sharp swings for many people.</p>
+
+      <h3>Does dry air cause headaches?</h3>
+      <p>Dry air can irritate the nasal passages and increase fluid loss, which may contribute to headaches, especially if you're not drinking enough water.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "indoor-heating-winter-migraines",
+    title: "Why Indoor Heating Can Make Winter Migraines Worse",
+    excerpt:
+      "Winter migraines aren't only about storms and cold snaps. Dry heated air, stuffy rooms, and big indoor-outdoor temperature gaps can add to your trigger load all season long.",
+    date: "August 24, 2026",
+    category: "Tips",
+    content: `
+      <p>Winter brings plenty of outdoor migraine triggers: pressure swings from winter storms, sharp cold snaps, and shorter days. We covered those in our <a href="/blog/winter-migraines">winter migraines guide</a>. But for many people, the indoor environment is just as much of a problem. Once the heat comes on, a different set of factors starts working against you.</p>
+
+      <h2>Dry Air</h2>
+
+      <p>Cold outdoor air holds very little moisture. When you heat it indoors, relative humidity drops sharply, sometimes to 20% or lower. Dry air can:</p>
+      <ul>
+        <li>Dry out and irritate your nasal passages and sinuses</li>
+        <li>Increase water loss with every breath</li>
+        <li>Disrupt sleep through congestion, dry throat, or nosebleeds</li>
+      </ul>
+
+      <p>Dehydration builds slowly in winter because you don't feel thirsty the way you do in summer. Our post on <a href="/blog/dehydration-and-daily-migraines">dehydration and daily migraines</a> explains how even mild fluid loss can lower your threshold.</p>
+
+      <h2>Stuffy, Stale Air</h2>
+
+      <p>Closed windows and sealed rooms let carbon dioxide build up, especially in bedrooms and offices. Higher CO2 levels are associated with drowsiness, poor concentration, and headaches. Gas furnaces, fireplaces, and space heaters can also add fumes if they're not vented well.</p>
+
+      <p><strong>Important:</strong> carbon monoxide poisoning can cause headache, dizziness, nausea, and confusion, symptoms that can feel a lot like a migraine. Make sure you have working carbon monoxide detectors, especially if you use gas appliances. If multiple people in a home get headaches at the same time, or symptoms improve when you leave the house, get out and call for help.</p>
+
+      <h2>Hot-Cold Whiplash</h2>
+
+      <p>Walking from a 72°F room into 15°F air and back again many times a day can be hard on sensitive people. Some react to the sudden change itself, the same way they react to <a href="/blog/temperature-drop-migraine-trigger">rapid temperature drops</a>.</p>
+
+      <h2>Less Light, Less Movement</h2>
+
+      <p>Winter indoor life also means less daylight, less exercise, more screens, and more irregular sleep. None of these is a weather trigger exactly, but each one can lower your threshold so that the next storm hits harder.</p>
+
+      <h2>Simple Fixes</h2>
+
+      <ul>
+        <li><strong>Run a humidifier</strong> and aim for indoor humidity around 30–50%. Clean it regularly to avoid mold.</li>
+        <li><strong>Turn the thermostat down a little,</strong> especially at night. Cooler bedrooms tend to support better sleep.</li>
+        <li><strong>Open a window briefly</strong> each day or use ventilation to clear stale air.</li>
+        <li><strong>Drink warm fluids</strong> like herbal tea or broth if cold water doesn't appeal.</li>
+        <li><strong>Get daylight early,</strong> even a short walk, to help keep your sleep rhythm steady.</li>
+        <li><strong>Check your CO detectors</strong> and have gas appliances serviced.</li>
+      </ul>
+
+      <h2>Planning Around Winter Storms</h2>
+
+      <p>Indoor factors set your baseline. Winter storms are what push you over it. If you know a big system is coming, that's the time to be strict about hydration, sleep, and humidity. MigraineCast forecasts pressure and temperature changes up to 7 days ahead, so you can see a winter storm coming and start tightening up your indoor habits a couple of days before it arrives.</p>
+
+      <blockquote>
+        <p>Get a heads-up on winter pressure swings before they hit. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can indoor heating cause headaches?</h3>
+      <p>Heating can contribute to headaches by drying the air, increasing dehydration, and letting stale air build up in closed rooms. Poorly vented gas appliances can also release carbon monoxide, which causes headaches and is dangerous.</p>
+
+      <h3>What humidity level is best for migraines in winter?</h3>
+      <p>Indoor humidity around 30–50% is generally recommended for comfort and to avoid drying out your airways.</p>
+
+      <h3>How do I know if my headache is carbon monoxide?</h3>
+      <p>Warning signs include headaches that improve when you leave home, several people or pets feeling ill at once, and symptoms like dizziness, nausea, and confusion. Leave the building and call emergency services if you suspect CO exposure.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "snow-glare-migraine",
+    title: "Why Bright Snow Glare Can Trigger a Migraine Even Without a Storm",
+    excerpt:
+      "The storm has passed and the sky is blue. So why the migraine? Fresh snow reflects up to 80–90% of sunlight, and that glare can be a powerful light trigger.",
+    date: "August 25, 2026",
+    category: "Science",
+    content: `
+      <p>Many people with migraine brace for the storm, then relax once it passes. But the clear, bright day after a snowfall can bring its own attack. If you've ever gotten a migraine on a beautiful bluebird day after a storm, snow glare is a likely suspect.</p>
+
+      <h2>How Much Light Snow Reflects</h2>
+
+      <p>Fresh snow reflects up to 80–90% of sunlight. Grass reflects around 10–25%. That means on a sunny day after a snowfall, light is hitting your eyes from above and below at the same time. The total light load can be dramatically higher than on a normal sunny day, and your eyes may not be able to adjust fast enough.</p>
+
+      <h2>Why Bright Light Triggers Migraine</h2>
+
+      <p>Light sensitivity, called photophobia, is one of the hallmark features of migraine. Research suggests the brains of people with migraine process light differently, even between attacks. Light signals from the eye feed into pathways that connect with pain-processing areas, so intense light can act as a trigger, not just something that feels bad during an attack.</p>
+
+      <p>Flickering light and glare seem particularly provocative. Sun sparkling off snow, or light flashing through trees as you drive, can be especially rough. Our post on <a href="/blog/bright-lights-migraine-trigger">bright lights as a migraine trigger</a> covers the science in more detail.</p>
+
+      <h2>Why the Day After the Storm Is a Double Whammy</h2>
+
+      <p>Snow glare often hits right when your body is dealing with the aftermath of a weather system. The pressure has often just risen sharply after the storm's drop, temperatures may plunge as skies clear, and you might have slept poorly or overexerted yourself shoveling. Our post on <a href="/blog/first-snow-migraine-trigger">why the first snow can trigger migraines</a> covers how that whole sequence plays out.</p>
+
+      <h2>How to Protect Yourself</h2>
+
+      <ul>
+        <li><strong>Wear quality sunglasses.</strong> Polarized lenses cut reflected glare, and wraparound styles block light from the sides. Look for 100% UV protection.</li>
+        <li><strong>Add a brimmed hat</strong> to reduce light from above.</li>
+        <li><strong>Consider tinted lenses.</strong> Some people with migraine find certain tints, like FL-41, helpful for light sensitivity, though the research is still developing.</li>
+        <li><strong>Keep sunglasses in the car,</strong> since driving on snowy roads is one of the toughest glare situations.</li>
+        <li><strong>Stay hydrated and eat regularly</strong> if you're out shoveling or doing winter sports.</li>
+        <li><strong>Limit time</strong> in the brightest midday hours if you're especially sensitive.</li>
+      </ul>
+
+      <p>For skiers and snowboarders, goggles with good glare protection are essential. Altitude can add its own effects; see our post on <a href="/blog/altitude-changes-flying-migraine-trigger">altitude changes and migraine</a>.</p>
+
+      <h2>See the Whole Weather Sequence</h2>
+
+      <p>The trick with snow-day migraines is that the trigger isn't always the storm itself. It's the full sequence: pressure drop, snowfall, pressure rebound, cold, glare. MigraineCast shows that sequence in your forecast up to a week ahead, so you can see not just when the storm arrives but when the clear, bright, high-pressure day afterward is likely. That gives you time to plan your sunglasses, your shoveling, and your medication.</p>
+
+      <blockquote>
+        <p>Know what's coming after the storm too. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can snow glare cause a migraine?</h3>
+      <p>Yes. Fresh snow reflects up to 80–90% of sunlight, which can create intense glare. Bright and flickering light is a common migraine trigger, especially for people with light sensitivity.</p>
+
+      <h3>Do polarized sunglasses help with migraines?</h3>
+      <p>Polarized lenses reduce reflected glare from surfaces like snow and water, which many people with light-triggered migraines find helpful. Wraparound styles add protection from the sides.</p>
+
+      <h3>Why do I get migraines after a snowstorm?</h3>
+      <p>After a snowstorm, several triggers can stack up: rising pressure, sharp cold, bright reflected light, and physical exertion from shoveling. Any combination can push you over your threshold.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "daylight-saving-time-migraines",
+    title: "Daylight Saving Time and Migraines: Why One Lost Hour Matters",
+    excerpt:
+      "It's just one hour, but for a migraine brain that thrives on routine, the clock change can be a real trigger. Here's why, and how to prepare for both the spring and fall shifts.",
+    date: "August 26, 2026",
+    category: "Tips",
+    content: `
+      <p>Twice a year, clocks move and millions of people shrug it off. For people with migraine, the shift can be harder. A single hour might not sound like much, but the migraine brain tends to like consistency, and the clock change disrupts several things at once.</p>
+
+      <h2>Why the Clock Change Can Trigger Migraines</h2>
+
+      <p><strong>Sleep disruption.</strong> Changes in sleep, whether too little, too much, or at different times, are among the most common migraine triggers. The spring change usually means losing an hour of sleep. The fall change can leave you waking too early or sleeping in. Our post on <a href="/blog/lack-of-sleep-migraine-trigger">lack of sleep as a migraine trigger</a> explains why.</p>
+
+      <p><strong>Circadian rhythm.</strong> Your internal body clock is set mainly by light. When clock time shifts but sunlight doesn't, there's a mismatch that can take days to a week to resolve. The hypothalamus, which helps run your body clock, is also thought to be involved in the early phase of migraine attacks.</p>
+
+      <p><strong>Shifted meal and caffeine timing.</strong> Your usual coffee at 7am is suddenly at what your body thinks is 6am. Meals shift too. For people sensitive to <a href="/blog/caffeine-and-migraines">caffeine timing</a> or <a href="/blog/skipping-meals-migraine-trigger">irregular meals</a>, that matters.</p>
+
+      <p><strong>Seasonal timing.</strong> Clock changes happen in spring and fall, two seasons that already bring frequent weather fronts. So the clock shift often lands on top of unsettled weather.</p>
+
+      <h2>How to Prepare</h2>
+
+      <p><strong>Shift gradually.</strong> In the 4 to 7 days before the change, move your bedtime and wake time 15 minutes in the direction of the new schedule every day or two.</p>
+
+      <p><strong>Use light strategically.</strong> After the spring change, get bright morning light soon after waking to help reset your clock. Dim lights and reduce screens in the evening. After the fall change, evening light can help if you find yourself waking too early.</p>
+
+      <p><strong>Keep meals and caffeine steady</strong> relative to your body, not just the clock, and shift them gradually.</p>
+
+      <p><strong>Plan a light week.</strong> If you can, avoid stacking demanding events, late nights, or alcohol in the days around the change.</p>
+
+      <p><strong>Don't oversleep on Sunday.</strong> Sleeping in too much can be its own trigger, the same problem behind <a href="/blog/weekend-migraines">weekend migraines</a>.</p>
+
+      <h2>Watch for Weather Stacking</h2>
+
+      <p>Because clock changes fall in transition seasons, it's worth checking what the weather is doing the same week. A clock change plus a strong front is a much bigger risk than either alone. MigraineCast forecasts pressure, temperature, and humidity up to 7 days ahead, which is perfect for spotting whether daylight saving week is also going to be a stormy one, so you can be extra careful with sleep and medication timing.</p>
+
+      <blockquote>
+        <p>Check your weather risk for daylight saving week before it arrives. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can daylight saving time trigger migraines?</h3>
+      <p>Yes, for some people. The clock change disrupts sleep, circadian rhythm, and the timing of meals and caffeine, all of which can trigger migraines in sensitive people.</p>
+
+      <h3>Is the spring or fall clock change worse for migraines?</h3>
+      <p>The spring change, which costs an hour of sleep, is often harder for people, but both can cause problems. Fall changes can lead to early waking or oversleeping.</p>
+
+      <h3>How long does it take to adjust to daylight saving time?</h3>
+      <p>Most people adjust within a few days to a week. Gradually shifting your schedule beforehand and getting morning light can speed it up.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-histamine-sleep-triangle",
+    title: "The Migraine–Histamine–Sleep Triangle",
+    excerpt:
+      "Histamine helps keep you awake. Poor sleep makes migraine more likely. Migraine disrupts sleep. Here's how these three feed each other, and where you can break the loop.",
+    date: "August 27, 2026",
+    category: "Science",
+    content: `
+      <p>Sleep and migraine have a complicated relationship. Too little sleep can trigger an attack, too much can too, and an attack can wreck the next night's sleep. There's a third factor that may tie this loop together: histamine.</p>
+
+      <h2>Histamine Isn't Just an Allergy Chemical</h2>
+
+      <p>Most people know histamine from allergies. But in the brain, histamine is also a key wakefulness signal. Neurons in the hypothalamus release histamine during the day to keep you alert, and that activity drops at night so you can sleep. That's why older antihistamines like diphenhydramine make people drowsy: they block histamine's wake-promoting effect in the brain.</p>
+
+      <p>The hypothalamus is also thought to play a role in the earliest phase of migraine, the <a href="/blog/migraine-prodrome-signs">prodrome</a>. That's one reason symptoms like yawning, fatigue, and changes in sleepiness often show up hours before head pain. Our post on <a href="/blog/migraine-yawning">migraine and frequent yawning</a> explores one of those signs.</p>
+
+      <h2>The Three Sides of the Triangle</h2>
+
+      <p><strong>Sleep affects migraine.</strong> Short, broken, or irregular sleep is one of the most consistently reported migraine triggers. Our guide to <a href="/blog/lack-of-sleep-migraine-trigger">lack of sleep and migraine</a> covers why.</p>
+
+      <p><strong>Migraine affects sleep.</strong> Attacks can wake you in the night, make it hard to fall asleep, or leave you sleeping far longer than usual during recovery. Morning migraines are common, and some people wake up with an attack already in progress.</p>
+
+      <p><strong>Histamine affects both.</strong> Allergies, high-histamine foods, and alcohol in the evening may increase histamine activity at the wrong time, potentially making sleep lighter or more fragmented. At the same time, histamine released from <a href="/blog/mast-cells-and-migraine">mast cells</a> may sensitize the nerves involved in migraine pain.</p>
+
+      <h2>Where You Can Break the Loop</h2>
+
+      <p><strong>Protect sleep timing.</strong> Consistent bed and wake times, even on weekends, are one of the most effective non-medication migraine strategies.</p>
+
+      <p><strong>Watch evening intake.</strong> Red wine, aged cheese, cured meats, and fermented foods are high in histamine or can trigger its release. Having them late at night may be a double hit for some people.</p>
+
+      <p><strong>Treat allergies.</strong> Nighttime congestion from allergies can fragment sleep. Managing allergies may help both sleep and migraine. See our post on <a href="/blog/pollen-allergies-migraines">pollen, allergies, and migraines</a>.</p>
+
+      <p><strong>Be cautious with sleep aids.</strong> Sedating antihistamines may seem like a natural fix, but they can cause next-day grogginess and aren't recommended for long-term use without medical advice. Talk with your doctor about sleep problems that persist.</p>
+
+      <p><strong>Screen for sleep disorders.</strong> Sleep apnea and insomnia are more common in people with frequent migraines, and treating them can reduce attacks. Morning headaches, loud snoring, or daytime exhaustion are worth mentioning to a doctor.</p>
+
+      <h2>Spotting Your Own Pattern</h2>
+
+      <p>Weather adds another layer. Storms can disrupt sleep with noise, pressure changes, or discomfort, and allergen spikes often follow weather fronts. When you log attacks in MigraineCast, you can compare them against the weather the app tracks automatically, and see whether your rough nights and next-day attacks keep showing up around the same kinds of weather changes.</p>
+
+      <blockquote>
+        <p>Good sleep is easier to protect when you know a rough weather night is coming. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How is histamine related to sleep?</h3>
+      <p>In the brain, histamine promotes wakefulness. Histamine-releasing neurons are active during the day and quiet at night, which is why sedating antihistamines cause drowsiness.</p>
+
+      <h3>Can poor sleep cause migraines?</h3>
+      <p>Yes. Too little sleep, irregular sleep, and oversleeping are all commonly reported migraine triggers.</p>
+
+      <h3>Why do I wake up with migraines?</h3>
+      <p>Morning migraines can be linked to sleep disruption, sleep disorders like sleep apnea, caffeine withdrawal, medication timing, dehydration, or the body's natural early-morning hormonal shifts. A doctor can help pinpoint the cause.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "power-outage-heat-migraines",
+    title: "Why Some People Get Migraines During Heat-Related Power Outages",
+    excerpt:
+      "When a heat wave knocks out power, migraine triggers pile up fast: rising indoor heat, lost sleep, dehydration, darkness, noise, and stress. Here's how to prepare before the grid goes down.",
+    date: "August 29, 2026",
+    category: "Tips",
+    content: `
+      <p>Heat waves strain the power grid, and when the power goes out, the cooling goes with it. For people with migraine, an outage during extreme heat can trigger a cascade of problems in just a few hours. Knowing why helps you prepare.</p>
+
+      <h2>Why Outages Are So Rough on a Migraine Brain</h2>
+
+      <p><strong>Indoor heat builds quickly.</strong> Without AC or fans, homes can heat up fast, especially upper floors and apartments. <a href="/blog/heat-headaches">Heat</a> raises fluid loss, strains your cardiovascular system, and is one of the most commonly reported migraine triggers.</p>
+
+      <p><strong>Dehydration sneaks up.</strong> You sweat more, may not have cold drinks, and might hesitate to drink if water supply is uncertain. Dehydration is a well-known trigger.</p>
+
+      <p><strong>Sleep falls apart.</strong> Hot bedrooms make it hard to fall and stay asleep. Lost sleep lowers your threshold for the next day.</p>
+
+      <p><strong>Meals become irregular.</strong> Without a working fridge or stove, people skip meals or eat whatever is available.</p>
+
+      <p><strong>Stress spikes.</strong> Worry about food spoiling, medication storage, family members, and when power will return adds up. And the stress letdown once the power comes back can trigger an attack too, a pattern we discuss in <a href="/blog/why-migraines-hit-when-you-relax">why migraines hit when you relax</a>.</p>
+
+      <p><strong>Sensory overload.</strong> Generators are loud and can produce fumes. Phones and flashlights become the only light sources, sometimes harsh and flickering.</p>
+
+      <h2>Before Heat Season: Build a Kit</h2>
+
+      <ul>
+        <li>Several days of drinking water and electrolyte packets</li>
+        <li>Battery-powered or rechargeable fans</li>
+        <li>Instant cold packs, which don't need a freezer</li>
+        <li>Shelf-stable snacks with protein and salt</li>
+        <li>A charged power bank for your phone</li>
+        <li>Your acute and preventive medications, with a plan for any that need refrigeration</li>
+        <li>Earplugs and an eye mask</li>
+        <li>A soft, non-flickering light like a warm LED lantern</li>
+      </ul>
+
+      <p>Our <a href="/blog/migraine-go-bag">migraine go-bag guide</a> has a full packing list you can adapt.</p>
+
+      <h2>During an Outage</h2>
+
+      <ul>
+        <li><strong>Stay in the coolest room,</strong> usually the lowest floor, and block sunlight with curtains.</li>
+        <li><strong>Use water to cool down:</strong> damp cloths on your neck and wrists, cool showers if water is available.</li>
+        <li><strong>Drink steadily</strong> rather than waiting for thirst.</li>
+        <li><strong>Treat early</strong> if you feel an attack coming on.</li>
+        <li><strong>Go to a cooling center</strong> if your home gets dangerously hot. Never run a generator indoors or in a garage because of carbon monoxide risk.</li>
+      </ul>
+
+      <p>Heat illness is serious. Confusion, fainting, very high body temperature, or stopping sweating are emergencies. Call for help right away.</p>
+
+      <h2>Use the Forecast as Your Early Warning</h2>
+
+      <p>Heat waves are usually forecast days in advance, and outages are more likely at the peak. MigraineCast shows temperature, humidity, and pressure changes up to 7 days ahead, so you can see a heat wave building and stock up, charge devices, refill prescriptions, and start hydrating before the hottest days arrive, rather than scrambling once the lights go out.</p>
+
+      <blockquote>
+        <p>See the heat wave coming before it hits your home. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why do I get migraines during power outages?</h3>
+      <p>Outages during heat waves combine several migraine triggers at once: heat, dehydration, poor sleep, missed meals, stress, and sensory changes. The combination can easily push someone over their threshold.</p>
+
+      <h3>How can I stay cool without power?</h3>
+      <p>Move to the lowest, shadiest room, block sunlight, use battery fans, apply damp cloths to your neck and wrists, and visit a public cooling center if your home gets too hot.</p>
+
+      <h3>What should be in a migraine emergency kit?</h3>
+      <p>Include water, electrolytes, snacks, medications, cold packs, a power bank, earplugs, an eye mask, and soft lighting.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "weather-apps-vs-migraine-forecasts",
+    title: "Weather Apps vs. Migraine Forecasts: Which Numbers Are Actually Useful?",
+    excerpt:
+      "A regular weather app tells you whether to bring an umbrella. A migraine forecast should tell you whether to cancel plans. Here's which numbers matter and which ones you can mostly ignore.",
+    date: "August 30, 2026",
+    category: "Tips",
+    content: `
+      <p>Standard weather apps are built for one question: what will it be like outside? That's helpful for choosing a jacket. It's much less helpful when you're trying to figure out whether your nervous system is about to have a rough few days. Here's how the two kinds of forecasts differ.</p>
+
+      <h2>What Regular Weather Apps Emphasize</h2>
+
+      <p>Most weather apps lead with temperature, chance of rain, cloud cover, and maybe the "feels like" temperature. Those are useful for daily life, but for migraine they're mostly secondary. Rain itself isn't a trigger. What matters is the change in conditions that brings the rain.</p>
+
+      <h2>Numbers That Matter Most for Migraine</h2>
+
+      <p><strong>Barometric pressure trend.</strong> This is the most studied weather factor in migraine. The key is the rate of change, not the current number. A drop of several millibars over 24 hours is much more likely to matter than any single reading. Many weather apps either hide pressure or show only the current value. Our <a href="/blog/barometric-pressure-gradient-explained">barometric pressure gradient explainer</a> goes into the details.</p>
+
+      <p><strong>Temperature swings.</strong> A large change over a short period, like a 15°F drop in a day, matters more than whether it's hot or cold. See <a href="/blog/temperature-drop-migraine-trigger">temperature drops as a trigger</a>.</p>
+
+      <p><strong>Humidity and dew point.</strong> Rapid humidity changes can signal fronts, and high dew points increase heat strain. Our <a href="/blog/dew-point-vs-humidity-migraine">dew point vs. humidity guide</a> explains which to watch.</p>
+
+      <p><strong>Wind gusts.</strong> Gusty conditions often accompany fronts and may matter in their own right. See <a href="/blog/wind-gusts-migraine-trigger">wind gusts and migraine</a>.</p>
+
+      <p><strong>Timing.</strong> Migraines often start 24 to 48 hours before a front arrives. A forecast that only tells you what's happening today isn't enough. Our <a href="/blog/48-hour-warning-window">48-hour warning window guide</a> explains why lead time matters.</p>
+
+      <h2>Numbers You Can Mostly Ignore</h2>
+
+      <ul>
+        <li><strong>Chance of rain percentage.</strong> It tells you about rain, not about the pressure change behind it.</li>
+        <li><strong>Absolute pressure on its own.</strong> 1008 mbar isn't bad by itself. What matters is where it's heading and how fast.</li>
+        <li><strong>Hourly temperature details</strong> beyond the overall swing.</li>
+      </ul>
+
+      <h2>What a Migraine Forecast Should Do</h2>
+
+      <p>A good migraine forecast should surface the changes that matter, show them far enough in advance to act, and ideally connect them to your own history. Generic "migraine risk" maps that give everyone in a city the same score are a starting point, but triggers are personal. One person reacts to pressure drops, another to heat, another only when several factors stack up.</p>
+
+      <p>That's the idea behind MigraineCast. Instead of just showing raw weather, it follows pressure, temperature, humidity, and other conditions up to 7 days ahead, and lets you log your attacks so you can compare them with the weather and look for patterns that are actually yours. Our <a href="/blog/migraine-weather-forecast-explained">migraine weather forecast explainer</a> walks through how to read one.</p>
+
+      <blockquote>
+        <p>Swap the umbrella forecast for one built around migraine. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What weather data matters most for migraines?</h3>
+      <p>Barometric pressure trend is the most studied factor, followed by rapid temperature changes and humidity. The rate of change usually matters more than the absolute value.</p>
+
+      <h3>Can a regular weather app predict migraines?</h3>
+      <p>Regular weather apps can provide raw data like pressure, but they're not designed to highlight migraine-relevant changes or connect them with your personal history.</p>
+
+      <h3>How far ahead should I check the forecast for migraine?</h3>
+      <p>Checking 24 to 48 hours ahead helps with near-term preparation, and a 7-day outlook helps you plan your week around higher-risk days.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "bad-weather-day-migraine-routine",
+    title: "How to Build a Personal \"Bad Weather Day\" Routine",
+    excerpt:
+      "When you know a front is coming, having a ready-made routine means fewer decisions on a day your brain doesn't want to make any. Here's how to build one that fits your life.",
+    date: "August 31, 2026",
+    category: "Tips",
+    content: `
+      <p>If weather is one of your triggers, you already know the feeling of seeing a storm in the forecast and thinking, "here we go again." A pre-built routine won't stop every attack, but it turns a vague sense of dread into a set of specific actions. And when your brain is already starting to feel foggy, having those decisions made in advance helps.</p>
+
+      <h2>Step 1: Define Your Trigger Day</h2>
+
+      <p>First, figure out what counts as a "bad weather day" for you. For some people it's any pressure drop over a certain amount. For others it's heat combined with humidity, or the day after a storm. If you're not sure yet, our <a href="/tools/pressure-threshold-estimator">Pressure Threshold Estimator</a> and <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> can help you look back at past attacks.</p>
+
+      <h2>Step 2: Build a Three-Phase Routine</h2>
+
+      <p><strong>Phase 1: Two days out (the heads-up).</strong></p>
+      <ul>
+        <li>Check that you have acute medication at home, at work, and in your bag</li>
+        <li>Look at your calendar and move anything demanding if you can</li>
+        <li>Plan simple meals so you're not cooking during an attack</li>
+        <li>Prioritize sleep for the next two nights</li>
+      </ul>
+
+      <p><strong>Phase 2: The day before (the buffer).</strong></p>
+      <ul>
+        <li>Increase fluids steadily through the day</li>
+        <li>Keep caffeine at your usual amount, not more and not less</li>
+        <li>Skip alcohol and known food triggers</li>
+        <li>Go to bed on time</li>
+        <li>Lay out your comfort kit: ice pack, eye mask, earplugs, electrolyte drink</li>
+      </ul>
+
+      <p><strong>Phase 3: The day of (the plan).</strong></p>
+      <ul>
+        <li>Eat regular, simple meals</li>
+        <li>Take screen breaks and dim lighting where you can</li>
+        <li>Watch for <a href="/blog/migraine-prodrome-signs">prodrome signs</a> and treat early if your plan allows</li>
+        <li>Have a "low-energy" version of your day ready, like what you can drop and who to tell</li>
+      </ul>
+
+      <h2>Step 3: Write It Down</h2>
+
+      <p>Put your routine somewhere you'll actually see it, like a note on your phone or a card on the fridge. Include practical details: where your medication is, which meals are easy, which messages to send if you need to cancel. When you're in prodrome, you don't want to rely on memory.</p>
+
+      <h2>Step 4: Share It</h2>
+
+      <p>Let a partner, roommate, or close coworker know what your bad weather days look like. They can help cover tasks or just understand why you're quieter. If you have kids, our <a href="/blog/parenting-during-migraine">low-energy parenting plan</a> can help.</p>
+
+      <h2>Step 5: Review and Adjust</h2>
+
+      <p>After a few bad weather days, look back. Did the routine help? Did you start too late? Was there a step you always skip? Adjust it. Our <a href="/blog/preparing-for-weather-changes">guide to preparing for weather changes</a> has more ideas.</p>
+
+      <h2>Let the Forecast Start the Routine</h2>
+
+      <p>The whole routine depends on knowing a bad weather day is coming in time to start Phase 1. That's the part MigraineCast handles. It forecasts pressure, temperature, and humidity changes up to 7 days ahead, so you can see a front coming and kick off your routine on schedule instead of on the morning the headache arrives. Over time, the attacks you log help you fine-tune which kinds of weather days actually deserve the full routine.</p>
+
+      <blockquote>
+        <p>Your routine is only as good as your warning time. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a> and start it two days early.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I prepare for a weather migraine?</h3>
+      <p>Start 24 to 48 hours ahead: hydrate, protect sleep, keep caffeine steady, avoid other triggers, make sure your medication is available, and lighten your schedule if possible.</p>
+
+      <h3>What should a migraine routine include?</h3>
+      <p>A good routine covers medication access, hydration, regular meals, sleep, reduced sensory load, and a backup plan for responsibilities if an attack hits.</p>
+
+      <h3>How do I know which weather days are bad for me?</h3>
+      <p>Track your attacks alongside weather conditions over several weeks or months. Patterns, like attacks following pressure drops or heat waves, often become visible over time.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-tinnitus",
+    title: "Migraine-Related Tinnitus: Why Ringing in Your Ears Can Be Part of an Attack",
+    excerpt:
+      "Ringing, buzzing, or whooshing in the ears during a migraine isn't unusual. Here's why the auditory system gets involved, and when ear symptoms need a closer look.",
+    date: "September 1, 2026",
+    category: "Science",
+    content: `
+      <p>Many people with migraine notice ringing, buzzing, hissing, or a whooshing sound in their ears, sometimes before an attack, sometimes during, and sometimes lingering afterward. It's called tinnitus, and research suggests it's more common in people with migraine than in those without.</p>
+
+      <h2>Why Migraine and Tinnitus Overlap</h2>
+
+      <p><strong>Shared sensory hypersensitivity.</strong> Migraine is fundamentally a disorder of sensory processing. The same brain that becomes oversensitive to light and sound during an attack may also amplify internal auditory signals that you'd normally tune out. Many people with migraine also have increased sensitivity to sound between attacks. See our post on <a href="/blog/loud-sounds-migraine-trigger">loud sounds and migraine</a>.</p>
+
+      <p><strong>Trigeminal and auditory connections.</strong> The trigeminal nerve, central to migraine pain, has connections with parts of the auditory system and supplies blood vessels in the inner ear. Activation during an attack may affect how the ear and auditory pathways function.</p>
+
+      <p><strong>Blood flow changes.</strong> Migraine involves changes in blood vessel behavior. Some people describe a pulsing, whooshing sound in time with their heartbeat during attacks.</p>
+
+      <p><strong>Muscle tension.</strong> Tight jaw and neck muscles can influence tinnitus in some people. Clenching during an attack is common; see our post on <a href="/blog/migraine-jaw-pain">migraine and jaw pain</a>.</p>
+
+      <h2>How It Can Show Up</h2>
+      <ul>
+        <li>Ringing that starts or worsens during an attack and fades after</li>
+        <li>Tinnitus as part of the prodrome, before pain begins</li>
+        <li>Ongoing tinnitus that gets louder during migraine days</li>
+        <li>Tinnitus alongside <a href="/blog/ear-fullness-migraine">ear fullness</a>, dizziness, or sound sensitivity, which may point toward <a href="/blog/vestibular-migraine">vestibular migraine</a></li>
+      </ul>
+
+      <h2>When to Get It Checked</h2>
+
+      <p>Tinnitus is usually harmless, but some patterns need medical evaluation:</p>
+      <ul>
+        <li>Sudden hearing loss in one ear, which is an urgent issue that needs prompt care</li>
+        <li>Tinnitus only in one ear that persists</li>
+        <li>Pulsing tinnitus in time with your heartbeat that doesn't go away between attacks</li>
+        <li>Tinnitus with new neurological symptoms like weakness, facial drooping, or trouble speaking</li>
+      </ul>
+
+      <p>An ENT or audiologist can test your hearing and rule out other causes.</p>
+
+      <h2>What Can Help</h2>
+      <ul>
+        <li>Treating migraine attacks early may reduce associated tinnitus</li>
+        <li>Low-level background sound, like a fan, can make tinnitus less noticeable</li>
+        <li>Protecting ears from loud noise prevents additional damage</li>
+        <li>Managing stress and sleep helps both conditions</li>
+        <li>Preventive migraine treatment may reduce tinnitus that's tied to attacks</li>
+      </ul>
+
+      <h2>Track It With Your Attacks</h2>
+
+      <p>If tinnitus is part of your migraine pattern, it's worth recording. When you log attacks in MigraineCast, adding ear symptoms helps you and your doctor see whether tinnitus shows up before the pain, during, or only on certain kinds of days. Since the app also tracks the weather, you can check whether pressure changes seem to make ear symptoms worse, which some people report.</p>
+
+      <blockquote>
+        <p>Every symptom you log makes your pattern clearer. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can migraines cause ringing in the ears?</h3>
+      <p>Yes. Tinnitus is more common in people with migraine, and some experience it before, during, or after attacks. It's thought to relate to sensory hypersensitivity and nerve connections between pain and hearing pathways.</p>
+
+      <h3>Is migraine tinnitus permanent?</h3>
+      <p>For many people, migraine-related tinnitus comes and goes with attacks. Some have ongoing tinnitus that gets worse during migraine days. A hearing evaluation can help sort out the cause.</p>
+
+      <h3>When should I worry about tinnitus?</h3>
+      <p>Seek prompt care for sudden hearing loss, tinnitus in one ear only that persists, constant pulsing tinnitus, or tinnitus with new neurological symptoms.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "ear-fullness-migraine",
+    title: "Ear Fullness and Migraine: Why Your Ears Can Feel Blocked Before Pain Starts",
+    excerpt:
+      "That plugged, under-water feeling in your ears can be an early migraine sign, not just an ear problem. Here's why it happens and how it connects to pressure changes.",
+    date: "September 3, 2026",
+    category: "Science",
+    content: `
+      <p>Some people notice their ears feel full, blocked, or pressurized before a migraine starts, as if they're on a plane that's descending. It's easy to assume it's an ear infection or allergies, especially when it keeps coming back. But ear fullness is a recognized symptom in people with migraine, particularly those with vestibular features.</p>
+
+      <h2>What Ear Fullness Feels Like</h2>
+
+      <p>People describe it as pressure inside the ear, muffled hearing, a plugged feeling that doesn't clear when you yawn or swallow, or a sense of fullness in one or both ears. It may come with <a href="/blog/migraine-tinnitus">tinnitus</a>, sound sensitivity, or dizziness.</p>
+
+      <h2>Why Migraine Can Cause It</h2>
+
+      <p><strong>Inner ear blood flow.</strong> The inner ear relies on tiny blood vessels supplied in part by trigeminal nerve fibers. Migraine-related changes in those vessels may affect fluid balance and pressure sensation in the ear.</p>
+
+      <p><strong>Central sensitization.</strong> During migraine, the brain becomes more sensitive to all kinds of sensory input. Normal pressure sensations from the ear may register as uncomfortable fullness.</p>
+
+      <p><strong>Vestibular involvement.</strong> Ear fullness is common in <a href="/blog/vestibular-migraine">vestibular migraine</a>, where dizziness and balance problems are major symptoms.</p>
+
+      <h2>The Weather Connection</h2>
+
+      <p>For weather-sensitive people, ear fullness may be one of the first signs that pressure is changing. The middle ear is an air-filled space connected to the outside world through the Eustachian tube. When outside pressure falls quickly, there's a temporary imbalance until the tube equalizes it. If your Eustachian tubes don't open easily, which can happen with allergies or congestion, that imbalance can linger. Our post on <a href="/blog/altitude-changes-flying-migraine-trigger">altitude changes and flying</a> covers the same mechanism at a larger scale.</p>
+
+      <p>Some researchers think the inner ear may be one of the ways the body senses barometric change at all. That's still being studied, but it fits with the experiences many people describe. Our <a href="/blog/barometric-pressure-science">barometric pressure science guide</a> has more.</p>
+
+      <h2>Migraine or Ear Problem?</h2>
+
+      <p>Ear fullness can also be caused by ear infections, Eustachian tube dysfunction, earwax, allergies, or Ménière's disease, which shares some symptoms with vestibular migraine. Signs it may be migraine-related include fullness that comes and goes with headaches, appears before attacks, and comes with light or sound sensitivity. See a doctor or ENT if you have hearing loss, ear pain, discharge, or fullness that doesn't go away.</p>
+
+      <h2>What Can Help</h2>
+      <ul>
+        <li>Gentle swallowing, yawning, or chewing gum to help the Eustachian tube open</li>
+        <li>Managing allergies and congestion</li>
+        <li>Treating the migraine early if fullness is a reliable warning sign</li>
+        <li>Staying hydrated</li>
+      </ul>
+
+      <h2>Use It as an Early Warning</h2>
+
+      <p>If ear fullness reliably shows up before your attacks, it's a valuable prodrome signal. Pair it with a pressure forecast and you have two layers of warning. MigraineCast shows when pressure drops are coming up to a week ahead, and logging ear fullness with your attacks helps you confirm whether it really does arrive on pressure-change days, which can help you decide when to act.</p>
+
+      <blockquote>
+        <p>Your ears may sense the pressure drop first. MigraineCast can show you it's coming. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can migraines make your ears feel full?</h3>
+      <p>Yes. Ear fullness or pressure is reported by many people with migraine, especially those with vestibular migraine. It can appear before or during an attack.</p>
+
+      <h3>Why do my ears feel blocked before a storm?</h3>
+      <p>Falling barometric pressure can create a temporary pressure difference in the middle ear. If your Eustachian tubes are slow to equalize, the ear may feel blocked. Some people notice this along with migraine symptoms.</p>
+
+      <h3>How do I know if it's my ears or a migraine?</h3>
+      <p>Fullness that comes with headaches, light sensitivity, or dizziness and clears between attacks suggests migraine involvement. Ear pain, discharge, hearing loss, or persistent symptoms should be evaluated by a doctor.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "vestibular-migraine",
+    title: "Vestibular Migraine: When Dizziness Is the Main Symptom",
+    excerpt:
+      "Not every migraine is a headache. Vestibular migraine can cause vertigo, imbalance, and motion sensitivity with little or no head pain, and it's one of the most common causes of recurring dizziness.",
+    date: "September 4, 2026",
+    category: "Science",
+    content: `
+      <p>Imagine having episodes of spinning, swaying, or feeling off-balance, sometimes for minutes, sometimes for days, with only a mild headache or none at all. Many people with vestibular migraine go years without a diagnosis because they don't connect their dizziness with migraine.</p>
+
+      <h2>What Vestibular Migraine Is</h2>
+
+      <p>Vestibular migraine is a type of migraine in which the main symptoms involve the vestibular system, the network in your inner ear and brain that controls balance and spatial orientation. It's thought to be one of the most common causes of recurrent episodic vertigo.</p>
+
+      <h2>Common Symptoms</h2>
+      <ul>
+        <li>Vertigo, a false sense that you or the room is spinning</li>
+        <li>Unsteadiness or rocking, like being on a boat</li>
+        <li>Dizziness triggered by head movement</li>
+        <li>Motion sensitivity in cars, crowds, or busy screens</li>
+        <li>Nausea</li>
+        <li>Light and sound sensitivity</li>
+        <li><a href="/blog/ear-fullness-migraine">Ear fullness</a> or <a href="/blog/migraine-tinnitus">tinnitus</a></li>
+        <li>Headache, which may happen before, during, after, or not at all</li>
+      </ul>
+
+      <p>Episodes can last from a few minutes to several days. Many people also feel a lingering sense of imbalance between attacks.</p>
+
+      <h2>How It's Diagnosed</h2>
+
+      <p>There's no single test. Diagnosis is based on your history: repeated vestibular episodes of moderate or severe intensity lasting 5 minutes to 72 hours, a current or past history of migraine, and migraine features like headache, light sensitivity, or visual aura during at least half of the episodes. Doctors often order hearing tests or balance tests to rule out other conditions, such as Ménière's disease, benign positional vertigo, or inner ear infections.</p>
+
+      <p>Our guide on <a href="/blog/prepare-for-neurology-appointment">preparing for a neurology appointment</a> can help you describe your symptoms clearly.</p>
+
+      <h2>Common Triggers</h2>
+
+      <p>Triggers are similar to other migraine types: sleep disruption, stress, hormonal changes, certain foods, bright or flickering light, and weather changes. Many people with vestibular migraine say barometric pressure changes are a strong trigger, possibly because the inner ear is already involved.</p>
+
+      <h2>Treatment Options</h2>
+
+      <p>Treatment usually follows the same principles as other migraines:</p>
+      <ul>
+        <li><strong>Lifestyle measures</strong> like regular sleep, meals, hydration, and trigger management</li>
+        <li><strong>Vestibular rehabilitation therapy,</strong> a type of physical therapy that helps the brain adapt to balance signals</li>
+        <li><strong>Preventive medications</strong> commonly used for migraine</li>
+        <li><strong>Acute treatment</strong> for attacks, including anti-nausea medication</li>
+      </ul>
+
+      <p>Your doctor can help you find the right combination.</p>
+
+      <h2>When Dizziness Needs Urgent Care</h2>
+
+      <p>Sudden severe dizziness with weakness, numbness, facial drooping, slurred speech, double vision, or trouble walking can be signs of a stroke. Call emergency services immediately. Our post on <a href="/blog/migraine-red-flags-urgent-care">migraine red flags</a> lists more warning signs.</p>
+
+      <h2>Spotting Your Weather Pattern</h2>
+
+      <p>If you suspect pressure changes affect your dizziness, tracking is the only way to know. MigraineCast tracks barometric pressure and other conditions in the background, and when you log episodes, including dizziness-only episodes, the Insights tab helps you see whether they cluster around weather changes. That kind of record is also very helpful at a neurology appointment.</p>
+
+      <blockquote>
+        <p>Dizzy days count too. Log them and see what the weather was doing. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can you have a migraine without a headache but with dizziness?</h3>
+      <p>Yes. In vestibular migraine, dizziness or vertigo can be the main symptom, and headache may be mild or absent in some episodes.</p>
+
+      <h3>How long does vestibular migraine last?</h3>
+      <p>Episodes typically last from about 5 minutes to 72 hours, though some people have lingering imbalance between episodes.</p>
+
+      <h3>Can weather trigger vestibular migraine?</h3>
+      <p>Many people with vestibular migraine report that barometric pressure changes trigger their episodes. Tracking your symptoms alongside weather can help confirm whether that's true for you.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-brain-fog",
+    title: "Migraine Brain Fog: Why Thinking Clearly Can Feel Impossible",
+    excerpt:
+      "Losing your train of thought, rereading the same email five times, feeling like your brain is wrapped in cotton. Migraine brain fog is real, and it can happen before, during, and after the pain.",
+    date: "September 5, 2026",
+    category: "Science",
+    content: `
+      <p>Many people describe the cognitive side of migraine as one of the most frustrating parts. The pain is obvious. The fog is harder to explain. You can't concentrate, words don't come, and simple tasks take far longer than they should. It's not laziness or imagination. It's a recognized part of the migraine experience.</p>
+
+      <h2>What Migraine Brain Fog Feels Like</h2>
+      <ul>
+        <li>Trouble concentrating or following conversations</li>
+        <li>Slower thinking and reaction times</li>
+        <li>Forgetting what you were about to do</li>
+        <li>Difficulty finding words (see our post on <a href="/blog/migraine-aphasia">migraine aphasia</a>)</li>
+        <li>Feeling detached, spacey, or "not all there"</li>
+        <li>Mental fatigue after small tasks</li>
+      </ul>
+
+      <h2>When It Happens</h2>
+
+      <p><strong>Prodrome.</strong> Brain fog can start hours or even a day before pain. Many people notice they're struggling to focus before they realize a migraine is coming. Our post on <a href="/blog/migraine-prodrome-signs">prodrome signs</a> covers this early phase.</p>
+
+      <p><strong>Headache phase.</strong> Pain, nausea, and sensory overload make thinking difficult, and the brain changes during an attack affect attention and memory directly.</p>
+
+      <p><strong>Postdrome.</strong> The "migraine hangover" often includes heavy fog for a day or more after pain ends. See our guide to the <a href="/blog/postdrome-migraine-hangover">postdrome</a>.</p>
+
+      <p>For people with frequent migraines, these phases can overlap, meaning fog shows up more days than not.</p>
+
+      <h2>Why It Happens</h2>
+
+      <p>Migraine involves widespread changes in brain activity, not just pain signaling. Studies show altered function in brain networks responsible for attention and executive function during attacks. Medication side effects, poor sleep, and the mental effort of coping with pain also play a role. Some preventive medications can cause cognitive side effects, so it's worth discussing with your doctor if fog worsened after starting a new medication.</p>
+
+      <h2>Coping Strategies</h2>
+      <ul>
+        <li><strong>Treat early.</strong> Shortening the attack shortens the fog.</li>
+        <li><strong>Externalize your memory.</strong> Use lists, reminders, and notes so you don't need to rely on recall during fog days.</li>
+        <li><strong>Batch hard thinking</strong> for your clearest days and times.</li>
+        <li><strong>Simplify on fog days.</strong> Choose routine tasks over complex ones.</li>
+        <li><strong>Reduce sensory load:</strong> dim screens, quiet environment, fewer tabs open. Our post on <a href="/blog/working-from-home-migraine">a low-sensory work-from-home setup</a> has ideas.</li>
+        <li><strong>Rest during postdrome</strong> instead of trying to catch up immediately.</li>
+      </ul>
+
+      <h2>When to See a Doctor</h2>
+
+      <p>Talk to a doctor if your fog is getting worse, happens outside of migraine episodes, or comes with confusion, memory loss, or other new neurological symptoms. Sudden confusion with a severe headache needs urgent care.</p>
+
+      <h2>Plan Your Clear-Headed Days</h2>
+
+      <p>If fog tends to arrive with your weather-triggered attacks, a forecast can help you plan around it. MigraineCast shows pressure and temperature changes up to 7 days ahead, so you can schedule demanding work for calm-weather days and keep foggy-risk days lighter. Logging your attacks also helps you see how often fog days really come and whether they're clustering around certain conditions.</p>
+
+      <blockquote>
+        <p>Put your hardest work on your clearest days. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a> to see which days those are likely to be.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can migraines cause brain fog?</h3>
+      <p>Yes. Difficulty concentrating, slowed thinking, and memory lapses are common during the prodrome, headache, and postdrome phases of migraine.</p>
+
+      <h3>How long does migraine brain fog last?</h3>
+      <p>It can start hours before an attack and last up to a day or two after pain ends. For people with frequent migraines, it may be present on many days.</p>
+
+      <h3>Can migraine brain fog be permanent?</h3>
+      <p>Migraine-related fog is generally temporary and tied to attacks. If cognitive problems are constant or worsening, see a doctor to rule out other causes.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-aphasia",
+    title: "Migraine Aphasia: When You Can't Find the Words You Mean",
+    excerpt:
+      "Mixing up words, struggling to speak, or not understanding what you're reading can happen during migraine with aura. It's frightening, and it's also one of the symptoms that deserves careful evaluation.",
+    date: "September 6, 2026",
+    category: "Science",
+    content: `
+      <p>You go to say "coffee" and "kettle" comes out. You stare at a text message and the words won't make sense. You know exactly what you want to say but can't get it out. For some people with migraine, language problems are part of an attack. It's called migraine-related aphasia, and it can be one of the scariest symptoms to experience.</p>
+
+      <h2>What Migraine Aphasia Is</h2>
+
+      <p>Aphasia means difficulty with language. In migraine, it's usually a form of aura, the same category of temporary neurological symptoms as the visual disturbances many people know. Our guide to <a href="/blog/migraine-with-aura-symptoms">migraine with aura symptoms</a> covers the full range.</p>
+
+      <p>It can include:</p>
+      <ul>
+        <li>Trouble finding words</li>
+        <li>Using the wrong word or jumbled words</li>
+        <li>Slurred or halting speech</li>
+        <li>Difficulty understanding speech or reading</li>
+        <li>Trouble writing or typing</li>
+      </ul>
+
+      <h2>How It Typically Behaves</h2>
+
+      <p>Migraine aura usually develops gradually over 5 minutes or more, lasts up to about an hour, and fully resolves. Language aura often follows visual aura or numbness, and headache may come after, though not always. Many people with language aura also have tingling that spreads in the hand or face.</p>
+
+      <p>This is different from the general <a href="/blog/migraine-brain-fog">brain fog</a> many people get, where thinking feels slow. True aphasia is a specific breakdown in language processing.</p>
+
+      <h2>Why It Happens</h2>
+
+      <p>Aura is thought to be caused by cortical spreading depression, a slow wave of altered electrical activity moving across the brain's surface. When that wave passes through areas involved in language, usually on the left side, speech and comprehension are temporarily affected.</p>
+
+      <h2>Why It Needs Medical Attention</h2>
+
+      <p>Language problems are also a classic sign of stroke. The key differences are that stroke symptoms usually start suddenly rather than spreading gradually, and they don't fully resolve on their own. But it is not always possible to tell the difference yourself.</p>
+
+      <p><strong>Call emergency services if:</strong></p>
+      <ul>
+        <li>This is the first time you've had language problems</li>
+        <li>Symptoms start suddenly or come with weakness, facial drooping, or vision loss</li>
+        <li>Symptoms last longer than an hour or don't fully go away</li>
+        <li>The episode is different from your usual pattern</li>
+      </ul>
+
+      <p>Even if you have a known diagnosis, talk to your doctor about language aura. It can affect which treatments are appropriate. Our post on <a href="/blog/hemiplegic-migraine">hemiplegic migraine</a> and our <a href="/blog/migraine-red-flags-urgent-care">migraine red flags guide</a> have more.</p>
+
+      <h2>Living With Language Aura</h2>
+      <ul>
+        <li>Let close people know what your aura looks like so they can recognize it and help</li>
+        <li>Keep a card or phone note explaining that you have migraine with aura</li>
+        <li>Avoid driving or important conversations during aura</li>
+        <li>Rest somewhere quiet until it passes</li>
+      </ul>
+
+      <h2>Record It While It's Fresh</h2>
+
+      <p>Aura episodes are easy to forget once they're over, but they're important information for your doctor. When you log an attack in MigraineCast, recording aura symptoms like speech trouble, along with timing, helps you build a reliable record you can export with the Download Report feature in Insights and bring to your next appointment.</p>
+
+      <blockquote>
+        <p>Bring your doctor a clear record, not a fuzzy memory. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can a migraine affect your speech?</h3>
+      <p>Yes. Some people experience language aura, which can cause trouble finding words, jumbled speech, or difficulty understanding language. It's usually temporary.</p>
+
+      <h3>How long does migraine aphasia last?</h3>
+      <p>Language aura usually lasts from a few minutes up to about an hour and then fully resolves.</p>
+
+      <h3>How do I know if it's a migraine or a stroke?</h3>
+      <p>You can't always tell. Stroke symptoms often start suddenly and don't fully resolve, while aura tends to spread gradually and go away. Any first-time, sudden, or unusual language problem should be treated as an emergency.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-nausea",
+    title: "Why Migraine Can Cause Nausea, Even Before Head Pain",
+    excerpt:
+      "Nausea is one of the most common migraine symptoms, and for some people it shows up before the headache. Here's what's going on in the brain and gut, and how to manage it.",
+    date: "September 8, 2026",
+    category: "Science",
+    content: `
+      <p>For many people with migraine, nausea is just as disabling as the pain. It can make it hard to eat, drink, or keep medication down. And sometimes it shows up first, a queasy, unsettled stomach that's the first sign an attack is on its way.</p>
+
+      <h2>How Common Is It?</h2>
+
+      <p>Nausea is so common in migraine that it's one of the formal diagnostic features. A large share of people with migraine experience it during attacks, and some also vomit.</p>
+
+      <h2>Why Migraine Causes Nausea</h2>
+
+      <p><strong>Brainstem involvement.</strong> Migraine activates areas of the brainstem that are closely connected to the brain's nausea and vomiting centers. That's why nausea can happen even without anything wrong in your stomach.</p>
+
+      <p><strong>Hypothalamus changes in the prodrome.</strong> The hypothalamus, active in the early phase of migraine, also influences appetite and digestion. That may explain why nausea, food cravings, or loss of appetite can appear hours before pain. Our post on <a href="/blog/migraine-prodrome-signs">prodrome signs</a> covers this.</p>
+
+      <p><strong>Slowed digestion.</strong> Research shows the stomach can empty more slowly during migraine attacks, a process called gastric stasis. Slow digestion adds to nausea and also means oral medication may be absorbed more slowly.</p>
+
+      <p><strong>The gut-brain axis.</strong> The gut and brain communicate constantly through nerves and chemical signals like serotonin. Migraine affects that communication.</p>
+
+      <h2>Why This Matters for Treatment</h2>
+
+      <p>If your stomach is slow or you're vomiting, tablets may not work well. That's one reason <a href="/blog/migraine-medication-timing">taking medication early</a> matters, before gastric stasis sets in. It's also why some migraine treatments come as nasal sprays, injections, or dissolving tablets. Ask your doctor whether a non-oral option makes sense for you.</p>
+
+      <h2>Ways to Ease Migraine Nausea</h2>
+      <ul>
+        <li><strong>Treat early</strong> while your stomach is still cooperating</li>
+        <li><strong>Ask about anti-nausea medication.</strong> Some can also help the migraine itself and improve absorption of other medications</li>
+        <li><strong>Sip slowly:</strong> cold water, ginger tea, or electrolyte drinks in small amounts</li>
+        <li><strong>Try ginger,</strong> which has some evidence for nausea relief</li>
+        <li><strong>Eat bland foods</strong> like crackers or toast if you can manage. Our post on the <a href="/blog/best-foods-during-migraine">best foods during a migraine</a> has more ideas</li>
+        <li><strong>Avoid strong smells,</strong> which can worsen both nausea and pain</li>
+        <li><strong>Rest in a dark, cool room</strong> with your head slightly raised</li>
+        <li><strong>Try cold on the neck,</strong> which some find soothing. See <a href="/blog/cold-therapy-migraine">cold therapy for migraines</a></li>
+      </ul>
+
+      <h2>When to Get Help</h2>
+
+      <p>Seek medical care if you can't keep fluids down for many hours, show signs of dehydration like very dark urine or dizziness when standing, or have vomiting with a severe new headache, fever, or stiff neck.</p>
+
+      <h2>Know When to Keep Medication Close</h2>
+
+      <p>If nausea is your early warning, you want your medication within reach before it starts. MigraineCast can help with timing on weather-sensitive days by forecasting pressure and temperature changes up to a week ahead. When a risky stretch is coming, you can make sure your medication, anti-nausea options, and fluids are close at hand.</p>
+
+      <blockquote>
+        <p>Treat early by knowing early. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why do migraines make you nauseous?</h3>
+      <p>Migraine activates brainstem areas connected to nausea centers, slows stomach emptying, and disrupts gut-brain signaling. Nausea can happen even when nothing is wrong with your stomach.</p>
+
+      <h3>Can nausea be the first sign of a migraine?</h3>
+      <p>Yes. For some people, nausea or appetite changes appear during the prodrome, hours before head pain begins.</p>
+
+      <h3>What helps migraine nausea fast?</h3>
+      <p>Treating the migraine early, anti-nausea medication from your doctor, sipping cold fluids, ginger, and resting in a dark, quiet room are common strategies.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-yawning",
+    title: "Migraine and Frequent Yawning: An Early Sign Most People Miss",
+    excerpt:
+      "Repeated yawning when you're not tired can be one of the earliest signs a migraine is on the way. Here's why it happens and how to use it as a warning.",
+    date: "September 9, 2026",
+    category: "Science",
+    content: `
+      <p>Yawning seems harmless and ordinary. But for some people with migraine, a run of yawns, especially when they're not tired, is a reliable sign that an attack is coming within hours. It's one of the most overlooked prodrome symptoms.</p>
+
+      <h2>Yawning as a Prodrome Symptom</h2>
+
+      <p>The prodrome is the early phase of migraine that can start hours to a day or two before pain. It often includes subtle changes: fatigue, mood shifts, neck stiffness, food cravings, frequent urination, and yawning. Research on prodrome symptoms has found yawning to be among the more commonly reported early signs. Our <a href="/blog/migraine-prodrome-signs">prodrome guide</a> covers the full list.</p>
+
+      <h2>Why Migraine Might Cause Yawning</h2>
+
+      <p><strong>The hypothalamus.</strong> Brain imaging studies suggest the hypothalamus becomes active in the hours before a migraine. The hypothalamus regulates sleep, appetite, thirst, and other basic functions, and it's involved in triggering yawns.</p>
+
+      <p><strong>Dopamine.</strong> Yawning is linked to dopamine signaling. Changes in dopamine activity are thought to play a role in early migraine symptoms like yawning, nausea, and drowsiness. Some anti-nausea medications used in migraine work on dopamine receptors.</p>
+
+      <p><strong>Brain temperature regulation.</strong> One theory is that yawning helps cool the brain. Whether that's related to migraine is still unclear.</p>
+
+      <h2>How to Tell Prodrome Yawning From Normal Yawning</h2>
+      <ul>
+        <li>It comes in clusters, many yawns in a short time</li>
+        <li>It happens when you're well rested</li>
+        <li>It comes with other prodrome signs like neck stiffness, irritability, or craving sweets</li>
+        <li>It's followed by a migraine within hours</li>
+      </ul>
+
+      <p>The only way to know whether yawning predicts your attacks is to track it. Many people only connect the dots after they start paying attention. Our post on <a href="/blog/prodrome-phase-why-you-ignore-it">why people ignore the prodrome</a> explains why these signs are easy to miss.</p>
+
+      <h2>What to Do When the Yawns Start</h2>
+      <ul>
+        <li>Check what else might be stacking up: poor sleep, skipped meals, stress, or weather</li>
+        <li>Drink water and eat something if you haven't</li>
+        <li>Reduce screen time and bright light</li>
+        <li>Make sure your medication is close by</li>
+        <li>Follow your doctor's guidance on whether to treat in the prodrome</li>
+      </ul>
+
+      <p>Treating in prodrome is an active area of research. Some studies have looked at whether taking certain acute medications at prodrome onset can prevent the headache phase. Ask your doctor whether that's appropriate for you. See our post on <a href="/blog/migraine-medication-timing">medication timing</a>.</p>
+
+      <h2>Two Signals Are Better Than One</h2>
+
+      <p>Yawning is your body's warning. A weather forecast is an outside warning. When both line up, you have a much stronger reason to act. If MigraineCast is showing a pressure drop in the next day or two and you start yawning for no reason, that's the moment to start your early-intervention plan. Logging these prodrome signs with each attack also helps you learn how reliable they are for you.</p>
+
+      <blockquote>
+        <p>Combine your body's early warnings with the weather's. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Is yawning a sign of migraine?</h3>
+      <p>Frequent yawning can be a prodrome symptom of migraine, appearing hours before head pain. It's thought to be linked to changes in the hypothalamus and dopamine activity.</p>
+
+      <h3>How long after yawning does a migraine start?</h3>
+      <p>Prodrome symptoms can appear anywhere from a few hours to a day or two before pain, but timing varies by person.</p>
+
+      <h3>Can I stop a migraine when I notice early signs?</h3>
+      <p>Early action, like hydration, rest, avoiding triggers, and taking medication if your doctor recommends it, may reduce severity or prevent an attack for some people.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-chills-sweats",
+    title: "Chills, Sweats, and Feeling Feverish During a Migraine",
+    excerpt:
+      "Shivering under a blanket one minute, sweating the next. Temperature swings during a migraine are common, and they come from the same part of the brain that helps kick off an attack.",
+    date: "September 10, 2026",
+    category: "Science",
+    content: `
+      <p>Many people notice their body temperature goes haywire during a migraine. Hands and feet go icy, you get chills, then you're suddenly sweating. Some feel flushed and feverish without actually having a fever. These symptoms are less talked about than pain or nausea, but they're common.</p>
+
+      <h2>Why Migraine Affects Body Temperature</h2>
+
+      <p><strong>The hypothalamus.</strong> Your hypothalamus is your internal thermostat, and it's thought to be active in the early stages of migraine. When it's disrupted, temperature regulation can become unstable.</p>
+
+      <p><strong>The autonomic nervous system.</strong> Migraine affects the autonomic nervous system, which controls automatic functions like sweating, blood vessel size, heart rate, and digestion. That can lead to:</p>
+      <ul>
+        <li>Cold hands and feet from blood vessels narrowing in the extremities</li>
+        <li>Facial flushing or pallor</li>
+        <li>Sweating</li>
+        <li>Goosebumps and chills</li>
+      </ul>
+
+      <p><strong>Nausea and vomiting.</strong> Nausea often brings cold sweats. See our post on <a href="/blog/migraine-nausea">why migraine causes nausea</a>.</p>
+
+      <p><strong>Pain response.</strong> Intense pain itself can trigger sweating and chills through the body's stress response.</p>
+
+      <h2>Do Migraines Cause Fever?</h2>
+
+      <p>Migraine can make you feel feverish, but it doesn't typically cause a true fever. If you have a measured temperature of 100.4°F (38°C) or higher with a headache, it's important to consider other causes such as infection.</p>
+
+      <p><strong>Seek urgent care</strong> for a headache with fever and a stiff neck, confusion, a rash, or sensitivity to light that's different from your usual migraine. These can be signs of meningitis or another serious condition. Our <a href="/blog/migraine-red-flags-urgent-care">migraine red flags guide</a> covers more.</p>
+
+      <h2>Managing Temperature Symptoms</h2>
+      <ul>
+        <li><strong>Layer up so you can adjust.</strong> A light blanket you can easily throw off helps with alternating chills and sweats.</li>
+        <li><strong>Cold on the head, warmth on the feet.</strong> Some people find an ice pack on the head or neck plus warm socks helpful. See <a href="/blog/cold-therapy-migraine">cold therapy for migraines</a>.</li>
+        <li><strong>Replace fluids</strong> if you're sweating or vomiting.</li>
+        <li><strong>Keep the room comfortable,</strong> neither hot nor cold.</li>
+        <li><strong>Treat the migraine early,</strong> which usually helps all associated symptoms.</li>
+      </ul>
+
+      <h2>The Weather Angle</h2>
+
+      <p>Hot, humid weather and sudden cold snaps can make temperature regulation harder for anyone, and they're also common migraine triggers. Our posts on <a href="/blog/heat-headaches">heat headaches</a> and <a href="/blog/cold-weather-headaches">cold weather headaches</a> explain more. MigraineCast tracks temperature, humidity, and pressure, and forecasts them up to 7 days ahead, so you can see whether attacks with strong chills or sweating tend to land during temperature extremes or sharp swings.</p>
+
+      <blockquote>
+        <p>Spot the temperature swings before they start working against you. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why do I get chills during a migraine?</h3>
+      <p>Migraine can disrupt the hypothalamus and autonomic nervous system, which control body temperature, blood vessel size, and sweating. This can cause chills, cold hands and feet, and sweating.</p>
+
+      <h3>Can a migraine give you a fever?</h3>
+      <p>Migraine can make you feel feverish but usually doesn't cause a true fever. A measured fever with a headache should be evaluated, especially if you also have a stiff neck, rash, or confusion.</p>
+
+      <h3>Is sweating during a migraine normal?</h3>
+      <p>Sweating is a common autonomic symptom during migraine, often linked with nausea or intense pain.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-facial-pain",
+    title: "Migraine and Facial Pain: Why It Can Feel Like Tooth or Sinus Trouble",
+    excerpt:
+      "Pain in your cheek, teeth, or around your eyes doesn't always mean a sinus infection or dental problem. Migraine can cause facial pain because of how the trigeminal nerve is wired.",
+    date: "September 11, 2026",
+    category: "Science",
+    content: `
+      <p>Some migraines don't stay in the head. Pain can spread into the cheeks, upper teeth, jaw, or around the eyes. Many people end up at the dentist or on antibiotics for a "sinus infection" before anyone suggests migraine. Understanding why can save a lot of frustration.</p>
+
+      <h2>The Trigeminal Nerve Connection</h2>
+
+      <p>The trigeminal nerve is the main pain pathway in migraine. It has three branches:</p>
+      <ul>
+        <li><strong>Ophthalmic branch:</strong> forehead, eyes, and scalp</li>
+        <li><strong>Maxillary branch:</strong> cheeks, upper teeth, nose, and sinuses</li>
+        <li><strong>Mandibular branch:</strong> lower jaw, lower teeth, and parts of the ear</li>
+      </ul>
+
+      <p>Most migraine pain runs through the ophthalmic branch, which is why it often centers around the eye and temple. But when pain signals spread, the brain can perceive pain in areas served by the other branches too. Our <a href="/blog/trigeminal-nerve-and-migraine">trigeminal nerve guide</a> and <a href="/blog/trigeminal-nerve-activation-symptoms">trigeminal activation symptoms</a> post explain this in detail.</p>
+
+      <h2>Why It Gets Mistaken for Sinus Problems</h2>
+
+      <p>Migraine can cause a runny or stuffy nose, watery eyes, and facial pressure, symptoms that sound a lot like sinusitis. Studies have found that most people who believe they have recurring "sinus headaches" actually meet the criteria for migraine. Our post on <a href="/blog/pollen-allergies-migraines">pollen, allergies, and migraines</a> covers how to tell them apart.</p>
+
+      <h2>Why It Gets Mistaken for Dental Pain</h2>
+
+      <p>Pain in the upper or lower teeth can come from migraine through the maxillary and mandibular branches. Some people undergo dental treatment that doesn't help because the source was neurological. If your "toothache" comes and goes with other migraine features, it may be worth raising with your doctor before more dental work. Of course, real dental problems are common too, so a dental exam is still sensible.</p>
+
+      <h2>Facial Migraine</h2>
+
+      <p>Some headache specialists recognize a pattern where migraine pain occurs mainly in the face rather than the head. It behaves like migraine, with throbbing pain, light sensitivity, and nausea, and responds to migraine treatment.</p>
+
+      <h2>Other Causes to Rule Out</h2>
+      <ul>
+        <li>Trigeminal neuralgia: sudden, electric-shock-like jabs of pain lasting seconds</li>
+        <li>Cluster headache: severe pain around one eye with tearing and nasal congestion on the same side, often at the same time each day</li>
+        <li>TMJ disorders: see our post on <a href="/blog/tmj-and-migraine">TMJ and migraine</a></li>
+        <li>Dental infections and true sinus infections</li>
+      </ul>
+
+      <h2>Clues It's Migraine</h2>
+      <ul>
+        <li>Pain lasts hours to days, then goes away completely</li>
+        <li>Comes with light or sound sensitivity or nausea</li>
+        <li>Gets worse with movement</li>
+        <li>Follows your usual triggers like sleep loss, hormones, or weather</li>
+      </ul>
+
+      <h2>Weather and Facial Pain</h2>
+
+      <p>Pressure changes are often blamed on the sinuses, but for many people the real issue is migraine. If you notice facial pain mostly when the weather changes, tracking helps. MigraineCast records pressure and other conditions automatically, and when you log attacks with facial pain, you can see in the Insights tab whether they follow pressure swings. That's useful evidence to bring to a doctor who's trying to figure out whether it's sinus, dental, or migraine.</p>
+
+      <blockquote>
+        <p>Find out whether your "sinus headaches" follow the barometer. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can migraines cause facial pain?</h3>
+      <p>Yes. Migraine pain travels through the trigeminal nerve, which also supplies the face, cheeks, teeth, and jaw. Pain can be felt in any of those areas.</p>
+
+      <h3>Is it a sinus headache or a migraine?</h3>
+      <p>Many self-diagnosed sinus headaches are migraines. Light sensitivity, nausea, and pain that comes and goes without fever or thick, discolored mucus point toward migraine.</p>
+
+      <h3>Can a migraine cause tooth pain?</h3>
+      <p>Yes, migraine can be felt as pain in the upper or lower teeth. A dental exam is still recommended to rule out dental causes.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-jaw-pain",
+    title: "Migraine and Jaw Pain: When Clenching Is a Symptom, Not the Cause",
+    excerpt:
+      "Jaw pain and migraine often travel together. Sometimes clenching contributes to attacks, and sometimes the migraine itself makes your jaw ache. Here's how to tell which is which.",
+    date: "September 13, 2026",
+    category: "Science",
+    content: `
+      <p>It's common to wake up with a sore jaw and a migraine and assume one caused the other. Often it's assumed that clenching or grinding triggers the migraine. Sometimes that's true. But migraine can also cause jaw pain on its own, and sometimes clenching is a reaction to an attack that's already underway.</p>
+
+      <h2>How Migraine Can Cause Jaw Pain</h2>
+
+      <p><strong>Trigeminal nerve.</strong> The mandibular branch of the trigeminal nerve supplies the jaw and chewing muscles. During migraine, pain can spread into this area. See our post on <a href="/blog/migraine-facial-pain">migraine and facial pain</a>.</p>
+
+      <p><strong>Central sensitization.</strong> During an attack, the nervous system becomes more sensitive, so normal muscle tension in the jaw can feel painful. This is related to <a href="/blog/allodynia-migraine-scalp-pain">allodynia</a>.</p>
+
+      <p><strong>Clenching as a response.</strong> Many people clench their jaw in response to pain or stress, often without noticing. During a migraine, that clenching can add another layer of pain.</p>
+
+      <h2>When Clenching Contributes to Migraine</h2>
+
+      <p>On the other side, nighttime grinding (bruxism) and daytime clenching can tire and tense the jaw, temple, and neck muscles. That tension can feed into headaches and may lower migraine threshold for some people. Stress, poor sleep, and sleep apnea are linked to grinding.</p>
+
+      <h2>Which Came First?</h2>
+      <p>Clues that jaw pain is a migraine symptom:</p>
+      <ul>
+        <li>Jaw pain appears during attacks and resolves with them</li>
+        <li>It comes with other migraine features like light sensitivity or nausea</li>
+        <li>It responds to migraine treatment</li>
+      </ul>
+
+      <p>Clues that clenching or TMJ is a contributor:</p>
+      <ul>
+        <li>Jaw pain or tightness most mornings, even without migraine</li>
+        <li>Clicking, popping, or locking of the jaw</li>
+        <li>Worn teeth or a dentist noticing grinding</li>
+        <li>Pain when chewing</li>
+      </ul>
+
+      <p>Many people have both. Our post on <a href="/blog/tmj-and-migraine">TMJ disorders and migraine</a> covers the overlap.</p>
+
+      <h2>What Can Help</h2>
+      <ul>
+        <li>Notice your jaw during the day: lips together, teeth apart, tongue resting on the roof of your mouth</li>
+        <li>Ask a dentist about a night guard if you grind</li>
+        <li>Use warm compresses on tight jaw muscles between attacks</li>
+        <li>Avoid chewing gum and very hard foods when your jaw is sore</li>
+        <li>Address stress and sleep, which drive clenching</li>
+        <li>Consider physical therapy for jaw and neck tension; see our post on <a href="/blog/neck-tension-and-migraines">neck tension and migraines</a></li>
+      </ul>
+
+      <h2>Track It to Untangle It</h2>
+
+      <p>The best way to figure out the relationship is to notice when jaw pain shows up. Logging jaw symptoms with your attacks in MigraineCast helps you see whether they mostly arrive during migraines or also on non-migraine days. And because the app tracks the weather, you can also rule weather triggers in or out, so you're not blaming your jaw for attacks that are actually following pressure changes.</p>
+
+      <blockquote>
+        <p>Untangle your triggers with real data. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can a migraine cause jaw pain?</h3>
+      <p>Yes. The trigeminal nerve supplies the jaw, so migraine pain can spread there. Clenching during an attack can also add to jaw discomfort.</p>
+
+      <h3>Can teeth grinding cause migraines?</h3>
+      <p>Grinding and clenching can cause muscle tension in the jaw and temples, which may contribute to headaches and lower migraine threshold for some people.</p>
+
+      <h3>How do I stop clenching my jaw?</h3>
+      <p>Practice keeping teeth apart during the day, manage stress, improve sleep, and ask a dentist about a night guard if you grind at night.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "abdominal-migraine-adults",
+    title: "Abdominal Migraine in Adults: The Often-Missed Diagnosis",
+    excerpt:
+      "Abdominal migraine is usually thought of as a childhood condition, but adults can have it too. Recurring episodes of belly pain and nausea with no clear cause may deserve a second look.",
+    date: "September 14, 2026",
+    category: "Science",
+    content: `
+      <p>Abdominal migraine causes recurring episodes of moderate to severe stomach pain, often with nausea, vomiting, and loss of appetite, with little or no headache. It's most often diagnosed in children, and many outgrow it, often going on to develop typical migraines. But some adults have it too, and because few doctors think of it in adults, it can go unrecognized for years.</p>
+
+      <h2>What Abdominal Migraine Looks Like</h2>
+      <ul>
+        <li>Episodes of dull or aching pain around the belly button or in the middle of the abdomen</li>
+        <li>Episodes lasting from a couple of hours to a few days</li>
+        <li>Nausea, vomiting, loss of appetite, and pale skin</li>
+        <li>Complete recovery between episodes</li>
+        <li>Often a personal or family history of migraine</li>
+      </ul>
+
+      <p>Some people also have light sensitivity, fatigue, or a headache during episodes.</p>
+
+      <h2>Why the Gut and Migraine Are Linked</h2>
+
+      <p>The gut and brain communicate through the vagus nerve and chemical messengers like serotonin. Migraine affects that communication, which is why nausea and slowed digestion are so common during regular attacks. See our post on <a href="/blog/migraine-nausea">why migraine causes nausea</a>. In abdominal migraine, the gut symptoms take center stage.</p>
+
+      <h2>Why It's Missed in Adults</h2>
+      <ul>
+        <li>It's associated mainly with children in medical education</li>
+        <li>Abdominal pain has so many potential causes that doctors work through those first</li>
+        <li>People don't connect belly pain with migraine, so they don't mention their headache history</li>
+      </ul>
+
+      <h2>Conditions to Rule Out</h2>
+
+      <p>Abdominal migraine is a diagnosis made after other causes are excluded. Doctors may check for gallbladder disease, ulcers, inflammatory bowel disease, pancreatitis, kidney stones, gynecological conditions, and cyclic vomiting syndrome, which is closely related. Irritable bowel syndrome is also common in people with migraine.</p>
+
+      <p><strong>Seek emergency care</strong> for severe or worsening abdominal pain, pain with fever, blood in vomit or stool, a rigid belly, or pain that's different from your usual pattern.</p>
+
+      <h2>Triggers and Treatment</h2>
+
+      <p>Triggers are often similar to other migraines: stress, poor sleep, irregular meals, travel, and certain foods. Some people notice patterns with weather or hormones. Treatment typically includes:</p>
+      <ul>
+        <li>Identifying and reducing triggers</li>
+        <li>Regular meals and hydration</li>
+        <li>Rest in a quiet, dark room during episodes</li>
+        <li>Anti-nausea medication and, in some cases, migraine-specific medications</li>
+        <li>Preventive treatment if episodes are frequent</li>
+      </ul>
+
+      <p>A doctor can guide you through options.</p>
+
+      <h2>Building Your Case</h2>
+
+      <p>Because diagnosis relies on pattern, a good record is valuable. Logging each episode with timing and symptoms in MigraineCast gives you a timeline to share with your doctor, and since the app tracks the weather too, you'll also see whether episodes cluster around pressure or temperature changes. Our guide on <a href="/blog/prepare-for-neurology-appointment">preparing for a neurology appointment</a> has more tips on presenting it.</p>
+
+      <blockquote>
+        <p>A clear record can help shorten the road to a diagnosis. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can adults get abdominal migraines?</h3>
+      <p>Yes. Abdominal migraine is more common in children but can occur in adults. It causes recurring episodes of abdominal pain, nausea, and vomiting, with full recovery in between.</p>
+
+      <h3>What does an abdominal migraine feel like?</h3>
+      <p>Typically a dull, aching pain around the belly button or middle abdomen, often with nausea, vomiting, loss of appetite, and paleness, lasting hours to days.</p>
+
+      <h3>How is abdominal migraine diagnosed?</h3>
+      <p>It's diagnosed based on the pattern of episodes after other causes of abdominal pain have been ruled out. A personal or family history of migraine supports the diagnosis.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "hemiplegic-migraine",
+    title: "Hemiplegic Migraine: Symptoms, Red Flags, and Why It Needs Medical Attention",
+    excerpt:
+      "Hemiplegic migraine causes temporary weakness on one side of the body as part of the aura. It's rare, it can look like a stroke, and it changes which treatments are safe.",
+    date: "September 15, 2026",
+    category: "Science",
+    content: `
+      <p>Hemiplegic migraine is a rare form of migraine with aura in which the aura includes temporary weakness on one side of the body. It can be frightening and can closely resemble a stroke, which is why it always needs proper medical evaluation.</p>
+
+      <h2>What Makes It Different</h2>
+
+      <p>In typical migraine with aura, people may have visual changes, tingling, or speech problems. In hemiplegic migraine, the aura also includes motor weakness, which can affect the face, arm, or leg on one side. Our <a href="/blog/migraine-with-aura-symptoms">guide to migraine with aura</a> explains the other aura types.</p>
+
+      <h2>Symptoms</h2>
+      <ul>
+        <li>Weakness on one side of the body</li>
+        <li>Visual aura such as zigzag lines or blind spots</li>
+        <li>Numbness or tingling, often spreading</li>
+        <li>Speech or language problems; see <a href="/blog/migraine-aphasia">migraine aphasia</a></li>
+        <li>Confusion or drowsiness in some cases</li>
+        <li>Headache, which may come before, during, or after the aura</li>
+      </ul>
+
+      <p>Weakness can last from minutes to, in some cases, days. Rarely, more severe attacks can include fever, seizures, or reduced consciousness.</p>
+
+      <h2>Types</h2>
+
+      <p><strong>Familial hemiplegic migraine</strong> runs in families and is linked to specific gene variants. <strong>Sporadic hemiplegic migraine</strong> occurs in people without a family history. Genetic testing may be offered in some cases.</p>
+
+      <h2>Why It Needs Medical Attention</h2>
+
+      <p><strong>It can mimic stroke.</strong> One-sided weakness is a classic stroke sign. A first episode should always be treated as an emergency. Call emergency services rather than waiting to see if it passes.</p>
+
+      <p><strong>Diagnosis requires ruling out other causes.</strong> Doctors may use brain imaging and other tests to exclude stroke, seizures, and other conditions.</p>
+
+      <p><strong>It affects treatment choices.</strong> Some medications commonly used for typical migraine, such as triptans, have traditionally been avoided in hemiplegic migraine because of theoretical concerns about blood vessel narrowing. Guidance is evolving, so decisions should be made with a specialist. Our explainers on <a href="/blog/triptans-explained">triptans</a> and <a href="/blog/gepants-for-migraine">gepants</a> cover these medication classes in general.</p>
+
+      <h2>Red Flags to Never Ignore</h2>
+
+      <p>Call emergency services if you have:</p>
+      <ul>
+        <li>First-ever one-sided weakness or numbness</li>
+        <li>Weakness that comes on suddenly rather than gradually</li>
+        <li>Symptoms different from your known pattern</li>
+        <li>Symptoms lasting longer than usual</li>
+        <li>Confusion, seizure, or loss of consciousness</li>
+        <li>A sudden, severe "worst headache of your life"</li>
+      </ul>
+
+      <p>Our full <a href="/blog/migraine-red-flags-urgent-care">migraine red flags guide</a> lists more.</p>
+
+      <h2>Living With Hemiplegic Migraine</h2>
+      <ul>
+        <li>Carry a medical alert card or phone note explaining your diagnosis</li>
+        <li>Share an action plan with family, coworkers, and close friends</li>
+        <li>Don't drive during or after aura; see <a href="/blog/driving-with-migraine-aura">driving with migraine aura</a></li>
+        <li>Work with a headache specialist on prevention and acute treatment</li>
+        <li>Track triggers carefully</li>
+      </ul>
+
+      <h2>Triggers and Tracking</h2>
+
+      <p>Triggers are similar to other migraines and can include stress, sleep loss, certain foods, and, for some people, weather changes. Keeping a detailed record is especially important when every attack carries more risk. Logging attacks in MigraineCast, including aura symptoms and timing, builds a history that your specialist can review via the Download Report in Insights, and the app's weather tracking helps you see whether pressure or temperature changes play a part.</p>
+
+      <blockquote>
+        <p>Give your specialist the full picture. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is hemiplegic migraine?</h3>
+      <p>Hemiplegic migraine is a rare type of migraine with aura in which the aura includes temporary weakness on one side of the body, along with other aura symptoms.</p>
+
+      <h3>Is hemiplegic migraine dangerous?</h3>
+      <p>Most episodes resolve fully, but because the symptoms can mimic stroke and severe attacks can occur, it needs specialist evaluation and a clear plan.</p>
+
+      <h3>Can you take triptans with hemiplegic migraine?</h3>
+      <p>Triptans have traditionally been avoided in hemiplegic migraine, though guidance is evolving. Treatment decisions should be made with a headache specialist.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "alice-in-wonderland-syndrome-migraine",
+    title: "Alice in Wonderland Syndrome and Migraine: When Size and Distance Feel Wrong",
+    excerpt:
+      "Your hands look huge, the room seems to stretch away, or time speeds up. Alice in Wonderland syndrome is a rare perceptual disturbance often linked to migraine. Here's what it is.",
+    date: "September 16, 2026",
+    category: "Science",
+    content: `
+      <p>Imagine looking at your hand and seeing it as enormous, or watching the walls of a room seem to move far away. Objects might shrink, stretch, or appear distorted. Time might feel like it's speeding up or slowing down. This unusual experience has a fittingly whimsical name: Alice in Wonderland syndrome.</p>
+
+      <h2>What It Is</h2>
+
+      <p>Alice in Wonderland syndrome (AIWS) is a rare condition in which a person's perception of their body, surroundings, or time becomes temporarily distorted. It's named after Lewis Carroll's story, in which Alice grows and shrinks. Some have speculated that Carroll, who reportedly had migraines, drew on his own experiences.</p>
+
+      <h2>Common Experiences</h2>
+      <ul>
+        <li><strong>Micropsia:</strong> objects appear smaller than they are</li>
+        <li><strong>Macropsia:</strong> objects appear larger</li>
+        <li><strong>Teleopsia/pelopsia:</strong> objects seem farther away or closer than they are</li>
+        <li><strong>Body image distortion:</strong> hands, feet, or head feel or look too big or too small</li>
+        <li><strong>Time distortion:</strong> time feels sped up or slowed down</li>
+        <li><strong>Feeling detached</strong> from yourself or your surroundings</li>
+      </ul>
+
+      <p>Episodes are usually brief, from minutes to an hour, and the person typically knows that what they're experiencing isn't real.</p>
+
+      <h2>The Migraine Connection</h2>
+
+      <p>Migraine is one of the most commonly associated causes of AIWS, especially in children. The episodes may act like a type of aura, happening before or during a headache, or occurring without any head pain. It's thought to involve temporary changes in areas of the brain that integrate visual and body-position information, possibly related to the same spreading electrical wave behind other auras. Our posts on <a href="/blog/migraine-with-aura-symptoms">migraine with aura</a> and <a href="/blog/scintillating-scotoma-explained">scintillating scotoma</a> cover more familiar aura types.</p>
+
+      <h2>Other Possible Causes</h2>
+
+      <p>AIWS is also linked to viral infections, especially Epstein-Barr virus, as well as epilepsy, certain medications, and, rarely, other neurological conditions. That's why a first episode should be evaluated by a doctor, especially if it comes with other new symptoms.</p>
+
+      <h2>When to Seek Care</h2>
+
+      <p>See a doctor if you experience these symptoms for the first time. Seek urgent care if they come with a sudden severe headache, weakness, confusion, seizure, fever, or loss of consciousness.</p>
+
+      <h2>Coping During an Episode</h2>
+      <ul>
+        <li>Stop what you're doing and sit or lie down safely</li>
+        <li>Remind yourself it's temporary</li>
+        <li>Close your eyes if visual distortion is distressing</li>
+        <li>Don't drive until it passes completely</li>
+        <li>Follow your usual migraine plan if a headache follows</li>
+      </ul>
+
+      <p>Explaining AIWS to children who experience it can help reduce their fear. Let them know it's a known part of migraine for some people and that it goes away.</p>
+
+      <h2>Track Unusual Auras</h2>
+
+      <p>Unusual aura types are easy to forget or hard to describe later. When you log an attack in MigraineCast, recording what you experienced and when gives your doctor a clearer picture. Since the app also tracks weather, you'll see whether these episodes tend to follow the same triggers as your other attacks.</p>
+
+      <blockquote>
+        <p>Even strange symptoms are worth recording. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is Alice in Wonderland syndrome?</h3>
+      <p>It's a rare condition that causes temporary distortions in how you perceive the size, distance, or shape of objects, your own body, or the passage of time.</p>
+
+      <h3>Is Alice in Wonderland syndrome caused by migraine?</h3>
+      <p>Migraine is one of the most common associated causes, but it can also be linked to viral infections, epilepsy, and certain medications.</p>
+
+      <h3>Is Alice in Wonderland syndrome dangerous?</h3>
+      <p>Episodes are usually harmless and temporary, but a first episode should be evaluated by a doctor to rule out other causes.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-ears-vision-balance",
+    title: "Why Your Ears Ring, Your Vision Blurs, and Your Balance Changes Together",
+    excerpt:
+      "Tinnitus, blurry vision, and unsteadiness arriving at the same time can feel alarming. In migraine, they often share a common source: a sensory system that's turned up too high.",
+    date: "September 18, 2026",
+    category: "Science",
+    content: `
+      <p>Some migraine attacks bring a strange bundle of symptoms: ringing ears, blurry or shimmering vision, and a feeling that the floor isn't quite steady. It can feel like several things are going wrong at once. In many cases, though, they're different expressions of the same underlying process.</p>
+
+      <h2>The Common Thread: Sensory Integration</h2>
+
+      <p>Your brain constantly combines input from your eyes, inner ears, and body to tell you where you are and what's around you. The vestibular system in the inner ear handles balance and motion. The auditory system handles sound. The visual system handles sight. These systems share brainstem and cortical pathways and influence each other.</p>
+
+      <p>During migraine, the brain becomes hypersensitive and processes sensory information abnormally. When integration breaks down, you might get mismatched signals that show up as dizziness, visual blurring, and auditory symptoms together.</p>
+
+      <h2>How Each Symptom Fits</h2>
+
+      <p><strong>Ringing ears.</strong> Auditory hypersensitivity can amplify internal noise. See <a href="/blog/migraine-tinnitus">migraine-related tinnitus</a>.</p>
+
+      <p><strong>Blurry vision.</strong> Visual aura, light sensitivity, and changes in how the brain processes visual input can all blur vision. Our posts on <a href="/blog/optical-migraine-symptoms">optical migraine symptoms</a> and <a href="/blog/ocular-migraine-causes">ocular migraine causes</a> explain the visual side.</p>
+
+      <p><strong>Balance problems.</strong> Vestibular involvement can cause unsteadiness, motion sensitivity, or vertigo. When these are prominent, the diagnosis may be <a href="/blog/vestibular-migraine">vestibular migraine</a>.</p>
+
+      <p><strong>Ear fullness.</strong> Often part of the same cluster. See <a href="/blog/ear-fullness-migraine">ear fullness and migraine</a>.</p>
+
+      <h2>Visual Vertigo</h2>
+
+      <p>Many people with migraine find that busy visual environments, like grocery store aisles, scrolling screens, or crowds, trigger dizziness. This is called visual vertigo or visual motion sensitivity, and it reflects how strongly the visual and vestibular systems are linked.</p>
+
+      <h2>When It's Not Migraine</h2>
+
+      <p>A combination of dizziness, vision changes, and hearing symptoms can sometimes signal a stroke affecting the back of the brain, especially in older adults or those with vascular risk factors. <strong>Call emergency services</strong> for sudden onset, double vision, trouble walking, weakness, slurred speech, or sudden hearing loss. Our <a href="/blog/migraine-red-flags-urgent-care">red flags guide</a> has more.</p>
+
+      <h2>What Can Help</h2>
+      <ul>
+        <li>Rest somewhere quiet and dimly lit during an episode</li>
+        <li>Keep your head still and focus on a fixed point</li>
+        <li>Avoid screens and busy visual environments</li>
+        <li>Treat the migraine early</li>
+        <li>Ask your doctor about vestibular rehabilitation if balance symptoms persist</li>
+      </ul>
+
+      <h2>Catching the Weather Link</h2>
+
+      <p>Many people with this symptom cluster say pressure changes are a big trigger, perhaps because the inner ear is so involved. MigraineCast tracks pressure, temperature, and humidity, and forecasts them up to 7 days ahead. Logging which symptoms show up with each attack helps you see whether these sensory-heavy attacks follow weather swings more than your others do.</p>
+
+      <blockquote>
+        <p>See whether your dizziest attacks follow the barometer. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can migraine cause tinnitus, blurry vision, and dizziness at the same time?</h3>
+      <p>Yes. Migraine affects how the brain integrates sensory input, so auditory, visual, and balance symptoms can occur together.</p>
+
+      <h3>What is visual vertigo?</h3>
+      <p>Visual vertigo is dizziness triggered by busy or moving visual environments, like store aisles or scrolling screens. It's common in people with vestibular migraine.</p>
+
+      <h3>When should I worry about dizziness and vision changes?</h3>
+      <p>Seek emergency care for sudden onset, double vision, trouble walking, weakness, slurred speech, or sudden hearing loss, as these can be signs of stroke.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "medication-overuse-headache",
+    title: "Medication-Overuse Headache: When Pain Relievers Start Keeping the Cycle Going",
+    excerpt:
+      "Taking pain relievers too often can lead to more frequent headaches, not fewer. Here's how medication-overuse headache develops, the thresholds to know, and how people break the cycle.",
+    date: "September 19, 2026",
+    category: "Science",
+    content: `
+      <p>It seems backwards: the medication that relieves your headache could be causing more of them. But medication-overuse headache (MOH), sometimes called rebound headache, is a well-recognized problem, and it's one of the most common reasons episodic migraine turns into near-daily headache.</p>
+
+      <h2>What MOH Is</h2>
+
+      <p>Medication-overuse headache happens when frequent use of acute headache medication leads to headaches on 15 or more days per month. It usually develops in people who already have a headache disorder like migraine. The headaches often improve once overuse stops.</p>
+
+      <h2>The Thresholds to Know</h2>
+
+      <p>The risk depends on the type of medication and how many days per month you use it, typically for more than three months:</p>
+      <ul>
+        <li><strong>Simple pain relievers</strong> (acetaminophen, ibuprofen, naproxen, aspirin): 15 or more days per month</li>
+        <li><strong>Triptans, combination pain relievers, ergotamines:</strong> 10 or more days per month</li>
+        <li><strong>Opioids and butalbital-containing medications:</strong> 10 or more days per month, and these carry particularly high risk</li>
+      </ul>
+
+      <p>It's about days of use, not number of pills. Taking one tablet on 12 days is generally riskier than taking three tablets on 4 days. Newer acute treatments like <a href="/blog/gepants-for-migraine">gepants</a> appear less likely to cause MOH, but ask your doctor.</p>
+
+      <h2>Signs You Might Have It</h2>
+      <ul>
+        <li>Headaches are becoming more frequent over months</li>
+        <li>You wake up with headaches most mornings</li>
+        <li>Pain returns as medication wears off</li>
+        <li>Medications seem less effective than they used to</li>
+        <li>You take something "just in case" to prevent a headache</li>
+      </ul>
+
+      <h2>Breaking the Cycle</h2>
+
+      <p>Treatment usually involves reducing or stopping the overused medication, which should be done with a doctor's guidance. Some medications, like opioids and butalbital, can cause withdrawal and need supervised tapering. Headaches often get worse for a while before improving, so having a plan matters. Doctors may:</p>
+      <ul>
+        <li>Start a preventive treatment, which can help reduce headache days. See <a href="/blog/cgrp-migraine-treatments">CGRP treatments</a> and <a href="/blog/botox-for-chronic-migraine">Botox for chronic migraine</a></li>
+        <li>Offer a short-term bridge therapy to get through withdrawal</li>
+        <li>Set limits on acute medication days going forward</li>
+        <li>Recommend lifestyle measures like regular sleep, meals, and hydration</li>
+      </ul>
+
+      <h2>Prevention: Count Your Days</h2>
+
+      <p>The simplest protection is knowing how many days you're taking acute medication. Many people genuinely don't know until they track it. Our <a href="/tools/medication-effectiveness-calculator">Medication Effectiveness Calculator</a> can help you think through what's working.</p>
+
+      <p>Logging every attack and treatment in MigraineCast gives you an honest count of headache days and medication days each month. The weather forecast also helps you plan ahead. Instead of reaching for a pill "just in case," you can use high-risk forecast days to focus on non-drug strategies and save medication for when you actually need it.</p>
+
+      <blockquote>
+        <p>Know your numbers before they become a problem. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is medication-overuse headache?</h3>
+      <p>It's a headache that occurs on 15 or more days per month due to frequent use of acute headache medications, usually in people who already have migraine or another headache disorder.</p>
+
+      <h3>How many days a month can I take migraine medication?</h3>
+      <p>Generally, simple pain relievers should be used on fewer than 15 days a month, and triptans or combination medications on fewer than 10 days. Ask your doctor about your specific medications.</p>
+
+      <h3>How long does it take to recover from rebound headaches?</h3>
+      <p>Headaches often worsen for days to a couple of weeks after stopping overused medication, then gradually improve. Many people see significant improvement within a few months.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-medication-timing",
+    title: "Why Migraine Medication Timing Matters More Than \"Waiting It Out\"",
+    excerpt:
+      "Many people wait to see if a headache turns into a migraine before taking medication. Research suggests that early treatment often works better. Here's why timing matters so much.",
+    date: "September 20, 2026",
+    category: "Tips",
+    content: `
+      <p>It's a common instinct: you feel a headache coming on and decide to wait and see. Maybe it'll pass. Maybe you don't want to "waste" a dose. But with migraine, waiting can make treatment less effective. For many acute migraine medications, timing is one of the biggest factors in whether they work.</p>
+
+      <h2>Why Early Treatment Works Better</h2>
+
+      <p><strong>Central sensitization.</strong> As a migraine progresses, the nervous system becomes increasingly sensitized. Pain signals get amplified, and areas beyond the head can become sensitive to touch. That's called <a href="/blog/allodynia-migraine-scalp-pain">allodynia</a>. Once sensitization sets in, some medications, particularly triptans, tend to work less well.</p>
+
+      <p><strong>Slowed digestion.</strong> Migraine can slow stomach emptying. The longer you wait, the slower pills may be absorbed. See our post on <a href="/blog/migraine-nausea">migraine nausea</a>.</p>
+
+      <p><strong>Shorter attacks.</strong> Treating early often means less pain overall and less recovery time.</p>
+
+      <h2>What "Early" Means</h2>
+
+      <p>Research on triptans suggests they often work best when taken while pain is still mild, rather than waiting until it's moderate or severe. For people who can reliably tell a migraine from a regular headache, treating at the first sign of migraine pain often gives the best results. Our <a href="/blog/triptans-explained">triptans explainer</a> and <a href="/blog/gepants-for-migraine">gepants guide</a> have more on specific medications.</p>
+
+      <p>Some people can recognize <a href="/blog/migraine-prodrome-signs">prodrome</a> or aura symptoms before pain starts. Whether to treat during prodrome or aura depends on the medication and your situation, so talk this through with your doctor.</p>
+
+      <h2>The Balance With Overuse</h2>
+
+      <p>Early treatment doesn't mean treating every twinge. Taking acute medications too often can lead to <a href="/blog/medication-overuse-headache">medication-overuse headache</a>. The goal is to treat migraines early while keeping overall medication days within safe limits. If you need acute treatment on many days per month, that's a sign to ask about preventive options.</p>
+
+      <h2>Build an Early-Treatment Plan</h2>
+      <ul>
+        <li><strong>Know your signals.</strong> Learn what your migraines feel like at the very beginning.</li>
+        <li><strong>Carry your medication.</strong> Early treatment only works if it's with you. See our <a href="/blog/migraine-go-bag">migraine go-bag guide</a>.</li>
+        <li><strong>Have a clear rule</strong> agreed with your doctor, like "take medication when I notice my typical migraine pain starting."</li>
+        <li><strong>Pair with non-drug steps</strong> like hydration, rest, and cold therapy.</li>
+        <li><strong>Track results</strong> to learn what timing works best for you.</li>
+      </ul>
+
+      <h2>Use the Forecast to Be Ready</h2>
+
+      <p>Early treatment depends on being prepared at the right moment. If weather is a trigger for you, MigraineCast forecasts pressure, temperature, and humidity changes up to a week ahead. On higher-risk days, you can keep medication within reach, pay closer attention to early signs, and avoid getting caught without it. Logging your attacks and treatments also helps you look back at whether early doses actually worked better for you.</p>
+
+      <blockquote>
+        <p>Be ready on the days that matter most. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>When should I take migraine medication?</h3>
+      <p>Many acute migraine medications, especially triptans, tend to work best when taken early in the attack while pain is still mild. Ask your doctor for timing guidance specific to your medication.</p>
+
+      <h3>Why does my migraine medication stop working if I wait?</h3>
+      <p>As migraine progresses, the nervous system becomes sensitized and digestion slows, both of which can make medications less effective.</p>
+
+      <h3>Can taking medication early cause rebound headaches?</h3>
+      <p>Treating early isn't the problem; treating too often is. Keeping acute medication days within recommended limits helps prevent medication-overuse headache.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "triptans-explained",
+    title: "Triptans Explained: What They Do, When They Work Best, and Common Questions",
+    excerpt:
+      "Triptans have been a mainstay of migraine treatment for decades. Here's a plain-English guide to how they work, how to take them for best results, and what to ask your doctor.",
+    date: "September 21, 2026",
+    category: "Science",
+    content: `
+      <p>If you've seen a doctor about migraine, there's a good chance triptans came up. They were the first medications designed specifically for migraine attacks, and they're still among the most commonly prescribed. Here's what you should know.</p>
+
+      <h2>What Triptans Are</h2>
+
+      <p>Triptans are a class of medications that act on serotonin receptors, specifically the 5-HT1B and 5-HT1D subtypes. Common examples include sumatriptan, rizatriptan, zolmitriptan, eletriptan, naratriptan, almotriptan, and frovatriptan.</p>
+
+      <h2>How They Work</h2>
+      <ul>
+        <li>They narrow dilated blood vessels in the meninges</li>
+        <li>They reduce the release of inflammatory substances like CGRP from trigeminal nerve endings</li>
+        <li>They dampen pain signal transmission in the brainstem</li>
+      </ul>
+
+      <p>That combination helps stop the migraine process rather than just masking pain. Our <a href="/blog/trigeminal-nerve-and-migraine">trigeminal nerve guide</a> explains the pain pathway they target.</p>
+
+      <h2>When They Work Best</h2>
+
+      <p>Triptans tend to work best when taken early in the headache phase, while pain is still mild. Once the nervous system becomes sensitized, which often shows up as <a href="/blog/allodynia-migraine-scalp-pain">scalp or skin sensitivity</a>, they may be less effective. Our post on <a href="/blog/migraine-medication-timing">medication timing</a> explains why.</p>
+
+      <h2>Different Forms and Speeds</h2>
+
+      <p>Triptans come as tablets, dissolving tablets, nasal sprays, and injections. Injections and nasal sprays work faster and are useful if you have nausea or vomiting. Some triptans act quickly but wear off sooner, while others, like naratriptan and frovatriptan, work more slowly but last longer, which can help with long attacks like menstrual migraine. If one triptan doesn't work for you, another might.</p>
+
+      <h2>Common Side Effects</h2>
+      <ul>
+        <li>Tingling, warmth, or flushing</li>
+        <li>Tightness or pressure in the chest, throat, or jaw, usually brief and not dangerous in healthy people, but should be reported to your doctor</li>
+        <li>Drowsiness or dizziness</li>
+        <li>Nausea</li>
+      </ul>
+
+      <h2>Who Shouldn't Take Them</h2>
+
+      <p>Because they narrow blood vessels, triptans are generally not recommended for people with heart disease, prior stroke, uncontrolled high blood pressure, or certain other vascular conditions. They've traditionally been avoided in <a href="/blog/hemiplegic-migraine">hemiplegic migraine</a> and migraine with brainstem aura. Your doctor will review your history before prescribing.</p>
+
+      <p>Tell your doctor about all medications, including antidepressants, as combining serotonin-acting drugs requires consideration.</p>
+
+      <h2>Limits to Know</h2>
+
+      <p>Using triptans on 10 or more days per month can lead to <a href="/blog/medication-overuse-headache">medication-overuse headache</a>. Follow the dosing limits on your prescription, typically including a maximum per day.</p>
+
+      <h2>Common Questions</h2>
+
+      <p><strong>Can I take a second dose?</strong> Many triptans allow a second dose after a set interval if the headache returns, but check your specific prescription.</p>
+
+      <p><strong>Can I combine with an anti-inflammatory?</strong> Some people use a triptan with an NSAID, and there's a combination product available. Ask your doctor.</p>
+
+      <p><strong>What if triptans don't work?</strong> Newer options like <a href="/blog/gepants-for-migraine">gepants</a> and other acute treatments are available.</p>
+
+      <h2>Track What Works</h2>
+
+      <p>Knowing whether a triptan works for you takes more than one try. Logging each attack and treatment in MigraineCast helps you see how often a dose worked, how quickly, and whether timing made a difference. It also keeps a running count of your treatment days so you stay within safe limits, and the Download Report in Insights makes it easy to share with your doctor.</p>
+
+      <blockquote>
+        <p>Know which treatments are actually working. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How quickly do triptans work?</h3>
+      <p>Injections and nasal sprays can work within 10 to 15 minutes, while tablets typically take 30 minutes to 2 hours. Speed varies by triptan and person.</p>
+
+      <h3>Are triptans safe?</h3>
+      <p>For most people without cardiovascular disease, triptans are considered safe when used as directed. Your doctor will check whether they're appropriate for you.</p>
+
+      <h3>How often can I take triptans?</h3>
+      <p>Generally, triptans should be used on fewer than 10 days per month to avoid medication-overuse headache. Follow the daily limits on your prescription.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "gepants-for-migraine",
+    title: "Gepants for Migraine: A Plain-English Guide to the Newer Medications",
+    excerpt:
+      "Gepants block the CGRP pathway without narrowing blood vessels, and some can be used for both treatment and prevention. Here's what they are, how they differ from triptans, and who they may help.",
+    date: "September 23, 2026",
+    category: "Science",
+    content: `
+      <p>For years, triptans were the main migraine-specific option for treating attacks. Then a new class of medications arrived: gepants. They work on a different part of the migraine process and have opened new doors for people who couldn't take or didn't respond to triptans.</p>
+
+      <h2>What Gepants Are</h2>
+
+      <p>Gepants are small-molecule medications that block the receptor for CGRP (calcitonin gene-related peptide), a protein that plays a central role in migraine. Approved examples include ubrogepant, rimegepant, atogepant, and zavegepant. Availability varies by country.</p>
+
+      <h2>Why CGRP Matters</h2>
+
+      <p>During migraine, trigeminal nerves release CGRP, which widens blood vessels and promotes inflammation and pain signaling. Blocking CGRP's effects helps stop that process. Our guide to <a href="/blog/cgrp-migraine-treatments">CGRP migraine treatments</a> covers the bigger picture, including monoclonal antibodies.</p>
+
+      <h2>How Gepants Differ From Triptans</h2>
+      <ul>
+        <li><strong>No blood vessel narrowing.</strong> Gepants don't constrict blood vessels the way triptans do, which may make them an option for some people who can't take triptans due to cardiovascular concerns. Your doctor will decide.</li>
+        <li><strong>Lower risk of medication overuse headache.</strong> Current evidence suggests gepants are less likely to cause <a href="/blog/medication-overuse-headache">medication-overuse headache</a>.</li>
+        <li><strong>Some can prevent attacks.</strong> Rimegepant can be used both to treat attacks and, taken every other day, for prevention. Atogepant is taken daily for prevention.</li>
+        <li><strong>Different side effects.</strong> Typically mild, such as nausea, fatigue, or constipation.</li>
+      </ul>
+
+      <h2>Forms</h2>
+
+      <p>Most gepants are tablets or dissolving tablets. Zavegepant is available as a nasal spray, which can be useful when nausea makes swallowing hard.</p>
+
+      <h2>Who They May Help</h2>
+      <ul>
+        <li>People who didn't respond to or couldn't tolerate triptans</li>
+        <li>People with cardiovascular risk factors that make triptans unsuitable</li>
+        <li>People who want a single medication for both treatment and prevention</li>
+        <li>People concerned about medication overuse</li>
+      </ul>
+
+      <h2>Things to Know</h2>
+      <ul>
+        <li>Some gepants interact with other medications, especially strong inhibitors of a liver enzyme called CYP3A4. Share your full medication list with your doctor.</li>
+        <li>Cost and insurance coverage can be barriers. Ask about coverage and patient assistance programs.</li>
+        <li>As with any acute treatment, <a href="/blog/migraine-medication-timing">taking it early</a> often helps.</li>
+      </ul>
+
+      <h2>Is a Gepant Right for You?</h2>
+
+      <p>That's a conversation for your doctor. You'll get more out of it if you can describe how often you get migraines, how long they last, and how well your current treatments work. Our guide on <a href="/blog/prepare-for-neurology-appointment">preparing for a neurology appointment</a> can help.</p>
+
+      <p>MigraineCast makes that easier. Logging each attack and what you took gives you a record of frequency, duration, and response, and the Download Report in Insights turns it into a clear summary for your appointment. Plus, the app's weather tracking can show your doctor whether your attacks follow predictable patterns, which may help when choosing between acute and preventive approaches.</p>
+
+      <blockquote>
+        <p>Walk into your appointment with data, not guesses. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What are gepants?</h3>
+      <p>Gepants are medications that block the CGRP receptor, which plays a key role in migraine pain. Some are used to treat attacks, some to prevent them, and some both.</p>
+
+      <h3>Are gepants better than triptans?</h3>
+      <p>Not necessarily better, but different. Gepants don't narrow blood vessels and appear less likely to cause medication-overuse headache. Some people respond better to one class than the other.</p>
+
+      <h3>Can gepants prevent migraines?</h3>
+      <p>Yes. Atogepant is used daily for prevention, and rimegepant can be taken every other day for prevention as well as for treating attacks.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "cgrp-migraine-treatments",
+    title: "CGRP Migraine Treatments: What They Target and Who They May Help",
+    excerpt:
+      "CGRP-targeting medications were the first preventive treatments designed specifically for migraine. Here's what CGRP is, the different types of treatments, and who they're for.",
+    date: "September 24, 2026",
+    category: "Science",
+    content: `
+      <p>For decades, migraine prevention relied on medications originally developed for other conditions: blood pressure drugs, antidepressants, and anti-seizure medications. Then came treatments targeting CGRP, the first preventive medications designed specifically for migraine.</p>
+
+      <h2>What CGRP Is</h2>
+
+      <p>CGRP (calcitonin gene-related peptide) is a protein released by trigeminal nerve endings. During migraine, CGRP levels rise. It widens blood vessels, promotes inflammation, and transmits pain signals. Blocking CGRP reduces migraine activity in many people.</p>
+
+      <p>For the science of how trigeminal nerves drive migraine, see our <a href="/blog/trigeminal-nerve-and-migraine">trigeminal nerve guide</a> and <a href="/blog/vasodilation-and-migraines">vasodilation explainer</a>.</p>
+
+      <h2>Two Main Types</h2>
+
+      <p><strong>Monoclonal antibodies.</strong> These are lab-made antibodies that either bind CGRP itself or block its receptor. Examples include erenumab, fremanezumab, galcanezumab, and eptinezumab. Most are given as self-injections monthly or quarterly. Eptinezumab is given by IV infusion every three months.</p>
+
+      <p><strong>Gepants.</strong> Small-molecule pills or sprays that block the CGRP receptor. Some treat attacks, some prevent them. See our <a href="/blog/gepants-for-migraine">plain-English guide to gepants</a>.</p>
+
+      <h2>Who They May Help</h2>
+      <ul>
+        <li>People with episodic or chronic migraine who need prevention</li>
+        <li>People who didn't respond to or couldn't tolerate older preventive medications</li>
+        <li>People with frequent attacks affecting work, family, or quality of life</li>
+      </ul>
+
+      <p>Insurance requirements in some places mean you may need to try older preventives first.</p>
+
+      <h2>What to Expect</h2>
+
+      <p>In clinical trials, many people had a meaningful reduction in monthly migraine days, and some had a much larger response. Others didn't respond. It can take a few months to judge whether a treatment is working, so doctors usually recommend giving it time.</p>
+
+      <h2>Side Effects</h2>
+      <ul>
+        <li>Injection-site reactions</li>
+        <li>Constipation, particularly with some antibodies</li>
+        <li>Possible blood pressure increases with some, so blood pressure is often monitored</li>
+        <li>Generally well tolerated in trials</li>
+      </ul>
+
+      <p>Because CGRP is involved in blood vessel function, people with significant cardiovascular disease and those who are pregnant or planning pregnancy should discuss risks carefully with their doctor. Long-term data continues to accumulate.</p>
+
+      <h2>Combining With Other Treatments</h2>
+
+      <p>CGRP treatments are sometimes combined with other preventives, like <a href="/blog/botox-for-chronic-migraine">Botox for chronic migraine</a>, and are compatible with many acute treatments. Your doctor will build a plan that fits.</p>
+
+      <h2>Measuring Whether It's Working</h2>
+
+      <p>The only way to know if a preventive works is to compare your migraine days before and after. Without records, it's easy to misjudge, especially when one bad week colors your memory. Logging attacks in MigraineCast gives you a monthly baseline before you start and a clear comparison afterward. Because the app also tracks weather, you can account for a stormy month that might otherwise make a good treatment look less effective.</p>
+
+      <blockquote>
+        <p>Know your baseline before you start a new treatment. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What does CGRP do in migraine?</h3>
+      <p>CGRP is released by trigeminal nerves during migraine and contributes to blood vessel widening, inflammation, and pain signaling.</p>
+
+      <h3>How long do CGRP treatments take to work?</h3>
+      <p>Some people notice improvement within the first month, but doctors typically recommend about three months to judge effectiveness.</p>
+
+      <h3>Are CGRP injections safe?</h3>
+      <p>They were generally well tolerated in clinical trials. Common side effects include injection-site reactions and constipation. Your doctor will review your history, including cardiovascular health and pregnancy plans.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "botox-for-chronic-migraine",
+    title: "Botox for Chronic Migraine: What the Treatment Process Is Really Like",
+    excerpt:
+      "Botox is an approved preventive treatment for chronic migraine. Here's who qualifies, what happens at an appointment, how long it takes to work, and what people commonly experience.",
+    date: "September 25, 2026",
+    category: "Tips",
+    content: `
+      <p>Botox (onabotulinumtoxinA) is best known as a cosmetic treatment, but it's also an approved preventive treatment for chronic migraine. For many people, the idea of dozens of injections around the head sounds intimidating. Knowing what to expect can make it less so.</p>
+
+      <h2>Who It's For</h2>
+
+      <p>Botox is approved for <strong>chronic migraine</strong>, meaning headaches on 15 or more days per month for more than three months, with at least eight of those days having migraine features. It hasn't been shown to be effective for episodic migraine (fewer than 15 headache days per month).</p>
+
+      <p>If your headaches have become frequent due to <a href="/blog/medication-overuse-headache">medication overuse</a>, your doctor may address that alongside or before starting Botox.</p>
+
+      <h2>How It Works</h2>
+
+      <p>Botox is thought to work in migraine by blocking the release of pain-signaling chemicals, including CGRP, from nerve endings in the head and neck. This may reduce sensitization of pain pathways over time. It's not primarily about relaxing muscles, though that may help some people too.</p>
+
+      <h2>What an Appointment Is Like</h2>
+      <ul>
+        <li><strong>Number of injections:</strong> The standard protocol involves 31 small injections in specific spots across the forehead, temples, back of the head, neck, and shoulders. Some doctors add more in areas of pain.</li>
+        <li><strong>Time:</strong> The injections themselves usually take about 15 minutes.</li>
+        <li><strong>Sensation:</strong> Most people describe quick pinches or stings. Very fine needles are used. Some areas, like the temples, can be more sensitive.</li>
+        <li><strong>After:</strong> Most people can return to normal activities right away.</li>
+        <li><strong>Frequency:</strong> Treatments are repeated every 12 weeks.</li>
+      </ul>
+
+      <h2>When It Starts Working</h2>
+
+      <p>Some people notice improvement after the first round, but it often takes two to three treatment cycles, around six months, to judge effectiveness. Benefits may increase with continued treatment.</p>
+
+      <h2>Common Side Effects</h2>
+      <ul>
+        <li>Neck pain or stiffness</li>
+        <li>Temporary neck weakness</li>
+        <li>Injection-site pain</li>
+        <li>Drooping eyelid or eyebrow in some cases, usually temporary</li>
+        <li>Headache shortly after injections</li>
+      </ul>
+
+      <p>Serious side effects are rare. Tell your doctor about any trouble swallowing, breathing, or speaking.</p>
+
+      <h2>Tips for Your First Appointment</h2>
+      <ul>
+        <li>Eat beforehand and stay hydrated</li>
+        <li>Wear a top that leaves your neck and shoulders accessible</li>
+        <li>Plan a calm afternoon in case of a post-injection headache</li>
+        <li>Bring a cold pack for any tenderness. See <a href="/blog/cold-therapy-migraine">cold therapy for migraine</a></li>
+        <li>Check insurance coverage in advance, which often requires documentation of headache days and prior treatments</li>
+      </ul>
+
+      <h2>Documenting Headache Days</h2>
+
+      <p>Botox approval and coverage usually depend on proving you have chronic migraine. That means clear records of headache days. Later, judging whether Botox is working depends on the same records. MigraineCast makes that easier: log your attacks, and the Download Report in Insights gives you a summary to share with your doctor and insurer. Because weather tracking is built in, you can also see whether bad months had unusual weather that might explain a temporary spike.</p>
+
+      <blockquote>
+        <p>Build the headache diary your doctor and insurer want to see. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Does Botox work for migraines?</h3>
+      <p>Botox is an approved and effective preventive treatment for chronic migraine in many people. It hasn't been shown to help episodic migraine.</p>
+
+      <h3>How many Botox injections for migraine?</h3>
+      <p>The standard protocol uses 31 injections across the head, neck, and shoulders, repeated every 12 weeks.</p>
+
+      <h3>How long does it take for Botox to work for migraines?</h3>
+      <p>Some people notice benefit after the first session, but it often takes two to three treatment cycles, about six months, to fully judge results.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "magnesium-for-migraine",
+    title: "Magnesium for Migraine: Which Type, How Much, and What the Evidence Says",
+    excerpt:
+      "Magnesium is one of the most recommended supplements for migraine prevention. Here's what the research shows, the differences between forms, typical doses, and side effects to know.",
+    date: "September 26, 2026",
+    category: "Tips",
+    content: `
+      <p>Ask anyone with migraine about supplements, and magnesium will probably come up first. It's inexpensive, widely available, and recommended by many headache specialists. But with so many forms on the shelf, it's hard to know what to choose.</p>
+
+      <h2>Why Magnesium Matters in Migraine</h2>
+
+      <p>Magnesium plays a role in nerve signaling, blood vessel tone, and energy production in cells. Some research has found lower magnesium levels in people with migraine, and magnesium may help regulate the processes involved in cortical spreading depression, the wave of brain activity behind <a href="/blog/migraine-with-aura-symptoms">aura</a>, and in pain signaling.</p>
+
+      <h2>What the Evidence Says</h2>
+
+      <p>Several studies have suggested oral magnesium can modestly reduce migraine frequency, and major headache organizations list it as a "probably effective" option for prevention. The evidence is not as strong as for prescription preventives, but it's considered reasonable to try because it's low-cost and generally safe. Some evidence suggests it may be particularly helpful for migraine with aura and <a href="/blog/menstrual-migraine-guide">menstrual migraine</a>. IV magnesium is also used in emergency settings for acute attacks.</p>
+
+      <h2>Which Form?</h2>
+      <ul>
+        <li><strong>Magnesium oxide:</strong> commonly used in migraine studies and inexpensive, but less well absorbed and more likely to cause diarrhea.</li>
+        <li><strong>Magnesium citrate:</strong> better absorbed, but can also have a laxative effect.</li>
+        <li><strong>Magnesium glycinate:</strong> well absorbed and generally gentler on the stomach, a popular choice for people with sensitive digestion.</li>
+        <li><strong>Magnesium threonate:</strong> marketed for brain benefits, though evidence specific to migraine is limited.</li>
+      </ul>
+
+      <p>There isn't strong evidence that one form is clearly better for migraine. Many people choose based on tolerance.</p>
+
+      <h2>How Much?</h2>
+
+      <p>Studies often used around 400 to 600 mg per day of elemental magnesium. Check labels carefully, since products list different amounts. Many doctors suggest starting lower and increasing gradually to reduce stomach upset. It can take two to three months to judge effect. Always confirm the right dose with your doctor or pharmacist.</p>
+
+      <h2>Side Effects and Safety</h2>
+      <ul>
+        <li>Diarrhea and stomach cramps are the most common side effects</li>
+        <li>People with kidney disease should not take magnesium supplements without medical advice</li>
+        <li>Magnesium can interact with some antibiotics, osteoporosis medications, and other drugs, so spacing doses may be needed</li>
+        <li>If you're pregnant, talk to your doctor before starting</li>
+      </ul>
+
+      <h2>Food Sources</h2>
+
+      <p>Leafy greens, nuts, seeds, legumes, whole grains, and dark chocolate contain magnesium. Our post on <a href="/blog/what-to-eat-to-prevent-migraines">what to eat to prevent migraines</a> has more. Diet alone usually doesn't reach study doses, but it supports overall intake.</p>
+
+      <p>Magnesium is often combined with other supplements. See <a href="/blog/riboflavin-coq10-migraine">riboflavin and CoQ10 for migraine</a>. For other non-drug options, see <a href="/blog/natural-migraine-relief">natural migraine relief</a>.</p>
+
+      <h2>Is It Working?</h2>
+
+      <p>Supplements are hard to judge because effects are modest and gradual. A good test needs a clear before-and-after count of migraine days. Logging attacks in MigraineCast gives you that baseline and lets you compare after a few months. Because the app tracks weather too, you can tell whether a better month reflected the magnesium or just calmer weather.</p>
+
+      <blockquote>
+        <p>Give your supplement a fair test with real numbers. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What type of magnesium is best for migraines?</h3>
+      <p>Studies often used magnesium oxide, but glycinate and citrate are better absorbed. Glycinate is often easier on the stomach. There's no strong evidence that one form is clearly superior for migraine.</p>
+
+      <h3>How much magnesium should I take for migraines?</h3>
+      <p>Studies often used about 400 to 600 mg of elemental magnesium daily. Confirm the right dose with your doctor, especially if you have kidney issues or take other medications.</p>
+
+      <h3>How long does magnesium take to work for migraines?</h3>
+      <p>It typically takes two to three months of consistent use to judge whether it's helping.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "riboflavin-coq10-migraine",
+    title: "Riboflavin and CoQ10 for Migraine Prevention: What Research Supports",
+    excerpt:
+      "Riboflavin (vitamin B2) and coenzyme Q10 support energy production in brain cells, and both have been studied for migraine prevention. Here's what the evidence shows and how people use them.",
+    date: "September 28, 2026",
+    category: "Science",
+    content: `
+      <p>Alongside <a href="/blog/magnesium-for-migraine">magnesium</a>, two other supplements come up often in migraine prevention: riboflavin (vitamin B2) and coenzyme Q10 (CoQ10). Both play roles in how cells produce energy, and that's exactly why researchers became interested in them.</p>
+
+      <h2>The Energy Theory of Migraine</h2>
+
+      <p>One theory suggests that brains of people with migraine may have trouble meeting energy demands, particularly in mitochondria, the parts of cells that produce energy. When energy supply is stretched, the brain may be more vulnerable to triggers. That could help explain why things like <a href="/blog/skipping-meals-migraine-trigger">skipped meals</a>, <a href="/blog/lack-of-sleep-migraine-trigger">poor sleep</a>, and stress can tip the balance. Riboflavin and CoQ10 both support mitochondrial function.</p>
+
+      <h2>Riboflavin (Vitamin B2)</h2>
+
+      <p><strong>Evidence:</strong> Several small trials found that high-dose riboflavin reduced migraine frequency compared with placebo. Headache guidelines have rated it as "probably effective" for prevention.</p>
+
+      <p><strong>Typical dose used in studies:</strong> 400 mg daily, far more than dietary intake.</p>
+
+      <p><strong>Time to work:</strong> Often around three months.</p>
+
+      <p><strong>Side effects:</strong> Generally well tolerated. It commonly turns urine bright yellow, which is harmless. Occasional mild stomach upset.</p>
+
+      <h2>Coenzyme Q10</h2>
+
+      <p><strong>Evidence:</strong> Small trials suggest CoQ10 may reduce migraine frequency. Guidelines have rated it as "possibly effective." Some research also suggests people with migraine may have lower CoQ10 levels.</p>
+
+      <p><strong>Typical doses used in studies:</strong> Often 100 mg three times daily, or 150 to 300 mg daily in other studies.</p>
+
+      <p><strong>Time to work:</strong> Around three months.</p>
+
+      <p><strong>Side effects:</strong> Usually mild, such as stomach upset or trouble sleeping if taken late. It may interact with blood thinners like warfarin and possibly with blood pressure medications.</p>
+
+      <h2>Combination Products</h2>
+
+      <p>Some supplements combine riboflavin, CoQ10, and magnesium, sometimes with feverfew or other ingredients. These can be convenient, but check the doses of each ingredient to make sure they match what's been studied.</p>
+
+      <h2>Safety Notes</h2>
+      <ul>
+        <li>Talk to your doctor before starting, especially if you take other medications or are pregnant or breastfeeding</li>
+        <li>Supplements aren't regulated as strictly as medications, so choose reputable brands with third-party testing</li>
+        <li>Supplements can complement, but don't replace, medical treatment for frequent or severe migraines</li>
+      </ul>
+
+      <p>For a broader look at non-drug options, see our <a href="/blog/natural-migraine-relief">natural migraine relief</a> guide.</p>
+
+      <h2>How to Test It Fairly</h2>
+
+      <p>Because these supplements take months and effects are modest, you need a clear before-and-after comparison. Start one at a time if you can, so you know what's making a difference.</p>
+
+      <p>Logging attacks in MigraineCast gives you a monthly baseline before starting and a comparison after three months. The app's weather tracking matters here too: if the three months you're testing happen to be a stormy season, you'll want to know that before deciding the supplement didn't work. The Insights tab and Download Report make that comparison easy to share with your doctor.</p>
+
+      <blockquote>
+        <p>Find out whether your supplement is pulling its weight. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Does riboflavin help migraines?</h3>
+      <p>Studies suggest high-dose riboflavin (typically 400 mg daily) may reduce migraine frequency for some people. It's considered probably effective for prevention.</p>
+
+      <h3>How much CoQ10 should I take for migraines?</h3>
+      <p>Studies have used doses from about 150 to 300 mg daily, often divided. Ask your doctor what's appropriate for you.</p>
+
+      <h3>Can I take magnesium, riboflavin, and CoQ10 together?</h3>
+      <p>Many people do, and combination products exist. Talk to your doctor first, especially if you take other medications.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "neuromodulation-devices-migraine",
+    title: "Neuromodulation Devices for Migraine: Can Wearable Technology Help?",
+    excerpt:
+      "From forehead devices to armbands, neuromodulation tools use electrical or magnetic stimulation to treat or prevent migraine without medication. Here's how they work and what the evidence says.",
+    date: "September 29, 2026",
+    category: "Science",
+    content: `
+      <p>Not every migraine treatment comes in a pill or injection. Neuromodulation devices use electrical or magnetic stimulation to change how nerves send pain signals. Some are worn on the forehead, some on the arm, some held against the neck. For people who can't take certain medications, or who want to reduce how much they use, they offer another option.</p>
+
+      <h2>How Neuromodulation Works</h2>
+
+      <p>These devices deliver mild stimulation to specific nerves or brain regions. The idea is to interrupt or dampen the pain signaling involved in migraine. Different devices target different pathways.</p>
+
+      <h2>Main Types</h2>
+
+      <p><strong>External trigeminal nerve stimulation (eTNS).</strong> A device worn on the forehead stimulates branches of the trigeminal nerve, the main pain pathway in migraine. Our <a href="/blog/trigeminal-nerve-and-migraine">trigeminal nerve guide</a> explains why that matters. It's used for both acute treatment and prevention.</p>
+
+      <p><strong>Non-invasive vagus nerve stimulation (nVNS).</strong> A handheld device placed against the side of the neck stimulates the vagus nerve. It's used for acute treatment and prevention of migraine and cluster headache.</p>
+
+      <p><strong>Remote electrical neuromodulation (REN).</strong> An armband worn on the upper arm, controlled by a smartphone app, stimulates nerves in the arm. This is thought to trigger the brain's own pain-dampening system, called conditioned pain modulation.</p>
+
+      <p><strong>Single-pulse transcranial magnetic stimulation (sTMS).</strong> A handheld device delivers a brief magnetic pulse to the back of the head. It may interrupt cortical spreading depression, the process behind aura.</p>
+
+      <h2>What the Evidence Shows</h2>
+
+      <p>Several devices have regulatory clearance in some countries based on clinical trials showing benefit over sham devices for at least some people. Results vary: some people find them very helpful, others don't. The evidence generally isn't as strong as for the best-studied medications, but side effects are typically mild.</p>
+
+      <h2>Who They May Suit</h2>
+      <ul>
+        <li>People who can't take certain medications, such as those with cardiovascular concerns</li>
+        <li>People trying to reduce <a href="/blog/medication-overuse-headache">medication overuse</a></li>
+        <li>People who prefer non-drug options</li>
+        <li>Pregnant or breastfeeding people, under medical guidance, since options are limited. See <a href="/blog/migraine-during-pregnancy">migraine during pregnancy</a></li>
+        <li>People who want to combine devices with medications</li>
+      </ul>
+
+      <h2>Downsides</h2>
+      <ul>
+        <li>Cost can be high, and insurance coverage varies</li>
+        <li>Many devices require a prescription</li>
+        <li>Some take daily sessions for prevention</li>
+        <li>Mild side effects can include tingling, skin irritation, or discomfort</li>
+        <li>Some aren't suitable for people with implanted electronic devices like pacemakers</li>
+      </ul>
+
+      <h2>Like Medication, Timing Matters</h2>
+
+      <p>For acute treatment, most devices work best when used early, similar to <a href="/blog/migraine-medication-timing">medication timing</a>. That means knowing when an attack is likely. If weather is one of your triggers, MigraineCast can help by forecasting pressure and temperature changes up to a week ahead, so your device is charged and with you on higher-risk days. And logging which attacks you treated with the device, and how they went, helps you and your doctor judge whether it's worth continuing.</p>
+
+      <blockquote>
+        <p>Know when to keep your device charged and close. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Do migraine devices really work?</h3>
+      <p>Several neuromodulation devices have shown benefit over sham devices in clinical trials. Results vary between individuals, and they tend to have mild side effects.</p>
+
+      <h3>Do I need a prescription for a migraine device?</h3>
+      <p>Many neuromodulation devices require a prescription, though rules vary by country and device.</p>
+
+      <h3>Can I use a migraine device with medication?</h3>
+      <p>Many people combine devices with medication. Ask your doctor how best to use them together.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "cold-therapy-migraine",
+    title: "Cold Therapy for Migraines: Why Ice Packs Help Some People So Much",
+    excerpt:
+      "An ice pack is one of the oldest migraine remedies, and for some people it's one of the most effective. Here's why cold works, where to put it, and how to use it safely.",
+    date: "September 30, 2026",
+    category: "Tips",
+    content: `
+      <p>Ask people with migraine about their go-to comfort measures and the ice pack comes up again and again. It's cheap, drug-free, and for some, surprisingly effective. There's actual science behind why cold can help.</p>
+
+      <h2>Why Cold Helps</h2>
+
+      <p><strong>Numbing pain signals.</strong> Cold slows nerve conduction, reducing how quickly pain signals travel.</p>
+
+      <p><strong>Constricting blood vessels.</strong> Cold narrows blood vessels, which may reduce the throbbing sensation linked to <a href="/blog/vasodilation-and-migraines">blood vessel dilation</a> during migraine.</p>
+
+      <p><strong>Reducing inflammation.</strong> Cold is a classic anti-inflammatory measure.</p>
+
+      <p><strong>Distraction and competing sensation.</strong> A strong cold sensation can override pain signals in the brain, a phenomenon related to "gate control" of pain.</p>
+
+      <p><strong>Cooling blood headed to the brain.</strong> A small study found that a neck wrap placed over the carotid arteries reduced migraine pain, possibly by cooling blood flowing to the head.</p>
+
+      <h2>Where to Put It</h2>
+      <ul>
+        <li><strong>Back of the neck</strong> to cool the area and relax tense muscles</li>
+        <li><strong>Front and sides of the neck</strong> over the carotid arteries</li>
+        <li><strong>Forehead and temples</strong> where pain is often focused</li>
+        <li><strong>Over the eyes</strong> with a gel eye mask, which also blocks light</li>
+      </ul>
+
+      <p>Our <a href="/blog/migraine-pressure-points">migraine pressure points guide</a> covers other spots worth trying.</p>
+
+      <h2>How to Use It Safely</h2>
+      <ul>
+        <li>Wrap ice packs in a thin cloth to protect your skin</li>
+        <li>Apply for about 15 to 20 minutes at a time</li>
+        <li>Take breaks between sessions to let your skin recover</li>
+        <li>Stop if skin becomes numb, very red, or painful</li>
+        <li>People with circulation problems, Raynaud's, or cold sensitivity should check with a doctor first</li>
+      </ul>
+
+      <h2>Products That Help</h2>
+      <ul>
+        <li>Wraparound head and neck ice packs</li>
+        <li>Gel eye masks you can keep in the freezer</li>
+        <li>Instant cold packs for your bag. See our <a href="/blog/migraine-go-bag">go-bag guide</a></li>
+        <li>Cooling sprays or menthol products, which some people find helpful</li>
+      </ul>
+
+      <h2>Cold vs. Heat</h2>
+
+      <p>Most people with migraine prefer cold on the head, while some find heat helpful for tight neck and shoulder muscles. Some combine them, like cold on the head and warmth on the feet or neck. Use whatever feels better.</p>
+
+      <h2>Pair It With Your Other Strategies</h2>
+
+      <p>Cold therapy works best as part of an early-response plan, alongside medication taken at the right time, hydration, and rest. See our post on <a href="/blog/how-to-get-rid-of-a-migraine-quickly">how to get rid of a migraine quickly</a>. Having your ice pack in the freezer and ready is easy to forget until you need it. If MigraineCast shows a pressure drop or heat spike coming in the next couple of days, that's a good reminder to make sure your cold packs are frozen and your medication is stocked.</p>
+
+      <blockquote>
+        <p>Get your comfort kit ready before the weather turns. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Does ice help migraines?</h3>
+      <p>Many people find that cold therapy reduces migraine pain. Cold can numb pain signals, narrow blood vessels, and reduce inflammation.</p>
+
+      <h3>Where should I put ice for a migraine?</h3>
+      <p>Common spots include the back of the neck, the front of the neck over the carotid arteries, the forehead, temples, and over the eyes.</p>
+
+      <h3>How long should I use an ice pack for a migraine?</h3>
+      <p>About 15 to 20 minutes at a time, with a cloth between the pack and your skin, then take a break.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-red-flags-urgent-care",
+    title: "When a Headache Needs Urgent Care: Migraine Red Flags You Shouldn't Ignore",
+    excerpt:
+      "Most headaches aren't dangerous, but some are warning signs of something serious. Here are the red flags that mean you should get urgent medical help, even if you've had migraines for years.",
+    date: "October 1, 2026",
+    category: "Tips",
+    content: `
+      <p>If you live with migraine, you get used to headaches. That familiarity is useful, but it can also be dangerous. When a headache is caused by something more serious, it's easy to assume it's "just another migraine." Knowing the red flags helps you recognize when something is different.</p>
+
+      <h2>Call Emergency Services If You Have</h2>
+      <ul>
+        <li><strong>A sudden, severe headache</strong> that reaches peak intensity within a minute, often described as a "thunderclap" or "worst headache of my life"</li>
+        <li><strong>Weakness, numbness, or drooping</strong> on one side of the face or body</li>
+        <li><strong>Trouble speaking,</strong> slurred speech, or confusion that comes on suddenly</li>
+        <li><strong>Vision loss</strong> or double vision that comes on suddenly</li>
+        <li><strong>Loss of balance</strong> or trouble walking</li>
+        <li><strong>Seizure</strong> or loss of consciousness</li>
+        <li><strong>Fever with stiff neck,</strong> rash, or confusion</li>
+        <li><strong>Headache after a head injury,</strong> especially with vomiting, confusion, or drowsiness</li>
+      </ul>
+
+      <p>These can be signs of stroke, brain bleeding, meningitis, or other emergencies. Don't wait to see if it passes.</p>
+
+      <h2>Get Prompt Medical Attention If</h2>
+      <ul>
+        <li>Your headache pattern changes significantly, like more frequent, more severe, or different in character</li>
+        <li>You have a new headache after age 50</li>
+        <li>Headaches get worse when coughing, straining, or bending over</li>
+        <li>Headaches wake you from sleep regularly, especially with vomiting</li>
+        <li>Headaches get worse when lying down or standing up</li>
+        <li>You have a headache with weight loss, night sweats, or other systemic symptoms</li>
+        <li>You're pregnant or recently gave birth and have a new or severe headache, especially with vision changes or swelling</li>
+        <li>You have a weakened immune system or cancer and develop new headaches</li>
+        <li>An aura lasts longer than an hour or is different from your usual pattern</li>
+        <li>You have pain around one eye with redness and vision changes, which can signal acute glaucoma</li>
+      </ul>
+
+      <h2>When Your Migraine Is Different</h2>
+
+      <p>People with migraine can also have strokes or other conditions, so it's important to notice when an attack doesn't match your pattern. First-time aura symptoms, especially <a href="/blog/hemiplegic-migraine">one-sided weakness</a> or <a href="/blog/migraine-aphasia">speech trouble</a>, should be evaluated urgently. Our <a href="/blog/migraine-with-aura-symptoms">migraine with aura guide</a> describes typical aura.</p>
+
+      <h2>Status Migrainosus</h2>
+
+      <p>A migraine lasting more than 72 hours is called status migrainosus. If your usual treatments haven't worked and you're unable to function, can't keep fluids down, or are dehydrated, seek medical care. See our post on <a href="/blog/how-long-does-a-migraine-last">how long migraines last</a>.</p>
+
+      <h2>Carbon Monoxide</h2>
+
+      <p>Headache, dizziness, and nausea that improve when you leave home, or that affect several people at once, can signal carbon monoxide exposure. Leave the building and call for help. See our post on <a href="/blog/indoor-heating-winter-migraines">indoor heating and winter migraines</a>.</p>
+
+      <h2>Knowing Your Normal Helps</h2>
+
+      <p>The best way to recognize a red flag is to know what your typical migraine looks like. A clear record of your usual symptoms, duration, and triggers makes it easier to spot when something is off, for you and for any doctor treating you. Logging your attacks in MigraineCast builds that record over time, and the Download Report in Insights can be pulled up quickly if you need to show a doctor your history.</p>
+
+      <blockquote>
+        <p>Know your normal so you can spot what isn't. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>When should I go to the ER for a migraine?</h3>
+      <p>Go to the ER or call emergency services for a sudden severe headache, one-sided weakness or numbness, trouble speaking, vision loss, confusion, seizure, fever with stiff neck, or a headache after head injury.</p>
+
+      <h3>What is a thunderclap headache?</h3>
+      <p>A thunderclap headache is a sudden, severe headache that peaks within about a minute. It can signal bleeding in the brain or other emergencies and needs immediate care.</p>
+
+      <h3>Can a migraine turn into a stroke?</h3>
+      <p>Strokes during migraine are rare, but migraine with aura is associated with a slightly higher stroke risk. Any new or unusual neurological symptoms should be treated as an emergency.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "prepare-for-neurology-appointment",
+    title: "How to Prepare for a Neurology Appointment When You Have Migraines",
+    excerpt:
+      "Neurology appointments are often short and hard to get. Here's how to prepare so you leave with answers, a plan, and the feeling that you were actually heard.",
+    date: "October 3, 2026",
+    category: "Tips",
+    content: `
+      <p>It may have taken months to get the appointment. You'll probably have 15 to 30 minutes. And if you're like most people, you'll forget half of what you wanted to say the moment you sit down. A little preparation makes a big difference.</p>
+
+      <h2>Before the Appointment</h2>
+
+      <p><strong>Track your headaches for at least a month.</strong> Ideally two or three. Note dates, duration, severity, symptoms, medications taken, and whether they worked. Our guide on <a href="/blog/how-to-track-migraine-triggers">how to track migraine triggers</a> walks through what to record.</p>
+
+      <p><strong>Count your headache days.</strong> Doctors classify migraine as episodic or chronic based on days per month, and this affects treatment options, including <a href="/blog/botox-for-chronic-migraine">Botox</a> and <a href="/blog/cgrp-migraine-treatments">CGRP treatments</a>.</p>
+
+      <p><strong>Count your medication days.</strong> This helps your doctor check for <a href="/blog/medication-overuse-headache">medication-overuse headache</a>.</p>
+
+      <p><strong>List everything you've tried.</strong> Include medications, doses, how long you took them, side effects, and why you stopped. Include supplements and devices.</p>
+
+      <p><strong>Note your triggers.</strong> Weather, sleep, hormones, food, stress. If you suspect weather, our <a href="/tools/weather-trigger-checker">Weather Trigger Checker</a> can check past attack dates against historical pressure data.</p>
+
+      <p><strong>Write down your symptoms in detail.</strong> Include aura, <a href="/blog/vestibular-migraine">dizziness</a>, <a href="/blog/migraine-brain-fog">brain fog</a>, and anything unusual.</p>
+
+      <p><strong>Gather your history.</strong> Family history of migraine, other medical conditions, current medications, and previous imaging or test results.</p>
+
+      <h2>Decide Your Top Three Questions</h2>
+
+      <p>You likely won't get through everything, so prioritize. Examples:</p>
+      <ul>
+        <li>"Should I be on a preventive treatment?"</li>
+        <li>"Is my current acute medication the best option for me?"</li>
+        <li>"Could my symptoms be something other than migraine?"</li>
+        <li>"What should I do when my usual treatment doesn't work?"</li>
+        <li>"Are there treatments that are safe if I'm planning pregnancy?"</li>
+      </ul>
+
+      <h2>During the Appointment</h2>
+      <ul>
+        <li><strong>Lead with impact.</strong> Explain how migraine affects your work, family, and life, not just the pain.</li>
+        <li><strong>Be specific.</strong> "Eight migraine days last month, three missed workdays" is more useful than "a lot."</li>
+        <li><strong>Bring someone</strong> if possible, to take notes and help remember.</li>
+        <li><strong>Ask for a written plan,</strong> including what to do for acute attacks and when to follow up.</li>
+        <li><strong>Don't downplay.</strong> Many people minimize their symptoms in the room.</li>
+      </ul>
+
+      <h2>After the Appointment</h2>
+      <ul>
+        <li>Write down what was decided before you forget</li>
+        <li>Fill prescriptions and set reminders</li>
+        <li>Keep tracking so you can judge whether new treatments work</li>
+        <li>Book a follow-up</li>
+      </ul>
+
+      <p>For more on specifically discussing weather triggers, see <a href="/blog/talking-to-your-doctor">how to talk to your doctor about weather-triggered migraines</a>. Need help finding a specialist? Try our <a href="/tools/find-a-specialist">Find a Specialist</a> tool.</p>
+
+      <h2>Bring a Report Instead of a Memory</h2>
+
+      <p>The most useful thing you can bring is a clear history. MigraineCast is built for this: log your attacks and symptoms as they happen, and the app tracks weather in the background. Before your appointment, go to the Insights tab and use Download Report to generate a summary of your migraine history and the weather conditions around each attack. It turns a vague conversation into a focused one.</p>
+
+      <blockquote>
+        <p>Make every minute of your appointment count. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What should I bring to a neurologist for migraines?</h3>
+      <p>Bring a headache diary, a list of medications you've tried with doses and results, current medications, known triggers, family history, and your top questions.</p>
+
+      <h3>How long should I track headaches before seeing a doctor?</h3>
+      <p>At least one month, ideally two to three, gives your doctor a clearer picture of frequency and patterns.</p>
+
+      <h3>What questions should I ask my neurologist about migraines?</h3>
+      <p>Ask whether you need preventive treatment, whether your acute medication is the best option, what to do when it doesn't work, and whether your symptoms could be anything other than migraine.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-at-work",
+    title: "Migraine at Work: How to Explain Invisible Symptoms Without Oversharing",
+    excerpt:
+      "You don't owe anyone your full medical history, but some explanation can make work a lot easier. Here's how to talk about migraine at work clearly, briefly, and on your terms.",
+    date: "October 4, 2026",
+    category: "Tips",
+    content: `
+      <p>Migraine is invisible. You may look fine while dealing with pain, nausea, brain fog, and light sensitivity. That makes work tricky. Say nothing, and coworkers may misread you. Say too much, and you may feel exposed. There's a middle ground.</p>
+
+      <h2>Decide What You Want to Achieve</h2>
+
+      <p>Before you say anything, think about your goal:</p>
+      <ul>
+        <li>Do you need flexibility to leave early or work from home on bad days?</li>
+        <li>Do you need changes to your workspace, like lighting?</li>
+        <li>Do you just want people to understand why you sometimes step away?</li>
+        <li>Do you need formal accommodations?</li>
+      </ul>
+
+      <p>Your goal shapes how much you share and with whom.</p>
+
+      <h2>Keep It Simple</h2>
+
+      <p>You don't need to explain the neuroscience. Here are some short, clear scripts:</p>
+
+      <p><strong>For coworkers:</strong> "I have migraines. Sometimes I need to dim my screen or step away for a bit. It's nothing to worry about."</p>
+
+      <p><strong>For a manager:</strong> "I have a neurological condition called migraine. Most days it's fine, but a few days a month I have attacks that affect my focus and light sensitivity. It would help if I could [specific request]. I'll always keep you posted."</p>
+
+      <p><strong>When leaving mid-day:</strong> "I'm having a migraine attack and need to log off. I'll pick this up tomorrow."</p>
+
+      <h2>Explain the Invisible Parts</h2>
+
+      <p>People often assume migraine is "just a bad headache." If you choose to share more, explain the symptoms that affect work:</p>
+      <ul>
+        <li>Sensitivity to light and screens. See <a href="/blog/blue-light-and-migraines">blue light and migraines</a></li>
+        <li>Difficulty thinking clearly. See <a href="/blog/migraine-brain-fog">migraine brain fog</a></li>
+        <li>Nausea and dizziness</li>
+        <li>Recovery time after attacks. See <a href="/blog/postdrome-migraine-hangover">the postdrome</a></li>
+      </ul>
+
+      <h2>What You Don't Have to Share</h2>
+
+      <p>You generally don't have to share your diagnosis details, medications, or how often you're affected with coworkers. If you request formal accommodations, your employer may need some documentation, but usually through HR or a doctor's note rather than direct details. Rules vary by country, so check local employment protections.</p>
+
+      <h2>Formal Accommodations</h2>
+
+      <p>In many countries, migraine can qualify for workplace protections when it significantly affects daily activities. Our guide to <a href="/blog/workplace-accommodations-migraine">practical workplace accommodations</a> covers specific requests that help.</p>
+
+      <h2>Give a Heads-Up When You Can</h2>
+
+      <p>One thing managers appreciate is predictability. If you know weather is a trigger for you, you can give advance notice on high-risk days: "Tomorrow looks like a rough weather day for me, so I'm going to front-load my important work today." MigraineCast makes that possible by forecasting pressure, temperature, and humidity up to 7 days ahead. Over time, the attacks you log help you show which days really are higher risk, and that turns "I might be sick" into a plan your manager can work with.</p>
+
+      <blockquote>
+        <p>Turn unpredictable sick days into planned lighter days. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Should I tell my employer I have migraines?</h3>
+      <p>It's your choice. Sharing can help you get flexibility or accommodations, but you can decide how much to share and with whom.</p>
+
+      <h3>How do I explain migraine to coworkers?</h3>
+      <p>Keep it brief: explain that you have a neurological condition that sometimes affects your focus and light sensitivity, and what you may need, like stepping away or dimming your screen.</p>
+
+      <h3>Is migraine a disability at work?</h3>
+      <p>In many places, migraine can qualify for workplace protections if it substantially affects daily life. Check the employment laws in your country or region.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "workplace-accommodations-migraine",
+    title: "Practical Workplace Accommodations That Can Make Migraine Days Easier",
+    excerpt:
+      "Small changes at work can make a big difference for people with migraine. Here are practical, low-cost accommodations to ask for, and how to make the request.",
+    date: "October 5, 2026",
+    category: "Tips",
+    content: `
+      <p>Migraine is one of the leading causes of lost productivity at work, yet many of the most helpful accommodations are simple and inexpensive. If you're struggling at work, these are worth considering.</p>
+
+      <h2>Lighting</h2>
+      <ul>
+        <li>Desk away from harsh overhead fluorescent lights or windows with glare</li>
+        <li>Permission to turn off or remove overhead lights near you</li>
+        <li>A desk lamp with warm, adjustable light</li>
+        <li>Anti-glare screen filters</li>
+        <li>Permission to wear tinted glasses or a cap indoors</li>
+      </ul>
+
+      <p>Our posts on <a href="/blog/bright-lights-migraine-trigger">bright lights</a> and <a href="/blog/blue-light-and-migraines">blue light</a> explain why lighting matters so much.</p>
+
+      <h2>Screens</h2>
+      <ul>
+        <li>A larger monitor so you can reduce zoom strain</li>
+        <li>Ability to use dark mode and lower brightness</li>
+        <li>Scheduled screen breaks. See <a href="/blog/screen-breaks-migraine">screen breaks for migraine</a></li>
+      </ul>
+
+      <h2>Noise and Smell</h2>
+      <ul>
+        <li>A quieter desk away from high-traffic areas</li>
+        <li>Permission to use noise-canceling headphones</li>
+        <li>A fragrance-free workplace policy or a desk away from strong scents. See <a href="/blog/strong-smells-migraine-trigger">strong smells as a trigger</a></li>
+      </ul>
+
+      <h2>Flexibility</h2>
+      <ul>
+        <li>Remote work on migraine days</li>
+        <li>Flexible start and end times</li>
+        <li>Ability to make up time later</li>
+        <li>Short breaks to take medication or rest</li>
+        <li>Advance notice for schedule changes when possible</li>
+      </ul>
+
+      <p>See our guide to <a href="/blog/working-from-home-migraine">working from home with migraine</a> if remote work is an option.</p>
+
+      <h2>A Place to Rest</h2>
+
+      <p>Access to a quiet, dark room for 20 to 30 minutes during an attack can mean the difference between going home and getting through the day.</p>
+
+      <h2>Food, Water, and Temperature</h2>
+      <ul>
+        <li>Permission to keep water and snacks at your desk</li>
+        <li>Control over your workspace temperature, or a desk away from vents. See <a href="/blog/air-conditioning-migraines">air conditioning and migraines</a></li>
+      </ul>
+
+      <h2>How to Ask</h2>
+      <ol>
+        <li><strong>Identify what would help most.</strong> Focus on two or three changes.</li>
+        <li><strong>Put it in writing.</strong> Send an email to your manager or HR explaining your condition briefly and your specific requests.</li>
+        <li><strong>Get medical support if needed.</strong> A note from your doctor can help with formal requests.</li>
+        <li><strong>Suggest a trial.</strong> "Could we try this for a month and see how it goes?" makes it easier to say yes.</li>
+        <li><strong>Follow up.</strong> Check in on whether it's working.</li>
+      </ol>
+
+      <p>For advice on what to say, see <a href="/blog/migraine-at-work">migraine at work: explaining invisible symptoms</a>. Laws on accommodations vary by country, so check your local protections.</p>
+
+      <h2>Back It Up With Data</h2>
+
+      <p>Requests are easier to approve when they're specific. "I'd like to work from home on high-risk days" works better if you can show which days those tend to be. MigraineCast helps on both fronts: the forecast shows pressure, temperature, and humidity changes up to a week ahead, and your logged attacks in the Insights tab show how your migraines line up with them. The Download Report can support a conversation with your doctor and, if you choose, documentation for HR.</p>
+
+      <blockquote>
+        <p>Make your accommodation request specific and data-backed. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What accommodations can I ask for with migraines?</h3>
+      <p>Common accommodations include adjusted lighting, screen filters, a quieter workspace, fragrance-free policies, flexible scheduling, remote work on bad days, and access to a quiet room.</p>
+
+      <h3>How do I ask for workplace accommodations for migraine?</h3>
+      <p>Identify your top needs, put the request in writing to your manager or HR, provide medical documentation if required, and suggest a trial period.</p>
+
+      <h3>Can my employer refuse accommodations?</h3>
+      <p>It depends on local law and whether the request is reasonable for the workplace. Check the employment protections in your country or region.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "working-from-home-migraine",
+    title: "Working From Home With Migraine: A Setup That Reduces Sensory Load",
+    excerpt:
+      "Working from home gives you more control over your environment than any office. Here's how to set up a workspace that keeps light, noise, and strain to a minimum.",
+    date: "October 6, 2026",
+    category: "Tips",
+    content: `
+      <p>One of the biggest advantages of working from home with migraine is control. You can choose your lighting, temperature, noise level, and schedule. But a laptop on the couch isn't automatically migraine-friendly. A thoughtful setup can make a real difference.</p>
+
+      <h2>Lighting</h2>
+      <ul>
+        <li><strong>Use natural light carefully.</strong> Position your desk so windows are to the side rather than behind your screen or behind you, which causes glare.</li>
+        <li><strong>Add blinds or sheer curtains</strong> to soften direct sun.</li>
+        <li><strong>Choose warm, indirect lighting</strong> instead of harsh overhead lights.</li>
+        <li><strong>Avoid flicker.</strong> Replace cheap LEDs or fluorescent tubes that flicker.</li>
+        <li><strong>Match screen brightness</strong> to the room so your screen isn't a bright box in a dark room or a dim one in a bright room.</li>
+      </ul>
+
+      <p>See our post on <a href="/blog/bright-lights-migraine-trigger">bright lights as a trigger</a>.</p>
+
+      <h2>Screens</h2>
+      <ul>
+        <li>Use a separate monitor at eye level about an arm's length away</li>
+        <li>Increase text size instead of leaning in</li>
+        <li>Use dark mode or warm color settings if you find them easier</li>
+        <li>Consider a matte, anti-glare screen</li>
+        <li>Take regular breaks. See <a href="/blog/screen-breaks-migraine">screen breaks for migraine</a></li>
+      </ul>
+
+      <h2>Posture and Neck</h2>
+
+      <p>Laptop hunching is a fast route to neck tension. Use a separate keyboard, keep your monitor at eye level, and choose a chair that supports your lower back. Our post on <a href="/blog/neck-tension-and-migraines">neck tension and migraines</a> explains the link.</p>
+
+      <h2>Sound</h2>
+      <ul>
+        <li>Work in the quietest room available</li>
+        <li>Use noise-canceling headphones or soft background noise</li>
+        <li>Lower notification volumes and turn off unnecessary alerts</li>
+        <li>Use headphones at moderate volume for calls</li>
+      </ul>
+
+      <h2>Air and Temperature</h2>
+      <ul>
+        <li>Keep the room comfortably cool and well ventilated</li>
+        <li>Use a humidifier in winter if air gets very dry. See <a href="/blog/indoor-heating-winter-migraines">indoor heating and migraines</a></li>
+        <li>Avoid scented candles and air fresheners near your desk</li>
+      </ul>
+
+      <h2>Keep Your Migraine Kit Within Reach</h2>
+      <ul>
+        <li>Water bottle and snacks</li>
+        <li>Acute medication</li>
+        <li>Ice pack in the freezer. See <a href="/blog/cold-therapy-migraine">cold therapy</a></li>
+        <li>Eye mask and earplugs</li>
+        <li>A dark room nearby to rest if needed</li>
+      </ul>
+
+      <h2>Structure Your Day</h2>
+
+      <p>Home working can blur boundaries, leading to irregular meals, skipped breaks, and late nights. Keep regular start and end times, eat on schedule, and step outside for daylight. Regularity helps a migraine brain.</p>
+
+      <h2>Plan Around the Weather</h2>
+
+      <p>Working from home also means you can shape your week around your forecast. If MigraineCast shows a pressure drop or heat spike coming midweek, you can schedule your most demanding calls and deadlines earlier, then plan a lighter, lower-screen day when risk is higher. The app shows pressure, temperature, and humidity up to 7 days ahead, and the attacks you log help you learn which kinds of days really need the lighter plan.</p>
+
+      <blockquote>
+        <p>Plan your workweek around your migraine forecast. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I set up a migraine-friendly home office?</h3>
+      <p>Use soft, indirect lighting, position your screen to avoid glare, keep the monitor at eye level, reduce noise, control temperature, and keep your migraine kit within reach.</p>
+
+      <h3>Is working from home better for migraines?</h3>
+      <p>Many people find it helps because they can control lighting, noise, and scheduling, and rest during attacks. It works best with good structure and ergonomics.</p>
+
+      <h3>What lighting is best for migraines?</h3>
+      <p>Warm, indirect, flicker-free light is generally easier for people with light sensitivity than harsh overhead or fluorescent lights.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "screen-breaks-migraine",
+    title: "Screen Breaks for Migraine: A Realistic Plan for People Who Work Online",
+    excerpt:
+      "You can't avoid screens if your job depends on them, but you can change how you use them. Here's a realistic screen-break plan that fits a real workday.",
+    date: "October 8, 2026",
+    category: "Tips",
+    content: `
+      <p>"Spend less time on screens" is common migraine advice, and for many people it's not realistic. If you work online, screens are your job. The goal isn't to avoid them. It's to use them in a way that's easier on a sensitive brain.</p>
+
+      <h2>Why Screens Can Contribute to Migraine</h2>
+      <ul>
+        <li><strong>Brightness and glare</strong> can be hard on light-sensitive eyes</li>
+        <li><strong>Flicker</strong> from some screens at low brightness</li>
+        <li><strong>Eye strain</strong> from focusing at one distance for hours</li>
+        <li><strong>Reduced blinking,</strong> which dries the eyes</li>
+        <li><strong>Posture</strong> that tenses the neck and shoulders</li>
+        <li><strong>Long stretches without breaks,</strong> food, or water</li>
+      </ul>
+
+      <p>Our post on <a href="/blog/blue-light-and-migraines">blue light and migraines</a> covers what the research says about screen light specifically.</p>
+
+      <h2>A Realistic Break Plan</h2>
+
+      <p><strong>Micro-breaks: every 20 minutes, 20 seconds.</strong> The 20-20-20 rule: every 20 minutes, look at something about 20 feet away for 20 seconds. It's easy to fit in during a page load or between emails. Blink deliberately a few times too.</p>
+
+      <p><strong>Short breaks: every hour, 3 to 5 minutes.</strong> Stand up, stretch your neck and shoulders, refill your water, look out a window.</p>
+
+      <p><strong>Longer breaks: every 2 to 3 hours, 10 to 15 minutes.</strong> Step away fully. Eat something, go outside if you can, and get daylight.</p>
+
+      <p><strong>Lunch away from the screen.</strong> Even 20 minutes screen-free helps.</p>
+
+      <h2>Making Breaks Actually Happen</h2>
+      <ul>
+        <li>Use a timer or break-reminder app</li>
+        <li>Tie breaks to natural transitions, like the end of a meeting</li>
+        <li>Schedule them in your calendar if needed</li>
+        <li>Stack habits: every time you send a big email, look away and stretch</li>
+        <li>Keep a water bottle at your desk so refills are a reason to get up</li>
+      </ul>
+
+      <h2>Adjust Your Screen</h2>
+      <ul>
+        <li>Match brightness to room lighting</li>
+        <li>Increase text size</li>
+        <li>Use dark mode if you find it easier</li>
+        <li>Position the screen slightly below eye level and an arm's length away</li>
+        <li>Reduce glare with an anti-glare filter</li>
+      </ul>
+
+      <p>For a full setup guide, see <a href="/blog/working-from-home-migraine">working from home with migraine</a>.</p>
+
+      <h2>On High-Risk Days, Break More</h2>
+
+      <p>Screens may be a bigger problem on days when your threshold is already lowered by poor sleep, hormones, or weather. Those are the days to break more often, lower brightness further, and schedule less screen-heavy work. Our post on <a href="/blog/hidden-migraine-triggers">hidden migraine triggers</a> explains how triggers stack.</p>
+
+      <p>MigraineCast helps you spot those days ahead of time. When the forecast shows a pressure drop or temperature swing coming, you can plan a gentler screen schedule before the day arrives. And logging attacks helps you learn whether your screen-heavy days and weather-change days are the ones that really add up.</p>
+
+      <blockquote>
+        <p>Know when to go easy on screens before the attack starts. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can screen time cause migraines?</h3>
+      <p>Long screen sessions can contribute to migraines through glare, eye strain, poor posture, and skipped breaks, especially in people already sensitive to light.</p>
+
+      <h3>What is the 20-20-20 rule?</h3>
+      <p>Every 20 minutes, look at something about 20 feet away for 20 seconds. It helps reduce eye strain from focusing on a screen.</p>
+
+      <h3>How often should I take screen breaks for migraine?</h3>
+      <p>A practical approach is a 20-second look-away every 20 minutes, a few minutes away every hour, and a longer break every 2 to 3 hours.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "driving-with-migraine-aura",
+    title: "Driving With Migraine Aura: When It's Unsafe to Push Through",
+    excerpt:
+      "Visual aura can create blind spots, flashing lights, and distorted vision, and that makes driving dangerous. Here's when to pull over, how to plan ahead, and what to do if aura hits on the road.",
+    date: "October 9, 2026",
+    category: "Tips",
+    content: `
+      <p>Migraine aura can strike without much warning. Shimmering zigzag lines, a blind spot in your vision, or flashing lights can take over part of your visual field within minutes. When that happens behind the wheel, it's not something to push through.</p>
+
+      <h2>Why Aura Makes Driving Unsafe</h2>
+      <ul>
+        <li><strong>Blind spots (scotomas)</strong> can hide cars, pedestrians, or signs</li>
+        <li><strong>Flashing or shimmering lights</strong> make it hard to focus</li>
+        <li><strong>Distorted vision</strong> affects judgment of speed and distance</li>
+        <li><strong>Numbness or weakness</strong> can affect control of the car</li>
+        <li><strong>Language and thinking problems</strong> can slow reactions. See <a href="/blog/migraine-aphasia">migraine aphasia</a></li>
+        <li><strong>Pain and nausea</strong> that follow can be distracting</li>
+      </ul>
+
+      <p>Our posts on <a href="/blog/scintillating-scotoma-explained">scintillating scotoma</a> and <a href="/blog/migraine-with-aura-symptoms">migraine with aura</a> explain what's happening.</p>
+
+      <h2>If Aura Starts While Driving</h2>
+      <ol>
+        <li><strong>Pull over as soon as it's safe.</strong> Signal, move to a safe spot, and turn on hazard lights.</li>
+        <li><strong>Turn off the engine.</strong></li>
+        <li><strong>Take your medication</strong> if your plan allows and you have it with you.</li>
+        <li><strong>Wait for the aura to pass completely.</strong> Most aura lasts 5 to 60 minutes.</li>
+        <li><strong>Assess before continuing.</strong> If pain, nausea, drowsiness, or fog follow, or if your medication causes drowsiness, don't drive. Call someone or arrange a ride.</li>
+      </ol>
+
+      <h2>When Not to Drive at All</h2>
+      <ul>
+        <li>During any aura</li>
+        <li>During a severe migraine attack</li>
+        <li>After taking medication that makes you drowsy or dizzy</li>
+        <li>During the postdrome if you feel foggy or slow. See <a href="/blog/postdrome-migraine-hangover">postdrome</a></li>
+        <li>If you've had <a href="/blog/hemiplegic-migraine">weakness</a> or other motor symptoms</li>
+      </ul>
+
+      <p>If your aura is new, different, or comes with sudden weakness or speech trouble, call emergency services. See our <a href="/blog/migraine-red-flags-urgent-care">red flags guide</a>.</p>
+
+      <h2>Plan Ahead</h2>
+      <ul>
+        <li>Keep medication, water, and sunglasses in the car</li>
+        <li>Avoid long drives on high-risk days if you can</li>
+        <li>Plan rest stops on long trips</li>
+        <li>Have a backup plan: rideshare, transit, or a friend</li>
+        <li>Wear polarized sunglasses to reduce glare, a common trigger on the road</li>
+        <li>Check your local rules. Some places have specific driving regulations related to neurological conditions</li>
+      </ul>
+
+      <p>For travel tips, see our <a href="/blog/travel-migraine-triggers">travel migraine triggers</a> guide.</p>
+
+      <h2>Use the Forecast to Plan Trips</h2>
+
+      <p>Long drives on days when your risk is higher are the ones most worth reconsidering. MigraineCast forecasts pressure, temperature, and humidity changes up to 7 days ahead, so you can see whether your road trip day lines up with a front moving through. If it does, you might shift the trip, share driving, or plan more stops. Logging aura episodes also helps you see how often they happen and whether they follow certain weather conditions.</p>
+
+      <blockquote>
+        <p>Check your migraine forecast before a long drive. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Is it safe to drive with a migraine aura?</h3>
+      <p>No. Aura can cause blind spots, flashing lights, distorted vision, and numbness that make driving dangerous. Pull over safely and wait until it passes.</p>
+
+      <h3>How long should I wait to drive after a migraine aura?</h3>
+      <p>Wait until the aura has completely resolved and you feel clear-headed. If pain, drowsiness, or fog follows, or your medication causes drowsiness, don't drive.</p>
+
+      <h3>What should I do if a migraine starts while driving?</h3>
+      <p>Pull over somewhere safe, turn off the engine, take your medication if appropriate, and wait. Call someone for a ride if you don't feel safe to continue.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "parenting-during-migraine",
+    title: "Parenting During a Migraine: A Low-Energy Survival Plan",
+    excerpt:
+      "Kids don't pause for migraines. Here's a practical plan to keep everyone safe, fed, and reasonably happy when you're running on empty, plus how to prepare before the next attack.",
+    date: "October 10, 2026",
+    category: "Tips",
+    content: `
+      <p>When you have a migraine, all you want is a dark, quiet room. When you have kids, that's rarely an option. Parenting during an attack is one of the hardest parts of living with migraine. A plan made in advance can make it a little easier.</p>
+
+      <h2>Before the Next Attack: Prepare</h2>
+
+      <p><strong>Build a migraine-day kit for the kids.</strong> A special box of quiet activities that only comes out on migraine days: coloring books, stickers, puzzles, audiobooks, a favorite movie. The novelty buys you time.</p>
+
+      <p><strong>Stock easy food.</strong> Keep no-cook meals and snacks ready: yogurt, fruit, crackers, cheese, sandwiches, frozen meals. Our post on the <a href="/blog/best-foods-during-migraine">best foods during a migraine</a> has ideas for you too.</p>
+
+      <p><strong>Set up a rest spot near the kids.</strong> A couch or bed where you can lie down with the lights low while still supervising.</p>
+
+      <p><strong>Have a backup list.</strong> Partner, family, friends, neighbors, or a sitter who can step in. Agree in advance on how to ask.</p>
+
+      <p><strong>Keep medication accessible but safe.</strong> Store it where you can get to it quickly but kids can't.</p>
+
+      <h2>Explain Migraine to Your Kids</h2>
+
+      <p>Age-appropriate honesty helps:</p>
+      <ul>
+        <li><strong>Young kids:</strong> "My head hurts a lot today. I need it quiet and dark, but I'm okay and I still love you."</li>
+        <li><strong>Older kids:</strong> Explain that migraine is a medical condition, what helps, and how they can help, like keeping noise down or grabbing an ice pack.</li>
+      </ul>
+
+      <p>Kids often feel proud to help. Just don't make them responsible for your care.</p>
+
+      <h2>During an Attack: Lower the Bar</h2>
+      <ul>
+        <li><strong>Safety, food, rest.</strong> If everyone is safe, fed, and resting, it's a successful day.</li>
+        <li><strong>Screens are okay.</strong> Extra screen time on a migraine day is a reasonable trade.</li>
+        <li><strong>Quiet games:</strong> "doctor" where they put a cool cloth on your head, reading to you, or "who can be quietest."</li>
+        <li><strong>Lean on routines:</strong> bath, story, bed, even if simplified.</li>
+        <li><strong>Treat early,</strong> so the attack is shorter. See <a href="/blog/migraine-medication-timing">why medication timing matters</a>.</li>
+        <li><strong>Call your backup</strong> sooner rather than later.</li>
+      </ul>
+
+      <h2>Babies and Toddlers</h2>
+
+      <p>Very young children need constant supervision, so a backup person is especially important. If you're alone, create a safe, enclosed play space where they can be while you rest nearby. If you're breastfeeding, our post on <a href="/blog/breastfeeding-and-migraines">breastfeeding and migraines</a> covers treatment considerations.</p>
+
+      <h2>Let Go of Guilt</h2>
+
+      <p>Many parents with migraine feel guilty about missed activities or extra screen time. Remember: you're managing a real medical condition, and your kids are learning empathy and flexibility. If migraines are frequent, talk to your doctor about prevention.</p>
+
+      <h2>Plan Your Week With the Forecast</h2>
+
+      <p>The hardest attacks are the ones you didn't see coming. If weather is one of your triggers, MigraineCast forecasts pressure, temperature, and humidity changes up to a week ahead. When a high-risk day is coming, you can line up your backup, prep easy meals, restock the kids' kit, and avoid scheduling big outings. A little warning turns a crisis into a plan. Our <a href="/blog/bad-weather-day-migraine-routine">bad weather day routine guide</a> can help you build one.</p>
+
+      <blockquote>
+        <p>Line up your backup before the bad day arrives. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I take care of my kids when I have a migraine?</h3>
+      <p>Prepare in advance with easy food, a quiet activity kit, and a backup person. During an attack, focus on safety, food, and rest, and lower expectations for the day.</p>
+
+      <h3>How do I explain migraines to my child?</h3>
+      <p>Use simple, honest language suited to their age, like explaining your head hurts and you need it quiet and dark, and reassure them you're okay.</p>
+
+      <h3>Is it okay to let kids have extra screen time during a migraine?</h3>
+      <p>Yes. On a migraine day, extra screen time is a reasonable way to keep kids safe and occupied while you rest.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "migraine-and-anxiety",
+    title: "Migraine and Anxiety: Why Each Can Make the Other Feel Worse",
+    excerpt:
+      "Anxiety is common in people with migraine, and the relationship goes both ways. Here's why they're linked, how the cycle works, and what helps break it.",
+    date: "October 11, 2026",
+    category: "Science",
+    content: `
+      <p>If you have migraine and anxiety, you're not alone. Anxiety disorders are significantly more common in people with migraine than in the general population. And the two conditions tend to amplify each other.</p>
+
+      <h2>Why They're Connected</h2>
+
+      <p><strong>Shared brain pathways.</strong> Migraine and anxiety both involve serotonin and other neurotransmitters, as well as brain areas that process threat and pain.</p>
+
+      <p><strong>Shared genetics.</strong> Research suggests some genetic overlap between migraine and anxiety disorders.</p>
+
+      <p><strong>A sensitive nervous system.</strong> People with migraine tend to have nervous systems that respond strongly to sensory input. That same heightened responsiveness may play a role in anxiety.</p>
+
+      <h2>How Each Feeds the Other</h2>
+
+      <p><strong>Anxiety can trigger migraines.</strong> Stress and anxiety are among the most commonly reported triggers. And the "letdown" after stress can trigger attacks too. See <a href="/blog/stress-causes-migraines">how stress causes migraines</a> and <a href="/blog/why-migraines-hit-when-you-relax">why migraines hit when you relax</a>.</p>
+
+      <p><strong>Migraine can cause anxiety.</strong> Unpredictable attacks create worry about the next one, sometimes called anticipatory anxiety or "cephalalgiaphobia." People may avoid plans, travel, or work events in case an attack hits.</p>
+
+      <p><strong>Migraine can feel like anxiety.</strong> Prodrome symptoms like irritability, restlessness, and a sense of unease can overlap with anxiety. Dizziness and racing heart can too. See our posts on <a href="/blog/migraine-prodrome-signs">prodrome signs</a> and <a href="/blog/pots-and-migraine">POTS and migraine</a>.</p>
+
+      <p><strong>Poor sleep links them.</strong> Both conditions disrupt sleep, and poor sleep worsens both. See the <a href="/blog/migraine-histamine-sleep-triangle">migraine-histamine-sleep triangle</a>.</p>
+
+      <h2>What Helps</h2>
+      <ul>
+        <li><strong>Treat both.</strong> Addressing anxiety can reduce migraine frequency, and better migraine control can reduce anxiety.</li>
+        <li><strong>Cognitive behavioral therapy (CBT)</strong> has evidence for both migraine and anxiety.</li>
+        <li><strong>Relaxation techniques</strong> like diaphragmatic breathing, progressive muscle relaxation, and biofeedback.</li>
+        <li><strong>Regular exercise,</strong> introduced gradually. See <a href="/blog/exercise-headaches">exercise and headaches</a>.</li>
+        <li><strong>Medications</strong> that can address both, chosen by your doctor.</li>
+        <li><strong>Consistent sleep, meals, and hydration.</strong></li>
+      </ul>
+
+      <p>Some anxiety medications can interact with migraine medications, so make sure all your doctors know your full medication list.</p>
+
+      <h2>Reducing the Fear of the Unknown</h2>
+
+      <p>A big source of migraine-related anxiety is unpredictability: never knowing when the next attack will hit. Getting some of that predictability back can help. If weather is one of your triggers, MigraineCast forecasts pressure, temperature, and humidity changes up to 7 days ahead, so high-risk days stop being surprises. Calm-forecast days can feel less fraught, and on high-risk days you have a plan. Logging your attacks also shows you real patterns instead of worst-case guesses.</p>
+
+      <blockquote>
+        <p>Swap worry about the unknown for a forecast you can plan around. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>When to Seek Help</h2>
+
+      <p>Talk to your doctor if anxiety is affecting your daily life, sleep, or relationships, or if you're avoiding activities out of fear of attacks. If you ever have thoughts of harming yourself, contact a crisis line or emergency services right away.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can anxiety cause migraines?</h3>
+      <p>Anxiety and stress are among the most commonly reported migraine triggers, and anxiety may also make migraines more frequent over time.</p>
+
+      <h3>Why do migraines make me anxious?</h3>
+      <p>The unpredictability of attacks can cause anticipatory anxiety, and some migraine symptoms, like restlessness, dizziness, or a racing heart, can feel similar to anxiety.</p>
+
+      <h3>What treatment helps both migraine and anxiety?</h3>
+      <p>CBT, relaxation techniques, regular exercise, consistent sleep, and certain medications chosen by your doctor can help both conditions.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "pots-and-migraine",
+    title: "POTS and Migraine: Why Dizziness, Heart Rate, and Head Pain Often Overlap",
+    excerpt:
+      "Postural orthostatic tachycardia syndrome (POTS) and migraine are frequently found together. Here's how they're connected, how symptoms overlap, and what may help both.",
+    date: "October 13, 2026",
+    category: "Science",
+    content: `
+      <p>Stand up, your heart races, the room tilts, and your head starts to pound. For people with both POTS and migraine, that sequence can be familiar. The two conditions frequently occur together, and understanding the overlap can help with managing both.</p>
+
+      <h2>What POTS Is</h2>
+
+      <p>Postural orthostatic tachycardia syndrome (POTS) is a condition of the autonomic nervous system, which controls automatic functions like heart rate and blood pressure. In POTS, standing up causes an excessive rise in heart rate, typically at least 30 beats per minute in adults, along with symptoms like dizziness, lightheadedness, fatigue, brain fog, and palpitations.</p>
+
+      <h2>How Common Is the Overlap?</h2>
+
+      <p>Headaches are among the most common symptoms in POTS, and many people with POTS also meet criteria for migraine. Both conditions are more common in women and often begin in adolescence or young adulthood.</p>
+
+      <h2>Why They're Connected</h2>
+      <ul>
+        <li><strong>Autonomic dysfunction.</strong> Migraine also affects the autonomic nervous system, which explains symptoms like <a href="/blog/migraine-chills-sweats">chills and sweating</a> during attacks.</li>
+        <li><strong>Blood flow changes.</strong> In POTS, blood pools in the lower body when standing, reducing blood flow to the brain, which can cause headache.</li>
+        <li><strong>Shared triggers:</strong> dehydration, heat, poor sleep, and hormonal changes affect both.</li>
+        <li><strong>Associated conditions:</strong> both are linked with hypermobility disorders and <a href="/blog/mast-cells-and-migraine">mast cell activation</a>.</li>
+        <li><strong>Post-viral onset:</strong> POTS can develop after viral infections, including COVID-19. See <a href="/blog/long-covid-headaches-vs-migraine">long COVID headaches vs. migraine</a>.</li>
+      </ul>
+
+      <h2>Overlapping Symptoms</h2>
+      <ul>
+        <li>Dizziness and lightheadedness</li>
+        <li>Brain fog. See <a href="/blog/migraine-brain-fog">migraine brain fog</a></li>
+        <li>Fatigue</li>
+        <li>Nausea</li>
+        <li>Light sensitivity</li>
+        <li>Headache, sometimes worse when upright</li>
+      </ul>
+
+      <p>Dizziness can also come from <a href="/blog/vestibular-migraine">vestibular migraine</a>, which is different from POTS. A doctor can help distinguish them.</p>
+
+      <h2>Diagnosis</h2>
+
+      <p>POTS is usually diagnosed with a tilt-table test or a stand test, where heart rate and blood pressure are measured lying down and then standing. A cardiologist or autonomic specialist often handles diagnosis and treatment.</p>
+
+      <h2>Strategies That May Help Both</h2>
+      <ul>
+        <li><strong>Hydration,</strong> often more than usual. See <a href="/blog/dehydration-and-daily-migraines">dehydration and migraines</a></li>
+        <li><strong>Increased salt intake,</strong> but only if your doctor recommends it, since it isn't right for everyone</li>
+        <li><strong>Compression garments</strong> to reduce blood pooling</li>
+        <li><strong>Gradual, recumbent exercise</strong> like rowing or recumbent cycling</li>
+        <li><strong>Avoiding heat</strong> and standing for long periods</li>
+        <li><strong>Regular sleep and meals</strong></li>
+        <li><strong>Careful medication choices.</strong> Some migraine medications affect heart rate or blood pressure, so coordination between doctors matters</li>
+      </ul>
+
+      <h2>Heat Is a Shared Enemy</h2>
+
+      <p>Heat widens blood vessels and worsens blood pooling, making POTS symptoms worse, and it's also a common migraine trigger. See <a href="/blog/heat-headaches">heat headaches</a>. MigraineCast forecasts temperature, humidity, and pressure up to 7 days ahead, which helps you plan extra fluids, compression, and lighter activity for hot days before they arrive. Logging your attacks also helps you see whether heat waves or pressure swings line up with your worst stretches.</p>
+
+      <blockquote>
+        <p>See the hot, humid days coming and plan your fluids and rest. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can POTS cause migraines?</h3>
+      <p>Headaches are very common in POTS, and many people with POTS also have migraine. The conditions share autonomic dysfunction and several triggers.</p>
+
+      <h3>How do I know if my dizziness is POTS or migraine?</h3>
+      <p>POTS dizziness is linked to standing up and comes with a large heart rate increase. Vestibular migraine dizziness is episodic and can happen in any position. A doctor can test for both.</p>
+
+      <h3>What helps POTS headaches?</h3>
+      <p>Hydration, compression garments, avoiding heat and prolonged standing, gradual exercise, and treatments chosen by your doctor can help.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "tmj-and-migraine",
+    title: "TMJ Disorders and Migraine: Where Jaw Problems End and Migraine Begins",
+    excerpt:
+      "TMJ disorders and migraine share nerves, muscles, and symptoms, and many people have both. Here's how to tell them apart and how treating one can help the other.",
+    date: "October 14, 2026",
+    category: "Science",
+    content: `
+      <p>Jaw pain, temple pain, headaches, and ear discomfort. These symptoms can come from temporomandibular disorders (TMD, often called TMJ), migraine, or both. The overlap is real, and understanding it can lead to better treatment.</p>
+
+      <h2>What TMJ Disorders Are</h2>
+
+      <p>The temporomandibular joint connects your lower jaw to your skull, just in front of your ear. TMJ disorders are a group of conditions affecting the joint and the chewing muscles. Symptoms include:</p>
+      <ul>
+        <li>Jaw pain or tenderness</li>
+        <li>Pain in the temples, face, or around the ear</li>
+        <li>Clicking, popping, or grating when you open your mouth</li>
+        <li>Difficulty opening the mouth fully or jaw locking</li>
+        <li>Pain when chewing</li>
+        <li>Headaches</li>
+      </ul>
+
+      <h2>Why TMJ and Migraine Overlap</h2>
+
+      <p><strong>Shared nerve.</strong> The jaw and chewing muscles are supplied by the trigeminal nerve, which is also the main pain pathway in migraine. See our <a href="/blog/trigeminal-nerve-and-migraine">trigeminal nerve guide</a>.</p>
+
+      <p><strong>Central sensitization.</strong> Both conditions can involve a sensitized nervous system, where pain signals are amplified. Chronic jaw pain may feed into migraine and vice versa.</p>
+
+      <p><strong>Muscle tension.</strong> Clenching and grinding tense the temporalis muscles at the sides of the head, a common migraine pain location. See <a href="/blog/migraine-jaw-pain">migraine and jaw pain</a>.</p>
+
+      <p><strong>Shared risk factors:</strong> stress, poor sleep, anxiety, and hormonal factors affect both. Both are more common in women.</p>
+
+      <p>Research has found that people with TMD are more likely to have migraine, and that having both may be associated with more frequent headaches.</p>
+
+      <h2>Telling Them Apart</h2>
+
+      <p><strong>More likely TMJ:</strong></p>
+      <ul>
+        <li>Pain worse with chewing, talking, or yawning</li>
+        <li>Jaw clicking, popping, or locking</li>
+        <li>Tenderness when pressing on the jaw muscles</li>
+        <li>Pain that's dull and constant rather than in episodes</li>
+      </ul>
+
+      <p><strong>More likely migraine:</strong></p>
+      <ul>
+        <li>Throbbing pain that comes in episodes</li>
+        <li>Light and sound sensitivity, nausea</li>
+        <li>Pain worse with physical activity</li>
+        <li>Aura or other neurological symptoms</li>
+        <li>Clear triggers like hormones, sleep, or weather</li>
+      </ul>
+
+      <p>Many people have features of both.</p>
+
+      <h2>Treatment Can Help Both</h2>
+      <ul>
+        <li><strong>Jaw care:</strong> soft foods during flares, avoiding gum, and resting the jaw</li>
+        <li><strong>Night guards</strong> from a dentist if you grind</li>
+        <li><strong>Physical therapy</strong> for jaw and neck muscles. See <a href="/blog/neck-tension-and-migraines">neck tension and migraines</a></li>
+        <li><strong>Stress management</strong> and sleep improvement</li>
+        <li><strong>Heat or cold</strong> on tight muscles. See <a href="/blog/cold-therapy-migraine">cold therapy</a></li>
+        <li><strong>Migraine treatment,</strong> which may reduce pain sensitivity overall</li>
+      </ul>
+
+      <p>Coordination between a dentist or orofacial pain specialist and your doctor can help.</p>
+
+      <h2>Separating Your Triggers</h2>
+
+      <p>When you have both, it can be hard to know what's driving each bad day. Tracking makes that clearer. Logging your migraine attacks in MigraineCast, along with jaw symptoms, helps you see whether jaw flares come before migraines, alongside them, or independently. And because the app tracks weather automatically, you can rule pressure and temperature changes in or out as the main driver.</p>
+
+      <blockquote>
+        <p>Figure out what's really behind your bad days. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can TMJ cause migraines?</h3>
+      <p>TMJ disorders don't directly cause migraine, but they share nerves and risk factors, and jaw pain and muscle tension may contribute to more frequent headaches in people with migraine.</p>
+
+      <h3>How do I know if my headache is from TMJ?</h3>
+      <p>TMJ-related pain is often worse with chewing or jaw movement and comes with clicking or tenderness. Migraine tends to be throbbing, episodic, and comes with light sensitivity or nausea.</p>
+
+      <h3>Does treating TMJ help migraines?</h3>
+      <p>For some people, treating TMJ with night guards, physical therapy, and stress management reduces headache frequency, especially when both conditions are present.</p>
+
+      <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
+    `,
+  },
+  {
+    slug: "long-covid-headaches-vs-migraine",
+    title: "Long COVID Headaches vs. Migraine: What Overlaps and What to Discuss With a Doctor",
+    excerpt:
+      "Persistent headaches are one of the most common long COVID symptoms, and many of them look a lot like migraine. Here's what's known about the overlap and what to bring up with your doctor.",
+    date: "October 15, 2026",
+    category: "Science",
+    content: `
+      <p>Headache is one of the most frequently reported symptoms during and after COVID-19. For some people, headaches continue long after the infection clears. Others with a history of migraine notice their attacks become more frequent or different after COVID. Understanding the overlap can help you get the right care.</p>
+
+      <h2>What Long COVID Headaches Look Like</h2>
+
+      <p>Post-COVID headaches vary widely, but research and clinical reports describe:</p>
+      <ul>
+        <li>Daily or near-daily headaches that started during or soon after infection</li>
+        <li>Pressure-like or throbbing pain, often on both sides of the head</li>
+        <li>Pain that may be worse with physical activity</li>
+        <li>Light and sound sensitivity in many cases</li>
+        <li>Association with other long COVID symptoms like fatigue, brain fog, and sleep problems</li>
+      </ul>
+
+      <p>Many post-COVID headaches have migraine-like features. In headache classification, a headache that starts with an infection and persists may be categorized differently from primary migraine, but treatment often overlaps.</p>
+
+      <h2>Why COVID Might Affect Headaches</h2>
+      <ul>
+        <li><strong>Inflammation:</strong> lingering immune activation may sensitize pain pathways</li>
+        <li><strong>Trigeminal involvement:</strong> the virus may affect nerves in the nose, which connect to the trigeminal system. See our <a href="/blog/trigeminal-nerve-and-migraine">trigeminal nerve guide</a></li>
+        <li><strong>Autonomic dysfunction:</strong> some people develop <a href="/blog/pots-and-migraine">POTS</a> after COVID, which often comes with headaches</li>
+        <li><strong>Sleep disruption and stress,</strong> which lower migraine threshold</li>
+        <li><strong>Medication overuse:</strong> frequent pain reliever use during a long illness can lead to <a href="/blog/medication-overuse-headache">rebound headaches</a></li>
+      </ul>
+
+      <h2>Overlap With Migraine</h2>
+      <ul>
+        <li>Throbbing pain, light and sound sensitivity, nausea</li>
+        <li><a href="/blog/migraine-brain-fog">Brain fog</a> and fatigue</li>
+        <li>Dizziness</li>
+        <li>Worsening with activity</li>
+      </ul>
+
+      <p>People with a prior migraine history may be more likely to have persistent headaches after COVID.</p>
+
+      <h2>What to Discuss With Your Doctor</h2>
+      <ul>
+        <li>When the headaches started relative to infection</li>
+        <li>Whether you had headaches or migraine before COVID, and how they've changed</li>
+        <li>How many headache days you have per month</li>
+        <li>How many days you take pain relievers</li>
+        <li>Other symptoms like fatigue, dizziness, racing heart, sleep problems, or brain fog</li>
+        <li>What you've tried and what's helped</li>
+      </ul>
+
+      <p>Our guide on <a href="/blog/prepare-for-neurology-appointment">preparing for a neurology appointment</a> can help you organize this.</p>
+
+      <h2>Red Flags</h2>
+
+      <p>Seek prompt care for headaches with sudden severe onset, neurological symptoms like weakness or vision loss, confusion, fever with stiff neck, or a significant change from your usual pattern. See our <a href="/blog/migraine-red-flags-urgent-care">migraine red flags guide</a>.</p>
+
+      <h2>Treatment</h2>
+
+      <p>Treatment is often similar to migraine and may include preventive medications, acute treatments, lifestyle measures, and addressing related issues like sleep and medication overuse. For those with broader long COVID symptoms, a multidisciplinary approach may help.</p>
+
+      <h2>Track the Pattern</h2>
+
+      <p>Post-COVID headaches can be confusing because they don't always follow the pattern you're used to. A clear record helps your doctor understand what's changed. Logging your headaches in MigraineCast gives you a timeline of frequency, symptoms, and treatment, and the Download Report in Insights turns it into a summary you can bring to your appointment. Because the app tracks weather too, you can see whether old triggers like pressure changes still matter or whether your headaches now follow a different pattern.</p>
+
+      <blockquote>
+        <p>Give your doctor a clear before-and-after picture. <a href="https://apps.apple.com/us/app/migraine-cast/id6754256278?ppid=49039837-f866-4209-b1b3-4ee7ac306f82">Download MigraineCast free on iOS</a>.</p>
+      </blockquote>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Can long COVID cause migraines?</h3>
+      <p>Persistent headaches are a common long COVID symptom, and many have migraine-like features. People with prior migraine may notice their attacks become more frequent or change after COVID.</p>
+
+      <h3>How long do post-COVID headaches last?</h3>
+      <p>For many people they improve over weeks to months, but some have persistent headaches for longer. A doctor can help with treatment.</p>
+
+      <h3>How are long COVID headaches treated?</h3>
+      <p>Treatment often resembles migraine treatment, including preventive and acute medications, lifestyle measures, and addressing sleep, medication overuse, and other long COVID symptoms.</p>
 
       <p><em>This article is for informational and educational purposes only and is not medical advice. For diagnosis and treatment of migraine, consult a doctor or headache specialist.</em></p>
     `,
