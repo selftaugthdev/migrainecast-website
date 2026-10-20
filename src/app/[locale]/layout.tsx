@@ -49,6 +49,9 @@ export async function generateMetadata({
     title: t("metadataTitle"),
     description: t("metadataDescription"),
     alternates: buildAlternates("/", locale),
+    other: {
+      "p:domain_verify": "1439b662c00f008684d4bff95ea6b719",
+    },
     openGraph: {
       title: t("metadataTitle"),
       description: t("metadataDescription"),
