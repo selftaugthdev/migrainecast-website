@@ -1,5 +1,5 @@
 import { getAllPosts } from "@/lib/blog";
-import { LOCALES, localizedUrl } from "@/lib/seo";
+import { localesForPath, localizedUrl } from "@/lib/seo";
 import { MetadataRoute } from "next";
 
 function allLocaleUrls(
@@ -8,14 +8,14 @@ function allLocaleUrls(
   priority: number,
   lastModified?: Date
 ): MetadataRoute.Sitemap {
-  return LOCALES.map((locale) => ({
+  return localesForPath(path).map((locale) => ({
     url: localizedUrl(path, locale),
     lastModified,
     changeFrequency,
     priority,
     alternates: {
       languages: Object.fromEntries(
-        LOCALES.map((l) => [l, localizedUrl(path, l)])
+        localesForPath(path).map((l) => [l, localizedUrl(path, l)])
       ),
     },
   }));
@@ -34,6 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/blog", changeFrequency: "daily", priority: 0.9 },
     { path: "/weather-course", changeFrequency: "monthly", priority: 0.7 },
     { path: "/agents", changeFrequency: "monthly", priority: 0.6 },
+    { path: "/tools", changeFrequency: "monthly", priority: 0.8 },
     { path: "/tools/weather-trigger-checker", changeFrequency: "monthly", priority: 0.8 },
     { path: "/tools/pressure-threshold-estimator", changeFrequency: "monthly", priority: 0.8 },
     { path: "/tools/trigger-pattern-analyzer", changeFrequency: "monthly", priority: 0.8 },
